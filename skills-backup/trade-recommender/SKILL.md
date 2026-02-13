@@ -174,6 +174,13 @@ KEY RISKS:
 
 ---
 
+## Additional Resources
+
+**Advanced Trading Strategies:**
+- `BREGMAN_ARBITRAGE.md` — Prediction market arbitrage using Frank-Wolfe optimization
+- `OPTIONS_RESEARCH.md` — Options analysis framework for systematic trade selection
+- `DEEP_RESEARCH.md` — Evidence-based decision making framework
+
 ## Skills Needed
 
 - Technical analysis
@@ -181,6 +188,9 @@ KEY RISKS:
 - Risk calculation
 - Market regime identification
 - Performance tracking
+- Options Greeks analysis
+- Arbitrage detection
+- Evidence-based research methodology
 
 ---
 

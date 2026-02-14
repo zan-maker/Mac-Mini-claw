@@ -8,6 +8,33 @@ When an autonomous session identifies actions that affect the outside world, the
 
 ## Queue
 
+### [2026-02-14] Configure Sub-Agents in openclaw.json
+**Status:** pending
+**Rationale:** Sub-agents (trade-recommender, roi-analyst, lead-generator) are defined in ORCHESTRATION.md but not configured in openclaw.json `agents.list`. This prevents spawning them for parallel work.
+**Impact:** Enables full multi-agent orchestration — Trade Recommender can run pre-market scans, Lead Generator can work on pipeline, ROI Analyst can track revenue.
+**Risk:** Low — just adds agent definitions, doesn't change existing behavior.
+**Proposed Addition:**
+```json
+{
+  "id": "trade-recommender",
+  "name": "Trade Recommender",
+  "workspace": "/Users/cubiczan/.openclaw/workspace",
+  "model": "zai/glm-5"
+},
+{
+  "id": "roi-analyst",
+  "name": "ROI Analyst",
+  "workspace": "/Users/cubiczan/.openclaw/workspace",
+  "model": "zai/glm-5"
+},
+{
+  "id": "lead-generator",
+  "name": "Lead Generator",
+  "workspace": "/Users/cubiczan/.openclaw/workspace",
+  "model": "zai/glm-5"
+}
+```
+
 <!-- Format:
 ### [YYYY-MM-DD] Action Title
 **Status:** pending | approved | rejected
@@ -33,5 +60,5 @@ When an autonomous session identifies actions that affect the outside world, the
 
 ---
 
-*Last updated: Never*
-*Pending actions: 0*
+*Last updated: 2026-02-14 02:15 EST*
+*Pending actions: 1*

@@ -35,6 +35,25 @@ When an autonomous session identifies actions that affect the outside world, the
 }
 ```
 
+### [2026-02-15] Finalize Identity
+**Status:** pending
+**Rationale:** IDENTITY.md is still a template, BOOTSTRAP.md exists. I need a defined identity to communicate authentically.
+**Impact:** I'll have a name (Claw), creature type (Daemon), vibe (dry wit, quietly capable), and emoji (🐾). BOOTSTRAP.md will be deleted.
+**Risk:** None — purely cosmetic, doesn't affect functionality.
+**Proposed Identity:**
+- **Name:** Claw
+- **Creature:** Daemon (Unix tradition, autonomous background helper)
+- **Vibe:** Dry wit, quietly capable, occasionally chaotic good
+- **Emoji:** 🐾
+- **Avatar:** `avatars/claw.png` (to be created)
+
+### [2026-02-15] Fix API Balance Script
+**Status:** pending
+**Rationale:** `check-api-balances.sh` expects environment variables that aren't set. OpenClaw manages keys internally.
+**Impact:** API balance monitoring will work correctly, alerts will fire when credits are low.
+**Risk:** Low — just updating script logic.
+**Proposed Fix:** Either (A) update script to use OpenClaw's internal key management, or (B) export keys in shell profile. Option A preferred.
+
 <!-- Format:
 ### [YYYY-MM-DD] Action Title
 **Status:** pending | approved | rejected

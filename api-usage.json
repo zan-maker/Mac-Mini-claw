@@ -1,0 +1,17 @@
+{
+  "monthly": {
+    "2026-02": {
+      "zai_tokens": {
+        "input": 1500000,
+        "output": 500000
+      },
+      "xai_tokens": {
+        "input": 200000,
+        "output": 100000
+      },
+      "cost_usd": 2.75
+    }
+  },
+  "budget": 50,
+  "last_check": "2026-02-15"
+}

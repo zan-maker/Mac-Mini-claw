@@ -1,0 +1,71 @@
+{
+  "name": "Lead Capture Workflow",
+  "nodes": [
+    {
+      "name": "Formbricks Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "position": [250, 300],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "formbricks-lead",
+        "responseMode": "onReceived"
+      }
+    },
+    {
+      "name": "Process Lead",
+      "type": "n8n-nodes-base.code",
+      "position": [450, 300],
+      "parameters": {
+        "jsCode": "// Calculate savings estimate\nconst employeeCount = $input.json.employee_count || 0;\nconst baseSavings = 681; // Per employee\nconst totalSavings = employeeCount * baseSavings;\n\n// Calculate qualification score\nlet score = 0;\nif (employeeCount >= 100) score += 30;\nelse if (employeeCount >= 50) score += 20;\nelse if (employeeCount >= 20) score += 10;\n\nif ($input.json.challenge && $input.json.challenge.length > 20) score += 20;\n\nreturn {\n  ...$input.json,\n  estimated_savings: totalSavings,\n  qualification_score: score,\n  status: score >= 50 ? 'qualified' : 'nurture'\n};"
+      }
+    },
+    {
+      "name": "Save to Supabase",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [650, 300],
+      "parameters": {
+        "method": "POST",
+        "url": "https://utsqbuwkwsidvqvrodtf.supabase.co/rest/v1/leads",
+        "headers": {
+          "apikey": "sb_publishable_H7oSoGx02K5ic0MlodC_ng_8DApe4FN",
+          "Authorization": "Bearer sb_publishable_H7oSoGx02K5ic0MlodC_ng_8DApe4FN",
+          "Content-Type": "application/json",
+          "Prefer": "return=representation"
+        }
+      }
+    },
+    {
+      "name": "Send AgentMail",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [850, 200],
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.agentmail.to/v0/inboxes/Zander@agentmail.to/messages",
+        "headers": {
+          "Authorization": "Bearer am_77026a53e8d003ce63a3187d06d61e897ee389b9ec479d50bdaeefeda868b32f",
+          "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "name": "Discord Notification",
+      "type": "n8n-nodes-base.discord",
+      "position": [850, 400],
+      "parameters": {
+        "webhookUrl": "DISCORD_WEBHOOK_URL",
+        "content": "🎯 New Lead: {{$json.company_name}} ({{$json.employee_count}} employees) - Est. Savings: ${{$json.estimated_savings}}"
+      }
+    }
+  ],
+  "connections": {
+    "Formbricks Webhook": {
+      "main": [[{"node": "Process Lead", "type": "main", "index": 0}]]
+    },
+    "Process Lead": {
+      "main": [[{"node": "Save to Supabase", "type": "main", "index": 0}]]
+    },
+    "Save to Supabase": {
+      "main": [[{"node": "Send AgentMail", "type": "main", "index": 0}, {"node": "Discord Notification", "type": "main", "index": 0}]]
+    }
+  }
+}

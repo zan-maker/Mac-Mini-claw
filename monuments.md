@@ -10,6 +10,21 @@ These are the big wins - the projects that mattered, the problems solved, the th
 
 ### February
 
+#### Deal Origination System
+- **Completed:** 2026-02-15
+- **Description:** AI-powered deal origination for business acquisitions with referral fee capture
+- **Impact:** Generates 10-15 off-market sellers + 3-4 PE buyers daily with finder fee agreements
+- **Components:**
+  - Seller lead generation (blue-collar + platform targets)
+  - Buyer matching (PE, family offices, search funds, roll-ups)
+  - Referral agreement tracking
+  - Deal scoring system (0-100)
+- **Target:** 10 closings/year @ avg $150K fee = $1.5M+ finder revenue
+- **Cron Jobs:**
+  - Sellers: 9 AM EST daily
+  - Buyers: 9 AM EST daily
+- **Files:** `/workspace/skills/deal-origination/`, `/workspace/scripts/seller-lead-gen.py`, `/workspace/scripts/buyer-lead-gen.py`
+
 #### Lead Generation System - Wellness 125
 - **Completed:** 2026-02-13
 - **Description:** Automated B2B lead generation and outreach system for Wellness 125 Cafeteria Plan

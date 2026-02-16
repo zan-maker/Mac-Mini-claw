@@ -118,6 +118,13 @@
 
 ## AI/Crawling Tools
 
+### Qwen (Alibaba AI)
+- **API Key:** `sk-115a12c59a00439f96b1313270ac88ee`
+- **Base URL:** `https://dashscope.aliyuncs.com/api/v1`
+- **Usage:** Qwen3-TTS voice generation, Qwen LLM
+- **Models:** qwen-tts, qwen-plus, qwen-max
+- **Dashboard:** https://dashscope.console.aliyun.com/
+
 ### crawl4ai (Web Crawling)
 - **Status:** ✅ Installed
 - **Location:** `/Users/cubiczan/.openclaw/workspace/defeatbeta-api/.venv/`

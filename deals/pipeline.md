@@ -1,96 +1,99 @@
 # Deal Origination Pipeline
 
-**Last Updated:** 2026-02-15
+**Last Updated:** 2026-02-16 9:14 AM EST
 
 ---
 
-## Pipeline Overview
+## Active Buyers Pipeline
 
-| Stage | Sellers | Buyers |
-|-------|---------|--------|
-| Identified | 12 | 8 |
-| Contacted | 0 | 0 |
-| Responded | 0 | 0 |
-| Qualified | 0 | 0 |
-| Agreement Signed | 0 | 0 |
-| Deal Presented | 0 | 0 |
-| LOI | 0 | - |
-| Closed | 0 | - |
+### High Priority (75+ Score)
 
----
+| Firm | Type | Score | Focus | Check Size | Status | Contact |
+|------|------|-------|-------|------------|--------|---------|
+| **Apex Service Partners** | PE-Backed Roll-Up | 82 | HVAC/Plumbing/Electrical | $1M-$50M+ | 🔍 Research parent PE | TBD |
+| **Blue Point Capital** | PE (Lower MM) | 78 | HVAC/Plumbing (Commercial) | $30M-$300M | 📧 Ready to contact | mkneipp@bluepointcapital.com |
 
-## Active Seller Pipeline
+### Medium Priority (50-74 Score)
 
-### High Priority Sellers (Score 70+)
-
-1. **Valley HVAC Services** - Phoenix, AZ
-   - EBITDA: $850K | Score: 85
-   - Fee Potential: ~$170K
-
-2. **Precision Fire & Safety** - Atlanta, GA
-   - EBITDA: $1.2M | Score: 80
-   - Fee Potential: ~$240K
-
-3. **CleanPro Commercial** - Dallas, TX
-   - EBITDA: $1.8M | Score: 75
-   - Fee Potential: ~$360K
+| Firm | Type | Score | Focus | Check Size | Status | Contact |
+|------|------|-------|-------|------------|--------|---------|
+| **Goldman Sachs (Sila)** | Merchant Banking | 72 | Home Services Platform | $50M-$1.7B | 🔍 Research referral process | GS MBD |
+| **Limbach Holdings** | Public Strategic | 68 | Industrial HVAC/Mechanical | $10M-$50M | 🔍 Research corp dev | NASDAQ: LMB |
 
 ---
 
-## Active Buyer Pipeline
+## Buyer Pipeline Stats
 
-### High Priority Buyers (Score 70+)
-
-1. **Platform Builders LLC** - Roll-up Platform
-   - Focus: HVAC, Plumbing, Landscaping
-   - Very active finder relationships
-
-2. **Blue Collar Equity Partners** - PE
-   - Focus: Essential services
-   - Standard 5% finder structure
-
-3. **Summit Services Group** - Roll-up Platform
-   - Focus: Fire & Safety, Security
-   - Seeking off-market flow
+| Metric | Value |
+|--------|-------|
+| **Total Buyers** | 4 |
+| **High Priority** | 2 |
+| **Pending Verification** | 4 (finder fee policies) |
+| **Contacted** | 0 |
+| **Agreements Signed** | 0 |
 
 ---
 
-## Referral Agreements
+## Target Buyer Profile
 
-| Buyer | Date Sent | Status | Protected Period |
-|-------|-----------|--------|------------------|
-| - | - | - | - |
+### Blue Collar Focus
+- HVAC (residential, commercial, industrial)
+- Plumbing
+- Electrical
+- Roofing
+- Commercial Cleaning
 
----
+### Platform Focus
+- Healthcare Services
+- Insurance Brokerages
+- Logistics/Transportation
+- Dental Practices
 
-## Metrics
-
-### Daily Targets
-- Sellers identified: 10-15 ✅ (12 today)
-- Buyers contacted: 3-4 ✅ (8 today)
-- Referral agreements sent: 2-3
-
-### Weekly Targets
-- Seller responses: 5-10
-- Buyer agreements signed: 3-5
-- Deals presented: 5-10
-
-### Monthly Targets
-- LOIs generated: 3-5
-- Deals in due diligence: 1-2
-- Closings: 0-1
+### Check Size Preferences
+- **Blue Collar:** $1M - $50M EBITDA
+- **Platform:** $2M - $75M EBITDA
 
 ---
 
-## Economic Model
+## Finder Fee Standards
 
-**Target:** 10 closings/year @ avg $150K fee = **$1.5M+ finder revenue**
+| Deal Size | Typical Finder Fee |
+|-----------|-------------------|
+| $1M - $10M | 2-5% |
+| $10M - $50M | 1-3% |
+| $50M - $100M | 0.5-2% |
+| $100M+ | 0.5-1% |
 
 ---
 
-## Notes
+## Outreach Log
 
-- All sellers are OFF-MARKET (no brokers)
-- All buyers must accept finder fee agreements
-- 12-month tail on all referrals
-- Minimum $50K fee per deal
+| Date | Buyer | Action | Result |
+|------|-------|--------|--------|
+| 2026-02-16 | All | Initial research | 4 buyers identified |
+
+---
+
+## Weekly Goals
+
+- [ ] Contact Blue Point Capital (Megan Kneipp)
+- [ ] Identify Apex parent PE firm and contacts
+- [ ] Research Goldman Sachs MBD referral process
+- [ ] Verify finder fee policies (all 4 buyers)
+- [ ] Target: 2 finder agreements signed by end of week
+
+---
+
+## Deal Flow Summary
+
+| Stage | Count |
+|-------|-------|
+| Identified | 4 |
+| Researched | 4 |
+| Contacted | 0 |
+| Negotiating | 0 |
+| Agreement Signed | 0 |
+
+---
+
+*Pipeline maintained by Claw - Deal Origination Agent*

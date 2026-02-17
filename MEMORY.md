@@ -74,6 +74,15 @@
 - **Edge-TTS** (7.2.7) — Free TTS
 - **fpdf2** (2.8.5) — PDF generation
 
+### Data Assets
+- **Master Investor Database** (`data/master-investor-database.csv`) — **149,664 contacts**, 45 columns
+  - Comprehensive global investor database (family offices, PE, VCs)
+  - Includes: Investment thesis, sectors, contact details, email validation, phone
+  - Use for: Deal origination, investor matching, outreach campaigns
+- **Family Office Database** (`data/family-office-contacts.csv`) — 139 pre-verified family office contacts (subset of master)
+  - Quick-reference for hospitality/hotel/resort deals
+  - Key sectors: Hospitality, Real Estate, Healthcare, Tech, Consumer
+
 ---
 
 ## Multi-Agent Orchestration
@@ -103,6 +112,10 @@
 - **Sellers:** 10-15/day off-market business sellers
 - **Buyers:** 3-4/day PE firms with finder fee agreements
 - **Focus:** Blue-collar ($500K-$3M EBITDA), Platform ($2M-$10M+ EBITDA)
+- **Investor Database:** `data/master-investor-database.csv` — 149,664 contacts (primary source)
+  - Includes family offices, PE firms, VCs worldwide
+  - Pre-validated emails, investment thesis, sector focus
+  - Skip Hunter.IO for database matches
 
 ### 3. B2B Referral Engine
 - **Prospects:** 10-15/day (demand side)
@@ -121,7 +134,7 @@
 
 ---
 
-## Cron Jobs Registry (16 Active)
+## Cron Jobs Registry (22 Active)
 
 ### Lead Generation (8)
 | Job | Schedule | Purpose |
@@ -134,6 +147,16 @@
 | Referral Engine - Providers | 9 AM | Service providers |
 | Lead Outreach - AgentMail | 2 PM | Email sequences |
 | Expense Reduction Outreach | 2 PM | Email sequences |
+
+### Deal Outreach (6)
+| Job | Schedule | Purpose |
+|-----|----------|---------|
+| Dorada Outreach - Wave 1 | 10 AM | Top 5 investors (Score 13-14) |
+| Dorada Outreach - Wave 2 | 10 AM | Tier 2 investors (5 contacts) |
+| Dorada Outreach - Wave 3 | 10 AM | Wave 3 (5 contacts, hospitality focus) |
+| Dorada Outreach - Wave 4 | 10 AM | Wave 4 (7 contacts, family office focus) |
+| Dorada Outreach - Wave 5 | 10 AM | Wave 5 (11 contacts, real estate/hospitality) |
+| Dorada Outreach - Wave 6 | 10 AM | Wave 6 (9 contacts, family office/medical) |
 
 ### Voice & Analytics (2)
 | Job | Schedule | Purpose |

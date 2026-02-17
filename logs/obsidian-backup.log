@@ -9391,3 +9391,154 @@ total size is 1981740  speedup is 4.05
 [2026-02-16 15:10:23] Backup complete:      242 MD files (2.4M)
 [2026-02-16 15:10:23] Files: Before=     242, After=     242
 [2026-02-16 15:10:23] Backup info updated
+[2026-02-17 07:19:38] Starting Obsidian backup...
+Transfer starting: 4829 files
+reflections/identity-discovery.md: deleting
+./reflections/identity-discovery.md: deleting
+./📋 Backup Info.md: deleting
+./
+meditations.md
+morning-brief.md
+.git/
+.git/objects/
+.git/objects/00/
+.git/objects/05/
+.git/objects/10/
+.git/objects/16/
+.git/objects/1c/
+.git/objects/20/
+.git/objects/23/
+.git/objects/24/
+.git/objects/26/
+.git/objects/27/
+.git/objects/29/
+.git/objects/2a/
+.git/objects/2c/
+.git/objects/2f/
+.git/objects/31/
+.git/objects/40/
+.git/objects/41/
+.git/objects/48/
+.git/objects/49/
+.git/objects/50/
+.git/objects/58/
+.git/objects/5c/
+.git/objects/62/
+.git/objects/6e/
+.git/objects/70/
+.git/objects/76/
+.git/objects/7d/
+.git/objects/7e/
+.git/objects/89/
+.git/objects/8b/
+.git/objects/a0/
+.git/objects/a5/
+.git/objects/a6/
+.git/objects/ab/
+.git/objects/ae/
+.git/objects/b6/
+.git/objects/b9/
+.git/objects/c7/
+.git/objects/cc/
+.git/objects/d1/
+.git/objects/d6/
+.git/objects/e0/
+.git/objects/e3/
+.git/objects/f1/
+.git/objects/f3/
+.git/objects/f5/
+.git/objects/f6/
+.git/objects/f7/
+.git/objects/f9/
+.git/refs/heads/
+.git/refs/remotes/origin/
+.secrets/
+defeatbeta-api/.git/
+defense-leads/
+memory/
+memory/2026-02-17.md
+reflections/
+reflections/memory-distillation.md
+reflections/proactive-boundaries.md
+reflections/voice-consistency.md
+reflections/archive/
+reflections/archive/identity-discovery-complete.md
+skills/
+skills/claw-skill-public-dot-com/
+skills/claw-skill-public-dot-com/SKILL.md
+skills/claw-skill-public-dot-com/options-automation-library.md
+skills/claw-skill-public-dot-com/.clawhub/
+skills/claw-skill-public-dot-com/scripts/
+skills/youtube-skills/.git/
+
+sent 581668 bytes  received 608 bytes  957533 bytes/sec
+total size is 2066727  speedup is 3.55
+[2026-02-17 07:19:41] Backup complete:      248 MD files (2.5M)
+[2026-02-17 07:19:41] Files: Before=     243, After=     248
+[2026-02-17 07:19:41] Backup info updated
+[2026-02-17 08:15:47] Starting Obsidian backup...
+Transfer starting: 4832 files
+./📋 Backup Info.md: deleting
+./
+.git/objects/
+.git/objects/00/
+.git/objects/05/
+.git/objects/10/
+.git/objects/1c/
+.git/objects/23/
+.git/objects/24/
+.git/objects/29/
+.git/objects/2f/
+.git/objects/50/
+.git/objects/58/
+.git/objects/6e/
+.git/objects/70/
+.git/objects/7d/
+.git/objects/89/
+.git/objects/8b/
+.git/objects/a0/
+.git/objects/b6/
+.git/objects/b9/
+.git/objects/e3/
+.git/objects/f6/
+.secrets/
+memory/
+reflections/
+reflections/archive/
+skills/
+skills/claw-skill-public-dot-com/
+skills/claw-skill-public-dot-com/.clawhub/
+skills/claw-skill-public-dot-com/scripts/
+trades/
+trades/KALSHI-ARCHITECTURE.md
+trades/SETUP.md
+
+sent 494114 bytes  received 250 bytes  799812 bytes/sec
+total size is 2072184  speedup is 4.19
+[2026-02-17 08:15:50] Backup complete:      250 MD files (2.5M)
+[2026-02-17 08:15:50] Files: Before=     249, After=     250
+[2026-02-17 08:15:50] Backup info updated
+[2026-02-17 08:38:43] Starting Obsidian backup...
+Transfer starting: 4832 files
+./📋 Backup Info.md: deleting
+./
+.secrets/
+trades/
+trades/SETUP.md
+
+sent 490840 bytes  received 60 bytes  795495 bytes/sec
+total size is 2073395  speedup is 4.22
+[2026-02-17 08:38:46] Backup complete:      250 MD files (2.5M)
+[2026-02-17 08:38:46] Files: Before=     251, After=     250
+[2026-02-17 08:38:46] Backup info updated
+[2026-02-17 08:52:36] Starting Obsidian backup...
+Transfer starting: 4832 files
+./📋 Backup Info.md: deleting
+./
+trades/
+
+sent 488391 bytes  received 32 bytes  820741 bytes/sec
+total size is 2073395  speedup is 4.25
+[2026-02-17 08:52:38] Backup complete:      250 MD files (2.5M)
+[2026-02-17 08:52:38] Files: Before=     251, After=     250
+[2026-02-17 08:52:38] Backup info updated

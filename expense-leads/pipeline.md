@@ -9,12 +9,14 @@
 | Stage | Description | Count |
 |-------|-------------|-------|
 | Identified | Company found, basic info | 38 |
-| Enriched | Full company data collected | 0 |
+| Enriched | Full company data collected | 5 |
 | Contacted | Initial outreach sent | 0 |
 | Engaged | Response received | 0 |
 | Qualified | Meeting scheduled | 0 |
 | Closed | Deal signed | 0 |
 | Disqualified | Not a fit | 0 |
+
+> **Note:** 5 leads have contact intelligence (names, titles) but need Hunter.io API for email verification. See `enriched-contacts-2026-02-17.md`.
 
 ---
 

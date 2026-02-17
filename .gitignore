@@ -1,0 +1,12 @@
+# Secrets
+.secrets/
+*.secret
+*.key
+.env
+.env.*
+
+# Logs (keep structure, ignore content)
+*.log
+
+# API alerts (transient)
+.api-alert-*

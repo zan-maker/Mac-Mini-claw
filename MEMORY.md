@@ -132,9 +132,16 @@
 - **Purpose:** Proactive exploration, learning, and assistance
 - **Budget:** $0.10 per session
 
+### 6. Miami Hotels Buyer Outreach
+- **Cron Jobs:** 3 waves (Wave 1-3)
+- **Schedule:** Daily at 11:00 AM EST
+- **Contacts:** 14 buyers across 3 waves
+- **Deals:** Tides South Beach (45 keys + expansion), Thesis Hotel Miami (245 keys + 204 multifamily)
+- **Status:** Ready to start 2026-02-18
+
 ---
 
-## Cron Jobs Registry (22 Active)
+## Cron Jobs Registry (25 Active)
 
 ### Lead Generation (8)
 | Job | Schedule | Purpose |
@@ -148,7 +155,7 @@
 | Lead Outreach - AgentMail | 2 PM | Email sequences |
 | Expense Reduction Outreach | 2 PM | Email sequences |
 
-### Deal Outreach (6)
+### Deal Outreach (9)
 | Job | Schedule | Purpose |
 |-----|----------|---------|
 | Dorada Outreach - Wave 1 | 10 AM | Top 5 investors (Score 13-14) |
@@ -157,6 +164,9 @@
 | Dorada Outreach - Wave 4 | 10 AM | Wave 4 (7 contacts, family office focus) |
 | Dorada Outreach - Wave 5 | 10 AM | Wave 5 (11 contacts, real estate/hospitality) |
 | Dorada Outreach - Wave 6 | 10 AM | Wave 6 (9 contacts, family office/medical) |
+| Miami Hotels Wave 1 | 11 AM | Top 4 buyers (Score 18) |
+| Miami Hotels Wave 2 | 11 AM | Secondary buyers (5 contacts) |
+| Miami Hotels Wave 3 | 11 AM | Additional buyers (5 contacts) |
 
 ### Voice & Analytics (2)
 | Job | Schedule | Purpose |

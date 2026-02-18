@@ -9542,3 +9542,126 @@ total size is 2073395  speedup is 4.25
 [2026-02-17 08:52:38] Backup complete:      250 MD files (2.5M)
 [2026-02-17 08:52:38] Files: Before=     251, After=     250
 [2026-02-17 08:52:38] Backup info updated
+[2026-02-18 08:52:37] Starting Obsidian backup...
+Transfer starting: 4869 files
+./📋 Backup Info.md: deleting
+./
+MEMORY.md
+cron-status-check.md
+meditations.md
+morning-brief.md
+pending-approvals.md
+.git/
+.git/objects/
+.git/objects/00/
+.git/objects/01/
+.git/objects/02/
+.git/objects/04/
+.git/objects/08/
+.git/objects/0e/
+.git/objects/14/
+.git/objects/15/
+.git/objects/18/
+.git/objects/1a/
+.git/objects/21/
+.git/objects/23/
+.git/objects/28/
+.git/objects/2f/
+.git/objects/30/
+.git/objects/36/
+.git/objects/38/
+.git/objects/3d/
+.git/objects/40/
+.git/objects/42/
+.git/objects/45/
+.git/objects/46/
+.git/objects/4c/
+.git/objects/51/
+.git/objects/52/
+.git/objects/5d/
+.git/objects/63/
+.git/objects/65/
+.git/objects/6a/
+.git/objects/72/
+.git/objects/73/
+.git/objects/74/
+.git/objects/76/
+.git/objects/7d/
+.git/objects/7f/
+.git/objects/88/
+.git/objects/8c/
+.git/objects/8f/
+.git/objects/93/
+.git/objects/9a/
+.git/objects/9b/
+.git/objects/a7/
+.git/objects/b1/
+.git/objects/b5/
+.git/objects/b6/
+.git/objects/b9/
+.git/objects/c4/
+.git/objects/c5/
+.git/objects/c6/
+.git/objects/c8/
+.git/objects/cc/
+.git/objects/cd/
+.git/objects/d0/
+.git/objects/d2/
+.git/objects/d4/
+.git/objects/d5/
+.git/objects/e2/
+.git/objects/eb/
+.git/objects/ed/
+.git/objects/ee/
+.git/objects/f1/
+.git/objects/f5/
+.git/objects/f9/
+.git/objects/fb/
+.git/refs/heads/
+.git/refs/remotes/origin/
+data/
+deals/
+deals/active-campaigns-summary.md
+deals/dorada-investor-matches.md
+deals/dorada-outreach-campaign.md
+deals/dorada-resort-costa-rica.md
+deals/miami-hotels-buyer-list.md
+deals/miami-hotels-outreach-campaign.md
+deals/miami-hotels-portfolio.md
+deals/pipeline.md
+deals/buyers/
+deals/buyers/daily-buyers-2026-02-17.md
+deals/sellers/
+deals/sellers/daily-sellers-2026-02-17.md
+defeatbeta-api/.git/
+defense-leads/
+defense-leads/daily-companies-2026-02-17.md
+defense-leads/daily-investors-2026-02-17.md
+defense-leads/outreach-log-2026-02-17.md
+expense-leads/
+expense-leads/daily-leads-2026-02-17.md
+expense-leads/enriched-contacts-2026-02-17.md
+expense-leads/pipeline.md
+leads/
+leads/daily-leads-2026-02-17.md
+memory/
+memory/2026-02-17.md
+memory/2026-02-18.md
+referral-engine/prospects/
+referral-engine/prospects/daily-prospects-2026-02-17.md
+referral-engine/providers/
+referral-engine/providers/daily-providers-2026-02-17.md
+reflections/memory-distillation.md
+reflections/proactive-boundaries.md
+reflections/voice-consistency.md
+skills/claw-skill-public-dot-com/scripts/
+skills/claw-skill-public-dot-com/scripts/__pycache__/
+skills/youtube-skills/.git/
+trades/
+trades/daily-recommendations-2026-02-18.md
+
+sent 671370 bytes  received 1184 bytes  1091631 bytes/sec
+total size is 2225111  speedup is 3.31
+[2026-02-18 08:52:40] Backup complete:      270 MD files (2.7M)
+[2026-02-18 08:52:40] Files: Before=     251, After=     270
+[2026-02-18 08:52:40] Backup info updated

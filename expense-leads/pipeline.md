@@ -1,6 +1,6 @@
 # Expense Reduction Lead Pipeline
 
-**Last Updated:** 2026-02-17 9:05 AM EST
+**Last Updated:** 2026-02-18 9:03 AM EST
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Stage | Description | Count |
 |-------|-------------|-------|
-| Identified | Company found, basic info | 38 |
+| Identified | Company found, basic info | 56 |
 | Enriched | Full company data collected | 5 |
 | Contacted | Initial outreach sent | 0 |
 | Engaged | Response received | 0 |
@@ -26,6 +26,14 @@
 
 | Company | Score | Industry | Location | Est. Employees | Est. OPEX | Potential Savings | Status | Date Added |
 |---------|-------|----------|----------|----------------|-----------|-------------------|--------|------------|
+| **Freenome** | 95 | Biotech/Healthcare | SF | 201-500 | $2.4M-$6M | $360K-$1.8M | Identified | 2026-02-18 |
+| **Formation Bio** | 92 | Healthcare/Clinical Trials | NYC | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-18 |
+| **Qventus** | 90 | Healthcare/Predictive Analytics | SF | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-18 |
+| **Rad AI** | 88 | Healthcare AI/Radiology | Remote | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-18 |
+| **Memora Health** | 85 | Healthcare AI | SF | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-18 |
+| **Decagon AI** | 82 | AI/Enterprise SW | SF | 11-50 | $132K-$750K | $20K-$225K | Identified | 2026-02-18 |
+| **Nooks** | 80 | AI/Sales Tech | SF | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-18 |
+| **Camber Health** | 78 | Healthcare/FinTech | NYC | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-18 |
 | **Omnea** | 92 | Procurement/Enterprise SW | London, UK | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-17 |
 | **Adaptive Security** | 90 | AI Cybersecurity | NYC | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-17 |
 | **Ambience Healthcare** | 89 | Healthcare AI | SF | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-17 |
@@ -47,6 +55,13 @@
 
 | Company | Score | Industry | Location | Est. Employees | Est. OPEX | Potential Savings | Status | Date Added |
 |---------|-------|----------|----------|----------------|-----------|-------------------|--------|------------|
+| **Clay** | 68 | AI/SaaS/Data | NYC | 11-50 | $132K-$750K | $20K-$225K | Identified | 2026-02-18 |
+| **Graphite** | 65 | AI/SaaS/Dev Tools | NYC | 11-50 | $132K-$750K | $20K-$225K | Identified | 2026-02-18 |
+| **Socket** | 62 | SaaS/Cybersecurity | Remote | 11-50 | $132K-$750K | $20K-$225K | Identified | 2026-02-18 |
+| **NewLimit** | 60 | Biotech/Healthcare | SF | 11-50 | $132K-$750K | $20K-$225K | Identified | 2026-02-18 |
+| **Sprinter Health** | 58 | Healthcare/Medical | SF | 11-50 | $132K-$750K | $20K-$225K | Identified | 2026-02-18 |
+| **Abridge** | 55 | Healthcare AI | Pittsburgh | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-18 |
+| **Suki** | 52 | Healthcare AI | Redwood City | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-18 |
 | **Ema** | 68 | AI/Enterprise SW | SF | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-17 |
 | **World Labs** | 65 | AI/Spatial | SF | 11-50 | $132K-$750K | $20K-$225K | Identified | 2026-02-17 |
 | **Stainless** | 62 | SaaS/API Platform | NYC | 11-50 | $132K-$750K | $20K-$225K | Identified | 2026-02-17 |
@@ -67,6 +82,9 @@
 
 | Company | Score | Industry | Location | Est. Employees | Est. OPEX | Potential Savings | Status | Date Added |
 |---------|-------|----------|----------|----------------|-----------|-------------------|--------|------------|
+| **Kraftful** | 45 | AI/Product Dev | SF | 11-50 | $132K-$750K | $20K-$225K | Identified | 2026-02-18 |
+| **DeepScribe** | 42 | Healthcare AI | SF | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-18 |
+| **SmarterDx** | 38 | Healthcare AI | NYC | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-18 |
 | **NOW CFO** | 48 | Financial Consulting | Multi-location | 100-300 | $1.2M-$4.5M | $180K-$1.35M | Identified | 2026-02-17 |
 | **Cherry Bekaert** | 45 | Accounting | Tampa/Multi | 500+ | $4M-$7.5M | $600K-$2.25M | Identified | 2026-02-17 |
 | **Blossom Health** | 42 | Healthcare AI | NYC | 1-10 | $12K-$150K | $2K-$45K | Identified | 2026-02-17 |
@@ -89,21 +107,21 @@
 
 ## Metrics
 
-### Today (Feb 17, 2026)
+### Today (Feb 18, 2026)
 - Leads Generated: 18
 - High Priority: 8
-- Medium Priority: 6
-- Low Priority: 4
-- Estimated Potential Savings: $7.8M - $15.6M
+- Medium Priority: 7
+- Low Priority: 3
+- Estimated Potential Savings: $3.2M - $7.8M
 
-### This Week (Feb 10-17)
-- Leads Generated: 38
+### This Week (Feb 10-18)
+- Leads Generated: 56
 - Emails Sent: 0
 - Responses: 0
 - Meetings Booked: 0
 
 ### This Month (February 2026)
-- Leads Generated: 38
+- Leads Generated: 56
 - Emails Sent: 0
 - Responses: 0
 - Meetings Booked: 0
@@ -111,11 +129,11 @@
 
 ---
 
-## Top 3 Leads Today (Feb 17)
+## Top 3 Leads Today (Feb 18)
 
-1. **Omnea** (Score: 92) - Procurement orchestration, 101-200 employees, $50M Series B, London
-2. **Adaptive Security** (Score: 90) - AI cybersecurity, 101-200 employees, $81M Series B, NYC
-3. **Ambience Healthcare** (Score: 89) - Healthcare AI, 101-200 employees, $243M Series C, SF
+1. **Freenome** (Score: 95) - Biotech/Healthcare, 201-500 employees, $254M Series E, $2.6B valuation, SF
+2. **Formation Bio** (Score: 92) - Healthcare/Clinical Trials, 101-200 employees, $372M Series D, NYC
+3. **Qventus** (Score: 90) - Healthcare/Predictive Analytics, 101-200 employees, $85M Series D, SF
 
 ---
 
@@ -125,18 +143,20 @@
 - Initial outreach sent at 2:00 PM EST
 - All emails CC'd to sam@impactquadrant.info
 - From: Zander@agentmail.to
-- **Total Pipeline Value:** $11.16M - $27M+ potential annual savings (38 leads)
+- **Total Pipeline Value:** $14.4M - $34.8M+ potential annual savings (56 leads)
 
 ---
 
 ## Contact Enrichment Queue
 
 **Priority for Hunter.io lookup:**
-1. omnea.co
-2. adaptivesecurity.com
-3. ambiencehealthcare.com
-4. rilla.com
-5. vanta.com
-6. traba.work
-7. geckorobotics.com
-8. render.com
+1. freenome.com
+2. formation.bio
+3. qventus.com
+4. radai.com
+5. memorahealth.com
+6. decagon.ai
+7. nooks.ai
+8. camber.health
+9. clay.com
+10. graphite.dev

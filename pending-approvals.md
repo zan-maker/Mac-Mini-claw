@@ -71,5 +71,18 @@ When an autonomous session identifies actions that affect the outside world, the
 
 ---
 
-*Last updated: 2026-02-16 02:10 EST*
-*Pending actions: 2*
+### [2026-02-18] Investigate Discord Delivery Failures
+**Status:** pending
+**Rationale:** Three cron jobs are failing with "cron announce delivery failed" error. Jobs execute but results don't reach Discord.
+**Impact:** Token Limit Monitor, Critical API Alert Check, and Nightly Meditation results are not being delivered.
+**Risk:** Medium — critical alerts could be missed.
+**Proposed Investigation:**
+1. Check Discord bot permissions in target channels
+2. Verify channel IDs are correct in cron job configs
+3. Test Discord API connectivity
+4. Check if Discord rate limiting is occurring
+
+---
+
+*Last updated: 2026-02-18 02:15 EST*
+*Pending actions: 3*

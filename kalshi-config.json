@@ -1,0 +1,8 @@
+{
+  "api_key_id": "4dd243e0-5d05-4e63-841a-be980f08b43a",
+  "base_url": "https://api.elections.kalshi.com",
+  "private_key_path": "kalshi-key.pem",
+  "created": "2026-02-18",
+  "permissions": ["read", "write"],
+  "balance": 25.23
+}

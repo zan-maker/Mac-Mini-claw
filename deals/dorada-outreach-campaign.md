@@ -246,7 +246,7 @@ Best regards,
 
 | # | Company | Contact | Email | Sent | Opened | Replied | Call Scheduled |
 |---|---------|---------|-------|------|--------|---------|----------------|
-| 1 | Adivo Investments | Aamir Aka | aamir@adivo.me | ⬜ | ⬜ | ⬜ | ⬜ |
+| 1 | Adivo Investments | Aamir Aka | aamir@adivo.me | ✅ 2026-02-18 | ⬜ | ⬜ | ⬜ |
 | 2 | CMG Companies | Khaled Habash | khaled@cmg.team | ⬜ | ⬜ | ⬜ | ⬜ |
 | 3 | Cullinan Properties | Michael Gold | mgold@pinetree.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 4 | Jupiter Capital | Marie Gayo | marie.gayo@jupiter-cap.com | ⬜ | ⬜ | ⬜ | ⬜ |

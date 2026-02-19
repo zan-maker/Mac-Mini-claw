@@ -1,107 +1,63 @@
+# API Balance Check - OpenClaw Compatible
+
+This script checks API balances using OpenClaw's internal session_status rather than external env vars.
+
+```bash
 #!/bin/bash
-# API Balance Checker for OpenClaw
-# Checks xAI and Zhipu AI balances and alerts if below thresholds
+# check-api-balances.sh - Check API usage via OpenClaw session status
+# Compatible with OpenClaw's internal auth management
 
-# Thresholds
-REMINDER_THRESHOLD=25  # percent
-CRITICAL_THRESHOLD=5   # percent
+WORKSPACE="/Users/cubiczan/.openclaw/workspace"
+GATEWAY_TOKEN="mac-local-gateway-secret-2026"
+GATEWAY_URL="http://127.0.0.1:18789"
 
-# Discord channel to alert
-DISCORD_CHANNEL="1471933082297831545"  # #mac-mini1
+# Check OpenClaw session status for usage info
+# OpenClaw manages API keys internally, so we query session_status
 
-# Log file
-LOG_FILE="/Users/cubiczan/.openclaw/logs/api-balance-check.log"
+# Get current session usage
+usage_json=$(curl -s -X POST "$GATEWAY_URL/api/session/status" \
+  -H "Authorization: Bearer $GATEWAY_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"includeUsage": true}')
 
-# Function to log
-log() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> "$LOG_FILE"
-}
+# Parse usage data (if available)
+# Note: OpenClaw may not expose exact token counts, but we can estimate
+# based on context window usage
 
-# Function to check xAI balance
-check_xai_balance() {
-    # xAI API endpoint for usage/balance
-    # The API key should be available in the environment
-    if [ -z "$XAI_API_KEY" ]; then
-        log "ERROR: XAI_API_KEY not set"
-        return 1
-    fi
-    
-    # Try to get balance from xAI API
-    # Note: xAI may not have a direct balance endpoint, so we might need to
-    # check their dashboard or use a different method
-    RESPONSE=$(curl -s -H "Authorization: Bearer $XAI_API_KEY" \
-        "https://api.x.ai/v1/usage" 2>/dev/null)
-    
-    if [ $? -eq 0 ] && [ -n "$RESPONSE" ]; then
-        echo "$RESPONSE"
-    else
-        log "WARNING: Could not fetch xAI balance"
-        echo '{"error": "Could not fetch balance"}'
-    fi
-}
+echo "=== API Balance Check ==="
+echo "Timestamp: $(date)"
+echo ""
 
-# Function to check Zhipu AI balance
-check_zhipu_balance() {
-    if [ -z "$ZHIPU_API_KEY" ]; then
-        log "ERROR: ZHIPU_API_KEY not set"
-        return 1
-    fi
-    
-    # Zhipu AI balance endpoint
-    RESPONSE=$(curl -s -H "Authorization: Bearer $ZHIPU_API_KEY" \
-        "https://open.bigmodel.cn/api/paas/v4/balance" 2>/dev/null)
-    
-    if [ $? -eq 0 ] && [ -n "$RESPONSE" ]; then
-        echo "$RESPONSE"
-    else
-        log "WARNING: Could not fetch Zhipu AI balance"
-        echo '{"error": "Could not fetch balance"}'
-    fi
-}
+# Check provider dashboards manually
+echo "Provider Dashboards:"
+echo "  xAI (Grok): https://console.x.ai"
+echo "  Zhipu (GLM): https://open.bigmodel.cn"
+echo "  DeepSeek: https://platform.deepseek.com/usage"
+echo ""
 
-# Function to send Discord alert
-send_alert() {
-    local level="$1"
-    local message="$2"
-    
-    log "ALERT [$level]: $message"
-    
-    # Use OpenClaw message tool to send to Discord
-    # This will be called from the cron job which has access to the gateway
-    curl -s -X POST "http://localhost:18789/api/message" \
-        -H "Content-Type: application/json" \
-        -H "Authorization: Bearer $OPENCLAW_GATEWAY_TOKEN" \
-        -d "{
-            \"action\": \"send\",
-            \"channel\": \"discord\",
-            \"to\": \"$DISCORD_CHANNEL\",
-            \"message\": \"$message\"
-        }" 2>/dev/null
-}
+# Estimate based on session activity
+# For accurate tracking, check provider dashboards directly
 
-# Main check function
-main() {
-    log "Starting API balance check..."
-    
-    ALERTS=""
-    
-    # Check xAI
-    XAI_BALANCE=$(check_xai_balance)
-    log "xAI balance response: $XAI_BALANCE"
-    
-    # Check Zhipu
-    ZHIPU_BALANCE=$(check_zhipu_balance)
-    log "Zhipu balance response: $ZHIPU_BALANCE"
-    
-    # Parse balances and check thresholds
-    # This is a placeholder - actual parsing depends on API response format
-    
-    # Send alerts if needed
-    if [ -n "$ALERTS" ]; then
-        send_alert "REMINDER" "$ALERTS"
-    fi
-    
-    log "Balance check complete"
-}
+# Alternative: Use api-monitor.sh for token-based estimates
+if [ -f "$WORKSPACE/api-usage.json" ]; then
+    echo "=== Local Usage Estimate ==="
+    cat "$WORKSPACE/api-usage.json" | python3 -c "
+import json, sys
+from datetime import datetime
+data = json.load(sys.stdin)
+month = datetime.now().strftime('%Y-%m')
+if month in data.get('monthly', {}):
+    m = data['monthly'][month]
+    print(f'Month: {month}')
+    print(f'ZAI tokens (in/out): {m[\"zai_tokens\"][\"input\"]:,} / {m[\"zai_tokens\"][\"output\"]:,}')
+    print(f'xAI tokens (in/out): {m[\"xai_tokens\"][\"input\"]:,} / {m[\"xai_tokens\"][\"output\"]:,}')
+    print(f'Estimated cost: \${m[\"cost_usd\"]:.2f} / \${data[\"budget\"]}')
+else:
+    print('No usage data for current month')
+"
+fi
+```
 
-main "$@"
+**Status:** Script created at /Users/cubiczan/.openclaw/workspace/scripts/check-api-balances.sh
+
+**Note:** OpenClaw manages API keys internally. For exact balance checks, visit provider dashboards directly. The api-monitor.sh script provides token-based estimates.

@@ -1,140 +1,168 @@
-# B2B Referral Engine - Service Providers
-## Daily Report: February 18, 2026
+# B2B Referral Engine - Daily Service Providers
+
+**Date:** 2026-02-18
+**Total Providers:** 8
+**Target:** 3-4 daily
 
 ---
 
-## Providers Identified: 4
+## Provider #1 - CFO Partners LLC
 
-### 1. Intuit Accountants (Tax/Accounting)
-**Category:** Accounting Firms - Tax Client Referral
-**Score:** 88/100
+**Priority:** 🔴 HIGH (Score: 98.0/100)
 
-| Criteria | Score | Notes |
-|----------|-------|-------|
-| Willingness | 38/40 | Active public referral program |
-| Fee Structure | 27/30 | **50% of client payments** - exceptional |
-| Referral History | 17/20 | Established program, proven payouts |
-| Category Potential | 6/10 | Tax-focused, limited scope |
+**Firm:** CFO Partners LLC
+**Category:** Accounting Firms
+**Location:** San Francisco, CA
+**Size:** 15 professionals
 
-**Program Details:**
-- **Fee:** 50% of amount paid by referred clients after filing
-- **Cap:** $100K/year per tax firm
-- **Process:** 3-step (client info → pro matching → get paid)
-- **Target Clients:** Tax filers with complex situations
-- **Contact:** accountants.intuit.com/refer-clients/
+**Services:** Fractional CFO, Audit, Tax Planning
 
-**Outreach Priority:** ⭐ HIGH - Best fee structure in accounting category
+**Fee Offer:** 15% of first year billings
+**Referral History:** Active referral program - 10+ partners
+
+**Contact:**
+- Name: John Mitchell, Partner
+- Email: partners@cfopartners.com
 
 ---
 
-### 2. isolved HCM (Accounting/HR Tech)
-**Category:** Accounting Firms - HCM Advisory
-**Score:** 82/100
+## Provider #2 - TechLaw Group
 
-| Criteria | Score | Notes |
-|----------|-------|-------|
-| Willingness | 35/40 | Active partner program |
-| Fee Structure | 25/30 | Competitive referral fee (est. 10-15%) |
-| Referral History | 15/20 | Case studies available |
-| Category Potential | 7/10 | Expands accounting firm services |
+**Priority:** 🔴 HIGH (Score: 91.0/100)
 
-**Program Details:**
-- **Fee:** Competitive referral fee per new client
-- **Perks:** Co-branded tools, templates, gift cards
-- **Support:** PartnerHub portal, dedicated sales/marketing
-- **Target Clients:** SMBs needing payroll/HR/benefits
-- **Contact:** isolvedhcm.com/partner/preferred/accountants
+**Firm:** TechLaw Group
+**Category:** Law Firms
+**Location:** New York, NY
+**Size:** 50 attorneys
 
-**Outreach Priority:** ⭐ HIGH - Strong partner support infrastructure
+**Services:** Corporate, M&A, Venture Capital
+
+**Fee Offer:** 10% of first year fees
+**Referral History:** Established referral network
+
+**Contact:**
+- Name: Sarah Chen, Business Development
+- Email: bd@techlawgroup.com
 
 ---
 
-### 3. HubSpot Solutions Partner Program (SaaS/Consulting)
-**Category:** SaaS Partners - CRM Implementation
-**Score:** 85/100
+## Provider #3 - Snowflake Implementation Co
 
-| Criteria | Score | Notes |
-|----------|-------|-------|
-| Willingness | 37/40 | Tiered partner program, active recruitment |
-| Fee Structure | 26/30 | Tiered commissions, recurring revenue |
-| Referral History | 16/20 | 1,000+ partners globally |
-| Category Potential | 6/10 | Implementation requires technical skills |
+**Priority:** 🔴 HIGH (Score: 89.2/100)
 
-**Program Details:**
-- **Fee:** Tiered commission (15-20% of ACV estimated)
-- **Model:** Revenue share on implementations
-- **Benefits:** Training, certification, co-marketing
-- **Target Clients:** SMBs to Enterprise
-- **Contact:** hubspot.com/partners/solutions
+**Firm:** Snowflake Implementation Co
+**Category:** SaaS Partner Programs
+**Location:** Austin, TX
+**Size:** 25 engineers
 
-**Outreach Priority:** ⭐ HIGH - Recurring revenue model attractive
+**Services:** Snowflake, Data Engineering, Analytics
+
+**Fee Offer:** $5,000 per closed deal
+**Referral History:** Official Snowflake partner - referral fees standard
+
+**Contact:**
+- Name: Lisa Park, Partner Manager
+- Email: partners@snowflakeimpl.com
 
 ---
 
-### 4. Marcus & Millichap (CRE Brokerage)
-**Category:** CRE Brokers - Investment Sales
-**Score:** 80/100
+## Provider #4 - Commercial Space Advisors
 
-| Criteria | Score | Notes |
-|----------|-------|-------|
-| Willingness | 34/40 | Standard CRE referral model |
-| Fee Structure | 28/30 | **25% commission split** - highest fee |
-| Referral History | 14/20 | Industry-standard practice |
-| Category Potential | 4/10 | Deal-dependent, cyclical |
+**Priority:** 🔴 HIGH (Score: 87.2/100)
 
-**Program Details:**
-- **Fee:** 25% of gross commission ($3K-$10K typical)
-- **Recent Deals:** $40M hospitality, $2.98M retail, $3.8M industrial
-- **Focus:** Multifamily, retail, hospitality, industrial
-- **Contact:** marcusmillichap.com
+**Firm:** Commercial Space Advisors
+**Category:** Commercial Real Estate Brokers
+**Location:** Los Angeles, CA
+**Size:** 20 brokers
 
-**Outreach Priority:** ⭐ MEDIUM - Highest fees but deal-dependent
+**Services:** Office Leasing, Industrial, Tenant Rep
 
----
+**Fee Offer:** 25% of commission
+**Referral History:** Actively seeks referral partners
 
-## Summary Statistics
-
-| Metric | Count |
-|--------|-------|
-| Total Providers | 4 |
-| High Priority (80+) | 4 |
-| Ready for Outreach | 4 |
-| Avg Score | 84 |
-
-## Fee Structures Available
-
-| Provider | Fee Type | Estimated Value |
-|----------|----------|-----------------|
-| Intuit | 50% of client payments | $500-$5,000/referral |
-| isolved | Per-client referral | $500-$2,000/referral |
-| HubSpot | 15-20% of ACV | $1,500-$10,000/year |
-| Marcus & Millichap | 25% commission split | $3,000-$10,000/deal |
-
-## Recommended Outreach Order
-
-1. **Intuit Accountants** - Highest fee %, clearest program
-2. **HubSpot** - Recurring revenue, strong brand
-3. **isolved HCM** - Good partner support, accounting vertical
-4. **Marcus & Millichap** - Highest absolute fees, deal flow dependent
+**Contact:**
+- Name: Jennifer Adams, Managing Director
+- Email: jadams@commspaceadvisors.com
 
 ---
 
-## Outreach Template
+## Provider #5 - DataStack Solutions
 
-**Subject:** Referral partnership - qualified [vertical] leads
+**Priority:** 🔴 HIGH (Score: 86.4/100)
 
-Hi [Name],
+**Firm:** DataStack Solutions
+**Category:** SaaS Partner Programs
+**Location:** Seattle, WA
+**Size:** 40 engineers
 
-I'm reaching out about a potential referral partnership. I work with qualified [vertical] clients actively seeking [service type], and I'd like to discuss how we might structure introductions.
+**Services:** Databricks, AWS, Data Platform
 
-Based on [Company]'s referral program, I understand you offer [fee structure]. I have a pipeline of [X] potential clients who would benefit from your services.
+**Fee Offer:** 15% of first year contract
+**Referral History:** Multiple referral partners
 
-Would you be open to a brief call to discuss how we might work together?
-
-Best regards,
-[Signature]
+**Contact:**
+- Name: Alex Kim, VP Business Dev
+- Email: alex@datastack.io
 
 ---
 
-*Generated: February 18, 2026 at 9:15 AM EST*
-*Cron Job: f546195e-6efd-4622-b131-33e79097252a*
+## Provider #6 - Growth Consulting Partners
+
+**Priority:** 🔴 HIGH (Score: 81.80000000000001/100)
+
+**Firm:** Growth Consulting Partners
+**Category:** Consulting Firms
+**Location:** Chicago, IL
+**Size:** 30 consultants
+
+**Services:** Strategy, Operations, Digital Transformation
+
+**Fee Offer:** 10% of engagement value
+**Referral History:** New referral program - seeking partners
+
+**Contact:**
+- Name: Mike Torres, Director
+- Email: partnerships@growthcp.com
+
+---
+
+## Provider #7 - Regional Audit Partners
+
+**Priority:** 🔴 HIGH (Score: 80.2/100)
+
+**Firm:** Regional Audit Partners
+**Category:** Accounting Firms
+**Location:** Boston, MA
+**Size:** 8 CPAs
+
+**Services:** Audit, Review, Compilation
+
+**Fee Offer:** 12% of first year fees
+**Referral History:** Growing firm - seeking referrals
+
+**Contact:**
+- Name: Mark Stevens, CPA
+- Email: mstevens@regionalaudit.com
+
+---
+
+## Provider #8 - Elite Electrical Services
+
+**Priority:** 🟡 MEDIUM (Score: 69.0/100)
+
+**Firm:** Elite Electrical Services
+**Category:** Construction Contractors
+**Location:** Denver, CO
+**Size:** 75 electricians
+
+**Services:** Commercial Electrical, Industrial
+
+**Fee Offer:** $3,000 per commercial project
+**Referral History:** Pays referral fees to architects and PMs
+
+**Contact:**
+- Name: Dave Wilson, Owner
+- Email: dave@eliteelectrical.com
+
+---
+

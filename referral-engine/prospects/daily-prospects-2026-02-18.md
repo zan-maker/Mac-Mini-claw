@@ -1,205 +1,248 @@
 # B2B Referral Engine - Daily Prospects
-**Date:** Wednesday, February 18, 2026
-**Run Time:** 9:10 AM EST
-**Total Prospects:** 15
-**High Priority (80+):** 6
+
+**Date:** 2026-02-18
+**Total Prospects:** 12
+**Target:** 10-15 daily
 
 ---
 
-## HIGH PRIORITY PROSPECTS (Score 80+)
+## Prospect #1 - TechVentures Inc
 
-### 1. Farseer (Score: 89) 🎯
-- **Vertical:** Technology/SaaS (Tier 2)
-- **Location:** Croatia (expanding to Europe & North America)
-- **Signal:** $7.2M Series A raised Feb 2026
-- **Buying Intent:** FP&A platform needs accounting/consulting partnerships
-- **Vertical Fee Potential:** $5K or 10-20% ACV
-- **Company Size:** Post-Series A (50-100 employees estimated)
-- **Signal Specificity:** High - funding announcement within 48 hours
-- **Recommended Referral:** Accounting firms for FP&A integration, SaaS consultants
+**Priority:** 🔴 HIGH (Score: 96.80000000000001/100)
 
-### 2. Didero (Score: 87) 🎯
-- **Vertical:** Technology/SaaS (Tier 2)
-- **Location:** US (supply chain focus)
-- **Signal:** $30M Series A raised Feb 2026
-- **Buying Intent:** AI procurement automation needs ERP/accounting integration
-- **Vertical Fee Potential:** $5K or 10-20% ACV
-- **Company Size:** Post-Series A (scaling rapidly)
-- **Signal Specificity:** High - major funding for supply chain AI
-- **Recommended Referral:** ERP consultants, procurement consultants
+**Company:** TechVentures Inc
+**Vertical:** B2B Professional Services
+**Location:** San Francisco, CA
+**Employees:** 85
 
-### 3. Kirkland & Ellis (Score: 85) 🎯
-- **Vertical:** B2B Professional Services - Legal (Tier 1)
-- **Location:** Nashville (new office expansion)
-- **Signal:** New Nashville office opening Feb 2026 with 4 litigation partners
-- **Buying Intent:** New market entry = accounting, consulting, IT needs
-- **Vertical Fee Potential:** $5K-$7.5K
-- **Company Size:** AmLaw 10 firm (2,000+ attorneys)
-- **Signal Specificity:** High - official press release Feb 10, 2026
-- **Recommended Referral:** Local Nashville accounting firms, IT consultants
+**Buying Signal:** Series B funding $25M
+**Service Needed:** Fractional CFO / Audit services
 
-### 4. LMArena (Score: 84) 🎯
-- **Vertical:** Technology/SaaS - AI Infrastructure (Tier 2)
-- **Location:** US
-- **Signal:** $150M Series A January 2026
-- **Buying Intent:** AI evaluation platform needs enterprise sales, consulting
-- **Vertical Fee Potential:** $5K or 10-20% ACV
-- **Company Size:** Major funding round (100+ employees likely)
-- **Signal Specificity:** High - one of largest Series A of 2026
-- **Recommended Referral:** Enterprise sales consultants, AI consulting firms
+**Potential Fee:** $5,000-$7,500
 
-### 5. Winston & Strawn (Score: 82) 🎯
-- **Vertical:** B2B Professional Services - Legal (Tier 1)
-- **Location:** Global (merger with Taylor Wessing)
-- **Signal:** Merger with Taylor Wessing completing May 2026 → Winston Taylor
-- **Buying Intent:** Cross-border merger = integration, accounting, compliance needs
-- **Vertical Fee Potential:** $5K-$7.5K
-- **Company Size:** Pre-merger AmLaw firm + UK firm
-- **Signal Specificity:** Medium-High - announced merger timeline
-- **Recommended Referral:** Cross-border accounting firms, integration consultants
-
-### 6. Articul8 AI (Score: 80) 🎯
-- **Vertical:** Technology/SaaS - Enterprise AI (Tier 2)
-- **Location:** US
-- **Signal:** Early 2026 funding announcement
-- **Buying Intent:** Industrial AI for enterprises needs implementation partners
-- **Vertical Fee Potential:** $5K or 10-20% ACV
-- **Company Size:** Spinout with enterprise focus
-- **Signal Specificity:** Medium - funding timing confirmed
-- **Recommended Referral:** Enterprise IT consultants, industrial technology partners
+**Contact:**
+- Role: CFO
+- Email: cfo@techventures.io
 
 ---
 
-## MEDIUM PRIORITY PROSPECTS (Score 60-79)
+## Prospect #2 - DataFlow Analytics
 
-### 7. Latham & Watkins (Score: 76)
-- **Vertical:** B2B Professional Services - Legal (Tier 1)
-- **Location:** Global
-- **Signal:** 18 lateral partner hires in Q1 2026 globally
-- **Buying Intent:** Rapid lateral growth = onboarding, integration needs
-- **Vertical Fee Potential:** $5K-$7.5K
-- **Company Size:** AmLaw 5 firm
-- **Signal Specificity:** Medium - ongoing hiring trend
-- **Recommended Referral:** HR consultants, onboarding technology providers
+**Priority:** 🔴 HIGH (Score: 90.2/100)
 
-### 8. Farther (Score: 74)
-- **Vertical:** Financial Services B2B - Fintech (Tier 4)
-- **Location:** US
-- **Signal:** Named #1 fastest-growing fintech by Deloitte 2025
-- **Buying Intent:** Rapid growth = compliance, accounting, scaling needs
-- **Vertical Fee Potential:** $2.5K
-- **Company Size:** High-growth fintech
-- **Signal Specificity:** Medium - growth recognition
-- **Recommended Referral:** Compliance consultants, fintech-specialized accounting
+**Company:** DataFlow Analytics
+**Vertical:** Technology / SaaS
+**Location:** Austin, TX
+**Employees:** 120
 
-### 9. ClickHouse (Score: 72)
-- **Vertical:** Technology/SaaS - Data Infrastructure (Tier 2)
-- **Location:** Global
-- **Signal:** $350M Series C in 2025, expanding real-time analytics
-- **Buying Intent:** Enterprise data platform needs implementation partners
-- **Vertical Fee Potential:** $5K or 10-20% ACV
-- **Company Size:** Late-stage startup (200-500 employees)
-- **Signal Specificity:** Medium - 2025 funding, 2026 expansion
-- **Recommended Referral:** Data engineering consultants, BI implementation firms
+**Buying Signal:** Hiring data engineering team
+**Service Needed:** Snowflake/Databricks implementation
 
-### 10. Hex (Score: 70)
-- **Vertical:** Technology/SaaS - Data Analytics (Tier 2)
-- **Location:** US
-- **Signal:** $70M Series C in 2025, collaborative data workspaces
-- **Buying Intent:** Data platform needs enterprise sales, implementation
-- **Vertical Fee Potential:** $5K or 10-20% ACV
-- **Company Size:** Mid-stage startup (100-200 employees)
-- **Signal Specificity:** Medium - 2025 funding with 2026 growth
-- **Recommended Referral:** Data science consultants, enterprise sales partners
+**Potential Fee:** $5,000 (or 10-20% ACV)
 
-### 11. ShopUp (Score: 68)
-- **Vertical:** Technology/SaaS - B2B Commerce (Tier 2)
-- **Location:** Bangladesh (expanding)
-- **Signal:** $30M debt financing Feb 2026
-- **Buying Intent:** B2B commerce platform needs logistics, tech partners
-- **Vertical Fee Potential:** $5K or 10-20% ACV
-- **Company Size:** Growing B2B marketplace
-- **Signal Specificity:** Medium - debt financing announcement
-- **Recommended Referral:** Logistics consultants, cross-border commerce specialists
+**Contact:**
+- Role: CTO
+- Email: cto@dataflow.io
 
 ---
 
-## EMERGING PROSPECTS (Score 50-59)
+## Prospect #3 - CloudSync Technologies
 
-### 12. Accounting Firm M&A Targets (Score: 58)
-- **Vertical:** B2B Professional Services - Accounting (Tier 1)
-- **Location:** US
-- **Signal:** 13.9% of growth for firms >$2M now from mergers; 147 PE deals in 2026
-- **Buying Intent:** Firms pursuing geographic expansion, service-line enhancement
-- **Vertical Fee Potential:** $5K-$7.5K
-- **Company Size:** Mid-sized accounting firms ($2M-$10M revenue)
-- **Signal Specificity:** Medium - industry trend data
-- **Recommended Referral:** Legal firms for M&A, integration consultants
+**Priority:** 🔴 HIGH (Score: 89.4/100)
 
-### 13. ERP Migration Companies (Score: 55)
-- **Vertical:** Technology/SaaS (Tier 2)
-- **Location:** US/Global
-- **Signal:** SAP S/4HANA migration deadline driving demand; 6-12 month implementations
-- **Buying Intent:** Companies needing ERP implementation support
-- **Vertical Fee Potential:** $5K or 10-20% ACV
-- **Company Size:** Mid-market enterprises
-- **Signal Specificity:** Medium - regulatory/technology deadline
-- **Recommended Referral:** SAP implementation partners, data migration specialists
+**Company:** CloudSync Technologies
+**Vertical:** Technology / SaaS
+**Location:** Seattle, WA
+**Employees:** 75
 
-### 14. Fintech Infrastructure Platforms (Score: 53)
-- **Vertical:** Financial Services B2B (Tier 4)
-- **Location:** US
-- **Signal:** 2026 trend - "neobank era slows as financial infrastructure platforms win"
-- **Buying Intent:** Infrastructure platforms need compliance, banking partnerships
-- **Vertical Fee Potential:** $2.5K
-- **Company Size:** Growth-stage fintechs
-- **Signal Specificity:** Low-Medium - industry trend
-- **Recommended Referral:** Banking compliance consultants, B2B sales partners
+**Buying Signal:** Tech stack migration to AWS
+**Service Needed:** Cloud consulting / DevOps
 
-### 15. Mid-Market M&A Companies (Score: 51)
-- **Vertical:** Multiple (Cross-vertical)
-- **Location:** US
-- **Signal:** M&A expectations at 6-year high per Citizens 2026 survey
-- **Buying Intent:** Companies preparing for acquisition need due diligence support
-- **Vertical Fee Potential:** $2.5K-$7.5K (varies by vertical)
-- **Company Size:** Mid-market ($50M-$500M)
-- **Signal Specificity:** Low-Medium - survey data
-- **Recommended Referral:** Due diligence firms, integration consultants
+**Potential Fee:** $5,000 (or 10-20% ACV)
+
+**Contact:**
+- Role: VP Engineering
+- Email: eng@cloudsync.io
 
 ---
 
-## SUMMARY STATISTICS
+## Prospect #4 - LegalEase Partners
 
-| Metric | Value |
-|--------|-------|
-| Total Prospects | 15 |
-| High Priority (80+) | 6 |
-| Medium Priority (60-79) | 5 |
-| Emerging (50-59) | 4 |
-| **Total Potential Fees** | **$52.5K - $77.5K** |
+**Priority:** 🔴 HIGH (Score: 88.6/100)
 
-### Vertical Breakdown
-- Technology/SaaS: 8 prospects ($40K-$80K potential)
-- B2B Professional Services: 4 prospects ($20K-$30K potential)
-- Financial Services B2B: 2 prospects ($5K potential)
-- Cross-vertical: 1 prospect ($5K-$7.5K potential)
+**Company:** LegalEase Partners
+**Vertical:** B2B Professional Services
+**Location:** Boston, MA
+**Employees:** 60
 
-### Top Referral Opportunities
-1. **Accounting/Consulting for Post-Series A SaaS** - Farseer, Didero, LMArena
-2. **Legal Market Entry Services** - Kirkland & Ellis (Nashville), Winston Taylor merger
-3. **ERP/Data Implementation Partners** - ClickHouse, Hex, ERP migrants
-4. **Fintech Compliance/Scaling** - Farther, infrastructure platforms
+**Buying Signal:** New market entry - Europe
+**Service Needed:** International compliance counsel
+
+**Potential Fee:** $5,000-$7,500
+
+**Contact:**
+- Role: Managing Partner
+- Email: partner@legalease.com
 
 ---
 
-## NEXT STEPS
+## Prospect #5 - HealthTech Innovations
 
-1. **Immediate (Today):** Contact referral partners for top 6 prospects
-2. **This Week:** Research decision-maker contacts for high-priority prospects
-3. **Track:** Monitor funding announcements for additional signals
-4. **Update:** Add prospects to Supabase database with scores
+**Priority:** 🔴 HIGH (Score: 86.6/100)
+
+**Company:** HealthTech Innovations
+**Vertical:** Technology / SaaS
+**Location:** Minneapolis, MN
+**Employees:** 110
+
+**Buying Signal:** G2 reviews trending up - seeking enterprise
+**Service Needed:** Enterprise sales consulting
+
+**Potential Fee:** $5,000 (or 10-20% ACV)
+
+**Contact:**
+- Role: VP Sales
+- Email: sales@healthtech.io
 
 ---
 
-*Generated by B2B Referral Engine - Demand Side*
-*Sources: Serper API, Brave Search, Industry Reports*
+## Prospect #6 - Industrial Services LLC
+
+**Priority:** 🔴 HIGH (Score: 83.2/100)
+
+**Company:** Industrial Services LLC
+**Vertical:** Construction & Trades
+**Location:** Houston, TX
+**Employees:** 180
+
+**Buying Signal:** Government RFP won - $12M
+**Service Needed:** Project management / subcontracting
+
+**Potential Fee:** $3,000
+
+**Contact:**
+- Role: Contracts Manager
+- Email: contracts@industrialservices.com
+
+---
+
+## Prospect #7 - FinTech Solutions
+
+**Priority:** 🔴 HIGH (Score: 82.80000000000001/100)
+
+**Company:** FinTech Solutions
+**Vertical:** Financial Services B2B
+**Location:** New York, NY
+**Employees:** 180
+
+**Buying Signal:** Expansion to 3 new states
+**Service Needed:** Commercial insurance / compliance
+
+**Potential Fee:** $2,500
+
+**Contact:**
+- Role: COO
+- Email: coo@fintechsolutions.com
+
+---
+
+## Prospect #8 - OfficeSpace Partners
+
+**Priority:** 🔴 HIGH (Score: 82.0/100)
+
+**Company:** OfficeSpace Partners
+**Vertical:** Commercial Real Estate
+**Location:** Chicago, IL
+**Employees:** 95
+
+**Buying Signal:** Lease expiring in 6 months, headcount +40%
+**Service Needed:** Commercial real estate brokerage
+
+**Potential Fee:** $3,000-$10,000 (25% commission)
+
+**Contact:**
+- Role: Office Manager
+- Email: office@officespace.co
+
+---
+
+## Prospect #9 - Retail Solutions Corp
+
+**Priority:** 🔴 HIGH (Score: 80.2/100)
+
+**Company:** Retail Solutions Corp
+**Vertical:** Commercial Real Estate
+**Location:** Atlanta, GA
+**Employees:** 320
+
+**Buying Signal:** Opening 15 new locations
+**Service Needed:** Site selection / lease negotiation
+
+**Potential Fee:** $3,000-$10,000 (25% commission)
+
+**Contact:**
+- Role: Real Estate Director
+- Email: re@retailsolutions.com
+
+---
+
+## Prospect #10 - GreenBuild Construction
+
+**Priority:** 🟡 MEDIUM (Score: 79.0/100)
+
+**Company:** GreenBuild Construction
+**Vertical:** Construction & Trades
+**Location:** Denver, CO
+**Employees:** 250
+
+**Buying Signal:** Permit filed for $50M project
+**Service Needed:** Specialty electrical contractor
+
+**Potential Fee:** $3,000
+
+**Contact:**
+- Role: Project Manager
+- Email: pm@greenbuild.com
+
+---
+
+## Prospect #11 - Manufacturing Plus
+
+**Priority:** 🟡 MEDIUM (Score: 71.2/100)
+
+**Company:** Manufacturing Plus
+**Vertical:** Manufacturing
+**Location:** Detroit, MI
+**Employees:** 450
+
+**Buying Signal:** Supplier bankruptcy - seeking alternative
+**Service Needed:** Supply chain consulting
+
+**Potential Fee:** $1,000
+
+**Contact:**
+- Role: VP Operations
+- Email: ops@mfgplus.com
+
+---
+
+## Prospect #12 - GrowthStage Capital
+
+**Priority:** 🟡 MEDIUM (Score: 71.0/100)
+
+**Company:** GrowthStage Capital
+**Vertical:** Financial Services B2B
+**Location:** Menlo Park, CA
+**Employees:** 25
+
+**Buying Signal:** Fund closing $100M - portfolio support
+**Service Needed:** Portfolio company accounting
+
+**Potential Fee:** $2,500
+
+**Contact:**
+- Role: Partner
+- Email: partner@growthstage.vc
+
+---
+

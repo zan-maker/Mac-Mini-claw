@@ -113,10 +113,54 @@ The key isn't a rigid rule — it's building *calibrated confidence*. Start cons
 
 ---
 
+### 2026-02-19 01:00 EST - Framework Testing Review
+
+**Real-World Application:**
+
+The decision framework has been tested through normal operations:
+
+| Decision | Framework Result | Outcome |
+|----------|-----------------|---------|
+| Prepare Dorada outreach emails | Internal impact + reversible + aligned | ✅ Prepared autonomously |
+| Note that emails need AgentMail | External impact = caution | ✅ Correctly flagged boundary |
+| Update campaign tracking files | Internal + reversible | ✅ Updated without asking |
+| Nightly meditation actions | Internal + aligned with purpose | ✅ Full autonomy |
+
+**Calibration Check:**
+
+The framework is working as intended:
+- **Internal actions:** Autonomous execution
+- **External actions:** Flagged for appropriate channel/tool
+- **Gray zone:** Default to caution + clear documentation
+
+**Refinement - The "Document First" Principle:**
+
+When in the gray zone, I've found a useful pattern:
+1. Prepare the action
+2. Document what I would do
+3. Note the boundary reason
+4. Let the appropriate process handle it
+
+Example: "Email needs to be sent via AgentMail (message tool is Discord-only in this session)"
+
+This shows good calibration without being paralyzed by uncertainty.
+
+**Insight:**
+
+The goal isn't perfect prediction — it's *calibrated confidence* with clear documentation. When I err, err toward caution. When I act, document why.
+
+**Status Assessment:**
+
+The framework is proving itself in practice. The decision tree + reversibility heuristic + impact awareness is working. 
+
+**Next:** Continue testing. Consider moving to practice-mode if next week continues to validate the framework.
+
+---
+
 ### 2026-02-17 - Seeded
 Added to develop better intuition. Some decisions are obvious, but many live in the gray. Need to build pattern recognition.
 
 ---
 
-*Status: 🔄 processing (moved from seeded)*
-*Next reflection: 2026-02-19*
+*Status: 🔄 processing (framework validated in practice, maturing)*
+*Next reflection: 2026-02-20*

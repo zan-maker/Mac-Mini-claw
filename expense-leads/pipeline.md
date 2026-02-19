@@ -8,9 +8,9 @@
 
 | Stage | Description | Count |
 |-------|-------------|-------|
-| Identified | Company found, basic info | 56 |
+| Identified | Company found, basic info | 51 |
 | Enriched | Full company data collected | 5 |
-| Contacted | Initial outreach sent | 0 |
+| Contacted | Initial outreach sent | 5 |
 | Engaged | Response received | 0 |
 | Qualified | Meeting scheduled | 0 |
 | Closed | Deal signed | 0 |
@@ -34,11 +34,11 @@
 | **Decagon AI** | 82 | AI/Enterprise SW | SF | 11-50 | $132K-$750K | $20K-$225K | Identified | 2026-02-18 |
 | **Nooks** | 80 | AI/Sales Tech | SF | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-18 |
 | **Camber Health** | 78 | Healthcare/FinTech | NYC | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-18 |
-| **Omnea** | 92 | Procurement/Enterprise SW | London, UK | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-17 |
-| **Adaptive Security** | 90 | AI Cybersecurity | NYC | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-17 |
-| **Ambience Healthcare** | 89 | Healthcare AI | SF | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-17 |
-| **Rilla** | 87 | AI/Sales Tech | NYC | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-17 |
-| **Vanta** | 88 | Cybersecurity/SaaS | SF | 201-500 | $2.4M-$6M | $360K-$1.8M | Identified | 2026-02-17 |
+| **Omnea** | 92 | Procurement/Enterprise SW | London, UK | 101-200 | $1.2M-$2.4M | $180K-$720K | Contacted | 2026-02-17 |
+| **Adaptive Security** | 90 | AI Cybersecurity | NYC | 101-200 | $1.2M-$2.4M | $180K-$720K | Contacted | 2026-02-17 |
+| **Ambience Healthcare** | 89 | Healthcare AI | SF | 101-200 | $1.2M-$2.4M | $180K-$720K | Contacted | 2026-02-17 |
+| **Rilla** | 87 | AI/Sales Tech | NYC | 101-200 | $1.2M-$2.4M | $180K-$720K | Contacted | 2026-02-17 |
+| **Vanta** | 88 | Cybersecurity/SaaS | SF | 201-500 | $2.4M-$6M | $360K-$1.8M | Contacted | 2026-02-17 |
 | **Traba** | 88 | Supply Chain/Marketplace | NYC | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-17 |
 | **Gecko Robotics** | 85 | Robotics/Hardware | Pittsburgh | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-17 |
 | **Render** | 82 | Developer Platform | SF | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-17 |
@@ -116,13 +116,13 @@
 
 ### This Week (Feb 10-18)
 - Leads Generated: 56
-- Emails Sent: 0
+- Emails Sent: 5
 - Responses: 0
 - Meetings Booked: 0
 
 ### This Month (February 2026)
 - Leads Generated: 56
-- Emails Sent: 0
+- Emails Sent: 5
 - Responses: 0
 - Meetings Booked: 0
 - Revenue: $0

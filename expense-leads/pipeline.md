@@ -1,6 +1,6 @@
 # Expense Reduction Lead Pipeline
 
-**Last Updated:** 2026-02-18 9:03 AM EST
+**Last Updated:** 2026-02-19 9:05 AM EST
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Stage | Description | Count |
 |-------|-------------|-------|
-| Identified | Company found, basic info | 51 |
+| Identified | Company found, basic info | 71 |
 | Enriched | Full company data collected | 5 |
 | Contacted | Initial outreach sent | 5 |
 | Engaged | Response received | 0 |
@@ -50,6 +50,18 @@
 | Automata | 80 | Robotics/Biotech | UK | 150-250 | $1.8M-$3.75M | $270K-$1.125M | Identified | 2026-02-16 |
 | Datalinx AI | 78 | Data/Analytics | US | 25-50 | $300K-$750K | $45K-$225K | Identified | 2026-02-16 |
 | 4baseCare | 75 | Healthcare/Biotech | IN | 80-130 | $960K-$1.95M | $144K-$585K | Identified | 2026-02-16 |
+| **PaleBlueDot AI** | 98 | Cloud Computing/AI | US | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-19 |
+| **Upwind Security** | 96 | Cyber Security | US | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-19 |
+| **Bedrock Robotics** | 95 | Construction AI/Robotics | US | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-19 |
+| **Positron** | 94 | AI/Hardware | US | 101-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-19 |
+| **Cambium** | 92 | Energy/Materials | El Segundo, CA | 53 | $636K-$795K | $95K-$238K | Identified | 2026-02-19 |
+| **Northwood Space** | 90 | Aerospace/Telecom | US | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-19 |
+| **Apella** | 89 | AI/Healthcare | Oakland, CA | 120 | $1.44M-$1.8M | $216K-$540K | Identified | 2026-02-19 |
+| **QuantX Biosciences** | 88 | Biotechnology | US | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-19 |
+| **Overland AI** | 87 | Robotics/Automotive | US | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-19 |
+| **Bretton AI (Greenlite)** | 86 | FinTech/AI | US | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-19 |
+| **Osmo** | 85 | AI/Healthcare | US | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-19 |
+| **Listen Labs** | 84 | AI/Market Research | SF | 47 | $564K-$705K | $85K-$211K | Identified | 2026-02-19 |
 
 ### Medium Priority (Score 50-69)
 
@@ -77,6 +89,12 @@
 | KIME | 56 | AI/Marketing | DK | 15-25 | $180K-$375K | $27K-$113K | Identified | 2026-02-16 |
 | IrisGo.AI | 54 | AI Software | US | 18-30 | $216K-$450K | $32K-$135K | Identified | 2026-02-16 |
 | Rainbow Weather | 52 | Analytics AI | PL | 25-40 | $300K-$600K | $45K-$180K | Identified | 2026-02-16 |
+| **GenLogs** | 68 | Logistics/AI | US | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-19 |
+| **Alaffia Health** | 66 | Healthcare/AI | US | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-19 |
+| **Hydrosat** | 64 | AgriTech/Satellite | Washington, DC | 90 | $1.08M-$1.35M | $162K-$405K | Identified | 2026-02-19 |
+| **Accelsius** | 62 | Data Center | Austin, TX | 76 | $912K-$1.14M | $137K-$342K | Identified | 2026-02-19 |
+| **WithCoverage** | 60 | Insurance/Risk | NYC | 48 | $576K-$720K | $86K-$216K | Identified | 2026-02-19 |
+| **Mediar Therapeutics** | 58 | Biotech/Healthcare | Cambridge, MA | 49 | $588K-$735K | $88K-$220K | Identified | 2026-02-19 |
 
 ### Low Priority (Score 30-49)
 
@@ -92,6 +110,8 @@
 | Kasti.ai | 45 | Education AI | US | 5-12 | $60K-$180K | $9K-$54K | Identified | 2026-02-16 |
 | NoMagic | 42 | Robotics | PL | 100-180 | $1.2M-$2.7M | $180K-$810K | Identified | 2026-02-16 |
 | Chamelio | 38 | Legal AI | US | 20-40 | $240K-$600K | $36K-$180K | Identified | 2026-02-16 |
+| **Precede Bio** | 45 | Biopharma/Biotech | Boston, MA | 54 | $648K-$810K | $97K-$243K | Identified | 2026-02-19 |
+| **MontyCloud** | 42 | Cloud Management | Seattle, WA | 85 | $1.02M-$1.275M | $153K-$382K | Identified | 2026-02-19 |
 
 ---
 
@@ -107,21 +127,21 @@
 
 ## Metrics
 
-### Today (Feb 18, 2026)
-- Leads Generated: 18
-- High Priority: 8
-- Medium Priority: 7
-- Low Priority: 3
-- Estimated Potential Savings: $3.2M - $7.8M
+### Today (Feb 19, 2026)
+- Leads Generated: 20
+- High Priority: 12
+- Medium Priority: 6
+- Low Priority: 2
+- Estimated Potential Savings: $2.34M - $7.46M
 
-### This Week (Feb 10-18)
-- Leads Generated: 56
+### This Week (Feb 10-19)
+- Leads Generated: 76
 - Emails Sent: 5
 - Responses: 0
 - Meetings Booked: 0
 
 ### This Month (February 2026)
-- Leads Generated: 56
+- Leads Generated: 76
 - Emails Sent: 5
 - Responses: 0
 - Meetings Booked: 0
@@ -129,11 +149,11 @@
 
 ---
 
-## Top 3 Leads Today (Feb 18)
+## Top 3 Leads Today (Feb 19)
 
-1. **Freenome** (Score: 95) - Biotech/Healthcare, 201-500 employees, $254M Series E, $2.6B valuation, SF
-2. **Formation Bio** (Score: 92) - Healthcare/Clinical Trials, 101-200 employees, $372M Series D, NYC
-3. **Qventus** (Score: 90) - Healthcare/Predictive Analytics, 101-200 employees, $85M Series D, SF
+1. **PaleBlueDot AI** (Score: 98) - Cloud Computing/AI, $150M Series B, US-based, $180K-$720K savings potential
+2. **Upwind Security** (Score: 96) - Cyber Security, $250M Series B, US-based, $180K-$720K savings potential
+3. **Bedrock Robotics** (Score: 95) - Construction AI/Robotics, $270M Series B, US-based, $180K-$720K savings potential
 
 ---
 
@@ -143,13 +163,30 @@
 - Initial outreach sent at 2:00 PM EST
 - All emails CC'd to sam@impactquadrant.info
 - From: Zander@agentmail.to
-- **Total Pipeline Value:** $14.4M - $34.8M+ potential annual savings (56 leads)
+- **Total Pipeline Value:** $18.0M - $44.0M+ potential annual savings (76 leads)
 
 ---
 
 ## Contact Enrichment Queue
 
-**Priority for Hunter.io lookup:**
+**Priority for Hunter.io lookup (Feb 19):**
+1. palebluedot.ai
+2. upwind.io
+3. bedrockrobotics.com
+4. positron.ai
+5. northwoodspace.io
+6. quantxbio.com
+7. overland.ai
+8. greenlite.ai
+9. osmo.ai
+10. genlogs.io
+11. alaffiahealth.com
+12. hydrosat.com
+13. accelsius.com
+14. withcoverage.com
+15. montycloud.com
+
+**Previous queue (Feb 18):**
 1. freenome.com
 2. formation.bio
 3. qventus.com

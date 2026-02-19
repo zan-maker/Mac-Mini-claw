@@ -12,7 +12,7 @@
 **Use Case:** Routine conversations, quick questions, daily tasks
 
 **Characteristics:**
-- Context: 64K tokens
+- Context: 128K tokens
 - Cost: Lower than GLM-5
 - Speed: Fast responses
 - Best for: General chat, simple queries, coordination

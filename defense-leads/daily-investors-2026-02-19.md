@@ -98,4 +98,16 @@
 3. **Monitor:** India defense tech ecosystem growth
 
 ---
+
+## ✅ Contacted (2026-02-19 2:12 PM EST)
+
+All 5 investors contacted via AgentMail:
+- Maharashtra Defence & Aerospace Fund → info@mahadefencefund.in
+- Starburst Aerospace (Singapore) → singapore@starburst.aero
+- IDBI Capital Aerospace & Defence → investor.relations@idbicapital.com
+- Airbus Ventures → ventures@airbus.com
+- INCJ Japan → info@incj.co.jp
+
+---
 *Generated: 2026-02-19 09:33 AM EST*
+*Updated: 2026-02-19 02:12 PM EST - Outreach sent*

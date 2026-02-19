@@ -224,6 +224,14 @@
 - n8n, Ollama, Edge-TTS installed
 - 16 cron jobs configured for lead gen pipeline
 
+### 2026-02-19: API & Outreach Updates
+- Configured DeepSeek for primary agent (routine tasks)
+- Updated DeepSeek context window to 128K (verified via test)
+- Switched lead enrichment from Brave Search to **Tavily API** (Brave hit rate limits)
+- Sent 6 expense reduction outreach emails (2 batches)
+- Tavily API key found in environment: `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`
+- Model routing: Main agent = DeepSeek, Sub-agents = GLM-5
+
 ### 2026-02-16: Identity Finalized
 - Name: Claw
 - Creature: Daemon

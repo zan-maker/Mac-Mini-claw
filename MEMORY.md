@@ -137,11 +137,17 @@
 - **Schedule:** Daily at 11:00 AM EST
 - **Contacts:** 14 buyers across 3 waves
 - **Deals:** Tides South Beach (45 keys + expansion), Thesis Hotel Miami (245 keys + 204 multifamily)
-- **Status:** Ready to start 2026-02-18
+- **Status:** Ready (no sends yet as of 2026-02-19 - cron jobs timing out)
+
+### 7. Mining Deal Sourcing (NEW 2026-02-18)
+- **Script:** `scripts/mining-lead-gen.py`
+- **Output:** `mining-leads/daily-mining-leads-YYYY-MM-DD.md`
+- **Focus:** High-grade projects (>10g/t Au, >3% Cu), CPC/ASX companies, JV opportunities
+- **First Run:** 2026-02-18 - 5 high-grade projects, 3 CPC companies, 3 ASX companies, 2 JV opportunities
 
 ---
 
-## Cron Jobs Registry (25 Active)
+## Cron Jobs Registry (31 Active)
 
 ### Lead Generation (8)
 | Job | Schedule | Purpose |
@@ -158,13 +164,13 @@
 ### Deal Outreach (9)
 | Job | Schedule | Purpose |
 |-----|----------|---------|
-| Dorada Outreach - Wave 1 | 10 AM | Top 5 investors (Score 13-14) |
+| Dorada Outreach - Wave 1 | 10 AM | Top 5 investors (1/5 sent - Aamir Aka 2/18) |
 | Dorada Outreach - Wave 2 | 10 AM | Tier 2 investors (5 contacts) |
 | Dorada Outreach - Wave 3 | 10 AM | Wave 3 (5 contacts, hospitality focus) |
 | Dorada Outreach - Wave 4 | 10 AM | Wave 4 (7 contacts, family office focus) |
 | Dorada Outreach - Wave 5 | 10 AM | Wave 5 (11 contacts, real estate/hospitality) |
 | Dorada Outreach - Wave 6 | 10 AM | Wave 6 (9 contacts, family office/medical) |
-| Miami Hotels Wave 1 | 11 AM | Top 4 buyers (Score 18) |
+| Miami Hotels Wave 1 | 11 AM | Top 4 buyers (0/4 sent - timing out) |
 | Miami Hotels Wave 2 | 11 AM | Secondary buyers (5 contacts) |
 | Miami Hotels Wave 3 | 11 AM | Additional buyers (5 contacts) |
 
@@ -183,6 +189,7 @@
 | Daily GitHub Backup | 24h | Workspace backup |
 | Nightly Meditation | 1 AM | Self-improvement |
 | Autonomous Time | 2 AM | Exploration |
+| Mining Lead Gen | 9:30 AM | High-grade mining projects |
 
 ---
 

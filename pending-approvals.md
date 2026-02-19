@@ -82,6 +82,26 @@ When an autonomous session identifies actions that affect the outside world, the
 3. Test Discord API connectivity
 4. Check if Discord rate limiting is occurring
 
+### [2026-02-19] Fix Cron Job Timeouts
+**Status:** pending
+**Rationale:** Multiple lead gen and outreach cron jobs are timing out (5-10 min limits). Miami Hotels Wave 1/3, Expense Lead Gen affected.
+**Impact:** Outreach campaigns not executing, leads not being generated.
+**Risk:** Medium — lost business opportunities.
+**Proposed Fix:**
+1. Increase timeout for lead gen jobs from 300s to 600s
+2. Or split large jobs into smaller batches
+3. Consider staggering 9 AM jobs to reduce concurrent load
+
+### [2026-02-19] Resolve zai/glm-5 Rate Limiting
+**Status:** pending
+**Rationale:** Deal Origination - Sellers job hit rate limit: "Provider zai is in cooldown (all profiles unavailable)"
+**Impact:** Seller lead generation paused during rate limit windows.
+**Risk:** Low — job will retry automatically.
+**Proposed Fix:**
+1. Stagger 9 AM jobs to reduce burst load
+2. Consider fallback model for lead gen jobs
+3. Monitor zai API usage patterns
+
 ---
 
 *Last updated: 2026-02-18 02:15 EST*

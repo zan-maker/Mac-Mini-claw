@@ -232,6 +232,12 @@
 - Tavily API key found in environment: `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`
 - Model routing: Main agent = DeepSeek, Sub-agents = GLM-5
 
+### 2026-02-20: Cron Job Maintenance
+- Fixed 7 cron jobs with incorrect model specification (`glm-5` → `zai/glm-5`)
+- Jobs affected: Token Monitor, Mining Lead Gen, API Usage Check, Critical Alert, NBA Cash Outs, Options Report
+- Added options-recommender/ and sports-betting/ modules
+- Sports betting: Net +$34.36 in Feb (Hawks +$53, Pacers -$18.64)
+
 ### 2026-02-16: Identity Finalized
 - Name: Claw
 - Creature: Daemon

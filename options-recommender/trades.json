@@ -1,0 +1,32 @@
+[
+  {
+    "id": "AAPL-20260219-001",
+    "symbol": "AAPL",
+    "strategy": "bull_put",
+    "side": "sell",
+    "quantity": 2,
+    "entry_price": 0.4,
+    "entry_date": "2026-02-19",
+    "strike": 180.0,
+    "expiration": "2026-03-07",
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "notes": "Bull put spread, 180/175 strikes"
+  },
+  {
+    "id": "MSFT-20260219-002",
+    "symbol": "MSFT",
+    "strategy": "bear_call",
+    "side": "sell",
+    "quantity": 1,
+    "entry_price": 0.35,
+    "entry_date": "2026-02-19",
+    "strike": 420.0,
+    "expiration": "2026-03-14",
+    "status": "open",
+    "exit_price": null,
+    "exit_date": null,
+    "notes": "Bear call spread, 420/425 strikes"
+  }
+]

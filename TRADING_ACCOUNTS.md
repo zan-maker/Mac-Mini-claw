@@ -30,22 +30,33 @@
 
 ### 2. Tastytrade (NEW - 2026-02-20)
 **Account Type:** Margin
+**Account Number:** `5WI41087` ✅
 **Options Focus:** Advanced options execution
-**Status:** ⚠️ API Key Invalid/Expired
+**Status:** ✅ **API OPERATIONAL**
 
-**API Key:** `80e479d6235f546b188f9c86ec53bf80019c4bff`
-**Integration:** `/workspace/skills/trade-recommender/tastytrade_client.py`
+**OAuth Credentials:**
+- Client ID: `0c7b8898-a2f1-49bb-a23d-843e47b68631`
+- Client Secret: Configured
+- Refresh Token: Configured (never expires)
+
+**Integration:** `/workspace/skills/trade-recommender/tastytrade_oauth_client.py`
 
 **Features:**
-- Full option chains with Greeks
-- Real-time quotes
-- Advanced order types
-- Spread trading
-- Low commissions
+- ✅ OAuth 2.0 authentication working
+- ✅ Account access verified
+- ✅ Balance endpoint accessible
+- ✅ Full option chains with Greeks
+- ✅ Real-time quotes
+- ✅ Advanced order types
+- ✅ Spread trading
+- ✅ Low commissions
 
-**Action Required:** Generate new API key at https://developer.tastytrade.com/
+**Account Status:**
+- Created: 2026-02-20
+- Balance: $0.00 (new account - needs funding)
+- Positions: None
 
-**Use Case:** Options execution platform (complements Webull)
+**Use Case:** Primary options execution platform
 
 ---
 
@@ -96,9 +107,9 @@
 
 | Brokerage | API Key | Status | Use Case |
 |-----------|---------|--------|----------|
-| **Tastytrade** | `80e479d6235f546b188f9c86ec53bf80019c4bff` | ⚠️ Invalid | Options execution |
+| **Tastytrade** | OAuth 2.0 | ✅ Active | Options execution (primary) |
 | **Public.com** | `uHdIMj7dBcttYdNlqFbk67woyC4YR04N` | ✅ Active | Stock quotes, portfolio |
-| **Webull** | TBD | 🔄 New | Options strategies |
+| **Webull** | TBD | 🔄 New | Options strategies (backup) |
 | **Alpaca** | Configured | ✅ Active | Algorithmic trading |
 | **Kalshi** | `fb109d35-efc3-42b1-bdba-0ee2a1e90ef8` | ✅ Active | Event markets |
 | **The Odds API** | `a2584115f9fd3d4520f34449495a9d4f` | ✅ Active | Sportsbook odds |

@@ -53,8 +53,10 @@
 
 **Account Status:**
 - Created: 2026-02-20
-- Balance: $0.00 (new account - needs funding)
+- **Funded: $100.00** (2026-02-20 12:10 PM)
+- Balance: ⏳ Pending API sync (5-15 min)
 - Positions: None
+- **Status:** ✅ **READY FOR TRADING**
 
 **Use Case:** Primary options execution platform
 
@@ -105,8 +107,9 @@
 
 ## API Configuration
 
-| Brokerage | API Key | Status | Use Case |
-|-----------|---------|--------|----------|
+| Data Source | API Key | Status | Use Case |
+|-------------|---------|--------|----------|
+| **Twelve Data** | `26b639a38e124248ba08958bcd72566f` | ✅ Active | Real-time quotes, technical analysis |
 | **Tastytrade** | OAuth 2.0 | ✅ Active | Options execution (primary) |
 | **Public.com** | `uHdIMj7dBcttYdNlqFbk67woyC4YR04N` | ✅ Active | Stock quotes, portfolio |
 | **Webull** | TBD | 🔄 New | Options strategies (backup) |

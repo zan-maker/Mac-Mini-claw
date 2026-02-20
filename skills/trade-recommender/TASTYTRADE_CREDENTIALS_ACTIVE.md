@@ -43,9 +43,11 @@
 **Location:** Bronxville, NY 10708
 
 **Current Balance:**
-- Cash: $0.00 (new account)
-- Buying Power: $0.00
-- Net Liquidating Value: $0.00
+- **Funded:** $100.00 (2026-02-20)
+- **Status:** ⏳ Pending API reflection
+- **Cash:** $0.00 (API not yet updated)
+- **Buying Power:** $0.00 (API not yet updated)
+- **Note:** Funding submitted, awaiting API sync (5-15 min typical)
 
 **Positions:** None (new account)
 

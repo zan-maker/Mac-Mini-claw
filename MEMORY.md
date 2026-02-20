@@ -21,6 +21,11 @@
 - **Interests:** Trading, AI agency services, lead generation, automation
 - **Timezone:** America/New_York
 
+### Trading Accounts (as of 2026-02-20)
+- **Webull:** Margin account, Level 3 options (advanced strategies)
+- **Public.com:** Standard account, stock trading
+- **Alpaca:** Margin account, algorithmic trading
+
 ---
 
 ## Workspace Architecture

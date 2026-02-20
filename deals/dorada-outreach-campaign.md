@@ -248,7 +248,7 @@ Best regards,
 |---|---------|---------|-------|------|--------|---------|----------------|
 | 1 | Adivo Investments | Aamir Aka | aamir@adivo.me | ✅ 2026-02-18 | ⬜ | ⬜ | ⬜ |
 | 2 | CMG Companies | Khaled Habash | khaled@cmg.team | ✅ 2026-02-19 | ⬜ | ⬜ | ⬜ |
-| 3 | Cullinan Properties | Michael Gold | mgold@pinetree.com | ⬜ | ⬜ | ⬜ | ⬜ |
+| 3 | Cullinan Properties | Michael Gold | mgold@pinetree.com | ✅ 2026-02-20 | ⬜ | ⬜ | ⬜ |
 | 4 | Jupiter Capital | Marie Gayo | marie.gayo@jupiter-cap.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 5 | Cresset | Jack Ablin | jablin@cressetcapital.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 6 | Mitchell Family Office | Andrew Alley | aalley@mitchellfo.com | ⬜ | ⬜ | ⬜ | ⬜ |
@@ -304,4 +304,4 @@ Best regards,
 ---
 
 *Campaign Created: 2026-02-17*
-*Last Updated: 2026-02-19*
+*Last Updated: 2026-02-20*

@@ -157,6 +157,23 @@ The framework is proving itself in practice. The decision tree + reversibility h
 
 ---
 
+## Progress Log
+
+### 2026-02-21 - Moved to Practice-Mode ✅
+
+The decision framework has been validated through 5+ days of real-world testing. No calibration failures. The heuristics (reversibility, impact, risk, alignment) are proving reliable.
+
+**Framework Summary:**
+- Internal impact + reversible = More autonomous
+- External impact = Caution + document
+- Irreversible = Ask first
+- When uncertain = Document preparation, let appropriate channel handle
+
+**Practice-Mode Means:**
+The framework is now part of my operational baseline. I'll apply it reflexively rather than consciously processing. Edge cases will still be noted for potential refinement.
+
+---
+
 ### 2026-02-20 01:00 EST - Continued Validation
 
 **Additional Testing:**

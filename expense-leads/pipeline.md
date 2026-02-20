@@ -1,6 +1,6 @@
 # Expense Reduction Lead Pipeline
 
-**Last Updated:** 2026-02-19 9:05 AM EST
+**Last Updated:** 2026-02-20 9:05 AM EST
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Stage | Description | Count |
 |-------|-------------|-------|
-| Identified | Company found, basic info | 71 |
+| Identified | Company found, basic info | 89 |
 | Enriched | Full company data collected | 5 |
 | Contacted | Initial outreach sent | 5 |
 | Engaged | Response received | 0 |
@@ -62,6 +62,14 @@
 | **Bretton AI (Greenlite)** | 86 | FinTech/AI | US | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-19 |
 | **Osmo** | 85 | AI/Healthcare | US | 51-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-19 |
 | **Listen Labs** | 84 | AI/Market Research | SF | 47 | $564K-$705K | $85K-$211K | Identified | 2026-02-19 |
+| **Stainless** | 85 | SaaS/API Platform | NYC | 11-50 | $450K-$750K | $67K-$225K | Identified | 2026-02-20 |
+| **Chamelio AI** | 83 | Legal Tech/AI | US | 50-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-20 |
+| **Abridge** | 82 | Healthcare AI | US | 100-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-20 |
+| **Rippling** | 80 | HR Tech/Fintech | SF | 100-300 | $1.2M-$3.6M | $180K-$1.08M | Identified | 2026-02-20 |
+| **Harvey AI** | 79 | Legal Tech/AI | US | 100-200 | $1.2M-$2.4M | $180K-$720K | Identified | 2026-02-20 |
+| **Legora** | 77 | SaaS/Enterprise | Stockholm | 50-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-20 |
+| **Tacto** | 75 | SaaS/Enterprise | Munich | 50-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-20 |
+| **Komodo Health** | 73 | Healthcare Tech | US | 200-400 | $2.4M-$4.8M | $360K-$1.44M | Identified | 2026-02-20 |
 
 ### Medium Priority (Score 50-69)
 
@@ -95,6 +103,13 @@
 | **Accelsius** | 62 | Data Center | Austin, TX | 76 | $912K-$1.14M | $137K-$342K | Identified | 2026-02-19 |
 | **WithCoverage** | 60 | Insurance/Risk | NYC | 48 | $576K-$720K | $86K-$216K | Identified | 2026-02-19 |
 | **Mediar Therapeutics** | 58 | Biotech/Healthcare | Cambridge, MA | 49 | $588K-$735K | $88K-$220K | Identified | 2026-02-19 |
+| **Feedzai** | 68 | Fintech/Risk Management | US | 100-300 | $1.2M-$3.6M | $180K-$1.08M | Identified | 2026-02-20 |
+| **Lawhive** | 65 | Legal Tech/AI | London | 50-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-20 |
+| **SEKO Logistics** | 62 | Logistics/Supply Chain | US | 1,900 | $1.5M-$2M | $225K-$600K | Identified | 2026-02-20 |
+| **Josef** | 60 | Legal Tech/Automation | Australia | 50-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-20 |
+| **Upgrade** | 58 | Fintech/Lending | US | 200-500 | $2.4M-$6M | $360K-$1.8M | Identified | 2026-02-20 |
+| **Redwood Logistics** | 55 | Logistics/Supply Chain | Chicago | 200-400 | $2.4M-$4.8M | $360K-$1.44M | Identified | 2026-02-20 |
+| **Relias** | 52 | Healthcare Tech | US | 200-400 | $2.4M-$4.8M | $360K-$1.44M | Identified | 2026-02-20 |
 
 ### Low Priority (Score 30-49)
 
@@ -112,6 +127,9 @@
 | Chamelio | 38 | Legal AI | US | 20-40 | $240K-$600K | $36K-$180K | Identified | 2026-02-16 |
 | **Precede Bio** | 45 | Biopharma/Biotech | Boston, MA | 54 | $648K-$810K | $97K-$243K | Identified | 2026-02-19 |
 | **MontyCloud** | 42 | Cloud Management | Seattle, WA | 85 | $1.02M-$1.275M | $153K-$382K | Identified | 2026-02-19 |
+| **Centric Consulting** | 45 | Professional Services | US | 200-500 | $2.4M-$6M | $360K-$1.8M | Identified | 2026-02-20 |
+| **Concourse** | 40 | SaaS/Financial | US | 50-100 | $600K-$1.2M | $90K-$360K | Identified | 2026-02-20 |
+| **EY-Parthenon** | 35 | Strategy Consulting | Global | 300-500 | $3.6M-$6M | $540K-$1.8M | Identified | 2026-02-20 |
 
 ---
 
@@ -127,21 +145,21 @@
 
 ## Metrics
 
-### Today (Feb 19, 2026)
-- Leads Generated: 20
-- High Priority: 12
-- Medium Priority: 6
-- Low Priority: 2
-- Estimated Potential Savings: $2.34M - $7.46M
+### Today (Feb 20, 2026)
+- Leads Generated: 18
+- High Priority: 8
+- Medium Priority: 7
+- Low Priority: 3
+- Estimated Potential Savings: $3.4M - $15.6M
 
-### This Week (Feb 10-19)
-- Leads Generated: 76
+### This Week (Feb 10-20)
+- Leads Generated: 94
 - Emails Sent: 5
 - Responses: 0
 - Meetings Booked: 0
 
 ### This Month (February 2026)
-- Leads Generated: 76
+- Leads Generated: 94
 - Emails Sent: 5
 - Responses: 0
 - Meetings Booked: 0
@@ -149,11 +167,11 @@
 
 ---
 
-## Top 3 Leads Today (Feb 19)
+## Top 3 Leads Today (Feb 20)
 
-1. **PaleBlueDot AI** (Score: 98) - Cloud Computing/AI, $150M Series B, US-based, $180K-$720K savings potential
-2. **Upwind Security** (Score: 96) - Cyber Security, $250M Series B, US-based, $180K-$720K savings potential
-3. **Bedrock Robotics** (Score: 95) - Construction AI/Robotics, $270M Series B, US-based, $180K-$720K savings potential
+1. **Stainless** (Score: 85) - SaaS/API Platform, $25M Series A 2024, NYC-based, $67K-$225K savings potential
+2. **Chamelio AI** (Score: 83) - Legal Tech/AI, $10M Seed Feb 2026, US-based, $90K-$360K savings potential
+3. **Abridge** (Score: 82) - Healthcare AI, $150M Series C, US-based, $180K-$720K savings potential
 
 ---
 
@@ -163,13 +181,29 @@
 - Initial outreach sent at 2:00 PM EST
 - All emails CC'd to sam@impactquadrant.info
 - From: Zander@agentmail.to
-- **Total Pipeline Value:** $18.0M - $44.0M+ potential annual savings (76 leads)
+- **Total Pipeline Value:** $21.4M - $59.6M+ potential annual savings (94 leads)
 
 ---
 
 ## Contact Enrichment Queue
 
-**Priority for Hunter.io lookup (Feb 19):**
+**Priority for Hunter.io lookup (Feb 20):**
+1. stainless.com
+2. chamelio.ai
+3. abridge.com
+4. rippling.com
+5. harvey.ai
+6. legora.com
+7. tacto.com
+8. komodohealth.com
+9. feedzai.com
+10. lawhive.com
+11. joseflegal.com
+12. upgrade.com
+13. redwoodlogistics.com
+14. relias.com
+
+**Previous queue (Feb 19):**
 1. palebluedot.ai
 2. upwind.io
 3. bedrockrobotics.com

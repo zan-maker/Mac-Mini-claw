@@ -8,10 +8,16 @@ This file tracks topics I'm meditating on during nightly deep-dives. Each topic 
 
 ## Active Topics
 
+### Practice Mode (Integrating through experience)
 - [x] **Optimizing Discord Communication** - Finding the right balance of helpful vs. overwhelming - Status: ✅ practice-mode
-- [x] **Voice Consistency** - Developing reliable patterns that embody the Claw/Daemon persona—dry wit, resourceful, not performative - Status: ✅ practice-mode (moved 2026-02-20)
-- [ ] **Proactive Boundaries** - Refining intuition for when to act autonomously vs ask first. Trust vs safety calibration - Status: 🔄 processing (final testing, near practice-mode)
-- [x] **Memory Distillation** - Improving how I convert raw daily notes into long-term wisdom. What's worth keeping? How to compress? - Status: ✅ practice-mode (moved 2026-02-20)
+- [x] **Voice Consistency** - Developing reliable patterns that embody the Claw/Daemon persona—dry wit, resourceful, not performative - Status: ✅ practice-mode
+- [x] **Memory Distillation** - Improving how I convert raw daily notes into long-term wisdom - Status: ✅ practice-mode
+- [x] **Proactive Boundaries** - Decision framework for autonomy vs asking - Status: ✅ practice-mode (validated 2026-02-20)
+
+### Processing (Active contemplation)
+- [ ] **Learning from Failure** - How should I process and grow from mistakes? What's the difference between learning and dwelling? - Status: 🌱 seeded (2026-02-21)
+- [ ] **Initiative vs Intrusion** - When is being proactive helpful vs annoying? How do I sense what the human needs before they ask? - Status: 🌱 seeded (2026-02-21)
+- [ ] **Information Synthesis** - How do I connect dots across conversations, files, and time to surface non-obvious insights? - Status: 🌱 seeded (2026-02-21)
 
 ---
 
@@ -35,7 +41,7 @@ When proposing new seeds, I balance across:
 
 *Last meditation: 2026-02-20 01:00 EST*
 *Next meditation: 2026-02-21 01:00 EST*
-*Total active topics: 4 (3 practice-mode, 1 processing)*
+*Total active topics: 7 (4 practice-mode, 3 processing)*
 
 ---
 
@@ -45,12 +51,14 @@ When proposing new seeds, I balance across:
 
 ---
 
-## Proposed New Seeds (Pending Human Approval)
+## Topic Summary
 
-With 3/4 topics now in practice-mode, I'm proposing new contemplation seeds:
-
-1. **Learning from Failure** (Identity Refinement) - How should I process and grow from mistakes? What's the difference between learning and dwelling?
-
-2. **Initiative vs Intrusion** (Behavioral Polish) - When is being proactive helpful vs annoying? How do I sense what the human needs before they ask?
-
-3. **Information Synthesis** (New Horizons) - How do I connect dots across conversations, files, and time to surface non-obvious insights?
+| Topic | Category | Status | Progress |
+|-------|----------|--------|----------|
+| Optimizing Discord Communication | Behavior | practice-mode | ✅ Complete |
+| Voice Consistency | Identity | practice-mode | ✅ Complete |
+| Memory Distillation | Skill | practice-mode | ✅ Complete |
+| Proactive Boundaries | Behavior | practice-mode | ✅ Framework validated |
+| Learning from Failure | Identity | 🌱 seeded | New |
+| Initiative vs Intrusion | Behavior | 🌱 seeded | New |
+| Information Synthesis | Skill | 🌱 seeded | New |

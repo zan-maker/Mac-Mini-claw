@@ -28,7 +28,28 @@
 
 ---
 
-### 2. Public.com
+### 2. Tastytrade (NEW - 2026-02-20)
+**Account Type:** Margin
+**Options Focus:** Advanced options execution
+**Status:** ⚠️ API Key Invalid/Expired
+
+**API Key:** `80e479d6235f546b188f9c86ec53bf80019c4bff`
+**Integration:** `/workspace/skills/trade-recommender/tastytrade_client.py`
+
+**Features:**
+- Full option chains with Greeks
+- Real-time quotes
+- Advanced order types
+- Spread trading
+- Low commissions
+
+**Action Required:** Generate new API key at https://developer.tastytrade.com/
+
+**Use Case:** Options execution platform (complements Webull)
+
+---
+
+### 3. Public.com
 **API Key:** `uHdIMj7dBcttYdNlqFbk67woyC4YR04N`
 **Account Type:** Standard
 **Features:** Stock trading, fractional shares
@@ -42,7 +63,7 @@
 
 ---
 
-### 3. Alpaca (via Trade Recommender)
+### 4. Alpaca (via Trade Recommender)
 **Status:** Configured in trade-recommender skill
 **Account Type:** Margin
 **Features:** Commission-free stock trading, paper trading
@@ -75,6 +96,7 @@
 
 | Brokerage | API Key | Status | Use Case |
 |-----------|---------|--------|----------|
+| **Tastytrade** | `80e479d6235f546b188f9c86ec53bf80019c4bff` | ⚠️ Invalid | Options execution |
 | **Public.com** | `uHdIMj7dBcttYdNlqFbk67woyC4YR04N` | ✅ Active | Stock quotes, portfolio |
 | **Webull** | TBD | 🔄 New | Options strategies |
 | **Alpaca** | Configured | ✅ Active | Algorithmic trading |

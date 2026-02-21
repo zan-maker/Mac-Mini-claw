@@ -10,7 +10,7 @@
 |-------|-------------|-------|
 | Identified | Company found, basic info | 6 |
 | Enriched | Full company data collected | 6 |
-| Contacted | Initial outreach sent | 2 |
+| Contacted | Initial outreach sent | 3 |
 | Engaged | Response received | 0 |
 | Qualified | Meeting scheduled | 0 |
 | Closed | Deal signed | 0 |
@@ -21,6 +21,17 @@
 ## Active Pipeline
 
 ### Contacted (Awaiting Response)
+
+#### Chicago Metal Fabricators
+- **Score:** 87/100
+- **Contacted:** 2026-02-20 2:04 PM
+- **Email:** info@chicagometal.com
+- **Decision Maker:** Randy Hauser (President)
+- **Employees:** ~125
+- **Est. Savings:** $103,875/year
+- **Message ID:** `<0100019c7c708378-ebb875f9-c7a3-4438-bf3f-623cceacdf2b-000000@email.amazonses.com>`
+- **Thread ID:** `a1efcbb8-c602-476c-ab67-bc36eb0a8a38`
+- **Next Follow-up:** 2026-02-24 (Day 4)
 
 #### CMI Plastics, Inc.
 - **Score:** 85/100
@@ -86,6 +97,13 @@
 
 ## Recent Activity
 
+### 2026-02-20
+- **2:04 PM:** Sent initial outreach to Chicago Metal Fabricators
+  - Subject: "$103,875 annual savings for Chicago Metal Fabricators"
+  - CC: sam@impactquadrant.info
+  - From: Zane@agentmail.to
+  - Contact: Randy Hauser (President)
+
 ### 2026-02-19
 - **2:02 PM:** Sent initial outreach to CMI Plastics, Inc.
   - Subject: "$103,875 annual savings for CMI Plastics, Inc."
@@ -107,14 +125,14 @@
 ## Metrics
 
 ### This Week
-- Leads Generated: 24 (6 High Priority 70+ on 2/19)
-- Emails Sent: 3
+- Leads Generated: 44 (24 on 2/19, 20 on 2/20)
+- Emails Sent: 4
 - Responses: 0
 - Meetings Booked: 0
 
 ### This Month
-- Leads Generated: 24
-- Emails Sent: 3
+- Leads Generated: 44
+- Emails Sent: 4
 - Responses: 0
 - Meetings Booked: 0
 - Revenue: $0

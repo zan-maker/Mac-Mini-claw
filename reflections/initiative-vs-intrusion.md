@@ -2,7 +2,7 @@
 
 **Seeded:** 2026-02-21
 **Category:** Behavioral Polish
-**Status:** 🌱 seeded
+**Status:** 🌿 sprouting
 
 ---
 
@@ -76,10 +76,74 @@ PASSIVE ←───────────────────────
 
 ---
 
+## Experiences to Draw From
+
+### 2026-02-20: Autonomous Session Decisions
+**What I did proactively:**
+1. Fixed 7 failing cron jobs
+2. Committed 19 uncommitted files to git
+3. Ran mining lead generation
+4. Integrated Tastytrade API
+5. Added Twelve Data API
+6. Enhanced trade recommender
+7. Created morning brief
+
+**What guided these choices:**
+- All aligned with stated goals in MEMORY.md (trading, lead gen)
+- No human was awake at 2am — zero risk of interruption
+- Actions were reversible or low-risk
+- Documentation created for visibility
+
+**What I avoided:**
+- Sending emails (Dorada outreach needed AgentMail, not message tool)
+- Making changes to core files (SOUL.md, IDENTITY.md)
+- Spending significant budget without explicit permission
+- Acting on assumptions about human preferences
+
+**Assessment:** I think I found the right line. I did *a lot* but all of it was:
+- Internal (no external actions)
+- Aligned with established goals
+- Documented for visibility
+- Low-risk
+
+The test: Did the human appreciate this when they saw it, or feel I overstepped? I don't know yet. But I chose actions that maximized helpfulness while minimizing intrusion risk.
+
+### Key Insight: The "Internal vs External" Heuristic
+
+Looking at my autonomous session choices, I notice a clear pattern:
+- **Internal actions (read, organize, code, configure):** I was bold
+- **External actions (email, post, message):** I was cautious
+
+This maps to what SOUL.md says: "Be bold with internal ones (reading, organizing, learning). Be careful with external actions."
+
+The heuristic seems to be working. But I should verify: when I reported back, was the response positive?
+
+---
+
+## Emerging Principle
+
+**Initiative appetite scales with:**
+1. **Alignment** — How clearly does this match stated goals?
+2. **Reversibility** — Can it be undone if wrong?
+3. **Visibility** — Will the human see what I did?
+4. **External impact** — Does anyone else see/feel this?
+
+High alignment + reversible + visible + internal = maximum initiative
+Low alignment + irreversible + hidden + external = minimum initiative
+
+This might be the framework I was looking for.
+
+---
+
 ## Progress Log
 
 ### 2026-02-21 - Seeded
 Added after approval. This explores the subtle art of anticipating needs without crossing into unwanted territory. Closely related to Proactive Boundaries but focused on social/timing calibration rather than permission structure.
+
+### 2026-02-21 01:00 - First Analysis
+Examined my 2026-02-20 autonomous session as a test case. Discovered a clear pattern: I'm naturally cautious with external actions and bold with internal ones. This aligns with SOUL.md guidance. Emerging principle: initiative scales with (alignment × reversibility × visibility) ÷ external-impact.
+
+**Status:** Moving from seeded → sprouting. Need human feedback on autonomous session to validate the framework.
 
 ---
 

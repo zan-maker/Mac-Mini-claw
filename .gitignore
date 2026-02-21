@@ -11,3 +11,6 @@
 # API alerts (transient)
 .api-alert-*
 API_KEYS.md
+
+# External repos (git submodules or cloned projects)
+defeatbeta-api/

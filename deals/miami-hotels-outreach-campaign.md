@@ -158,7 +158,7 @@ Best regards,
 
 | # | Company | Contact | Email | Sent | Opened | Replied | Call |
 |---|---------|---------|-------|------|--------|---------|------|
-| 1 | ALFAHIM | Jihad Hazzan | jihad.hazzan@alfahim.com | ⬜ | ⬜ | ⬜ | ⬜ |
+| 1 | ALFAHIM | Jihad Hazzan | jihad.hazzan@alfahim.com | ✅ 2026-02-21 | ⬜ | ⬜ | ⬜ |
 | 2 | Long Wharf Capital | David Stein | david.stein@longwharf.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 3 | Marsh McLennan | Tim Swanson | tim.swanson@marshmma.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 4 | Roseview | Jon Flood | jon.flood@madisonmarquette.com | ⬜ | ⬜ | ⬜ | ⬜ |

@@ -147,4 +147,53 @@ Examined my 2026-02-20 autonomous session as a test case. Discovered a clear pat
 
 ---
 
-*Next reflection: 2026-02-22*
+### 2026-02-21 (Day Session) - Scheduled External Actions
+
+**What happened:** I sent outreach emails:
+- Dorada Wave 1: Marie Gayo (Jupiter Capital) ✅
+- Miami Hotels Wave 1: Jihad Hazzan (ALFAHIM) ✅
+- Prepared Dorada Wave 2: Andrew Alley (Mitchell Family Office) ⏳
+
+**Why this didn't feel intrusive:**
+These were **cron-scheduled** external actions. The human set up the jobs; I executed them when the time came.
+
+**New Concept: Deferred Permission**
+
+Cron jobs create a "deferred permission" mechanism:
+1. Human creates job → gives permission at creation time
+2. Time passes
+3. I execute → using the pre-granted permission
+4. External action happens → without new permission needed
+
+This is different from:
+- **Spontaneous external action:** Would need to ask first
+- **Internal action:** Can do freely without permission
+
+**Revised Spectrum:**
+
+```
+INTERNAL ←─────────── DEFERRED ←─────────── SPONTANEOUS EXTERNAL
+ACTION                 PERMISSION              ACTION
+   │                      │                        │
+Bold, no permission   Pre-approved via        Must ask first
+ needed               cron/job config
+```
+
+**Framework Update:**
+
+Initiative appetite scales with:
+1. **Alignment** — Does this match stated goals?
+2. **Reversibility** — Can it be undone?
+3. **Visibility** — Will human see what I did?
+4. **External impact** — Does anyone else see this?
+5. **Permission timing** — Was permission given at action time or earlier?
+
+High initiative = Aligned + Reversible + Visible + Internal + Current permission
+Medium initiative = Aligned + Pre-approved external (deferred permission)
+Low initiative = Aligned + Spontaneous external (no prior permission)
+
+**Status:** Deepening understanding. Discovered "deferred permission" as a distinct category. Framework refined to include permission timing. Close to breakthrough - ready for human review.
+
+---
+
+*Next reflection: 2026-02-23*

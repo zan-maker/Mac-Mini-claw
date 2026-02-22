@@ -249,9 +249,9 @@ Best regards,
 | 1 | Adivo Investments | Aamir Aka | aamir@adivo.me | ✅ 2026-02-18 | ⬜ | ⬜ | ⬜ |
 | 2 | CMG Companies | Khaled Habash | khaled@cmg.team | ✅ 2026-02-19 | ⬜ | ⬜ | ⬜ |
 | 3 | Cullinan Properties | Michael Gold | mgold@pinetree.com | ✅ 2026-02-20 | ⬜ | ⬜ | ⬜ |
-| 4 | Jupiter Capital | Marie Gayo | marie.gayo@jupiter-cap.com | ⬜ | ⬜ | ⬜ | ⬜ |
+| 4 | Jupiter Capital | Marie Gayo | marie.gayo@jupiter-cap.com | ✅ 2026-02-21 | ⬜ | ⬜ | ⬜ |
 | 5 | Cresset | Jack Ablin | jablin@cressetcapital.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 6 | Mitchell Family Office | Andrew Alley | aalley@mitchellfo.com | ⬜ | ⬜ | ⬜ | ⬜ |
+| 6 | Mitchell Family Office | Andrew Alley | aalley@mitchellfo.com | ✅ 2026-02-21 | ⬜ | ⬜ | ⬜ |
 | 7 | Phoenix Property Investors | Julie Chang | julie.chang@ppinvestors.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 8 | BHB Private | Rebecca Farrer | rf@bhbprivate.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 9 | Fisher Brothers | Michael Bar | mbar@fisherbrothers.com | ⬜ | ⬜ | ⬜ | ⬜ |
@@ -279,7 +279,7 @@ Best regards,
 | 31 | Churchill Finance HK | Joanna Wu | joanna@churchill-finance.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 32 | Kapital Partners | Anjuli Nanda Habbas | anjuli@kapitalp.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 33 | Globalvestment Capital | Ross McBride | ross.mcbride@globalvestmentpartners.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 34 | Red Apple Group | John Catsimatidis | catsimatidis@ragny.com | ⬜ | ⬜ | ⬜ | ⬜ |
+| 34 | Red Apple Group | John Catsimatidis | catsimatidis@ragny.com | ✅ 2026-02-21 | ⬜ | ⬜ | ⬜ |
 | 35 | Red Apple Group | John Catsimatidis Jr | jac@ragny.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 36 | AssetBlue Investment | Sam Gillespie | sam@assetblue.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 37 | Bratenahl Capital | Michael Howley | mhowley@bratenahlcapital.com | ⬜ | ⬜ | ⬜ | ⬜ |

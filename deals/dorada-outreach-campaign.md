@@ -36,6 +36,9 @@ Would you be open to a brief call to discuss the opportunity? I'd be happy to sh
 Best regards,
 
 [Your Name]
+Agent Manager
+
+Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 
 ---
 
@@ -74,6 +77,9 @@ Would you be open to reviewing the investor deck?
 Best regards,
 
 [Your Name]
+Agent Manager
+
+Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 
 ---
 
@@ -107,6 +113,9 @@ Would you be interested in a call to discuss?
 Best regards,
 
 [Your Name]
+Agent Manager
+
+Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 
 ---
 
@@ -141,6 +150,9 @@ Would you be open to reviewing the investor materials?
 Best regards,
 
 [Your Name]
+Agent Manager
+
+Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 
 ---
 
@@ -179,6 +191,9 @@ Would you be interested in sharing this opportunity with your family office clie
 Best regards,
 
 [Your Name]
+Agent Manager
+
+Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 
 ---
 

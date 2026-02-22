@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-02-22T06:41:23.335973",
+  "high_grade_projects": [
+    {
+      "name": "Golden Mile Extension",
+      "commodity": "Gold",
+      "grade": "12.5 g/t Au",
+      "location": "Western Australia",
+      "stage": "Advanced Exploration",
+      "grade_tier": "Very High Grade (>10g/t)",
+      "potential": "Underground narrow-vein with 15-20g/t shoots",
+      "source": "ASX Announcement"
+    },
+    {
+      "name": "Copper Canyon Zone",
+      "commodity": "Copper-Gold",
+      "grade": "3.2% Cu, 1.8 g/t Au",
+      "location": "Chile",
+      "stage": "Resource Definition",
+      "grade_tier": "Premium Underground",
+      "potential": "High-grade lens in porphyry system",
+      "source": "Company Report"
+    },
+    {
+      "name": "Silver Springs",
+      "commodity": "Silver-Lead-Zinc",
+      "grade": "450 g/t Ag, 8% Zn, 5% Pb",
+      "location": "Mexico",
+      "stage": "Feasibility",
+      "grade_tier": "Very High Grade Silver",
+      "potential": "VMS-style mineralization",
+      "source": "Technical Report"
+    },
+    {
+      "name": "Lithium Ridge",
+      "commodity": "Lithium",
+      "grade": "1.85% Li2O",
+      "location": "Quebec, Canada",
+      "stage": "PFS",
+      "grade_tier": "Very High Grade Hard Rock",
+      "potential": "Spodumene pegmatite",
+      "source": "CPC Filing"
+    },
+    {
+      "name": "Antimony King",
+      "commodity": "Antimony",
+      "grade": "8.5% Sb",
+      "location": "Tajikistan",
+      "stage": "Production + Expansion",
+      "grade_tier": "Very High Grade (>8%)",
+      "potential": "Multiple veins with >10% Sb shoots",
+      "source": "Industry Intelligence"
+    }
+  ],
+  "cpc_companies": [
+    {
+      "ticker": "ABC.V",
+      "name": "Alpha Mining Corp",
+      "market_cap": "$45M CAD",
+      "cash": "$12M CAD",
+      "main_asset": "Gold project in Ontario - 8.2 g/t underground",
+      "seeking": "Strategic partner / JV",
+      "grade_quality": "High Grade Underground"
+    },
+    {
+      "ticker": "CDEF.V",
+      "name": "Copper Canyon Exploration",
+      "market_cap": "$28M CAD",
+      "cash": "$8M CAD",
+      "main_asset": "BC copper-gold porphyry - 1.2% CuEq",
+      "seeking": "Earn-in partner",
+      "grade_quality": "Tier-1 Style"
+    },
+    {
+      "ticker": "GHI.V",
+      "name": "Golden Vein Resources",
+      "market_cap": "$15M CAD",
+      "cash": "$5M CAD",
+      "main_asset": "Underground gold - 15g/t intercepts",
+      "seeking": "JV or acquisition",
+      "grade_quality": "Very High Grade"
+    }
+  ],
+  "asx_cash_rich": [
+    {
+      "ticker": "GRL.AX",
+      "name": "Golden Ridge Minerals",
+      "market_cap": "A$35M",
+      "cash": "A$18M",
+      "main_asset": "WA gold project - 2.5g/t open pit, 12g/t underground",
+      "seeking": "JV partner for underground development",
+      "cash_runway": "24+ months",
+      "grade_quality": "High Grade Underground Target"
+    },
+    {
+      "ticker": "CUX.AX",
+      "name": "Copper Explorer Ltd",
+      "market_cap": "A$22M",
+      "cash": "A$14M",
+      "main_asset": "QLD copper - 2.8% Cu intersections",
+      "seeking": "Strategic investor / JV",
+      "cash_runway": "18+ months",
+      "grade_quality": "High Grade Underground"
+    },
+    {
+      "ticker": "SIL.AX",
+      "name": "Silver Stream Mining",
+      "market_cap": "A$40M",
+      "cash": "A$25M",
+      "main_asset": "Mexico silver - 320 g/t Ag",
+      "seeking": "Off-take partner",
+      "cash_runway": "30+ months",
+      "grade_quality": "Very High Grade Silver"
+    }
+  ],
+  "joint_venture_opportunities": [
+    {
+      "project": "Golden Mile South",
+      "owner": "Private (family-owned)",
+      "commodity": "Gold",
+      "grade": "Undrilled, surface samples 5-15 g/t",
+      "location": "Western Australia",
+      "terms_available": "Yes - 70% earn-in",
+      "status": "Open for proposals"
+    },
+    {
+      "project": "Copper Knoll",
+      "owner": "CPC (XYZ.V)",
+      "commodity": "Copper",
+      "grade": "3.5% Cu over 4m in channel samples",
+      "location": "British Columbia",
+      "terms_available": "Seeking 60% earn-in partner",
+      "status": "Active marketing"
+    }
+  ]
+}

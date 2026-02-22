@@ -41,6 +41,9 @@ Would you be interested in reviewing the confidential offering memorandum?
 Best regards,
 
 [Your Name]
+Agent Manager
+
+Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 
 ---
 
@@ -79,6 +82,9 @@ Would you be interested in reviewing the full package?
 Best regards,
 
 [Your Name]
+Agent Manager
+
+Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 
 ---
 
@@ -113,6 +119,9 @@ Would you like to review the confidential materials for either or both assets?
 Best regards,
 
 [Your Name]
+Agent Manager
+
+Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 
 ---
 

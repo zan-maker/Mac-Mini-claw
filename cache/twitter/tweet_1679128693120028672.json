@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-02-27T15:39:03.299545",
+  "data": {
+    "tweet_id": "1679128693120028672",
+    "url": "https://x.com/elonmusk/status/1679128693120028672",
+    "timestamp": "2026-02-27T15:39:03.296283",
+    "parsed_successfully": false,
+    "source": "requests",
+    "success": true,
+    "status_code": 200
+  }
+}

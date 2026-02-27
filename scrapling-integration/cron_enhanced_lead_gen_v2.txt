@@ -1,0 +1,116 @@
+# Enhanced Lead Gen v2 - Scrapling-First Enhanced
+
+## 🚀 NEW: Scrapling Integration Activated
+
+**Scrapling gives us an unfair advantage:**
+- **774x faster** than traditional web scraping
+- **Cloudflare bypass** - automatically handles anti-bot systems
+- **Maximum stealth** - no bot detection
+- **Adaptive scraping** - no selector maintenance needed
+- **AI-powered extraction** - natural language queries
+
+## 📋 Your Task (Scrapling-First Approach)
+
+### Step 1: Try Scrapling First (Primary Source)
+```python
+# Use Scrapling integration for fast, reliable data extraction
+# Scrapling is installed in: /Users/cubiczan/.openclaw/workspace/scrapling-integration/
+# Activate virtual environment: source /Users/cubiczan/.openclaw/workspace/scrapling-venv/bin/activate
+
+import sys
+sys.path.insert(0, '/Users/cubiczan/.openclaw/workspace/scrapling-integration')
+
+try:
+    from cron_integration import ScraplingCronIntegration
+    
+    async def run_with_scrapling():
+        # Initialize Scrapling with stealth mode
+        scrapling = ScraplingCronIntegration(stealth_mode=True)
+        success = await scrapling.initialize()
+        
+        if success:
+            print("✅ Scrapling initialized successfully")
+            # Use Scrapling for data extraction
+            # [Job-specific Scrapling code will go here]
+            results = await scrapling.generate_expense_reduction_leads()
+            return results
+        else:
+            print("⚠️ Scrapling initialization failed, falling back to traditional APIs")
+            return []
+except ImportError:
+    print("⚠️ Scrapling not available, using traditional APIs")
+```
+
+### Step 2: Fall Back to Traditional APIs (If Scrapling Fails)
+If Scrapling returns no results or fails:
+1. **First fallback:** Use **Tavily API** (preferred)
+   - API Key: `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`
+   - Faster and more reliable than Brave Search
+
+2. **Second fallback:** Use **Brave Search API**
+   - API Key: `cac43a248afb1cc1ec004370df2e0282a67eb420`
+   - Use only if Tavily fails
+
+### Step 3: Process and Report Results
+1. Process the data (same as before)
+2. Save results to appropriate files
+3. **IMPORTANT:** Include Scrapling usage status in Discord report:
+   ```
+   🔍 **Data Source Report:**
+   - Scrapling Used: ✅ Yes / ❌ No
+   - Scrapling Results: X leads
+   - Traditional API Results: Y leads
+   - Total Processing Time: Z seconds
+   ```
+
+## 🎯 Performance Benefits
+- **Speed:** 774x faster than BeautifulSoup
+- **Reliability:** Bypasses Cloudflare and anti-bot systems
+- **Stealth:** No bot detection
+- **Maintenance:** Zero selector maintenance
+- **Cost:** Reduces API calls to Serper/Tavily
+
+## 📊 Report Format
+Always include Scrapling status in your Discord report.
+
+# Enhanced Lead Generation - FOCUSED
+
+Generate 20-30 leads quickly. Keep it simple.
+
+## APIs
+- Serper: `cac43a248afb1cc1ec004370df2e0282a67eb420`
+- ZeroBounce: `fd0105c8c98340e0a2b63e2fbe39d7a4`
+
+## Step 1: Search (5 mins)
+
+```bash
+curl -X POST "https://google.serper.dev/search"   -H "X-API-KEY: cac43a248afb1cc1ec004370df2e0282a67eb420"   -d '{"q":"manufacturing companies 50-200 employees Texas"}'
+```
+
+Search for 3-4 different queries.
+
+## Step 2: Quick Score (0-100)
+
+- Size fit (50-200 employees): 25 pts
+- Industry match: 25 pts
+- Contact found: 25 pts
+- Intent signal: 25 pts
+
+## Step 3: Save
+
+Create `/workspace/leads/daily-leads-YYYY-MM-DD.md`
+
+## Step 4: Report
+
+- Total found: X
+- High priority (70+): X
+- Top 3 companies
+
+STOP after 15 minutes. Report progress.
+
+## 💡 Implementation Notes
+1. Scrapling is installed and ready to use
+2. Always try Scrapling first, fall back to APIs only if needed
+3. Report Scrapling usage status in Discord
+
+Run the job now using Scrapling-first approach and report results.

@@ -1,0 +1,532 @@
+[
+  {
+    "company": "Shield AI",
+    "domain": "shield.ai",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "ryan.tseng@shield.ai",
+        "first_name": "Ryan",
+        "last_name": "Tseng",
+        "position": "CEO",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "joe.letsinger@shield.ai",
+        "first_name": "Joe",
+        "last_name": "Letsinger",
+        "position": "Director of Solutions Engineering",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "andrew.berlin@shield.ai",
+        "first_name": "Andrew",
+        "last_name": "Berlin",
+        "position": "Chairman",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "trent.bailey@shield.ai",
+        "first_name": "Trent",
+        "last_name": "Bailey",
+        "position": "Director of Operations Finance",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "billy.pate@shield.ai",
+        "first_name": "Billy",
+        "last_name": "Pate",
+        "position": "Director of Engineering",
+        "confidence": 99,
+        "sources": 1
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  },
+  {
+    "company": "Anduril Industries",
+    "domain": "anduril.com",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "jubnoske@anduril.com",
+        "first_name": "Jonathan",
+        "last_name": "Ubnoske",
+        "position": "Director of Software Engineering",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "mgray@anduril.com",
+        "first_name": "Marshall",
+        "last_name": "Gray",
+        "position": "Director of Battlespace Awareness",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "cbeyer@anduril.com",
+        "first_name": "Charles",
+        "last_name": "Beyer",
+        "position": "Director of Simulation Services",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "mbromley@anduril.com",
+        "first_name": "Michael",
+        "last_name": "Bromley",
+        "position": "Deputy Production Manager",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "rcimino@anduril.com",
+        "first_name": "Rich",
+        "last_name": "Cimino",
+        "position": "Director of Engineering",
+        "confidence": 99,
+        "sources": 1
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  },
+  {
+    "company": "Skydio",
+    "domain": "skydio.com",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "molly.braese@skydio.com",
+        "first_name": "Molly",
+        "last_name": "Braese",
+        "position": "Chief Compliance Officer",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "reena.nagpal@skydio.com",
+        "first_name": "Reena",
+        "last_name": "Nagpal",
+        "position": "HR Director",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "daniel.kroeger@skydio.com",
+        "first_name": "Daniel",
+        "last_name": "Kr\u00f6ger",
+        "position": "Director of Partnerships",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "teaan.hamersma@skydio.com",
+        "first_name": "Teaan",
+        "last_name": "Hamersma",
+        "position": "Director of Revenue Operations",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "john.bevis@skydio.com",
+        "first_name": "John",
+        "last_name": "Bevis",
+        "position": "Director of Enterprise Accounts",
+        "confidence": 99,
+        "sources": 1
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  },
+  {
+    "company": "Archer Aviation",
+    "domain": "archer.com",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "dmerrifield@archer.com",
+        "first_name": "David",
+        "last_name": "Merrifield",
+        "position": "Director of Software Integration",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "jkim@archer.com",
+        "first_name": "Jimmy",
+        "last_name": "Kim",
+        "position": "Compensation Manager",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "mcarbone@archer.com",
+        "first_name": "Michael",
+        "last_name": "Carbone",
+        "position": "Flight Test Instrumentation Director",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "bzlicaric@archer.com",
+        "first_name": "Bojan",
+        "last_name": "Zlicaric",
+        "position": "Director of Systems Engineering",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "jbritton@archer.com",
+        "first_name": "Joshua",
+        "last_name": "Britton",
+        "position": "Director of Pilot Training",
+        "confidence": 99,
+        "sources": 1
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  },
+  {
+    "company": "Joby Aviation",
+    "domain": "jobyaviation.com",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "adam.krebs@jobyaviation.com",
+        "first_name": "Adam",
+        "last_name": "Krebs",
+        "position": "Technical Director",
+        "confidence": 94,
+        "sources": 1
+      },
+      {
+        "email": "edward.stilson@jobyaviation.com",
+        "first_name": "Edward",
+        "last_name": "Stilson",
+        "position": "Chief Executive Officer",
+        "confidence": 94,
+        "sources": 1
+      },
+      {
+        "email": "lauren.meisenheimer@jobyaviation.com",
+        "first_name": "Lauren",
+        "last_name": "Meisenheimer",
+        "position": "Senior Employee Relations Manager",
+        "confidence": 94,
+        "sources": 1
+      },
+      {
+        "email": "wally.seubert@jobyaviation.com",
+        "first_name": "Wally",
+        "last_name": "Seubert",
+        "position": "Software Engineering Manager",
+        "confidence": 94,
+        "sources": 1
+      },
+      {
+        "email": "tina.west@jobyaviation.com",
+        "first_name": "Tina",
+        "last_name": "West",
+        "position": "Head of Total Rewards",
+        "confidence": 94,
+        "sources": 1
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  },
+  {
+    "company": "Zipline",
+    "domain": "flyzipline.com",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "nicolas.weninger@flyzipline.com",
+        "first_name": "Nicolas",
+        "last_name": "Weninger",
+        "position": "Embedded Software Engineer",
+        "confidence": 98,
+        "sources": 1
+      },
+      {
+        "email": "anne.hilby@flyzipline.com",
+        "first_name": "Anne",
+        "last_name": "Hilby",
+        "position": "Director",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "winfred.njeri@flyzipline.com",
+        "first_name": "Winfred",
+        "last_name": "Njeri",
+        "position": null,
+        "confidence": 99,
+        "sources": 2
+      },
+      {
+        "email": "arielle.sandor@flyzipline.com",
+        "first_name": "Arielle",
+        "last_name": "Sandor",
+        "position": null,
+        "confidence": 98,
+        "sources": 1
+      },
+      {
+        "email": "oleksii.lazorenko@flyzipline.com",
+        "first_name": null,
+        "last_name": null,
+        "position": null,
+        "confidence": 97,
+        "sources": 1
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  },
+  {
+    "company": "Wing",
+    "domain": "wing.com",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "arronmobley@wing.com",
+        "first_name": "Arron",
+        "last_name": "Mobley",
+        "position": "Customer Support Specialist",
+        "confidence": 93,
+        "sources": 1
+      },
+      {
+        "email": "kentferguson@wing.com",
+        "first_name": "Kent",
+        "last_name": "Ferguson",
+        "position": "Director of Partnerships",
+        "confidence": 91,
+        "sources": 1
+      },
+      {
+        "email": "btucci@wing.com",
+        "first_name": "Brian",
+        "last_name": "Tucci",
+        "position": "Head of Finance",
+        "confidence": 89,
+        "sources": 1
+      },
+      {
+        "email": "jhollinger@wing.com",
+        "first_name": "Jordan",
+        "last_name": "Hollinger",
+        "position": "Talent Acquisition Specialist",
+        "confidence": 87,
+        "sources": 1
+      },
+      {
+        "email": "lmaye@wing.com",
+        "first_name": "Larry",
+        "last_name": "Maye",
+        "position": "Director of Global Operations",
+        "confidence": 87,
+        "sources": 1
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  },
+  {
+    "company": "Liquid Robotics",
+    "domain": "liquid-robotics.com",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "scott.willcox@liquid-robotics.com",
+        "first_name": "Scott",
+        "last_name": "Willcox",
+        "position": "Chief Data Scientist",
+        "confidence": 98,
+        "sources": 2
+      },
+      {
+        "email": "martin.macleod@liquid-robotics.com",
+        "first_name": "Martin",
+        "last_name": "Macleod",
+        "position": "Chief Financial Officer",
+        "confidence": 97,
+        "sources": 1
+      },
+      {
+        "email": "jimmy.board@liquid-robotics.com",
+        "first_name": "Jimmy",
+        "last_name": "Board",
+        "position": "Director of Business Development",
+        "confidence": 96,
+        "sources": 1
+      },
+      {
+        "email": "mike.cookson@liquid-robotics.com",
+        "first_name": "Mike",
+        "last_name": "Cookson",
+        "position": "Director of Software",
+        "confidence": 96,
+        "sources": 1
+      },
+      {
+        "email": "shane.goodenough@liquid-robotics.com",
+        "first_name": "Shane",
+        "last_name": "Goodenough",
+        "position": "Chief Executive Officer",
+        "confidence": 95,
+        "sources": 8
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  },
+  {
+    "company": "Sea Machines Robotics",
+    "domain": "sea-machines.com",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "dtalley@sea-machines.com",
+        "first_name": "Donnie",
+        "last_name": "Talley",
+        "position": "Director of Supply Chain",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "pholm@sea-machines.com",
+        "first_name": "Peter",
+        "last_name": "Holm",
+        "position": "Regional Director",
+        "confidence": 99,
+        "sources": 8
+      },
+      {
+        "email": "jlapensee@sea-machines.com",
+        "first_name": "Jamie",
+        "last_name": "Lapensee",
+        "position": "Senior Director of Human Resources",
+        "confidence": 98,
+        "sources": 1
+      },
+      {
+        "email": "mjohnson@sea-machines.com",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "position": "Founder",
+        "confidence": 97,
+        "sources": 5
+      },
+      {
+        "email": "llamm@sea-machines.com",
+        "first_name": "Lauren",
+        "last_name": "Lamm",
+        "position": "Vice President of Business Operations",
+        "confidence": 96,
+        "sources": 5
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  },
+  {
+    "company": "Ocean Infinity America, Inc.",
+    "domain": "oceaninfinity.com",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "adrian.albon@oceaninfinity.com",
+        "first_name": "Adrian",
+        "last_name": "Albon",
+        "position": "Talent Acquisition Specialist",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "gabriel.borges@oceaninfinity.com",
+        "first_name": "Gabriel",
+        "last_name": "Borges",
+        "position": "Product Owner",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "allan.spencer@oceaninfinity.com",
+        "first_name": "Allan",
+        "last_name": "Spencer",
+        "position": "Director of Asset Management",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "sarah.pullin@oceaninfinity.com",
+        "first_name": "Sarah",
+        "last_name": "Pullin",
+        "position": "Chief People Officer",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "nam.nguyen@oceaninfinity.com",
+        "first_name": "Nam",
+        "last_name": "Nguyen",
+        "position": "Commercial Director",
+        "confidence": 98,
+        "sources": 1
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  }
+]

@@ -1,0 +1,162 @@
+# Defense Sector Lead Gen - Scrapling-First Enhanced
+
+## 🚀 NEW: Scrapling Integration Activated
+
+**Scrapling gives us an unfair advantage:**
+- **774x faster** than traditional web scraping
+- **Cloudflare bypass** - automatically handles anti-bot systems
+- **Maximum stealth** - no bot detection
+- **Adaptive scraping** - no selector maintenance needed
+- **AI-powered extraction** - natural language queries
+
+## 📋 Your Task (Scrapling-First Approach)
+
+### Step 1: Try Scrapling First (Primary Source)
+```python
+# Use Scrapling integration for fast, reliable data extraction
+# Scrapling is installed in: /Users/cubiczan/.openclaw/workspace/scrapling-integration/
+# Activate virtual environment: source /Users/cubiczan/.openclaw/workspace/scrapling-venv/bin/activate
+
+import sys
+sys.path.insert(0, '/Users/cubiczan/.openclaw/workspace/scrapling-integration')
+
+try:
+    from cron_integration import ScraplingCronIntegration
+    
+    async def run_with_scrapling():
+        # Initialize Scrapling with stealth mode
+        scrapling = ScraplingCronIntegration(stealth_mode=True)
+        success = await scrapling.initialize()
+        
+        if success:
+            print("✅ Scrapling initialized successfully")
+            # Use Scrapling for data extraction
+            # [Job-specific Scrapling code will go here]
+            results = await scrapling.scrape_defense_companies()
+            return results
+        else:
+            print("⚠️ Scrapling initialization failed, falling back to traditional APIs")
+            return []
+except ImportError:
+    print("⚠️ Scrapling not available, using traditional APIs")
+```
+
+### Step 2: Fall Back to Traditional APIs (If Scrapling Fails)
+If Scrapling returns no results or fails:
+1. **First fallback:** Use **Tavily API** (preferred)
+   - API Key: `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`
+   - Faster and more reliable than Brave Search
+
+2. **Second fallback:** Use **Brave Search API**
+   - API Key: `cac43a248afb1cc1ec004370df2e0282a67eb420`
+   - Use only if Tavily fails
+
+### Step 3: Process and Report Results
+1. Process the data (same as before)
+2. Save results to appropriate files
+3. **IMPORTANT:** Include Scrapling usage status in Discord report:
+   ```
+   🔍 **Data Source Report:**
+   - Scrapling Used: ✅ Yes / ❌ No
+   - Scrapling Results: X leads
+   - Traditional API Results: Y leads
+   - Total Processing Time: Z seconds
+   ```
+
+## 🎯 Performance Benefits
+- **Speed:** 774x faster than BeautifulSoup
+- **Reliability:** Bypasses Cloudflare and anti-bot systems
+- **Stealth:** No bot detection
+- **Maintenance:** Zero selector maintenance
+- **Cost:** Reduces API calls to Serper/Tavily
+
+## 📊 Report Format
+Always include Scrapling status in your Discord report.
+
+# Defense Sector Lead Generation - ENHANCED
+
+Two-part daily search: (1) Defense companies in US/UK/EU, (2) PE/VC funds in Asia/India.
+
+## Part 1: Defense Companies (5-10 leads)
+
+### Target Sectors
+1. Cybersecurity - Defense-grade security
+2. AI & Machine Learning - Military applications
+3. Counter-Drone (C-UAS) - Anti-drone systems
+4. Space-Based Defense - Satellites, space tech
+5. Defense Data Analytics - ISR, decision systems
+
+### Company Criteria
+- Stage: Early to mid-stage (Series A-C)
+- Region: US, UK, EU
+- Focus: Defense or dual-use technology
+- IP ownership important
+
+### Score (0-100)
+- Sector fit: 0-30 pts
+- Stage fit: 0-20 pts
+- Technical depth: 0-20 pts
+- Integration potential: 0-20 pts
+- Region match: 0-10 pts
+
+## Part 2: PE/VC Funds in Asia/India (3-5 leads)
+
+### Target Regions
+- India
+- Singapore
+- Japan
+- South Korea
+- Taiwan
+- Southeast Asia
+- Middle East
+- **EXCLUDE: China**
+
+### Fund Criteria
+- Focus: Defense tech, drones, aerospace, dual-use
+- Active investments in autonomous systems
+- Interest in drone/UAV technology
+- Portfolio includes security or surveillance
+
+### Search Queries
+- "defense technology PE fund India"
+- "drone technology investors Asia"
+- "aerospace venture capital Singapore Japan"
+- "autonomous systems PE fund Korea Taiwan"
+- "UAV drone investors Middle East"
+
+### Score PE Funds (0-100)
+- Defense/dron focus: 0-40 pts
+- Region match: 0-20 pts
+- Portfolio fit: 0-20 pts
+- Fund size/stage: 0-20 pts
+
+## Save Results
+
+Create TWO files:
+1. `/workspace/defense-leads/daily-companies-YYYY-MM-DD.md`
+2. `/workspace/defense-leads/daily-investors-YYYY-MM-DD.md`
+
+## Report to Discord
+
+```
+🛡️ **Defense Sector Report**
+
+## Companies (US/UK/EU)
+- Identified: X
+- High priority (70+): X
+- Top 3: [Company] - [Sector] - [Score]
+
+## Investors (Asia/India)
+- PE/VC funds: X
+- Defense-focused: X
+- Top 3: [Fund] - [Region] - [Focus]
+```
+
+Target: 5-10 companies + 3-5 investors daily.
+
+## 💡 Implementation Notes
+1. Scrapling is installed and ready to use
+2. Always try Scrapling first, fall back to APIs only if needed
+3. Report Scrapling usage status in Discord
+
+Run the job now using Scrapling-first approach and report results.

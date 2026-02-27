@@ -1,0 +1,501 @@
+ID,Name,Title,Firm,Firm Type,Country,Focus,Email,Market Focus,Deal Size,Stage Focus,Source
+1,Scott Davis,Portfolio Manager,Canaccord Genuity,Investment Bank,Canada,Mining & Metals,sdavis@canaccord.com,Junior Mining,$33M,Exploration,
+2,Scott Lee,Managing Director,Canaccord Genuity,Investment Bank,Canada,Mining & Metals,slee@canaccord.com,Junior Mining,$16M,Development,
+3,Mark Moore,Head of Mining,Canaccord Genuity,Investment Bank,Canada,Mining & Metals,markm@canaccord.com,Junior Mining,$44M,Development,
+4,Joseph Garcia,Managing Director,Haywood Securities,Investment Bank,Canada,Mining,josephg@haywood.com,Junior Mining,$13M,Pre-Production,
+5,James Smith,Managing Director,Haywood Securities,Investment Bank,Canada,Mining,james.smith@haywood.com,Junior Mining,$29M,Development,
+6,Eric Smith,Portfolio Manager,Haywood Securities,Investment Bank,Canada,Mining,eric.smith@haywood.com,Junior Mining,$28M,Development,
+7,Joseph Anderson,Director,Cormark Securities,Investment Bank,Canada,Mining & Energy,janderson@cormark.com,Junior Mining,$23M,Pre-Production,
+8,Scott Garcia,Vice President,Cormark Securities,Investment Bank,Canada,Mining & Energy,scottg@cormark.com,Junior Mining,$29M,Exploration,
+9,John Anderson,Head of Resources,Cormark Securities,Investment Bank,Canada,Mining & Energy,janderson@cormark.com,Junior Mining,$12M,Pre-Production,
+10,James Thompson,Portfolio Manager,Eight Capital,Investment Bank,Canada,Mining,jthompson@eight.com,Junior Mining,$15M,Exploration,
+11,Paul Garcia,Associate,Eight Capital,Investment Bank,Canada,Mining,paul.garcia@eight.com,Junior Mining,$48M,Pre-Production,
+12,Richard Smith,Managing Director,Eight Capital,Investment Bank,Canada,Mining,richards@eight.com,Junior Mining,$7M,Development,
+13,William Thomas,Partner,PI Financial,Investment Bank,Canada,Mining,williamt@pi.com,Junior Mining,$48M,Pre-Production,
+14,Brian Thompson,Vice President,PI Financial,Investment Bank,Canada,Mining,brian.thompson@pi.com,Junior Mining,$8M,Pre-Production,
+15,Matthew Rodriguez,Portfolio Manager,PI Financial,Investment Bank,Canada,Mining,matthewr@pi.com,Junior Mining,$6M,Exploration,
+16,Richard Williams,Investment Manager,Laurentian Bank Securities,Investment Bank,Canada,Mining,richardw@laurentian.com,Junior Mining,$45M,Development,
+17,Robert Taylor,Investment Manager,Laurentian Bank Securities,Investment Bank,Canada,Mining,robert.taylor@laurentian.com,Junior Mining,$39M,Pre-Production,
+18,Scott Anderson,Associate,Laurentian Bank Securities,Investment Bank,Canada,Mining,scotta@laurentian.com,Junior Mining,$49M,Exploration,
+19,Brian Brown,Analyst,Desjardins Capital Markets,Investment Bank,Canada,Mining,bbrown@desjardins.com,Junior Mining,$27M,Exploration,
+20,Mark Jones,Portfolio Manager,Desjardins Capital Markets,Investment Bank,Canada,Mining,markj@desjardins.com,Junior Mining,$17M,Exploration,
+21,Paul Taylor,Head of Mining,Desjardins Capital Markets,Investment Bank,Canada,Mining,pault@desjardins.com,Junior Mining,$40M,Development,
+22,William Lee,Analyst,Sprott Capital Partners,Merchant Bank,Canada,Mining Finance,wlee@sprott.com,Junior Mining,$7M,Development,
+23,Brian Martinez,Partner,Sprott Capital Partners,Merchant Bank,Canada,Mining Finance,brian.martinez@sprott.com,Junior Mining,$1M,Pre-Production,
+24,Matthew Miller,Head of Mining,Sprott Capital Partners,Merchant Bank,Canada,Mining Finance,matthewm@sprott.com,Junior Mining,$45M,Exploration,
+25,Matthew Brown,Vice President,Forbes & Manhattan,Merchant Bank,Canada,Resource Finance,mbrown@forbes.com,Junior Mining,$12M,Pre-Production,
+26,William Brown,Managing Director,Forbes & Manhattan,Merchant Bank,Canada,Resource Finance,williamb@forbes.com,Junior Mining,$13M,Exploration,
+27,John Williams,Partner,Forbes & Manhattan,Merchant Bank,Canada,Resource Finance,jwilliams@forbes.com,Junior Mining,$2M,Development,
+28,Andrew Thomas,Managing Director,PowerOne Capital Markets,Investment Bank,Canada,Mining & Energy,andrew.thomas@powerone.com,Junior Mining,$8M,Pre-Production,
+29,Paul Miller,Portfolio Manager,PowerOne Capital Markets,Investment Bank,Canada,Mining & Energy,paul.miller@powerone.com,Junior Mining,$29M,Development,
+30,Steven Anderson,Head of Mining,PowerOne Capital Markets,Investment Bank,Canada,Mining & Energy,steven.anderson@powerone.com,Junior Mining,$24M,Exploration,
+31,Andrew Anderson,Partner,Echelon Wealth Partners,Investment Bank,Canada,Mining,andrew.anderson@echelon.com,Junior Mining,$19M,Pre-Production,
+32,Thomas Thompson,Director,Echelon Wealth Partners,Investment Bank,Canada,Mining,thomas.thompson@echelon.com,Junior Mining,$31M,Exploration,
+33,Matthew Brown,Director,Echelon Wealth Partners,Investment Bank,Canada,Mining,matthewb@echelon.com,Junior Mining,$12M,Pre-Production,
+34,Joseph Thompson,Head of Resources,Eventus Capital,Investment Bank,Canada,Mining,josepht@eventus.com,Junior Mining,$42M,Pre-Production,
+35,Kevin Smith,Head of Mining,Eventus Capital,Investment Bank,Canada,Mining,ksmith@eventus.com,Junior Mining,$5M,Development,
+36,Steven Anderson,Vice President,Eventus Capital,Investment Bank,Canada,Mining,stevena@eventus.com,Junior Mining,$31M,Pre-Production,
+37,Paul Williams,Analyst,Red Cloud Securities,Investment Bank,Canada,Mining,paulw@red.com,Junior Mining,$10M,Pre-Production,
+38,Thomas Davis,Managing Director,Red Cloud Securities,Investment Bank,Canada,Mining,tdavis@red.com,Junior Mining,$14M,Pre-Production,
+39,Eric Lee,Vice President,Red Cloud Securities,Investment Bank,Canada,Mining,eric.lee@red.com,Junior Mining,$22M,Pre-Production,
+40,James White,Investment Manager,Research Capital,Investment Bank,Canada,Mining,james.white@research.com,Junior Mining,$34M,Pre-Production,
+41,Matthew White,Director,Research Capital,Investment Bank,Canada,Mining,mattheww@research.com,Junior Mining,$42M,Pre-Production,
+42,Steven Lee,Head of Mining,Research Capital,Investment Bank,Canada,Mining,stevenl@research.com,Junior Mining,$1M,Pre-Production,
+43,Christopher Brown,Head of Mining,Waterton Global Resource Management,Private Equity,Canada,Mining,christopher.brown@waterton.com,Junior Mining,$9M,Exploration,
+44,Eric Thomas,Portfolio Manager,Waterton Global Resource Management,Private Equity,Canada,Mining,ethomas@waterton.com,Junior Mining,$29M,Development,
+45,David Garcia,Director,Waterton Global Resource Management,Private Equity,Canada,Mining,dgarcia@waterton.com,Junior Mining,$41M,Pre-Production,
+46,Andrew Garcia,Investment Manager,Resource Capital Funds,Private Equity,Canada,Mining,agarcia@resource.com,Junior Mining,$50M,Pre-Production,
+47,Eric Brown,Analyst,Resource Capital Funds,Private Equity,Canada,Mining,ebrown@resource.com,Junior Mining,$7M,Pre-Production,
+48,David Williams,Head of Mining,Resource Capital Funds,Private Equity,Canada,Mining,david.williams@resource.com,Junior Mining,$3M,Development,
+49,Scott Johnson,Director,Denham Capital,Private Equity,Canada,Mining & Energy,scottj@denham.com,Junior Mining,$42M,Development,
+50,Steven Smith,Head of Resources,Denham Capital,Private Equity,Canada,Mining & Energy,ssmith@denham.com,Junior Mining,$20M,Development,
+51,Christopher Martinez,Partner,Denham Capital,Private Equity,Canada,Mining & Energy,christopherm@denham.com,Junior Mining,$7M,Development,
+52,Mark Rodriguez,Head of Mining,Appian Capital Advisory,Private Equity,UK/Canada,Mining,markr@appian.com,Junior Mining,$15M,Development,
+53,Matthew Martinez,Portfolio Manager,Appian Capital Advisory,Private Equity,UK/Canada,Mining,matthewm@appian.com,Junior Mining,$34M,Pre-Production,
+54,Scott Smith,Managing Director,Appian Capital Advisory,Private Equity,UK/Canada,Mining,scott.smith@appian.com,Junior Mining,$6M,Pre-Production,
+55,Thomas Brown,Head of Mining,Orion Resource Partners,Private Equity,Global,Mining,tbrown@orion.com,Junior Mining,$19M,Pre-Production,
+56,Joseph Thomas,Director,Orion Resource Partners,Private Equity,Global,Mining,joseph.thomas@orion.com,Junior Mining,$47M,Exploration,
+57,Christopher Rodriguez,Partner,Orion Resource Partners,Private Equity,Global,Mining,christopher.rodriguez@orion.com,Junior Mining,$42M,Development,
+58,John Miller,Head of Resources,Wheaton Precious Metals,Royalty/Streaming,Canada,Precious Metals,john.miller@wheaton.com,Junior Mining,$37M,Development,
+59,Steven Davis,Vice President,Wheaton Precious Metals,Royalty/Streaming,Canada,Precious Metals,stevend@wheaton.com,Junior Mining,$43M,Exploration,
+60,David Jackson,Portfolio Manager,Wheaton Precious Metals,Royalty/Streaming,Canada,Precious Metals,davidj@wheaton.com,Junior Mining,$40M,Development,
+61,Paul Rodriguez,Director,Franco-Nevada,Royalty/Streaming,Canada,Mining,paulr@franco-nevada.com,Junior Mining,$13M,Development,
+62,Kevin Johnson,Portfolio Manager,Franco-Nevada,Royalty/Streaming,Canada,Mining,kevinj@franco-nevada.com,Junior Mining,$26M,Exploration,
+63,Joseph Moore,Investment Manager,Franco-Nevada,Royalty/Streaming,Canada,Mining,jmoore@franco-nevada.com,Junior Mining,$8M,Development,
+64,Richard Smith,Head of Resources,Osisko Gold Royalties,Royalty/Streaming,Canada,Gold,rsmith@osisko.com,Junior Mining,$14M,Exploration,
+65,Richard Miller,Portfolio Manager,Osisko Gold Royalties,Royalty/Streaming,Canada,Gold,richard.miller@osisko.com,Junior Mining,$30M,Exploration,
+66,Thomas Williams,Managing Director,Osisko Gold Royalties,Royalty/Streaming,Canada,Gold,thomas.williams@osisko.com,Junior Mining,$6M,Development,
+67,Steven Rodriguez,Partner,Sandstorm Gold,Royalty/Streaming,Canada,Gold,steven.rodriguez@sandstorm.com,Junior Mining,$3M,Exploration,
+68,Joseph Taylor,Head of Mining,Sandstorm Gold,Royalty/Streaming,Canada,Gold,joseph.taylor@sandstorm.com,Junior Mining,$39M,Development,
+69,Daniel Johnson,Portfolio Manager,Sandstorm Gold,Royalty/Streaming,Canada,Gold,daniel.johnson@sandstorm.com,Junior Mining,$43M,Pre-Production,
+70,Steven Jones,Managing Director,The Lundin Group,Family Office,Canada,Mining,sjones@the.com,Junior Mining,$25M,Exploration,
+71,James Rodriguez,Director,The Lundin Group,Family Office,Canada,Mining,jrodriguez@the.com,Junior Mining,$37M,Exploration,
+72,Daniel Thomas,Portfolio Manager,The Lundin Group,Family Office,Canada,Mining,daniel.thomas@the.com,Junior Mining,$49M,Exploration,
+73,Andrew Taylor,Managing Director,The Hunter Dickinson Group,Family Office,Canada,Mining,andrewt@the.com,Junior Mining,$11M,Exploration,
+74,Mark Martin,Investment Manager,The Hunter Dickinson Group,Family Office,Canada,Mining,mark.martin@the.com,Junior Mining,$23M,Development,
+75,Michael White,Vice President,The Hunter Dickinson Group,Family Office,Canada,Mining,michaelw@the.com,Junior Mining,$34M,Pre-Production,
+76,Michael Martinez,Partner,The Ross Beaty Group,Family Office,Canada,Mining,michael.martinez@the.com,Junior Mining,$17M,Pre-Production,
+77,James Moore,Head of Mining,The Ross Beaty Group,Family Office,Canada,Mining,jmoore@the.com,Junior Mining,$50M,Exploration,
+78,Mark Wilson,Investment Manager,The Ross Beaty Group,Family Office,Canada,Mining,markw@the.com,Junior Mining,$3M,Pre-Production,
+79,David Wilson,Managing Director,Barrenjoey Capital Partners,Investment Bank,Australia,Mining,david.wilson@barrenjoey.com.au,Junior Mining,$19M,Development,
+80,Anthony Anderson,Investment Manager,Barrenjoey Capital Partners,Investment Bank,Australia,Mining,anthonya@barrenjoey.com.au,Junior Mining,$26M,Exploration,
+81,Mark Lee,Partner,Shaw and Partners,Stockbroker,Australia,Mining,mark.lee@shaw.com.au,Junior Mining,$31M,Development,
+82,Peter Wilson,Director,Shaw and Partners,Stockbroker,Australia,Mining,peterw@shaw.com.au,Junior Mining,$10M,Development,
+83,David Taylor,Analyst,Euroz Hartleys,Stockbroker,Australia,Mining,dtaylor@euroz.com.au,Junior Mining,$45M,Pre-Production,
+84,Paul Martin,Investment Manager,Euroz Hartleys,Stockbroker,Australia,Mining,paul.martin@euroz.com.au,Junior Mining,$8M,Exploration,
+85,Michael Taylor,Analyst,Canaccord Genuity Australia,Stockbroker,Australia,Mining,mtaylor@canaccord.com.au,Junior Mining,$38M,Development,
+86,Jeffrey Johnson,Portfolio Manager,Canaccord Genuity Australia,Stockbroker,Australia,Mining,jeffrey.johnson@canaccord.com.au,Junior Mining,$35M,Development,
+87,Matthew Nguyen,Associate,Argonaut Securities,Stockbroker,Australia,Mining,mnguyen@argonaut.com.au,Junior Mining,$1M,Development,
+88,John Robinson,Vice President,Argonaut Securities,Stockbroker,Australia,Mining,jrobinson@argonaut.com.au,Junior Mining,$9M,Development,
+89,Gary Harris,Head of Resources,Patersons Securities,Stockbroker,Australia,Mining,gharris@patersons.com.au,Junior Mining,$30M,Exploration,
+90,Timothy Johnson,Managing Director,Patersons Securities,Stockbroker,Australia,Mining,tjohnson@patersons.com.au,Junior Mining,$49M,Pre-Production,
+91,Jason Johnson,Analyst,Bell Potter Securities,Stockbroker,Australia,Mining,jasonj@bell.com.au,Junior Mining,$27M,Pre-Production,
+92,Christopher Thompson,Portfolio Manager,Bell Potter Securities,Stockbroker,Australia,Mining,christopher.thompson@bell.com.au,Junior Mining,$16M,Development,
+93,Michael Jones,Portfolio Manager,Morgans Financial,Stockbroker,Australia,Mining,michaelj@morgans.com.au,Junior Mining,$9M,Development,
+94,Peter Jones,Head of Mining,Morgans Financial,Stockbroker,Australia,Mining,peterj@morgans.com.au,Junior Mining,$20M,Exploration,
+95,Jason Smith,Vice President,Regal Funds Management,Fund Manager,Australia,Mining,jason.smith@regal.com.au,Junior Mining,$34M,Development,
+96,Andrew Nguyen,Head of Mining,Regal Funds Management,Fund Manager,Australia,Mining,anguyen@regal.com.au,Junior Mining,$42M,Pre-Production,
+97,Robert Thompson,Managing Director,Tribeca Investment Partners,Fund Manager,Australia,Resources,robertt@tribeca.com.au,Junior Mining,$25M,Exploration,
+98,Christopher Thomas,Director,Tribeca Investment Partners,Fund Manager,Australia,Resources,cthomas@tribeca.com.au,Junior Mining,$21M,Pre-Production,
+99,Jason Thompson,Head of Resources,Ausbil Investment Management,Fund Manager,Australia,Resources,jthompson@ausbil.com.au,Junior Mining,$26M,Exploration,
+100,Andrew Robinson,Vice President,Ausbil Investment Management,Fund Manager,Australia,Resources,andrew.robinson@ausbil.com.au,Junior Mining,$46M,Pre-Production,
+101,Jason Wright,Investment Manager,Perennial Value Management,Fund Manager,Australia,Resources,jasonw@perennial.com.au,Junior Mining,$2M,Exploration,
+102,Christopher Anderson,Head of Resources,Perennial Value Management,Fund Manager,Australia,Resources,christopher.anderson@perennial.com.au,Junior Mining,$3M,Development,
+103,Gary Taylor,Portfolio Manager,EMR Capital,Private Equity,Australia,Mining,gary.taylor@emr.com.au,Junior Mining,$25M,Development,
+104,Kevin Smith,Managing Director,EMR Capital,Private Equity,Australia,Mining,kevin.smith@emr.com.au,Junior Mining,$20M,Pre-Production,
+105,Gary Harris,Head of Mining,Resource Capital Funds Australia,Private Equity,Australia,Mining,garyh@resource.com.au,Junior Mining,$22M,Exploration,
+106,David Johnson,Portfolio Manager,Resource Capital Funds Australia,Private Equity,Australia,Mining,davidj@resource.com.au,Junior Mining,$33M,Exploration,
+107,Andrew Johnson,Director,Pacific Road Capital,Private Equity,Australia,Mining,ajohnson@pacific.com.au,Junior Mining,$33M,Exploration,
+108,Stephen Nguyen,Analyst,Pacific Road Capital,Private Equity,Australia,Mining,stephen.nguyen@pacific.com.au,Junior Mining,$12M,Pre-Production,
+109,David Taylor,Head of Mining,Taurus Funds Management,Private Equity,Australia,Mining,davidt@taurus.com.au,Junior Mining,$19M,Exploration,
+110,Richard Jones,Vice President,Taurus Funds Management,Private Equity,Australia,Mining,richard.jones@taurus.com.au,Junior Mining,$5M,Exploration,
+111,Timothy Taylor,Vice President,BHP Ventures,Corporate Venture,Australia,Mining Tech,timothy.taylor@bhp.com.au,Junior Mining,$47M,Pre-Production,
+112,John Walker,Director,BHP Ventures,Corporate Venture,Australia,Mining Tech,jwalker@bhp.com.au,Junior Mining,$11M,Exploration,
+113,Anthony Lee,Managing Director,Rio Tinto Ventures,Corporate Venture,Australia,Mining Tech,anthony.lee@rio.com.au,Junior Mining,$9M,Pre-Production,
+114,James Brown,Associate,Rio Tinto Ventures,Corporate Venture,Australia,Mining Tech,jamesb@rio.com.au,Junior Mining,$49M,Pre-Production,
+115,Peter Jones,Investment Manager,Fortescue Future Industries,Corporate Venture,Australia,Green Energy,peterj@fortescue.com.au,Junior Mining,$45M,Pre-Production,
+116,Christopher Robinson,Head of Resources,Fortescue Future Industries,Corporate Venture,Australia,Green Energy,christopherr@fortescue.com.au,Junior Mining,$6M,Development,
+117,Matthew Nguyen,Investment Manager,Tattarang,Family Office,Australia,Resources,matthewn@tattarang.com.au,Junior Mining,$39M,Development,
+118,Jeffrey Anderson,Analyst,Tattarang,Family Office,Australia,Resources,jeffreya@tattarang.com.au,Junior Mining,$7M,Exploration,
+119,Matthew Martin,Associate,M.H. Carnegie & Co,Family Office,Australia,Resources,matthewm@m.h..com.au,Junior Mining,$2M,Exploration,
+120,Paul Walker,Director,M.H. Carnegie & Co,Family Office,Australia,Resources,pwalker@m.h..com.au,Junior Mining,$34M,Exploration,
+121,Mark Morris,Head of Resources,Melbourne Resources Fund,Investment Fund,Australia,Copper Mining,markm@melbourne.com,Junior Mining,$1M,Exploration,Enhanced Database
+122,James Walker,Investment Manager,Coral Sea Capital,Private Equity,Australia,Mining & Resources,walker@coral.com,Junior Mining,$29M,Pre-Production,Enhanced Database
+123,Nicholas White,Investment Director,Aurora Resources Fund,Family Office,Canada,Development Stage Mining,nwhite@aurora.ca,Junior Mining,$1M,Pre-Production,Enhanced Database
+124,Michael Thompson,Senior Investment Manager,Boreal Investment Partners,Boutique Investment Bank,Canada,Lithium/Battery Metals,michael.thompson@boreal.ca,Junior Mining,$13M,Production,Enhanced Database
+125,Mark Clark,Principal,Digger Resources,Private Equity,Australia,Iron Ore,mark.clark@digger.com,Junior Mining,$30M,Exploration,Enhanced Database
+126,Edward Wilson,Resources Analyst,Sydney Mining Partners,Stockbroker,Australia,Exploration,ewilson@sydney.com.au,Junior Mining,$37M,Pre-Production,Enhanced Database
+127,David Clark,Principal,Canadian Mining Ventures,Boutique Investment Bank,Canada,Base Metals,dclark@canadian.ca,Junior Mining,$39M,Exploration,Enhanced Database
+128,Simon Wright,Resources Analyst,Outback Capital,Stockbroker,Australia,Lithium/Battery Metals,simon.wright@outback.com.au,Junior Mining,$24M,Exploration,Enhanced Database
+129,Andrew Martinez,Managing Director,Yukon Ventures,Boutique Investment Bank,Canada,Mining & Resources,amartinez@yukon.ca,Junior Mining,$36M,Exploration,Enhanced Database
+130,Gregory Campbell,Head of Resources,Pacific Mining Partners,Investment Fund,Australia,Gold Mining,gcampbell@pacific.com.au,Junior Mining,$29M,Exploration,Enhanced Database
+131,Simon Cooper,Managing Director,Aussie Resources Fund,Investment Fund,Australia,Gold Mining,simon.cooper@aussie.com,Junior Mining,$12M,Exploration,Enhanced Database
+132,Richard Smith,Partner,Timberwolf Capital,Private Equity,Canada,Gold Mining,smith@timberwolf.com,Junior Mining,$46M,Production,Enhanced Database
+133,Ronald Walker,Portfolio Manager,Boomerang Investment Group,Investment Fund,Australia,Production Assets,walker@boomerang.com,Junior Mining,$13M,Production,Enhanced Database
+134,Christopher Nguyen,Managing Director,Great Barrier Capital,Private Equity,Australia,Lithium/Battery Metals,cnguyen@great.com.au,Junior Mining,$15M,Production,Enhanced Database
+135,John Stewart,Head of Resources,Perth Ventures,Investment Fund,Australia,Copper Mining,jstewart@perth.com,Junior Mining,$2M,Development,Enhanced Database
+136,James Thompson,Partner,Arctic Capital Management,Family Office,Canada,Gold Mining,jamest@arctic.com,Junior Mining,$30M,Exploration,Enhanced Database
+137,James Scott,Portfolio Manager,Aurora Resources Fund,Boutique Investment Bank,Canada,Gold Mining,jscott@aurora.ca,Junior Mining,$43M,Pre-Production,Enhanced Database
+138,Jason Miller,Partner,True North Capital,Boutique Investment Bank,Canada,Gold Mining,jmiller@true.com,Junior Mining,$24M,Exploration,Enhanced Database
+139,Steven Jackson,Principal,Boreal Investment Partners,Private Equity,Canada,Development Stage Mining,steven.jackson@boreal.ca,Junior Mining,$43M,Production,Enhanced Database
+140,Nicholas Walker,Senior Investment Manager,Northern Resources Fund,Boutique Investment Bank,Canada,Precious Metals,nwalker@northern.com,Junior Mining,$9M,Development,Enhanced Database
+141,Andrew Walker,Principal,Digger Resources,Stockbroker,Australia,Base Metals,awalker@digger.com.au,Junior Mining,$43M,Pre-Production,Enhanced Database
+142,Patrick Rodriguez,Investment Director,Polaris Investment Group,Family Office,Canada,Gold Mining,patrick.rodriguez@polaris.ca,Junior Mining,$2M,Pre-Production,Enhanced Database
+143,John Clark,Head of Mining,Arctic Capital Management,Private Equity,Canada,Precious Metals,clark@arctic.com,Junior Mining,$29M,Exploration,Enhanced Database
+144,Brian Campbell,Investment Manager,Coral Sea Capital,Investment Fund,Australia,Mining & Resources,bcampbell@coral.com,Junior Mining,$28M,Exploration,Enhanced Database
+145,James Lee,Investment Director,Canadian Mining Ventures,Boutique Investment Bank,Canada,Precious Metals,lee@canadian.com,Junior Mining,$38M,Exploration,Enhanced Database
+146,Paul Cooper,Partner,Sydney Mining Partners,Stockbroker,Australia,Gold Mining,pcooper@sydney.com.au,Junior Mining,$49M,Development,Enhanced Database
+147,Eric Thompson,Partner,Northern Resources Fund,Private Equity,Canada,Base Metals,ethompson@northern.ca,Junior Mining,$19M,Exploration,Enhanced Database
+148,Edward Walker,Principal,Digger Resources,Private Equity,Australia,Production Assets,edward.walker@digger.com.au,Junior Mining,$14M,Pre-Production,Enhanced Database
+149,Paul Allen,Partner,Timberwolf Capital,Private Equity,Canada,Base Metals,pallen@timberwolf.ca,Junior Mining,$48M,Pre-Production,Enhanced Database
+150,Eric Clark,Partner,Aurora Resources Fund,Boutique Investment Bank,Canada,Development Stage Mining,eclark@aurora.ca,Junior Mining,$10M,Pre-Production,Enhanced Database
+151,Brian Lee,Head of Mining,Polaris Investment Group,Boutique Investment Bank,Canada,Gold Mining,brian.lee@polaris.com,Junior Mining,$29M,Exploration,Enhanced Database
+152,Timothy Wilson,Principal,Yukon Ventures,Boutique Investment Bank,Canada,Gold Mining,timothy.wilson@yukon.com,Junior Mining,$32M,Development,Enhanced Database
+153,Ronald Morris,Managing Director,Digger Resources,Stockbroker,Australia,Base Metals,rmorris@digger.com.au,Junior Mining,$20M,Pre-Production,Enhanced Database
+154,Richard Miller,Head of Mining,Great White Capital,Boutique Investment Bank,Canada,Development Stage Mining,richard.miller@great.ca,Junior Mining,$9M,Development,Enhanced Database
+155,Gary King,Senior Advisor,Perth Ventures,Investment Fund,Australia,Copper Mining,gary.king@perth.com.au,Junior Mining,$15M,Production,Enhanced Database
+156,Paul Lee,Partner,Yukon Ventures,Boutique Investment Bank,Canada,Copper Mining,plee@yukon.ca,Junior Mining,$8M,Pre-Production,Enhanced Database
+157,Michael Clark,Partner,Yukon Ventures,Private Equity,Canada,Development Stage Mining,mclark@yukon.com,Junior Mining,$34M,Pre-Production,Enhanced Database
+158,Kevin Lewis,Vice President - Resources,Canadian Mining Ventures,Boutique Investment Bank,Canada,Development Stage Mining,kevin.lewis@canadian.com,Junior Mining,$29M,Development,Enhanced Database
+159,Jason Mitchell,Principal,Melbourne Resources Fund,Investment Fund,Australia,Copper Mining,mitchell@melbourne.com,Junior Mining,$17M,Pre-Production,Enhanced Database
+160,Ronald Robinson,Investment Manager,Coral Sea Capital,Investment Fund,Australia,Iron Ore,rrobinson@coral.com.au,Junior Mining,$4M,Pre-Production,Enhanced Database
+161,Mark White,Senior Investment Manager,Pacific Northwest Capital,Family Office,Canada,Copper Mining,white@pacific.com,Junior Mining,$27M,Production,Enhanced Database
+162,Stephen Wilson,Head of Mining,Aurora Resources Fund,Boutique Investment Bank,Canada,Exploration Finance,swilson@aurora.ca,Junior Mining,$44M,Pre-Production,Enhanced Database
+163,Mark Martinez,Vice President - Resources,Great White Capital,Family Office,Canada,Gold Mining,mmartinez@great.com,Junior Mining,$40M,Development,Enhanced Database
+164,John Thomas,Head of Mining,Canadian Mining Ventures,Private Equity,Canada,Copper Mining,thomas@canadian.com,Junior Mining,$43M,Pre-Production,Enhanced Database
+165,John Martin,Partner,Boreal Investment Partners,Family Office,Canada,Exploration Finance,jmartin@boreal.ca,Junior Mining,$15M,Exploration,Enhanced Database
+166,Gary Johnson,Investment Director,Pacific Northwest Capital,Private Equity,Canada,Base Metals,gjohnson@pacific.ca,Junior Mining,$1M,Pre-Production,Enhanced Database
+167,Robert Lee,Investment Director,Northern Resources Fund,Family Office,Canada,Exploration Finance,robert.lee@northern.ca,Junior Mining,$13M,Exploration,Enhanced Database
+168,Anthony Wilson,Senior Advisor,Pacific Mining Partners,Stockbroker,Australia,Base Metals,anthonyw@pacific.com,Junior Mining,$33M,Pre-Production,Enhanced Database
+169,Thomas Williams,Portfolio Manager,Aurora Resources Fund,Boutique Investment Bank,Canada,Lithium/Battery Metals,williams@aurora.com,Junior Mining,$19M,Exploration,Enhanced Database
+170,James Anderson,Head of Mining,Great White Capital,Family Office,Canada,Gold Mining,jamesa@great.com,Junior Mining,$25M,Exploration,Enhanced Database
+171,James Scott,Senior Investment Manager,Northern Resources Fund,Private Equity,Canada,Gold Mining,jscott@northern.com,Junior Mining,$7M,Pre-Production,Enhanced Database
+172,Brian Harrison,Principal,Great Barrier Capital,Investment Fund,Australia,Iron Ore,brianh@great.com,Junior Mining,$9M,Production,Enhanced Database
+173,Robert Hall,Principal,True North Capital,Boutique Investment Bank,Canada,Copper Mining,hall@true.com,Junior Mining,$33M,Development,Enhanced Database
+174,Patrick Miller,Managing Director,Pacific Northwest Capital,Family Office,Canada,Exploration Finance,miller@pacific.com,Junior Mining,$21M,Development,Enhanced Database
+175,Ronald Jones,Partner,Pacific Mining Partners,Stockbroker,Australia,Copper Mining,ronald.jones@pacific.com,Junior Mining,$30M,Development,Enhanced Database
+176,Kevin Thomas,Managing Director,Southern Cross Capital,Investment Fund,Australia,Lithium/Battery Metals,kevin.thomas@southern.com.au,Junior Mining,$47M,Pre-Production,Enhanced Database
+177,Brian Brown,Portfolio Manager,Kangaroo Ventures,Private Equity,Australia,Base Metals,brian.brown@kangaroo.com.au,Junior Mining,$17M,Development,Enhanced Database
+178,Matthew Moore,Investment Director,Maple Capital Partners,Family Office,Canada,Copper Mining,matthew.moore@maple.ca,Junior Mining,$45M,Production,Enhanced Database
+179,Daniel Lee,Senior Investment Manager,Maple Capital Partners,Private Equity,Canada,Development Stage Mining,daniel.lee@maple.ca,Junior Mining,$24M,Production,Enhanced Database
+180,Steven Martinez,Senior Investment Manager,Yukon Ventures,Boutique Investment Bank,Canada,Exploration Finance,steven.martinez@yukon.ca,Junior Mining,$43M,Production,Enhanced Database
+181,Ronald Nguyen,Senior Advisor,Outback Capital,Stockbroker,Australia,Base Metals,nguyen@outback.com,Junior Mining,$49M,Exploration,Enhanced Database
+182,John Ryan,Portfolio Manager,Perth Ventures,Investment Fund,Australia,Copper Mining,jryan@perth.com,Junior Mining,$24M,Development,Enhanced Database
+183,David Young,Senior Investment Manager,Canadian Mining Ventures,Private Equity,Canada,Precious Metals,young@canadian.com,Junior Mining,$39M,Pre-Production,Enhanced Database
+184,Kenneth Taylor,Vice President - Resources,Polaris Investment Group,Private Equity,Canada,Gold Mining,ktaylor@polaris.ca,Junior Mining,$8M,Production,Enhanced Database
+185,Jeffrey Wilson,Partner,Great White Capital,Boutique Investment Bank,Canada,Gold Mining,jeffreyw@great.com,Junior Mining,$32M,Production,Enhanced Database
+186,Andrew Morgan,Portfolio Manager,Kangaroo Ventures,Stockbroker,Australia,Base Metals,amorgan@kangaroo.com,Junior Mining,$44M,Pre-Production,Enhanced Database
+187,Jason Lee,Partner,Boreal Investment Partners,Boutique Investment Bank,Canada,Copper Mining,jlee@boreal.com,Junior Mining,$47M,Pre-Production,Enhanced Database
+188,Christopher Davis,Principal,Arctic Capital Management,Family Office,Canada,Gold Mining,christopher.davis@arctic.com,Junior Mining,$42M,Exploration,Enhanced Database
+189,Richard Wilson,Principal,Boreal Investment Partners,Private Equity,Canada,Development Stage Mining,rwilson@boreal.ca,Junior Mining,$1M,Development,Enhanced Database
+190,Ryan Miller,Head of Mining,True North Capital,Family Office,Canada,Mining & Resources,rmiller@true.ca,Junior Mining,$45M,Development,Enhanced Database
+191,Patrick Moore,Vice President - Resources,Great White Capital,Private Equity,Canada,Copper Mining,pmoore@great.com,Junior Mining,$45M,Pre-Production,Enhanced Database
+192,Simon Thomas,Partner,Melbourne Resources Fund,Private Equity,Australia,Iron Ore,sthomas@melbourne.com.au,Junior Mining,$21M,Production,Enhanced Database
+193,Gary Jones,Principal,True North Capital,Boutique Investment Bank,Canada,Precious Metals,gjones@true.ca,Junior Mining,$27M,Pre-Production,Enhanced Database
+194,Thomas Rodriguez,Investment Director,Pacific Northwest Capital,Boutique Investment Bank,Canada,Exploration Finance,thomas.rodriguez@pacific.ca,Junior Mining,$36M,Production,Enhanced Database
+195,William Scott,Partner,Pacific Northwest Capital,Family Office,Canada,Exploration Finance,wscott@pacific.ca,Junior Mining,$37M,Pre-Production,Enhanced Database
+196,Gary Williams,Principal,Polaris Investment Group,Private Equity,Canada,Exploration Finance,gary.williams@polaris.com,Junior Mining,$2M,Production,Enhanced Database
+197,Eric Martinez,Principal,Great White Capital,Boutique Investment Bank,Canada,Precious Metals,eric.martinez@great.com,Junior Mining,$48M,Production,Enhanced Database
+198,Jason Lee,Partner,Aurora Resources Fund,Boutique Investment Bank,Canada,Exploration Finance,jason.lee@aurora.com,Junior Mining,$11M,Production,Enhanced Database
+199,John Thomas,Vice President - Resources,Boreal Investment Partners,Boutique Investment Bank,Canada,Base Metals,john.thomas@boreal.com,Junior Mining,$2M,Exploration,Enhanced Database
+200,Ronald Brown,Investment Manager,Sydney Mining Partners,Stockbroker,Australia,Lithium/Battery Metals,brown@sydney.com,Junior Mining,$45M,Exploration,Enhanced Database
+201,Scott King,Investment Director,True North Capital,Family Office,Canada,Gold Mining,sking@true.ca,Junior Mining,$20M,Exploration,Enhanced Database
+202,Donald Stewart,Principal,Digger Resources,Investment Fund,Australia,Exploration,donald.stewart@digger.com,Junior Mining,$11M,Production,Enhanced Database
+203,Scott Garcia,Partner,Aurora Resources Fund,Private Equity,Canada,Copper Mining,garcia@aurora.com,Junior Mining,$24M,Pre-Production,Enhanced Database
+204,Andrew Thomas,Vice President - Resources,Timberwolf Capital,Private Equity,Canada,Development Stage Mining,thomas@timberwolf.com,Junior Mining,$8M,Development,Enhanced Database
+205,Richard Moore,Vice President - Resources,Boreal Investment Partners,Private Equity,Canada,Precious Metals,richard.moore@boreal.com,Junior Mining,$9M,Pre-Production,Enhanced Database
+206,Stephen Wright,Managing Director,Polaris Investment Group,Private Equity,Canada,Lithium/Battery Metals,swright@polaris.com,Junior Mining,$9M,Pre-Production,Enhanced Database
+207,Stephen Johnson,Investment Director,Maple Capital Partners,Boutique Investment Bank,Canada,Precious Metals,stephenj@maple.com,Junior Mining,$14M,Exploration,Enhanced Database
+208,Robert Reed,Portfolio Manager,Great Barrier Capital,Investment Fund,Australia,Iron Ore,reed@great.com,Junior Mining,$3M,Production,Enhanced Database
+209,Simon Clark,Investment Manager,Digger Resources,Investment Fund,Australia,Iron Ore,sclark@digger.com,Junior Mining,$43M,Exploration,Enhanced Database
+210,Christopher Lee,Vice President - Resources,Pacific Northwest Capital,Family Office,Canada,Precious Metals,clee@pacific.com,Junior Mining,$33M,Exploration,Enhanced Database
+211,Timothy Taylor,Vice President - Resources,Boreal Investment Partners,Boutique Investment Bank,Canada,Precious Metals,ttaylor@boreal.com,Junior Mining,$39M,Exploration,Enhanced Database
+212,Andrew Thompson,Principal,Timberwolf Capital,Family Office,Canada,Exploration Finance,athompson@timberwolf.ca,Junior Mining,$26M,Development,Enhanced Database
+213,Simon Mitchell,Senior Advisor,Boomerang Investment Group,Private Equity,Australia,Iron Ore,simonm@boomerang.com,Junior Mining,$40M,Exploration,Enhanced Database
+214,Gregory Stewart,Senior Advisor,Boomerang Investment Group,Stockbroker,Australia,Lithium/Battery Metals,gregorys@boomerang.com,Junior Mining,$39M,Production,Enhanced Database
+215,Mark Johnson,Vice President - Resources,True North Capital,Private Equity,Canada,Exploration Finance,johnson@true.com,Junior Mining,$20M,Pre-Production,Enhanced Database
+216,Paul Walker,Head of Mining,Aurora Resources Fund,Boutique Investment Bank,Canada,Lithium/Battery Metals,paul.walker@aurora.ca,Junior Mining,$22M,Development,Enhanced Database
+217,Peter Nguyen,Head of Resources,Sydney Mining Partners,Investment Fund,Australia,Production Assets,peter.nguyen@sydney.com.au,Junior Mining,$42M,Exploration,Enhanced Database
+218,Jeffrey Martin,Senior Investment Manager,Canadian Mining Ventures,Family Office,Canada,Mining & Resources,martin@canadian.com,Junior Mining,$21M,Production,Enhanced Database
+219,Kenneth Scott,Portfolio Manager,Yukon Ventures,Family Office,Canada,Lithium/Battery Metals,kenneth.scott@yukon.ca,Junior Mining,$12M,Pre-Production,Enhanced Database
+220,Robert Garcia,Partner,Great White Capital,Family Office,Canada,Precious Metals,rgarcia@great.com,Junior Mining,$32M,Pre-Production,Enhanced Database
+221,Mark Wilson,Portfolio Manager,Aurora Resources Fund,Boutique Investment Bank,Canada,Base Metals,mwilson@aurora.ca,Junior Mining,$13M,Exploration,Enhanced Database
+222,Brian Wright,Investment Manager,Kangaroo Ventures,Investment Fund,Australia,Copper Mining,wright@kangaroo.com,Junior Mining,$19M,Development,Enhanced Database
+223,James Johnson,Head of Resources,Melbourne Resources Fund,Stockbroker,Australia,Base Metals,james.johnson@melbourne.com.au,Junior Mining,$41M,Exploration,Enhanced Database
+224,Kevin White,Vice President - Resources,Aurora Resources Fund,Private Equity,Canada,Base Metals,kevinw@aurora.com,Junior Mining,$42M,Exploration,Enhanced Database
+225,Richard Thomas,Investment Director,Maple Capital Partners,Private Equity,Canada,Mining & Resources,rthomas@maple.ca,Junior Mining,$10M,Production,Enhanced Database
+226,Kenneth Williams,Investment Manager,Perth Ventures,Private Equity,Australia,Lithium/Battery Metals,kenneth.williams@perth.com,Junior Mining,$32M,Pre-Production,Enhanced Database
+227,Eric Harris,Head of Mining,Aurora Resources Fund,Boutique Investment Bank,Canada,Mining & Resources,eric.harris@aurora.ca,Junior Mining,$9M,Pre-Production,Enhanced Database
+228,Richard White,Partner,Canadian Mining Ventures,Private Equity,Canada,Precious Metals,rwhite@canadian.com,Junior Mining,$38M,Exploration,Enhanced Database
+229,John Hall,Principal,Timberwolf Capital,Private Equity,Canada,Mining & Resources,hall@timberwolf.com,Junior Mining,$35M,Production,Enhanced Database
+230,Steven Clark,Partner,True North Capital,Family Office,Canada,Copper Mining,stevenc@true.com,Junior Mining,$46M,Development,Enhanced Database
+231,Scott Davis,Vice President - Resources,Timberwolf Capital,Family Office,Canada,Mining & Resources,scott.davis@timberwolf.com,Junior Mining,$14M,Exploration,Enhanced Database
+232,Kevin Anderson,Senior Investment Manager,Boreal Investment Partners,Family Office,Canada,Precious Metals,kanderson@boreal.com,Junior Mining,$3M,Development,Enhanced Database
+233,Paul Williams,Investment Manager,Aussie Resources Fund,Investment Fund,Australia,Gold Mining,paul.williams@aussie.com,Junior Mining,$23M,Pre-Production,Enhanced Database
+234,Christopher Williams,Vice President - Resources,Great White Capital,Private Equity,Canada,Lithium/Battery Metals,williams@great.com,Junior Mining,$48M,Production,Enhanced Database
+235,Stephen Williams,Portfolio Manager,Pacific Northwest Capital,Boutique Investment Bank,Canada,Precious Metals,williams@pacific.com,Junior Mining,$28M,Exploration,Enhanced Database
+236,Paul Taylor,Principal,Great White Capital,Boutique Investment Bank,Canada,Mining & Resources,pault@great.com,Junior Mining,$9M,Exploration,Enhanced Database
+237,Christopher Davis,Vice President - Resources,Northern Resources Fund,Family Office,Canada,Mining & Resources,christopher.davis@northern.com,Junior Mining,$24M,Development,Enhanced Database
+238,Michael Taylor,Principal,Southern Cross Capital,Investment Fund,Australia,Gold Mining,mtaylor@southern.com.au,Junior Mining,$38M,Pre-Production,Enhanced Database
+239,Steven Martinez,Portfolio Manager,Yukon Ventures,Boutique Investment Bank,Canada,Development Stage Mining,steven.martinez@yukon.ca,Junior Mining,$48M,Production,Enhanced Database
+240,Timothy Martin,Senior Investment Manager,Canadian Mining Ventures,Boutique Investment Bank,Canada,Gold Mining,martin@canadian.com,Junior Mining,$32M,Pre-Production,Enhanced Database
+241,Kenneth King,Investment Director,Maple Capital Partners,Private Equity,Canada,Exploration Finance,king@maple.com,Junior Mining,$8M,Development,Enhanced Database
+242,Kevin Ryan,Head of Resources,Outback Capital,Private Equity,Australia,Iron Ore,kevinr@outback.com,Junior Mining,$17M,Exploration,Enhanced Database
+243,John Thomas,Investment Manager,Perth Ventures,Private Equity,Australia,Exploration,jthomas@perth.com.au,Junior Mining,$16M,Production,Enhanced Database
+244,John Jackson,Head of Mining,Arctic Capital Management,Boutique Investment Bank,Canada,Copper Mining,johnj@arctic.com,Junior Mining,$6M,Pre-Production,Enhanced Database
+245,Kenneth Reed,Senior Advisor,Coral Sea Capital,Stockbroker,Australia,Exploration,reed@coral.com,Junior Mining,$29M,Pre-Production,Enhanced Database
+246,Jeffrey White,Managing Director,Coral Sea Capital,Investment Fund,Australia,Iron Ore,jeffrey.white@coral.com,Junior Mining,$6M,Production,Enhanced Database
+247,Mark Walker,Portfolio Manager,True North Capital,Family Office,Canada,Precious Metals,markw@true.com,Junior Mining,$39M,Development,Enhanced Database
+248,Kenneth Walker,Investment Director,Yukon Ventures,Family Office,Canada,Gold Mining,walker@yukon.com,Junior Mining,$4M,Development,Enhanced Database
+249,Jeffrey Martin,Portfolio Manager,Outback Capital,Investment Fund,Australia,Iron Ore,jmartin@outback.com,Junior Mining,$45M,Exploration,Enhanced Database
+250,Kenneth Thomas,Managing Director,Canadian Mining Ventures,Boutique Investment Bank,Canada,Exploration Finance,kthomas@canadian.com,Junior Mining,$39M,Pre-Production,Enhanced Database
+251,Nicholas Miller,Vice President - Resources,Boreal Investment Partners,Family Office,Canada,Exploration Finance,nmiller@boreal.ca,Junior Mining,$23M,Development,Enhanced Database
+252,Gregory Lee,Resources Analyst,Southern Cross Capital,Stockbroker,Australia,Production Assets,glee@southern.com,Junior Mining,$21M,Pre-Production,Enhanced Database
+253,Donald Morris,Senior Advisor,Outback Capital,Stockbroker,Australia,Exploration,donald.morris@outback.com,Junior Mining,$43M,Exploration,Enhanced Database
+254,Peter King,Resources Analyst,Boomerang Investment Group,Stockbroker,Australia,Copper Mining,peter.king@boomerang.com.au,Junior Mining,$39M,Development,Enhanced Database
+255,Christopher Smith,Portfolio Manager,Pacific Northwest Capital,Private Equity,Canada,Exploration Finance,smith@pacific.com,Junior Mining,$26M,Pre-Production,Enhanced Database
+256,Mark Cooper,Senior Advisor,Aussie Resources Fund,Private Equity,Australia,Copper Mining,mark.cooper@aussie.com.au,Junior Mining,$21M,Exploration,Enhanced Database
+257,Gregory Wright,Investment Manager,Digger Resources,Private Equity,Australia,Copper Mining,gwright@digger.com.au,Junior Mining,$50M,Exploration,Enhanced Database
+258,Jeffrey Scott,Investment Director,Aurora Resources Fund,Private Equity,Canada,Precious Metals,jscott@aurora.ca,Junior Mining,$9M,Pre-Production,Enhanced Database
+259,Daniel Martin,Partner,Polaris Investment Group,Family Office,Canada,Base Metals,daniel.martin@polaris.ca,Junior Mining,$7M,Exploration,Enhanced Database
+260,Paul Ryan,Partner,Melbourne Resources Fund,Private Equity,Australia,Iron Ore,pryan@melbourne.com,Junior Mining,$46M,Pre-Production,Enhanced Database
+261,Timothy Taylor,Partner,Outback Capital,Investment Fund,Australia,Exploration,timothy.taylor@outback.com.au,Junior Mining,$26M,Production,Enhanced Database
+262,Timothy Williams,Managing Director,Aussie Resources Fund,Investment Fund,Australia,Base Metals,williams@aussie.com,Junior Mining,$39M,Exploration,Enhanced Database
+263,James Rodriguez,Senior Investment Manager,Northern Resources Fund,Family Office,Canada,Gold Mining,james.rodriguez@northern.com,Junior Mining,$26M,Development,Enhanced Database
+264,John Thomas,Investment Director,Northern Resources Fund,Boutique Investment Bank,Canada,Gold Mining,jthomas@northern.ca,Junior Mining,$26M,Development,Enhanced Database
+265,Kevin Martin,Managing Director,Outback Capital,Private Equity,Australia,Exploration,kmartin@outback.com.au,Junior Mining,$28M,Production,Enhanced Database
+266,William Harris,Investment Director,Aurora Resources Fund,Family Office,Canada,Gold Mining,williamh@aurora.com,Junior Mining,$10M,Development,Enhanced Database
+267,Brian Wright,Senior Investment Manager,Northern Resources Fund,Private Equity,Canada,Copper Mining,brian.wright@northern.com,Junior Mining,$14M,Production,Enhanced Database
+268,Paul Walker,Senior Advisor,Boomerang Investment Group,Private Equity,Australia,Production Assets,paul.walker@boomerang.com.au,Junior Mining,$1M,Production,Enhanced Database
+269,Timothy Garcia,Managing Director,Boreal Investment Partners,Boutique Investment Bank,Canada,Gold Mining,tgarcia@boreal.com,Junior Mining,$10M,Production,Enhanced Database
+270,Kenneth Jackson,Vice President - Resources,Maple Capital Partners,Family Office,Canada,Copper Mining,jackson@maple.com,Junior Mining,$39M,Development,Enhanced Database
+271,Scott Thomas,Portfolio Manager,Polaris Investment Group,Boutique Investment Bank,Canada,Exploration Finance,scott.thomas@polaris.com,Junior Mining,$41M,Pre-Production,Enhanced Database
+272,Richard Thomas,Portfolio Manager,Outback Capital,Stockbroker,Australia,Base Metals,richard.thomas@outback.com.au,Junior Mining,$39M,Exploration,Enhanced Database
+273,Michael Young,Principal,Great White Capital,Private Equity,Canada,Copper Mining,young@great.com,Junior Mining,$43M,Production,Enhanced Database
+274,Stephen Brown,Resources Analyst,Aussie Resources Fund,Stockbroker,Australia,Mining & Resources,sbrown@aussie.com.au,Junior Mining,$11M,Pre-Production,Enhanced Database
+275,Matthew Wright,Portfolio Manager,Northern Resources Fund,Boutique Investment Bank,Canada,Copper Mining,mattheww@northern.com,Junior Mining,$28M,Development,Enhanced Database
+276,Michael Brown,Partner,Canadian Mining Ventures,Family Office,Canada,Precious Metals,michaelb@canadian.com,Junior Mining,$4M,Pre-Production,Enhanced Database
+277,Michael Lee,Principal,Aussie Resources Fund,Stockbroker,Australia,Base Metals,michael.lee@aussie.com,Junior Mining,$31M,Pre-Production,Enhanced Database
+278,Daniel Rodriguez,Vice President - Resources,Arctic Capital Management,Boutique Investment Bank,Canada,Lithium/Battery Metals,rodriguez@arctic.com,Junior Mining,$10M,Production,Enhanced Database
+279,Timothy Harris,Head of Mining,Pacific Northwest Capital,Boutique Investment Bank,Canada,Development Stage Mining,timothyh@pacific.com,Junior Mining,$20M,Pre-Production,Enhanced Database
+280,Joseph Thompson,Partner,Canadian Mining Ventures,Private Equity,Canada,Copper Mining,jthompson@canadian.ca,Junior Mining,$3M,Production,Enhanced Database
+281,Kenneth Davis,Managing Director,Maple Capital Partners,Boutique Investment Bank,Canada,Exploration Finance,kennethd@maple.com,Junior Mining,$8M,Exploration,Enhanced Database
+282,George Wilson,Partner,Melbourne Resources Fund,Stockbroker,Australia,Lithium/Battery Metals,gwilson@melbourne.com,Junior Mining,$32M,Development,Enhanced Database
+283,Simon Jones,Principal,Digger Resources,Stockbroker,Australia,Production Assets,simon.jones@digger.com,Junior Mining,$7M,Pre-Production,Enhanced Database
+284,Thomas Lewis,Partner,Boreal Investment Partners,Family Office,Canada,Mining & Resources,tlewis@boreal.com,Junior Mining,$46M,Exploration,Enhanced Database
+285,Peter White,Resources Analyst,Digger Resources,Stockbroker,Australia,Production Assets,pwhite@digger.com.au,Junior Mining,$2M,Exploration,Enhanced Database
+286,James Brown,Senior Advisor,Perth Ventures,Investment Fund,Australia,Iron Ore,james.brown@perth.com.au,Junior Mining,$28M,Pre-Production,Enhanced Database
+287,Nicholas Johnson,Partner,Boreal Investment Partners,Boutique Investment Bank,Canada,Mining & Resources,johnson@boreal.com,Junior Mining,$33M,Pre-Production,Enhanced Database
+288,Christopher Martin,Principal,Northern Resources Fund,Family Office,Canada,Development Stage Mining,cmartin@northern.ca,Junior Mining,$15M,Exploration,Enhanced Database
+289,Michael Clark,Managing Director,Digger Resources,Stockbroker,Australia,Gold Mining,mclark@digger.com.au,Junior Mining,$19M,Production,Enhanced Database
+290,David Williams,Partner,Coral Sea Capital,Stockbroker,Australia,Exploration,williams@coral.com,Junior Mining,$29M,Exploration,Enhanced Database
+291,Andrew Harris,Senior Investment Manager,Polaris Investment Group,Boutique Investment Bank,Canada,Gold Mining,andrewh@polaris.com,Junior Mining,$27M,Production,Enhanced Database
+292,Richard Clark,Senior Advisor,Pacific Mining Partners,Stockbroker,Australia,Gold Mining,rclark@pacific.com.au,Junior Mining,$17M,Production,Enhanced Database
+293,Michael Harris,Head of Mining,Canadian Mining Ventures,Private Equity,Canada,Development Stage Mining,mharris@canadian.com,Junior Mining,$36M,Exploration,Enhanced Database
+294,Christopher Rodriguez,Vice President - Resources,Northern Resources Fund,Private Equity,Canada,Precious Metals,christopher.rodriguez@northern.com,Junior Mining,$42M,Development,Enhanced Database
+295,Brian Campbell,Head of Resources,Aussie Resources Fund,Stockbroker,Australia,Gold Mining,bcampbell@aussie.com.au,Junior Mining,$30M,Exploration,Enhanced Database
+296,Joseph Smith,Investment Director,Canadian Mining Ventures,Boutique Investment Bank,Canada,Gold Mining,smith@canadian.com,Junior Mining,$34M,Production,Enhanced Database
+297,Joseph Hall,Senior Investment Manager,Boreal Investment Partners,Private Equity,Canada,Precious Metals,hall@boreal.com,Junior Mining,$39M,Production,Enhanced Database
+298,Eric Thompson,Partner,True North Capital,Private Equity,Canada,Copper Mining,eric.thompson@true.com,Junior Mining,$42M,Exploration,Enhanced Database
+299,Robert Wright,Principal,Pacific Northwest Capital,Family Office,Canada,Development Stage Mining,robert.wright@pacific.ca,Junior Mining,$1M,Pre-Production,Enhanced Database
+300,Andrew Jones,Partner,Polaris Investment Group,Private Equity,Canada,Development Stage Mining,ajones@polaris.com,Junior Mining,$40M,Exploration,Enhanced Database
+301,Patrick Allen,Investment Director,Maple Capital Partners,Boutique Investment Bank,Canada,Copper Mining,patrick.allen@maple.com,Junior Mining,$20M,Production,Enhanced Database
+302,Scott Martinez,Vice President - Resources,Pacific Northwest Capital,Private Equity,Canada,Gold Mining,martinez@pacific.com,Junior Mining,$23M,Development,Enhanced Database
+303,Robert Williams,Investment Director,Pacific Northwest Capital,Boutique Investment Bank,Canada,Lithium/Battery Metals,rwilliams@pacific.ca,Junior Mining,$38M,Development,Enhanced Database
+304,Andrew Williams,Partner,Perth Ventures,Stockbroker,Australia,Lithium/Battery Metals,andreww@perth.com,Junior Mining,$6M,Pre-Production,Enhanced Database
+305,Joseph Lewis,Managing Director,Aurora Resources Fund,Private Equity,Canada,Development Stage Mining,jlewis@aurora.ca,Junior Mining,$47M,Exploration,Enhanced Database
+306,Brian Morris,Portfolio Manager,Melbourne Resources Fund,Stockbroker,Australia,Exploration,brian.morris@melbourne.com,Junior Mining,$28M,Production,Enhanced Database
+307,Jeffrey Ryan,Resources Analyst,Outback Capital,Private Equity,Australia,Lithium/Battery Metals,jeffrey.ryan@outback.com,Junior Mining,$6M,Production,Enhanced Database
+308,Andrew Jones,Investment Manager,Digger Resources,Stockbroker,Australia,Exploration,ajones@digger.com.au,Junior Mining,$28M,Production,Enhanced Database
+309,Joseph Thompson,Investment Director,Yukon Ventures,Boutique Investment Bank,Canada,Exploration Finance,jthompson@yukon.com,Junior Mining,$6M,Exploration,Enhanced Database
+310,Richard Garcia,Principal,Pacific Northwest Capital,Private Equity,Canada,Lithium/Battery Metals,garcia@pacific.com,Junior Mining,$35M,Pre-Production,Enhanced Database
+311,Paul Harrison,Head of Resources,Digger Resources,Private Equity,Australia,Copper Mining,paulh@digger.com,Junior Mining,$28M,Pre-Production,Enhanced Database
+312,Gary Murray,Managing Director,Perth Ventures,Stockbroker,Australia,Gold Mining,gmurray@perth.com,Junior Mining,$8M,Production,Enhanced Database
+313,Stephen Ryan,Portfolio Manager,Coral Sea Capital,Investment Fund,Australia,Lithium/Battery Metals,sryan@coral.com.au,Junior Mining,$26M,Development,Enhanced Database
+314,Stephen Walker,Vice President - Resources,Polaris Investment Group,Private Equity,Canada,Copper Mining,walker@polaris.com,Junior Mining,$50M,Exploration,Enhanced Database
+315,Brian Johnson,Head of Mining,Maple Capital Partners,Family Office,Canada,Precious Metals,brianj@maple.com,Junior Mining,$46M,Development,Enhanced Database
+316,Anthony Ryan,Resources Analyst,Digger Resources,Private Equity,Australia,Lithium/Battery Metals,anthonyr@digger.com,Junior Mining,$5M,Pre-Production,Enhanced Database
+317,Joseph Lewis,Head of Mining,Aurora Resources Fund,Private Equity,Canada,Precious Metals,jlewis@aurora.ca,Junior Mining,$19M,Production,Enhanced Database
+318,William Young,Partner,Arctic Capital Management,Private Equity,Canada,Mining & Resources,william.young@arctic.com,Junior Mining,$34M,Pre-Production,Enhanced Database
+319,George Wilson,Partner,Kangaroo Ventures,Investment Fund,Australia,Production Assets,gwilson@kangaroo.com,Junior Mining,$12M,Pre-Production,Enhanced Database
+320,Brian Lee,Principal,Boreal Investment Partners,Family Office,Canada,Lithium/Battery Metals,lee@boreal.com,Junior Mining,$46M,Development,Enhanced Database
+321,Ryan Allen,Managing Director,Aurora Resources Fund,Boutique Investment Bank,Canada,Exploration Finance,ryan.allen@aurora.ca,Junior Mining,$27M,Pre-Production,Enhanced Database
+322,Steven Taylor,Senior Investment Manager,Northern Resources Fund,Boutique Investment Bank,Canada,Exploration Finance,taylor@northern.com,Junior Mining,$43M,Exploration,Enhanced Database
+323,Stephen Ryan,Partner,Melbourne Resources Fund,Private Equity,Australia,Exploration,stephen.ryan@melbourne.com.au,Junior Mining,$19M,Exploration,Enhanced Database
+324,Mark Morgan,Resources Analyst,Aussie Resources Fund,Private Equity,Australia,Iron Ore,mark.morgan@aussie.com.au,Junior Mining,$3M,Development,Enhanced Database
+325,Robert Smith,Partner,Great White Capital,Family Office,Canada,Exploration Finance,rsmith@great.ca,Junior Mining,$17M,Exploration,Enhanced Database
+326,Jason Jones,Head of Resources,Kangaroo Ventures,Stockbroker,Australia,Base Metals,jason.jones@kangaroo.com,Junior Mining,$8M,Production,Enhanced Database
+327,Nicholas Allen,Portfolio Manager,Great White Capital,Private Equity,Canada,Mining & Resources,nicholas.allen@great.ca,Junior Mining,$32M,Exploration,Enhanced Database
+328,Jeffrey Brown,Principal,Arctic Capital Management,Private Equity,Canada,Mining & Resources,jeffreyb@arctic.com,Junior Mining,$23M,Development,Enhanced Database
+329,Paul Garcia,Portfolio Manager,Polaris Investment Group,Private Equity,Canada,Copper Mining,paulg@polaris.com,Junior Mining,$45M,Development,Enhanced Database
+330,Robert King,Managing Director,Aussie Resources Fund,Stockbroker,Australia,Mining & Resources,robert.king@aussie.com.au,Junior Mining,$20M,Exploration,Enhanced Database
+331,Christopher Hall,Managing Director,Maple Capital Partners,Boutique Investment Bank,Canada,Copper Mining,christopher.hall@maple.ca,Junior Mining,$12M,Pre-Production,Enhanced Database
+332,Stephen Jones,Investment Manager,Aussie Resources Fund,Investment Fund,Australia,Gold Mining,sjones@aussie.com.au,Junior Mining,$41M,Exploration,Enhanced Database
+333,Mark Thomas,Managing Director,Pacific Mining Partners,Stockbroker,Australia,Iron Ore,markt@pacific.com,Junior Mining,$37M,Production,Enhanced Database
+334,Eric Lewis,Vice President - Resources,Arctic Capital Management,Family Office,Canada,Exploration Finance,lewis@arctic.com,Junior Mining,$41M,Exploration,Enhanced Database
+335,Brian Moore,Vice President - Resources,Aurora Resources Fund,Boutique Investment Bank,Canada,Exploration Finance,brianm@aurora.com,Junior Mining,$29M,Pre-Production,Enhanced Database
+336,Joseph Rodriguez,Managing Director,Arctic Capital Management,Boutique Investment Bank,Canada,Precious Metals,joseph.rodriguez@arctic.ca,Junior Mining,$20M,Pre-Production,Enhanced Database
+337,Jeffrey Murray,Senior Advisor,Perth Ventures,Private Equity,Australia,Lithium/Battery Metals,jeffreym@perth.com,Junior Mining,$7M,Pre-Production,Enhanced Database
+338,John Reed,Managing Director,Outback Capital,Investment Fund,Australia,Copper Mining,john.reed@outback.com.au,Junior Mining,$10M,Exploration,Enhanced Database
+339,David Lee,Managing Director,Aurora Resources Fund,Private Equity,Canada,Copper Mining,david.lee@aurora.com,Junior Mining,$3M,Exploration,Enhanced Database
+340,David Young,Head of Mining,Boreal Investment Partners,Private Equity,Canada,Copper Mining,david.young@boreal.com,Junior Mining,$46M,Production,Enhanced Database
+341,Jason Rodriguez,Portfolio Manager,Boreal Investment Partners,Family Office,Canada,Lithium/Battery Metals,jason.rodriguez@boreal.com,Junior Mining,$35M,Pre-Production,Enhanced Database
+342,Kevin Anderson,Principal,Aussie Resources Fund,Private Equity,Australia,Production Assets,kanderson@aussie.com,Junior Mining,$8M,Development,Enhanced Database
+343,Andrew Davis,Managing Director,Maple Capital Partners,Boutique Investment Bank,Canada,Exploration Finance,andrew.davis@maple.ca,Junior Mining,$8M,Pre-Production,Enhanced Database
+344,Mark Anderson,Senior Advisor,Boomerang Investment Group,Private Equity,Australia,Mining & Resources,manderson@boomerang.com,Junior Mining,$26M,Pre-Production,Enhanced Database
+345,Gary Morgan,Managing Director,Perth Ventures,Private Equity,Australia,Production Assets,garym@perth.com,Junior Mining,$11M,Exploration,Enhanced Database
+346,Patrick Moore,Managing Director,Maple Capital Partners,Family Office,Canada,Precious Metals,patrickm@maple.com,Junior Mining,$39M,Pre-Production,Enhanced Database
+347,Joseph King,Investment Director,Timberwolf Capital,Private Equity,Canada,Exploration Finance,king@timberwolf.com,Junior Mining,$20M,Exploration,Enhanced Database
+348,Jason Garcia,Managing Director,Polaris Investment Group,Private Equity,Canada,Development Stage Mining,garcia@polaris.com,Junior Mining,$38M,Pre-Production,Enhanced Database
+349,Joseph Martinez,Managing Director,Northern Resources Fund,Boutique Investment Bank,Canada,Base Metals,jmartinez@northern.ca,Junior Mining,$10M,Exploration,Enhanced Database
+350,Christopher Clark,Portfolio Manager,Polaris Investment Group,Boutique Investment Bank,Canada,Precious Metals,christopherc@polaris.com,Junior Mining,$33M,Development,Enhanced Database
+351,Anthony Robinson,Head of Resources,Coral Sea Capital,Investment Fund,Australia,Lithium/Battery Metals,arobinson@coral.com,Junior Mining,$48M,Production,Enhanced Database
+352,Gary Harris,Managing Director,Boreal Investment Partners,Boutique Investment Bank,Canada,Base Metals,gharris@boreal.ca,Junior Mining,$46M,Development,Enhanced Database
+353,Gary Anderson,Principal,Coral Sea Capital,Stockbroker,Australia,Lithium/Battery Metals,anderson@coral.com,Junior Mining,$2M,Exploration,Enhanced Database
+354,Mark Lee,Principal,Arctic Capital Management,Private Equity,Canada,Base Metals,mlee@arctic.com,Junior Mining,$46M,Pre-Production,Enhanced Database
+355,Donald Thomas,Senior Advisor,Outback Capital,Stockbroker,Australia,Mining & Resources,dthomas@outback.com,Junior Mining,$37M,Production,Enhanced Database
+356,Eric White,Partner,Northern Resources Fund,Boutique Investment Bank,Canada,Copper Mining,ewhite@northern.ca,Junior Mining,$42M,Production,Enhanced Database
+357,Kevin Clark,Investment Manager,Coral Sea Capital,Investment Fund,Australia,Exploration,kclark@coral.com.au,Junior Mining,$27M,Pre-Production,Enhanced Database
+358,Robert Jones,Principal,Pacific Northwest Capital,Boutique Investment Bank,Canada,Base Metals,rjones@pacific.com,Junior Mining,$37M,Exploration,Enhanced Database
+359,John White,Principal,Southern Cross Capital,Investment Fund,Australia,Base Metals,white@southern.com,Junior Mining,$39M,Exploration,Enhanced Database
+360,Paul Harris,Senior Investment Manager,Northern Resources Fund,Private Equity,Canada,Copper Mining,harris@northern.com,Junior Mining,$28M,Production,Enhanced Database
+361,Matthew Lee,Portfolio Manager,Pacific Northwest Capital,Private Equity,Canada,Gold Mining,lee@pacific.com,Junior Mining,$43M,Development,Enhanced Database
+362,Ronald Robinson,Head of Resources,Pacific Mining Partners,Stockbroker,Australia,Exploration,rrobinson@pacific.com,Junior Mining,$19M,Pre-Production,Enhanced Database
+363,William Johnson,Vice President - Resources,Aurora Resources Fund,Family Office,Canada,Exploration Finance,wjohnson@aurora.ca,Junior Mining,$37M,Development,Enhanced Database
+364,Donald Murray,Resources Analyst,Southern Cross Capital,Investment Fund,Australia,Base Metals,donald.murray@southern.com.au,Junior Mining,$49M,Development,Enhanced Database
+365,Paul Cooper,Managing Director,Coral Sea Capital,Stockbroker,Australia,Lithium/Battery Metals,paulc@coral.com,Junior Mining,$17M,Production,Enhanced Database
+366,George Thompson,Managing Director,Boomerang Investment Group,Investment Fund,Australia,Exploration,georget@boomerang.com,Junior Mining,$43M,Production,Enhanced Database
+367,William Rodriguez,Principal,Maple Capital Partners,Boutique Investment Bank,Canada,Lithium/Battery Metals,rodriguez@maple.com,Junior Mining,$40M,Exploration,Enhanced Database
+368,Robert Walker,Vice President - Resources,Arctic Capital Management,Boutique Investment Bank,Canada,Base Metals,robertw@arctic.com,Junior Mining,$20M,Exploration,Enhanced Database
+369,Stephen Anderson,Vice President - Resources,Canadian Mining Ventures,Boutique Investment Bank,Canada,Gold Mining,stephen.anderson@canadian.com,Junior Mining,$43M,Development,Enhanced Database
+370,Kenneth Wilson,Partner,Southern Cross Capital,Private Equity,Australia,Lithium/Battery Metals,kwilson@southern.com.au,Junior Mining,$41M,Development,Enhanced Database
+371,Brian Mitchell,Portfolio Manager,Melbourne Resources Fund,Stockbroker,Australia,Gold Mining,brian.mitchell@melbourne.com,Junior Mining,$7M,Exploration,Enhanced Database
+372,Scott White,Vice President - Resources,Arctic Capital Management,Boutique Investment Bank,Canada,Exploration Finance,scott.white@arctic.ca,Junior Mining,$33M,Pre-Production,Enhanced Database
+373,Anthony Jones,Investment Manager,Coral Sea Capital,Private Equity,Australia,Mining & Resources,anthonyj@coral.com,Junior Mining,$37M,Pre-Production,Enhanced Database
+374,Brian Jones,Vice President - Resources,Boreal Investment Partners,Family Office,Canada,Development Stage Mining,bjones@boreal.com,Junior Mining,$17M,Development,Enhanced Database
+375,Gary Thomas,Resources Analyst,Aussie Resources Fund,Private Equity,Australia,Production Assets,gary.thomas@aussie.com.au,Junior Mining,$1M,Production,Enhanced Database
+376,Edward Harris,Resources Analyst,Melbourne Resources Fund,Stockbroker,Australia,Iron Ore,harris@melbourne.com,Junior Mining,$9M,Exploration,Enhanced Database
+377,Christopher Harris,Head of Mining,Great White Capital,Private Equity,Canada,Mining & Resources,christopherh@great.com,Junior Mining,$15M,Development,Enhanced Database
+378,Michael Moore,Senior Investment Manager,Polaris Investment Group,Boutique Investment Bank,Canada,Precious Metals,michael.moore@polaris.com,Junior Mining,$22M,Development,Enhanced Database
+379,Michael Allen,Portfolio Manager,Timberwolf Capital,Family Office,Canada,Gold Mining,mallen@timberwolf.ca,Junior Mining,$6M,Exploration,Enhanced Database
+380,Jason Thomas,Managing Director,Maple Capital Partners,Boutique Investment Bank,Canada,Gold Mining,jason.thomas@maple.com,Junior Mining,$7M,Production,Enhanced Database
+381,Stephen Taylor,Portfolio Manager,Perth Ventures,Private Equity,Australia,Mining & Resources,staylor@perth.com.au,Junior Mining,$41M,Production,Enhanced Database
+382,Paul Williams,Managing Director,Arctic Capital Management,Boutique Investment Bank,Canada,Precious Metals,paul.williams@arctic.com,Junior Mining,$36M,Production,Enhanced Database
+383,Mark Taylor,Vice President - Resources,True North Capital,Family Office,Canada,Exploration Finance,taylor@true.com,Junior Mining,$18M,Pre-Production,Enhanced Database
+384,John Harris,Portfolio Manager,Great White Capital,Family Office,Canada,Lithium/Battery Metals,johnh@great.com,Junior Mining,$10M,Development,Enhanced Database
+385,Donald White,Principal,Perth Ventures,Stockbroker,Australia,Exploration,dwhite@perth.com.au,Junior Mining,$5M,Pre-Production,Enhanced Database
+386,Jason Garcia,Vice President - Resources,Great White Capital,Family Office,Canada,Lithium/Battery Metals,jgarcia@great.ca,Junior Mining,$22M,Exploration,Enhanced Database
+387,William Martinez,Principal,Pacific Northwest Capital,Family Office,Canada,Exploration Finance,william.martinez@pacific.ca,Junior Mining,$15M,Pre-Production,Enhanced Database
+388,Christopher Rodriguez,Senior Investment Manager,Yukon Ventures,Family Office,Canada,Lithium/Battery Metals,rodriguez@yukon.com,Junior Mining,$37M,Development,Enhanced Database
+389,William Moore,Partner,True North Capital,Boutique Investment Bank,Canada,Copper Mining,wmoore@true.com,Junior Mining,$28M,Production,Enhanced Database
+390,David Campbell,Partner,Sydney Mining Partners,Stockbroker,Australia,Iron Ore,david.campbell@sydney.com,Junior Mining,$45M,Production,Enhanced Database
+391,Jason Young,Head of Mining,Pacific Northwest Capital,Family Office,Canada,Development Stage Mining,jason.young@pacific.com,Junior Mining,$17M,Production,Enhanced Database
+392,Robert Smith,Investment Manager,Kangaroo Ventures,Stockbroker,Australia,Iron Ore,rsmith@kangaroo.com,Junior Mining,$26M,Exploration,Enhanced Database
+393,Scott Thomas,Vice President - Resources,Canadian Mining Ventures,Boutique Investment Bank,Canada,Mining & Resources,thomas@canadian.com,Junior Mining,$33M,Production,Enhanced Database
+394,William Williams,Portfolio Manager,Aurora Resources Fund,Boutique Investment Bank,Canada,Mining & Resources,william.williams@aurora.com,Junior Mining,$4M,Development,Enhanced Database
+395,John Walker,Principal,Yukon Ventures,Boutique Investment Bank,Canada,Development Stage Mining,johnw@yukon.com,Junior Mining,$16M,Development,Enhanced Database
+396,Robert Allen,Principal,Yukon Ventures,Family Office,Canada,Exploration Finance,rallen@yukon.com,Junior Mining,$43M,Pre-Production,Enhanced Database
+397,Kevin Jones,Senior Investment Manager,True North Capital,Boutique Investment Bank,Canada,Base Metals,kjones@true.ca,Junior Mining,$25M,Exploration,Enhanced Database
+398,John Mitchell,Partner,Southern Cross Capital,Private Equity,Australia,Copper Mining,johnm@southern.com,Junior Mining,$23M,Exploration,Enhanced Database
+399,Timothy Smith,Principal,Great White Capital,Family Office,Canada,Lithium/Battery Metals,timothy.smith@great.ca,Junior Mining,$11M,Exploration,Enhanced Database
+400,Robert Young,Investment Director,True North Capital,Family Office,Canada,Lithium/Battery Metals,robert.young@true.ca,Junior Mining,$7M,Development,Enhanced Database
+401,Mark Anderson,Principal,Northern Resources Fund,Private Equity,Canada,Mining & Resources,manderson@northern.ca,Junior Mining,$47M,Production,Enhanced Database
+402,Matthew Thompson,Portfolio Manager,Yukon Ventures,Boutique Investment Bank,Canada,Precious Metals,mthompson@yukon.ca,Junior Mining,$43M,Production,Enhanced Database
+403,Jeffrey Jones,Senior Advisor,Melbourne Resources Fund,Investment Fund,Australia,Iron Ore,jones@melbourne.com,Junior Mining,$43M,Pre-Production,Enhanced Database
+404,Michael Thomas,Portfolio Manager,Arctic Capital Management,Family Office,Canada,Lithium/Battery Metals,mthomas@arctic.ca,Junior Mining,$2M,Pre-Production,Enhanced Database
+405,Jason Harris,Head of Mining,Pacific Northwest Capital,Private Equity,Canada,Base Metals,jharris@pacific.com,Junior Mining,$5M,Exploration,Enhanced Database
+406,Jason Lee,Principal,Boomerang Investment Group,Investment Fund,Australia,Base Metals,jlee@boomerang.com,Junior Mining,$50M,Production,Enhanced Database
+407,David Young,Head of Mining,Timberwolf Capital,Boutique Investment Bank,Canada,Base Metals,david.young@timberwolf.ca,Junior Mining,$43M,Development,Enhanced Database
+408,Daniel Jones,Partner,True North Capital,Boutique Investment Bank,Canada,Precious Metals,danielj@true.com,Junior Mining,$9M,Development,Enhanced Database
+409,Gary Johnson,Senior Advisor,Southern Cross Capital,Investment Fund,Australia,Copper Mining,gjohnson@southern.com.au,Junior Mining,$34M,Pre-Production,Enhanced Database
+410,Scott Anderson,Partner,Polaris Investment Group,Boutique Investment Bank,Canada,Gold Mining,anderson@polaris.com,Junior Mining,$30M,Pre-Production,Enhanced Database
+411,Nicholas Martin,Senior Investment Manager,Northern Resources Fund,Private Equity,Canada,Lithium/Battery Metals,nicholas.martin@northern.com,Junior Mining,$1M,Development,Enhanced Database
+412,Andrew Lewis,Portfolio Manager,Pacific Northwest Capital,Private Equity,Canada,Exploration Finance,lewis@pacific.com,Junior Mining,$2M,Production,Enhanced Database
+413,Kenneth Young,Vice President - Resources,Boreal Investment Partners,Private Equity,Canada,Precious Metals,kennethy@boreal.com,Junior Mining,$45M,Exploration,Enhanced Database
+414,Eric Jackson,Portfolio Manager,Maple Capital Partners,Private Equity,Canada,Lithium/Battery Metals,ejackson@maple.ca,Junior Mining,$40M,Pre-Production,Enhanced Database
+415,Robert Moore,Investment Director,Canadian Mining Ventures,Boutique Investment Bank,Canada,Gold Mining,robert.moore@canadian.com,Junior Mining,$12M,Development,Enhanced Database
+416,James Davis,Investment Director,Timberwolf Capital,Boutique Investment Bank,Canada,Base Metals,james.davis@timberwolf.ca,Junior Mining,$20M,Production,Enhanced Database
+417,Jason Davis,Partner,Aurora Resources Fund,Family Office,Canada,Development Stage Mining,davis@aurora.com,Junior Mining,$33M,Development,Enhanced Database
+418,Nicholas Rodriguez,Senior Investment Manager,Polaris Investment Group,Boutique Investment Bank,Canada,Copper Mining,nrodriguez@polaris.ca,Junior Mining,$40M,Production,Enhanced Database
+419,Stephen Murray,Senior Advisor,Melbourne Resources Fund,Stockbroker,Australia,Production Assets,smurray@melbourne.com,Junior Mining,$41M,Pre-Production,Enhanced Database
+420,Gregory Cooper,Senior Advisor,Great Barrier Capital,Stockbroker,Australia,Base Metals,gcooper@great.com,Junior Mining,$4M,Pre-Production,Enhanced Database
+421,Jason Walker,Vice President - Resources,Canadian Mining Ventures,Family Office,Canada,Gold Mining,jwalker@canadian.com,Junior Mining,$20M,Development,Enhanced Database
+422,Jason Moore,Head of Mining,Yukon Ventures,Boutique Investment Bank,Canada,Development Stage Mining,jason.moore@yukon.com,Junior Mining,$30M,Production,Enhanced Database
+423,Richard Harris,Head of Mining,Maple Capital Partners,Private Equity,Canada,Precious Metals,rharris@maple.com,Junior Mining,$2M,Production,Enhanced Database
+424,David Lewis,Vice President - Resources,Northern Resources Fund,Boutique Investment Bank,Canada,Precious Metals,dlewis@northern.com,Junior Mining,$29M,Pre-Production,Enhanced Database
+425,Steven Martinez,Principal,True North Capital,Family Office,Canada,Lithium/Battery Metals,steven.martinez@true.ca,Junior Mining,$24M,Production,Enhanced Database
+426,Eric Wilson,Partner,Timberwolf Capital,Boutique Investment Bank,Canada,Lithium/Battery Metals,ericw@timberwolf.com,Junior Mining,$47M,Pre-Production,Enhanced Database
+427,Robert Moore,Head of Mining,Canadian Mining Ventures,Private Equity,Canada,Mining & Resources,robert.moore@canadian.com,Junior Mining,$17M,Exploration,Enhanced Database
+428,Christopher Moore,Head of Mining,Aurora Resources Fund,Boutique Investment Bank,Canada,Lithium/Battery Metals,christopher.moore@aurora.com,Junior Mining,$6M,Development,Enhanced Database
+429,John Jones,Partner,True North Capital,Family Office,Canada,Gold Mining,john.jones@true.com,Junior Mining,$22M,Exploration,Enhanced Database
+430,Timothy Clark,Investment Director,Northern Resources Fund,Boutique Investment Bank,Canada,Precious Metals,timothy.clark@northern.ca,Junior Mining,$45M,Production,Enhanced Database
+431,Matthew Morgan,Partner,Great Barrier Capital,Investment Fund,Australia,Production Assets,matthew.morgan@great.com.au,Junior Mining,$17M,Development,Enhanced Database
+432,George Brown,Resources Analyst,Melbourne Resources Fund,Investment Fund,Australia,Gold Mining,george.brown@melbourne.com,Junior Mining,$3M,Development,Enhanced Database
+433,Anthony Clark,Investment Manager,Digger Resources,Investment Fund,Australia,Base Metals,anthony.clark@digger.com.au,Junior Mining,$18M,Development,Enhanced Database
+434,Michael Clark,Managing Director,Coral Sea Capital,Private Equity,Australia,Base Metals,michaelc@coral.com,Junior Mining,$22M,Development,Enhanced Database
+435,Mark Garcia,Vice President - Resources,Arctic Capital Management,Boutique Investment Bank,Canada,Development Stage Mining,mark.garcia@arctic.com,Junior Mining,$4M,Production,Enhanced Database
+436,Steven Hall,Vice President - Resources,Aurora Resources Fund,Boutique Investment Bank,Canada,Precious Metals,shall@aurora.ca,Junior Mining,$26M,Exploration,Enhanced Database
+437,Daniel Anderson,Managing Director,Great White Capital,Boutique Investment Bank,Canada,Copper Mining,daniel.anderson@great.com,Junior Mining,$10M,Exploration,Enhanced Database
+438,Richard Taylor,Vice President - Resources,Pacific Northwest Capital,Boutique Investment Bank,Canada,Development Stage Mining,rtaylor@pacific.com,Junior Mining,$37M,Production,Enhanced Database
+439,Christopher Taylor,Senior Advisor,Perth Ventures,Investment Fund,Australia,Base Metals,christopher.taylor@perth.com.au,Junior Mining,$11M,Development,Enhanced Database
+440,Michael Ryan,Head of Resources,Digger Resources,Stockbroker,Australia,Iron Ore,michael.ryan@digger.com,Junior Mining,$33M,Development,Enhanced Database
+441,Matthew Walker,Portfolio Manager,Boomerang Investment Group,Investment Fund,Australia,Exploration,mwalker@boomerang.com,Junior Mining,$7M,Production,Enhanced Database
+442,Patrick Allen,Managing Director,Pacific Northwest Capital,Private Equity,Canada,Base Metals,patrick.allen@pacific.ca,Junior Mining,$31M,Development,Enhanced Database
+443,John Wilson,Portfolio Manager,Aurora Resources Fund,Family Office,Canada,Lithium/Battery Metals,john.wilson@aurora.ca,Junior Mining,$4M,Exploration,Enhanced Database
+444,Timothy Campbell,Partner,Kangaroo Ventures,Private Equity,Australia,Iron Ore,campbell@kangaroo.com,Junior Mining,$15M,Production,Enhanced Database
+445,Brian Moore,Managing Director,Great White Capital,Boutique Investment Bank,Canada,Development Stage Mining,bmoore@great.ca,Junior Mining,$39M,Exploration,Enhanced Database
+446,Brian Williams,Head of Resources,Melbourne Resources Fund,Stockbroker,Australia,Iron Ore,brian.williams@melbourne.com,Junior Mining,$7M,Production,Enhanced Database
+447,Paul Brown,Portfolio Manager,Great White Capital,Boutique Investment Bank,Canada,Development Stage Mining,paul.brown@great.com,Junior Mining,$4M,Exploration,Enhanced Database
+448,Daniel Jones,Senior Investment Manager,Yukon Ventures,Private Equity,Canada,Development Stage Mining,danielj@yukon.com,Junior Mining,$6M,Production,Enhanced Database
+449,Matthew Lee,Portfolio Manager,Kangaroo Ventures,Private Equity,Australia,Gold Mining,mlee@kangaroo.com,Junior Mining,$1M,Production,Enhanced Database
+450,Richard Harrison,Head of Resources,Melbourne Resources Fund,Stockbroker,Australia,Iron Ore,harrison@melbourne.com,Junior Mining,$42M,Development,Enhanced Database
+451,Stephen Lee,Resources Analyst,Boomerang Investment Group,Investment Fund,Australia,Production Assets,stephenl@boomerang.com,Junior Mining,$14M,Development,Enhanced Database
+452,Robert Nguyen,Principal,Aussie Resources Fund,Private Equity,Australia,Production Assets,nguyen@aussie.com,Junior Mining,$44M,Exploration,Enhanced Database
+453,David Ryan,Head of Resources,Southern Cross Capital,Stockbroker,Australia,Base Metals,dryan@southern.com.au,Junior Mining,$48M,Development,Enhanced Database
+454,Joseph Lewis,Portfolio Manager,Yukon Ventures,Boutique Investment Bank,Canada,Lithium/Battery Metals,joseph.lewis@yukon.com,Junior Mining,$5M,Development,Enhanced Database
+455,Andrew Mitchell,Senior Advisor,Aussie Resources Fund,Stockbroker,Australia,Copper Mining,amitchell@aussie.com,Junior Mining,$13M,Production,Enhanced Database
+456,Kevin Williams,Portfolio Manager,Outback Capital,Investment Fund,Australia,Iron Ore,kevin.williams@outback.com,Junior Mining,$19M,Production,Enhanced Database
+457,Robert Brown,Principal,Sydney Mining Partners,Stockbroker,Australia,Copper Mining,robertb@sydney.com,Junior Mining,$26M,Pre-Production,Enhanced Database
+458,Mark Jones,Investment Manager,Kangaroo Ventures,Private Equity,Australia,Exploration,markj@kangaroo.com,Junior Mining,$46M,Pre-Production,Enhanced Database
+459,Paul Rodriguez,Principal,Boreal Investment Partners,Private Equity,Canada,Base Metals,prodriguez@boreal.ca,Junior Mining,$6M,Production,Enhanced Database
+460,Thomas Hall,Partner,Maple Capital Partners,Family Office,Canada,Base Metals,thomash@maple.com,Junior Mining,$11M,Pre-Production,Enhanced Database
+461,Eric Jones,Head of Mining,True North Capital,Boutique Investment Bank,Canada,Development Stage Mining,ejones@true.com,Junior Mining,$2M,Exploration,Enhanced Database
+462,Gary Walker,Vice President - Resources,True North Capital,Boutique Investment Bank,Canada,Exploration Finance,gwalker@true.ca,Junior Mining,$18M,Production,Enhanced Database
+463,Thomas Brown,Senior Investment Manager,Boreal Investment Partners,Family Office,Canada,Copper Mining,tbrown@boreal.com,Junior Mining,$13M,Production,Enhanced Database
+464,William Clark,Partner,Polaris Investment Group,Private Equity,Canada,Lithium/Battery Metals,william.clark@polaris.com,Junior Mining,$37M,Production,Enhanced Database
+465,Matthew Stewart,Investment Manager,Melbourne Resources Fund,Stockbroker,Australia,Base Metals,matthew.stewart@melbourne.com.au,Junior Mining,$5M,Exploration,Enhanced Database
+466,William White,Partner,Yukon Ventures,Boutique Investment Bank,Canada,Mining & Resources,wwhite@yukon.ca,Junior Mining,$26M,Production,Enhanced Database
+467,Jeffrey Wilson,Investment Manager,Pacific Mining Partners,Stockbroker,Australia,Exploration,jwilson@pacific.com.au,Junior Mining,$32M,Production,Enhanced Database
+468,William Walker,Principal,Boreal Investment Partners,Boutique Investment Bank,Canada,Precious Metals,william.walker@boreal.com,Junior Mining,$44M,Pre-Production,Enhanced Database
+469,Timothy Wilson,Investment Director,Yukon Ventures,Boutique Investment Bank,Canada,Copper Mining,twilson@yukon.ca,Junior Mining,$18M,Development,Enhanced Database
+470,Brian Nguyen,Principal,Southern Cross Capital,Private Equity,Australia,Iron Ore,bnguyen@southern.com,Junior Mining,$6M,Exploration,Enhanced Database
+471,Steven Lee,Senior Investment Manager,Maple Capital Partners,Private Equity,Canada,Precious Metals,lee@maple.com,Junior Mining,$31M,Production,Enhanced Database
+472,Michael Lee,Managing Director,Pacific Northwest Capital,Family Office,Canada,Base Metals,mlee@pacific.com,Junior Mining,$48M,Exploration,Enhanced Database
+473,Timothy Jones,Investment Manager,Perth Ventures,Stockbroker,Australia,Iron Ore,tjones@perth.com,Junior Mining,$42M,Production,Enhanced Database
+474,Timothy Jones,Portfolio Manager,Arctic Capital Management,Boutique Investment Bank,Canada,Precious Metals,timothyj@arctic.com,Junior Mining,$33M,Development,Enhanced Database
+475,Andrew Harris,Senior Investment Manager,Aurora Resources Fund,Family Office,Canada,Development Stage Mining,andrewh@aurora.com,Junior Mining,$26M,Development,Enhanced Database
+476,Andrew White,Senior Investment Manager,Maple Capital Partners,Boutique Investment Bank,Canada,Precious Metals,andreww@maple.com,Junior Mining,$29M,Exploration,Enhanced Database
+477,Mark Miller,Managing Director,Northern Resources Fund,Family Office,Canada,Exploration Finance,mark.miller@northern.ca,Junior Mining,$3M,Exploration,Enhanced Database
+478,Stephen Campbell,Investment Manager,Coral Sea Capital,Stockbroker,Australia,Copper Mining,scampbell@coral.com,Junior Mining,$23M,Production,Enhanced Database
+479,Matthew Thomas,Head of Resources,Aussie Resources Fund,Private Equity,Australia,Base Metals,matthew.thomas@aussie.com.au,Junior Mining,$31M,Exploration,Enhanced Database
+480,Ronald Cooper,Senior Advisor,Perth Ventures,Stockbroker,Australia,Mining & Resources,rcooper@perth.com,Junior Mining,$10M,Production,Enhanced Database
+481,Joseph Lewis,Head of Mining,Yukon Ventures,Family Office,Canada,Precious Metals,joseph.lewis@yukon.com,Junior Mining,$13M,Pre-Production,Enhanced Database
+482,David Taylor,Head of Mining,Yukon Ventures,Boutique Investment Bank,Canada,Mining & Resources,dtaylor@yukon.ca,Junior Mining,$30M,Development,Enhanced Database
+483,Gary Walker,Senior Advisor,Southern Cross Capital,Investment Fund,Australia,Copper Mining,gary.walker@southern.com.au,Junior Mining,$35M,Exploration,Enhanced Database
+484,Mark Lee,Managing Director,Kangaroo Ventures,Stockbroker,Australia,Exploration,lee@kangaroo.com,Junior Mining,$17M,Pre-Production,Enhanced Database
+485,James Murray,Principal,Coral Sea Capital,Private Equity,Australia,Lithium/Battery Metals,james.murray@coral.com.au,Junior Mining,$10M,Exploration,Enhanced Database
+486,William Thompson,Vice President - Resources,Polaris Investment Group,Private Equity,Canada,Mining & Resources,william.thompson@polaris.com,Junior Mining,$29M,Production,Enhanced Database
+487,Matthew Walker,Senior Advisor,Southern Cross Capital,Stockbroker,Australia,Lithium/Battery Metals,mattheww@southern.com,Junior Mining,$5M,Exploration,Enhanced Database
+488,Simon Johnson,Managing Director,Southern Cross Capital,Stockbroker,Australia,Iron Ore,simonj@southern.com,Junior Mining,$44M,Exploration,Enhanced Database
+489,Thomas Scott,Senior Investment Manager,Aurora Resources Fund,Private Equity,Canada,Base Metals,tscott@aurora.ca,Junior Mining,$4M,Development,Enhanced Database
+490,Mark Jackson,Vice President - Resources,Polaris Investment Group,Private Equity,Canada,Exploration Finance,mark.jackson@polaris.ca,Junior Mining,$18M,Development,Enhanced Database
+491,Stephen Taylor,Portfolio Manager,Pacific Northwest Capital,Private Equity,Canada,Copper Mining,stephent@pacific.com,Junior Mining,$4M,Pre-Production,Enhanced Database
+492,Michael Lewis,Partner,Pacific Northwest Capital,Family Office,Canada,Base Metals,mlewis@pacific.ca,Junior Mining,$4M,Exploration,Enhanced Database
+493,Stephen King,Managing Director,Aussie Resources Fund,Investment Fund,Australia,Iron Ore,sking@aussie.com.au,Junior Mining,$39M,Pre-Production,Enhanced Database
+494,David Clark,Managing Director,Southern Cross Capital,Private Equity,Australia,Exploration,davidc@southern.com,Junior Mining,$28M,Production,Enhanced Database
+495,Michael Scott,Partner,Arctic Capital Management,Family Office,Canada,Precious Metals,michael.scott@arctic.ca,Junior Mining,$35M,Exploration,Enhanced Database
+496,Stephen Brown,Principal,Yukon Ventures,Private Equity,Canada,Lithium/Battery Metals,sbrown@yukon.ca,Junior Mining,$45M,Development,Enhanced Database
+497,James Murray,Investment Manager,Southern Cross Capital,Investment Fund,Australia,Lithium/Battery Metals,jamesm@southern.com,Junior Mining,$5M,Production,Enhanced Database
+498,Timothy Thomas,Senior Investment Manager,Northern Resources Fund,Boutique Investment Bank,Canada,Base Metals,timothy.thomas@northern.ca,Junior Mining,$42M,Pre-Production,Enhanced Database
+499,Mark Clark,Head of Mining,Northern Resources Fund,Family Office,Canada,Copper Mining,markc@northern.com,Junior Mining,$17M,Exploration,Enhanced Database
+500,Donald Johnson,Principal,Southern Cross Capital,Private Equity,Australia,Exploration,johnson@southern.com,Junior Mining,$6M,Pre-Production,Enhanced Database

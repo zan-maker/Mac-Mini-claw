@@ -1,0 +1,12 @@
+{
+  "market_link": "https://kalshi.com/markets/kxeconstatcpiyoy/year-over-year-inflation",
+  "market_data": null,
+  "recommendation": null,
+  "analysis_timestamp": "2026-02-25T14:31:34.762960",
+  "user_criteria": {
+    "buy_yes_if": "price < $0.45",
+    "buy_no_if": "price > $0.55",
+    "min_edge": "4%",
+    "position_size": "$100-200"
+  }
+}

@@ -1,0 +1,132 @@
+# B2B Referral Engine - Daily Service Providers
+**Date:** Friday, February 20th, 2026
+**Generated:** 9:18 AM EST
+**Target:** 3-4 providers willing to pay referral fees
+
+---
+
+## Provider #1: CFO Lifeline (Fractional CFO Services)
+
+| Category | Details |
+|----------|---------|
+| **Type** | Fractional CFO / Financial Advisory |
+| **Vertical** | Accounting & Finance |
+| **Program Name** | CFO Services Referral Program |
+| **Website** | https://cfolifeline.com/referral-program/ |
+| **Fee Structure** | **10% commission on annual revenue** from each CFO client referred |
+| **Payment Terms** | Quarterly payouts |
+| **Willingness Score** | 35/40 (explicit public referral program) |
+| **Fee Structure Score** | 25/30 (10% of annual revenue is strong) |
+| **Referral History** | 15/20 (established program with clear terms) |
+| **Category Potential** | 8/10 (high-value B2B service) |
+| **TOTAL SCORE** | **83/100** ⭐ HIGH PRIORITY |
+
+**Notes:** Clear, transparent fee structure. CFO services are high-ticket ($50K-$200K/year), so 10% = $5K-$20K per referral. Strong B2B fit.
+
+---
+
+## Provider #2: HubSpot Solutions Partner Program
+
+| Category | Details |
+|----------|---------|
+| **Type** | CRM & Marketing Automation |
+| **Vertical** | SaaS / Marketing Technology |
+| **Program Name** | HubSpot Solutions Partner Program |
+| **Website** | https://www.hubspot.com/partners |
+| **Fee Structure** | **Up to 20% recurring commission** or reseller margin |
+| **Payment Terms** | Ongoing recurring revenue share |
+| **Willingness Score** | 38/40 (mature, well-documented program) |
+| **Fee Structure Score** | 28/30 (20% recurring is excellent) |
+| **Referral History** | 18/20 (established partner ecosystem) |
+| **Category Potential** | 10/10 (CRM is universal B2B need) |
+| **TOTAL SCORE** | **94/100** ⭐ HIGH PRIORITY |
+
+**Notes:** Gold standard for SaaS partner programs. Recurring revenue is ideal. HubSpot has extensive partner resources and support.
+
+---
+
+## Provider #3: Square Takeoff (Construction Software)
+
+| Category | Details |
+|----------|---------|
+| **Type** | Construction Estimating Software |
+| **Vertical** | Construction / SaaS |
+| **Program Name** | Construction Software Referral Partner Program |
+| **Website** | https://squaretakeoff.com/construction-software-referral-partner-program/ |
+| **Fee Structure** | **20% commission monthly** for every month subscriber is active |
+| **Payment Terms** | Recurring monthly commissions |
+| **Willingness Score** | 35/40 (explicit partner program) |
+| **Fee Structure Score** | 27/30 (20% recurring is strong) |
+| **Referral History** | 14/20 (smaller program, less track record) |
+| **Category Potential** | 8/10 (construction tech is growing) |
+| **TOTAL SCORE** | **84/100** ⭐ HIGH PRIORITY |
+
+**Notes:** Simple 20% recurring model. Construction contractors are good referral targets. Monthly recurring provides predictable income.
+
+---
+
+## Provider #4: NetSuite Referral Program (Oracle)
+
+| Category | Details |
+|----------|---------|
+| **Type** | ERP / Business Software |
+| **Vertical** | SaaS / Enterprise Software |
+| **Program Name** | NetSuite Referral Program |
+| **Website** | https://www.netsuite.com/portal/partners/referral-program.shtml |
+| **Fee Structure** | **10% of first-year license fee** |
+| **Payment Terms** | One-time commission on closed deal |
+| **Willingness Score** | 37/40 (Oracle-backed, established program) |
+| **Fee Structure Score** | 24/30 (10% first-year, decent but not recurring) |
+| **Referral History** | 18/20 (Fortune 500 credibility) |
+| **Category Potential** | 9/10 (ERP is high-value B2B) |
+| **TOTAL SCORE** | **88/100** ⭐ HIGH PRIORITY |
+
+**Notes:** NetSuite licenses range $10K-$100K+/year, so 10% = $1K-$10K per referral. Enterprise-grade credibility.
+
+---
+
+## Summary Statistics
+
+| Metric | Count |
+|--------|-------|
+| **Total Providers Identified** | 4 |
+| **High Priority (80+ Score)** | 4 |
+| **Ready for Outreach** | 4 |
+| **Categories Covered** | 3 (Accounting/CFO, SaaS, Construction) |
+
+---
+
+## Fee Structures Overview
+
+| Provider | Fee Type | Amount | Recurring? |
+|----------|----------|--------|------------|
+| CFO Lifeline | % of revenue | 10% annual | Quarterly |
+| HubSpot | % recurring | Up to 20% | Yes |
+| Square Takeoff | % recurring | 20% monthly | Yes |
+| NetSuite | % first-year | 10% license | One-time |
+
+---
+
+## Outreach Recommendations
+
+**Immediate Outreach (Today):**
+1. **HubSpot** - Highest score (94), best-known program, recurring revenue
+2. **NetSuite** - Enterprise credibility, high ticket sizes
+
+**Secondary Outreach:**
+3. **CFO Lifeline** - Niche but high-value referrals
+4. **Square Takeoff** - Construction niche, 20% recurring
+
+---
+
+## Next Actions
+
+1. [ ] Draft outreach emails using template: "Referral partnership - qualified [vertical] leads"
+2. [ ] Contact HubSpot partner team via partner portal
+3. [ ] Research NetSuite partner application process
+4. [ ] Schedule follow-up for non-responders (7 days)
+
+---
+
+*Generated by: Claw (B2B Referral Engine)*
+*Next run: Saturday, February 21st, 2026 at 9:00 AM EST*

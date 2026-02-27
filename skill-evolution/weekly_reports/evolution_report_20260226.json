@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-02-26T20:19:40.699132",
+  "agents": {
+    "trade-recommender": {
+      "agent_id": "trade-recommender",
+      "total_executions": 1,
+      "successful_executions": 1,
+      "success_rate": 1.0,
+      "patterns_extracted": 3,
+      "skills_evolved": 1,
+      "top_skills": [
+        {
+          "skill": "market_analysis",
+          "executions": 1,
+          "avg_score": 23.575
+        }
+      ],
+      "recent_evolutions": [
+        {
+          "timestamp": "2026-02-26T20:19:32.861520",
+          "skill": "market_analysis",
+          "new_version": "/Users/cubiczan/mac-bot/skills/trade-recommender/evolution/versions/market_analysis_evolved_20260226_201932.md",
+          "patterns_used": 1,
+          "avg_score": 23.575
+        }
+      ]
+    },
+    "roi-analyst": {
+      "agent_id": "roi-analyst",
+      "total_executions": 1,
+      "successful_executions": 1,
+      "success_rate": 1.0,
+      "patterns_extracted": 2,
+      "skills_evolved": 0,
+      "top_skills": [
+        {
+          "skill": "revenue_analysis",
+          "executions": 1,
+          "avg_score": 77.5
+        }
+      ],
+      "recent_evolutions": []
+    },
+    "lead-generator": {
+      "agent_id": "lead-generator",
+      "total_executions": 1,
+      "successful_executions": 1,
+      "success_rate": 1.0,
+      "patterns_extracted": 3,
+      "skills_evolved": 0,
+      "top_skills": [
+        {
+          "skill": "email_outreach",
+          "executions": 1,
+          "avg_score": 47.0
+        }
+      ],
+      "recent_evolutions": []
+    }
+  },
+  "summary": {
+    "total_executions": 3,
+    "total_patterns": 8,
+    "total_evolutions": 1,
+    "avg_success_rate": 1.0
+  }
+}

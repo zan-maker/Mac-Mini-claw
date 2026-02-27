@@ -1,0 +1,93 @@
+[
+  {
+    "company": "Ouster",
+    "name": "Angus Pacala",
+    "position": "CEO",
+    "email": "angus.pacala@ouster.io",
+    "confidence": 99
+  },
+  {
+    "company": "Ouster",
+    "name": "Mark Frichtl",
+    "position": "CTO",
+    "email": "mark.frichtl@ouster.io",
+    "confidence": 97
+  },
+  {
+    "company": "Shield AI",
+    "name": "Ryan Tseng",
+    "position": "CEO",
+    "email": "ryan.tseng@shield.ai",
+    "confidence": 99
+  },
+  {
+    "company": "Shield AI",
+    "name": "Joe Letsinger",
+    "position": "Director of Solutions Engineering",
+    "email": "joe.letsinger@shield.ai",
+    "confidence": 99
+  },
+  {
+    "company": "Shield AI",
+    "name": "Trent Bailey",
+    "position": "Director of Operations Finance",
+    "email": "trent.bailey@shield.ai",
+    "confidence": 99
+  },
+  {
+    "company": "Shield AI",
+    "name": "Billy Pate",
+    "position": "Director of Engineering",
+    "email": "billy.pate@shield.ai",
+    "confidence": 99
+  },
+  {
+    "company": "Archer Aviation",
+    "name": "David Merrifield",
+    "position": "Director of Software Integration",
+    "email": "dmerrifield@archer.com",
+    "confidence": 99
+  },
+  {
+    "company": "Archer Aviation",
+    "name": "Michael Carbone",
+    "position": "Flight Test Instrumentation Director",
+    "email": "mcarbone@archer.com",
+    "confidence": 99
+  },
+  {
+    "company": "Archer Aviation",
+    "name": "Bojan Zlicaric",
+    "position": "Director of Systems Engineering",
+    "email": "bzlicaric@archer.com",
+    "confidence": 99
+  },
+  {
+    "company": "Archer Aviation",
+    "name": "Joshua Britton",
+    "position": "Director of Pilot Training",
+    "email": "jbritton@archer.com",
+    "confidence": 99
+  },
+  {
+    "company": "Sea Machines Robotics",
+    "name": "Donnie Talley",
+    "position": "Director of Supply Chain",
+    "email": "dtalley@sea-machines.com",
+    "confidence": 99
+  },
+  {
+    "company": "Sea Machines Robotics",
+    "name": "Peter Holm",
+    "position": "Regional Director",
+    "email": "pholm@sea-machines.com",
+    "confidence": 99
+  },
+  {
+    "company": "Sea Machines Robotics",
+    "name": "Jamie Lapensee",
+    "position": "Senior Director of Human Resources",
+    "email": "jlapensee@sea-machines.com",
+    "confidence": 98
+  }
+]

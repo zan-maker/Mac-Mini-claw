@@ -1,0 +1,49 @@
+{
+  "date": "2026-02-26T14:10:00.000000",
+  "type": "day7_followup",
+  "campaign": "expense_reduction",
+  "results": [
+    {
+      "success": true,
+      "company": "Adaptive Security",
+      "contact": "Brian Long (CEO)",
+      "email": "brian@adaptivesecurity.com",
+      "message_id": "<0100019c9b5dcc14-18f9e117-0b7b-4dc7-bfbf-6356d0ecba11-000000@email.amazonses.com>",
+      "thread_id": "49d26b74-75b6-40ac-8991-05ea77a2abbb",
+      "followup_type": "Day 7"
+    },
+    {
+      "success": true,
+      "company": "Ambience Healthcare",
+      "contact": "Nikhil Buduma (CEO)",
+      "email": "nikhil@ambiencehealthcare.com",
+      "message_id": "<0100019c9b5ed008-deb1a9db-00c6-45a4-a8a0-2a55a0ba1197-000000@email.amazonses.com>",
+      "thread_id": "a287271f-0a15-42e9-b9ee-baf534422a88",
+      "followup_type": "Day 7"
+    },
+    {
+      "success": true,
+      "company": "Rilla",
+      "contact": "Garrett Higgins (Dir Finance)",
+      "email": "garrett@rilla.com",
+      "message_id": "<0100019c9b5ed236-8ebd0418-a1f7-4a58-adb9-cfc9004390f0-000000@email.amazonses.com>",
+      "thread_id": "81e3e21b-6223-423b-ae22-80db6cb6e442",
+      "followup_type": "Day 7"
+    },
+    {
+      "success": true,
+      "company": "Vanta",
+      "contact": "Christina Cacioppo (CEO)",
+      "email": "christina@vanta.com",
+      "message_id": "<0100019c9b5ed48b-be20e8e3-9e2c-4732-b47e-9cee963d2af7-000000@email.amazonses.com>",
+      "thread_id": "c24b7740-ba10-4fc2-81bc-50b38d78cfd0",
+      "followup_type": "Day 7"
+    }
+  ],
+  "summary": {
+    "attempted": 4,
+    "sent": 4,
+    "errors": 0
+  },
+  "notes": "Day 7 follow-ups sent successfully. Previous attempt on 2026-02-24 failed due to AgentMail rate limit (HTTP 429)."
+}

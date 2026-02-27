@@ -1,0 +1,16 @@
+# Secrets
+.secrets/
+*.secret
+*.key
+.env
+.env.*
+
+# Logs (keep structure, ignore content)
+*.log
+
+# API alerts (transient)
+.api-alert-*
+API_KEYS.md
+
+# External repos (git submodules or cloned projects)
+defeatbeta-api/

@@ -1,0 +1,267 @@
+[
+  {
+    "company": "Shield AI",
+    "domain": "shield.ai",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "ryan.tseng@shield.ai",
+        "first_name": "Ryan",
+        "last_name": "Tseng",
+        "position": "CEO",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "joe.letsinger@shield.ai",
+        "first_name": "Joe",
+        "last_name": "Letsinger",
+        "position": "Director of Solutions Engineering",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "andrew.berlin@shield.ai",
+        "first_name": "Andrew",
+        "last_name": "Berlin",
+        "position": "Chairman",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "trent.bailey@shield.ai",
+        "first_name": "Trent",
+        "last_name": "Bailey",
+        "position": "Director of Operations Finance",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "billy.pate@shield.ai",
+        "first_name": "Billy",
+        "last_name": "Pate",
+        "position": "Director of Engineering",
+        "confidence": 99,
+        "sources": 1
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  },
+  {
+    "company": "Anduril Industries",
+    "domain": "anduril.com",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "jubnoske@anduril.com",
+        "first_name": "Jonathan",
+        "last_name": "Ubnoske",
+        "position": "Director of Software Engineering",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "mgray@anduril.com",
+        "first_name": "Marshall",
+        "last_name": "Gray",
+        "position": "Director of Battlespace Awareness",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "cbeyer@anduril.com",
+        "first_name": "Charles",
+        "last_name": "Beyer",
+        "position": "Director of Simulation Services",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "mbromley@anduril.com",
+        "first_name": "Michael",
+        "last_name": "Bromley",
+        "position": "Deputy Production Manager",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "rcimino@anduril.com",
+        "first_name": "Rich",
+        "last_name": "Cimino",
+        "position": "Director of Engineering",
+        "confidence": 99,
+        "sources": 1
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  },
+  {
+    "company": "Skydio",
+    "domain": "skydio.com",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "molly.braese@skydio.com",
+        "first_name": "Molly",
+        "last_name": "Braese",
+        "position": "Chief Compliance Officer",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "reena.nagpal@skydio.com",
+        "first_name": "Reena",
+        "last_name": "Nagpal",
+        "position": "HR Director",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "daniel.kroeger@skydio.com",
+        "first_name": "Daniel",
+        "last_name": "Kr\u00f6ger",
+        "position": "Director of Partnerships",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "teaan.hamersma@skydio.com",
+        "first_name": "Teaan",
+        "last_name": "Hamersma",
+        "position": "Director of Revenue Operations",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "john.bevis@skydio.com",
+        "first_name": "John",
+        "last_name": "Bevis",
+        "position": "Director of Enterprise Accounts",
+        "confidence": 99,
+        "sources": 1
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  },
+  {
+    "company": "Archer Aviation",
+    "domain": "archer.com",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "dmerrifield@archer.com",
+        "first_name": "David",
+        "last_name": "Merrifield",
+        "position": "Director of Software Integration",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "jkim@archer.com",
+        "first_name": "Jimmy",
+        "last_name": "Kim",
+        "position": "Compensation Manager",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "mcarbone@archer.com",
+        "first_name": "Michael",
+        "last_name": "Carbone",
+        "position": "Flight Test Instrumentation Director",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "bzlicaric@archer.com",
+        "first_name": "Bojan",
+        "last_name": "Zlicaric",
+        "position": "Director of Systems Engineering",
+        "confidence": 99,
+        "sources": 1
+      },
+      {
+        "email": "jbritton@archer.com",
+        "first_name": "Joshua",
+        "last_name": "Britton",
+        "position": "Director of Pilot Training",
+        "confidence": 99,
+        "sources": 1
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  },
+  {
+    "company": "Joby Aviation",
+    "domain": "jobyaviation.com",
+    "search_method": "executive_search",
+    "contacts_found": 10,
+    "executives": [
+      {
+        "email": "adam.krebs@jobyaviation.com",
+        "first_name": "Adam",
+        "last_name": "Krebs",
+        "position": "Technical Director",
+        "confidence": 94,
+        "sources": 1
+      },
+      {
+        "email": "edward.stilson@jobyaviation.com",
+        "first_name": "Edward",
+        "last_name": "Stilson",
+        "position": "Chief Executive Officer",
+        "confidence": 94,
+        "sources": 1
+      },
+      {
+        "email": "lauren.meisenheimer@jobyaviation.com",
+        "first_name": "Lauren",
+        "last_name": "Meisenheimer",
+        "position": "Senior Employee Relations Manager",
+        "confidence": 94,
+        "sources": 1
+      },
+      {
+        "email": "wally.seubert@jobyaviation.com",
+        "first_name": "Wally",
+        "last_name": "Seubert",
+        "position": "Software Engineering Manager",
+        "confidence": 94,
+        "sources": 1
+      },
+      {
+        "email": "tina.west@jobyaviation.com",
+        "first_name": "Tina",
+        "last_name": "West",
+        "position": "Head of Total Rewards",
+        "confidence": 94,
+        "sources": 1
+      }
+    ],
+    "domain_search_results": {
+      "total_emails": 10,
+      "executive_emails": 10
+    },
+    "errors": []
+  }
+]

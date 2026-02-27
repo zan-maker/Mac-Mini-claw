@@ -1,0 +1,47 @@
+{
+  "configured_at": "2026-02-26T10:36:03.904768",
+  "accounts": [
+    {
+      "email": "zan@impactquadrant.info",
+      "password": "apbj bvsl tngo vqhu",
+      "name": "Agent Manager",
+      "purpose": "Primary outreach",
+      "status": "active",
+      "tested": true,
+      "priority": 1
+    },
+    {
+      "email": "sam@impactquadrant.info",
+      "password": "ajup xyhf abbx iugj",
+      "name": "Agent Manager",
+      "purpose": "Backup outreach",
+      "status": "active",
+      "tested": true,
+      "priority": 2
+    },
+    {
+      "email": "sam@cubiczan.com",
+      "password": "mwzh abbf ssih mjsf",
+      "name": "Agent Manager",
+      "purpose": "Cron job specialist",
+      "status": "active",
+      "tested": true,
+      "priority": 3
+    }
+  ],
+  "standard_cc": "sam@impactquadrant.info",
+  "status": "active",
+  "redundancy_level": 3,
+  "recommended_usage": {
+    "cron_jobs": "sam@cubiczan.com",
+    "campaign_outreach": "zan@impactquadrant.info",
+    "backup": "sam@impactquadrant.info"
+  },
+  "campaigns_unblocked": [
+    "Dorada Resort",
+    "Miami Hotels",
+    "Lead Outreach",
+    "Defense Sector",
+    "Expense Reduction"
+  ]
+}

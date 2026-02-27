@@ -1,0 +1,13 @@
+{
+  "cross_agent_sharing": {
+    "enabled": true,
+    "agents": [
+      "trade-recommender",
+      "roi-analyst",
+      "lead-generator"
+    ],
+    "sharing_schedule": "weekly",
+    "pattern_threshold": 0.6,
+    "max_patterns_per_share": 3
+  }
+}

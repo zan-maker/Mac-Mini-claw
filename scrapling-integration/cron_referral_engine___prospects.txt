@@ -1,0 +1,119 @@
+# Referral Engine - Prospects - Scrapling-First Enhanced
+
+## 🚀 NEW: Scrapling Integration Activated
+
+**Scrapling gives us an unfair advantage:**
+- **774x faster** than traditional web scraping
+- **Cloudflare bypass** - automatically handles anti-bot systems
+- **Maximum stealth** - no bot detection
+- **Adaptive scraping** - no selector maintenance needed
+- **AI-powered extraction** - natural language queries
+
+## 📋 Your Task (Scrapling-First Approach)
+
+### Step 1: Try Scrapling First (Primary Source)
+```python
+# Use Scrapling integration for fast, reliable data extraction
+# Scrapling is installed in: /Users/cubiczan/.openclaw/workspace/scrapling-integration/
+# Activate virtual environment: source /Users/cubiczan/.openclaw/workspace/scrapling-venv/bin/activate
+
+import sys
+sys.path.insert(0, '/Users/cubiczan/.openclaw/workspace/scrapling-integration')
+
+try:
+    from cron_integration import ScraplingCronIntegration
+    
+    async def run_with_scrapling():
+        # Initialize Scrapling with stealth mode
+        scrapling = ScraplingCronIntegration(stealth_mode=True)
+        success = await scrapling.initialize()
+        
+        if success:
+            print("✅ Scrapling initialized successfully")
+            # Use Scrapling for referral engine leads
+            results = await scrapling.find_referral_prospects()
+            return results
+        else:
+            print("⚠️ Scrapling initialization failed, falling back to traditional APIs")
+            return []
+except ImportError:
+    print("⚠️ Scrapling not available, using traditional APIs")
+```
+
+### Step 2: Fall Back to Traditional APIs (If Scrapling Fails)
+If Scrapling returns no results or fails:
+1. **First fallback:** Use **Tavily API** (preferred)
+   - API Key: `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`
+   - Faster and more reliable than Brave Search
+
+2. **Second fallback:** Use **Brave Search API**
+   - API Key: `cac43a248afb1cc1ec004370df2e0282a67eb420`
+   - Use only if Tavily fails
+
+### Step 3: Process and Report Results
+1. Process the data (same as before)
+2. Save results to appropriate files
+3. **IMPORTANT:** Include Scrapling usage status in Discord report:
+   ```
+   🔍 **Data Source Report:**
+   - Scrapling Used: ✅ Yes / ❌ No
+   - Scrapling Results: X prospects
+   - Traditional API Results: Y prospects
+   - Total Processing Time: Z seconds
+   ```
+
+## 🎯 Performance Benefits
+- **Speed:** 774x faster than BeautifulSoup
+- **Reliability:** Bypasses Cloudflare and anti-bot systems
+- **Stealth:** No bot detection
+- **Maintenance:** Zero selector maintenance
+- **Cost:** Reduces API calls to Serper/Tavily
+
+## Original Task:
+
+# B2B Referral Engine - Demand Side (Prospects)
+
+You are running daily prospect identification for the B2B referral engine.
+
+## Target: 10-15 daily prospects
+
+## Verticals (Priority Order):
+1. **B2B Professional Services** - Accounting, Legal, Consulting ($5K-$7.5K fee)
+2. **Technology/SaaS** - Software implementations ($5K or 10-20% ACV)
+3. **Construction & Trades** - Permits, RFPs ($3K fee)
+4. **Financial Services B2B** - Treasury, lending, insurance ($2.5K fee)
+5. **Manufacturing** - Supply chain ($1K fee)
+6. **Commercial Real Estate** - Leasing ($3K-$10K fee)
+
+## Buying Signals to Detect:
+- Series A+ funding
+- Job postings (data engineers, controllers)
+- Permit filings
+- Tech stack changes
+- Expansion announcements
+- Lease expirations
+
+## Score Prospects (0-100):
+- Intent signals: 0-40 points
+- Vertical fee potential: 0-30 points
+- Company size fit: 0-20 points
+- Signal specificity: 0-10 points
+
+## Save Results:
+- `/workspace/referral-engine/prospects/daily-prospects-YYYY-MM-DD.md`
+
+## Report to Discord:
+- Total prospects identified
+- High priority count (80+)
+- Top 3 prospects with signals
+- Total potential fees
+
+Generate 10-15 prospects now.
+
+## 💡 Implementation Notes
+1. Scrapling is installed and ready to use
+2. Always try Scrapling first, fall back to APIs only if needed
+3. Report Scrapling usage status in Discord
+4. Include Scrapling results in your Discord report
+
+Generate leads now using Scrapling-first approach and report results.

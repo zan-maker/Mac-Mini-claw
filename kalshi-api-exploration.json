@@ -1,0 +1,628 @@
+{
+  "available_endpoints": [
+    "/v1/events",
+    "/v1/trades"
+  ],
+  "events_data": {
+    "all_events": [
+      {
+        "id": null,
+        "title": "Will Elon Musk visit Mars in his lifetime?",
+        "status": "Unknown",
+        "category": "World"
+      },
+      {
+        "id": null,
+        "title": "Who will the next Pope be?",
+        "status": "Unknown",
+        "category": "World"
+      },
+      {
+        "id": null,
+        "title": "Will the world pass 2 degrees Celsius over pre-industrial levels before 2050?",
+        "status": "Unknown",
+        "category": "Climate and Weather"
+      },
+      {
+        "id": null,
+        "title": "Will a human land on Mars before California starts high-speed rail?",
+        "status": "Unknown",
+        "category": "Science and Technology"
+      },
+      {
+        "id": null,
+        "title": "Will a supervolcano erupt before 2050?",
+        "status": "Unknown",
+        "category": "Climate and Weather"
+      },
+      {
+        "id": null,
+        "title": "Will humans colonize Mars before 2050?",
+        "status": "Unknown",
+        "category": "Science and Technology"
+      },
+      {
+        "id": null,
+        "title": "Will Zohran Mamdani become President of the United States before 2045?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Who will be named as Xi Jinping's successor?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Will Nick Fuentes become President of the United States before 2045?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Who will be the next new Prime Minister of Israel?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Who will be the next Supreme Leader of Iran?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Which G7 leader will leave next?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Will Ramp or Brex IPO first?",
+        "status": "Unknown",
+        "category": "Financials"
+      },
+      {
+        "id": null,
+        "title": "Will OpenAI or Anthropic IPO first?",
+        "status": "Unknown",
+        "category": "Financials"
+      },
+      {
+        "id": null,
+        "title": "Will Klarna or Stripe IPO first?",
+        "status": "Unknown",
+        "category": "Financials"
+      },
+      {
+        "id": null,
+        "title": "When will nuclear fusion be achieved?",
+        "status": "Unknown",
+        "category": "Science and Technology"
+      },
+      {
+        "id": null,
+        "title": "Will Deel or Rippling IPO first?",
+        "status": "Unknown",
+        "category": "Financials"
+      },
+      {
+        "id": null,
+        "title": "Which of the G7 leaders will leave office next?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Who Will Be Cast as the Next John Rambo?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Will any U.S. state experience a population decrease of at least 10% between 2025 and 2035?",
+        "status": "Unknown",
+        "category": "Social"
+      },
+      {
+        "id": null,
+        "title": "Will there be an at least 8.0 magnitude earthquake in California before 2035?",
+        "status": "Unknown",
+        "category": "Climate and Weather"
+      },
+      {
+        "id": null,
+        "title": "Will a humanoid robot walk on Mars before a human does?",
+        "status": "Unknown",
+        "category": "Science and Technology"
+      },
+      {
+        "id": null,
+        "title": "Who will perform the next James Bond theme?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Who will perform the next James Bond theme?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Who will the next Pope be?",
+        "status": "Unknown",
+        "category": "World"
+      },
+      {
+        "id": null,
+        "title": "Who will the next Pope be?",
+        "status": "Unknown",
+        "category": "World"
+      },
+      {
+        "id": null,
+        "title": "Which of these Latin America leaders will leave office next?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Will Johnny Depp be cast in the next Pirates of the Caribbean?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Which of these G7 leaders will leave office next?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Which of these European leaders will leave office next?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Will Andrew Tate's party win a seat in the next UK election?",
+        "status": "Unknown",
+        "category": "Elections"
+      },
+      {
+        "id": null,
+        "title": "Which of these Asia-Pacific leaders will leave office next?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Which of these African leaders will leave office next?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Who will be cast in the next Miami Vice?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Initial jobless claims from Aug 22-28, 2021?",
+        "status": "Unknown",
+        "category": "Economics"
+      },
+      {
+        "id": null,
+        "title": "Will the FDA approve a cure for Type 1 diabetes before 2033?",
+        "status": "Unknown",
+        "category": "Health"
+      },
+      {
+        "id": null,
+        "title": "EU meets its 2030 climate goals?",
+        "status": "Unknown",
+        "category": "Climate and Weather"
+      },
+      {
+        "id": null,
+        "title": "India meets its 2030 climate goals?",
+        "status": "Unknown",
+        "category": "Climate and Weather"
+      },
+      {
+        "id": null,
+        "title": "Who will be the next Speaker of the House?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Which country will be the next to send humans to the Moon?",
+        "status": "Unknown",
+        "category": "Science and Technology"
+      },
+      {
+        "id": null,
+        "title": "US meets its climate goals?",
+        "status": "Unknown",
+        "category": "Climate and Weather"
+      },
+      {
+        "id": null,
+        "title": "When will \"The Last of Us\" Season 3 be released?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "What will be the largest source of global primary energy consumption in 2030?",
+        "status": "Unknown",
+        "category": "Climate and Weather"
+      },
+      {
+        "id": null,
+        "title": "Will Tom Cruise be cast in another Film With Ana de Armas?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "AI passes Turing test before 2030?",
+        "status": "Unknown",
+        "category": "Science and Technology"
+      },
+      {
+        "id": null,
+        "title": "Will Glen Powell be cast in the next Indiana Jones movie?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Canadian team wins the Stanley Cup\u00ae before the 2031 season?",
+        "status": "Unknown",
+        "category": "Sports"
+      },
+      {
+        "id": null,
+        "title": "Who will be the next head coach of New York Pro Men's Basketball?",
+        "status": "Unknown",
+        "category": "Sports"
+      },
+      {
+        "id": null,
+        "title": "Who will Time name as Person of the Decade?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "EV market share in 2030?",
+        "status": "Unknown",
+        "category": "Climate and Weather"
+      },
+      {
+        "id": null,
+        "title": "How high will unemployment get before 2030?",
+        "status": "Unknown",
+        "category": "Economics"
+      },
+      {
+        "id": null,
+        "title": "Who will play Britney Spears in the Jon M. Chu\u2013directed biopic?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Who will be the next James Bond villain?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Who will play Q in the next James Bond?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Who will play Moneypenny in the next James Bond?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Who will play M in the next James Bond film?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Who will play Felix Leiter in the next James Bond?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Who will play the next Bond girl?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Non-compete ban overturned?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "When will IShowSpeed reach 100 million Youtube subscribers?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Will the US government take control of any AI company or project before 2030?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Will Luigi Mangione be convicted?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Will A Court Of Thorns and Roses be released?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Who will be the world's first trillionaire?",
+        "status": "Unknown",
+        "category": "Economics"
+      },
+      {
+        "id": null,
+        "title": "Who will be Groomsman for the wedding of Travis Kelce and Taylor Swift?",
+        "status": "Unknown",
+        "category": "Social"
+      },
+      {
+        "id": null,
+        "title": "Who will be a Bridesmaid for the wedding of Travis Kelce and Taylor Swift?",
+        "status": "Unknown",
+        "category": "Social"
+      },
+      {
+        "id": null,
+        "title": "Will the US issue a Level 4 travel advisory for Taiwan?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Where will Taylor Swift and Travis Kelce\u2019s Wedding occur?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Will LeBron James be a majority owner of a pro men's basketball team before 2030?",
+        "status": "Unknown",
+        "category": "Sports"
+      },
+      {
+        "id": null,
+        "title": "Will SpaceX land anything successfully on Mars before 2030?",
+        "status": "Unknown",
+        "category": "Science and Technology"
+      },
+      {
+        "id": null,
+        "title": "Portland Trailblazers bought and changed to Seattle SuperSonics?",
+        "status": "Unknown",
+        "category": "Sports"
+      },
+      {
+        "id": null,
+        "title": "Will there be an announcement that The Simpsons is ending?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Will there be an announcement that Family Guy is ending?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Who will be 1st in the Romanian election first round?",
+        "status": "Unknown",
+        "category": "Elections"
+      },
+      {
+        "id": null,
+        "title": "Will there be a year without polio before 2030?",
+        "status": "Unknown",
+        "category": "Health"
+      },
+      {
+        "id": null,
+        "title": "Who will be the next Prime Minister of the UK?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Who will be the next Editor-in-Chief of Vogue?",
+        "status": "Unknown",
+        "category": "Companies"
+      },
+      {
+        "id": null,
+        "title": "Will Kai Cenat become a billionaire before 2030?",
+        "status": "Unknown",
+        "category": "Economics"
+      },
+      {
+        "id": null,
+        "title": "Will the NBA add a new team before 2030?",
+        "status": "Unknown",
+        "category": "Sports"
+      },
+      {
+        "id": null,
+        "title": "Will a Seattle pro basketball team play a game before 2030?",
+        "status": "Unknown",
+        "category": "Sports"
+      },
+      {
+        "id": null,
+        "title": "When will Elon Musk become a trillionaire?",
+        "status": "Unknown",
+        "category": "Economics"
+      },
+      {
+        "id": null,
+        "title": "When will Prison Break return?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Courts consider Live Nation a monopoly?",
+        "status": "Unknown",
+        "category": "Companies"
+      },
+      {
+        "id": null,
+        "title": "Where will Dua Lipa and Callum Turner\u2019s wedding occur?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Who will replace Jamie Dimon as JPMorgan CEO?",
+        "status": "Unknown",
+        "category": "Companies"
+      },
+      {
+        "id": null,
+        "title": "When will Airtable officially announce an IPO?",
+        "status": "Unknown",
+        "category": "Economics"
+      },
+      {
+        "id": null,
+        "title": "When will there be a half-trillionaire?",
+        "status": "Unknown",
+        "category": "Economics"
+      },
+      {
+        "id": null,
+        "title": "What will the price of GTA VI be on PS5?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "What songs will be on the GTA 6 radio at launch?",
+        "status": "Unknown",
+        "category": "Entertainment"
+      },
+      {
+        "id": null,
+        "title": "Next government of Germany?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "How much will a Fyre Festival 2 General Admission Ticket cost?",
+        "status": "Unknown",
+        "category": "Companies"
+      },
+      {
+        "id": null,
+        "title": "What countries will hold referenda on leaving the EU?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Which countries will vote to leave the EU before 2030?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Will the National Popular Vote Interstate Compact reach 270 electoral votes before 2030?",
+        "status": "Unknown",
+        "category": "Elections"
+      },
+      {
+        "id": null,
+        "title": "8.0 magnitude earthquake in Japan before 2030?",
+        "status": "Unknown",
+        "category": "Climate and Weather"
+      },
+      {
+        "id": null,
+        "title": "Will the US start the process of building a nuclear-powered data center on a military base before 2030?",
+        "status": "Unknown",
+        "category": "Science and Technology"
+      },
+      {
+        "id": null,
+        "title": "How bad will CO2 atmospheric concentration get before 2030?",
+        "status": "Unknown",
+        "category": "World"
+      },
+      {
+        "id": null,
+        "title": "Will a ballot initiative on California secession qualify for a vote before 2030?",
+        "status": "Unknown",
+        "category": "World"
+      },
+      {
+        "id": null,
+        "title": "Next government of Canada?",
+        "status": "Unknown",
+        "category": "Politics"
+      },
+      {
+        "id": null,
+        "title": "Will Karl Bushby Finish His World Walk to Hull Before 2030?",
+        "status": "Unknown",
+        "category": "Transportation"
+      }
+    ],
+    "cpi_events": [],
+    "senate_events": [
+      {
+        "id": null,
+        "title": "Will Andrew Tate's party win a seat in the next UK election?",
+        "status": "Unknown",
+        "category": "Elections"
+      },
+      {
+        "id": null,
+        "title": "Who will be 1st in the Romanian election first round?",
+        "status": "Unknown",
+        "category": "Elections"
+      }
+    ],
+    "total_events": 100
+  },
+  "exploration_timestamp": "2026-02-25T14:26:16.622071",
+  "api_base_url": "https://api.elections.kalshi.com"
+}

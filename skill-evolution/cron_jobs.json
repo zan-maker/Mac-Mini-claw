@@ -1,0 +1,7 @@
+{
+  "trade_recommender": "0 2 * * * cd /Users/cubiczan/.openclaw/workspace && python3 skill-evolution/evolve_trade_recommender.py",
+  "roi_analyst": "0 3 * * 1 cd /Users/cubiczan/.openclaw/workspace && python3 skill-evolution/evolve_roi_analyst.py",
+  "lead_generator": "0 4 * * * cd /Users/cubiczan/.openclaw/workspace && python3 skill-evolution/evolve_lead_generator.py",
+  "cross_agent_sharing": "0 5 * * 0 cd /Users/cubiczan/.openclaw/workspace && python3 skill-evolution/share_patterns_across_agents.py",
+  "evolution_report": "0 6 * * 1 cd /Users/cubiczan/.openclaw/workspace && python3 skill-evolution/generate_evolution_report.py"
+}

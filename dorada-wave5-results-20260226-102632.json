@@ -1,0 +1,98 @@
+{
+  "wave": 5,
+  "timestamp": "2026-02-26T10:26:32.243751",
+  "total_contacts": 11,
+  "sent": 0,
+  "failed": 10,
+  "skipped": 1,
+  "contacts": [
+    {
+      "name": "Manu Gupta",
+      "company": "Blue Lion",
+      "email": "manu@bluelionglobal.com",
+      "phone": "",
+      "sectors": "Real Estate, Food & Beverage, Hospitality, Family Office",
+      "version": "family_office"
+    },
+    {
+      "name": "Matt Atkin",
+      "company": "Blue Lion",
+      "email": "matkin@bluelionglobal.com",
+      "phone": "",
+      "sectors": "Real Estate, Food & Beverage, Hospitality",
+      "version": "family_office"
+    },
+    {
+      "name": "Colin Bosa",
+      "company": "Bosa Properties",
+      "email": "cbosa@bosaproperties.com",
+      "phone": "",
+      "sectors": "Real Estate, Property Development, Hospitality",
+      "version": "family_office"
+    },
+    {
+      "name": "Andy Farbman",
+      "company": "Farbman Group",
+      "email": "afarbman@farbman.com",
+      "phone": "(248) 353-0500",
+      "sectors": "Commercial Real Estate, Hospitality, Family Office",
+      "version": "family_office"
+    },
+    {
+      "name": "Michael Kalil",
+      "company": "Farbman Group",
+      "email": "kalil@farbman.com",
+      "phone": "(248) 353-0500",
+      "sectors": "Commercial Real Estate, Hospitality",
+      "version": "family_office"
+    },
+    {
+      "name": "Mark Bartholomay",
+      "company": "Nath Companies",
+      "email": "mbartholomay@nathcompanies.com",
+      "phone": "(281) 757-3158",
+      "sectors": "Hotels, Multi-Family, Restaurants, Family-Owned",
+      "version": "family_office"
+    },
+    {
+      "name": "Michael Orsak",
+      "company": "Nimes Real Estate",
+      "email": "m.orsak@nimesrealestate.com",
+      "phone": "(512) 574-8833",
+      "sectors": "Multifamily, Hospitality, Family Office",
+      "version": "family_office"
+    },
+    {
+      "name": "Christopher Sutphen",
+      "company": "Oxford Capital",
+      "email": "",
+      "phone": "",
+      "sectors": "Hotels, Resorts, Senior Housing, Mixed-Use",
+      "version": "institutional"
+    },
+    {
+      "name": "Joanna Wu",
+      "company": "Churchill Finance HK",
+      "email": "joanna@churchill-finance.com",
+      "phone": "+852 3975 3009",
+      "sectors": "Real Estate, Hospitality, Healthcare, Family Office",
+      "version": "family_office"
+    },
+    {
+      "name": "Anjuli Nanda Habbas",
+      "company": "Kapital Partners",
+      "email": "anjuli@kapitalp.com",
+      "phone": "",
+      "sectors": "Real Estate, Hospitality, Family Office",
+      "version": "family_office"
+    },
+    {
+      "name": "Ross McBride",
+      "company": "Globalvestment Capital",
+      "email": "ross.mcbride@globalvestmentpartners.com",
+      "phone": "",
+      "sectors": "Hospitality Real Estate, Multifamily, Family Office",
+      "version": "family_office"
+    }
+  ]
+}

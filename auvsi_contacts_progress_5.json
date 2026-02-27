@@ -1,0 +1,42 @@
+[
+  {
+    "company": "Boeing Company",
+    "domain": "boeing.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=boeing.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "Lockheed Martin Corporation",
+    "domain": "lockheedmartin.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=lockheedmartin.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "Northrop Grumman",
+    "domain": "northropgrumman.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=northropgrumman.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "Raytheon Company",
+    "domain": "raytheon.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=raytheon.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "domain": "gdmissionsystems.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=gdmissionsystems.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  }
+]

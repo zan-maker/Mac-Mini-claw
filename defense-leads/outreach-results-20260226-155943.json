@@ -1,0 +1,51 @@
+{
+  "summary": {
+    "total": 5,
+    "found": 3,
+    "sent": 3
+  },
+  "results": [
+    {
+      "company": "Helsing",
+      "domain": "helsing.ai",
+      "email": "wolfgang.gammel@helsing.ai",
+      "confidence": 99,
+      "type": "company",
+      "status": "sent",
+      "subject": "Introduction: Strategic Partnership Opportunities for Helsing",
+      "timestamp": "2026-02-26T15:59:45-05:00"
+    },
+    {
+      "company": "Quantum Systems",
+      "domain": "quantum-systems.com",
+      "email": "jhense@quantum-systems.com",
+      "confidence": 99,
+      "type": "company",
+      "status": "sent",
+      "subject": "Introduction: Strategic Partnership Opportunities for Quantum Systems",
+      "timestamp": "2026-02-26T15:59:49-05:00"
+    },
+    {
+      "company": "Comand AI",
+      "domain": "comand.ai",
+      "email": "loic.mougeolle@comand.ai",
+      "confidence": 99,
+      "type": "company",
+      "status": "sent",
+      "subject": "Introduction: Strategic Partnership Opportunities for Comand AI",
+      "timestamp": "2026-02-26T15:59:54-05:00"
+    },
+    {
+      "company": "MASNA Ventures",
+      "domain": "masna.vc",
+      "status": "no_email",
+      "timestamp": "2026-02-26T15:59:57-05:00"
+    },
+    {
+      "company": "Raphe mPhibr Investors",
+      "domain": "raphe.co.in",
+      "status": "no_email",
+      "timestamp": "2026-02-26T15:59:58-05:00"
+    }
+  ]
+}

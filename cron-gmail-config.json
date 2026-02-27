@@ -1,0 +1,20 @@
+{
+  "configured_at": "2026-02-26T10:37:10.460809",
+  "cron_account": {
+    "email": "sam@cubiczan.com",
+    "password": "mwzh abbf ssih mjsf",
+    "name": "Agent Manager",
+    "purpose": "Cron Job Specialist"
+  },
+  "standard_cc": "sam@impactquadrant.info",
+  "status": "active",
+  "purpose": "dedicated_cron_job_sending",
+  "cron_jobs_using_this": [
+    "Lead Outreach (2:00 PM daily)",
+    "Expense Reduction Outreach (2:00 PM daily)",
+    "Defense Sector Outreach (2:00 PM daily)",
+    "Dorada Campaigns (10:00 AM daily)",
+    "Miami Campaigns (11:00 AM daily)",
+    "Options Report (4:00 PM daily)"
+  ]
+}

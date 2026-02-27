@@ -1,0 +1,122 @@
+[
+  {
+    "company": "Boeing Company",
+    "domain": "boeing.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=boeing.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "Lockheed Martin Corporation",
+    "domain": "lockheedmartin.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=lockheedmartin.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "Northrop Grumman",
+    "domain": "northropgrumman.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=northropgrumman.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "Raytheon Company",
+    "domain": "raytheon.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=raytheon.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "General Dynamics Mission Systems",
+    "domain": "gdmissionsystems.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=gdmissionsystems.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "AeroVironment",
+    "domain": "avinc.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=avinc.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "General Atomics Aeronautical Systems, Inc.",
+    "domain": "ga-asi.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=ga-asi.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "Kratos Defense and Security Solutions, Inc.",
+    "domain": "kratosdefense.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=kratosdefense.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "Shield AI",
+    "domain": "shield.ai",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=shield.ai&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "Anduril Industries",
+    "domain": "anduril.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=anduril.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "Amazon",
+    "domain": "amazon.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=amazon.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "Google",
+    "domain": "google.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=google.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "Qualcomm Inc.",
+    "domain": "qualcomm.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=qualcomm.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "Intel Corporation",
+    "domain": "intel.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=intel.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  },
+  {
+    "company": "NVIDIA",
+    "domain": "nvidia.com",
+    "search_status": "no_results",
+    "emails_found": 0,
+    "contacts": [],
+    "error": "400 Client Error: Bad Request for url: https://api.hunter.io/v2/domain-search?domain=nvidia.com&api_key=6b48c50fc1df93f1df0b7b1aaf17616a71e369b5&limit=20"
+  }
+]

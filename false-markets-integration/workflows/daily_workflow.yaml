@@ -1,0 +1,117 @@
+# Daily FalseMarkets Workflow
+# Schedule: 8:00 AM EST Monday-Friday
+
+name: "FalseMarkets Daily Simulation Workflow"
+description: "Daily market simulation and analysis workflow"
+schedule: "0 8 * * 1-5"
+timezone: "America/New_York"
+
+agents:
+  market_simulator:
+    enabled: true
+    model: "zai/glm-5"
+    thinking: "low"
+    timeout_seconds: 300
+    
+  strategy_evolver:
+    enabled: false  # Will be enabled in weekly workflow
+    model: "zai/glm-5"
+    thinking: "medium"
+    
+  performance_analyst:
+    enabled: true
+    model: "zai/glm-5"
+    thinking: "low"
+    
+  dashboard_manager:
+    enabled: true
+    model: "zai/glm-5"
+    thinking: "low"
+
+steps:
+  - name: "system_health_check"
+    description: "Check system health before starting"
+    agent: "orchestrator"
+    command: "health_check"
+    timeout: 60
+    
+  - name: "market_simulation"
+    description: "Run daily market simulation"
+    agent: "market_simulator"
+    command: "start_daily_simulation"
+    timeout: 180
+    
+  - name: "simulation_monitoring"
+    description: "Monitor active simulations"
+    agent: "market_simulator"
+    command: "monitor_simulations"
+    timeout: 120
+    
+  - name: "performance_analysis"
+    description: "Analyze simulation results"
+    agent: "market_simulator"
+    command: "get_performance_stats"
+    parameters:
+      days: 7
+    timeout: 60
+    
+  - name: "report_generation"
+    description: "Generate daily report"
+    agent: "market_simulator"
+    command: "generate_daily_report"
+    timeout: 90
+    
+  - name: "summary_report"
+    description: "Generate workflow summary"
+    agent: "orchestrator"
+    command: "generate_summary_report"
+    timeout: 60
+
+notifications:
+  discord:
+    channel: "1474734743814668378"
+    on_success: true
+    on_failure: true
+    include_summary: true
+    
+  alerts:
+    performance_threshold: -0.03
+    error_threshold: 3
+    health_check_failure: true
+
+data_storage:
+  simulation_results: "/Users/cubiczan/.openclaw/workspace/false-markets-integration/data/simulations"
+  performance_reports: "/Users/cubiczan/.openclaw/workspace/false-markets-integration/data/reports"
+  workflow_logs: "/Users/cubiczan/.openclaw/workspace/false-markets-integration/data/logs"
+
+dependencies:
+  required_apis:
+    - "falsemarkets_api"
+    - "twelve_data"  # For real market data
+    - "public_com"   # For backup data
+    
+  required_agents:
+    - "market_simulator"
+    - "orchestrator"
+
+failure_handling:
+  retry_attempts: 2
+  retry_delay: 300  # 5 minutes
+  continue_on_error: false
+  fallback_mode: "mock"  # Use mock data if APIs fail
+
+monitoring:
+  metrics:
+    - "simulation_success_rate"
+    - "average_return"
+    - "workflow_duration"
+    - "api_latency"
+    
+  alerts:
+    - "simulation_failure_rate > 0.3"
+    - "average_return < -0.05"
+    - "workflow_duration > 600"  # 10 minutes
+    - "health_check_failed"
+
+version: "1.0.0"
+last_updated: "2026-02-20"

@@ -1,0 +1,29 @@
+Company,Domain,Status,Contacts,Name,Email,Position,Confidence
+Ouster,ouster.io,success,8,Alecia Wu,alecia.wu@ouster.io,,99
+Ouster,ouster.io,success,8,Angus Pacala,angus.pacala@ouster.io,CEO,99
+Ouster,ouster.io,success,8,Neil Calder,neil.calder@ouster.io,,98
+Shield AI,shield.ai,success,8,Ryan Tseng,ryan.tseng@shield.ai,CEO,99
+Shield AI,shield.ai,success,8,Joe Letsinger,joe.letsinger@shield.ai,Director of Solutions Engineering,99
+Shield AI,shield.ai,success,8,Andrew Berlin,andrew.berlin@shield.ai,Chairman,99
+Archer Aviation,archer.com,success,8,David Merrifield,dmerrifield@archer.com,Director of Software Integration,99
+Archer Aviation,archer.com,success,8,Jimmy Kim,jkim@archer.com,Compensation Manager,99
+Archer Aviation,archer.com,success,8,Michael Carbone,mcarbone@archer.com,Flight Test Instrumentation Director,99
+Joby Aviation,jobyaviation.com,success,8,Adam Krebs,adam.krebs@jobyaviation.com,Technical Director,94
+Joby Aviation,jobyaviation.com,success,8,Edward Stilson,edward.stilson@jobyaviation.com,Chief Executive Officer,94
+Joby Aviation,jobyaviation.com,success,8,Lauren Meisenheimer,lauren.meisenheimer@jobyaviation.com,Senior Employee Relations Manager,94
+Zipline,flyzipline.com,success,8,Nicolas Weninger,nicolas.weninger@flyzipline.com,Embedded Software Engineer,98
+Zipline,flyzipline.com,success,8,Anne Hilby,anne.hilby@flyzipline.com,Director,99
+Zipline,flyzipline.com,success,8,Winfred Njeri,winfred.njeri@flyzipline.com,,99
+Sea Machines Robotics,sea-machines.com,success,8,Donnie Talley,dtalley@sea-machines.com,Director of Supply Chain,99
+Sea Machines Robotics,sea-machines.com,success,8,Peter Holm,pholm@sea-machines.com,Regional Director,99
+Sea Machines Robotics,sea-machines.com,success,8,Jamie Lapensee,jlapensee@sea-machines.com,Senior Director of Human Resources,98
+Applied Intuition,appliedintuition.com,success,6,Peter Ludwig,peter@appliedintuition.com,Chief Technology Officer,67
+Applied Intuition,appliedintuition.com,success,6,Varun Mittal,varun@appliedintuition.com,General Manager,94
+Applied Intuition,appliedintuition.com,success,6,Nicholas Shen,nicholas@appliedintuition.com,Engineer,93
+Scale AI,scale.com,success,8,Trevor Howarth,trevor.howarth@scale.com,Director of Machine Learning,94
+Scale AI,scale.com,success,8,Tom Estabrook,tom.estabrook@scale.com,HR Business Partner,94
+Scale AI,scale.com,success,8,Lucy Ogaz,lucy.ogaz@scale.com,Director of Data Operations,94
+Velodyne Lidar,velodynelidar.com,no_results,0,,,,
+Anduril Industries,anduril.com,success,8,Jonathan Ubnoske,jubnoske@anduril.com,Director of Software Engineering,99
+Anduril Industries,anduril.com,success,8,Marshall Gray,mgray@anduril.com,Director of Battlespace Awareness,99
+Anduril Industries,anduril.com,success,8,Charles Beyer,cbeyer@anduril.com,Director of Simulation Services,99

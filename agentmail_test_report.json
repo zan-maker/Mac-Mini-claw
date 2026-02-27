@@ -1,0 +1,11 @@
+{
+  "test_timestamp": "2026-02-26T09:48:54.894199",
+  "accounts_tested": 3,
+  "account_names": [
+    "Primary",
+    "Secondary",
+    "Backup"
+  ],
+  "total_daily_capacity": 3000,
+  "config_valid": true
+}

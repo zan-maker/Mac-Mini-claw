@@ -1,0 +1,996 @@
+[
+  {
+    "company": "Ouster",
+    "domain": "ouster.io",
+    "status": "success",
+    "contacts_found": 8,
+    "contacts": [
+      {
+        "email": "alecia.wu@ouster.io",
+        "first_name": "Alecia",
+        "last_name": "Wu",
+        "position": null,
+        "department": null,
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "angus.pacala@ouster.io",
+        "first_name": "Angus",
+        "last_name": "Pacala",
+        "position": "CEO",
+        "department": "executive",
+        "confidence": 99,
+        "sources": 22,
+        "verification": "valid"
+      },
+      {
+        "email": "neil.calder@ouster.io",
+        "first_name": "Neil",
+        "last_name": "Calder",
+        "position": null,
+        "department": null,
+        "confidence": 98,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "mark.frichtl@ouster.io",
+        "first_name": "Mark",
+        "last_name": "Frichtl",
+        "position": "CTO",
+        "department": "executive",
+        "confidence": 97,
+        "sources": 2,
+        "verification": "valid"
+      },
+      {
+        "email": "support@ouster.io",
+        "first_name": null,
+        "last_name": null,
+        "position": null,
+        "department": "support",
+        "confidence": 96,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "investors@ouster.io",
+        "first_name": null,
+        "last_name": null,
+        "position": null,
+        "department": "finance",
+        "confidence": 96,
+        "sources": 30,
+        "verification": null
+      },
+      {
+        "email": "press@ouster.io",
+        "first_name": null,
+        "last_name": null,
+        "position": null,
+        "department": "communication",
+        "confidence": 95,
+        "sources": 30,
+        "verification": "valid"
+      },
+      {
+        "email": "lidar@ouster.io",
+        "first_name": null,
+        "last_name": null,
+        "position": null,
+        "department": null,
+        "confidence": 95,
+        "sources": 30,
+        "verification": "valid"
+      }
+    ]
+  },
+  {
+    "company": "Shield AI",
+    "domain": "shield.ai",
+    "status": "success",
+    "contacts_found": 8,
+    "contacts": [
+      {
+        "email": "ryan.tseng@shield.ai",
+        "first_name": "Ryan",
+        "last_name": "Tseng",
+        "position": "CEO",
+        "department": "executive",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "joe.letsinger@shield.ai",
+        "first_name": "Joe",
+        "last_name": "Letsinger",
+        "position": "Director of Solutions Engineering",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "andrew.berlin@shield.ai",
+        "first_name": "Andrew",
+        "last_name": "Berlin",
+        "position": "Chairman",
+        "department": "executive",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "trent.bailey@shield.ai",
+        "first_name": "Trent",
+        "last_name": "Bailey",
+        "position": "Director of Operations Finance",
+        "department": "finance",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "billy.pate@shield.ai",
+        "first_name": "Billy",
+        "last_name": "Pate",
+        "position": "Director of Engineering",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "tyler.jordan@shield.ai",
+        "first_name": "Tyler",
+        "last_name": "Jordan",
+        "position": "Director of Engineering",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "cynthia.mennear@shield.ai",
+        "first_name": "Cynthia",
+        "last_name": "Mennear",
+        "position": "Director of Accounting",
+        "department": "finance",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "mark.white@shield.ai",
+        "first_name": "Mark",
+        "last_name": "White",
+        "position": "Senior Director of Engineering",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      }
+    ]
+  },
+  {
+    "company": "Archer Aviation",
+    "domain": "archer.com",
+    "status": "success",
+    "contacts_found": 8,
+    "contacts": [
+      {
+        "email": "dmerrifield@archer.com",
+        "first_name": "David",
+        "last_name": "Merrifield",
+        "position": "Director of Software Integration",
+        "department": "it",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "jkim@archer.com",
+        "first_name": "Jimmy",
+        "last_name": "Kim",
+        "position": "Compensation Manager",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "mcarbone@archer.com",
+        "first_name": "Michael",
+        "last_name": "Carbone",
+        "position": "Flight Test Instrumentation Director",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "bzlicaric@archer.com",
+        "first_name": "Bojan",
+        "last_name": "Zlicaric",
+        "position": "Director of Systems Engineering",
+        "department": "it",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "jbritton@archer.com",
+        "first_name": "Joshua",
+        "last_name": "Britton",
+        "position": "Director of Pilot Training",
+        "department": "education",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "gbower@archer.com",
+        "first_name": "Geoffrey",
+        "last_name": "Bower",
+        "position": "Chief Engineer",
+        "department": "executive",
+        "confidence": 99,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "mwoods@archer.com",
+        "first_name": "Matt",
+        "last_name": "Woods",
+        "position": "Director of Engineering",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "tmuniz@archer.com",
+        "first_name": "Tom",
+        "last_name": "Muniz",
+        "position": "Chief Operating Officer",
+        "department": "executive",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      }
+    ]
+  },
+  {
+    "company": "Joby Aviation",
+    "domain": "jobyaviation.com",
+    "status": "success",
+    "contacts_found": 8,
+    "contacts": [
+      {
+        "email": "adam.krebs@jobyaviation.com",
+        "first_name": "Adam",
+        "last_name": "Krebs",
+        "position": "Technical Director",
+        "department": "management",
+        "confidence": 94,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "edward.stilson@jobyaviation.com",
+        "first_name": "Edward",
+        "last_name": "Stilson",
+        "position": "Chief Executive Officer",
+        "department": "executive",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "lauren.meisenheimer@jobyaviation.com",
+        "first_name": "Lauren",
+        "last_name": "Meisenheimer",
+        "position": "Senior Employee Relations Manager",
+        "department": "communication",
+        "confidence": 94,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "wally.seubert@jobyaviation.com",
+        "first_name": "Wally",
+        "last_name": "Seubert",
+        "position": "Software Engineering Manager",
+        "department": "it",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "tina.west@jobyaviation.com",
+        "first_name": "Tina",
+        "last_name": "West",
+        "position": "Head of Total Rewards",
+        "department": "management",
+        "confidence": 94,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "tyler.trerotola@jobyaviation.com",
+        "first_name": "Tyler",
+        "last_name": "Trerotola",
+        "position": "Chief of Staff",
+        "department": "operations",
+        "confidence": 94,
+        "sources": 10,
+        "verification": "valid"
+      },
+      {
+        "email": "katie.hill@jobyaviation.com",
+        "first_name": "Katie",
+        "last_name": "Hill",
+        "position": "Director of Government Affairs",
+        "department": "management",
+        "confidence": 94,
+        "sources": 2,
+        "verification": null
+      },
+      {
+        "email": "zach.reeder@jobyaviation.com",
+        "first_name": "Zach",
+        "last_name": "Reeder",
+        "position": "Chief Engineer",
+        "department": "executive",
+        "confidence": 93,
+        "sources": 1,
+        "verification": null
+      }
+    ]
+  },
+  {
+    "company": "Zipline",
+    "domain": "flyzipline.com",
+    "status": "success",
+    "contacts_found": 8,
+    "contacts": [
+      {
+        "email": "nicolas.weninger@flyzipline.com",
+        "first_name": "Nicolas",
+        "last_name": "Weninger",
+        "position": "Embedded Software Engineer",
+        "department": "it",
+        "confidence": 98,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "anne.hilby@flyzipline.com",
+        "first_name": "Anne",
+        "last_name": "Hilby",
+        "position": "Director",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "winfred.njeri@flyzipline.com",
+        "first_name": "Winfred",
+        "last_name": "Njeri",
+        "position": null,
+        "department": null,
+        "confidence": 99,
+        "sources": 2,
+        "verification": null
+      },
+      {
+        "email": "arielle.sandor@flyzipline.com",
+        "first_name": "Arielle",
+        "last_name": "Sandor",
+        "position": null,
+        "department": null,
+        "confidence": 98,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "oleksii.lazorenko@flyzipline.com",
+        "first_name": null,
+        "last_name": null,
+        "position": null,
+        "department": null,
+        "confidence": 97,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "info@flyzipline.com",
+        "first_name": null,
+        "last_name": null,
+        "position": null,
+        "department": "support",
+        "confidence": 97,
+        "sources": 20,
+        "verification": null
+      },
+      {
+        "email": "security@flyzipline.com",
+        "first_name": null,
+        "last_name": null,
+        "position": null,
+        "department": "support",
+        "confidence": 96,
+        "sources": 30,
+        "verification": null
+      },
+      {
+        "email": "media@flyzipline.com",
+        "first_name": null,
+        "last_name": null,
+        "position": null,
+        "department": "communication",
+        "confidence": 96,
+        "sources": 24,
+        "verification": null
+      }
+    ]
+  },
+  {
+    "company": "Sea Machines Robotics",
+    "domain": "sea-machines.com",
+    "status": "success",
+    "contacts_found": 8,
+    "contacts": [
+      {
+        "email": "dtalley@sea-machines.com",
+        "first_name": "Donnie",
+        "last_name": "Talley",
+        "position": "Director of Supply Chain",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "pholm@sea-machines.com",
+        "first_name": "Peter",
+        "last_name": "Holm",
+        "position": "Regional Director",
+        "department": "executive",
+        "confidence": 99,
+        "sources": 8,
+        "verification": "valid"
+      },
+      {
+        "email": "jlapensee@sea-machines.com",
+        "first_name": "Jamie",
+        "last_name": "Lapensee",
+        "position": "Senior Director of Human Resources",
+        "department": "hr",
+        "confidence": 98,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "mjohnson@sea-machines.com",
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "position": "Founder",
+        "department": "executive",
+        "confidence": 97,
+        "sources": 5,
+        "verification": "valid"
+      },
+      {
+        "email": "llamm@sea-machines.com",
+        "first_name": "Lauren",
+        "last_name": "Lamm",
+        "position": "Vice President of Business Operations",
+        "department": "sales",
+        "confidence": 96,
+        "sources": 5,
+        "verification": "valid"
+      },
+      {
+        "email": "egrant@sea-machines.com",
+        "first_name": "Emma",
+        "last_name": "Grant",
+        "position": "Marketing Manager",
+        "department": "marketing",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "vmedabalimi@sea-machines.com",
+        "first_name": "Vinay",
+        "last_name": "Medabalimi",
+        "position": "DevOps Engineer",
+        "department": null,
+        "confidence": 98,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "lflorczak@sea-machines.com",
+        "first_name": "\u0141ukasz",
+        "last_name": "Florczak",
+        "position": "Software Engineer",
+        "department": "it",
+        "confidence": 98,
+        "sources": 1,
+        "verification": "valid"
+      }
+    ]
+  },
+  {
+    "company": "Applied Intuition",
+    "domain": "appliedintuition.com",
+    "status": "success",
+    "contacts_found": 6,
+    "contacts": [
+      {
+        "email": "peter@appliedintuition.com",
+        "first_name": "Peter",
+        "last_name": "Ludwig",
+        "position": "Chief Technology Officer",
+        "department": "it",
+        "confidence": 67,
+        "sources": 2,
+        "verification": "valid"
+      },
+      {
+        "email": "varun@appliedintuition.com",
+        "first_name": "Varun",
+        "last_name": "Mittal",
+        "position": "General Manager",
+        "department": "management",
+        "confidence": 94,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "nicholas@appliedintuition.com",
+        "first_name": "Nicholas",
+        "last_name": "Shen",
+        "position": "Engineer",
+        "department": null,
+        "confidence": 93,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "ashwin@appliedintuition.com",
+        "first_name": "Ashwin",
+        "last_name": "Venkat",
+        "position": "Engineer",
+        "department": null,
+        "confidence": 92,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "ezra@appliedintuition.com",
+        "first_name": "Ezra",
+        "last_name": "Shapiro",
+        "position": "Business Development Manager",
+        "department": "sales",
+        "confidence": 91,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "qasar@appliedintuition.com",
+        "first_name": null,
+        "last_name": null,
+        "position": null,
+        "department": null,
+        "confidence": 60,
+        "sources": 1,
+        "verification": "valid"
+      }
+    ]
+  },
+  {
+    "company": "Scale AI",
+    "domain": "scale.com",
+    "status": "success",
+    "contacts_found": 8,
+    "contacts": [
+      {
+        "email": "trevor.howarth@scale.com",
+        "first_name": "Trevor",
+        "last_name": "Howarth",
+        "position": "Director of Machine Learning",
+        "department": "education",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "tom.estabrook@scale.com",
+        "first_name": "Tom",
+        "last_name": "Estabrook",
+        "position": "HR Business Partner",
+        "department": "sales",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "lucy.ogaz@scale.com",
+        "first_name": "Lucy",
+        "last_name": "Ogaz",
+        "position": "Director of Data Operations",
+        "department": "it",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "michael.weiss@scale.com",
+        "first_name": "Michael",
+        "last_name": "Wei\u00df",
+        "position": "Director of Total Rewards",
+        "department": "management",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "zainab.doctor@scale.com",
+        "first_name": "Zainab",
+        "last_name": "Doctor",
+        "position": "Director of Engagement",
+        "department": "management",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "erin.ellsworth@scale.com",
+        "first_name": "Erin",
+        "last_name": "Ellsworth",
+        "position": "Sales Enablement Manager",
+        "department": "sales",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "aakash.sabharwal@scale.com",
+        "first_name": "Aakash",
+        "last_name": "Sabharwal",
+        "position": "Vice President of Engineering",
+        "department": "executive",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "hunter.morales@scale.com",
+        "first_name": "Hunter",
+        "last_name": "Morales",
+        "position": "Head of Operations",
+        "department": "management",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "valid"
+      }
+    ]
+  },
+  {
+    "company": "Velodyne Lidar",
+    "domain": "velodynelidar.com",
+    "status": "no_results",
+    "contacts_found": 0,
+    "contacts": []
+  },
+  {
+    "company": "Anduril Industries",
+    "domain": "anduril.com",
+    "status": "success",
+    "contacts_found": 8,
+    "contacts": [
+      {
+        "email": "jubnoske@anduril.com",
+        "first_name": "Jonathan",
+        "last_name": "Ubnoske",
+        "position": "Director of Software Engineering",
+        "department": "it",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "mgray@anduril.com",
+        "first_name": "Marshall",
+        "last_name": "Gray",
+        "position": "Director of Battlespace Awareness",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "cbeyer@anduril.com",
+        "first_name": "Charles",
+        "last_name": "Beyer",
+        "position": "Director of Simulation Services",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "mbromley@anduril.com",
+        "first_name": "Michael",
+        "last_name": "Bromley",
+        "position": "Deputy Production Manager",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "rcimino@anduril.com",
+        "first_name": "Rich",
+        "last_name": "Cimino",
+        "position": "Director of Engineering",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "mmichlitsch@anduril.com",
+        "first_name": "Matthew",
+        "last_name": "Michlitsch",
+        "position": "Director of Engineering",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "jquillinan@anduril.com",
+        "first_name": "John",
+        "last_name": "Quillinan",
+        "position": "Director of Training",
+        "department": "education",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "cpfarr@anduril.com",
+        "first_name": "Chad",
+        "last_name": "Pfarr",
+        "position": "Design Director",
+        "department": "design",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      }
+    ]
+  },
+  {
+    "company": "AeroVironment",
+    "domain": "avinc.com",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "brooks@avinc.com",
+        "first_name": "Brooks",
+        "last_name": "Alec",
+        "position": null,
+        "confidence": 94
+      },
+      {
+        "email": "haney@avinc.com",
+        "first_name": "Eric",
+        "last_name": "Haney",
+        "position": "Technical Specialist",
+        "confidence": 94
+      },
+      {
+        "email": "renzo@avinc.com",
+        "first_name": "Renzo",
+        "last_name": "Anne",
+        "position": "Senior Technical Recruiter",
+        "confidence": 94
+      },
+      {
+        "email": "burkholder@avinc.com",
+        "first_name": "John",
+        "last_name": "Burkholder",
+        "position": "Senior Counsel",
+        "confidence": 93
+      },
+      {
+        "email": "folster@avinc.com",
+        "first_name": "Stephanie",
+        "last_name": "Folster",
+        "position": null,
+        "confidence": 93
+      }
+    ]
+  },
+  {
+    "company": "Kratos Defense",
+    "domain": "kratosdefense.com",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "adam.wallace@kratosdefense.com",
+        "first_name": "Adam",
+        "last_name": "Wallace",
+        "position": "Vice President, Commercial",
+        "confidence": 94
+      },
+      {
+        "email": "steve.meunier@kratosdefense.com",
+        "first_name": "Steve",
+        "last_name": "Meunier",
+        "position": "Chief Engineering Technician",
+        "confidence": 94
+      },
+      {
+        "email": "david.pile@kratosdefense.com",
+        "first_name": "David",
+        "last_name": "Pile",
+        "position": "Vice President of Operations",
+        "confidence": 94
+      },
+      {
+        "email": "stacey.rock@kratosdefense.com",
+        "first_name": "Stacey",
+        "last_name": "Rock",
+        "position": "President",
+        "confidence": 94
+      },
+      {
+        "email": "david.sollazzo@kratosdefense.com",
+        "first_name": "David",
+        "last_name": "Sollazzo",
+        "position": "Vice President, Operations",
+        "confidence": 94
+      }
+    ]
+  },
+  {
+    "company": "Beta Technologies",
+    "domain": "beta.team",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "kblodgett@beta.team",
+        "first_name": "Kristen",
+        "last_name": "Blodgett",
+        "position": "Director of Customer Experience",
+        "confidence": 94
+      },
+      {
+        "email": "manon@beta.team",
+        "first_name": "Manon",
+        "last_name": "Belzile",
+        "position": "Vice President of Propulsion",
+        "confidence": 94
+      },
+      {
+        "email": "bmartelle@beta.team",
+        "first_name": "Brettan",
+        "last_name": "Martelle",
+        "position": "Head of Airworthiness",
+        "confidence": 92
+      },
+      {
+        "email": "orouth@beta.team",
+        "first_name": "Odie",
+        "last_name": "Routh",
+        "position": "Director of IT Infrastructure",
+        "confidence": 92
+      },
+      {
+        "email": "tpeters@beta.team",
+        "first_name": "Tim",
+        "last_name": "Peters",
+        "position": "Executive Chef",
+        "confidence": 92
+      }
+    ]
+  },
+  {
+    "company": "Wisk Aero",
+    "domain": "wisk.aero",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "niraj.nath@wisk.aero",
+        "first_name": "Niraj",
+        "last_name": "Nath",
+        "position": "Facilities Director",
+        "confidence": 99
+      },
+      {
+        "email": "kevin.arpin@wisk.aero",
+        "first_name": "Kevin",
+        "last_name": "Arpin",
+        "position": "Senior Systems Engineer",
+        "confidence": 99
+      },
+      {
+        "email": "corey.williams@wisk.aero",
+        "first_name": "Corey",
+        "last_name": "Williams",
+        "position": "Chief Flight Test Engineer",
+        "confidence": 99
+      },
+      {
+        "email": "drake.berglund@wisk.aero",
+        "first_name": "Drake",
+        "last_name": "Berglund",
+        "position": "Senior Director of Corporate Development",
+        "confidence": 99
+      },
+      {
+        "email": "david.oord@wisk.aero",
+        "first_name": "David",
+        "last_name": "Oord",
+        "position": "Director of Regulatory Affairs",
+        "confidence": 99
+      }
+    ]
+  },
+  {
+    "company": "Volocopter",
+    "domain": "volocopter.com",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "hassan.soboh@volocopter.com",
+        "first_name": "Hassan",
+        "last_name": "Soboh",
+        "position": "Director of Aircraft Engineering",
+        "confidence": 99
+      },
+      {
+        "email": "cristiano.santos@volocopter.com",
+        "first_name": "Cristiano",
+        "last_name": "Santos",
+        "position": "Director of Development",
+        "confidence": 99
+      },
+      {
+        "email": "stephan.losse@volocopter.com",
+        "first_name": "Stephan",
+        "last_name": "Losse",
+        "position": "Head of Logistics",
+        "confidence": 99
+      },
+      {
+        "email": "victor.nichka@volocopter.com",
+        "first_name": "Victor",
+        "last_name": "Nichka",
+        "position": "Chief Engineer",
+        "confidence": 98
+      },
+      {
+        "email": "alexander.klingspor@volocopter.com",
+        "first_name": "Alexander",
+        "last_name": "Klingspor",
+        "position": "Director of Propulsion",
+        "confidence": 98
+      }
+    ]
+  }
+]

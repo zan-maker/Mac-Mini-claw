@@ -1,0 +1,63 @@
+[
+  {
+    "id": "dec_20260224_091356_61683922",
+    "timestamp": "2026-02-24T09:13:56.739615",
+    "type": "tree_maintenance_vs_feature",
+    "options": [
+      "Fix maintenance issue",
+      "Build new feature",
+      "Do both (parallel)",
+      "Defer decision"
+    ],
+    "chosen": "Fix maintenance issue",
+    "reasoning": "System stability at risk",
+    "score": 0.7,
+    "protocol_version": "1.0"
+  },
+  {
+    "id": "dec_20260224_091356_43390775",
+    "timestamp": "2026-02-24T09:13:56.740162",
+    "type": "tree_communication",
+    "options": [
+      "Notify immediately",
+      "Wait for next heartbeat",
+      "Batch with next update",
+      "Do not notify"
+    ],
+    "chosen": "Notify immediately",
+    "reasoning": "Time-sensitive (12h)",
+    "score": 0.7999999999999999,
+    "protocol_version": "1.0"
+  },
+  {
+    "id": "dec_20260224_091356_68164083",
+    "timestamp": "2026-02-24T09:13:56.740759",
+    "type": "tree_error_handling",
+    "options": [
+      "Immediate alert + stop",
+      "Notify + alternatives",
+      "Auto-fix + document",
+      "Log for review",
+      "Ignore"
+    ],
+    "chosen": "Auto-fix + document",
+    "reasoning": "Auto-fixable (90% confidence)",
+    "score": 1.0,
+    "protocol_version": "1.0"
+  },
+  {
+    "id": "dec_20260224_091356_69114164",
+    "timestamp": "2026-02-24T09:13:56.741163",
+    "type": "tree_resource_allocation",
+    "options": [
+      "Conservative allocation",
+      "Scored allocation",
+      "Direct allocation",
+      "Deferred allocation"
+    ],
+    "chosen": "Scored allocation",
+    "reasoning": "Multiple tasks - using scoring",
+    "score": 0.8999999999999999,
+    "protocol_version": "1.0"
+  }
+]

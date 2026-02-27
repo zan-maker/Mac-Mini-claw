@@ -1,0 +1,37 @@
+📊 **Expense Reduction Lead Gen Report**
+📅 Thursday, February 26, 2026 - 09:04 AM
+
+🔍 **Data Source Report:**
+• Scrapling Used: ❌ No
+• Scrapling Results: 0 leads
+• Traditional API Results: 20 leads
+• Total Processing Time: 13.1 seconds
+
+📈 **Lead Statistics:**
+• Total Leads Generated: **20**
+• 🔴 High Priority: **15**
+• 🟡 Medium Priority: **5**
+• 💰 Total Potential Savings: **$7,529,620**
+
+🏆 **Top 3 Leads:**
+
+**1. 100 Best Midsize Companies to Work For in Nationwide**
+   • Industry: Technology/SaaS
+   • Employees: ~150
+   • Potential Savings: $258,750 - $517,500
+   • Score: 95/100
+
+**2. How to identify and understand the ideal client profile for ...**
+   • Industry: Technology/SaaS
+   • Employees: ~500
+   • Potential Savings: $862,500 - $1,725,000
+   • Score: 95/100
+
+**3. Market Sizing for Founders**
+   • Industry: Technology/SaaS
+   • Employees: ~150
+   • Potential Savings: $258,750 - $517,500
+   • Score: 95/100
+
+---
+✅ *Leads saved to workspace/expense-leads/*

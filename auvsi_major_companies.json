@@ -1,0 +1,418 @@
+[
+  {
+    "company": "Boeing",
+    "domain": "boeing.com",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "leslie.merbaum@boeing.com",
+        "first_name": "Leslie",
+        "last_name": "Merbaum",
+        "position": "Chief of Staff",
+        "confidence": 99
+      },
+      {
+        "email": "rebecca.godwin@boeing.com",
+        "first_name": "Rebecca",
+        "last_name": "Godwin",
+        "position": "Executive Director",
+        "confidence": 99
+      },
+      {
+        "email": "taylor.kempfer@boeing.com",
+        "first_name": "Taylor",
+        "last_name": "Kempfer",
+        "position": "Chief of Staff",
+        "confidence": 99
+      },
+      {
+        "email": "michelle.stubblefield@boeing.com",
+        "first_name": "Michelle",
+        "last_name": "Stubblefield",
+        "position": "HR Business Partner",
+        "confidence": 99
+      },
+      {
+        "email": "wolf.benz@boeing.com",
+        "first_name": "Wolf",
+        "last_name": "Benz",
+        "position": "Global Head of Design",
+        "confidence": 99
+      }
+    ]
+  },
+  {
+    "company": "Lockheed Martin",
+    "domain": "lockheedmartin.com",
+    "status": "success",
+    "contacts_found": 3,
+    "contacts": [
+      {
+        "email": "jessicasharpe@lockheedmartin.com",
+        "first_name": "Jessica",
+        "last_name": "Sharpe",
+        "position": "Hardware Engineer",
+        "confidence": 89
+      },
+      {
+        "email": "ambrose@lockheedmartin.com",
+        "first_name": "Rick",
+        "last_name": "Ambrose",
+        "position": "Executive Vice President",
+        "confidence": 89
+      },
+      {
+        "email": "muir@lockheedmartin.com",
+        "first_name": "Richard",
+        "last_name": "Muir",
+        "position": "Business Development Director",
+        "confidence": 88
+      }
+    ]
+  },
+  {
+    "company": "Northrop Grumman",
+    "domain": "northropgrumman.com",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "dperham@northropgrumman.com",
+        "first_name": "David",
+        "last_name": "Perham",
+        "position": null,
+        "confidence": 94
+      },
+      {
+        "email": "emckinnon@northropgrumman.com",
+        "first_name": "Edward",
+        "last_name": "Mckinnon",
+        "position": null,
+        "confidence": 93
+      },
+      {
+        "email": "jwilmeth@northropgrumman.com",
+        "first_name": "James",
+        "last_name": "Wilmeth",
+        "position": "Co Worker",
+        "confidence": 92
+      },
+      {
+        "email": "gagilleland@northropgrumman.com",
+        "first_name": null,
+        "last_name": null,
+        "position": null,
+        "confidence": 77
+      },
+      {
+        "email": "achickinsky@northropgrumman.com",
+        "first_name": null,
+        "last_name": null,
+        "position": null,
+        "confidence": 76
+      }
+    ]
+  },
+  {
+    "company": "Intel",
+    "domain": "intel.com",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "deepika.krishnaswamy@intel.com",
+        "first_name": "Deepika",
+        "last_name": "Krishnaswamy",
+        "position": "Chief of Staff",
+        "confidence": 99
+      },
+      {
+        "email": "sarah.sirajuddin@intel.com",
+        "first_name": "Sarah",
+        "last_name": "Sirajuddin",
+        "position": "Vice President of Software Engineering",
+        "confidence": 99
+      },
+      {
+        "email": "michal.bogusz@intel.com",
+        "first_name": "Michal",
+        "last_name": "Bogusz",
+        "position": "Director of Engineering",
+        "confidence": 99
+      },
+      {
+        "email": "donovan.bell@intel.com",
+        "first_name": "Donovan",
+        "last_name": "Bell",
+        "position": "Senior Director of Legal Affairs",
+        "confidence": 99
+      },
+      {
+        "email": "jeff.dailey@intel.com",
+        "first_name": "Jeff",
+        "last_name": "Dailey",
+        "position": "Global Director of Supply Chain Labor",
+        "confidence": 99
+      }
+    ]
+  },
+  {
+    "company": "Microsoft",
+    "domain": "microsoft.com",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "singhc@microsoft.com",
+        "first_name": "Chitesh",
+        "last_name": "Singh",
+        "position": null,
+        "confidence": 99
+      },
+      {
+        "email": "pauls@microsoft.com",
+        "first_name": "Paul",
+        "last_name": "Sebelien",
+        "position": "Business Program Manager",
+        "confidence": 99
+      },
+      {
+        "email": "allan.lewis@microsoft.com",
+        "first_name": "Allan",
+        "last_name": "Lewis",
+        "position": "Director of Cloud Solutions Architecture",
+        "confidence": 99
+      },
+      {
+        "email": "michael.taylor@microsoft.com",
+        "first_name": "Michael",
+        "last_name": "Taylor",
+        "position": "Chief Information Officer",
+        "confidence": 99
+      },
+      {
+        "email": "frank.johnson@microsoft.com",
+        "first_name": "Frank",
+        "last_name": "Johnson",
+        "position": "Director of Operations",
+        "confidence": 99
+      }
+    ]
+  },
+  {
+    "company": "Google",
+    "domain": "google.com",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "aselage@google.com",
+        "first_name": "Adriana",
+        "last_name": "Selage",
+        "position": "Director, Go-to-Market",
+        "confidence": 94
+      },
+      {
+        "email": "karlmurray@google.com",
+        "first_name": "Karl",
+        "last_name": "Murray",
+        "position": "Director of Cloud Engineering",
+        "confidence": 94
+      },
+      {
+        "email": "danieldawson@google.com",
+        "first_name": "Daniel",
+        "last_name": "Dawson",
+        "position": "Partner Marketing Manager",
+        "confidence": 94
+      },
+      {
+        "email": "kaylavizcarra@google.com",
+        "first_name": "Kayla",
+        "last_name": "Vizcarra",
+        "position": "Partner Solutions Engineer",
+        "confidence": 94
+      },
+      {
+        "email": "katelynkern@google.com",
+        "first_name": "Katelyn",
+        "last_name": "Kern",
+        "position": "Strategic Partnerships Manager",
+        "confidence": 94
+      }
+    ]
+  },
+  {
+    "company": "Amazon",
+    "domain": "amazon.com",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "joantorres@amazon.com",
+        "first_name": "Joan",
+        "last_name": "Torres",
+        "position": "HR Business Partner",
+        "confidence": 94
+      },
+      {
+        "email": "ammarmahmood@amazon.com",
+        "first_name": "Ammar",
+        "last_name": "Mahmood",
+        "position": "Ecommerce Manager",
+        "confidence": 94
+      },
+      {
+        "email": "robertorequena@amazon.com",
+        "first_name": "Roberto",
+        "last_name": "Requena",
+        "position": "Key Account Director",
+        "confidence": 94
+      },
+      {
+        "email": "marcojarquin@amazon.com",
+        "first_name": "Marco",
+        "last_name": "Jarquin",
+        "position": "Director of Global Procurement",
+        "confidence": 94
+      },
+      {
+        "email": "melanierosekrans@amazon.com",
+        "first_name": "Melanie",
+        "last_name": "Rosekrans",
+        "position": "Director of Product Marketing",
+        "confidence": 94
+      }
+    ]
+  },
+  {
+    "company": "Airbus",
+    "domain": "airbus.com",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "audrey.suire@airbus.com",
+        "first_name": "Audrey",
+        "last_name": "Suire",
+        "position": "Stress Engineer",
+        "confidence": 99
+      },
+      {
+        "email": "beatrice.neuschwander@airbus.com",
+        "first_name": "B\u00e9atrice",
+        "last_name": "Neuschwander",
+        "position": "Director of Product Management",
+        "confidence": 99
+      },
+      {
+        "email": "mathieu.oliva@airbus.com",
+        "first_name": "Mathieu",
+        "last_name": "Oliva",
+        "position": "Customer Program Director",
+        "confidence": 99
+      },
+      {
+        "email": "cyril.guichot@airbus.com",
+        "first_name": "Cyril",
+        "last_name": "Guichot",
+        "position": "Head of Operations",
+        "confidence": 99
+      },
+      {
+        "email": "xavier.cazalet@airbus.com",
+        "first_name": "Xavier",
+        "last_name": "Cazalet",
+        "position": "Director of Airframe Services",
+        "confidence": 99
+      }
+    ]
+  },
+  {
+    "company": "Collins Aerospace",
+    "domain": "collinsaerospace.com",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "kiean.gill@collinsaerospace.com",
+        "first_name": "Kiean",
+        "last_name": "Gill",
+        "position": "Product Owner",
+        "confidence": 99
+      },
+      {
+        "email": "roberto.joseph@collinsaerospace.com",
+        "first_name": "Roberto",
+        "last_name": "Joseph",
+        "position": "Head of Commercial Management",
+        "confidence": 99
+      },
+      {
+        "email": "aaron.alves@collinsaerospace.com",
+        "first_name": "Aaron",
+        "last_name": "Alves",
+        "position": "Director",
+        "confidence": 99
+      },
+      {
+        "email": "pamela.henderson@collinsaerospace.com",
+        "first_name": "Pamela",
+        "last_name": "Henderson",
+        "position": "Director of Quality Assurance",
+        "confidence": 99
+      },
+      {
+        "email": "wendy.crossett@collinsaerospace.com",
+        "first_name": "Wendy",
+        "last_name": "Crossett",
+        "position": "Associate Director of Supply Chain",
+        "confidence": 99
+      }
+    ]
+  },
+  {
+    "company": "L3Harris Technologies",
+    "domain": "l3harris.com",
+    "status": "success",
+    "contacts_found": 5,
+    "contacts": [
+      {
+        "email": "greig.murray@l3harris.com",
+        "first_name": "Greig",
+        "last_name": "Murray",
+        "position": "Director of Business Development",
+        "confidence": 99
+      },
+      {
+        "email": "alex.laham@l3harris.com",
+        "first_name": "Alex",
+        "last_name": "Laham",
+        "position": "Director of Continuous Improvement",
+        "confidence": 99
+      },
+      {
+        "email": "victoria.gaess@l3harris.com",
+        "first_name": "Victoria",
+        "last_name": "Gaess",
+        "position": "Director of Total Rewards",
+        "confidence": 99
+      },
+      {
+        "email": "daniel.gill@l3harris.com",
+        "first_name": "Daniel",
+        "last_name": "Gill",
+        "position": "Chief Information Security Officer",
+        "confidence": 99
+      },
+      {
+        "email": "travis.helms@l3harris.com",
+        "first_name": "Travis",
+        "last_name": "Helms",
+        "position": "Chief Engineer",
+        "confidence": 99
+      }
+    ]
+  }
+]

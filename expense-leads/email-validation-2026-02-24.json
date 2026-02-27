@@ -1,0 +1,32 @@
+[
+  {
+    "company": "Omnea",
+    "title": "CFO Sabrina Castiglione",
+    "email": "sabrina.castiglione@omnea.co",
+    "status": "invalid"
+  },
+  {
+    "company": "Adaptive Security",
+    "title": "CEO Brian Long",
+    "email": "brian@adaptivesecurity.com",
+    "status": "valid"
+  },
+  {
+    "company": "Ambience Healthcare",
+    "title": "CEO Nikhil Buduma",
+    "email": "nikhil@ambiencehealthcare.com",
+    "status": "valid"
+  },
+  {
+    "company": "Rilla",
+    "title": "Dir Finance Garrett Higgins",
+    "email": "garrett@rilla.com",
+    "status": "valid"
+  },
+  {
+    "company": "Vanta",
+    "title": "CEO Christina Cacioppo",
+    "email": "christina@vanta.com",
+    "status": "valid"
+  }
+]

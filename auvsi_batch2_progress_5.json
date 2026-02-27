@@ -1,0 +1,452 @@
+[
+  {
+    "company": "AeroVironment",
+    "domain": "avinc.com",
+    "status": "success",
+    "contacts_found": 8,
+    "contacts": [
+      {
+        "email": "brooks@avinc.com",
+        "first_name": "Brooks",
+        "last_name": "Alec",
+        "position": null,
+        "department": null,
+        "confidence": 94,
+        "sources": 2,
+        "verification": "accept_all"
+      },
+      {
+        "email": "haney@avinc.com",
+        "first_name": "Eric",
+        "last_name": "Haney",
+        "position": "Technical Specialist",
+        "department": null,
+        "confidence": 94,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "renzo@avinc.com",
+        "first_name": "Renzo",
+        "last_name": "Anne",
+        "position": "Senior Technical Recruiter",
+        "department": null,
+        "confidence": 94,
+        "sources": 9,
+        "verification": "accept_all"
+      },
+      {
+        "email": "burkholder@avinc.com",
+        "first_name": "John",
+        "last_name": "Burkholder",
+        "position": "Senior Counsel",
+        "department": "legal",
+        "confidence": 93,
+        "sources": 5,
+        "verification": "accept_all"
+      },
+      {
+        "email": "folster@avinc.com",
+        "first_name": "Stephanie",
+        "last_name": "Folster",
+        "position": null,
+        "department": null,
+        "confidence": 93,
+        "sources": 2,
+        "verification": null
+      },
+      {
+        "email": "botsford@avinc.com",
+        "first_name": "Charlie",
+        "last_name": "Botsford",
+        "position": "Chemical Engineer",
+        "department": null,
+        "confidence": 93,
+        "sources": 14,
+        "verification": null
+      },
+      {
+        "email": "farr@avinc.com",
+        "first_name": "Errol",
+        "last_name": "Farr",
+        "position": "Security Forces",
+        "department": null,
+        "confidence": 92,
+        "sources": 2,
+        "verification": "accept_all"
+      },
+      {
+        "email": "stokes@avinc.com",
+        "first_name": "Heather",
+        "last_name": "Stokes",
+        "position": null,
+        "department": null,
+        "confidence": 92,
+        "sources": 11,
+        "verification": null
+      }
+    ],
+    "organization": "AeroVironment",
+    "pattern": "{last}"
+  },
+  {
+    "company": "Kratos Defense",
+    "domain": "kratosdefense.com",
+    "status": "success",
+    "contacts_found": 8,
+    "contacts": [
+      {
+        "email": "adam.wallace@kratosdefense.com",
+        "first_name": "Adam",
+        "last_name": "Wallace",
+        "position": "Vice President, Commercial",
+        "department": "executive",
+        "confidence": 94,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "steve.meunier@kratosdefense.com",
+        "first_name": "Steve",
+        "last_name": "Meunier",
+        "position": "Chief Engineering Technician",
+        "department": "executive",
+        "confidence": 94,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "david.pile@kratosdefense.com",
+        "first_name": "David",
+        "last_name": "Pile",
+        "position": "Vice President of Operations",
+        "department": "operations",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "accept_all"
+      },
+      {
+        "email": "stacey.rock@kratosdefense.com",
+        "first_name": "Stacey",
+        "last_name": "Rock",
+        "position": "President",
+        "department": "executive",
+        "confidence": 94,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "david.sollazzo@kratosdefense.com",
+        "first_name": "David",
+        "last_name": "Sollazzo",
+        "position": "Vice President, Operations",
+        "department": "operations",
+        "confidence": 94,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "jennifer.buckner@kratosdefense.com",
+        "first_name": "Jennifer",
+        "last_name": "Buckner",
+        "position": "Director of Growth",
+        "department": "management",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "accept_all"
+      },
+      {
+        "email": "jonathan.hunter@kratosdefense.com",
+        "first_name": "Jonathan",
+        "last_name": "Hunter",
+        "position": "Director of Quality",
+        "department": "operations",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "accept_all"
+      },
+      {
+        "email": "chuck.brans@kratosdefense.com",
+        "first_name": "Chuck",
+        "last_name": "Brans",
+        "position": "Senior Director",
+        "department": "management",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "accept_all"
+      }
+    ],
+    "organization": "Kratos Defense and Security Solutions",
+    "pattern": "{first}.{last}"
+  },
+  {
+    "company": "General Atomics",
+    "domain": "ga-asi.com",
+    "status": "success",
+    "contacts_found": 8,
+    "contacts": [
+      {
+        "email": "richard.gunderson@ga-asi.com",
+        "first_name": "Richard",
+        "last_name": "Gunderson",
+        "position": "Senior Director of Engineering",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "daren.wade@ga-asi.com",
+        "first_name": "Daren",
+        "last_name": "Wade",
+        "position": "Director of Integration",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "daniel.fritz@ga-asi.com",
+        "first_name": "Daniel",
+        "last_name": "Fritz",
+        "position": "Senior Director",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "rex.roedger@ga-asi.com",
+        "first_name": "Rex",
+        "last_name": "Roedger",
+        "position": "Senior Director of Supply Chain and Procurement",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "caleb.bartels@ga-asi.com",
+        "first_name": "Caleb",
+        "last_name": "Bartels",
+        "position": "Director of Mechanical Engineering",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "greg.reith@ga-asi.com",
+        "first_name": "Greg",
+        "last_name": "Reith",
+        "position": "Director of Engineering",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "tom.cassidy@ga-asi.com",
+        "first_name": "Tom",
+        "last_name": "Cassidy",
+        "position": "President",
+        "department": "executive",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "scott.duffy@ga-asi.com",
+        "first_name": "Scott",
+        "last_name": "Duffy",
+        "position": "Director of Mechanical Engineering",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      }
+    ],
+    "organization": "General Atomics Aeronautical Systems",
+    "pattern": "{first}.{last}"
+  },
+  {
+    "company": "Beta Technologies",
+    "domain": "beta.team",
+    "status": "success",
+    "contacts_found": 8,
+    "contacts": [
+      {
+        "email": "kblodgett@beta.team",
+        "first_name": "Kristen",
+        "last_name": "Blodgett",
+        "position": "Director of Customer Experience",
+        "department": "support",
+        "confidence": 94,
+        "sources": 1,
+        "verification": "accept_all"
+      },
+      {
+        "email": "manon@beta.team",
+        "first_name": "Manon",
+        "last_name": "Belzile",
+        "position": "Vice President of Propulsion",
+        "department": "executive",
+        "confidence": 94,
+        "sources": 2,
+        "verification": "accept_all"
+      },
+      {
+        "email": "bmartelle@beta.team",
+        "first_name": "Brettan",
+        "last_name": "Martelle",
+        "position": "Head of Airworthiness",
+        "department": "management",
+        "confidence": 92,
+        "sources": 1,
+        "verification": "accept_all"
+      },
+      {
+        "email": "orouth@beta.team",
+        "first_name": "Odie",
+        "last_name": "Routh",
+        "position": "Director of IT Infrastructure",
+        "department": "it",
+        "confidence": 92,
+        "sources": 1,
+        "verification": "accept_all"
+      },
+      {
+        "email": "tpeters@beta.team",
+        "first_name": "Tim",
+        "last_name": "Peters",
+        "position": "Executive Chef",
+        "department": "operations",
+        "confidence": 92,
+        "sources": 2,
+        "verification": "accept_all"
+      },
+      {
+        "email": "jyan@beta.team",
+        "first_name": "Jacqueline",
+        "last_name": "Yan",
+        "position": "Director of Strategy",
+        "department": "management",
+        "confidence": 91,
+        "sources": 1,
+        "verification": "accept_all"
+      },
+      {
+        "email": "pbuckles@beta.team",
+        "first_name": "Patrick",
+        "last_name": "Buckles",
+        "position": "Director of Commercial Sales",
+        "department": "sales",
+        "confidence": 91,
+        "sources": 2,
+        "verification": "accept_all"
+      },
+      {
+        "email": "akalinen@beta.team",
+        "first_name": "Andrew",
+        "last_name": "Kalinen",
+        "position": "Product Owner",
+        "department": "executive",
+        "confidence": 84,
+        "sources": 2,
+        "verification": "accept_all"
+      }
+    ],
+    "organization": "BETA TECHNOLOGIES",
+    "pattern": "{f}{last}"
+  },
+  {
+    "company": "Wisk Aero",
+    "domain": "wisk.aero",
+    "status": "success",
+    "contacts_found": 8,
+    "contacts": [
+      {
+        "email": "niraj.nath@wisk.aero",
+        "first_name": "Niraj",
+        "last_name": "Nath",
+        "position": "Facilities Director",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "kevin.arpin@wisk.aero",
+        "first_name": "Kevin",
+        "last_name": "Arpin",
+        "position": "Senior Systems Engineer",
+        "department": "it",
+        "confidence": 99,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "corey.williams@wisk.aero",
+        "first_name": "Corey",
+        "last_name": "Williams",
+        "position": "Chief Flight Test Engineer",
+        "department": "executive",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "drake.berglund@wisk.aero",
+        "first_name": "Drake",
+        "last_name": "Berglund",
+        "position": "Senior Director of Corporate Development",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": "valid"
+      },
+      {
+        "email": "david.oord@wisk.aero",
+        "first_name": "David",
+        "last_name": "Oord",
+        "position": "Director of Regulatory Affairs",
+        "department": "management",
+        "confidence": 99,
+        "sources": 1,
+        "verification": null
+      },
+      {
+        "email": "uri.tzarnotzky@wisk.aero",
+        "first_name": "Uri",
+        "last_name": "Tzarnotzky",
+        "position": "Director of Product Design",
+        "department": "design",
+        "confidence": 99,
+        "sources": 2,
+        "verification": "valid"
+      },
+      {
+        "email": "sebastien.vigneron@wisk.aero",
+        "first_name": "Sebastien",
+        "last_name": "Vigneron",
+        "position": null,
+        "department": null,
+        "confidence": 99,
+        "sources": 2,
+        "verification": "valid"
+      },
+      {
+        "email": "daniela.schaff@wisk.aero",
+        "first_name": "Daniela",
+        "last_name": "Schaff",
+        "position": "Director of Operations",
+        "department": "executive",
+        "confidence": 98,
+        "sources": 1,
+        "verification": "valid"
+      }
+    ],
+    "organization": "Wisk",
+    "pattern": "{first}.{last}"
+  }
+]

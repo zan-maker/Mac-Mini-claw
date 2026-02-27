@@ -1,0 +1,23 @@
+📈 **Tastytrade $100 Account - Daily Recommendations**
+📅 Thursday, February 26, 2026
+
+**Account Balance:** $100.00
+**Available BP:** $80.00
+
+**Market Snapshot:**
+• SPY: $693.15 (RSI: 55)
+• QQQ: $616.68 (RSI: 53)
+• IWM: $264.58 (RSI: 54)
+
+**Top 1 Conservative Trades:**
+
+1. **SPY Iron Condor**
+   • Strikes: Put 678/683 | Call 703/708
+   • Credit: $0.45 | Risk: $4.55 | POP: 68%
+
+**Risk Summary:**
+• Total Risk: $4.55 (5%)
+• Expected Return: 9.9%
+• Avg POP: 68%
+
+⚠️ Conservative approach for $100 account

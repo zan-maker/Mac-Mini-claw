@@ -1,0 +1,123 @@
+# Deal Origination - Sellers - Scrapling-First Enhanced
+
+## 🚀 NEW: Scrapling Integration Activated
+
+**Scrapling gives us an unfair advantage:**
+- **774x faster** than traditional web scraping
+- **Cloudflare bypass** - automatically handles anti-bot systems
+- **Maximum stealth** - no bot detection
+- **Adaptive scraping** - no selector maintenance needed
+- **AI-powered extraction** - natural language queries
+
+## 📋 Your Task (Scrapling-First Approach)
+
+### Step 1: Try Scrapling First (Primary Source)
+```python
+# Use Scrapling integration for fast, reliable data extraction
+# Scrapling is installed in: /Users/cubiczan/.openclaw/workspace/scrapling-integration/
+# Activate virtual environment: source /Users/cubiczan/.openclaw/workspace/scrapling-venv/bin/activate
+
+import sys
+sys.path.insert(0, '/Users/cubiczan/.openclaw/workspace/scrapling-integration')
+
+try:
+    from cron_integration import ScraplingCronIntegration
+    
+    async def run_with_scrapling():
+        # Initialize Scrapling with stealth mode
+        scrapling = ScraplingCronIntegration(stealth_mode=True)
+        success = await scrapling.initialize()
+        
+        if success:
+            print("✅ Scrapling initialized successfully")
+            # Use Scrapling for deal origination
+            results = await scrapling.find_off_market_sellers()
+            return results
+        else:
+            print("⚠️ Scrapling initialization failed, falling back to traditional APIs")
+            return []
+except ImportError:
+    print("⚠️ Scrapling not available, using traditional APIs")
+```
+
+### Step 2: Fall Back to Traditional APIs (If Scrapling Fails)
+If Scrapling returns no results or fails:
+1. **First fallback:** Use **Tavily API** (preferred)
+   - API Key: `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`
+   - Faster and more reliable than Brave Search
+
+2. **Second fallback:** Use **Brave Search API**
+   - API Key: `cac43a248afb1cc1ec004370df2e0282a67eb420`
+   - Use only if Tavily fails
+
+### Step 3: Process and Report Results
+1. Process the data (same as before)
+2. Save results to appropriate files
+3. **IMPORTANT:** Include Scrapling usage status in Discord report:
+   ```
+   🔍 **Data Source Report:**
+   - Scrapling Used: ✅ Yes / ❌ No
+   - Scrapling Results: X sellers
+   - Traditional API Results: Y sellers
+   - Total Processing Time: Z seconds
+   ```
+
+## 🎯 Performance Benefits
+- **Speed:** 774x faster than BeautifulSoup
+- **Reliability:** Bypasses Cloudflare and anti-bot systems
+- **Stealth:** No bot detection
+- **Maintenance:** Zero selector maintenance
+- **Cost:** Reduces API calls to Serper/Tavily
+
+## Original Task:
+
+# Deal Origination - Off-Market Sellers
+
+You are running daily seller lead generation for business acquisitions.
+
+## Your Task:
+
+1. **Generate 10-15 Off-Market Seller Leads:**
+   - NO business brokers - direct owner relationships only
+   - Blue Collar: HVAC, Plumbing, Electrical, Roofing, Fire/Safety, Commercial Cleaning, Waste Management
+   - Platform: Healthcare Services, Insurance Brokerage, Logistics, Dental, Veterinary
+   - $500K - $10M+ EBITDA
+
+2. **Seller Signals to Look For:**
+   - Business age > 15 years
+   - Owner nearing retirement age
+   - Outdated website/branding
+   - High review count, low marketing spend
+   - Second-generation ownership
+
+3. **Score Each Lead (0-100):**
+   - EBITDA range: 0-30 points
+   - Years in business: 0-20 points
+   - Owner retirement signals: 0-25 points
+   - Segment fit: 0-25 points
+
+4. **Save Results:**
+   - Create `/workspace/deals/sellers/daily-sellers-YYYY-MM-DD.md`
+   - Update `/workspace/deals/pipeline.md`
+   - Include: Company, industry, EBITDA, years in business, owner signals, estimated finder fee
+
+5. **Send Summary to Discord:**
+   - Total sellers identified
+   - High priority count
+   - Blue collar vs platform split
+   - Total estimated finder fees
+
+## Key Metrics:
+- Target: 10-15 sellers daily
+- No brokers - off-market only
+- Track estimated finder fees
+
+Generate leads now and report results.
+
+## 💡 Implementation Notes
+1. Scrapling is installed and ready to use
+2. Always try Scrapling first, fall back to APIs only if needed
+3. Report Scrapling usage status in Discord
+4. Include Scrapling results in your Discord report
+
+Generate leads now using Scrapling-first approach and report results.

@@ -1,0 +1,56 @@
+[
+  {
+    "wave": 2,
+    "contact_id": 5,
+    "company": "Cresset",
+    "contact": "Jack Ablin",
+    "email": "jablin@cressetcapital.com",
+    "status": "failed",
+    "timestamp": "2026-02-25T12:27:24.778033"
+  },
+  {
+    "wave": 2,
+    "contact_id": 8,
+    "company": "BHB Private",
+    "contact": "Rebecca Farrer",
+    "email": "rf@bhbprivate.com",
+    "status": "failed",
+    "timestamp": "2026-02-25T12:27:24.854364"
+  },
+  {
+    "wave": 2,
+    "contact_id": 9,
+    "company": "Fisher Brothers",
+    "contact": "Michael Bar",
+    "email": "mbar@fisherbrothers.com",
+    "status": "failed",
+    "timestamp": "2026-02-25T12:27:24.926477"
+  },
+  {
+    "wave": 2,
+    "contact_id": 10,
+    "company": "The Graham Group",
+    "contact": "Lee Graham",
+    "email": "graham@thegrahamgroup.co.uk",
+    "status": "failed",
+    "timestamp": "2026-02-25T12:27:25.006321"
+  },
+  {
+    "wave": 3,
+    "contact_id": 11,
+    "company": "TRT Holdings",
+    "contact": "Bob Rowling",
+    "email": "bob.rowling@omnihotels.com",
+    "status": "failed",
+    "timestamp": "2026-02-25T12:27:25.082506"
+  },
+  {
+    "wave": 3,
+    "contact_id": 12,
+    "company": "TRT Holdings",
+    "contact": "Brendan O'Hara",
+    "email": "brendan.ohara@omnihotels.com",
+    "status": "failed",
+    "timestamp": "2026-02-25T12:27:25.147246"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "configured_at": "2026-02-26T10:19:44.856893",
+  "accounts": [
+    {
+      "email": "zan@impactquadrant.info",
+      "password": "apbj bvsl tngo vqhu",
+      "name": "Agent Manager",
+      "status": "active",
+      "tested": true
+    },
+    {
+      "email": "sam@impactquadrant.info",
+      "password": "ajup xyhf abbx iugj",
+      "name": "Agent Manager",
+      "status": "active",
+      "tested": true
+    }
+  ],
+  "standard_cc": "sam@impactquadrant.info",
+  "status": "active",
+  "redundancy": true,
+  "campaigns_unblocked": [
+    "Dorada Resort",
+    "Miami Hotels",
+    "Lead Outreach",
+    "Defense Sector",
+    "Expense Reduction"
+  ]
+}

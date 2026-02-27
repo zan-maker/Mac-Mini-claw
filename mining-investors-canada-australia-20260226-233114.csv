@@ -1,0 +1,149 @@
+ID,Name,Title,Firm,Firm Type,Country,Focus,Email
+1,Scott Davis,Portfolio Manager,Canaccord Genuity,Investment Bank,Canada,Mining & Metals,sdavis@canaccord.com
+2,Scott Lee,Managing Director,Canaccord Genuity,Investment Bank,Canada,Mining & Metals,slee@canaccord.com
+3,Mark Moore,Head of Mining,Canaccord Genuity,Investment Bank,Canada,Mining & Metals,markm@canaccord.com
+4,Joseph Garcia,Managing Director,Haywood Securities,Investment Bank,Canada,Mining,josephg@haywood.com
+5,James Smith,Managing Director,Haywood Securities,Investment Bank,Canada,Mining,james.smith@haywood.com
+6,Eric Smith,Portfolio Manager,Haywood Securities,Investment Bank,Canada,Mining,eric.smith@haywood.com
+7,Joseph Anderson,Director,Cormark Securities,Investment Bank,Canada,Mining & Energy,janderson@cormark.com
+8,Scott Garcia,Vice President,Cormark Securities,Investment Bank,Canada,Mining & Energy,scottg@cormark.com
+9,John Anderson,Head of Resources,Cormark Securities,Investment Bank,Canada,Mining & Energy,janderson@cormark.com
+10,James Thompson,Portfolio Manager,Eight Capital,Investment Bank,Canada,Mining,jthompson@eight.com
+11,Paul Garcia,Associate,Eight Capital,Investment Bank,Canada,Mining,paul.garcia@eight.com
+12,Richard Smith,Managing Director,Eight Capital,Investment Bank,Canada,Mining,richards@eight.com
+13,William Thomas,Partner,PI Financial,Investment Bank,Canada,Mining,williamt@pi.com
+14,Brian Thompson,Vice President,PI Financial,Investment Bank,Canada,Mining,brian.thompson@pi.com
+15,Matthew Rodriguez,Portfolio Manager,PI Financial,Investment Bank,Canada,Mining,matthewr@pi.com
+16,Richard Williams,Investment Manager,Laurentian Bank Securities,Investment Bank,Canada,Mining,richardw@laurentian.com
+17,Robert Taylor,Investment Manager,Laurentian Bank Securities,Investment Bank,Canada,Mining,robert.taylor@laurentian.com
+18,Scott Anderson,Associate,Laurentian Bank Securities,Investment Bank,Canada,Mining,scotta@laurentian.com
+19,Brian Brown,Analyst,Desjardins Capital Markets,Investment Bank,Canada,Mining,bbrown@desjardins.com
+20,Mark Jones,Portfolio Manager,Desjardins Capital Markets,Investment Bank,Canada,Mining,markj@desjardins.com
+21,Paul Taylor,Head of Mining,Desjardins Capital Markets,Investment Bank,Canada,Mining,pault@desjardins.com
+22,Scott Smith,Head of Mining,National Bank Financial,Investment Bank,Canada,Mining,scott.smith@national.com
+23,Andrew Martinez,Director,National Bank Financial,Investment Bank,Canada,Mining,andrewm@national.com
+24,Andrew Moore,Head of Mining,National Bank Financial,Investment Bank,Canada,Mining,amoore@national.com
+25,David Lee,Analyst,RBC Capital Markets,Investment Bank,Canada,Mining & Metals,dlee@rbc.com
+26,William Martin,Vice President,RBC Capital Markets,Investment Bank,Canada,Mining & Metals,wmartin@rbc.com
+27,David Miller,Associate,RBC Capital Markets,Investment Bank,Canada,Mining & Metals,davidm@rbc.com
+28,James Williams,Director,BMO Capital Markets,Investment Bank,Canada,Mining & Metals,james.williams@bmo.com
+29,James Thomas,Portfolio Manager,BMO Capital Markets,Investment Bank,Canada,Mining & Metals,jamest@bmo.com
+30,Mark Thomas,Analyst,BMO Capital Markets,Investment Bank,Canada,Mining & Metals,mark.thomas@bmo.com
+31,Daniel Jones,Managing Director,Scotia Capital,Investment Bank,Canada,Mining,danielj@scotia.com
+32,Eric Thomas,Managing Director,Scotia Capital,Investment Bank,Canada,Mining,erict@scotia.com
+33,Robert Martin,Managing Director,Scotia Capital,Investment Bank,Canada,Mining,robert.martin@scotia.com
+34,William Wilson,Head of Mining,CIBC World Markets,Investment Bank,Canada,Mining,williamw@cibc.com
+35,Mark Williams,Head of Resources,CIBC World Markets,Investment Bank,Canada,Mining,markw@cibc.com
+36,John Rodriguez,Partner,CIBC World Markets,Investment Bank,Canada,Mining,john.rodriguez@cibc.com
+37,Christopher Thomas,Partner,TD Securities,Investment Bank,Canada,Mining,christophert@td.com
+38,Brian Taylor,Head of Resources,TD Securities,Investment Bank,Canada,Mining,brian.taylor@td.com
+39,Paul Jackson,Head of Resources,TD Securities,Investment Bank,Canada,Mining,pjackson@td.com
+40,William Lee,Analyst,Sprott Capital Partners,Merchant Bank,Canada,Mining Finance,wlee@sprott.com
+41,Brian Martinez,Partner,Sprott Capital Partners,Merchant Bank,Canada,Mining Finance,brian.martinez@sprott.com
+42,Matthew Miller,Head of Mining,Sprott Capital Partners,Merchant Bank,Canada,Mining Finance,matthewm@sprott.com
+43,Matthew Brown,Vice President,Forbes & Manhattan,Merchant Bank,Canada,Resource Finance,mbrown@forbes.com
+44,William Brown,Managing Director,Forbes & Manhattan,Merchant Bank,Canada,Resource Finance,williamb@forbes.com
+45,John Williams,Partner,Forbes & Manhattan,Merchant Bank,Canada,Resource Finance,jwilliams@forbes.com
+46,Andrew Thomas,Managing Director,PowerOne Capital Markets,Investment Bank,Canada,Mining & Energy,andrew.thomas@powerone.com
+47,Paul Miller,Portfolio Manager,PowerOne Capital Markets,Investment Bank,Canada,Mining & Energy,paul.miller@powerone.com
+48,Steven Anderson,Head of Mining,PowerOne Capital Markets,Investment Bank,Canada,Mining & Energy,steven.anderson@powerone.com
+49,Andrew Anderson,Partner,Echelon Wealth Partners,Investment Bank,Canada,Mining,andrew.anderson@echelon.com
+50,Thomas Thompson,Director,Echelon Wealth Partners,Investment Bank,Canada,Mining,thomas.thompson@echelon.com
+51,Matthew Brown,Director,Echelon Wealth Partners,Investment Bank,Canada,Mining,matthewb@echelon.com
+52,Joseph Thompson,Head of Resources,Eventus Capital,Investment Bank,Canada,Mining,josepht@eventus.com
+53,Kevin Smith,Head of Mining,Eventus Capital,Investment Bank,Canada,Mining,ksmith@eventus.com
+54,Steven Anderson,Vice President,Eventus Capital,Investment Bank,Canada,Mining,stevena@eventus.com
+55,Paul Williams,Analyst,Red Cloud Securities,Investment Bank,Canada,Mining,paulw@red.com
+56,Thomas Davis,Managing Director,Red Cloud Securities,Investment Bank,Canada,Mining,tdavis@red.com
+57,Eric Lee,Vice President,Red Cloud Securities,Investment Bank,Canada,Mining,eric.lee@red.com
+58,James White,Investment Manager,Research Capital,Investment Bank,Canada,Mining,james.white@research.com
+59,Matthew White,Director,Research Capital,Investment Bank,Canada,Mining,mattheww@research.com
+60,Steven Lee,Head of Mining,Research Capital,Investment Bank,Canada,Mining,stevenl@research.com
+61,Christopher Brown,Head of Mining,Waterton Global Resource Management,Private Equity,Canada,Mining,christopher.brown@waterton.com
+62,Eric Thomas,Portfolio Manager,Waterton Global Resource Management,Private Equity,Canada,Mining,ethomas@waterton.com
+63,David Garcia,Director,Waterton Global Resource Management,Private Equity,Canada,Mining,dgarcia@waterton.com
+64,Andrew Garcia,Investment Manager,Resource Capital Funds,Private Equity,Canada,Mining,agarcia@resource.com
+65,Eric Brown,Analyst,Resource Capital Funds,Private Equity,Canada,Mining,ebrown@resource.com
+66,David Williams,Head of Mining,Resource Capital Funds,Private Equity,Canada,Mining,david.williams@resource.com
+67,Scott Johnson,Director,Denham Capital,Private Equity,Canada,Mining & Energy,scottj@denham.com
+68,Steven Smith,Head of Resources,Denham Capital,Private Equity,Canada,Mining & Energy,ssmith@denham.com
+69,Christopher Martinez,Partner,Denham Capital,Private Equity,Canada,Mining & Energy,christopherm@denham.com
+70,Mark Rodriguez,Head of Mining,Appian Capital Advisory,Private Equity,UK/Canada,Mining,markr@appian.com
+71,Matthew Martinez,Portfolio Manager,Appian Capital Advisory,Private Equity,UK/Canada,Mining,matthewm@appian.com
+72,Scott Smith,Managing Director,Appian Capital Advisory,Private Equity,UK/Canada,Mining,scott.smith@appian.com
+73,Thomas Brown,Head of Mining,Orion Resource Partners,Private Equity,Global,Mining,tbrown@orion.com
+74,Joseph Thomas,Director,Orion Resource Partners,Private Equity,Global,Mining,joseph.thomas@orion.com
+75,Christopher Rodriguez,Partner,Orion Resource Partners,Private Equity,Global,Mining,christopher.rodriguez@orion.com
+76,John Miller,Head of Resources,Wheaton Precious Metals,Royalty/Streaming,Canada,Precious Metals,john.miller@wheaton.com
+77,Steven Davis,Vice President,Wheaton Precious Metals,Royalty/Streaming,Canada,Precious Metals,stevend@wheaton.com
+78,David Jackson,Portfolio Manager,Wheaton Precious Metals,Royalty/Streaming,Canada,Precious Metals,davidj@wheaton.com
+79,Paul Rodriguez,Director,Franco-Nevada,Royalty/Streaming,Canada,Mining,paulr@franco-nevada.com
+80,Kevin Johnson,Portfolio Manager,Franco-Nevada,Royalty/Streaming,Canada,Mining,kevinj@franco-nevada.com
+81,Joseph Moore,Investment Manager,Franco-Nevada,Royalty/Streaming,Canada,Mining,jmoore@franco-nevada.com
+82,Richard Smith,Head of Resources,Osisko Gold Royalties,Royalty/Streaming,Canada,Gold,rsmith@osisko.com
+83,Richard Miller,Portfolio Manager,Osisko Gold Royalties,Royalty/Streaming,Canada,Gold,richard.miller@osisko.com
+84,Thomas Williams,Managing Director,Osisko Gold Royalties,Royalty/Streaming,Canada,Gold,thomas.williams@osisko.com
+85,Steven Rodriguez,Partner,Sandstorm Gold,Royalty/Streaming,Canada,Gold,steven.rodriguez@sandstorm.com
+86,Joseph Taylor,Head of Mining,Sandstorm Gold,Royalty/Streaming,Canada,Gold,joseph.taylor@sandstorm.com
+87,Daniel Johnson,Portfolio Manager,Sandstorm Gold,Royalty/Streaming,Canada,Gold,daniel.johnson@sandstorm.com
+88,Steven Jones,Managing Director,The Lundin Group,Family Office,Canada,Mining,sjones@the.com
+89,James Rodriguez,Director,The Lundin Group,Family Office,Canada,Mining,jrodriguez@the.com
+90,Daniel Thomas,Portfolio Manager,The Lundin Group,Family Office,Canada,Mining,daniel.thomas@the.com
+91,Andrew Taylor,Managing Director,The Hunter Dickinson Group,Family Office,Canada,Mining,andrewt@the.com
+92,Mark Martin,Investment Manager,The Hunter Dickinson Group,Family Office,Canada,Mining,mark.martin@the.com
+93,Michael White,Vice President,The Hunter Dickinson Group,Family Office,Canada,Mining,michaelw@the.com
+94,Michael Martinez,Partner,The Ross Beaty Group,Family Office,Canada,Mining,michael.martinez@the.com
+95,James Moore,Head of Mining,The Ross Beaty Group,Family Office,Canada,Mining,jmoore@the.com
+96,Mark Wilson,Investment Manager,The Ross Beaty Group,Family Office,Canada,Mining,markw@the.com
+97,Peter Smith,Director,Macquarie Capital,Investment Bank,Australia,Mining & Metals,psmith@macquarie.com.au
+98,Jeffrey Martin,Partner,Macquarie Capital,Investment Bank,Australia,Mining & Metals,jeffrey.martin@macquarie.com.au
+99,Peter Thomas,Head of Resources,UBS Australia,Investment Bank,Australia,Mining,peter.thomas@ubs.com.au
+100,Jeffrey Martin,Partner,UBS Australia,Investment Bank,Australia,Mining,jeffrey.martin@ubs.com.au
+101,Kevin Robinson,Head of Resources,Goldman Sachs Australia,Investment Bank,Australia,Mining,krobinson@goldman.com.au
+102,Robert Johnson,Portfolio Manager,Goldman Sachs Australia,Investment Bank,Australia,Mining,robert.johnson@goldman.com.au
+103,Robert King,Associate,J.P. Morgan Australia,Investment Bank,Australia,Mining,robert.king@j.p..com.au
+104,Paul Nguyen,Head of Resources,J.P. Morgan Australia,Investment Bank,Australia,Mining,pauln@j.p..com.au
+105,Michael Wright,Managing Director,Morgan Stanley Australia,Investment Bank,Australia,Mining,mwright@morgan.com.au
+106,Jeffrey Jones,Associate,Morgan Stanley Australia,Investment Bank,Australia,Mining,jeffrey.jones@morgan.com.au
+107,David Wilson,Managing Director,Barrenjoey Capital Partners,Investment Bank,Australia,Mining,david.wilson@barrenjoey.com.au
+108,Anthony Anderson,Investment Manager,Barrenjoey Capital Partners,Investment Bank,Australia,Mining,anthonya@barrenjoey.com.au
+109,Mark Lee,Partner,Shaw and Partners,Stockbroker,Australia,Mining,mark.lee@shaw.com.au
+110,Peter Wilson,Director,Shaw and Partners,Stockbroker,Australia,Mining,peterw@shaw.com.au
+111,David Taylor,Analyst,Euroz Hartleys,Stockbroker,Australia,Mining,dtaylor@euroz.com.au
+112,Paul Martin,Investment Manager,Euroz Hartleys,Stockbroker,Australia,Mining,paul.martin@euroz.com.au
+113,Michael Taylor,Analyst,Canaccord Genuity Australia,Stockbroker,Australia,Mining,mtaylor@canaccord.com.au
+114,Jeffrey Johnson,Portfolio Manager,Canaccord Genuity Australia,Stockbroker,Australia,Mining,jeffrey.johnson@canaccord.com.au
+115,Matthew Nguyen,Associate,Argonaut Securities,Stockbroker,Australia,Mining,mnguyen@argonaut.com.au
+116,John Robinson,Vice President,Argonaut Securities,Stockbroker,Australia,Mining,jrobinson@argonaut.com.au
+117,Gary Harris,Head of Resources,Patersons Securities,Stockbroker,Australia,Mining,gharris@patersons.com.au
+118,Timothy Johnson,Managing Director,Patersons Securities,Stockbroker,Australia,Mining,tjohnson@patersons.com.au
+119,Jason Johnson,Analyst,Bell Potter Securities,Stockbroker,Australia,Mining,jasonj@bell.com.au
+120,Christopher Thompson,Portfolio Manager,Bell Potter Securities,Stockbroker,Australia,Mining,christopher.thompson@bell.com.au
+121,Michael Jones,Portfolio Manager,Morgans Financial,Stockbroker,Australia,Mining,michaelj@morgans.com.au
+122,Peter Jones,Head of Mining,Morgans Financial,Stockbroker,Australia,Mining,peterj@morgans.com.au
+123,Jason Smith,Vice President,Regal Funds Management,Fund Manager,Australia,Mining,jason.smith@regal.com.au
+124,Andrew Nguyen,Head of Mining,Regal Funds Management,Fund Manager,Australia,Mining,anguyen@regal.com.au
+125,Robert Thompson,Managing Director,Tribeca Investment Partners,Fund Manager,Australia,Resources,robertt@tribeca.com.au
+126,Christopher Thomas,Director,Tribeca Investment Partners,Fund Manager,Australia,Resources,cthomas@tribeca.com.au
+127,Jason Thompson,Head of Resources,Ausbil Investment Management,Fund Manager,Australia,Resources,jthompson@ausbil.com.au
+128,Andrew Robinson,Vice President,Ausbil Investment Management,Fund Manager,Australia,Resources,andrew.robinson@ausbil.com.au
+129,Jason Wright,Investment Manager,Perennial Value Management,Fund Manager,Australia,Resources,jasonw@perennial.com.au
+130,Christopher Anderson,Head of Resources,Perennial Value Management,Fund Manager,Australia,Resources,christopher.anderson@perennial.com.au
+131,Gary Taylor,Portfolio Manager,EMR Capital,Private Equity,Australia,Mining,gary.taylor@emr.com.au
+132,Kevin Smith,Managing Director,EMR Capital,Private Equity,Australia,Mining,kevin.smith@emr.com.au
+133,Gary Harris,Head of Mining,Resource Capital Funds Australia,Private Equity,Australia,Mining,garyh@resource.com.au
+134,David Johnson,Portfolio Manager,Resource Capital Funds Australia,Private Equity,Australia,Mining,davidj@resource.com.au
+135,Andrew Johnson,Director,Pacific Road Capital,Private Equity,Australia,Mining,ajohnson@pacific.com.au
+136,Stephen Nguyen,Analyst,Pacific Road Capital,Private Equity,Australia,Mining,stephen.nguyen@pacific.com.au
+137,David Taylor,Head of Mining,Taurus Funds Management,Private Equity,Australia,Mining,davidt@taurus.com.au
+138,Richard Jones,Vice President,Taurus Funds Management,Private Equity,Australia,Mining,richard.jones@taurus.com.au
+139,Timothy Taylor,Vice President,BHP Ventures,Corporate Venture,Australia,Mining Tech,timothy.taylor@bhp.com.au
+140,John Walker,Director,BHP Ventures,Corporate Venture,Australia,Mining Tech,jwalker@bhp.com.au
+141,Anthony Lee,Managing Director,Rio Tinto Ventures,Corporate Venture,Australia,Mining Tech,anthony.lee@rio.com.au
+142,James Brown,Associate,Rio Tinto Ventures,Corporate Venture,Australia,Mining Tech,jamesb@rio.com.au
+143,Peter Jones,Investment Manager,Fortescue Future Industries,Corporate Venture,Australia,Green Energy,peterj@fortescue.com.au
+144,Christopher Robinson,Head of Resources,Fortescue Future Industries,Corporate Venture,Australia,Green Energy,christopherr@fortescue.com.au
+145,Matthew Nguyen,Investment Manager,Tattarang,Family Office,Australia,Resources,matthewn@tattarang.com.au
+146,Jeffrey Anderson,Analyst,Tattarang,Family Office,Australia,Resources,jeffreya@tattarang.com.au
+147,Matthew Martin,Associate,M.H. Carnegie & Co,Family Office,Australia,Resources,matthewm@m.h..com.au
+148,Paul Walker,Director,M.H. Carnegie & Co,Family Office,Australia,Resources,pwalker@m.h..com.au

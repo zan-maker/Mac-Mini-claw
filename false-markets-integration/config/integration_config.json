@@ -1,0 +1,148 @@
+{
+  "falsemarkets": {
+    "api": {
+      "base_url": "http://localhost:3000/api",
+      "timeout": 30,
+      "retry_attempts": 3,
+      "retry_delay": 5
+    },
+    "simulation": {
+      "daily_schedule": "08:00",
+      "weekly_schedule": "Monday 09:00",
+      "monthly_schedule": "First day of month 10:00",
+      "default_symbols": ["SPY", "QQQ", "IWM"],
+      "default_timeframe": "1h",
+      "default_duration_days": 1
+    },
+    "evolution": {
+      "population_size": 50,
+      "generations": 10,
+      "mutation_rate": 0.1,
+      "crossover_rate": 0.7,
+      "elitism_count": 5
+    }
+  },
+  "openclaw_integration": {
+    "agents": {
+      "market_simulator": {
+        "enabled": true,
+        "schedule": "0 8 * * 1-5",
+        "model": "zai/glm-5",
+        "thinking": "low"
+      },
+      "strategy_evolver": {
+        "enabled": true,
+        "schedule": "0 9 * * 1-5",
+        "model": "zai/glm-5",
+        "thinking": "medium"
+      },
+      "performance_analyst": {
+        "enabled": true,
+        "schedule": "0 14 * * 1-5",
+        "model": "zai/glm-5",
+        "thinking": "low"
+      },
+      "dashboard_manager": {
+        "enabled": true,
+        "schedule": "0 16 * * 1-5",
+        "model": "zai/glm-5",
+        "thinking": "low"
+      }
+    },
+    "data_storage": {
+      "simulation_results": "/Users/cubiczan/.openclaw/workspace/false-markets-integration/data/simulations",
+      "evolved_strategies": "/Users/cubiczan/.openclaw/workspace/false-markets-integration/data/strategies",
+      "performance_reports": "/Users/cubiczan/.openclaw/workspace/false-markets-integration/data/reports",
+      "evolution_logs": "/Users/cubiczan/.openclaw/workspace/false-markets-integration/data/evolution"
+    },
+    "monitoring": {
+      "health_check_interval": 300,
+      "performance_alert_threshold": -0.05,
+      "simulation_timeout_hours": 24,
+      "error_notification_channel": "1474734743814668378"
+    }
+  },
+  "trading_integration": {
+    "brokerages": {
+      "tastytrade": {
+        "enabled": true,
+        "account_id": "5WI41087",
+        "use_for_execution": false,
+        "use_for_data": true
+      },
+      "public_com": {
+        "enabled": true,
+        "api_key": "uHdIMj7dBcttYdNlqFbk67woyC4YR04N",
+        "use_for_data": true
+      },
+      "twelve_data": {
+        "enabled": true,
+        "api_key": "26b639a38e124248ba08958bcd72566f",
+        "use_for_data": true
+      }
+    },
+    "data_sources": {
+      "real_time_prices": ["twelve_data", "public_com"],
+      "historical_data": ["twelve_data"],
+      "options_data": ["tastytrade"],
+      "market_sentiment": ["news_api", "social_media"]
+    }
+  },
+  "workflows": {
+    "daily": {
+      "name": "Daily Simulation & Analysis",
+      "steps": [
+        "market_simulation",
+        "performance_analysis",
+        "strategy_evaluation",
+        "report_generation"
+      ],
+      "trigger": "schedule",
+      "schedule": "0 8 * * 1-5"
+    },
+    "weekly": {
+      "name": "Weekly Strategy Evolution",
+      "steps": [
+        "performance_review",
+        "strategy_evolution",
+        "backtesting",
+        "strategy_selection"
+      ],
+      "trigger": "schedule",
+      "schedule": "0 9 * * 1"
+    },
+    "monthly": {
+      "name": "Monthly System Review",
+      "steps": [
+        "comprehensive_analysis",
+        "parameter_optimization",
+        "system_health_check",
+        "roadmap_planning"
+      ],
+      "trigger": "schedule",
+      "schedule": "0 10 1 * *"
+    }
+  },
+  "alerts": {
+    "performance": {
+      "daily_return_threshold": -0.03,
+      "weekly_return_threshold": -0.1,
+      "sharpe_threshold": 0.5,
+      "max_drawdown_threshold": -0.2
+    },
+    "system": {
+      "api_errors_threshold": 5,
+      "simulation_failures_threshold": 3,
+      "data_latency_threshold": 60,
+      "resource_usage_threshold": 80
+    },
+    "notifications": {
+      "discord_channel": "1474734743814668378",
+      "email_recipients": ["cubiczan1@gmail.com"],
+      "urgency_levels": ["info", "warning", "critical"]
+    }
+  },
+  "version": "1.0.0",
+  "last_updated": "2026-02-20T18:35:00Z",
+  "notes": "FalseMarkets integration configuration. Update API endpoints when real FalseMarkets instance is available."
+}

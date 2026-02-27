@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Expense Reduction - Lead Capture</title>
+  <script src="https://cdn.formbricks.com/formbricks.umd.js"></script>
+  <script>
+    window.formbricks.init({
+      environmentId: "cmlolpn609uahre01dm4yoqxe",
+      apiHost: "https://app.formbricks.com"
+    });
+  </script>
+</head>
+<body>
+  <h1>Discover Your Savings Potential</h1>
+  <p>Complete our quick assessment to see how much you could save.</p>
+  
+  <!-- Formbricks form will appear here based on targeting rules -->
+  
+  <script>
+    // Track page view
+    formbricks.track("page_view", {
+      page: "expense-reduction-landing"
+    });
+    
+    // When user submits form (triggered by Formbricks)
+    formbricks.track("form_submitted");
+  </script>
+</body>
+</html>

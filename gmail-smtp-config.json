@@ -1,0 +1,15 @@
+{
+  "configured_at": "2026-02-26T10:07:03.248688",
+  "sender_email": "zan@impactquadrant.info",
+  "sender_name": "Agent Manager",
+  "smtp_server": "smtp.gmail.com",
+  "status": "active",
+  "tested": true,
+  "campaigns_unblocked": [
+    "Dorada Resort",
+    "Miami Hotels",
+    "Lead Outreach",
+    "Defense Sector",
+    "Expense Reduction"
+  ]
+}

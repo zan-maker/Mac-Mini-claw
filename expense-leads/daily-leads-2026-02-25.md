@@ -1,0 +1,112 @@
+# Expense Reduction Leads - 2026-02-25
+
+**Generated:** 2026-02-25 09:04:11  
+**Total Leads:** 18  
+**Source:** Tavily API (Scrapling unavailable - syntax error)
+
+---
+
+## 📊 Summary
+
+- **High Priority:** 17 leads
+- **Medium Priority:** 1 leads  
+- **Low Priority:** 0 leads
+- **Total Potential Savings:** $13,197,150
+
+---
+
+## 🎯 Top 5 Leads
+
+### 1. A perspective from hiring Growth & Product Manager
+
+- **Industry:** Technology/SaaS
+- **Employees:** ~55
+- **Estimated OPEX:** $858,000
+- **Potential Savings:** $128,700 - $257,400
+- **Lead Score:** 100/100
+- **Priority:** High
+- **Website:** [reddit.com](https://www.reddit.com/r/ProductManagement/comments/1ltqiel/a_perspective_from_hiring_growth_product_managers/)
+- **Decision Makers:** CFO, Controller, VP of Finance
+
+### 2. Recruiting Agency in Toronto, Ontario
+
+- **Industry:** Technology/SaaS
+- **Employees:** ~139
+- **Estimated OPEX:** $2,168,400
+- **Potential Savings:** $325,260 - $650,520
+- **Lead Score:** 100/100
+- **Priority:** High
+- **Website:** [tcwglobal.com](https://www.tcwglobal.com/recruiting-agency/toronto-ontario)
+- **Decision Makers:** CFO, Controller, VP of Finance
+
+### 3. Health care transformation and growth: 2025 and be
+
+- **Industry:** Technology/SaaS
+- **Employees:** ~54
+- **Estimated OPEX:** $842,400
+- **Potential Savings:** $126,360 - $252,720
+- **Lead Score:** 100/100
+- **Priority:** High
+- **Website:** [ey.com](https://www.ey.com/en_us/insights/strategy/health-care-transformation-and-growth-2025-and-beyond)
+- **Decision Makers:** CFO, Controller, VP of Finance
+
+### 4. Six healthcare trends providers should plan for in
+
+- **Industry:** Technology/SaaS
+- **Employees:** ~127
+- **Estimated OPEX:** $1,981,200
+- **Potential Savings:** $297,180 - $594,360
+- **Lead Score:** 100/100
+- **Priority:** High
+- **Website:** [chartis.com](https://www.chartis.com/insights/six-healthcare-trends-providers-should-plan-2025)
+- **Decision Makers:** CFO, Controller, VP of Finance
+
+### 5. The Future of Healthcare: Top 10 Growth Opportunit
+
+- **Industry:** Technology/SaaS
+- **Employees:** ~148
+- **Estimated OPEX:** $2,308,800
+- **Potential Savings:** $346,320 - $692,640
+- **Lead Score:** 100/100
+- **Priority:** High
+- **Website:** [frost.com](https://www.frost.com/growth-opportunity-news/healthcare/healthcare-it/the-future-of-healthcare-top-10-growth-opportunities-driving-industry-transformation-in-2025-tjstory-cim-sg/)
+- **Decision Makers:** CFO, Controller, VP of Finance
+
+---
+
+## 📋 All Leads
+
+| # | Company | Industry | Employees | Est. OPEX | Savings | Score | Priority |
+|---|---------|----------|-----------|-----------|---------|-------|----------|
+| 1 | A perspective from hiring Grow | Technology/SaaS | ~55 | $858,000 | $128,700 - $257,400 | 100 | High |
+| 2 | Recruiting Agency in Toronto,  | Technology/SaaS | ~139 | $2,168,400 | $325,260 - $650,520 | 100 | High |
+| 3 | Health care transformation and | Technology/SaaS | ~54 | $842,400 | $126,360 - $252,720 | 100 | High |
+| 4 | Six healthcare trends provider | Technology/SaaS | ~127 | $1,981,200 | $297,180 - $594,360 | 100 | High |
+| 5 | The Future of Healthcare: Top  | Technology/SaaS | ~148 | $2,308,800 | $346,320 - $692,640 | 100 | High |
+| 6 | Global M&A trends in financial | Technology/SaaS | ~144 | $2,246,400 | $336,960 - $673,920 | 100 | High |
+| 7 | Recruiting Startups funded by  | Technology/SaaS | ~109 | $1,700,400 | $255,060 - $510,120 | 100 | High |
+| 8 | 51-200 Employee Software Compa | Technology/SaaS | ~139 | $2,168,400 | $325,260 - $650,520 | 100 | High |
+| 9 | CMMC Level 1 Documentation Req | Technology/SaaS | ~186 | $2,901,600 | $435,240 - $870,480 | 95 | High |
+| 10 | [PDF] mellow.io | Technology/SaaS | ~65 | $1,014,000 | $152,100 - $304,200 | 95 | High |
+| 11 | Leaderboard: Growth Investment | Professional Service | ~92 | $736,000 | $110,400 - $220,800 | 93 | High |
+| 12 | The Power of Enterprise Scale  | Technology/SaaS | ~246 | $3,837,600 | $575,640 - $1,151,280 | 92 | High |
+| 13 | What is Customer Demographics  | Technology/SaaS | ~299 | $4,664,400 | $699,660 - $1,399,320 | 87 | High |
+| 14 | How to Measure Employee Produc | Technology/SaaS | ~412 | $6,427,200 | $964,080 - $1,928,160 | 70 | High |
+| 15 | How to identify and understand | Technology/SaaS | ~478 | $7,456,800 | $1,118,520 - $2,237,040 | 70 | High |
+| 16 | ICP for SaaS: A Practical Fram | Technology/SaaS | ~433 | $6,754,800 | $1,013,220 - $2,026,440 | 70 | High |
+| 17 | Top 10 Leading SaaS Software D | Technology/SaaS | ~431 | $6,723,600 | $1,008,540 - $2,017,080 | 70 | High |
+| 18 | What Is a Manufacturer Databas | Manufacturing | ~322 | $3,864,000 | $579,600 - $1,159,200 | 62 | Medium |
+
+---
+
+## 🔍 Data Source Report
+
+- **Scrapling Used:** ❌ No (syntax error in cron_integration.py)
+- **Fallback API:** ✅ Tavily API
+- **Total Results:** 18 leads
+- **Search Queries:** 10 queries executed
+- **Processing Time:** ~36 seconds estimated
+
+---
+
+*Generated by Expense Reduction Lead Gen v2*

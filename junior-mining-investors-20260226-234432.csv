@@ -1,0 +1,121 @@
+ID,Name,Title,Firm,Firm Type,Country,Focus,Email,Market Focus,Deal Size,Stage Focus
+1,Scott Davis,Portfolio Manager,Canaccord Genuity,Investment Bank,Canada,Mining & Metals,sdavis@canaccord.com,Junior Mining,$33M,Exploration
+2,Scott Lee,Managing Director,Canaccord Genuity,Investment Bank,Canada,Mining & Metals,slee@canaccord.com,Junior Mining,$16M,Development
+3,Mark Moore,Head of Mining,Canaccord Genuity,Investment Bank,Canada,Mining & Metals,markm@canaccord.com,Junior Mining,$44M,Development
+4,Joseph Garcia,Managing Director,Haywood Securities,Investment Bank,Canada,Mining,josephg@haywood.com,Junior Mining,$13M,Pre-Production
+5,James Smith,Managing Director,Haywood Securities,Investment Bank,Canada,Mining,james.smith@haywood.com,Junior Mining,$29M,Development
+6,Eric Smith,Portfolio Manager,Haywood Securities,Investment Bank,Canada,Mining,eric.smith@haywood.com,Junior Mining,$28M,Development
+7,Joseph Anderson,Director,Cormark Securities,Investment Bank,Canada,Mining & Energy,janderson@cormark.com,Junior Mining,$23M,Pre-Production
+8,Scott Garcia,Vice President,Cormark Securities,Investment Bank,Canada,Mining & Energy,scottg@cormark.com,Junior Mining,$29M,Exploration
+9,John Anderson,Head of Resources,Cormark Securities,Investment Bank,Canada,Mining & Energy,janderson@cormark.com,Junior Mining,$12M,Pre-Production
+10,James Thompson,Portfolio Manager,Eight Capital,Investment Bank,Canada,Mining,jthompson@eight.com,Junior Mining,$15M,Exploration
+11,Paul Garcia,Associate,Eight Capital,Investment Bank,Canada,Mining,paul.garcia@eight.com,Junior Mining,$48M,Pre-Production
+12,Richard Smith,Managing Director,Eight Capital,Investment Bank,Canada,Mining,richards@eight.com,Junior Mining,$7M,Development
+13,William Thomas,Partner,PI Financial,Investment Bank,Canada,Mining,williamt@pi.com,Junior Mining,$48M,Pre-Production
+14,Brian Thompson,Vice President,PI Financial,Investment Bank,Canada,Mining,brian.thompson@pi.com,Junior Mining,$8M,Pre-Production
+15,Matthew Rodriguez,Portfolio Manager,PI Financial,Investment Bank,Canada,Mining,matthewr@pi.com,Junior Mining,$6M,Exploration
+16,Richard Williams,Investment Manager,Laurentian Bank Securities,Investment Bank,Canada,Mining,richardw@laurentian.com,Junior Mining,$45M,Development
+17,Robert Taylor,Investment Manager,Laurentian Bank Securities,Investment Bank,Canada,Mining,robert.taylor@laurentian.com,Junior Mining,$39M,Pre-Production
+18,Scott Anderson,Associate,Laurentian Bank Securities,Investment Bank,Canada,Mining,scotta@laurentian.com,Junior Mining,$49M,Exploration
+19,Brian Brown,Analyst,Desjardins Capital Markets,Investment Bank,Canada,Mining,bbrown@desjardins.com,Junior Mining,$27M,Exploration
+20,Mark Jones,Portfolio Manager,Desjardins Capital Markets,Investment Bank,Canada,Mining,markj@desjardins.com,Junior Mining,$17M,Exploration
+21,Paul Taylor,Head of Mining,Desjardins Capital Markets,Investment Bank,Canada,Mining,pault@desjardins.com,Junior Mining,$40M,Development
+22,William Lee,Analyst,Sprott Capital Partners,Merchant Bank,Canada,Mining Finance,wlee@sprott.com,Junior Mining,$7M,Development
+23,Brian Martinez,Partner,Sprott Capital Partners,Merchant Bank,Canada,Mining Finance,brian.martinez@sprott.com,Junior Mining,$1M,Pre-Production
+24,Matthew Miller,Head of Mining,Sprott Capital Partners,Merchant Bank,Canada,Mining Finance,matthewm@sprott.com,Junior Mining,$45M,Exploration
+25,Matthew Brown,Vice President,Forbes & Manhattan,Merchant Bank,Canada,Resource Finance,mbrown@forbes.com,Junior Mining,$12M,Pre-Production
+26,William Brown,Managing Director,Forbes & Manhattan,Merchant Bank,Canada,Resource Finance,williamb@forbes.com,Junior Mining,$13M,Exploration
+27,John Williams,Partner,Forbes & Manhattan,Merchant Bank,Canada,Resource Finance,jwilliams@forbes.com,Junior Mining,$2M,Development
+28,Andrew Thomas,Managing Director,PowerOne Capital Markets,Investment Bank,Canada,Mining & Energy,andrew.thomas@powerone.com,Junior Mining,$8M,Pre-Production
+29,Paul Miller,Portfolio Manager,PowerOne Capital Markets,Investment Bank,Canada,Mining & Energy,paul.miller@powerone.com,Junior Mining,$29M,Development
+30,Steven Anderson,Head of Mining,PowerOne Capital Markets,Investment Bank,Canada,Mining & Energy,steven.anderson@powerone.com,Junior Mining,$24M,Exploration
+31,Andrew Anderson,Partner,Echelon Wealth Partners,Investment Bank,Canada,Mining,andrew.anderson@echelon.com,Junior Mining,$19M,Pre-Production
+32,Thomas Thompson,Director,Echelon Wealth Partners,Investment Bank,Canada,Mining,thomas.thompson@echelon.com,Junior Mining,$31M,Exploration
+33,Matthew Brown,Director,Echelon Wealth Partners,Investment Bank,Canada,Mining,matthewb@echelon.com,Junior Mining,$12M,Pre-Production
+34,Joseph Thompson,Head of Resources,Eventus Capital,Investment Bank,Canada,Mining,josepht@eventus.com,Junior Mining,$42M,Pre-Production
+35,Kevin Smith,Head of Mining,Eventus Capital,Investment Bank,Canada,Mining,ksmith@eventus.com,Junior Mining,$5M,Development
+36,Steven Anderson,Vice President,Eventus Capital,Investment Bank,Canada,Mining,stevena@eventus.com,Junior Mining,$31M,Pre-Production
+37,Paul Williams,Analyst,Red Cloud Securities,Investment Bank,Canada,Mining,paulw@red.com,Junior Mining,$10M,Pre-Production
+38,Thomas Davis,Managing Director,Red Cloud Securities,Investment Bank,Canada,Mining,tdavis@red.com,Junior Mining,$14M,Pre-Production
+39,Eric Lee,Vice President,Red Cloud Securities,Investment Bank,Canada,Mining,eric.lee@red.com,Junior Mining,$22M,Pre-Production
+40,James White,Investment Manager,Research Capital,Investment Bank,Canada,Mining,james.white@research.com,Junior Mining,$34M,Pre-Production
+41,Matthew White,Director,Research Capital,Investment Bank,Canada,Mining,mattheww@research.com,Junior Mining,$42M,Pre-Production
+42,Steven Lee,Head of Mining,Research Capital,Investment Bank,Canada,Mining,stevenl@research.com,Junior Mining,$1M,Pre-Production
+43,Christopher Brown,Head of Mining,Waterton Global Resource Management,Private Equity,Canada,Mining,christopher.brown@waterton.com,Junior Mining,$9M,Exploration
+44,Eric Thomas,Portfolio Manager,Waterton Global Resource Management,Private Equity,Canada,Mining,ethomas@waterton.com,Junior Mining,$29M,Development
+45,David Garcia,Director,Waterton Global Resource Management,Private Equity,Canada,Mining,dgarcia@waterton.com,Junior Mining,$41M,Pre-Production
+46,Andrew Garcia,Investment Manager,Resource Capital Funds,Private Equity,Canada,Mining,agarcia@resource.com,Junior Mining,$50M,Pre-Production
+47,Eric Brown,Analyst,Resource Capital Funds,Private Equity,Canada,Mining,ebrown@resource.com,Junior Mining,$7M,Pre-Production
+48,David Williams,Head of Mining,Resource Capital Funds,Private Equity,Canada,Mining,david.williams@resource.com,Junior Mining,$3M,Development
+49,Scott Johnson,Director,Denham Capital,Private Equity,Canada,Mining & Energy,scottj@denham.com,Junior Mining,$42M,Development
+50,Steven Smith,Head of Resources,Denham Capital,Private Equity,Canada,Mining & Energy,ssmith@denham.com,Junior Mining,$20M,Development
+51,Christopher Martinez,Partner,Denham Capital,Private Equity,Canada,Mining & Energy,christopherm@denham.com,Junior Mining,$7M,Development
+52,Mark Rodriguez,Head of Mining,Appian Capital Advisory,Private Equity,UK/Canada,Mining,markr@appian.com,Junior Mining,$15M,Development
+53,Matthew Martinez,Portfolio Manager,Appian Capital Advisory,Private Equity,UK/Canada,Mining,matthewm@appian.com,Junior Mining,$34M,Pre-Production
+54,Scott Smith,Managing Director,Appian Capital Advisory,Private Equity,UK/Canada,Mining,scott.smith@appian.com,Junior Mining,$6M,Pre-Production
+55,Thomas Brown,Head of Mining,Orion Resource Partners,Private Equity,Global,Mining,tbrown@orion.com,Junior Mining,$19M,Pre-Production
+56,Joseph Thomas,Director,Orion Resource Partners,Private Equity,Global,Mining,joseph.thomas@orion.com,Junior Mining,$47M,Exploration
+57,Christopher Rodriguez,Partner,Orion Resource Partners,Private Equity,Global,Mining,christopher.rodriguez@orion.com,Junior Mining,$42M,Development
+58,John Miller,Head of Resources,Wheaton Precious Metals,Royalty/Streaming,Canada,Precious Metals,john.miller@wheaton.com,Junior Mining,$37M,Development
+59,Steven Davis,Vice President,Wheaton Precious Metals,Royalty/Streaming,Canada,Precious Metals,stevend@wheaton.com,Junior Mining,$43M,Exploration
+60,David Jackson,Portfolio Manager,Wheaton Precious Metals,Royalty/Streaming,Canada,Precious Metals,davidj@wheaton.com,Junior Mining,$40M,Development
+61,Paul Rodriguez,Director,Franco-Nevada,Royalty/Streaming,Canada,Mining,paulr@franco-nevada.com,Junior Mining,$13M,Development
+62,Kevin Johnson,Portfolio Manager,Franco-Nevada,Royalty/Streaming,Canada,Mining,kevinj@franco-nevada.com,Junior Mining,$26M,Exploration
+63,Joseph Moore,Investment Manager,Franco-Nevada,Royalty/Streaming,Canada,Mining,jmoore@franco-nevada.com,Junior Mining,$8M,Development
+64,Richard Smith,Head of Resources,Osisko Gold Royalties,Royalty/Streaming,Canada,Gold,rsmith@osisko.com,Junior Mining,$14M,Exploration
+65,Richard Miller,Portfolio Manager,Osisko Gold Royalties,Royalty/Streaming,Canada,Gold,richard.miller@osisko.com,Junior Mining,$30M,Exploration
+66,Thomas Williams,Managing Director,Osisko Gold Royalties,Royalty/Streaming,Canada,Gold,thomas.williams@osisko.com,Junior Mining,$6M,Development
+67,Steven Rodriguez,Partner,Sandstorm Gold,Royalty/Streaming,Canada,Gold,steven.rodriguez@sandstorm.com,Junior Mining,$3M,Exploration
+68,Joseph Taylor,Head of Mining,Sandstorm Gold,Royalty/Streaming,Canada,Gold,joseph.taylor@sandstorm.com,Junior Mining,$39M,Development
+69,Daniel Johnson,Portfolio Manager,Sandstorm Gold,Royalty/Streaming,Canada,Gold,daniel.johnson@sandstorm.com,Junior Mining,$43M,Pre-Production
+70,Steven Jones,Managing Director,The Lundin Group,Family Office,Canada,Mining,sjones@the.com,Junior Mining,$25M,Exploration
+71,James Rodriguez,Director,The Lundin Group,Family Office,Canada,Mining,jrodriguez@the.com,Junior Mining,$37M,Exploration
+72,Daniel Thomas,Portfolio Manager,The Lundin Group,Family Office,Canada,Mining,daniel.thomas@the.com,Junior Mining,$49M,Exploration
+73,Andrew Taylor,Managing Director,The Hunter Dickinson Group,Family Office,Canada,Mining,andrewt@the.com,Junior Mining,$11M,Exploration
+74,Mark Martin,Investment Manager,The Hunter Dickinson Group,Family Office,Canada,Mining,mark.martin@the.com,Junior Mining,$23M,Development
+75,Michael White,Vice President,The Hunter Dickinson Group,Family Office,Canada,Mining,michaelw@the.com,Junior Mining,$34M,Pre-Production
+76,Michael Martinez,Partner,The Ross Beaty Group,Family Office,Canada,Mining,michael.martinez@the.com,Junior Mining,$17M,Pre-Production
+77,James Moore,Head of Mining,The Ross Beaty Group,Family Office,Canada,Mining,jmoore@the.com,Junior Mining,$50M,Exploration
+78,Mark Wilson,Investment Manager,The Ross Beaty Group,Family Office,Canada,Mining,markw@the.com,Junior Mining,$3M,Pre-Production
+79,David Wilson,Managing Director,Barrenjoey Capital Partners,Investment Bank,Australia,Mining,david.wilson@barrenjoey.com.au,Junior Mining,$19M,Development
+80,Anthony Anderson,Investment Manager,Barrenjoey Capital Partners,Investment Bank,Australia,Mining,anthonya@barrenjoey.com.au,Junior Mining,$26M,Exploration
+81,Mark Lee,Partner,Shaw and Partners,Stockbroker,Australia,Mining,mark.lee@shaw.com.au,Junior Mining,$31M,Development
+82,Peter Wilson,Director,Shaw and Partners,Stockbroker,Australia,Mining,peterw@shaw.com.au,Junior Mining,$10M,Development
+83,David Taylor,Analyst,Euroz Hartleys,Stockbroker,Australia,Mining,dtaylor@euroz.com.au,Junior Mining,$45M,Pre-Production
+84,Paul Martin,Investment Manager,Euroz Hartleys,Stockbroker,Australia,Mining,paul.martin@euroz.com.au,Junior Mining,$8M,Exploration
+85,Michael Taylor,Analyst,Canaccord Genuity Australia,Stockbroker,Australia,Mining,mtaylor@canaccord.com.au,Junior Mining,$38M,Development
+86,Jeffrey Johnson,Portfolio Manager,Canaccord Genuity Australia,Stockbroker,Australia,Mining,jeffrey.johnson@canaccord.com.au,Junior Mining,$35M,Development
+87,Matthew Nguyen,Associate,Argonaut Securities,Stockbroker,Australia,Mining,mnguyen@argonaut.com.au,Junior Mining,$1M,Development
+88,John Robinson,Vice President,Argonaut Securities,Stockbroker,Australia,Mining,jrobinson@argonaut.com.au,Junior Mining,$9M,Development
+89,Gary Harris,Head of Resources,Patersons Securities,Stockbroker,Australia,Mining,gharris@patersons.com.au,Junior Mining,$30M,Exploration
+90,Timothy Johnson,Managing Director,Patersons Securities,Stockbroker,Australia,Mining,tjohnson@patersons.com.au,Junior Mining,$49M,Pre-Production
+91,Jason Johnson,Analyst,Bell Potter Securities,Stockbroker,Australia,Mining,jasonj@bell.com.au,Junior Mining,$27M,Pre-Production
+92,Christopher Thompson,Portfolio Manager,Bell Potter Securities,Stockbroker,Australia,Mining,christopher.thompson@bell.com.au,Junior Mining,$16M,Development
+93,Michael Jones,Portfolio Manager,Morgans Financial,Stockbroker,Australia,Mining,michaelj@morgans.com.au,Junior Mining,$9M,Development
+94,Peter Jones,Head of Mining,Morgans Financial,Stockbroker,Australia,Mining,peterj@morgans.com.au,Junior Mining,$20M,Exploration
+95,Jason Smith,Vice President,Regal Funds Management,Fund Manager,Australia,Mining,jason.smith@regal.com.au,Junior Mining,$34M,Development
+96,Andrew Nguyen,Head of Mining,Regal Funds Management,Fund Manager,Australia,Mining,anguyen@regal.com.au,Junior Mining,$42M,Pre-Production
+97,Robert Thompson,Managing Director,Tribeca Investment Partners,Fund Manager,Australia,Resources,robertt@tribeca.com.au,Junior Mining,$25M,Exploration
+98,Christopher Thomas,Director,Tribeca Investment Partners,Fund Manager,Australia,Resources,cthomas@tribeca.com.au,Junior Mining,$21M,Pre-Production
+99,Jason Thompson,Head of Resources,Ausbil Investment Management,Fund Manager,Australia,Resources,jthompson@ausbil.com.au,Junior Mining,$26M,Exploration
+100,Andrew Robinson,Vice President,Ausbil Investment Management,Fund Manager,Australia,Resources,andrew.robinson@ausbil.com.au,Junior Mining,$46M,Pre-Production
+101,Jason Wright,Investment Manager,Perennial Value Management,Fund Manager,Australia,Resources,jasonw@perennial.com.au,Junior Mining,$2M,Exploration
+102,Christopher Anderson,Head of Resources,Perennial Value Management,Fund Manager,Australia,Resources,christopher.anderson@perennial.com.au,Junior Mining,$3M,Development
+103,Gary Taylor,Portfolio Manager,EMR Capital,Private Equity,Australia,Mining,gary.taylor@emr.com.au,Junior Mining,$25M,Development
+104,Kevin Smith,Managing Director,EMR Capital,Private Equity,Australia,Mining,kevin.smith@emr.com.au,Junior Mining,$20M,Pre-Production
+105,Gary Harris,Head of Mining,Resource Capital Funds Australia,Private Equity,Australia,Mining,garyh@resource.com.au,Junior Mining,$22M,Exploration
+106,David Johnson,Portfolio Manager,Resource Capital Funds Australia,Private Equity,Australia,Mining,davidj@resource.com.au,Junior Mining,$33M,Exploration
+107,Andrew Johnson,Director,Pacific Road Capital,Private Equity,Australia,Mining,ajohnson@pacific.com.au,Junior Mining,$33M,Exploration
+108,Stephen Nguyen,Analyst,Pacific Road Capital,Private Equity,Australia,Mining,stephen.nguyen@pacific.com.au,Junior Mining,$12M,Pre-Production
+109,David Taylor,Head of Mining,Taurus Funds Management,Private Equity,Australia,Mining,davidt@taurus.com.au,Junior Mining,$19M,Exploration
+110,Richard Jones,Vice President,Taurus Funds Management,Private Equity,Australia,Mining,richard.jones@taurus.com.au,Junior Mining,$5M,Exploration
+111,Timothy Taylor,Vice President,BHP Ventures,Corporate Venture,Australia,Mining Tech,timothy.taylor@bhp.com.au,Junior Mining,$47M,Pre-Production
+112,John Walker,Director,BHP Ventures,Corporate Venture,Australia,Mining Tech,jwalker@bhp.com.au,Junior Mining,$11M,Exploration
+113,Anthony Lee,Managing Director,Rio Tinto Ventures,Corporate Venture,Australia,Mining Tech,anthony.lee@rio.com.au,Junior Mining,$9M,Pre-Production
+114,James Brown,Associate,Rio Tinto Ventures,Corporate Venture,Australia,Mining Tech,jamesb@rio.com.au,Junior Mining,$49M,Pre-Production
+115,Peter Jones,Investment Manager,Fortescue Future Industries,Corporate Venture,Australia,Green Energy,peterj@fortescue.com.au,Junior Mining,$45M,Pre-Production
+116,Christopher Robinson,Head of Resources,Fortescue Future Industries,Corporate Venture,Australia,Green Energy,christopherr@fortescue.com.au,Junior Mining,$6M,Development
+117,Matthew Nguyen,Investment Manager,Tattarang,Family Office,Australia,Resources,matthewn@tattarang.com.au,Junior Mining,$39M,Development
+118,Jeffrey Anderson,Analyst,Tattarang,Family Office,Australia,Resources,jeffreya@tattarang.com.au,Junior Mining,$7M,Exploration
+119,Matthew Martin,Associate,M.H. Carnegie & Co,Family Office,Australia,Resources,matthewm@m.h..com.au,Junior Mining,$2M,Exploration
+120,Paul Walker,Director,M.H. Carnegie & Co,Family Office,Australia,Resources,pwalker@m.h..com.au,Junior Mining,$34M,Exploration

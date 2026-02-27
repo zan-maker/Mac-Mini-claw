@@ -1,0 +1,39 @@
+{
+  "agentmail_accounts": [
+    {
+      "name": "Primary",
+      "api_key": "am_77026a53e8d003ce63a3187d06d61e897ee389b9ec479d50bdaeefeda868b32f",
+      "from_email": "sam@impactquadrant.info",
+      "from_name": "Sam Desigan",
+      "daily_limit": 1000,
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Secondary",
+      "api_key": "am_us_0c848180ab2f23ce83d97643f50db7610c3e7b62b3b163ecb5bf3222d0395d5c",
+      "from_email": "zanking@agentmail.to",
+      "from_name": "Zan King",
+      "daily_limit": 1000,
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "Backup",
+      "api_key": "am_77026a53e8d003ce63a3187d06d61e897ee389b9ec479d50bdaeefeda868b32f",
+      "from_email": "sam@impactquadrant.info",
+      "from_name": "Sam Desigan",
+      "daily_limit": 1000,
+      "priority": 3,
+      "enabled": true
+    }
+  ],
+  "rotation_strategy": "round_robin",
+  "daily_total_limit": 3000,
+  "rate_limit_per_minute": 60,
+  "default_sender": "Sam Desigan",
+  "default_reply_to": "sam@impactquadrant.info",
+  "tracking_enabled": true,
+  "bounce_handling": "auto_disable",
+  "unsubscribe_handling": "auto_remove"
+}

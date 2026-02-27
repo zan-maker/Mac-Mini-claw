@@ -1,0 +1,36 @@
+{
+  "date": "2026-02-24T14:13:15.110639",
+  "type": "day7_followup",
+  "campaign": "expense_reduction",
+  "results": [
+    {
+      "success": false,
+      "company": "Adaptive Security",
+      "email": "brian@adaptivesecurity.com",
+      "error": "HTTP 429: {\"name\":\"RateLimitError\",\"message\":\"Daily send limit exceeded\"}"
+    },
+    {
+      "success": false,
+      "company": "Ambience Healthcare",
+      "email": "nikhil@ambiencehealthcare.com",
+      "error": "HTTP 429: {\"name\":\"RateLimitError\",\"message\":\"Daily send limit exceeded\"}"
+    },
+    {
+      "success": false,
+      "company": "Rilla",
+      "email": "garrett@rilla.com",
+      "error": "HTTP 429: {\"name\":\"RateLimitError\",\"message\":\"Daily send limit exceeded\"}"
+    },
+    {
+      "success": false,
+      "company": "Vanta",
+      "email": "christina@vanta.com",
+      "error": "HTTP 429: {\"name\":\"RateLimitError\",\"message\":\"Daily send limit exceeded\"}"
+    }
+  ],
+  "summary": {
+    "attempted": 4,
+    "sent": 0,
+    "errors": 4
+  }
+}

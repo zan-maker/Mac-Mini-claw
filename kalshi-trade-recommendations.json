@@ -1,0 +1,12 @@
+{
+  "recommendations": [],
+  "market_data_summary": {
+    "cpi_markets": 0,
+    "senate_markets": 0,
+    "total_markets": 0
+  },
+  "analysis_timestamp": "2026-02-25T14:25:11.857647",
+  "api_connected": true,
+  "base_url": "https://api.elections.kalshi.com",
+  "note": "No trade opportunities found matching criteria"
+}

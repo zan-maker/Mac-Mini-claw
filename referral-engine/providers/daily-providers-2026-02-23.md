@@ -1,0 +1,174 @@
+# Daily Service Providers - 2026-02-23
+
+**Generated:** Monday, February 23rd, 2026 — 9:19 AM EST
+**Target:** 3-4 providers willing to pay referral fees
+**Result:** 4 providers identified
+
+---
+
+## High Priority Providers (80+ Score)
+
+### 1. Basis 365 Accounting | Score: 87/100
+**Category:** Accounting/Bookkeeping
+**Location:** Remote/US-based
+**Website:** https://www.basis365.com
+
+**Referral Fee Structure:**
+- 10% of paid monthly recurring invoices for first 6 months
+- Monthly pricing: $1,000 - $10,000/month
+- Potential earnings per referral: $600 - $6,000 total
+
+**Scoring Breakdown:**
+- Willingness: 35/40 (Active program, transparent terms)
+- Fee Structure: 26/30 (10% for 6 months = strong)
+- Referral History: 18/20 (Testimonials from B2B CFO, consultants)
+- Category Potential: 8/10 (High-value, recurring revenue)
+
+**Ideal Client Profile:**
+- $1M - $20M revenue
+- 5-100 employees
+- Agencies, consultancies, SaaS, tech
+
+**Outreach Status:** Ready
+**Contact:** Via website referral form
+
+---
+
+### 2. iSolved HCM | Score: 82/100
+**Category:** HR/Payroll/Accounting Partners
+**Location:** US nationwide
+**Website:** https://www.isolvedhcm.com/partner/preferred/accountants
+
+**Referral Fee Structure:**
+- "Competitive referral fee" per new referral
+- Gift cards and rewards incentives
+- Co-branded tools and templates included
+
+**Scoring Breakdown:**
+- Willingness: 35/40 (Active partner program, clear path)
+- Fee Structure: 22/30 (Fee amount not specified publicly)
+- Referral History: 17/20 (Case study: Christensen Essig doubled client base)
+- Category Potential: 8/10 (HCM is high-value add-on)
+
+**Ideal Client Profile:**
+- Mid-market businesses
+- Need HR, payroll, benefits, compliance support
+- 50-500 employees typical
+
+**Outreach Status:** Ready
+**Contact:** Via partner portal signup
+
+---
+
+## Standard Priority Providers (60-79 Score)
+
+### 3. Expensify (ExpensifyApproved!) | Score: 75/100
+**Category:** SaaS/Expense Management
+**Location:** Global
+**Website:** https://use.expensify.com/accountants-program
+
+**Referral Fee Structure:**
+- Revenue share on Expensify Visa® Commercial Card transactions
+- Exclusive pricing for clients
+- Dedicated partner manager
+
+**Scoring Breakdown:**
+- Willingness: 32/40 (Active program, dedicated support)
+- Fee Structure: 18/30 (Revenue share model, not fixed %)
+- Referral History: 15/20 (Established program)
+- Category Potential: 10/10 (High-volume, cross-sell opportunity)
+
+**Ideal Client Profile:**
+- Any business with expense management needs
+- Particularly strong for agencies, consultants, startups
+
+**Outreach Status:** Ready
+**Contact:** Via accountants program signup
+
+---
+
+### 4. HubSpot Solutions Partner | Score: 71/100
+**Category:** SaaS/CRM/Marketing
+**Location:** Global
+**Website:** https://www.hubspot.com/partners/solutions
+
+**Referral Fee Structure:**
+- Tiered commission structure (varies by partner level)
+- Recurring revenue share
+- Additional certifications available
+
+**Scoring Breakdown:**
+- Willingness: 30/40 (Competitive program)
+- Fee Structure: 20/30 (Tiered, requires certification)
+- Referral History: 14/20 (Large partner ecosystem)
+- Category Potential: 7/10 (Lower margin, high competition)
+
+**Ideal Client Profile:**
+- Companies needing CRM, marketing automation
+- 10-200 employees typically
+- SaaS, agencies, B2B services
+
+**Outreach Status:** Requires certification
+**Contact:** Via partner program application
+
+---
+
+## Summary Statistics
+
+| Metric | Count |
+|--------|-------|
+| Total Providers | 4 |
+| High Priority (80+) | 2 |
+| Ready for Outreach | 3 |
+| Requires Certification | 1 |
+
+**Category Breakdown:**
+- Accounting/Bookkeeping: 1
+- HR/Payroll: 1
+- SaaS/Expense Management: 1
+- SaaS/CRM: 1
+
+**Average Fee Range:**
+- Accounting: 10% of MRR for 6 months
+- HCM: Competitive per-referral fee
+- SaaS: Revenue share models
+
+---
+
+## Next Steps
+
+1. **Immediate Outreach (2 providers):**
+   - Basis 365 Accounting (87 score) - Email via contact form
+   - iSolved HCM (82 score) - Join partner program
+
+2. **Follow-Up (2 providers):**
+   - Expensify - Signup for ExpensifyApproved!
+   - HubSpot - Evaluate certification requirements
+
+---
+
+## Outreach Template
+
+**Subject:** Referral partnership - qualified [vertical] leads
+
+Hi [Provider Name],
+
+I represent a network of pre-qualified business leads in the [category] space. Our clients are actively seeking [service type] and we're looking for referral partners who can deliver excellent results.
+
+**What we offer:**
+- Pre-qualified leads ($1M-$20M revenue, 5-100 employees)
+- Clear referral fee expectations (10-15% standard)
+- Ongoing lead flow potential
+
+**What we need:**
+- Your standard referral fee structure
+- Service areas/industries you serve best
+- Response time for lead introductions
+
+Would you be open to a quick call to discuss partnership terms?
+
+Best regards
+
+---
+
+*Report generated by B2B Referral Engine - Supply Side*

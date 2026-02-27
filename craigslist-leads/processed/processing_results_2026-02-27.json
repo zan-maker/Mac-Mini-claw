@@ -1,0 +1,18 @@
+{
+  "total_processed": 3,
+  "emails_sent": 0,
+  "total_estimated_fees": 0,
+  "by_category": {
+    "business_for_sale": {
+      "processed": 2,
+      "sent": 0,
+      "fees": 12000
+    },
+    "service_business": {
+      "processed": 1,
+      "sent": 0,
+      "fees": 4500
+    }
+  },
+  "sent_emails": []
+}

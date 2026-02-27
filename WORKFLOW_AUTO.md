@@ -35,9 +35,11 @@
    - Alternative methods when exhausted
 
 3. **Email Outreach** (2:00 PM daily)
-   - Gmail SMTP primary (dual account redundancy)
-   - AgentMail as backup (when API working)
+   - **PRIMARY: Gmail SMTP** (sam@cubiczan.com, sam@impactquadrant.info, zan@impactquadrant.info)
+   - Use standardized gmail_smtp_standard.py module
+   - 2-4 second delays between emails to avoid rate limits
    - Standard signature with Sam Desigan CC
+   - **AgentMail deprecated** - use only if Gmail fails
 
 4. **Campaign Tracking**
    - Supabase for delivery tracking
@@ -60,9 +62,11 @@
 ## Crisis Management
 
 ### Email Outage Protocol
-1. **Primary:** Gmail SMTP (dual accounts)
-2. **Backup:** AgentMail API (when working)
-3. **Fallback:** Manual intervention required
+1. **Primary:** Gmail SMTP (sam@cubiczan.com)
+2. **Backup:** Gmail SMTP (sam@impactquadrant.info)
+3. **Backup:** Gmail SMTP (zan@impactquadrant.info)
+4. **Fallback:** Manual intervention required
+5. **Deprecated:** AgentMail API (use only if all Gmail accounts fail)
 
 ### API Rate Limit Protocol
 1. **Primary:** Brave Search API

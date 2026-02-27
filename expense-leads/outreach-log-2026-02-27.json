@@ -1,0 +1,37 @@
+{
+  "date": "2026-02-27T14:03:58.567504",
+  "type": "day14_breakup",
+  "campaign": "expense_reduction",
+  "results": [
+    {
+      "success": true,
+      "message_id": "<0100019ca07c73fa-40c18668-f39a-4f52-8af5-b6cbf8ae9a34-000000@email.amazonses.com>",
+      "company": "TechFlow Analytics"
+    },
+    {
+      "success": true,
+      "message_id": "<0100019ca07c7562-cc1cefac-9dd8-497f-ab2a-57075ae25da9-000000@email.amazonses.com>",
+      "company": "Precision Manufacturing Co"
+    },
+    {
+      "success": true,
+      "message_id": "<0100019ca07c7722-d2be2986-d988-4b27-87e0-20948b895c85-000000@email.amazonses.com>",
+      "company": "Velocity Logistics"
+    },
+    {
+      "success": true,
+      "message_id": "<0100019ca07c7897-acb3502e-9c55-4e49-8e58-899c8a850f3c-000000@email.amazonses.com>",
+      "company": "Greenfield Health Partners"
+    },
+    {
+      "success": true,
+      "message_id": "<0100019ca07c7a49-7eb0377c-e5c5-464e-a744-9d9109a8c89d-000000@email.amazonses.com>",
+      "company": "Summit Financial Advisors"
+    }
+  ],
+  "summary": {
+    "attempted": 5,
+    "sent": 5,
+    "errors": 0
+  }
+}

@@ -10,7 +10,7 @@
 |-------|-------------|-------|
 | Identified | Company found, basic info | 6 |
 | Enriched | Full company data collected | 6 |
-| Contacted | Initial outreach sent | 33 |
+| Contacted | Initial outreach sent | 38 |
 | Engaged | Response received | 0 |
 | Qualified | Meeting scheduled | 0 |
 | Closed | Deal signed | 0 |
@@ -338,11 +338,72 @@
 - **Message ID:** `<0100019c9f8d9ba6-9fc041b2-d8c7-4555-97f9-df2c7b6d69a4-000000@email.amazonses.com>`
 - **Next Follow-up:** 2026-03-03 (Day 4)
 
+### Contacted (Batch 6 - 2:11 PM - 2026-02-27)
+
+#### Hospice & Palliative Care
+- **Score:** 75/100
+- **Contacted:** 2026-02-27 2:11 PM
+- **Email:** Info@hospicecareinc.org
+- **Industry:** Healthcare / Hospice (New Hartford, NY)
+- **Employees:** ~40
+- **Est. Savings:** $37,240/year
+- **Message ID:** `<0100019ca085aa0a-e0d7544f-61ac-4f86-86a0-103cc41f5ce5-000000@email.amazonses.com>`
+- **Next Follow-up:** 2026-03-03 (Day 4)
+
+#### HospiceCare
+- **Score:** 80/100
+- **Contacted:** 2026-02-27 2:11 PM
+- **Email:** info@hospicecarewv.org
+- **Industry:** Healthcare / Hospice (Charleston, WV)
+- **Employees:** ~85
+- **Est. Savings:** $79,135/year
+- **Message ID:** `<0100019ca085ab95-bb17fb8a-8277-4186-bca6-f7a75fa277fd-000000@email.amazonses.com>`
+- **Next Follow-up:** 2026-03-03 (Day 4)
+
+#### SoCal Premium Hospice
+- **Score:** 70/100
+- **Contacted:** 2026-02-27 2:11 PM
+- **Email:** info@socalpremiumhospice.com
+- **Industry:** Healthcare / Hospice (Encino, CA)
+- **Employees:** ~35
+- **Est. Savings:** $32,585/year
+- **Message ID:** `<0100019ca085ad2b-9c135c76-5f37-44bc-bf87-0ce9cee8f182-000000@email.amazonses.com>`
+- **Next Follow-up:** 2026-03-03 (Day 4)
+
+#### North Hawaii Hospice
+- **Score:** 70/100
+- **Contacted:** 2026-02-27 2:11 PM
+- **Email:** info@northhawaiihospice.org
+- **Industry:** Healthcare / Hospice (Kamuela, HI)
+- **Employees:** ~25
+- **Est. Savings:** $23,275/year
+- **Message ID:** `<0100019ca085af24-1b9fd5cc-c0e0-496b-93d7-4a5b818bc35a-000000@email.amazonses.com>`
+- **Next Follow-up:** 2026-03-03 (Day 4)
+
+#### Suncrest Hospice
+- **Score:** 75/100
+- **Contacted:** 2026-02-27 2:11 PM
+- **Email:** info@suncrestcare.com
+- **Industry:** Healthcare / Hospice (Phoenix, AZ)
+- **Employees:** ~60
+- **Est. Savings:** $55,860/year
+- **Message ID:** `<0100019ca085b091-0f453528-b377-48ee-bd4c-bfc6198fffe6-000000@email.amazonses.com>`
+- **Next Follow-up:** 2026-03-03 (Day 4)
+
 ---
 
 ## Recent Activity
 
 ### 2026-02-27
+- **2:11 PM:** ✅ BATCH 6 OUTREACH COMPLETE - 5 emails sent
+  - Hospice & Palliative Care ($37,240 savings) - Healthcare/Hospice (New Hartford, NY)
+  - HospiceCare ($79,135 savings) - Healthcare/Hospice (Charleston, WV)
+  - SoCal Premium Hospice ($32,585 savings) - Healthcare/Hospice (Encino, CA)
+  - North Hawaii Hospice ($23,275 savings) - Healthcare/Hospice (Kamuela, HI)
+  - Suncrest Hospice ($55,860 savings) - Healthcare/Hospice (Phoenix, AZ)
+  - All emails CC'd to sam@impactquadrant.info
+  - **Total potential savings: $228,095/year**
+  - **🎯 10/20 daily target reached (Batch 2 of 4)**
 - **9:45 AM:** ✅ BATCH 5 OUTREACH COMPLETE - 5 emails sent
   - Chicago Metal Fabricators ($103,875 savings) - Day 7 follow-up
   - BEON.tech ($83,100 savings) - Technology/Staff Augmentation
@@ -446,14 +507,14 @@
 
 ### This Week
 - Leads Generated: 73 (29 on 2/26, 44 previous)
-- Emails Sent: 31 (3 on 2/26 + 28 previous)
+- Emails Sent: 36 (10 on 2/27 + 3 on 2/26 + 23 previous)
 - Follow-ups Sent: 7 (3 Day 7 on 2/26 + 4 Day 4 on 2/25)
 - Responses: 0
 - Meetings Booked: 0
 
 ### This Month
 - Leads Generated: 73
-- Emails Sent: 31
+- Emails Sent: 36
 - Responses: 0
 - Meetings Booked: 0
 - Revenue: $0

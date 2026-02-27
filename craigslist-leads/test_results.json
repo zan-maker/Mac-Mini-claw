@@ -1,0 +1,15 @@
+{
+  "test_time": "2026-02-27T13:36:49.656560",
+  "leads_found": 1,
+  "total_estimated_fees": 5000,
+  "leads": [
+    {
+      "title": "From $49.95 Sewer/Drain svc: snaking/unclog expert",
+      "price": "$50",
+      "city": "newyork",
+      "category": "business_for_sale",
+      "estimated_fee": 5000,
+      "url": "https://newyork.craigslist.org/que/biz/d/saint-albans-from-4995-sewer-drain-svc/7917929852.html"
+    }
+  ]
+}

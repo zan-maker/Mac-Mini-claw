@@ -1,0 +1,144 @@
+{
+  "summary": {
+    "total_leads": 15,
+    "contacts_found": 7,
+    "emails_sent": 7,
+    "emails_skipped": 2,
+    "no_contact_found": 3,
+    "hunter_credits_used": 9,
+    "hunter_credits_remaining": 23
+  },
+  "defense_companies": [
+    {
+      "company": "Shield AI",
+      "sector": "AI & Drones",
+      "score": 80,
+      "contact": "Matt Ciskowski",
+      "email": "matt.ciskowski@shield.ai",
+      "confidence": 99,
+      "status": "sent",
+      "message_id": "<0100019ca080d8a2-eea8d06a-b736-4c90-8c8f-91ab79f73faa-000000@email.amazonses.com>",
+      "subject": "Strategic Partnership - Shield AI",
+      "timestamp": "2026-02-27T14:05:00-05:00"
+    },
+    {
+      "company": "Rebellion Defense",
+      "sector": "Defense AI",
+      "score": 80,
+      "contact": "Tony Ierardi",
+      "email": "tony@rebelliondefense.com",
+      "confidence": 94,
+      "status": "sent",
+      "message_id": "<0100019ca0812da6-20522297-cc01-4b1d-b4aa-0bdbd221d3ce-000000@email.amazonses.com>",
+      "subject": "Strategic Partnership - Rebellion Defense",
+      "timestamp": "2026-02-27T14:05:05-05:00"
+    },
+    {
+      "company": "Anduril Industries",
+      "sector": "Defense AI & Autonomy",
+      "score": 75,
+      "contact": "Jonathan Ubnoske",
+      "email": "jubnoske@anduril.com",
+      "confidence": 99,
+      "status": "sent",
+      "message_id": "<0100019ca0812f57-ffb8b90d-8201-4e56-835e-96e080f9d153-000000@email.amazonses.com>",
+      "subject": "Strategic Partnership - Anduril Industries",
+      "timestamp": "2026-02-27T14:05:10-05:00"
+    },
+    {
+      "company": "Fortem Technologies",
+      "sector": "Counter-Drone",
+      "score": 70,
+      "contact": "Heather Henderson",
+      "email": "heather.henderson@fortemtech.com",
+      "confidence": 94,
+      "status": "sent",
+      "message_id": "<0100019ca08130d7-80a75046-2cbf-4aa0-855c-720f5dd041d7-000000@email.amazonses.com>",
+      "subject": "Strategic Partnership - Fortem Technologies",
+      "timestamp": "2026-02-27T14:05:15-05:00"
+    },
+    {
+      "company": "Epirus",
+      "sector": "Counter-Drone (C-UAS)",
+      "score": 60,
+      "contact": "Ayelet Tucker",
+      "email": "ayelet.tucker@epirusinc.com",
+      "confidence": 99,
+      "status": "sent",
+      "message_id": "<0100019ca0813299-db2431a0-bb1b-4e84-9c3f-3b1f275cd8e7-000000@email.amazonses.com>",
+      "subject": "Strategic Partnership - Epirus",
+      "timestamp": "2026-02-27T14:05:20-05:00"
+    },
+    {
+      "company": "Quantum Systems",
+      "sector": "Drone Systems",
+      "score": 90,
+      "status": "skipped",
+      "reason": "Already contacted 2026-02-26"
+    },
+    {
+      "company": "Helsing",
+      "sector": "Defense AI",
+      "score": 80,
+      "status": "skipped",
+      "reason": "Already contacted 2026-02-26"
+    }
+  ],
+  "investors": [
+    {
+      "company": "Speciale Invest",
+      "region": "India",
+      "score": 90,
+      "focus": "Deep Tech, Defense, Drones",
+      "contact": "Arun Shanmugam",
+      "email": "arun.shanmugam@specialeinvest.com",
+      "confidence": 98,
+      "status": "sent",
+      "message_id": "<0100019ca0817f91-3a0c54e5-7f65-4409-ac85-ddc91734378a-000000@email.amazonses.com>",
+      "subject": "Investment Opportunity - Drone Technology Platform",
+      "timestamp": "2026-02-27T14:05:25-05:00"
+    },
+    {
+      "company": "Blume Ventures",
+      "region": "India",
+      "score": 87,
+      "focus": "Deep Tech, Aerospace",
+      "contact": "Chaitanya Marulkar",
+      "email": "chaitanya@blume.vc",
+      "confidence": 94,
+      "status": "sent",
+      "message_id": "<0100019ca081815a-9a965ee3-8e94-4218-aa28-5446d36419e4-000000@email.amazonses.com>",
+      "subject": "Investment Opportunity - Drone Technology Platform",
+      "timestamp": "2026-02-27T14:05:30-05:00"
+    },
+    {
+      "company": "Bluehill.VC",
+      "region": "India",
+      "score": 90,
+      "focus": "Defense Tech, AI",
+      "status": "no_email",
+      "reason": "No Hunter.io results"
+    },
+    {
+      "company": "Pi Ventures",
+      "region": "India",
+      "score": 80,
+      "focus": "AI, Deep Tech",
+      "status": "no_email",
+      "reason": "No Hunter.io results"
+    },
+    {
+      "company": "FuturePlay",
+      "region": "Korea",
+      "score": 80,
+      "focus": "Deep Tech",
+      "status": "not_searched",
+      "reason": "Quota conservation"
+    }
+  ],
+  "email_config": {
+    "from": "Zander@agentmail.to",
+    "cc": "sam@impactquadrant.info",
+    "api_status": "working"
+  }
+}

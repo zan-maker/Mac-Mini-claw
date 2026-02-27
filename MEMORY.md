@@ -246,6 +246,14 @@
 - Updated campaign files and scripts with new signature format
 - Gmail SMTP now primary email sending method
 
+### 2026-02-27: Mining Inquiry & Miami Hotels Complete
+- **Mining Investor Inquiry:** Sent 498/500 emails (99.6% success rate) - asking investors about mining preferences
+- **Miami Hotels Campaign:** 100% complete (14/14 emails sent) - all 3 waves done
+- **Dorada Campaign:** 39% complete (17/44 emails sent) - Waves 1-3 done, Waves 4-6 pending
+- **Total Emails Today:** 529 across all campaigns
+- **Triple Gmail System:** Fully operational with intelligent rotation
+- **Response Monitoring:** Mining replies expected in 3-7 days
+
 ### 2026-02-26: Mining Investor Outreach Campaign
 - **Sent mining deal flow inquiry** to 107/114 investors (95.5% success rate)
 - **Sender:** sam@cubiczan.com, **Signature:** Sam Desigan, Sam@cubiczan.com

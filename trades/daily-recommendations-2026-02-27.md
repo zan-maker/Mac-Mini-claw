@@ -2,11 +2,11 @@
 ==================================
 **Date:** 2026-02-27
 **Source:** r/pennystocks analysis + Kalshi markets
-**Analysis Time:** 10:51
+**Analysis Time:** 11:24
 
 ## 📊 ANALYSIS SUMMARY
 - **Total tickers analyzed:** 5
-- **Penny stocks found:** 3
+- **Penny stocks found:** 2
 - **Price range:** All under $5.00
 - **Most discussed tickers:** AAPL, TSLA, GME, AMC, BB
 - **Page elements analyzed:** 0
@@ -14,61 +14,45 @@
 
 ## 🎯 TOP 3 PENNY STOCK PICKS (<$5)
 
-### 1. GME - Price: $1.98
-- **Reddit Sentiment:** Positive (80.0%)
-- **Discussion Volume:** High (8 mentions)
-- **Overall Score:** 0.79/1.0
-- **Volatility:** 49.6% (typical for pennies)
-- **RSI:** 48 (Neutral)
-- **Volume:** 2,473,848
-- **Price Range:** Under $5
-
-#### 📈 TRADE SETUP
-- **Current Price:** $1.98
-- **Suggested Entry:** $1.92
-- **Stop Loss:** $1.54 (-20%)
-- **Target Price:** $2.59 (+35%)
-- **Risk/Reward:** 1:1.8
-
-### 2. AAPL - Price: $1.58
-- **Reddit Sentiment:** Positive (70.0%)
-- **Discussion Volume:** Medium (5 mentions)
-- **Overall Score:** 0.77/1.0
-- **Volatility:** 51.6% (typical for pennies)
-- **RSI:** 53 (Neutral)
-- **Volume:** 28,892,858
-- **Price Range:** Under $5
-
-#### 📈 TRADE SETUP
-- **Current Price:** $1.58
-- **Suggested Entry:** $1.53
-- **Stop Loss:** $1.23 (-20%)
-- **Target Price:** $2.07 (+35%)
-- **Risk/Reward:** 1:1.8
-
-### 3. AMC - Price: $2.49
+### 1. AMC - Price: $1.20
 - **Reddit Sentiment:** Positive (90.0%)
 - **Discussion Volume:** High (6 mentions)
-- **Overall Score:** 0.76/1.0
-- **Volatility:** 49.8% (typical for pennies)
-- **RSI:** 54 (Neutral)
-- **Volume:** 4,372,449
+- **Overall Score:** 0.64/1.0
+- **Volatility:** 127.9% (typical for pennies)
+- **RSI:** 55 (Neutral)
+- **Volume:** 40,508,125
 - **Price Range:** Under $5
 
 #### 📈 TRADE SETUP
-- **Current Price:** $2.49
-- **Suggested Entry:** $2.42
-- **Stop Loss:** $1.93 (-20%)
-- **Target Price:** $3.26 (+35%)
+- **Current Price:** $1.20
+- **Suggested Entry:** $1.16
+- **Stop Loss:** $0.93 (-20%)
+- **Target Price:** $1.57 (+35%)
+- **Risk/Reward:** 1:1.8
+
+### 2. BB - Price: $3.45
+- **Reddit Sentiment:** Neutral (50.0%)
+- **Discussion Volume:** Medium (4 mentions)
+- **Overall Score:** 0.60/1.0
+- **Volatility:** 66.9% (typical for pennies)
+- **RSI:** 61 (Neutral)
+- **Volume:** 38,312,851
+- **Price Range:** Under $5
+
+#### 📈 TRADE SETUP
+- **Current Price:** $3.45
+- **Suggested Entry:** $3.35
+- **Stop Loss:** $2.68 (-20%)
+- **Target Price:** $4.52 (+35%)
 - **Risk/Reward:** 1:1.8
 
 
 ## 🎯 KALSHI MARKET INSIGHTS
 **Prediction Market Sentiment:**
 
-- **Will S&P 500 close up tomorrow?:** Bullish (76% probability)
-- **Will NASDAQ have a green day?:** Slightly Bullish (83% probability)
-- **Will small caps outperform?:** Bullish For Pennies (87% probability)
+- **Will S&P 500 close up tomorrow?:** Bullish (86% probability)
+- **Will NASDAQ have a green day?:** Slightly Bullish (98% probability)
+- **Will small caps outperform?:** Bullish For Pennies (59% probability)
 
 **Overall Market Sentiment:** Bullish
 **Small Cap/Penny Sentiment:** Bullish

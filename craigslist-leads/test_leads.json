@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Established Restaurant for Sale - Prime NYC Location",
+    "description": "Fully equipped restaurant in Manhattan. Annual revenue $1.2M. Owner retiring. Serious inquiries only. Contact at owner@restaurantnyc.com or call 212-555-1234.",
+    "price": "$850,000",
+    "location": "Manhattan, NYC",
+    "city": "newyork",
+    "category": "business_for_sale",
+    "url": "https://newyork.craigslist.org/test1",
+    "scraped_at": "2026-02-27T13:30:00",
+    "referral_fee": {
+      "type": "business_sale_referral",
+      "estimated_fee": 8500,
+      "business_value": 850000,
+      "description": "1% referral on $850,000 business sale"
+    }
+  },
+  {
+    "title": "Commercial Cleaning Business - Established Client Base",
+    "description": "Commercial cleaning service with 25+ corporate clients. Monthly revenue $45K. Owner relocating. Email: cleanbiz@example.com",
+    "price": "$350,000",
+    "location": "Los Angeles, CA",
+    "city": "losangeles",
+    "category": "business_for_sale",
+    "url": "https://losangeles.craigslist.org/test2",
+    "scraped_at": "2026-02-27T13:30:00",
+    "referral_fee": {
+      "type": "business_sale_referral",
+      "estimated_fee": 3500,
+      "business_value": 350000,
+      "description": "1% referral on $350,000 business sale"
+    }
+  },
+  {
+    "title": "IT Consulting Services - Managed Services Provider",
+    "description": "Managed IT services for small businesses. 15+ retained clients. Looking to expand or partner. Contact: mike@itconsulting.com",
+    "price": "$5,000/month",
+    "location": "Chicago, IL",
+    "city": "chicago",
+    "category": "skilled_trade",
+    "url": "https://chicago.craigslist.org/test3",
+    "scraped_at": "2026-02-27T13:30:00",
+    "referral_fee": {
+      "type": "expense_reduction_referral",
+      "estimated_fee": 4500,
+      "estimated_revenue": 300000,
+      "potential_savings": 30000,
+      "description": "15% of $30,000 annual savings"
+    }
+  }
+]

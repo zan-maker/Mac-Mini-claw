@@ -1,0 +1,46 @@
+{
+  "configured_at": "2026-02-27T07:14:58.688258",
+  "api_key": "601920a0b5d6b80f9131d4ae588065f694840081",
+  "credits_available": 75,
+  "account_info": {
+    "first_name": "Sam",
+    "last_name": "Desigan",
+    "email": "icohangar@gmail.com",
+    "plan_name": "Free",
+    "plan_level": 0,
+    "reset_date": "2026-03-26",
+    "team_id": 1124485,
+    "requests": {
+      "credits": {
+        "used": 19.0,
+        "available": 50.0
+      },
+      "searches": {
+        "used": 19,
+        "available": 50
+      },
+      "verifications": {
+        "used": 38,
+        "available": 100
+      }
+    },
+    "calls": {
+      "_deprecation_notice": "Sums the searches and the verifications, giving an unprecise look of the available requests",
+      "used": 190,
+      "available": 75
+    }
+  },
+  "status": "active",
+  "tests_passed": {
+    "api_key": true,
+    "email_finder": true,
+    "domain_search": true
+  },
+  "campaigns_unblocked": [
+    "Dorada Resort Investor Outreach",
+    "Miami Hotels Buyer Outreach",
+    "Defense Sector Lead Enrichment",
+    "Lead Outreach Contact Finding",
+    "Expense Reduction Decision Maker Finding"
+  ]
+}

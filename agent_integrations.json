@@ -1,0 +1,35 @@
+{
+  "version": "2.0",
+  "created": "2026-02-27T10:22:59.911321",
+  "integrations": {
+    "agent_browser": true,
+    "predicate_snapshot": true,
+    "skill_evolution": true
+  },
+  "agents": {
+    "trade-recommender": {
+      "skill_dir": "/Users/cubiczan/mac-bot/skills/trade-recommender",
+      "type": "trading",
+      "integrated": "2026-02-27T10:22:59.911328",
+      "status": "active"
+    },
+    "roi-analyst": {
+      "skill_dir": "/Users/cubiczan/mac-bot/skills/roi-analyst",
+      "type": "analytics",
+      "integrated": "2026-02-27T10:22:59.911332",
+      "status": "active"
+    },
+    "lead-generator": {
+      "skill_dir": "/Users/cubiczan/mac-bot/skills/lead-generator",
+      "type": "outreach",
+      "integrated": "2026-02-27T10:22:59.911335",
+      "status": "active"
+    },
+    "agent-browser": {
+      "skill_dir": "/Users/cubiczan/mac-bot/skills/agent-browser",
+      "type": "tool",
+      "integrated": "2026-02-27T10:22:59.911337",
+      "status": "active"
+    }
+  }
+}

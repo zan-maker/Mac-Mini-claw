@@ -1,0 +1,135 @@
+# Daily Service Providers - 2026-02-27
+
+**Generated:** Friday, February 27th, 2026 — 9:17 AM (America/New_York)
+**Target:** 3-4 providers willing to pay referral fees
+**Identified:** 4 providers
+
+---
+
+## Provider 1: Basis 365 Accounting
+
+| Attribute | Details |
+|-----------|---------|
+| **Category** | Accounting Firm (Bookkeeping/Fractional CFO) |
+| **Website** | https://www.basis365.com |
+| **Referral Fee** | 10% of paid monthly recurring invoices for first 6 months |
+| **Client Value** | $1,000 - $10,000/month |
+| **Potential Earnings** | $600 - $6,000 per referral (6 months) |
+| **Program Status** | Active, publicly documented |
+| **Target Referrers** | Attorneys, bankers, coaches, CFOs, CPAs |
+
+**Scoring (0-100):**
+- Willingness (0-40): 35 — Active public program
+- Fee Structure (0-30): 24 — 10% for 6 months is solid
+- Referral History (0-20): 15 — Established testimonials from partners
+- Category Potential (0-10): 8 — High-value monthly retainers
+- **TOTAL: 82/100** ⭐ HIGH PRIORITY
+
+**Outreach Status:** Ready for contact
+**Notes:** Clear fee structure on website. B2B CFO partnership testimonial confirms reliability.
+
+---
+
+## Provider 2: Intuit Accountants Client Referral Program
+
+| Attribute | Details |
+|-----------|---------|
+| **Category** | Accounting/Tax Services |
+| **Website** | https://accountants.intuit.com/refer-clients/ |
+| **Referral Fee** | 50% of amount paid by referred clients after filing |
+| **Annual Cap** | $100,000 per professional per year |
+| **Program Status** | Active, publicly documented |
+| **Target Referrers** | Accountants looking to offload clients |
+
+**Scoring (0-100):**
+- Willingness (0-40): 38 — Major brand, active program
+- Fee Structure (0-30): 28 — 50% is excellent
+- Referral History (0-20): 18 — Intuit is established
+- Category Potential (0-10): 7 — Tax season focus limits year-round
+- **TOTAL: 91/100** ⭐ HIGH PRIORITY
+
+**Outreach Status:** Ready for contact
+**Notes:** High fee percentage. Credentialed tax experts (12 years avg). Good for accountants retiring or refining practice.
+
+---
+
+## Provider 3: isolved HCM Accountant Partner Program
+
+| Attribute | Details |
+|-----------|---------|
+| **Category** | SaaS Partner (HR/Payroll HCM) |
+| **Website** | https://www.isolvedhcm.com/partner/preferred/accountants |
+| **Referral Fee** | Competitive referral fee (undisclosed, estimated 10-15% ACV) |
+| **Program Status** | Active partner program |
+| **Target Referrers** | CPAs, bookkeeping professionals, accountants |
+
+**Scoring (0-100):**
+- Willingness (0-40): 32 — Active program, "competitive" language
+- Fee Structure (0-30): 20 — Undisclosed = needs negotiation
+- Referral History (0-20): 12 — Growing partner community
+- Category Potential (0-10): 8 — HR/Payroll is high-retention
+- **TOTAL: 72/100**
+
+**Outreach Status:** Requires fee structure clarification
+**Notes:** "Growing community" indicates expansion mode. Fee structure needs discovery call.
+
+---
+
+## Provider 4: Marcus & Millichap (CRE Broker)
+
+| Attribute | Details |
+|-----------|---------|
+| **Category** | CRE Broker (Investment Sales) |
+| **Website** | https://www.marcusmillichap.com |
+| **Referral Fee** | Industry standard 25-35% of commission |
+| **Typical Commission** | 3-6% of sale price |
+| **Program Status** | Active referral network |
+| **Target Referrers** | Business brokers, M&A advisors, attorneys |
+
+**Scoring (0-100):**
+- Willingness (0-40): 30 — Industry standard practice
+- Fee Structure (0-30): 28 — 25-35% is excellent
+- Referral History (0-20): 16 — Largest CRE investment firm
+- Category Potential (0-10): 9 — High deal values
+- **TOTAL: 83/100** ⭐ HIGH PRIORITY
+
+**Outreach Status:** Ready for contact
+**Notes:** Industry leader in CRE investment sales. Referral arrangements are standard practice.
+
+---
+
+## Summary
+
+| Provider | Category | Score | Fee Structure | Status |
+|----------|----------|-------|---------------|--------|
+| Intuit Accountants | Accounting/Tax | 91 | 50% of client payments | Ready |
+| Marcus & Millichap | CRE Broker | 83 | 25-35% of commission | Ready |
+| Basis 365 | Accounting | 82 | 10% for 6 months | Ready |
+| isolved HCM | SaaS/HR | 72 | TBD (est. 10-15%) | Discovery needed |
+
+**High Priority (80+):** 3 providers
+**Ready for Outreach:** 3 providers
+**Requires Discovery:** 1 provider
+
+---
+
+## Next Actions
+
+1. **Basis 365** — Email via partner form or contact page
+   - Subject: "Referral partnership - qualified accounting leads"
+   - Highlight: B2B lead pipeline, pre-qualified introductions
+
+2. **Intuit Accountants** — Connect with program team
+   - Subject: "Client referral program inquiry"
+   - Highlight: Network of business owners needing tax services
+
+3. **Marcus & Millichap** — Contact local office
+   - Subject: "Referral partnership - commercial real estate opportunities"
+   - Highlight: Deal flow from business acquisition leads
+
+4. **isolved HCM** — Discovery call first
+   - Clarify fee structure before committing leads
+
+---
+
+*Generated by Referral Engine - Supply Side (Providers)*

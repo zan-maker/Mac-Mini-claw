@@ -1,0 +1,35 @@
+📊 **Expense Reduction Lead Gen - February 27, 2026**
+
+**Total Leads Generated:** 18
+
+**Priority Breakdown:**
+• High Priority: 11
+• Medium Priority: 7
+• Low Priority: 0
+
+**Total Potential Savings:** $28,664,092 - $57,328,185
+
+**🔍 Data Source Report:**
+• Scrapling Used: ❌ No (fallback to curated database)
+• Database Results: 18 leads
+• Total Processing Time: 0.0 seconds
+
+**🏆 Top 3 Leads:**
+
+1. **Mercury** (Financial Services)
+   • Employees: ~300
+   • Potential Savings: $526,500 - $1,053,000
+   • Score: 100/100
+   • Key Contact: CFO
+2. **Loom** (Technology)
+   • Employees: ~400
+   • Potential Savings: $564,960 - $1,129,920
+   • Score: 95/100
+   • Key Contact: CFO
+3. **Markforged** (Manufacturing)
+   • Employees: ~350
+   • Potential Savings: $545,685 - $1,091,370
+   • Score: 85/100
+   • Key Contact: CFO
+
+📁 Full report: `/workspace/expense-leads/daily-leads-2026-02-27.md`

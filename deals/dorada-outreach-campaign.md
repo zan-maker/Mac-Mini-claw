@@ -284,7 +284,7 @@ Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 | 21 | SITOA GmbH | Marina Beierbeck | m.beierbeck@sitoa.de | ⬜ | ⬜ | ⬜ | ⬜ |
 | 22 | Jimdo | Iva Kochovska | iva.kochovska@jimdo.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 23 | Blue Lion | Manu Gupta | manu@bluelionglobal.com | ✅ 2026-02-26 | ⬜ | ⬜ | ⬜ |
-| 24 | Blue Lion | Matt Atkin | matkin@bluelionglobal.com | ⬜ | ⬜ | ⬜ | ⬜ |
+| 24 | Blue Lion | Matt Atkin | matkin@bluelionglobal.com | ✅ 2026-02-27 | ⬜ | ⬜ | ⬜ |
 | 25 | Bosa Properties | Colin Bosa | cbosa@bosaproperties.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 26 | Farbman Group | Andy Farbman | afarbman@farbman.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 27 | Farbman Group | Michael Kalil | kalil@farbman.com | ⬜ | ⬜ | ⬜ | ⬜ |
@@ -319,4 +319,4 @@ Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 ---
 
 *Campaign Created: 2026-02-17*
-*Last Updated: 2026-02-26*
+*Last Updated: 2026-02-27*

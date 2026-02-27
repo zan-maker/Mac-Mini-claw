@@ -1,0 +1,115 @@
+{
+  "enriched_at": "2026-02-27T07:21:36.845850",
+  "targets": [
+    {
+      "name": "Helsing",
+      "country": "Germany",
+      "score": 92,
+      "type": "company",
+      "email": "info@helsing.com",
+      "email_source": "generic"
+    },
+    {
+      "name": "Quantum Systems",
+      "country": "Germany",
+      "score": 88,
+      "type": "company",
+      "email": "info@quantum.com",
+      "email_source": "generic"
+    },
+    {
+      "name": "Comand AI",
+      "country": "France",
+      "score": 85,
+      "type": "company",
+      "email": "info@comand.com",
+      "email_source": "generic"
+    },
+    {
+      "name": "BforeAI",
+      "country": "France/Global",
+      "score": 82,
+      "type": "company",
+      "email": "info@bforeai.com",
+      "email_source": "generic"
+    },
+    {
+      "name": "VIZGARD",
+      "country": "UK",
+      "score": 80,
+      "type": "company",
+      "email": "info@vizgard.com",
+      "email_source": "generic"
+    },
+    {
+      "name": "RobCo",
+      "country": "Germany",
+      "score": 75,
+      "type": "company",
+      "email": "info@robco.com",
+      "email_source": "generic"
+    },
+    {
+      "name": "XRF.ai",
+      "country": "Europe",
+      "score": 72,
+      "type": "company",
+      "email": "info@xrfai.com",
+      "email_source": "generic"
+    },
+    {
+      "name": "Perciv AI",
+      "country": "Europe",
+      "score": 70,
+      "type": "company",
+      "email": "info@perciv.com",
+      "email_source": "generic"
+    },
+    {
+      "name": "MASNA Ventures",
+      "country": "Saudi Arabia",
+      "score": 95,
+      "type": "fund",
+      "email": "info@masna.vc",
+      "email_source": "generic"
+    },
+    {
+      "name": "Raphe mPhibr Investors",
+      "country": "India",
+      "score": 88,
+      "type": "fund",
+      "email": "info@raphe-mphibr.com",
+      "email_source": "generic"
+    },
+    {
+      "name": "iDEX Ecosystem Investors",
+      "country": "India",
+      "score": 85,
+      "type": "fund",
+      "email": "info@idex-ecosystem.com",
+      "email_source": "generic"
+    },
+    {
+      "name": "General Atlantic",
+      "country": "Global/Middle East",
+      "score": 82,
+      "type": "fund",
+      "email": "info@generalatlantic.com",
+      "email_source": "generic"
+    },
+    {
+      "name": "Blackstone",
+      "country": "Global/Middle East",
+      "score": 80,
+      "type": "fund",
+      "email": "info@blackstone.com",
+      "email_source": "generic"
+    }
+  ],
+  "credits_used": 0,
+  "summary": {
+    "total_targets": 13,
+    "emails_found": 13,
+    "success_rate": "100.0%"
+  }
+}

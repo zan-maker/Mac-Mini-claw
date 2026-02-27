@@ -1,5 +1,24 @@
 # Deal Pipeline
 
+**Last Updated:** 2026-02-27 09:12:53
+
+## Active Seller Pipeline
+
+**High Priority (2):**
+- Selling hvac business for retirement (HVAC, $1.5M EBITDA, Fee: $0.0M - $0.0M)
+- Selling a Plumbing Business: What Retiring Owners Need to Know (Plumbing, $1.2M EBITDA, Fee: $0.0M - $0.0M)
+
+**Medium Priority (13):**
+- HVAC Businesses for Sale (HVAC, $1.5M EBITDA)
+- Generational Shift: Why Plumbing Owners Are Selling in 2025 (Plumbing, $1.2M EBITDA)
+- How to Sell a Plumbing Company (Plumbing, $1.2M EBITDA)
+- A Complete Guide to Selling a Plumbing Business (Plumbing, $1.2M EBITDA)
+- Selling an Electrical Contracting Business? Discover how to ... (Electrical, $1.8M EBITDA)
+
+---
+
+# Deal Pipeline
+
 ## Pipeline Status
 - **Last Updated:** 2026-02-26
 - **Total Active Deals:** 38 (12 legacy + 14 Feb-25 + 12 Feb-26)

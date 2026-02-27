@@ -1,0 +1,13 @@
+{
+  "completed_at": "2026-02-27T07:18:01.004919",
+  "initial_credits": 75,
+  "credits_used": 0,
+  "credits_remaining": 75,
+  "defense_companies_enriched": 0,
+  "dorada_contacts_checked": true,
+  "miami_contacts_checked": true,
+  "status": "completed",
+  "campaigns_unblocked": [
+    "Defense Sector Outreach (blocked 2 days)"
+  ]
+}

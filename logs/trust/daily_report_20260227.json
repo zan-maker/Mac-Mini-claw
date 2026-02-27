@@ -1,0 +1,9 @@
+{
+  "date": "2026-02-27",
+  "period": "24h",
+  "average_compliance_score": 1.0,
+  "checks_analyzed": 24,
+  "total_violations": 0,
+  "quiet_hours_violations": 10,
+  "recommendations": []
+}

@@ -1,0 +1,111 @@
+{
+  "enriched_at": "2026-02-27T07:19:39.415899",
+  "companies": [
+    {
+      "name": "### 1. Helsing (Germany)",
+      "score": 92,
+      "details": [
+        "- **Sector:** AI & Battlefield Software",
+        "- **Stage:** Late Stage (\u20ac600M raised June 2025)",
+        "- **Valuation:** \u20ac12 billion",
+        "- **Focus:** Battlefield AI software, decision systems",
+        "- **Region:** Europe (Germany)",
+        "- **Technical Depth:** AI-driven targeting, electronic warfare",
+        "- **Integration Potential:** NATO partnerships",
+        "- **Recent Funding:** \u20ac600M Series in June 2025",
+        "- **Notes:** Leading European defense AI company"
+      ]
+    },
+    {
+      "name": "### 2. Quantum Systems (Germany)",
+      "score": 88,
+      "details": [
+        "- **Sector:** Autonomous ISR Drones",
+        "- **Stage:** Series B-C ($207M total funding)",
+        "- **Focus:** AI-driven long-endurance UAVs, swarm technology",
+        "- **Region:** Europe (Germany)",
+        "- **Technical Depth:** Hyperspectral imaging, autonomous systems",
+        "- **Integration Potential:** NATO battlefield awareness",
+        "- **Key Product:** Vector platform with swarm capabilities",
+        "- **Notes:** Major player in European drone ISR"
+      ]
+    },
+    {
+      "name": "### 3. Comand AI (France)",
+      "score": 85,
+      "details": [
+        "- **Sector:** AI-Powered Targeting Systems",
+        "- **Stage:** Series A (\u20ac8.9M raised 2024)",
+        "- **Focus:** Next-gen AI targeting system (Prevail)",
+        "- **Region:** Europe (France)",
+        "- **Technical Depth:** 40% reduction in artillery targeting latency",
+        "- **Integration Potential:** French-German joint operations",
+        "- **Notes:** Deployed in joint operations, strong traction"
+      ]
+    },
+    {
+      "name": "### 4. BforeAI (France/Global)",
+      "score": 82,
+      "details": [
+        "- **Sector:** Cyber Threat Intelligence",
+        "- **Stage:** Series B ($10M raised 2024)",
+        "- **Focus:** PreCrime\u2122 Engine - AI-powered cyberattack prediction",
+        "- **Region:** Europe",
+        "- **Technical Depth:** Predicts attacks 12 months in advance",
+        "- **Integration Potential:** Airbus CyberSecurity partner, NATO satellite networks",
+        "- **Notes:** Strategic partner for critical infrastructure"
+      ]
+    },
+    {
+      "name": "### 5. VIZGARD (UK)",
+      "score": 80,
+      "details": [
+        "- **Sector:** AI-Powered Optical Security / Counter-Drone",
+        "- **Stage:** Series A",
+        "- **Focus:** FortifAI system - thermal and SWIR fusion",
+        "- **Region:** UK",
+        "- **Technical Depth:** 94% drone detection accuracy",
+        "- **Integration Potential:** Royal Navy testing",
+        "- **Notes:** Strong counter-drone capabilities"
+      ]
+    },
+    {
+      "name": "### 6. RobCo (Germany)",
+      "score": 75,
+      "details": [
+        "- **Sector:** AI-Powered Industrial Robotics",
+        "- **Stage:** Series B (\u20ac39.17M raised Feb 2024)",
+        "- **Focus:** Defense manufacturing automation",
+        "- **Region:** Europe (Germany)",
+        "- **Investors:** Lightspeed, Sequoia, Kindred Capital",
+        "- **Notes:** Dual-use manufacturing robotics"
+      ]
+    },
+    {
+      "name": "### 7. XRF.ai (Europe)",
+      "score": 72,
+      "details": [
+        "- **Sector:** Advanced Radar & Signal Processing",
+        "- **Stage:** Seed/Series A (\u20ac2.57M raised 2024)",
+        "- **Focus:** High-frequency RF analysis, electronic warfare",
+        "- **Region:** Europe",
+        "- **Technical Depth:** NATO-aligned defence networks",
+        "- **Notes:** Electronic warfare detection"
+      ]
+    },
+    {
+      "name": "### 8. Perciv AI (Europe)",
+      "score": 70,
+      "details": [
+        "- **Sector:** Radar Perception Systems",
+        "- **Stage:** Series A (\u20ac2.5M raised 2024)",
+        "- **Focus:** LiDAR alternative for armored vehicles",
+        "- **Region:** Europe",
+        "- **Technical Depth:** 83% cost reduction vs LiDAR",
+        "- **Integration Potential:** Rheinmetall partnership",
+        "- **Notes:** Strong defense vehicle applications"
+      ]
+    }
+  ],
+  "credits_used": 0
+}

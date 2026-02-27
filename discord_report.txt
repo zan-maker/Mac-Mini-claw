@@ -1,0 +1,37 @@
+🎯 **Enhanced Lead Gen v2 Complete**
+
+**Results:**
+• Total Found: 30
+• High Priority (70+): 30
+• Medium Priority (50-69): 0
+
+**🔍 Data Source Report:**
+• Scrapling Used: ✅ Yes
+• Scrapling Results: 0 leads
+• Traditional API Results: 30 leads
+• Processing Time: 4.8s
+
+**🏆 Top 3 Leads:**
+
+**1. Top 20 Door Manufacturing Companies In 2026**
+• Industry: Manufacturing
+• Employees: 75
+• Potential Savings: $194,062
+• Score: 100/100
+• Source: Tavily API
+
+**2. 10 Fastest Growing Defense Tech Companies and Startups**
+• Industry: Technology
+• Employees: 100
+• Potential Savings: $258,750
+• Score: 100/100
+• Source: Tavily API
+
+**3. [PDF] carrier code**
+• Industry: Technology
+• Employees: 75
+• Potential Savings: $194,062
+• Score: 100/100
+• Source: Tavily API
+
+💾 Full report saved to: `leads/daily-leads-2026-02-27.md`

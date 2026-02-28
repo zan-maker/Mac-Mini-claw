@@ -1,0 +1,9 @@
+{
+  "id": "pdf",
+  "name": "Pdf",
+  "description": "Extract text, create PDFs, and handle forms",
+  "source_repo": "anthropics/skills",
+  "source_path": "skills/pdf",
+  "source_url": "https://github.com/anthropics/skills/tree/main/skills/pdf",
+  "downloaded_at": "2026-02-27T20:35:30-05:00"
+}

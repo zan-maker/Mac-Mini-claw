@@ -1,0 +1,24 @@
+{
+  "access_token": "935321609011165|XlL4OvncGEm4iPitzaWrJjbJ1-U",
+  "page_id": "",
+  "instagram_id": "",
+  "app_id": "935321609011165",
+  "app_secret": "ab30b2e417c137e6ebbf9f43d7115480",
+  "default_caption": "Posted by OpenClaw 🤖 Automated Social Media",
+  "image_dir": "/Users/cubiczan/.openclaw/workspace/images",
+  "log_dir": "/Users/cubiczan/.openclaw/workspace/logs",
+  "timezone": "America/New_York",
+  "auto_schedule": false,
+  "posting_schedule": [
+    {
+      "platform": "facebook",
+      "time": "09:00",
+      "days": ["mon", "tue", "wed", "thu", "fri"]
+    },
+    {
+      "platform": "instagram",
+      "time": "11:00",
+      "days": ["tue", "thu", "sat"]
+    }
+  ]
+}

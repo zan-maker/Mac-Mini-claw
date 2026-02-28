@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "query": "$AMZN OR AMZN stock",
+  "total_results": 25072,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Rian Howlett",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq sell-off builds as tech rout continues, bitcoin plunges",
+      "description": "Wall Street is looking to Amazon with high hopes after a rough week in tech, as silver plunges again and bitcoin drops near $65,000.",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-sell-off-builds-as-tech-rout-continues-bitcoin-plunges-210019775.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/ZkdSGUXlLwLBKs7fv38.Ow--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2026-02/a5d50cb0-0223-11f1-bbdb-8aa9519aab41",
+      "publishedAt": "2026-02-05T21:05:50Z",
+      "content": "The performance of Amazon's (AMZN) cloud business, AWS, will be keenly examined when its earnings report lands later, after Microsoft (MSFT) stock plunged last week, in part due to a slowdown in clou\u2026 [+1469 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Jay Peters",
+      "title": "Valve\u2019s Steam Deck OLED will be \u2018intermittently\u2019 out of stock because of the RAM crisis",
+      "description": "Valve has updated the Steam Deck OLED website to say that the PC gaming handheld may be out of stock \"intermittently in some regions due to memory and storage shortages.\" The Steam Deck OLED has been out of stock in the US and other parts of the world for a f\u2026",
+      "url": "https://www.theverge.com/games/879845/valve-steam-deck-oled-out-of-stock-memory-storage-ram-crisis",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25070054/DSCF9155.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-02-17T02:57:56Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nThe PC gaming handheld has been out of stock in the US for a few days.\r\nThe PC gaming handheld has been out of stock in the US for a few days.\r\nby\r\nJay PetersClo\u2026 [+2209 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Rian Howlett",
+      "title": "Stock market today: Dow soars 1,000 points, leading S&P 500, Nasdaq higher as Wall Street rebounds from rout",
+      "description": "Wall Street is weighing whether the AI fears behind the recent tech-driven sell-off were exaggerated.",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-crosses-50000-mark-leading-sp-500-nasdaq-higher-as-wall-street-rebounds-from-rout-192439513.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/fyE9n_.JfQ_Sx3lvHLf.bA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2026-02/6180c610-02ed-11f1-babd-d0d10111551a",
+      "publishedAt": "2026-02-06T18:58:14Z",
+      "content": "US stocks jumped on Friday, set to rebound from a weeklong tech bruising as Wall Street reassessed worries about the impact of AI disruption and the risks of hefty Big Tech spending.\r\nThe Dow Jones I\u2026 [+11149 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Brooke DiPalma",
+      "title": "Amazon to lay off 16,000 employees after grocery shakeup, bringing total cuts to 30,000 since October",
+      "description": "Amazon is closing stores and cutting its workforce as it aims to position itself for the future.",
+      "url": "https://finance.yahoo.com/news/amazon-to-lay-off-16000-employees-after-grocery-shakeup-bringing-total-cuts-to-30000-since-october-150311418.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/7a9THLib_6dkyF2s.5IsSQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2026-01/f72788d0-fc4d-11f0-8a85-8528a84aab17",
+      "publishedAt": "2026-01-28T15:03:11Z",
+      "content": "Amazon (AMZN) is making major cuts to its corporate workforce for the second time in less than six months as it continues to adjust its staffing plans following a surge of hiring during the pandemic.\u2026 [+2340 chars]"
+    }
+  ],
+  "timestamp": "2026-02-27T17:20:57.481280",
+  "source": "newsapi"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "pptx",
+  "name": "Pptx",
+  "description": "Create, edit, and analyze PowerPoint presentations",
+  "source_repo": "anthropics/skills",
+  "source_path": "skills/pptx",
+  "source_url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
+  "downloaded_at": "2026-02-27T20:35:31-05:00"
+}

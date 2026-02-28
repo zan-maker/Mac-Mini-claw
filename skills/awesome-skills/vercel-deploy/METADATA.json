@@ -1,0 +1,9 @@
+{
+  "id": "vercel-deploy",
+  "name": "Vercel Deploy",
+  "description": "Deploy projects to Vercel",
+  "source_repo": "vercel-labs/agent-skills",
+  "source_path": "skills/claude.ai/vercel-deploy-claimable",
+  "source_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/claude.ai/vercel-deploy-claimable",
+  "downloaded_at": "2026-02-27T20:35:31-05:00"
+}

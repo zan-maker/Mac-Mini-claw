@@ -1,0 +1,36 @@
+{
+  "name": "xAI Social Media Content Pipeline",
+  "steps": [
+    {
+      "step": 1,
+      "action": "generate_content_calendar",
+      "tool": "xai",
+      "frequency": "weekly"
+    },
+    {
+      "step": 2,
+      "action": "generate_daily_posts",
+      "tool": "xai",
+      "frequency": "daily"
+    },
+    {
+      "step": 3,
+      "action": "post_to_platforms",
+      "tool": "social_poster",
+      "frequency": "scheduled"
+    },
+    {
+      "step": 4,
+      "action": "analyze_performance",
+      "tool": "analytics",
+      "frequency": "daily"
+    }
+  ],
+  "integrations": [
+    "instagram",
+    "facebook",
+    "twitter",
+    "linkedin"
+  ],
+  "ai_model": "grok-4-latest"
+}

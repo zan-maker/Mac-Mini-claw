@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-02-27T23:41:06.912582",
+  "auth_success": false,
+  "tests_run": [
+    "auth"
+  ],
+  "recommendations": "Invalid token"
+}

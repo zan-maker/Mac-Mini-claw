@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "query": "$AAPL OR AAPL stock",
+  "total_results": 25072,
+  "articles": [
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Jay Peters",
+      "title": "Valve\u2019s Steam Deck OLED will be \u2018intermittently\u2019 out of stock because of the RAM crisis",
+      "description": "Valve has updated the Steam Deck OLED website to say that the PC gaming handheld may be out of stock \"intermittently in some regions due to memory and storage shortages.\" The Steam Deck OLED has been out of stock in the US and other parts of the world for a f\u2026",
+      "url": "https://www.theverge.com/games/879845/valve-steam-deck-oled-out-of-stock-memory-storage-ram-crisis",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25070054/DSCF9155.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-02-17T02:57:56Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nThe PC gaming handheld has been out of stock in the US for a few days.\r\nThe PC gaming handheld has been out of stock in the US for a few days.\r\nby\r\nJay PetersClo\u2026 [+2209 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Marcus Mendes",
+      "title": "JP Morgan reviews Apple\u2019s stock price target following Q1 2026 earnings",
+      "description": "Just days after setting a $315 price target for Apple\u2019s stock, JP Morgan is out with a revised outlook following the company\u2019s Q1 2026 earnings. Here are the details.\n\n\n\n more\u2026",
+      "url": "https://9to5mac.com/2026/01/30/jp-morgan-reviews-apples-stock-price-target-following-q1-2026-earnings/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2024/06/apple-stock-up.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2026-01-30T20:33:04Z",
+      "content": "Just days after setting a $315 price target for Apples stock, JP Morgan is out with a revised outlook following the companys Q1 2026 earnings. Here are the details.\r\nOn Monday, JP Morgan said it expe\u2026 [+979 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barchart.com"
+      },
+      "author": "Sushree Mohanty",
+      "title": "This AI Chip Stock Could Power the Next Decade. Is It a Buy Ahead of Its Next Earnings Report?",
+      "description": "The world\u2019s biggest tech firms are building their AI future with the help of Arm Holdings. Here's what to expect when ARM reports Q3 results on Feb. 4.",
+      "url": "https://www.barchart.com/story/news/37326449/this-ai-chip-stock-could-power-the-next-decade-is-it-a-buy-ahead-of-its-next-earnings-report",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/tZqN2Io0Wi32hlB46i7ulg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03NTA-/https://media.zenfs.com/en/barchart_com_477/68e703c3a7ceec6923cfa4542a9ce88b",
+      "publishedAt": "2026-01-30T17:46:19Z",
+      "content": "While most investors are chasing artificial intelligence (AI) chipmakers, the real backbone of the AI revolution may be chip designer Arm Holdings (ARM). Its chip designs power everything from smartp\u2026 [+4549 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Ece Yildirim",
+      "title": "An AI Thought Experiment on Substack Is Sending The Stock Market Spiraling",
+      "description": "AI is coming for everything, Wall Street seems to believe.",
+      "url": "https://gizmodo.com/an-ai-thought-experiment-on-substack-is-sending-the-stock-market-spiraling-2000725601",
+      "urlToImage": "https://gizmodo.com/app/uploads/2026/02/shutterstock_2596658891-1200x675.jpg",
+      "publishedAt": "2026-02-23T23:25:32Z",
+      "content": "On Sunday, analysis firm Citrini Research published a thought experiment on Substack that reads like a piece of fiction.\r\nTitled \u201cThe 2028 Global Intelligence Crisis,\u201d it\u2019s a scenario set in June of \u2026 [+4666 chars]"
+    }
+  ],
+  "timestamp": "2026-02-27T17:20:55.260346",
+  "source": "newsapi"
+}

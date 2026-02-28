@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "category": "business",
+  "total_results": 42,
+  "articles": [
+    {
+      "source": {
+        "id": "nbc-news",
+        "name": "NBC News"
+      },
+      "author": "David K. Li",
+      "title": "Martini in student's lunchbox prompts Georgia police to warn parents: 'That is NOT Apple Juice' - NBC News",
+      "description": "Hey it's homeroom or happy hour somewhere in the world, right?",
+      "url": "https://www.nbcnews.com/news/us-news/georgia-police-ask-parents-double-check-kids-lunch-boxes-arent-acciden-rcna260795",
+      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-02/260226-lunchbox-ch-0954-e360b2.jpg",
+      "publishedAt": "2026-02-26T18:25:55Z",
+      "content": "Hey it's homeroom or happy hour somewhere in the world, right? \r\nPolice near Atlanta kindly asked parents on Wednesday to double-check lunches they pack for their children, after one tyke came to sch\u2026 [+1055 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Sean Conlon, Pia Singh",
+      "title": "S&P 500 falls as Nvidia rolls over following earnings: Live updates - CNBC",
+      "description": "The moves follow an upbeat day for U.S. equities. The S&P 500 notched a second straight day of gains, lifted by a comeback in major tech companies.",
+      "url": "https://www.cnbc.com/2026/02/25/stock-market-today-live-updates.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108269977-17720392042026-02-25t165727z_318746953_rc21tjanz2q4_rtrmadp_0_usa-stocks.jpeg?v=1772039260&w=1920&h=1080",
+      "publishedAt": "2026-02-26T16:38:00Z",
+      "content": "The S&amp;P 500 pulled back on Thursday as the latest results from tech titan Nvidia and software giant Salesforce weren't enough to boost the broader market. \r\nThe broad market index fell 0.8%, whil\u2026 [+1841 chars]"
+    },
+    {
+      "source": {
+        "id": "nbc-news",
+        "name": "NBC News"
+      },
+      "author": "Rebecca Cohen",
+      "title": "Over 55,000 pounds of blueberries recalled for risk of potentially fatal listeria contamination - NBC News",
+      "description": "More than 55,000 pounds of frozen blueberries have been recalled due to the risk for a potentially fatal Listeria monocytogenes contamination, according to a Food and Drug Administration update",
+      "url": "https://www.nbcnews.com/news/us-news/55000-pounds-blueberries-recalled-potentially-fatal-listeria-contamina-rcna260803",
+      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-02/260226-blueberries-ch-1045-d0ee4e.jpg",
+      "publishedAt": "2026-02-26T16:08:15Z",
+      "content": "More than 55,000 pounds of frozen blueberries have been recalled due to the risk for a potentially fatal Listeria monocytogenes contamination, according to a Food and Drug Administration update.\r\nThe\u2026 [+1622 chars]"
+    }
+  ],
+  "timestamp": "2026-02-27T17:20:51.807029",
+  "source": "newsapi"
+}

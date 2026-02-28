@@ -12,6 +12,14 @@
     "claw-skill-public-dot-com": {
       "version": "0.1.5",
       "installedAt": 1771291730501
+    },
+    "hubspot": {
+      "version": "1.0.1",
+      "installedAt": 1772249167686
+    },
+    "bluesky": {
+      "version": "1.6.0",
+      "installedAt": 1772249174844
     }
   }
 }

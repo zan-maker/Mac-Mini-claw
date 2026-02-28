@@ -1,0 +1,9 @@
+{
+  "id": "playwright-testing",
+  "name": "Playwright Testing",
+  "description": "Test local web applications using Playwright",
+  "source_repo": "anthropics/skills",
+  "source_path": "skills/webapp-testing",
+  "source_url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
+  "downloaded_at": "2026-02-27T20:35:31-05:00"
+}

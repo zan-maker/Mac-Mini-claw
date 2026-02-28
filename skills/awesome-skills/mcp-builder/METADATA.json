@@ -1,0 +1,9 @@
+{
+  "id": "mcp-builder",
+  "name": "Mcp Builder",
+  "description": "Create MCP servers to integrate external APIs and services",
+  "source_repo": "anthropics/skills",
+  "source_path": "skills/mcp-builder",
+  "source_url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
+  "downloaded_at": "2026-02-27T20:35:32-05:00"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "docx",
+  "name": "Docx",
+  "description": "Create, edit, and analyze Word documents",
+  "source_repo": "anthropics/skills",
+  "source_path": "skills/docx",
+  "source_url": "https://github.com/anthropics/skills/tree/main/skills/docx",
+  "downloaded_at": "2026-02-27T20:35:32-05:00"
+}

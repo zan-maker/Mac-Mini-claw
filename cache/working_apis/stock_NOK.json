@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "symbol": "NOK",
+  "price": 7.725,
+  "change": 0.225,
+  "change_percent": "3.0000%",
+  "volume": 39562199,
+  "timestamp": "2026-02-27T17:20:54.169953",
+  "source": "alphavantage"
+}

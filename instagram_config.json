@@ -1,0 +1,13 @@
+{
+  "username": "YOUR_INSTAGRAM_USERNAME",
+  "password": "YOUR_INSTAGRAM_PASSWORD",
+  "headless": false,
+  "browser": "chrome",
+  "wait_time": 10,
+  "image_dir": "/Users/cubiczan/.openclaw/workspace/images",
+  "log_dir": "/Users/cubiczan/.openclaw/workspace/logs",
+  "default_caption": "Posted by OpenClaw 🤖 Automated Instagram",
+  "auto_login": true,
+  "keep_session": true,
+  "screenshot_on_error": true
+}

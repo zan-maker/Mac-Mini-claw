@@ -1,0 +1,74 @@
+{
+  "success": true,
+  "query": "$MSFT OR MSFT stock",
+  "total_results": 25072,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": null,
+      "title": "Microsoft Is Teaming up With Starlink. What Does That Mean for MSFT Stock?",
+      "description": null,
+      "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d244e590-7260-4ed5-97cb-443982b31068",
+      "urlToImage": null,
+      "publishedAt": "2026-02-26T14:00:02Z",
+      "content": "If you click 'Accept all', we and our partners, including 246 who are part of the IAB Transparency &amp; Consent Framework, will also store and / or access information on a device (in other words, us\u2026 [+1046 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Rian Howlett",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq sell-off builds as tech rout continues, bitcoin plunges",
+      "description": "Wall Street is looking to Amazon with high hopes after a rough week in tech, as silver plunges again and bitcoin drops near $65,000.",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-sell-off-builds-as-tech-rout-continues-bitcoin-plunges-210019775.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/ZkdSGUXlLwLBKs7fv38.Ow--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2026-02/a5d50cb0-0223-11f1-bbdb-8aa9519aab41",
+      "publishedAt": "2026-02-05T21:05:50Z",
+      "content": "The performance of Amazon's (AMZN) cloud business, AWS, will be keenly examined when its earnings report lands later, after Microsoft (MSFT) stock plunged last week, in part due to a slowdown in clou\u2026 [+1469 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Syeda Seirut Javed",
+      "title": "Jim Cramer Says \u201cI Actually Felt Sorry for Microsoft, Not Too Sorry Though\u201d",
+      "description": "Microsoft Corporation (NASDAQ:MSFT) is one of the stocks Jim Cramer shared his opinion on. Cramer called the company the \u201cleast Magnificent of the Seven,\u201d as...",
+      "url": "https://finance.yahoo.com/news/jim-cramer-says-actually-felt-184016566.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/G.1tK8_wakfXVFDJfglm1A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/insidermonkey.com/e594c84b43643f9264f217379beb7064",
+      "publishedAt": "2026-02-04T18:40:16Z",
+      "content": "Microsoft Corporation (NASDAQ:MSFT) is one of the stocks Jim Cramer shared his opinion on. Cramer called the company the least Magnificent of the Seven, as he commented:\r\nAnd then theres Microsoft. H\u2026 [+1527 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barchart.com"
+      },
+      "author": "Amit Singh",
+      "title": "Is Microsoft Stock\u2019s Dip a Golden Buying Opportunity or a Trap?",
+      "description": "While heavy AI infrastructure spending may pressure Microsoft\u2019s margins in the near term, it also reflects strong demand.",
+      "url": "https://www.barchart.com/story/news/37323955/is-microsoft-stocks-dip-a-golden-buying-opportunity-or-a-trap",
+      "urlToImage": "https://s.yimg.com/os/en/barchart_com_477/70f0cef0c027d2d0ac959916cfe49457",
+      "publishedAt": "2026-01-30T15:25:58Z",
+      "content": "Microsoft (MSFT) just reported strong quarterly financial results. However, MSFT stock experienced one of its sharpest single-day declines in years. Microsoft shares closed about 10% lower following \u2026 [+4264 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Jay Peters",
+      "title": "Valve\u2019s Steam Deck OLED will be \u2018intermittently\u2019 out of stock because of the RAM crisis",
+      "description": "Valve has updated the Steam Deck OLED website to say that the PC gaming handheld may be out of stock \"intermittently in some regions due to memory and storage shortages.\" The Steam Deck OLED has been out of stock in the US and other parts of the world for a f\u2026",
+      "url": "https://www.theverge.com/games/879845/valve-steam-deck-oled-out-of-stock-memory-storage-ram-crisis",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25070054/DSCF9155.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-02-17T02:57:56Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nThe PC gaming handheld has been out of stock in the US for a few days.\r\nThe PC gaming handheld has been out of stock in the US for a few days.\r\nby\r\nJay PetersClo\u2026 [+2209 chars]"
+    }
+  ],
+  "timestamp": "2026-02-27T17:20:59.698432",
+  "source": "newsapi"
+}

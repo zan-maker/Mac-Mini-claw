@@ -1,0 +1,144 @@
+{
+  "platforms": {
+    "instagram": {
+      "enabled": true,
+      "method": "browser_automation",
+      "credentials": {
+        "username": "YOUR_INSTAGRAM_USERNAME",
+        "password": "YOUR_INSTAGRAM_PASSWORD"
+      },
+      "business_account": true,
+      "post_types": [
+        "feed",
+        "stories"
+      ],
+      "optimal_times": [
+        "09:00",
+        "12:00",
+        "15:00",
+        "18:00"
+      ]
+    },
+    "facebook": {
+      "enabled": true,
+      "method": "browser_automation",
+      "credentials": {
+        "username": "YOUR_FACEBOOK_USERNAME",
+        "password": "YOUR_FACEBOOK_PASSWORD"
+      },
+      "pages": [
+        "YOUR_PAGE_NAME"
+      ],
+      "post_types": [
+        "status",
+        "photo",
+        "video"
+      ],
+      "optimal_times": [
+        "10:00",
+        "13:00",
+        "16:00",
+        "19:00"
+      ]
+    },
+    "twitter_x": {
+      "enabled": true,
+      "method": "browser_automation",  # Changed from "api" to "browser_automation"
+      "credentials": {
+        "api_key": "AFBL785apJ36PepzpBYpTErVU",
+        "api_secret": "b56s3P3654PIqxMvn2MRLEChejX71KUJmUsCzCWzztphAGlWn3",
+        "access_token": "2010735805342568448-YNB7woytZkyBGYTZ3Mg3tZNFLHancN",
+        "access_token_secret": "aMbIoXgMZxfX7syUV7SalfmDhJfWJbKb61BvIGbTzcuLL",
+        "bearer_token": "AAAAAAAAAAAAAAAAAAAAALPN7QEAAAAAE%2FzdYiwIFUznOIq0AMuGfm9XiTQ%3DqG2GS41y1x6BScR90xrbkzrK3eOmijtefTzuJtrkfQgt2kkQxT",
+        "username": "YOUR_TWITTER_USERNAME",  # Add your Twitter username here
+        "password": "YOUR_TWITTER_PASSWORD"   # Add your Twitter password here
+      },
+      "post_types": [
+        "tweet",
+        "thread",
+        "poll"
+      ],
+      "optimal_times": [
+        "08:00",
+        "11:00",
+        "14:00",
+        "17:00",
+        "20:00"
+      ]
+    },
+    "linkedin": {
+      "enabled": false,
+      "method": "api",
+      "credentials": {
+        "access_token": "YOUR_ACCESS_TOKEN",
+        "page_id": "YOUR_PAGE_ID"
+      },
+      "post_types": [
+        "article",
+        "image",
+        "video"
+      ],
+      "optimal_times": [
+        "08:30",
+        "12:30",
+        "17:30"
+      ]
+    },
+    "bluesky": {
+      "enabled": false,
+      "method": "api",
+      "credentials": {
+        "handle": "YOUR_HANDLE.bsky.social",
+        "app_password": "YOUR_APP_PASSWORD"
+      },
+      "post_types": [
+        "post",
+        "thread"
+      ],
+      "optimal_times": [
+        "09:00",
+        "13:00",
+        "18:00"
+      ]
+    }
+  },
+  "content_strategy": {
+    "themes": [
+      "lead_generation",
+      "business_automation",
+      "ai_agents",
+      "investment"
+    ],
+    "formats": [
+      "blog_summary",
+      "carousel",
+      "video_clip",
+      "case_study"
+    ],
+    "posting_frequency": {
+      "instagram": 2,
+      "facebook": 2,
+      "twitter_x": 5,
+      "linkedin": 1,
+      "bluesky": 3
+    }
+  },
+  "automation": {
+    "auto_schedule": true,
+    "cross_posting": true,
+    "analytics_tracking": true
+  },
+  "ai_services": {
+    "xai": {
+      "enabled": true,
+      "api_key": "xai-vzGa7b1VR6o5vLXxKqL69u8iIMWvACT2P8gmt5mrh4wMWqJvnPlZp4B6RK8hum5HHHnfM2g9wKvFkr1t",
+      "model": "grok-4-latest",
+      "use_for": [
+        "content_creation",
+        "hashtag_generation",
+        "content_calendar"
+      ],
+      "status": "active"
+    }
+  }
+}

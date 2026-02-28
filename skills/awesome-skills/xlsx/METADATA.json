@@ -1,0 +1,9 @@
+{
+  "id": "xlsx",
+  "name": "Xlsx",
+  "description": "Create, edit, and analyze Excel spreadsheets",
+  "source_repo": "anthropics/skills",
+  "source_path": "skills/xlsx",
+  "source_url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
+  "downloaded_at": "2026-02-27T20:35:31-05:00"
+}

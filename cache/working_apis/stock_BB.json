@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "symbol": "BB",
+  "price": 3.395,
+  "change": -0.115,
+  "change_percent": "-3.2764%",
+  "volume": 5634192,
+  "timestamp": "2026-02-27T17:20:53.094048",
+  "source": "alphavantage"
+}

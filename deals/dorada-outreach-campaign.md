@@ -276,33 +276,33 @@ Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 | 13 | Libra Group | Praveen Vetrivel | praveen.vetrivel@libra.com | ✅ 2026-02-26 | ⬜ | ⬜ | ⬜ |
 | 14 | Northmarq | Jeffrey Weidell | jweidell@northmarq.com | ✅ 2026-02-26 | ⬜ | ⬜ | ⬜ |
 | 15 | Northmarq | Shawn Power | spower@northmarq.com | ✅ 2026-02-26 | ⬜ | ⬜ | ⬜ |
-| 16 | The Rosewood Corp | John Dziminski | jdziminski@rosewd.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 17 | The Rosewood Corp | Kyle Van de Ven | kyle@guideboatcap.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 18 | Griffis/Blessing | Bart Marlar | bart@gb85.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 19 | Machen McChesney | Jessica Pagan | jpagan@machenmcchesney.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 20 | Private Medical | Mark Long | mlong@privatemedical.org | ⬜ | ⬜ | ⬜ | ⬜ |
-| 21 | SITOA GmbH | Marina Beierbeck | m.beierbeck@sitoa.de | ⬜ | ⬜ | ⬜ | ⬜ |
-| 22 | Jimdo | Iva Kochovska | iva.kochovska@jimdo.com | ⬜ | ⬜ | ⬜ | ⬜ |
+| 16 | The Rosewood Corp | John Dziminski | jdziminski@rosewd.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 17 | The Rosewood Corp | Kyle Van de Ven | kyle@guideboatcap.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 18 | Griffis/Blessing | Bart Marlar | bart@gb85.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 19 | Machen McChesney | Jessica Pagan | jpagan@machenmcchesney.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 20 | Private Medical | Mark Long | mlong@privatemedical.org | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 21 | SITOA GmbH | Marina Beierbeck | m.beierbeck@sitoa.de | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 22 | Jimdo | Iva Kochovska | iva.kochovska@jimdo.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
 | 23 | Blue Lion | Manu Gupta | manu@bluelionglobal.com | ✅ 2026-02-26 | ⬜ | ⬜ | ⬜ |
 | 24 | Blue Lion | Matt Atkin | matkin@bluelionglobal.com | ✅ 2026-02-27 | ⬜ | ⬜ | ⬜ |
-| 25 | Bosa Properties | Colin Bosa | cbosa@bosaproperties.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 26 | Farbman Group | Andy Farbman | afarbman@farbman.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 27 | Farbman Group | Michael Kalil | kalil@farbman.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 28 | Nath Companies | Mark Bartholomay | mbartholomay@nathcompanies.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 29 | Nimes Real Estate | Michael Orsak | m.orsak@nimesrealestate.com | ⬜ | ⬜ | ⬜ | ⬜ |
+| 25 | Bosa Properties | Colin Bosa | cbosa@bosaproperties.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 26 | Farbman Group | Andy Farbman | afarbman@farbman.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 27 | Farbman Group | Michael Kalil | kalil@farbman.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 28 | Nath Companies | Mark Bartholomay | mbartholomay@nathcompanies.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 29 | Nimes Real Estate | Michael Orsak | m.orsak@nimesrealestate.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
 | 30 | Oxford Capital | Christopher Sutphen | - | ⬜ | ⬜ | ⬜ | ⬜ |
-| 31 | Churchill Finance HK | Joanna Wu | joanna@churchill-finance.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 32 | Kapital Partners | Anjuli Nanda Habbas | anjuli@kapitalp.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 33 | Globalvestment Capital | Ross McBride | ross.mcbride@globalvestmentpartners.com | ⬜ | ⬜ | ⬜ | ⬜ |
+| 31 | Churchill Finance HK | Joanna Wu | joanna@churchill-finance.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 32 | Kapital Partners | Anjuli Nanda Habbas | anjuli@kapitalp.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 33 | Globalvestment Capital | Ross McBride | ross.mcbride@globalvestmentpartners.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
 | 34 | Red Apple Group | John Catsimatidis | catsimatidis@ragny.com | ✅ 2026-02-21 | ⬜ | ⬜ | ⬜ |
-| 35 | Red Apple Group | John Catsimatidis Jr | jac@ragny.com | ⏳ 2026-02-23 | ⬜ | ⬜ | ⬜ |
-| 36 | AssetBlue Investment | Sam Gillespie | sam@assetblue.com | ⏳ 2026-02-23 | ⬜ | ⬜ | ⬜ |
-| 37 | Bratenahl Capital | Michael Howley | mhowley@bratenahlcapital.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 38 | Keiretsu Forum | Randy Williams | randy@keiretsuforum.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 39 | Investment Counsel NV | Andrew Le | andrew@iccnv.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 40 | Subhkam Ventures | Manu Punnoose | manu@subhkam.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 41 | Bisdorf Palmer | Bridget Palmer | bridget@bisdorfpalmer.com | ⬜ | ⬜ | ⬜ | ⬜ |
-| 42 | National Retail Group | Emily Barreca | emily@nrgproperty.com.au | ⬜ | ⬜ | ⬜ | ⬜ |
+| 35 | Red Apple Group | John Catsimatidis Jr | jac@ragny.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 36 | AssetBlue Investment | Sam Gillespie | sam@assetblue.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 37 | Bratenahl Capital | Michael Howley | mhowley@bratenahlcapital.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 38 | Keiretsu Forum | Randy Williams | randy@keiretsuforum.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 39 | Investment Counsel NV | Andrew Le | andrew@iccnv.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 40 | Subhkam Ventures | Manu Punnoose | manu@subhkam.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 41 | Bisdorf Palmer | Bridget Palmer | bridget@bisdorfpalmer.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
+| 42 | National Retail Group | Emily Barreca | emily@nrgproperty.com.au | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
 
 ---
 
@@ -319,4 +319,4 @@ Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 ---
 
 *Campaign Created: 2026-02-17*
-*Last Updated: 2026-02-27*
+*Last Updated: 2026-02-28*

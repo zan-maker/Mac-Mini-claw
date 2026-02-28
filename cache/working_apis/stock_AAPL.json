@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "symbol": "AAPL",
+  "price": 264.18,
+  "change": -8.77,
+  "change_percent": "-3.2130%",
+  "volume": 72192048,
+  "timestamp": "2026-02-27T17:20:51.961918",
+  "source": "alphavantage"
+}

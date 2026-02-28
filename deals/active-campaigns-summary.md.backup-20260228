@@ -36,6 +36,39 @@
 
 ---
 
+## 2. MIAMI HOTELS PORTFOLIO - FLORIDA
+
+**Deal Type:** Two hospitality assets
+**Location:** Miami Beach + Coral Gables, FL
+**Total Contacts:** 14 buyers
+**Status:** 3 waves ready, starts 2026-02-18
+
+### Assets
+1. **Tides South Beach** - 45 oceanfront suites + 95-key expansion
+2. **Thesis Hotel Miami** - 245 hotel + 204 multifamily, $315M asking
+
+### Cron Jobs
+| Wave | Job ID | Contacts | Schedule | Focus |
+|------|--------|----------|----------|-------|
+| Wave 1 | `21cf8088...` | 4 | 11 AM daily | Top buyers (Score 18) |
+| Wave 2 | `9b2e4bca...` | 5 | 11 AM daily | Secondary buyers |
+| Wave 3 | `e8806fc0...` | 5 | 11 AM daily | Additional buyers |
+
+### Campaign Files
+- `deals/miami-hotels-portfolio.md` - Deal summaries
+- `deals/miami-hotels-buyer-list.md` - 98 qualified buyers
+- `deals/miami-hotels-outreach-campaign.md` - Email templates + tracking
+
+### Key Targets
+- ALFAHIM (Score 18) - Hospitality, Tourism, Property
+- Long Wharf Capital (Score 18) - Multifamily, Hospitality
+- Marsh McLennan Agency (Score 18) - Mixed-Use, Hospitality
+- Layla Capital (Score 15) - FLORIDA focus
+- Caoba Capital Partners (Score 13) - FLORIDA focus
+- Total: 14 buyers selected (from 98 qualified)
+
+---
+
 ## TOMORROW'S SCHEDULE (Feb 18, 2026)
 
 | Time | Campaign | Wave | Contact |

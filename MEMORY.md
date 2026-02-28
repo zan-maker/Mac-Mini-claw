@@ -166,18 +166,20 @@
 | Lead Outreach - AgentMail | 2 PM | Email sequences |
 | Expense Reduction Outreach | 2 PM | Email sequences |
 
-### Deal Outreach (9)
-| Job | Schedule | Purpose |
-|-----|----------|---------|
-| Dorada Outreach - Wave 1 | 10 AM | Top 5 investors (1/5 sent - Aamir Aka 2/18) |
-| Dorada Outreach - Wave 2 | 10 AM | Tier 2 investors (5 contacts) |
-| Dorada Outreach - Wave 3 | 10 AM | Wave 3 (5 contacts, hospitality focus) |
-| Dorada Outreach - Wave 4 | 10 AM | Wave 4 (7 contacts, family office focus) |
-| Dorada Outreach - Wave 5 | 10 AM | Wave 5 (11 contacts, real estate/hospitality) |
-| Dorada Outreach - Wave 6 | 10 AM | Wave 6 (9 contacts, family office/medical) |
-| Miami Hotels Wave 1 | 11 AM | Top 4 buyers (0/4 sent - timing out) |
-| Miami Hotels Wave 2 | 11 AM | Secondary buyers (5 contacts) |
-| Miami Hotels Wave 3 | 11 AM | Additional buyers (5 contacts) |
+### Deal Outreach (9) - **UPDATE NEEDED**
+| Job | Schedule | Purpose | Status |
+|-----|----------|---------|--------|
+| Dorada Outreach - Wave 1 | 10 AM | Top 5 investors (1/5 sent - Aamir Aka 2/18) | ⚠️ **CHECK** - One wave failing |
+| Dorada Outreach - Wave 2 | 10 AM | Tier 2 investors (5 contacts) | ⚠️ **CHECK** - One wave failing |
+| Dorada Outreach - Wave 3 | 10 AM | Wave 3 (5 contacts, hospitality focus) | ⚠️ **CHECK** - One wave failing |
+| Dorada Outreach - Wave 4 | 10 AM | Wave 4 (7 contacts, family office focus) | ⚠️ **CHECK** - One wave failing |
+| Dorada Outreach - Wave 5 | 10 AM | Wave 5 (11 contacts, real estate/hospitality) | ⚠️ **CHECK** - One wave failing |
+| Dorada Outreach - Wave 6 | 10 AM | Wave 6 (9 contacts, family office/medical) | ⚠️ **CHECK** - One wave failing |
+| Miami Hotels Wave 1 | 11 AM | Top 4 buyers (0/4 sent - timing out) | Active |
+| Miami Hotels Wave 2 | 11 AM | Secondary buyers (5 contacts) | Active |
+| Miami Hotels Wave 3 | 11 AM | Additional buyers (5 contacts) | Active |
+
+**Note (2026-02-28):** One Dorada wave failing with SIGTERM. Need to identify and disable.
 
 ### Voice & Analytics (2)
 | Job | Schedule | Purpose |
@@ -185,16 +187,18 @@
 | Hot Lead Voice Follow-up | 11 AM | Vapi calls for 80+ scores |
 | Weekly Performance Report | Fri 5 PM | Supabase analytics |
 
-### System (6)
-| Job | Schedule | Purpose |
-|-----|----------|---------|
-| Token Limit Monitor | 30 min | Token usage alerts |
-| Critical API Alert | 12h | Urgent budget alerts |
-| Daily API Usage Check | 24h | Cost monitoring |
-| Daily GitHub Backup | 24h | Workspace backup |
-| Nightly Meditation | 1 AM | Self-improvement |
-| Autonomous Time | 2 AM | Exploration |
-| Mining Lead Gen | 9:30 AM | High-grade mining projects |
+### System (6) - **UPDATE NEEDED**
+| Job | Schedule | Purpose | Status |
+|-----|----------|---------|--------|
+| Token Limit Monitor | 30 min | Token usage alerts | Active |
+| Critical API Alert | 12h | Urgent budget alerts | Active |
+| Daily API Usage Check | 24h | Cost monitoring | Active |
+| Daily GitHub Backup | 24h | Workspace backup | Active |
+| Nightly Meditation | 1 AM | Self-improvement | Active |
+| Autonomous Time | 2 AM | Exploration | Active |
+| Mining Lead Gen | 9:30 AM | High-grade mining projects | ⚠️ **REPURPOSE** - Switch to enhanced expense reduction |
+
+**Note (2026-02-28):** Mining Lead Gen to be repurposed for enhanced expense reduction outreach.
 
 ---
 

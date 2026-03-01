@@ -1,0 +1,20 @@
+{
+  "name": "Bdev.ai Advanced Pipeline (Multi-Account)",
+  "schedule": {
+    "kind": "cron",
+    "expr": "30 9 * * *",
+    "tz": "America/New_York"
+  },
+  "sessionTarget": "isolated",
+  "payload": {
+    "kind": "agentTurn",
+    "message": "Run Bdev.ai advanced pipeline with multiple AgentMail accounts: 1. Generate AI messages, 2. Send via load-balanced AgentMail accounts, 3. Create detailed reports. Use the script at /Users/cubiczan/.openclaw/workspace/bdev_ai_advanced_pipeline.sh",
+    "model": "custom-api-deepseek-com/deepseek-chat",
+    "timeoutSeconds": 900
+  },
+  "delivery": {
+    "mode": "announce",
+    "channel": "discord",
+    "to": "#macmini3"
+  }
+}

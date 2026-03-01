@@ -290,7 +290,7 @@ Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 | 27 | Farbman Group | Michael Kalil | kalil@farbman.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
 | 28 | Nath Companies | Mark Bartholomay | mbartholomay@nathcompanies.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
 | 29 | Nimes Real Estate | Michael Orsak | m.orsak@nimesrealestate.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
-| 30 | Oxford Capital | Christopher Sutphen | csutphen@oxford-capital.com | ⬜ | ⬜ | ⬜ | ⬜ |
+| 30 | Oxford Capital | Christopher Sutphen | csutphen@oxford-capital.com | ✅ 2026-03-01 | ⬜ | ⬜ | ⬜ |
 | 31 | Churchill Finance HK | Joanna Wu | joanna@churchill-finance.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
 | 32 | Kapital Partners | Anjuli Nanda Habbas | anjuli@kapitalp.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
 | 33 | Globalvestment Capital | Ross McBride | ross.mcbride@globalvestmentpartners.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
@@ -319,4 +319,4 @@ Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 ---
 
 *Campaign Created: 2026-02-17*
-*Last Updated: 2026-02-28*
+*Last Updated: 2026-03-01*

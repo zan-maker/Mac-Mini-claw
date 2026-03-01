@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-03-01T09:34:10.931480",
+  "results": {
+    "total": 5,
+    "sent": 5,
+    "failed": 0,
+    "skipped": 0
+  },
+  "stats": {
+    "total_accounts": 3,
+    "enabled_accounts": 3,
+    "today_total": 5,
+    "total_sent": 5,
+    "accounts": {
+      "Primary": {
+        "today": 2,
+        "total": 2,
+        "last_used": 

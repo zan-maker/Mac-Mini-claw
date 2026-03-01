@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-03-01T10:08:21.384126",
+  "to": "csutphen@oxford-capital.com",
+  "cc": "sam@impactquadrant.info",
+  "subject": "Luxury wellness resort opportunity - Costa Rica Blue Zone",
+  "result": {
+    "success": true,
+    "message_id": "<0100019ca9f17b2c-3dd623b7-12d1-4bc0-a3bb-2209abdae89b-000000@email.amazonses.com>",
+    "response": {
+      "message_id": "<0100019ca9f17b2c-3dd623b7-12d1-4bc0-a3bb-2209abdae89b-000000@email.amazonses.com>",
+      "thread_id": "0c23eb73-82e5-43b6-be3b-744166b268af"
+    }
+  }
+}

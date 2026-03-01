@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-03-01T09:31:54.087630",
+  "results": {
+    "total": 10,
+    "sent": 0,
+    "failed": 0,
+    "skipped": 10
+  },
+  "stats": {
+    "total_accounts": 3,
+    "enabled_accounts": 3,
+    "today_total": 0,
+    "total_sent": 0,
+    "accounts": {
+      "Primary": {
+        "today": 0,
+        "total": 0,
+        "last_used": null,
+        "errors": 0,
+        "limit": 1000,
+        "remaining": 1000
+      },
+      "Secondary": {
+        "today": 0,
+        "total": 0,
+        "last_used": null,
+        "errors": 0,
+        "limit": 1000,
+        "remaining": 1000
+      },
+      "Backup": {
+        "today": 0,
+        "total": 0,
+        "last_used": null,
+        "errors": 0,
+        "limit": 1000,
+        "remaining": 1000
+      }
+    }
+  },
+  "sent_messages": []
+}

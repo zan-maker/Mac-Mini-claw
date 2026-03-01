@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-03-01",
+    "time": "09:31:54",
+    "results": {
+      "total": 10,
+      "sent": 0,
+      "failed": 0,
+      "skipped": 10
+    },
+    "total_today": 0
+  }
+]

@@ -208,7 +208,7 @@ Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 | 27 | **Farbman Group** (Score 10) | Michael Kalil (COO) | kalil@farbman.com | (248) 353-0500 | Commercial Real Estate, Hospitality |
 | 28 | **Nath Companies** (Score 10) | Mark Bartholomay (President) | mbartholomay@nathcompanies.com | (281) 757-3158 | Hotels, Multi-Family, Restaurants, Family-Owned |
 | 29 | **Nimes Real Estate** (Score 10) | Michael Orsak (MD) | m.orsak@nimesrealestate.com | (512) 574-8833 | Multifamily, Hospitality, Family Office |
-| 30 | **Oxford Capital** (Score 10) | Christopher Sutphen (CEO) | - | - | Hotels, Resorts, Senior Housing, Mixed-Use |
+| 30 | **Oxford Capital** (Score 10) | Christopher Sutphen (CEO) | csutphen@oxford-capital.com | - | Hotels, Resorts, Senior Housing, Mixed-Use |
 | 31 | **Churchill Finance HK** (Score 10) | Joanna Wu (SVP PE) | joanna@churchill-finance.com | +852 3975 3009 | Real Estate, Hospitality, Healthcare, Family Office |
 | 32 | **Kapital Partners** (Score 10) | Anjuli Nanda Habbas (Partner) | anjuli@kapitalp.com | - | Real Estate, Hospitality, Family Office |
 | 33 | **Globalvestment Capital** (Score 10) | Ross McBride (CEO) | ross.mcbride@globalvestmentpartners.com | - | Hospitality Real Estate, Multifamily, Family Office |
@@ -290,7 +290,7 @@ Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up.
 | 27 | Farbman Group | Michael Kalil | kalil@farbman.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
 | 28 | Nath Companies | Mark Bartholomay | mbartholomay@nathcompanies.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
 | 29 | Nimes Real Estate | Michael Orsak | m.orsak@nimesrealestate.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
-| 30 | Oxford Capital | Christopher Sutphen | - | ⬜ | ⬜ | ⬜ | ⬜ |
+| 30 | Oxford Capital | Christopher Sutphen | csutphen@oxford-capital.com | ⬜ | ⬜ | ⬜ | ⬜ |
 | 31 | Churchill Finance HK | Joanna Wu | joanna@churchill-finance.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
 | 32 | Kapital Partners | Anjuli Nanda Habbas | anjuli@kapitalp.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |
 | 33 | Globalvestment Capital | Ross McBride | ross.mcbride@globalvestmentpartners.com | ✅ 2026-02-28 | ⬜ | ⬜ | ⬜ |

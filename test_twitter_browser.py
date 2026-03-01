@@ -18,6 +18,7 @@ def test_twitter_browser_automation():
     # Check if selenium is installed
     try:
         from selenium import webdriver
+import undetected_chromedriver as uc
         from selenium.webdriver.common.by import By
         from selenium.webdriver.common.keys import Keys
         from selenium.webdriver.support.ui import WebDriverWait
@@ -74,7 +75,7 @@ def test_twitter_browser_automation():
         # For testing, we can run in headless mode
         # options.add_argument("--headless")  # Uncomment for headless testing
         
-        driver = webdriver.Chrome(options=options)
+        driver = uc.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
         
         print("✅ Chrome browser started")
@@ -91,49 +92,42 @@ def test_twitter_browser_automation():
             # Enter username
             try:
                 username_field = wait.until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, "input[autocomplete='username']"))
+                    EC.presence_of_element_located((By.NAME, "text"))
                 )
+                username_field.clear()
                 username_field.send_keys(username)
-                username_field.send_keys(Keys.RETURN)
                 print("✅ Username entered")
-                time.sleep(2)
+
+                # Click Next button explicitly
+                # Click Next using JS (more reliable for X UI)
+                next_span = wait.until(
+                    EC.presence_of_element_located((By.XPATH, "//span[text()='Next']"))
+                )
+                driver.execute_script("arguments[0].click();", next_span)
+                print("➡️ Clicked Next (JS)")
+
             except Exception as e:
-                print(f"⚠️  Could not find username field: {e}")
-                # Try alternative selector
-                try:
-                    username_field = driver.find_element(By.NAME, "text")
-                    username_field.send_keys(username)
-                    username_field.send_keys(Keys.RETURN)
-                    print("✅ Username entered (alternative)")
-                    time.sleep(2)
-                except:
-                    print("❌ Could not find any username field")
-                    driver.quit()
-                    return False
-            
-            # Enter password
+                print(f"❌ Could not handle username step: {e}")
+                driver.quit()
+                return False
+
+            # Wait for password field after Next
             try:
                 password_field = wait.until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, "input[type='password']"))
                 )
+                password_field.clear()
                 password_field.send_keys(password)
-                password_field.send_keys(Keys.RETURN)
                 print("✅ Password entered")
+
+                password_field.send_keys(Keys.RETURN)
                 time.sleep(5)
+
             except Exception as e:
-                print(f"⚠️  Could not find password field: {e}")
-                # Try alternative selector
-                try:
-                    password_field = driver.find_element(By.NAME, "password")
-                    password_field.send_keys(password)
-                    password_field.send_keys(Keys.RETURN)
-                    print("✅ Password entered (alternative)")
-                    time.sleep(5)
-                except:
-                    print("❌ Could not find any password field")
-                    driver.quit()
-                    return False
-        
+                print(f"❌ Could not find password field after Next: {e}")
+                driver.quit()
+                return False
+
         # Check login success
         if "home" in driver.current_url or "twitter.com" in driver.current_url:
             print("✅ Login successful!")

@@ -88,12 +88,20 @@ def test_facebook_posting():
             # Enter credentials
             print("🔐 Entering credentials...")
             try:
-                email_field = WebDriverWait(driver, 10).until(
-                    EC.presence_of_element_located((By.ID, "email"))
+                email_field = WebDriverWait(driver, 15).until(
+                    EC.presence_of_element_located(
+                        (By.CSS_SELECTOR, "input[name='email'], input#email")
+                    )
                 )
+                email_field.clear()
                 email_field.send_keys(username)
-                
-                pass_field = driver.find_element(By.ID, "pass")
+
+                pass_field = WebDriverWait(driver, 15).until(
+                    EC.presence_of_element_located(
+                        (By.CSS_SELECTOR, "input[name='pass'], input#pass")
+                    )
+                )
+                pass_field.clear()
                 pass_field.send_keys(password)
                 pass_field.send_keys(Keys.RETURN)
                 

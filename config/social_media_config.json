@@ -4,8 +4,8 @@
       "enabled": true,
       "method": "browser_automation",
       "credentials": {
-        "username": "YOUR_INSTAGRAM_USERNAME",
-        "password": "YOUR_INSTAGRAM_PASSWORD"
+        "username": "servicesell.ai",
+        "password": "Spine123!"
       },
       "business_account": true,
       "post_types": [
@@ -23,11 +23,11 @@
       "enabled": true,
       "method": "browser_automation",
       "credentials": {
-        "username": "YOUR_FACEBOOK_USERNAME",
-        "password": "YOUR_FACEBOOK_PASSWORD"
+        "username": "shyamdesigan@gmail.com",
+        "password": "Spine123!"
       },
       "pages": [
-        "YOUR_PAGE_NAME"
+        "FinBridgewithAI"
       ],
       "post_types": [
         "status",
@@ -50,8 +50,8 @@
         "access_token": "2010735805342568448-fw2zLevnofBrnGx0NANEbDKzfGfCKU",
         "access_token_secret": "AA9gb25fPREueXFGV7FTlM9uYdIsYy1tgrBNV3pxRnvfJ",
         "bearer_token": "AAAAAAAAAAAAAAAAAAAAALPN7QEAAAAAaDArGDFQqkqtsBEAgdoJQtrGgfw%3DxB7ZrCWwpPC3YWeaIbuGdnhTBc9cR6qjHC5yEetQvqTucfUeUK",
-        "username": "YOUR_TWITTER_USERNAME",
-        "password": "YOUR_TWITTER_PASSWORD",
+        "username": "SDesigan84042",
+        "password": "Spine123!Vznu",
         "oauth2_client_id": "VGIydFhRRzhLckxRT0RGbUQxMDA6MTpjaQ",
         "oauth2_client_secret": "Yk-VInh_-1LYMSWw2Rrd-mfAAS3CYz-una4p6D0iyeuxKJrPWR"
       },
@@ -155,17 +155,13 @@
       "api_key": "AIzaSyBbQfFg7d-XOnRuB67WtKoWRx2hq9G8QhM",
       "model": "gemini-2.5-flash",
       "use_for": [
-        "text_content",
-        "hashtag_generation",
-        "content_calendar",
-        "competitor_analysis",
         "image_analysis",
         "video_analysis",
         "visual_content",
         "brand_analysis"
       ],
       "credits": "$300 Google Cloud",
-      "priority": "primary",
+      "priority": "backup",
       "status": "active"
     },
     "xai": {
@@ -173,22 +169,26 @@
       "api_key": "xai-vzGa7b1VR6o5vLXxKqL69u8iIMWvACT2P8gmt5mrh4wMWqJvnPlZp4B6RK8hum5HHHnfM2g9wKvFkr1t",
       "model": "grok-4-latest",
       "use_for": [
-        "text_content_backup",
         "long_form_content",
-        "creative_writing"
+        "creative_writing",
+        "complex_research"
       ],
-      "priority": "backup",
+      "priority": "tertiary",
       "status": "active"
     },
     "deepseek": {
       "enabled": true,
       "model": "custom-api-deepseek-com/deepseek-chat",
       "use_for": [
+        "text_content",
+        "hashtag_generation",
+        "content_calendar",
+        "competitor_analysis",
         "system_tasks",
         "code_generation",
         "fallback_all"
       ],
-      "priority": "system",
+      "priority": "primary",
       "status": "active"
     }
   }

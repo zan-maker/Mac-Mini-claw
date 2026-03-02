@@ -6,6 +6,11 @@ CRON_GMAIL_CC = "sam@impactquadrant.info"
 
 STANDARD_SIGNATURE = """Best regards,
 
+Agent Manager
+Sam Desigan
+Sam@impactquadrant.info
+Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up"""
+
 def send_cron_email(to_emails, subject, body_text, body_html=None, cc_emails=None):
     """Send email using dedicated cron job Gmail account"""
     import smtplib
@@ -23,105 +28,52 @@ def send_cron_email(to_emails, subject, body_text, body_html=None, cc_emails=Non
         if cc_emails is None:
             cc_list = [CRON_GMAIL_CC]
         elif isinstance(cc_emails, str):
-            cc_list = [cc_emails]
+            cc_list = [cc_emails, CRON_GMAIL_CC]
         else:
-            cc_list = cc_emails
+            cc_list = cc_emails + [CRON_GMAIL_CC]
         
         # Create message
         msg = MIMEMultipart('alternative')
-        msg['From'] = f'Agent Manager <{CRON_GMAIL_EMAIL}>'
+        msg['Subject'] = subject
+        msg['From'] = CRON_GMAIL_EMAIL
         msg['To'] = ', '.join(to_list)
         msg['Cc'] = ', '.join(cc_list)
-        msg['Subject'] = subject
         
-        # Add text version
-        full_text = body_text + "\n\n" + STANDARD_SIGNATURE
-        text_part = MIMEText(full_text, 'plain')
-        msg.attach(text_part)
-        
-        # Add HTML version if provided
+        # Add body
+        part1 = MIMEText(body_text + '\n\n' + STANDARD_SIGNATURE, 'plain')
         if body_html:
-            full_html = body_html + "<br><br>" + STANDARD_SIGNATURE.replace('\n', '<br>')
-            html_part = MIMEText(full_html, 'html')
-            msg.attach(html_part)
+            part2 = MIMEText(body_html + '<br><br>' + STANDARD_SIGNATURE.replace('\n', '<br>'), 'html')
+            msg.attach(part2)
+        msg.attach(part1)
         
-        # Connect and send
+        # Send email
         context = ssl.create_default_context()
-        server = smtplib.SMTP("smtp.gmail.com", 587)
-        server.starttls(context=context)
-        server.login(CRON_GMAIL_EMAIL, CRON_GMAIL_PASSWORD)
-        server.send_message(msg)
-        server.quit()
+        with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as server:
+            server.login(CRON_GMAIL_EMAIL, CRON_GMAIL_PASSWORD)
+            server.send_message(msg)
         
-        return True, f"Email sent successfully using {CRON_GMAIL_EMAIL}"
+        print(f"✅ Email sent to {len(to_list)} recipients")
+        return True
         
     except Exception as e:
-        return False, f"Error sending email: {str(e)}"
+        print(f"❌ Email failed: {e}")
+        return False
 
-
-Agent Manager
-
-Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up."""
-
-"""
-B2B Referral Fee Engine - Gmail SMTP (Cron) Integration
-Sends emails from Zander@cron_gmail.to with CC to sam@impactquadrant.info
-Dual-sided outreach: prospects (demand) + service providers (supply)
-"""
-
-import requests
-import json
-from datetime import datetime
-
-# Gmail SMTP (Cron) Configuration
-# Removed old Gmail SMTP (Cron) API key
-AGENTMAIL_INBOX = "Zander@cron_gmail.to"
+# Email templates
 CC_EMAIL = "sam@impactquadrant.info"
 
-BASE_URL = "https://api.cron_gmail.to/v0"
-
-def send_email(to_email, subject, text_content, html_content=None, cc=None):
-    """Send email via Gmail SMTP (Cron) API"""
-    headers = {
-        "Authorization": f"Bearer {AGENTMAIL_API_KEY}",
-        "Content-Type": "application/json"
-    }
-    
-    payload = {
-        "inbox_id": AGENTMAIL_INBOX,
-        "to": [to_email],
-        "subject": subject,
-        "text": text_content
-    }
-    
-    if html_content:
-        payload["html"] = html_content
-    if cc:
-        payload["cc"] = [cc] if isinstance(cc, str) else cc
-    
-    try:
-        response = send_cron_email(to_emails, subject, body_text)
-        if response.status_code == 200:
-            return {"success": True, "message_id": response.json().get("message_id")}
-        else:
-            return {"success": False, "error": f"HTTP {response.status_code}: {response.text}"}
-    except Exception as e:
-        return {"success": False, "error": str(e)}
-
-# DEMAND-SIDE: Prospect Outreach
-
-def create_prospect_email(company_name, signal, service_needed, contact_name, contact_email):
+def create_prospect_email(firm_name, service_type, contact_name, contact_email, vertical):
     """Create email to prospect (business needing services)"""
     
-    subject = f"Quick question about {signal}"
+    subject = f"Introduction — vetted {service_type} providers"
     
     text = f"""Hi {contact_name.split()[0] if contact_name else 'there'},
 
-Congrats on {signal}. Companies at your stage typically start evaluating {service_needed} around this time.
+I noticed your company is in the {vertical} space. I run a network that connects growing companies with pre-vetted {service_type} providers.
 
-I work with a network of vetted service providers and have helped similar companies find the right fit quickly. Happy to make a no-obligation introduction if this is on your radar.
+We work with a curated list of {service_type} firms that have proven track records with companies like yours. If you're considering {service_type} services in the next 3-6 months, I'd be happy to make introductions.
 
-Worth a quick chat?
+Would a brief call make sense?
 
 Best,
 Zander
@@ -129,24 +81,23 @@ Zander
     
     html = f"""<p>Hi {contact_name.split()[0] if contact_name else 'there'},</p>
 
-<p>Congrats on {signal}. Companies at your stage typically start evaluating {service_needed} around this time.</p>
+<p>I noticed your company is in the {vertical} space. I run a network that connects growing companies with pre-vetted {service_type} providers.</p>
 
-<p>I work with a network of vetted service providers and have helped similar companies find the right fit quickly. Happy to make a no-obligation introduction if this is on your radar.</p>
+<p>We work with a curated list of {service_type} firms that have proven track records with companies like yours. If you're considering {service_type} services in the next 3-6 months, I'd be happy to make introductions.</p>
 
-<p>Worth a quick chat?</p>
+<p>Would a brief call make sense?</p>
 
 <p>Best,<br>Zander</p>
 """
     
     return {"to": contact_email, "subject": subject, "text": text, "html": html, "cc": CC_EMAIL}
 
-# SUPPLY-SIDE: Service Provider Outreach
-
 def create_provider_email(firm_name, service_type, contact_name, contact_email, vertical):
     """Create email to service provider (seeking referral partnership)"""
     
     subject = f"Referral partnership — qualified {vertical} leads"
     
+    # Text version
     text = f"""Hi {contact_name.split()[0] if contact_name else 'there'},
 
 I run a business advisory network that connects growing companies with vetted {service_type} providers. We're currently working with companies showing strong buying signals for {service_type}.
@@ -161,6 +112,7 @@ Best,
 Zander
 """
     
+    # HTML version
     html = f"""<p>Hi {contact_name.split()[0] if contact_name else 'there'},</p>
 
 <p>I run a business advisory network that connects growing companies with vetted {service_type} providers. We're currently working with companies showing strong buying signals for {service_type}.</p>
@@ -178,32 +130,68 @@ Zander
 
 def send_prospect_outreach(prospect_data):
     """Send outreach to prospect"""
-    email = create_prospect_email(
-        company_name=prospect_data.get("company_name", ""),
-        signal=prospect_data.get("signal", "your recent growth"),
-        service_needed=prospect_data.get("service_needed", "professional services"),
-        contact_name=prospect_data.get("contact_name", ""),
-        contact_email=prospect_data.get("contact_email", "")
+    email_data = create_prospect_email(
+        prospect_data['firm_name'],
+        prospect_data['service_type'],
+        prospect_data['contact_name'],
+        prospect_data['contact_email'],
+        prospect_data['vertical']
     )
-    return send_email(email["to"], email["subject"], email["text"], email["html"], email["cc"])
+    
+    return send_cron_email(
+        email_data['to'],
+        email_data['subject'],
+        email_data['text'],
+        email_data['html'],
+        email_data['cc']
+    )
 
 def send_provider_outreach(provider_data):
     """Send outreach to service provider"""
-    email = create_provider_email(
-        firm_name=provider_data.get("firm_name", ""),
-        service_type=provider_data.get("service_type", ""),
-        contact_name=provider_data.get("contact_name", ""),
-        contact_email=provider_data.get("contact_email", ""),
-        vertical=provider_data.get("vertical", "")
+    email_data = create_provider_email(
+        provider_data['firm_name'],
+        provider_data['service_type'],
+        provider_data['contact_name'],
+        provider_data['contact_email'],
+        provider_data['vertical']
     )
-    return send_email(email["to"], email["subject"], email["text"], email["html"], email["cc"])
+    
+    return send_cron_email(
+        email_data['to'],
+        email_data['subject'],
+        email_data['text'],
+        email_data['html'],
+        email_data['cc']
+    )
 
 if __name__ == "__main__":
-    print("\n" + "="*60)
-    print("B2B Referral Fee Engine - Gmail SMTP (Cron) Integration")
-    print("="*60 + "\n")
+    # Test the functions
+    print("Testing B2B Referral AgentMail System")
     
-    print(f"From: {AGENTMAIL_INBOX}")
-    print(f"CC: {CC_EMAIL}")
-    print("\n✅ Integration configured and ready!")
-    print("\n" + "="*60 + "\n")
+    # Test prospect email
+    prospect_test = {
+        'firm_name': 'Test Company',
+        'service_type': 'accounting',
+        'contact_name': 'John Doe',
+        'contact_email': 'test@example.com',
+        'vertical': 'technology'
+    }
+    
+    print("\nCreating prospect email...")
+    prospect_email = create_prospect_email(**prospect_test)
+    print(f"Subject: {prospect_email['subject']}")
+    
+    # Test provider email
+    provider_test = {
+        'firm_name': 'Accounting Firm LLC',
+        'service_type': 'accounting',
+        'contact_name': 'Jane Smith',
+        'contact_email': 'test@example.com',
+        'vertical': 'technology'
+    }
+    
+    print("\nCreating provider email...")
+    provider_email = create_provider_email(**provider_test)
+    print(f"Subject: {provider_email['subject']}")
+    
+    print("\n✅ System ready for use!")

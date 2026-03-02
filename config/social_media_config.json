@@ -191,5 +191,30 @@
       "priority": "primary",
       "status": "active"
     }
+  },
+  "apis": {
+    "people_data_labs": {
+      "name": "People Data Labs",
+      "api_key": "fa5b2ea6dee53ad4f40b71bd51fc1d48d8c3efeea44faf342e7561be83772093",
+      "base_url": "https://api.peopledatalabs.com/v5",
+      "status": "active",
+      "purpose": "Company enrichment, employee data, firmographics",
+      "rate_limit": "100 requests/day (free tier)",
+      "endpoints": {
+        "company_enrichment": "/company/enrich",
+        "company_search": "/company/search",
+        "person_enrichment": "/person/enrich",
+        "person_search": "/person/search"
+      },
+      "capabilities": [
+        "Company data enrichment",
+        "Employee count & roles",
+        "Industry classification",
+        "Funding & revenue data",
+        "Location information",
+        "Social media profiles",
+        "Technologies used"
+      ]
+    }
   }
 }

@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "industry": "salons_spas",
+    "location": "new york",
+    "timestamp": "20260302_183338",
+    "total_leads": 60,
+    "platform_counts": {
+      "craigslist": 15,
+      "yellow_pages": 15,
+      "yelp": 15,
+      "twitter": 15
+    },
+    "processed_at": "20260302_185155",
+    "total_outreach_leads": 15
+  },
+  "outreach_leads": [
+    {
+      "business_name": "Hair Salon Service 1",
+      "contact_name": "Owner 1",
+      "phone": "(555) 100-2000",
+      "email": "contact@hairsalon1.com",
+      "website": "https://hairsalon1.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Hair Salon Service 1 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Hair Salon Service 1",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818553",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Hair Salon Service 2",
+      "contact_name": "Owner 2",
+      "phone": "(555) 101-2001",
+      "email": "contact@hairsalon2.com",
+      "website": "https://hairsalon2.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Hair Salon Service 2 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Hair Salon Service 2",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818591",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Hair Salon Service 3",
+      "contact_name": "Owner 3",
+      "phone": "(555) 102-2002",
+      "email": "contact@hairsalon3.com",
+      "website": "https://hairsalon3.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Hair Salon Service 3 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Hair Salon Service 3",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818605",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Hair Salon Service 4",
+      "contact_name": "Owner 4",
+      "phone": "(555) 103-2003",
+      "email": "contact@hairsalon4.com",
+      "website": "https://hairsalon4.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Hair Salon Service 4 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Hair Salon Service 4",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818619",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Hair Salon Service 5",
+      "contact_name": "Owner 5",
+      "phone": "(555) 104-2004",
+      "email": "contact@hairsalon5.com",
+      "website": "https://hairsalon5.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Hair Salon Service 5 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Hair Salon Service 5",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818629",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Hair Salon Service 6",
+      "contact_name": "Owner 6",
+      "phone": "(555) 105-2005",
+      "email": "contact@hairsalon6.com",
+      "website": "https://hairsalon6.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Hair Salon Service 6 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Hair Salon Service 6",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818639",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Hair Salon Service 7",
+      "contact_name": "Owner 7",
+      "phone": "(555) 106-2006",
+      "email": "contact@hairsalon7.com",
+      "website": "https://hairsalon7.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Hair Salon Service 7 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Hair Salon Service 7",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818648",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Hair Salon Service 8",
+      "contact_name": "Owner 8",
+      "phone": "(555) 107-2007",
+      "email": "contact@hairsalon8.com",
+      "website": "https://hairsalon8.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Hair Salon Service 8 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Hair Salon Service 8",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818657",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Hair Salon Service 9",
+      "contact_name": "Owner 9",
+      "phone": "(555) 108-2008",
+      "email": "contact@hairsalon9.com",
+      "website": "https://hairsalon9.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Hair Salon Service 9 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Hair Salon Service 9",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818667",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Hair Salon Service 10",
+      "contact_name": "Owner 10",
+      "phone": "(555) 109-2009",
+      "email": "contact@hairsalon10.com",
+      "website": "https://hairsalon10.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Hair Salon Service 10 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Hair Salon Service 10",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818677",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Nail Salon Service 1",
+      "contact_name": "Owner 1",
+      "phone": "(555) 100-2000",
+      "email": "contact@nailsalon1.com",
+      "website": "https://nailsalon1.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Nail Salon Service 1 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Nail Salon Service 1",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818686",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Nail Salon Service 2",
+      "contact_name": "Owner 2",
+      "phone": "(555) 101-2001",
+      "email": "contact@nailsalon2.com",
+      "website": "https://nailsalon2.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Nail Salon Service 2 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Nail Salon Service 2",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818695",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Nail Salon Service 3",
+      "contact_name": "Owner 3",
+      "phone": "(555) 102-2002",
+      "email": "contact@nailsalon3.com",
+      "website": "https://nailsalon3.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Nail Salon Service 3 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Nail Salon Service 3",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818706",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Nail Salon Service 4",
+      "contact_name": "Owner 4",
+      "phone": "(555) 103-2003",
+      "email": "contact@nailsalon4.com",
+      "website": "https://nailsalon4.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Nail Salon Service 4 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Nail Salon Service 4",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818716",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    },
+    {
+      "business_name": "Nail Salon Service 5",
+      "contact_name": "Owner 5",
+      "phone": "(555) 104-2004",
+      "email": "contact@nailsalon5.com",
+      "website": "https://nailsalon5.com",
+      "location": "new york",
+      "industry": "",
+      "source": "craigslist",
+      "lead_score": 100,
+      "outreach_method": "email",
+      "outreach_message": {
+        "subject": "Reduce no-shows & fill last-minute cancellations",
+        "body": "Hi there,\n\nI noticed Nail Salon Service 5 provides alon pa services.\n\nDo you struggle with no-shows or last-minute cancellations?\n\nMost salons spas lose 20-30% of revenue to:\n\u2022 No-shows and cancellations\n\u2022 Missed calls/texts after hours\n\u2022 Lost leads in Instagram DMs\n\u2022 Empty chairs from cancellations\n\nOur AI receptionist for salons spas:\n\u2022 Sends smart reminders (72h, 24h, 2h)\n\u2022 Captures leads 24/7 from calls/texts/DMs\n\u2022 Fills cancellations automatically from waitlist\n\u2022 Books appointments with staff approval\n\nIt pays for itself by filling just 2-3 cancellation gaps per month.\n\nWould you have 15 minutes next week to see how it works?\n\nBest,\nSam\nClawReceptionist",
+        "personalization_fields": {
+          "business_name": "Nail Salon Service 5",
+          "industry": "salons spas"
+        }
+      },
+      "prepared_at": "2026-03-02T18:51:55.818725",
+      "status": "pending",
+      "outreach_date": "2026-03-02"
+    }
+  ]
+}

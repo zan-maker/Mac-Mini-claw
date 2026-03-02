@@ -3832,5 +3832,113 @@
     },
     "quiet_hours": false,
     "protocol_version": "1.0"
+  },
+  {
+    "timestamp": "2026-03-02T14:56:54.317785",
+    "compliance_score": 1.0,
+    "checks": {
+      "communication": {
+        "passed": true,
+        "violations": [],
+        "quiet_hours": false,
+        "current_hour": 14
+      },
+      "transparency": {
+        "passed": true,
+        "transparency_rate": 1.0,
+        "recent_decisions": 0,
+        "transparent_decisions": 0,
+        "violations": []
+      },
+      "safety": {
+        "passed": true,
+        "unapproved_actions": 0,
+        "total_actions": 0,
+        "violations": []
+      }
+    },
+    "quiet_hours": false,
+    "protocol_version": "1.0"
+  },
+  {
+    "timestamp": "2026-03-02T15:57:20.619056",
+    "compliance_score": 1.0,
+    "checks": {
+      "communication": {
+        "passed": true,
+        "violations": [],
+        "quiet_hours": false,
+        "current_hour": 15
+      },
+      "transparency": {
+        "passed": true,
+        "transparency_rate": 1.0,
+        "recent_decisions": 0,
+        "transparent_decisions": 0,
+        "violations": []
+      },
+      "safety": {
+        "passed": true,
+        "unapproved_actions": 0,
+        "total_actions": 0,
+        "violations": []
+      }
+    },
+    "quiet_hours": false,
+    "protocol_version": "1.0"
+  },
+  {
+    "timestamp": "2026-03-02T16:57:45.660736",
+    "compliance_score": 1.0,
+    "checks": {
+      "communication": {
+        "passed": true,
+        "violations": [],
+        "quiet_hours": false,
+        "current_hour": 16
+      },
+      "transparency": {
+        "passed": true,
+        "transparency_rate": 1.0,
+        "recent_decisions": 0,
+        "transparent_decisions": 0,
+        "violations": []
+      },
+      "safety": {
+        "passed": true,
+        "unapproved_actions": 0,
+        "total_actions": 0,
+        "violations": []
+      }
+    },
+    "quiet_hours": false,
+    "protocol_version": "1.0"
+  },
+  {
+    "timestamp": "2026-03-02T17:58:00.628700",
+    "compliance_score": 1.0,
+    "checks": {
+      "communication": {
+        "passed": true,
+        "violations": [],
+        "quiet_hours": false,
+        "current_hour": 17
+      },
+      "transparency": {
+        "passed": true,
+        "transparency_rate": 1.0,
+        "recent_decisions": 0,
+        "transparent_decisions": 0,
+        "violations": []
+      },
+      "safety": {
+        "passed": true,
+        "unapproved_actions": 0,
+        "total_actions": 0,
+        "violations": []
+      }
+    },
+    "quiet_hours": false,
+    "protocol_version": "1.0"
   }
 ]

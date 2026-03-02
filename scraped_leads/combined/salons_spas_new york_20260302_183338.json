@@ -1,0 +1,1261 @@
+{
+  "metadata": {
+    "industry": "salons_spas",
+    "location": "new york",
+    "timestamp": "20260302_183338",
+    "total_leads": 60,
+    "platform_counts": {
+      "craigslist": 15,
+      "yellow_pages": 15,
+      "yelp": 15,
+      "twitter": 15
+    }
+  },
+  "leads": [
+    {
+      "platform": "craigslist",
+      "business_name": "Hair Salon Service 1",
+      "contact_name": "Owner 1",
+      "phone": "(555) 100-2000",
+      "email": "contact@hairsalon1.com",
+      "website": "https://hairsalon1.com",
+      "location": "new york",
+      "service_type": "hair salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional hair salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/hairsalon/1",
+      "scraped_at": "2026-03-02T18:33:38.850747",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Hair Salon Service 2",
+      "contact_name": "Owner 2",
+      "phone": "(555) 101-2001",
+      "email": "contact@hairsalon2.com",
+      "website": "https://hairsalon2.com",
+      "location": "new york",
+      "service_type": "hair salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional hair salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/hairsalon/2",
+      "scraped_at": "2026-03-02T18:33:38.850767",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Hair Salon Service 3",
+      "contact_name": "Owner 3",
+      "phone": "(555) 102-2002",
+      "email": "contact@hairsalon3.com",
+      "website": "https://hairsalon3.com",
+      "location": "new york",
+      "service_type": "hair salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional hair salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/hairsalon/3",
+      "scraped_at": "2026-03-02T18:33:38.850779",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Hair Salon Service 4",
+      "contact_name": "Owner 4",
+      "phone": "(555) 103-2003",
+      "email": "contact@hairsalon4.com",
+      "website": "https://hairsalon4.com",
+      "location": "new york",
+      "service_type": "hair salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional hair salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/hairsalon/4",
+      "scraped_at": "2026-03-02T18:33:38.850790",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Hair Salon Service 5",
+      "contact_name": "Owner 5",
+      "phone": "(555) 104-2004",
+      "email": "contact@hairsalon5.com",
+      "website": "https://hairsalon5.com",
+      "location": "new york",
+      "service_type": "hair salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional hair salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/hairsalon/5",
+      "scraped_at": "2026-03-02T18:33:38.850803",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Hair Salon Service 6",
+      "contact_name": "Owner 6",
+      "phone": "(555) 105-2005",
+      "email": "contact@hairsalon6.com",
+      "website": "https://hairsalon6.com",
+      "location": "new york",
+      "service_type": "hair salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional hair salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/hairsalon/6",
+      "scraped_at": "2026-03-02T18:33:38.850813",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Hair Salon Service 7",
+      "contact_name": "Owner 7",
+      "phone": "(555) 106-2006",
+      "email": "contact@hairsalon7.com",
+      "website": "https://hairsalon7.com",
+      "location": "new york",
+      "service_type": "hair salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional hair salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/hairsalon/7",
+      "scraped_at": "2026-03-02T18:33:38.850822",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Hair Salon Service 8",
+      "contact_name": "Owner 8",
+      "phone": "(555) 107-2007",
+      "email": "contact@hairsalon8.com",
+      "website": "https://hairsalon8.com",
+      "location": "new york",
+      "service_type": "hair salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional hair salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/hairsalon/8",
+      "scraped_at": "2026-03-02T18:33:38.850831",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Hair Salon Service 9",
+      "contact_name": "Owner 9",
+      "phone": "(555) 108-2008",
+      "email": "contact@hairsalon9.com",
+      "website": "https://hairsalon9.com",
+      "location": "new york",
+      "service_type": "hair salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional hair salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/hairsalon/9",
+      "scraped_at": "2026-03-02T18:33:38.850879",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Hair Salon Service 10",
+      "contact_name": "Owner 10",
+      "phone": "(555) 109-2009",
+      "email": "contact@hairsalon10.com",
+      "website": "https://hairsalon10.com",
+      "location": "new york",
+      "service_type": "hair salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional hair salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/hairsalon/10",
+      "scraped_at": "2026-03-02T18:33:38.850893",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Nail Salon Service 1",
+      "contact_name": "Owner 1",
+      "phone": "(555) 100-2000",
+      "email": "contact@nailsalon1.com",
+      "website": "https://nailsalon1.com",
+      "location": "new york",
+      "service_type": "nail salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional nail salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/nailsalon/1",
+      "scraped_at": "2026-03-02T18:33:38.850905",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Nail Salon Service 2",
+      "contact_name": "Owner 2",
+      "phone": "(555) 101-2001",
+      "email": "contact@nailsalon2.com",
+      "website": "https://nailsalon2.com",
+      "location": "new york",
+      "service_type": "nail salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional nail salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/nailsalon/2",
+      "scraped_at": "2026-03-02T18:33:38.850915",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Nail Salon Service 3",
+      "contact_name": "Owner 3",
+      "phone": "(555) 102-2002",
+      "email": "contact@nailsalon3.com",
+      "website": "https://nailsalon3.com",
+      "location": "new york",
+      "service_type": "nail salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional nail salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/nailsalon/3",
+      "scraped_at": "2026-03-02T18:33:38.850924",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Nail Salon Service 4",
+      "contact_name": "Owner 4",
+      "phone": "(555) 103-2003",
+      "email": "contact@nailsalon4.com",
+      "website": "https://nailsalon4.com",
+      "location": "new york",
+      "service_type": "nail salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional nail salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/nailsalon/4",
+      "scraped_at": "2026-03-02T18:33:38.850933",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Nail Salon Service 5",
+      "contact_name": "Owner 5",
+      "phone": "(555) 104-2004",
+      "email": "contact@nailsalon5.com",
+      "website": "https://nailsalon5.com",
+      "location": "new york",
+      "service_type": "nail salon",
+      "listing_date": "2026-03-02",
+      "description": "Professional nail salon services. Licensed and insured.",
+      "source_url": "https://craigslist.org/nailsalon/5",
+      "scraped_at": "2026-03-02T18:33:38.850942",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 1",
+      "contact_name": "Manager 1",
+      "phone": "(555) 300-4000",
+      "email": "info@beautysalons1.com",
+      "website": "https://www.beautysalons1.com",
+      "address": "100 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 5,
+      "rating": 3.5,
+      "review_count": 10,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-1",
+      "scraped_at": "2026-03-02T18:33:38.852931",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 2",
+      "contact_name": "Manager 2",
+      "phone": "(555) 301-4001",
+      "email": "info@beautysalons2.com",
+      "website": "https://www.beautysalons2.com",
+      "address": "200 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 6,
+      "rating": 4.5,
+      "review_count": 13,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-2",
+      "scraped_at": "2026-03-02T18:33:38.852946",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 3",
+      "contact_name": "Manager 3",
+      "phone": "(555) 302-4002",
+      "email": "info@beautysalons3.com",
+      "website": "https://www.beautysalons3.com",
+      "address": "300 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 7,
+      "rating": 4.0,
+      "review_count": 16,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-3",
+      "scraped_at": "2026-03-02T18:33:38.852955",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 4",
+      "contact_name": "Manager 4",
+      "phone": "(555) 303-4003",
+      "email": "info@beautysalons4.com",
+      "website": "https://www.beautysalons4.com",
+      "address": "400 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 8,
+      "rating": 3.5,
+      "review_count": 19,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-4",
+      "scraped_at": "2026-03-02T18:33:38.852961",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 5",
+      "contact_name": "Manager 5",
+      "phone": "(555) 304-4004",
+      "email": "info@beautysalons5.com",
+      "website": "https://www.beautysalons5.com",
+      "address": "500 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 9,
+      "rating": 4.5,
+      "review_count": 22,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-5",
+      "scraped_at": "2026-03-02T18:33:38.852967",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 6",
+      "contact_name": "Manager 6",
+      "phone": "(555) 305-4005",
+      "email": "info@beautysalons6.com",
+      "website": "https://www.beautysalons6.com",
+      "address": "600 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 10,
+      "rating": 4.0,
+      "review_count": 25,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-6",
+      "scraped_at": "2026-03-02T18:33:38.852973",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 7",
+      "contact_name": "Manager 7",
+      "phone": "(555) 306-4006",
+      "email": "info@beautysalons7.com",
+      "website": "https://www.beautysalons7.com",
+      "address": "700 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 11,
+      "rating": 3.5,
+      "review_count": 28,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-7",
+      "scraped_at": "2026-03-02T18:33:38.852978",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 8",
+      "contact_name": "Manager 8",
+      "phone": "(555) 307-4007",
+      "email": "info@beautysalons8.com",
+      "website": "https://www.beautysalons8.com",
+      "address": "800 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 12,
+      "rating": 4.5,
+      "review_count": 31,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-8",
+      "scraped_at": "2026-03-02T18:33:38.852984",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 9",
+      "contact_name": "Manager 9",
+      "phone": "(555) 308-4008",
+      "email": "info@beautysalons9.com",
+      "website": "https://www.beautysalons9.com",
+      "address": "900 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 13,
+      "rating": 4.0,
+      "review_count": 34,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-9",
+      "scraped_at": "2026-03-02T18:33:38.852989",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 10",
+      "contact_name": "Manager 10",
+      "phone": "(555) 309-4009",
+      "email": "info@beautysalons10.com",
+      "website": "https://www.beautysalons10.com",
+      "address": "1000 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 14,
+      "rating": 3.5,
+      "review_count": 37,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-10",
+      "scraped_at": "2026-03-02T18:33:38.852995",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 11",
+      "contact_name": "Manager 11",
+      "phone": "(555) 310-4010",
+      "email": "info@beautysalons11.com",
+      "website": "https://www.beautysalons11.com",
+      "address": "1100 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 5,
+      "rating": 4.5,
+      "review_count": 40,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-11",
+      "scraped_at": "2026-03-02T18:33:38.853001",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 12",
+      "contact_name": "Manager 12",
+      "phone": "(555) 311-4011",
+      "email": "info@beautysalons12.com",
+      "website": "https://www.beautysalons12.com",
+      "address": "1200 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 6,
+      "rating": 4.0,
+      "review_count": 43,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-12",
+      "scraped_at": "2026-03-02T18:33:38.853007",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 13",
+      "contact_name": "Manager 13",
+      "phone": "(555) 312-4012",
+      "email": "info@beautysalons13.com",
+      "website": "https://www.beautysalons13.com",
+      "address": "1300 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 7,
+      "rating": 3.5,
+      "review_count": 46,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-13",
+      "scraped_at": "2026-03-02T18:33:38.853012",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 14",
+      "contact_name": "Manager 14",
+      "phone": "(555) 313-4013",
+      "email": "info@beautysalons14.com",
+      "website": "https://www.beautysalons14.com",
+      "address": "1400 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 8,
+      "rating": 4.5,
+      "review_count": 49,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-14",
+      "scraped_at": "2026-03-02T18:33:38.853017",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Beauty Pro 15",
+      "contact_name": "Manager 15",
+      "phone": "(555) 314-4014",
+      "email": "info@beautysalons15.com",
+      "website": "https://www.beautysalons15.com",
+      "address": "1500 Business St, new york",
+      "category": "Beauty Salons",
+      "years_in_business": 9,
+      "rating": 4.0,
+      "review_count": 52,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/beauty-salons-15",
+      "scraped_at": "2026-03-02T18:33:38.853022",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 1",
+      "contact_name": "",
+      "phone": "(555) 500-6000",
+      "email": "",
+      "website": "https://www.hair1.com",
+      "address": "150 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$",
+      "health_rating": "A",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 25,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-1",
+      "scraped_at": "2026-03-02T18:33:38.853977",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 2",
+      "contact_name": "",
+      "phone": "(555) 501-6001",
+      "email": "",
+      "website": "https://www.hair2.com",
+      "address": "250 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 30,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-2",
+      "scraped_at": "2026-03-02T18:33:38.853989",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 3",
+      "contact_name": "",
+      "phone": "(555) 502-6002",
+      "email": "",
+      "website": "https://www.hair3.com",
+      "address": "350 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 35,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-3",
+      "scraped_at": "2026-03-02T18:33:38.853997",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 4",
+      "contact_name": "",
+      "phone": "(555) 503-6003",
+      "email": "",
+      "website": "https://www.hair4.com",
+      "address": "450 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$",
+      "health_rating": "A",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 40,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-4",
+      "scraped_at": "2026-03-02T18:33:38.854003",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 5",
+      "contact_name": "",
+      "phone": "(555) 504-6004",
+      "email": "",
+      "website": "https://www.hair5.com",
+      "address": "550 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 45,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-5",
+      "scraped_at": "2026-03-02T18:33:38.854009",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 6",
+      "contact_name": "",
+      "phone": "(555) 505-6005",
+      "email": "",
+      "website": "https://www.hair6.com",
+      "address": "650 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 50,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-6",
+      "scraped_at": "2026-03-02T18:33:38.854014",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 7",
+      "contact_name": "",
+      "phone": "(555) 506-6006",
+      "email": "",
+      "website": "https://www.hair7.com",
+      "address": "750 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$",
+      "health_rating": "A",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 55,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-7",
+      "scraped_at": "2026-03-02T18:33:38.854019",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 8",
+      "contact_name": "",
+      "phone": "(555) 507-6007",
+      "email": "",
+      "website": "https://www.hair8.com",
+      "address": "850 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 60,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-8",
+      "scraped_at": "2026-03-02T18:33:38.854024",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 9",
+      "contact_name": "",
+      "phone": "(555) 508-6008",
+      "email": "",
+      "website": "https://www.hair9.com",
+      "address": "950 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 65,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-9",
+      "scraped_at": "2026-03-02T18:33:38.854029",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 10",
+      "contact_name": "",
+      "phone": "(555) 509-6009",
+      "email": "",
+      "website": "https://www.hair10.com",
+      "address": "1050 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$",
+      "health_rating": "A",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 70,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-10",
+      "scraped_at": "2026-03-02T18:33:38.854034",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 11",
+      "contact_name": "",
+      "phone": "(555) 510-6010",
+      "email": "",
+      "website": "https://www.hair11.com",
+      "address": "1150 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 75,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-11",
+      "scraped_at": "2026-03-02T18:33:38.854039",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 12",
+      "contact_name": "",
+      "phone": "(555) 511-6011",
+      "email": "",
+      "website": "https://www.hair12.com",
+      "address": "1250 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 80,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-12",
+      "scraped_at": "2026-03-02T18:33:38.854044",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 13",
+      "contact_name": "",
+      "phone": "(555) 512-6012",
+      "email": "",
+      "website": "https://www.hair13.com",
+      "address": "1350 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$",
+      "health_rating": "A",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 85,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-13",
+      "scraped_at": "2026-03-02T18:33:38.854048",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 14",
+      "contact_name": "",
+      "phone": "(555) 513-6013",
+      "email": "",
+      "website": "https://www.hair14.com",
+      "address": "1450 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 90,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-14",
+      "scraped_at": "2026-03-02T18:33:38.854053",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Hair Excellence 15",
+      "contact_name": "",
+      "phone": "(555) 514-6014",
+      "email": "",
+      "website": "https://www.hair15.com",
+      "address": "1550 Commercial Ave, new york",
+      "category": "hair",
+      "price_range": "$$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 95,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/hair-15",
+      "scraped_at": "2026-03-02T18:33:38.854058",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Hair Salon Co 1",
+      "twitter_handle": "@hairsalon1",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://hairsalon1.com",
+      "location": "new york",
+      "bio": "Professional hair salon services. Quality work guaranteed.",
+      "follower_count": 500,
+      "following_count": 200,
+      "tweet_count": 1000,
+      "account_age_days": 365,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/hairsalon1",
+      "scraped_at": "2026-03-02T18:33:38.855195",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Hair Salon Co 2",
+      "twitter_handle": "@hairsalon2",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://hairsalon2.com",
+      "location": "new york",
+      "bio": "Professional hair salon services. Quality work guaranteed.",
+      "follower_count": 600,
+      "following_count": 250,
+      "tweet_count": 1200,
+      "account_age_days": 465,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/hairsalon2",
+      "scraped_at": "2026-03-02T18:33:38.855206",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Hair Salon Co 3",
+      "twitter_handle": "@hairsalon3",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://hairsalon3.com",
+      "location": "new york",
+      "bio": "Professional hair salon services. Quality work guaranteed.",
+      "follower_count": 700,
+      "following_count": 300,
+      "tweet_count": 1400,
+      "account_age_days": 565,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/hairsalon3",
+      "scraped_at": "2026-03-02T18:33:38.855211",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Hair Salon Co 4",
+      "twitter_handle": "@hairsalon4",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://hairsalon4.com",
+      "location": "new york",
+      "bio": "Professional hair salon services. Quality work guaranteed.",
+      "follower_count": 800,
+      "following_count": 350,
+      "tweet_count": 1600,
+      "account_age_days": 665,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/hairsalon4",
+      "scraped_at": "2026-03-02T18:33:38.855216",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Hair Salon Co 5",
+      "twitter_handle": "@hairsalon5",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://hairsalon5.com",
+      "location": "new york",
+      "bio": "Professional hair salon services. Quality work guaranteed.",
+      "follower_count": 900,
+      "following_count": 400,
+      "tweet_count": 1800,
+      "account_age_days": 765,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/hairsalon5",
+      "scraped_at": "2026-03-02T18:33:38.855220",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Hair Salon Co 6",
+      "twitter_handle": "@hairsalon6",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://hairsalon6.com",
+      "location": "new york",
+      "bio": "Professional hair salon services. Quality work guaranteed.",
+      "follower_count": 1000,
+      "following_count": 450,
+      "tweet_count": 2000,
+      "account_age_days": 865,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/hairsalon6",
+      "scraped_at": "2026-03-02T18:33:38.855225",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Hair Salon Co 7",
+      "twitter_handle": "@hairsalon7",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://hairsalon7.com",
+      "location": "new york",
+      "bio": "Professional hair salon services. Quality work guaranteed.",
+      "follower_count": 1100,
+      "following_count": 500,
+      "tweet_count": 2200,
+      "account_age_days": 965,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/hairsalon7",
+      "scraped_at": "2026-03-02T18:33:38.855229",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Hair Salon Co 8",
+      "twitter_handle": "@hairsalon8",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://hairsalon8.com",
+      "location": "new york",
+      "bio": "Professional hair salon services. Quality work guaranteed.",
+      "follower_count": 1200,
+      "following_count": 550,
+      "tweet_count": 2400,
+      "account_age_days": 1065,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/hairsalon8",
+      "scraped_at": "2026-03-02T18:33:38.855232",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Hair Salon Co 9",
+      "twitter_handle": "@hairsalon9",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://hairsalon9.com",
+      "location": "new york",
+      "bio": "Professional hair salon services. Quality work guaranteed.",
+      "follower_count": 1300,
+      "following_count": 600,
+      "tweet_count": 2600,
+      "account_age_days": 1165,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/hairsalon9",
+      "scraped_at": "2026-03-02T18:33:38.855236",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Hair Salon Co 10",
+      "twitter_handle": "@hairsalon10",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://hairsalon10.com",
+      "location": "new york",
+      "bio": "Professional hair salon services. Quality work guaranteed.",
+      "follower_count": 1400,
+      "following_count": 650,
+      "tweet_count": 2800,
+      "account_age_days": 1265,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/hairsalon10",
+      "scraped_at": "2026-03-02T18:33:38.855240",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Nail Salon Co 1",
+      "twitter_handle": "@nailsalon1",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://nailsalon1.com",
+      "location": "new york",
+      "bio": "Professional nail salon services. Quality work guaranteed.",
+      "follower_count": 500,
+      "following_count": 200,
+      "tweet_count": 1000,
+      "account_age_days": 365,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/nailsalon1",
+      "scraped_at": "2026-03-02T18:33:38.855246",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Nail Salon Co 2",
+      "twitter_handle": "@nailsalon2",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://nailsalon2.com",
+      "location": "new york",
+      "bio": "Professional nail salon services. Quality work guaranteed.",
+      "follower_count": 600,
+      "following_count": 250,
+      "tweet_count": 1200,
+      "account_age_days": 465,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/nailsalon2",
+      "scraped_at": "2026-03-02T18:33:38.855251",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Nail Salon Co 3",
+      "twitter_handle": "@nailsalon3",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://nailsalon3.com",
+      "location": "new york",
+      "bio": "Professional nail salon services. Quality work guaranteed.",
+      "follower_count": 700,
+      "following_count": 300,
+      "tweet_count": 1400,
+      "account_age_days": 565,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/nailsalon3",
+      "scraped_at": "2026-03-02T18:33:38.855255",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Nail Salon Co 4",
+      "twitter_handle": "@nailsalon4",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://nailsalon4.com",
+      "location": "new york",
+      "bio": "Professional nail salon services. Quality work guaranteed.",
+      "follower_count": 800,
+      "following_count": 350,
+      "tweet_count": 1600,
+      "account_age_days": 665,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/nailsalon4",
+      "scraped_at": "2026-03-02T18:33:38.855258",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Nail Salon Co 5",
+      "twitter_handle": "@nailsalon5",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://nailsalon5.com",
+      "location": "new york",
+      "bio": "Professional nail salon services. Quality work guaranteed.",
+      "follower_count": 900,
+      "following_count": 400,
+      "tweet_count": 1800,
+      "account_age_days": 765,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/nailsalon5",
+      "scraped_at": "2026-03-02T18:33:38.855262",
+      "sources": [
+        "twitter"
+      ]
+    }
+  ]
+}

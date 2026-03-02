@@ -1,0 +1,1261 @@
+{
+  "metadata": {
+    "industry": "medical_practices",
+    "location": "new york",
+    "timestamp": "20260302_183340",
+    "total_leads": 60,
+    "platform_counts": {
+      "craigslist": 15,
+      "yellow_pages": 15,
+      "yelp": 15,
+      "twitter": 15
+    }
+  },
+  "leads": [
+    {
+      "platform": "craigslist",
+      "business_name": "Dental Office Service 1",
+      "contact_name": "Owner 1",
+      "phone": "(555) 100-2000",
+      "email": "contact@dentaloffice1.com",
+      "website": "https://dentaloffice1.com",
+      "location": "new york",
+      "service_type": "dental office",
+      "listing_date": "2026-03-02",
+      "description": "Professional dental office services. Licensed and insured.",
+      "source_url": "https://craigslist.org/dentaloffice/1",
+      "scraped_at": "2026-03-02T18:33:40.038057",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Dental Office Service 2",
+      "contact_name": "Owner 2",
+      "phone": "(555) 101-2001",
+      "email": "contact@dentaloffice2.com",
+      "website": "https://dentaloffice2.com",
+      "location": "new york",
+      "service_type": "dental office",
+      "listing_date": "2026-03-02",
+      "description": "Professional dental office services. Licensed and insured.",
+      "source_url": "https://craigslist.org/dentaloffice/2",
+      "scraped_at": "2026-03-02T18:33:40.038080",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Dental Office Service 3",
+      "contact_name": "Owner 3",
+      "phone": "(555) 102-2002",
+      "email": "contact@dentaloffice3.com",
+      "website": "https://dentaloffice3.com",
+      "location": "new york",
+      "service_type": "dental office",
+      "listing_date": "2026-03-02",
+      "description": "Professional dental office services. Licensed and insured.",
+      "source_url": "https://craigslist.org/dentaloffice/3",
+      "scraped_at": "2026-03-02T18:33:40.038096",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Dental Office Service 4",
+      "contact_name": "Owner 4",
+      "phone": "(555) 103-2003",
+      "email": "contact@dentaloffice4.com",
+      "website": "https://dentaloffice4.com",
+      "location": "new york",
+      "service_type": "dental office",
+      "listing_date": "2026-03-02",
+      "description": "Professional dental office services. Licensed and insured.",
+      "source_url": "https://craigslist.org/dentaloffice/4",
+      "scraped_at": "2026-03-02T18:33:40.038108",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Dental Office Service 5",
+      "contact_name": "Owner 5",
+      "phone": "(555) 104-2004",
+      "email": "contact@dentaloffice5.com",
+      "website": "https://dentaloffice5.com",
+      "location": "new york",
+      "service_type": "dental office",
+      "listing_date": "2026-03-02",
+      "description": "Professional dental office services. Licensed and insured.",
+      "source_url": "https://craigslist.org/dentaloffice/5",
+      "scraped_at": "2026-03-02T18:33:40.038121",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Dental Office Service 6",
+      "contact_name": "Owner 6",
+      "phone": "(555) 105-2005",
+      "email": "contact@dentaloffice6.com",
+      "website": "https://dentaloffice6.com",
+      "location": "new york",
+      "service_type": "dental office",
+      "listing_date": "2026-03-02",
+      "description": "Professional dental office services. Licensed and insured.",
+      "source_url": "https://craigslist.org/dentaloffice/6",
+      "scraped_at": "2026-03-02T18:33:40.038132",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Dental Office Service 7",
+      "contact_name": "Owner 7",
+      "phone": "(555) 106-2006",
+      "email": "contact@dentaloffice7.com",
+      "website": "https://dentaloffice7.com",
+      "location": "new york",
+      "service_type": "dental office",
+      "listing_date": "2026-03-02",
+      "description": "Professional dental office services. Licensed and insured.",
+      "source_url": "https://craigslist.org/dentaloffice/7",
+      "scraped_at": "2026-03-02T18:33:40.038141",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Dental Office Service 8",
+      "contact_name": "Owner 8",
+      "phone": "(555) 107-2007",
+      "email": "contact@dentaloffice8.com",
+      "website": "https://dentaloffice8.com",
+      "location": "new york",
+      "service_type": "dental office",
+      "listing_date": "2026-03-02",
+      "description": "Professional dental office services. Licensed and insured.",
+      "source_url": "https://craigslist.org/dentaloffice/8",
+      "scraped_at": "2026-03-02T18:33:40.038151",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Dental Office Service 9",
+      "contact_name": "Owner 9",
+      "phone": "(555) 108-2008",
+      "email": "contact@dentaloffice9.com",
+      "website": "https://dentaloffice9.com",
+      "location": "new york",
+      "service_type": "dental office",
+      "listing_date": "2026-03-02",
+      "description": "Professional dental office services. Licensed and insured.",
+      "source_url": "https://craigslist.org/dentaloffice/9",
+      "scraped_at": "2026-03-02T18:33:40.038163",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Dental Office Service 10",
+      "contact_name": "Owner 10",
+      "phone": "(555) 109-2009",
+      "email": "contact@dentaloffice10.com",
+      "website": "https://dentaloffice10.com",
+      "location": "new york",
+      "service_type": "dental office",
+      "listing_date": "2026-03-02",
+      "description": "Professional dental office services. Licensed and insured.",
+      "source_url": "https://craigslist.org/dentaloffice/10",
+      "scraped_at": "2026-03-02T18:33:40.038173",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Chiropractic Clinic Service 1",
+      "contact_name": "Owner 1",
+      "phone": "(555) 100-2000",
+      "email": "contact@chiropracticclinic1.com",
+      "website": "https://chiropracticclinic1.com",
+      "location": "new york",
+      "service_type": "chiropractic clinic",
+      "listing_date": "2026-03-02",
+      "description": "Professional chiropractic clinic services. Licensed and insured.",
+      "source_url": "https://craigslist.org/chiropracticclinic/1",
+      "scraped_at": "2026-03-02T18:33:40.038186",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Chiropractic Clinic Service 2",
+      "contact_name": "Owner 2",
+      "phone": "(555) 101-2001",
+      "email": "contact@chiropracticclinic2.com",
+      "website": "https://chiropracticclinic2.com",
+      "location": "new york",
+      "service_type": "chiropractic clinic",
+      "listing_date": "2026-03-02",
+      "description": "Professional chiropractic clinic services. Licensed and insured.",
+      "source_url": "https://craigslist.org/chiropracticclinic/2",
+      "scraped_at": "2026-03-02T18:33:40.038196",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Chiropractic Clinic Service 3",
+      "contact_name": "Owner 3",
+      "phone": "(555) 102-2002",
+      "email": "contact@chiropracticclinic3.com",
+      "website": "https://chiropracticclinic3.com",
+      "location": "new york",
+      "service_type": "chiropractic clinic",
+      "listing_date": "2026-03-02",
+      "description": "Professional chiropractic clinic services. Licensed and insured.",
+      "source_url": "https://craigslist.org/chiropracticclinic/3",
+      "scraped_at": "2026-03-02T18:33:40.038206",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Chiropractic Clinic Service 4",
+      "contact_name": "Owner 4",
+      "phone": "(555) 103-2003",
+      "email": "contact@chiropracticclinic4.com",
+      "website": "https://chiropracticclinic4.com",
+      "location": "new york",
+      "service_type": "chiropractic clinic",
+      "listing_date": "2026-03-02",
+      "description": "Professional chiropractic clinic services. Licensed and insured.",
+      "source_url": "https://craigslist.org/chiropracticclinic/4",
+      "scraped_at": "2026-03-02T18:33:40.038216",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "craigslist",
+      "business_name": "Chiropractic Clinic Service 5",
+      "contact_name": "Owner 5",
+      "phone": "(555) 104-2004",
+      "email": "contact@chiropracticclinic5.com",
+      "website": "https://chiropracticclinic5.com",
+      "location": "new york",
+      "service_type": "chiropractic clinic",
+      "listing_date": "2026-03-02",
+      "description": "Professional chiropractic clinic services. Licensed and insured.",
+      "source_url": "https://craigslist.org/chiropracticclinic/5",
+      "scraped_at": "2026-03-02T18:33:40.038229",
+      "sources": [
+        "craigslist"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 1",
+      "contact_name": "Manager 1",
+      "phone": "(555) 300-4000",
+      "email": "info@dentists1.com",
+      "website": "https://www.dentists1.com",
+      "address": "100 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 5,
+      "rating": 3.5,
+      "review_count": 10,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-1",
+      "scraped_at": "2026-03-02T18:33:40.040261",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 2",
+      "contact_name": "Manager 2",
+      "phone": "(555) 301-4001",
+      "email": "info@dentists2.com",
+      "website": "https://www.dentists2.com",
+      "address": "200 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 6,
+      "rating": 4.5,
+      "review_count": 13,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-2",
+      "scraped_at": "2026-03-02T18:33:40.040276",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 3",
+      "contact_name": "Manager 3",
+      "phone": "(555) 302-4002",
+      "email": "info@dentists3.com",
+      "website": "https://www.dentists3.com",
+      "address": "300 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 7,
+      "rating": 4.0,
+      "review_count": 16,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-3",
+      "scraped_at": "2026-03-02T18:33:40.040285",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 4",
+      "contact_name": "Manager 4",
+      "phone": "(555) 303-4003",
+      "email": "info@dentists4.com",
+      "website": "https://www.dentists4.com",
+      "address": "400 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 8,
+      "rating": 3.5,
+      "review_count": 19,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-4",
+      "scraped_at": "2026-03-02T18:33:40.040291",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 5",
+      "contact_name": "Manager 5",
+      "phone": "(555) 304-4004",
+      "email": "info@dentists5.com",
+      "website": "https://www.dentists5.com",
+      "address": "500 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 9,
+      "rating": 4.5,
+      "review_count": 22,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-5",
+      "scraped_at": "2026-03-02T18:33:40.040297",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 6",
+      "contact_name": "Manager 6",
+      "phone": "(555) 305-4005",
+      "email": "info@dentists6.com",
+      "website": "https://www.dentists6.com",
+      "address": "600 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 10,
+      "rating": 4.0,
+      "review_count": 25,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-6",
+      "scraped_at": "2026-03-02T18:33:40.040302",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 7",
+      "contact_name": "Manager 7",
+      "phone": "(555) 306-4006",
+      "email": "info@dentists7.com",
+      "website": "https://www.dentists7.com",
+      "address": "700 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 11,
+      "rating": 3.5,
+      "review_count": 28,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-7",
+      "scraped_at": "2026-03-02T18:33:40.040307",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 8",
+      "contact_name": "Manager 8",
+      "phone": "(555) 307-4007",
+      "email": "info@dentists8.com",
+      "website": "https://www.dentists8.com",
+      "address": "800 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 12,
+      "rating": 4.5,
+      "review_count": 31,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-8",
+      "scraped_at": "2026-03-02T18:33:40.040312",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 9",
+      "contact_name": "Manager 9",
+      "phone": "(555) 308-4008",
+      "email": "info@dentists9.com",
+      "website": "https://www.dentists9.com",
+      "address": "900 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 13,
+      "rating": 4.0,
+      "review_count": 34,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-9",
+      "scraped_at": "2026-03-02T18:33:40.040317",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 10",
+      "contact_name": "Manager 10",
+      "phone": "(555) 309-4009",
+      "email": "info@dentists10.com",
+      "website": "https://www.dentists10.com",
+      "address": "1000 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 14,
+      "rating": 3.5,
+      "review_count": 37,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-10",
+      "scraped_at": "2026-03-02T18:33:40.040323",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 11",
+      "contact_name": "Manager 11",
+      "phone": "(555) 310-4010",
+      "email": "info@dentists11.com",
+      "website": "https://www.dentists11.com",
+      "address": "1100 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 5,
+      "rating": 4.5,
+      "review_count": 40,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-11",
+      "scraped_at": "2026-03-02T18:33:40.040328",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 12",
+      "contact_name": "Manager 12",
+      "phone": "(555) 311-4011",
+      "email": "info@dentists12.com",
+      "website": "https://www.dentists12.com",
+      "address": "1200 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 6,
+      "rating": 4.0,
+      "review_count": 43,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-12",
+      "scraped_at": "2026-03-02T18:33:40.040333",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 13",
+      "contact_name": "Manager 13",
+      "phone": "(555) 312-4012",
+      "email": "info@dentists13.com",
+      "website": "https://www.dentists13.com",
+      "address": "1300 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 7,
+      "rating": 3.5,
+      "review_count": 46,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-13",
+      "scraped_at": "2026-03-02T18:33:40.040338",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 14",
+      "contact_name": "Manager 14",
+      "phone": "(555) 313-4013",
+      "email": "info@dentists14.com",
+      "website": "https://www.dentists14.com",
+      "address": "1400 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 8,
+      "rating": 4.5,
+      "review_count": 49,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-14",
+      "scraped_at": "2026-03-02T18:33:40.040343",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yellow_pages",
+      "business_name": "Dentists Pro 15",
+      "contact_name": "Manager 15",
+      "phone": "(555) 314-4014",
+      "email": "info@dentists15.com",
+      "website": "https://www.dentists15.com",
+      "address": "1500 Business St, new york",
+      "category": "Dentists",
+      "years_in_business": 9,
+      "rating": 4.0,
+      "review_count": 52,
+      "hours": "Mon-Fri 8am-6pm, Sat 9am-2pm",
+      "source_url": "https://yellowpages.com/dentists-15",
+      "scraped_at": "2026-03-02T18:33:40.040348",
+      "sources": [
+        "yellow_pages"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 1",
+      "contact_name": "",
+      "phone": "(555) 500-6000",
+      "email": "",
+      "website": "https://www.dentist1.com",
+      "address": "150 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$",
+      "health_rating": "A",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 25,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-1",
+      "scraped_at": "2026-03-02T18:33:40.041312",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 2",
+      "contact_name": "",
+      "phone": "(555) 501-6001",
+      "email": "",
+      "website": "https://www.dentist2.com",
+      "address": "250 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 30,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-2",
+      "scraped_at": "2026-03-02T18:33:40.041325",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 3",
+      "contact_name": "",
+      "phone": "(555) 502-6002",
+      "email": "",
+      "website": "https://www.dentist3.com",
+      "address": "350 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 35,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-3",
+      "scraped_at": "2026-03-02T18:33:40.041333",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 4",
+      "contact_name": "",
+      "phone": "(555) 503-6003",
+      "email": "",
+      "website": "https://www.dentist4.com",
+      "address": "450 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$",
+      "health_rating": "A",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 40,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-4",
+      "scraped_at": "2026-03-02T18:33:40.041339",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 5",
+      "contact_name": "",
+      "phone": "(555) 504-6004",
+      "email": "",
+      "website": "https://www.dentist5.com",
+      "address": "550 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 45,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-5",
+      "scraped_at": "2026-03-02T18:33:40.041345",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 6",
+      "contact_name": "",
+      "phone": "(555) 505-6005",
+      "email": "",
+      "website": "https://www.dentist6.com",
+      "address": "650 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 50,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-6",
+      "scraped_at": "2026-03-02T18:33:40.041350",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 7",
+      "contact_name": "",
+      "phone": "(555) 506-6006",
+      "email": "",
+      "website": "https://www.dentist7.com",
+      "address": "750 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$",
+      "health_rating": "A",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 55,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-7",
+      "scraped_at": "2026-03-02T18:33:40.041355",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 8",
+      "contact_name": "",
+      "phone": "(555) 507-6007",
+      "email": "",
+      "website": "https://www.dentist8.com",
+      "address": "850 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 60,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-8",
+      "scraped_at": "2026-03-02T18:33:40.041360",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 9",
+      "contact_name": "",
+      "phone": "(555) 508-6008",
+      "email": "",
+      "website": "https://www.dentist9.com",
+      "address": "950 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 65,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-9",
+      "scraped_at": "2026-03-02T18:33:40.041365",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 10",
+      "contact_name": "",
+      "phone": "(555) 509-6009",
+      "email": "",
+      "website": "https://www.dentist10.com",
+      "address": "1050 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$",
+      "health_rating": "A",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 70,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-10",
+      "scraped_at": "2026-03-02T18:33:40.041371",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 11",
+      "contact_name": "",
+      "phone": "(555) 510-6010",
+      "email": "",
+      "website": "https://www.dentist11.com",
+      "address": "1150 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 75,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-11",
+      "scraped_at": "2026-03-02T18:33:40.041376",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 12",
+      "contact_name": "",
+      "phone": "(555) 511-6011",
+      "email": "",
+      "website": "https://www.dentist12.com",
+      "address": "1250 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 80,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-12",
+      "scraped_at": "2026-03-02T18:33:40.041381",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 13",
+      "contact_name": "",
+      "phone": "(555) 512-6012",
+      "email": "",
+      "website": "https://www.dentist13.com",
+      "address": "1350 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$",
+      "health_rating": "A",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 85,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-13",
+      "scraped_at": "2026-03-02T18:33:40.041386",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 14",
+      "contact_name": "",
+      "phone": "(555) 513-6013",
+      "email": "",
+      "website": "https://www.dentist14.com",
+      "address": "1450 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 90,
+      "claimed_status": "Unclaimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-14",
+      "scraped_at": "2026-03-02T18:33:40.041391",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "yelp",
+      "business_name": "Dentist Excellence 15",
+      "contact_name": "",
+      "phone": "(555) 514-6014",
+      "email": "",
+      "website": "https://www.dentist15.com",
+      "address": "1550 Commercial Ave, new york",
+      "category": "dentist",
+      "price_range": "$$$",
+      "health_rating": "B",
+      "working_hours": "9:00 AM - 7:00 PM",
+      "rating": 4.0,
+      "review_count": 95,
+      "claimed_status": "Claimed",
+      "reviews": [
+        "Great service!",
+        "Very professional",
+        "Would recommend"
+      ],
+      "yelp_url": "https://yelp.com/biz/dentist-15",
+      "scraped_at": "2026-03-02T18:33:40.041396",
+      "sources": [
+        "yelp"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Dentist Co 1",
+      "twitter_handle": "@dentist1",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://dentist1.com",
+      "location": "new york",
+      "bio": "Professional dentist services. Quality work guaranteed.",
+      "follower_count": 500,
+      "following_count": 200,
+      "tweet_count": 1000,
+      "account_age_days": 365,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/dentist1",
+      "scraped_at": "2026-03-02T18:33:40.042539",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Dentist Co 2",
+      "twitter_handle": "@dentist2",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://dentist2.com",
+      "location": "new york",
+      "bio": "Professional dentist services. Quality work guaranteed.",
+      "follower_count": 600,
+      "following_count": 250,
+      "tweet_count": 1200,
+      "account_age_days": 465,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/dentist2",
+      "scraped_at": "2026-03-02T18:33:40.042548",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Dentist Co 3",
+      "twitter_handle": "@dentist3",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://dentist3.com",
+      "location": "new york",
+      "bio": "Professional dentist services. Quality work guaranteed.",
+      "follower_count": 700,
+      "following_count": 300,
+      "tweet_count": 1400,
+      "account_age_days": 565,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/dentist3",
+      "scraped_at": "2026-03-02T18:33:40.042554",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Dentist Co 4",
+      "twitter_handle": "@dentist4",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://dentist4.com",
+      "location": "new york",
+      "bio": "Professional dentist services. Quality work guaranteed.",
+      "follower_count": 800,
+      "following_count": 350,
+      "tweet_count": 1600,
+      "account_age_days": 665,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/dentist4",
+      "scraped_at": "2026-03-02T18:33:40.042558",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Dentist Co 5",
+      "twitter_handle": "@dentist5",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://dentist5.com",
+      "location": "new york",
+      "bio": "Professional dentist services. Quality work guaranteed.",
+      "follower_count": 900,
+      "following_count": 400,
+      "tweet_count": 1800,
+      "account_age_days": 765,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/dentist5",
+      "scraped_at": "2026-03-02T18:33:40.042562",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Dentist Co 6",
+      "twitter_handle": "@dentist6",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://dentist6.com",
+      "location": "new york",
+      "bio": "Professional dentist services. Quality work guaranteed.",
+      "follower_count": 1000,
+      "following_count": 450,
+      "tweet_count": 2000,
+      "account_age_days": 865,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/dentist6",
+      "scraped_at": "2026-03-02T18:33:40.042566",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Dentist Co 7",
+      "twitter_handle": "@dentist7",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://dentist7.com",
+      "location": "new york",
+      "bio": "Professional dentist services. Quality work guaranteed.",
+      "follower_count": 1100,
+      "following_count": 500,
+      "tweet_count": 2200,
+      "account_age_days": 965,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/dentist7",
+      "scraped_at": "2026-03-02T18:33:40.042570",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Dentist Co 8",
+      "twitter_handle": "@dentist8",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://dentist8.com",
+      "location": "new york",
+      "bio": "Professional dentist services. Quality work guaranteed.",
+      "follower_count": 1200,
+      "following_count": 550,
+      "tweet_count": 2400,
+      "account_age_days": 1065,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/dentist8",
+      "scraped_at": "2026-03-02T18:33:40.042574",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Dentist Co 9",
+      "twitter_handle": "@dentist9",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://dentist9.com",
+      "location": "new york",
+      "bio": "Professional dentist services. Quality work guaranteed.",
+      "follower_count": 1300,
+      "following_count": 600,
+      "tweet_count": 2600,
+      "account_age_days": 1165,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/dentist9",
+      "scraped_at": "2026-03-02T18:33:40.042577",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Dentist Co 10",
+      "twitter_handle": "@dentist10",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://dentist10.com",
+      "location": "new york",
+      "bio": "Professional dentist services. Quality work guaranteed.",
+      "follower_count": 1400,
+      "following_count": 650,
+      "tweet_count": 2800,
+      "account_age_days": 1265,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/dentist10",
+      "scraped_at": "2026-03-02T18:33:40.042581",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Chiropractor Co 1",
+      "twitter_handle": "@chiropractor1",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://chiropractor1.com",
+      "location": "new york",
+      "bio": "Professional chiropractor services. Quality work guaranteed.",
+      "follower_count": 500,
+      "following_count": 200,
+      "tweet_count": 1000,
+      "account_age_days": 365,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/chiropractor1",
+      "scraped_at": "2026-03-02T18:33:40.042588",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Chiropractor Co 2",
+      "twitter_handle": "@chiropractor2",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://chiropractor2.com",
+      "location": "new york",
+      "bio": "Professional chiropractor services. Quality work guaranteed.",
+      "follower_count": 600,
+      "following_count": 250,
+      "tweet_count": 1200,
+      "account_age_days": 465,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/chiropractor2",
+      "scraped_at": "2026-03-02T18:33:40.042592",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Chiropractor Co 3",
+      "twitter_handle": "@chiropractor3",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://chiropractor3.com",
+      "location": "new york",
+      "bio": "Professional chiropractor services. Quality work guaranteed.",
+      "follower_count": 700,
+      "following_count": 300,
+      "tweet_count": 1400,
+      "account_age_days": 565,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/chiropractor3",
+      "scraped_at": "2026-03-02T18:33:40.042596",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Chiropractor Co 4",
+      "twitter_handle": "@chiropractor4",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://chiropractor4.com",
+      "location": "new york",
+      "bio": "Professional chiropractor services. Quality work guaranteed.",
+      "follower_count": 800,
+      "following_count": 350,
+      "tweet_count": 1600,
+      "account_age_days": 665,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/chiropractor4",
+      "scraped_at": "2026-03-02T18:33:40.042600",
+      "sources": [
+        "twitter"
+      ]
+    },
+    {
+      "platform": "twitter",
+      "business_name": "Chiropractor Co 5",
+      "twitter_handle": "@chiropractor5",
+      "contact_name": "",
+      "phone": "",
+      "email": "",
+      "website": "https://chiropractor5.com",
+      "location": "new york",
+      "bio": "Professional chiropractor services. Quality work guaranteed.",
+      "follower_count": 900,
+      "following_count": 400,
+      "tweet_count": 1800,
+      "account_age_days": 765,
+      "last_tweet": "Looking forward to serving new clients this week!",
+      "profile_url": "https://twitter.com/chiropractor5",
+      "scraped_at": "2026-03-02T18:33:40.042603",
+      "sources": [
+        "twitter"
+      ]
+    }
+  ]
+}

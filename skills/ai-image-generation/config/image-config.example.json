@@ -1,0 +1,178 @@
+{
+  "ai_image_generation": {
+    "api_config": {
+      "google_api_key": "YOUR_GOOGLE_GEMINI_API_KEY_HERE",
+      "default_model": "gemini-3-pro-image-preview",
+      "alternative_models": [
+        "gemini-2-5-flash-image",
+        "falai/flux-dev-lora",
+        "falai/flux-2-klein-lora",
+        "bytedance/seedream-4-5"
+      ],
+      "rate_limit_per_minute": 60,
+      "min_request_interval_seconds": 2.0
+    },
+    
+    "generation_settings": {
+      "default_size": "1024x1024",
+      "available_sizes": [
+        "256x256",
+        "512x512", 
+        "1024x1024",
+        "1024x1792",
+        "1792x1024"
+      ],
+      "default_quality": "high",
+      "quality_options": ["standard", "high"],
+      "default_style": "photorealistic",
+      "enhance_prompts": true,
+      "auto_add_quality_descriptors": true
+    },
+    
+    "style_presets": {
+      "photorealistic": "photorealistic, highly detailed, 8K resolution, professional photography",
+      "anime": "anime style, vibrant colors, detailed artwork, Japanese animation style",
+      "cyberpunk": "cyberpunk, neon lights, futuristic, detailed, Blade Runner style",
+      "minimalist": "minimalist, clean, simple, elegant design, negative space",
+      "watercolor": "watercolor painting style, soft edges, artistic, traditional media",
+      "digital_art": "digital art, concept art, detailed, vibrant, trending on ArtStation",
+      "oil_painting": "oil painting, textured brush strokes, classical art style",
+      "sketch": "sketch, pencil drawing, rough lines, artistic sketch",
+      "cartoon": "cartoon style, bold lines, vibrant colors, animated series style",
+      "isometric": "isometric perspective, 3D render, clean lines, technical illustration"
+    },
+    
+    "output_settings": {
+      "output_directory": "./generated_images",
+      "organize_by_date": true,
+      "date_format": "YYYY-MM-DD",
+      "organize_by_project": false,
+      "default_project": "general",
+      "filename_prefix": "generated_",
+      "filename_timestamp": true,
+      "save_metadata": true,
+      "metadata_format": "json"
+    },
+    
+    "usage_limits": {
+      "max_images_per_day": 100,
+      "max_images_per_request": 10,
+      "max_prompt_length": 1000,
+      "daily_reset_time": "00:00",
+      "track_usage": true,
+      "usage_log_file": "./logs/image_usage.json"
+    },
+    
+    "prompt_enhancement": {
+      "auto_add_quality": true,
+      "quality_phrases": [
+        "high quality",
+        "detailed", 
+        "sharp focus",
+        "professional"
+      ],
+      "auto_add_style_hints": true,
+      "style_hint_phrases": [
+        "trending on ArtStation",
+        "award winning",
+        "masterpiece"
+      ],
+      "enhancement_rules": {
+        "add_resolution": true,
+        "add_lighting_hints": true,
+        "add_composition_hints": true,
+        "expand_descriptions": true
+      }
+    },
+    
+    "workflow_templates": {
+      "social_media": {
+        "aspect_ratio": "1:1",
+        "style": "digital_art",
+        "vibrant_colors": true,
+        "add_branding_space": true
+      },
+      "ui_design": {
+        "aspect_ratio": "16:9", 
+        "style": "minimalist",
+        "clean_design": true,
+        "usable_in_figma": true
+      },
+      "blog_post": {
+        "aspect_ratio": "16:9",
+        "style": "photorealistic",
+        "conceptual": true,
+        "works_as_featured_image": true
+      },
+      "product_visualization": {
+        "aspect_ratio": "1:1",
+        "style": "photorealistic",
+        "product_photography": true,
+        "clean_background": true
+      }
+    }
+  },
+  
+  "openclaw_integration": {
+    "skill_name": "ai-image-generation",
+    "version": "1.0.0",
+    "requires_credentials": true,
+    "test_mode": true,
+    "log_level": "INFO",
+    "available_commands": [
+      "generate",
+      "batch",
+      "variations", 
+      "list",
+      "styles"
+    ]
+  }
+}
+
+/*
+INSTRUCTIONS FOR SETUP:
+
+1. GET GOOGLE GEMINI API ACCESS:
+   - Create Google Cloud Platform account: https://cloud.google.com/
+   - Enable Gemini API in Google AI Studio: https://makersuite.google.com/app/apikey
+   - Generate API key with appropriate permissions
+   - Note: Gemini API has free tier with limits
+
+2. FILL IN CREDENTIALS:
+   - Copy API Key to google_api_key field
+   - Consider using environment variable for security: GOOGLE_API_KEY
+
+3. INSTALL REQUIRED PACKAGES:
+   pip install google-generativeai
+   pip install pillow  # For image processing if needed
+
+4. CONFIGURE OUTPUT DIRECTORY:
+   - Default: ./generated_images
+   - Change if different location preferred
+   - Ensure write permissions
+
+5. SET UP ENVIRONMENT VARIABLES (Recommended):
+   export GOOGLE_API_KEY="your_gemini_api_key_here"
+   export IMAGE_OUTPUT_DIR="/path/to/output/directory"
+
+6. TEST CONFIGURATION:
+   python scripts/image-generate.py --test
+
+USAGE EXAMPLES:
+
+Basic generation:
+  python scripts/image-generate.py "A futuristic city at sunset" --style cyberpunk
+
+Batch generation:
+  python scripts/image-batch.py prompts.txt --output-dir ./blog_images
+
+Style variations:
+  python scripts/image-variations.py "forest landscape" --num-variations 4 --style watercolor
+
+SECURITY NOTES:
+- Never commit API keys to version control
+- Use environment variables or secret management in production
+- Monitor API usage and costs
+- Respect content policies and ethical guidelines
+- Generated images may have usage restrictions depending on model terms
+*/

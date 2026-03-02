@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-03-02T11:04:43.437799",
+  "batch": "11 AM",
+  "results": [
+    {
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "company": "Parks Municipal Consulting",
+      "email": "kparks@parksmunicipalconsulting.com",
+      "savings": 41550
+    },
+    {
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "company": "HealthCare Support",
+      "email": "info@healthcaresupport.com",
+      "savings": 103875
+    },
+    {
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "company": "Hybridge Inc",
+      "email": "info@hybridge.com",
+      "savings": 49860
+    },
+    {
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "company": "Seven Healthcare",
+      "email": "info@seven-healthcare.com",
+      "savings": 54015
+    },
+    {
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "company": "Harmony Healthcare",
+      "email": "info@harmony.solutions",
+      "savings": 166200
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "twitter_api": {
+    "api_key": "YOUR_API_KEY_HERE",
+    "api_secret": "YOUR_API_SECRET_HERE",
+    "access_token": "USER_ACCESS_TOKEN_HERE",
+    "access_secret": "USER_ACCESS_SECRET_HERE",
+    "bearer_token": "BEARER_TOKEN_HERE",
+    
+    "rate_limits": {
+      "requests_per_15min": 450,
+      "tweets_per_day": 50,
+      "min_interval_seconds": 1.0
+    },
+    
+    "posting": {
+      "max_tweet_length": 280,
+      "auto_add_hashtags": true,
+      "default_hashtags": ["automation", "OpenClaw"],
+      "include_media": true,
+      "media_types": ["image/jpeg", "image/png", "image/gif", "video/mp4"]
+    },
+    
+    "search": {
+      "default_max_results": 50,
+      "max_results_per_query": 100,
+      "search_operators": {
+        "from": "from:username",
+        "to": "to:username",
+        "hashtag": "#tag",
+        "exclude_retweets": "-is:retweet",
+        "has_media": "has:media",
+        "language": "lang:en"
+      }
+    },
+    
+    "engagement": {
+      "auto_like_mentions": false,
+      "auto_retweet_mentions": false,
+      "auto_follow_back": false,
+      "max_engagements_per_hour": 20,
+      "engagement_cooldown_minutes": 5
+    },
+    
+    "monitoring": {
+      "track_keywords": ["OpenClaw", "AI automation", "lead generation"],
+      "track_hashtags": ["#AI", "#automation", "#leadgen"],
+      "monitor_competitors": [],
+      "check_interval_minutes": 30
+    },
+    
+    "safety": {
+      "disclose_automation": true,
+      "automation_disclosure": "🤖 This account uses automation powered by OpenClaw",
+      "respect_rate_limits": true,
+      "comply_with_tos": true,
+      "opt_out_mechanism": "DM 'stop' to opt out"
+    }
+  },
+  
+  "openclaw_integration": {
+    "skill_name": "twitter-automation",
+    "version": "1.0.0",
+    "requires_credentials": true,
+    "test_mode": true,
+    "log_level": "INFO"
+  }
+}
+
+/*
+INSTRUCTIONS FOR SETUP:
+
+1. GET TWITTER API CREDENTIALS:
+   - Apply for Twitter Developer Account: https://developer.twitter.com/
+   - Create a new App in the Developer Portal
+   - Generate API Keys and Access Tokens
+   - Choose appropriate access level (Essential, Elevated, or Academic)
+
+2. FILL IN CREDENTIALS:
+   - Copy API Key and API Secret to api_key and api_secret
+   - Generate Access Token and Access Secret for user authentication
+   - Use Bearer Token for app-only authentication
+
+3. CONFIGURE RATE LIMITS:
+   - Essential: 50,000 tweets/month, 10,000 posts/month
+   - Elevated: 2,000,000 tweets/month, 300,000 posts/month
+   - Adjust rate_limits.requests_per_15min accordingly
+
+4. SET UP ENVIRONMENT VARIABLES (Alternative):
+   export TWITTER_API_KEY="your_key"
+   export TWITTER_API_SECRET="your_secret"
+   export TWITTER_ACCESS_TOKEN="your_access_token"
+   export TWITTER_ACCESS_SECRET="your_access_secret"
+   export TWITTER_BEARER_TOKEN="your_bearer_token"
+
+5. TEST CONFIGURATION:
+   python scripts/twitter-api.py --test
+
+SECURITY NOTES:
+- Never commit this file with real credentials to version control
+- Use environment variables for production deployment
+- Regularly rotate API keys and tokens
+- Monitor API usage for suspicious activity
+*/

@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-03-02T14:18:21.519907",
+  "status": "FAILED",
+  "error": "AgentMail API 403 Forbidden",
+  "intended_recipients": {
+    "companies": [
+      {
+        "name": "Shield AI",
+        "sector": "AI & Autonomous Systems",
+        "email": "contact@shield.ai",
+        "priority": "HIGH"
+      },
+      {
+        "name": "Anduril Industries",
+        "sector": "Autonomous Systems & Counter-Drone",
+        "email": "contact@anduril.com",
+        "priority": "HIGH"
+      },
+      {
+        "name": "Skydio",
+        "sector": "Autonomous Drones",
+        "email": "contact@skydio.com",
+        "priority": "HIGH"
+      },
+      {
+        "name": "Chaos Industries",
+        "sector": "Defense Manufacturing",
+        "email": "contact@chaosindustries.com",
+        "priority": "HIGH"
+      },
+      {
+        "name": "Epirus",
+        "sector": "Counter-Drone (C-UAS)",
+        "email": "contact@epirusinc.com",
+        "priority": "HIGH"
+      },
+      {
+        "name": "Onebrief",
+        "sector": "Defense Data Analytics / ISR",
+        "email": "contact@onebrief.com",
+        "priority": "MEDIUM"
+      },
+      {
+        "name": "Hidden Level",
+        "sector": "Counter-Drone / Surveillance",
+        "email": "contact@hiddenlevel.com",
+        "priority": "MEDIUM"
+      },
+      {
+        "name": "Rebellion Defense",
+        "sector": "AI & Defense Software",
+        "email": "contact@rebelliondefense.com",
+        "priority": "MEDIUM"
+      },
+      {
+        "name": "Palantir Technologies",
+        "sector": "Defense Data Analytics",
+        "email": "partnerships@palantir.com",
+        "priority": "MEDIUM"
+      },
+      {
+        "name": "Astranis",
+        "sector": "Space-Based Defense",
+        "email": "contact@astranis.com",
+        "priority": "MEDIUM"
+      }
+    ],
+    "investors": [
+      {
+        "name": "General Catalyst",
+        "email": "india@generalcatalyst.com",
+        "priority": "HIGH"
+      },
+      {
+        "name": "Lightspeed Venture Partners",
+        "email": "india@lightspeedvp.com",
+        "priority": "HIGH"
+      },
+      {
+        "name": "Accel Partners",
+        "email": "india@accel.com",
+        "priority": "HIGH"
+      },
+      {
+        "name": "BEENEXT",
+        "email": "contact@beenext.com",
+        "priority": "HIGH"
+      },
+      {
+        "name": "Vertex Ventures",
+        "email": "contact@vertexventures.com",
+        "priority": "MEDIUM"
+      }
+    ]
+  },
+  "summary": {
+    "total_intended": 15,
+    "companies_intended": 10,
+    "investors_intended": 5,
+    "emails_sent": 0,
+    "emails_failed": 15
+  }
+}

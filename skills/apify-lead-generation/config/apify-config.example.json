@@ -1,0 +1,302 @@
+{
+  "apify_lead_generation": {
+    "api_config": {
+      "apify_api_token": "YOUR_APIFY_API_TOKEN_HERE",
+      "api_base_url": "https://api.apify.com/v2",
+      "default_actor": "apify/google-maps-scraper",
+      "rate_limit_delay_seconds": 2.0,
+      "max_retries": 3,
+      "retry_delay_seconds": 5.0,
+      "timeout_seconds": 300
+    },
+    
+    "scraping_settings": {
+      "max_results_per_query": 1000,
+      "default_language": "en",
+      "default_country_code": "US",
+      "include_reviews": true,
+      "max_reviews_per_business": 5,
+      "include_photos": false,
+      "max_photos_per_business": 3,
+      "proxy_configuration": {
+        "use_proxy": false,
+        "proxy_country": "US",
+        "proxy_groups": ["RESIDENTIAL"]
+      }
+    },
+    
+    "platform_configs": {
+      "google_maps": {
+        "actor": "apify/google-maps-scraper",
+        "version": "v2",
+        "default_max_results": 200,
+        "search_filters": {
+          "min_rating": 3.0,
+          "min_reviews": 10,
+          "business_types": [],
+          "exclude_categories": []
+        },
+        "output_fields": [
+          "title",
+          "address",
+          "phone",
+          "website",
+          "email",
+          "rating",
+          "reviews",
+          "category",
+          "location",
+          "hours",
+          "photos"
+        ]
+      },
+      
+      "instagram": {
+        "actor": "apify/instagram-scraper",
+        "search_types": ["hashtag", "location", "username"],
+        "default_max_results": 100,
+        "filters": {
+          "min_followers": 1000,
+          "is_business": true,
+          "has_website": true,
+          "has_email_in_bio": true
+        },
+        "output_fields": [
+          "username",
+          "full_name",
+          "bio",
+          "website",
+          "email",
+          "followers",
+          "following",
+          "posts",
+          "is_business",
+          "category",
+          "location",
+          "hashtags"
+        ]
+      },
+      
+      "tiktok": {
+        "actor": "apify/tiktok-scraper",
+        "search_types": ["hashtag", "user", "music"],
+        "default_max_results": 50,
+        "filters": {
+          "min_followers": 5000,
+          "is_creator": true,
+          "has_contact_info": true
+        }
+      },
+      
+      "facebook": {
+        "actor": "apify/facebook-scraper",
+        "search_types": ["page", "group", "event"],
+        "default_max_results": 50,
+        "filters": {
+          "is_business_page": true,
+          "has_website": true,
+          "active_recently": true
+        }
+      }
+    },
+    
+    "data_storage": {
+      "type": "supabase",  // Options: "supabase", "csv", "json", "database"
+      "supabase": {
+        "url": "YOUR_SUPABASE_URL_HERE",
+        "key": "YOUR_SUPABASE_KEY_HERE",
+        "table_name": "leads",
+        "schema": "public"
+      },
+      "csv": {
+        "directory": "./apify_data",
+        "organize_by_date": true,
+        "date_format": "YYYY-MM-DD",
+        "organize_by_platform": true
+      },
+      "json": {
+        "directory": "./apify_data/json",
+        "pretty_print": true,
+        "include_metadata": true
+      }
+    },
+    
+    "enrichment_services": {
+      "email_validation": {
+        "service": "zerobounce",  // Options: "zerobounce", "hunter", "none"
+        "zerobounce_key": "YOUR_ZEROBOUNCE_KEY_HERE",
+        "validate_on_save": true,
+        "cache_validations": true,
+        "cache_days": 30
+      },
+      "company_data": {
+        "service": "tavily",  // Options: "tavily", "serper", "clearbit", "none"
+        "tavily_key": "YOUR_TAVILY_KEY_HERE",
+        "enrich_on_save": true,
+        "fields_to_enrich": ["company_size", "industry", "founded_year", "revenue"]
+      },
+      "social_media": {
+        "enrich_with_social": true,
+        "platforms": ["linkedin", "twitter", "instagram", "facebook"],
+        "max_social_profiles": 3
+      }
+    },
+    
+    "workflow_templates": {
+      "local_business_leads": {
+        "platforms": ["google_maps"],
+        "queries_template": "[industry] in [city]",
+        "filters": {
+          "min_rating": 4.0,
+          "min_reviews": 20,
+          "years_in_business": 2
+        },
+        "enrichment": ["email_validation", "company_data"],
+        "output_format": "csv"
+      },
+      
+      "social_influencers": {
+        "platforms": ["instagram", "tiktok"],
+        "queries_template": "[niche] influencer",
+        "filters": {
+          "min_followers": 10000,
+          "engagement_rate": 2.0,
+          "has_contact_info": true
+        },
+        "enrichment": ["email_validation"],
+        "output_format": "json"
+      },
+      
+      "competitor_analysis": {
+        "platforms": ["google_maps", "instagram", "facebook"],
+        "queries_template": "[competitor_name]",
+        "filters": {
+          "include_reviews": true,
+          "include_posts": true,
+          "time_period": "last_30_days"
+        },
+        "enrichment": ["company_data"],
+        "output_format": "supabase"
+      }
+    },
+    
+    "scheduling": {
+      "default_schedule": "daily",
+      "schedule_options": {
+        "daily": "0 9 * * *",  // 9 AM daily
+        "weekly": "0 9 * * 1",  // 9 AM every Monday
+        "monthly": "0 9 1 * *"  // 9 AM on 1st of month
+      },
+      "max_concurrent_runs": 3,
+      "run_timeout_minutes": 60
+    },
+    
+    "monitoring": {
+      "log_level": "INFO",
+      "log_file": "./logs/apify_scraping.log",
+      "success_rate_threshold": 80.0,
+      "alert_on_failure": true,
+      "alert_channels": ["discord", "email"],
+      "generate_reports": true,
+      "report_frequency": "weekly"
+    }
+  },
+  
+  "openclaw_integration": {
+    "skill_name": "apify-lead-generation",
+    "version": "1.0.0",
+    "requires_credentials": true,
+    "test_mode": true,
+    "available_commands": [
+      "scrape-google-maps",
+      "scrape-instagram",
+      "scrape-tiktok",
+      "enrich-leads",
+      "export-leads",
+      "schedule-scrape"
+    ],
+    "cron_job_integration": true,
+    "cron_schedule": "0 9 * * *"  // 9 AM daily
+  }
+}
+
+/*
+INSTRUCTIONS FOR SETUP:
+
+1. GET APIFY ACCOUNT:
+   - Sign up at https://apify.com/
+   - Verify email and complete profile
+   - Go to Account Settings → Integrations → API token
+   - Generate new token or use existing one
+
+2. FILL IN CREDENTIALS:
+   - Copy API token to apify_api_token field
+   - Consider using environment variable: APIFY_API_TOKEN
+
+3. CONFIGURE DATA STORAGE:
+   - Choose storage type (supabase recommended for production)
+   - Fill in Supabase credentials if using supabase
+   - Or configure CSV/JSON output directories
+
+4. SET UP ENRICHMENT SERVICES (Optional but recommended):
+   - ZeroBounce for email validation
+   - Tavily for company data enrichment
+   - Fill in respective API keys
+
+5. INSTALL REQUIRED PACKAGES:
+   pip install apify-client
+   pip install supabase  # if using Supabase storage
+   pip install pandas    # for CSV/Excel export
+
+6. TEST CONFIGURATION:
+   python scripts/apify-client.py --test
+
+USAGE EXAMPLES:
+
+Basic Google Maps scraping:
+  python scripts/google-maps-scraper.py --query "restaurants New York" --max-results 100
+
+Instagram influencer discovery:
+  python scripts/social-media-scraper.py --platform instagram --query "#fitness" --type hashtag
+
+Batch processing with enrichment:
+  python scripts/lead-enricher.py --input leads.csv --output enriched_leads.csv
+
+Schedule recurring scrapes:
+  python scripts/schedule-scrape.py --template local_business_leads --schedule daily
+
+SECURITY & COMPLIANCE NOTES:
+- Never commit API tokens to version control
+- Use environment variables or secret management
+- Respect robots.txt and platform terms of service
+- Only scrape publicly available data
+- Implement data retention policies
+- Comply with GDPR, CCPA, and other regulations
+- Add opt-out mechanisms for collected contacts
+- Store data securely with access controls
+*/
+
+/*
+EXAMPLE QUERY TEMPLATES:
+
+Local Businesses:
+  "coffee shops [city]"
+  "dentists [city]"
+  "plumbing services [city]"
+  "yoga studios [city]"
+  "real estate agents [city]"
+
+Industry Specific:
+  "SaaS companies [city]"
+  "marketing agencies [city]"
+  "law firms [city]"
+  "accounting firms [city]"
+  "consulting firms [city]"
+
+Social Media:
+  "#smallbusiness [city]"
+  "#entrepreneur [niche]"
+  "#startup [industry]"
+  "location:[city] [industry]"
+  "business profile [platform]"
+*/

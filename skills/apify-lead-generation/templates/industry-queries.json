@@ -1,0 +1,270 @@
+{
+  "industry_queries": {
+    "technology": {
+      "google_maps": [
+        "software companies {city}",
+        "IT services {city}",
+        "web development {city}",
+        "mobile app development {city}",
+        "cybersecurity companies {city}",
+        "cloud computing {city}",
+        "data analytics {city}",
+        "AI companies {city}"
+      ],
+      "instagram_hashtags": [
+        "#techstartup",
+        "#softwaredevelopment",
+        "#webdev",
+        "#coding",
+        "#programming",
+        "#datascience",
+        "#artificialintelligence",
+        "#cloudcomputing"
+      ]
+    },
+    
+    "health_wellness": {
+      "google_maps": [
+        "yoga studios {city}",
+        "fitness centers {city}",
+        "gyms {city}",
+        "personal trainers {city}",
+        "nutritionists {city}",
+        "chiropractors {city}",
+        "massage therapy {city}",
+        "meditation centers {city}"
+      ],
+      "instagram_hashtags": [
+        "#fitness",
+        "#wellness",
+        "#healthylifestyle",
+        "#yoga",
+        "#meditation",
+        "#nutrition",
+        "#selfcare",
+        "#mindfulness"
+      ]
+    },
+    
+    "professional_services": {
+      "google_maps": [
+        "marketing agencies {city}",
+        "law firms {city}",
+        "accounting firms {city}",
+        "consulting firms {city}",
+        "real estate agents {city}",
+        "insurance agencies {city}",
+        "financial advisors {city}",
+        "business coaches {city}"
+      ],
+      "instagram_hashtags": [
+        "#smallbusiness",
+        "#entrepreneur",
+        "#marketing",
+        "#businesscoach",
+        "#realestate",
+        "#finance",
+        "#consulting",
+        "#professional"
+      ]
+    },
+    
+    "retail_hospitality": {
+      "google_maps": [
+        "restaurants {city}",
+        "coffee shops {city}",
+        "hotels {city}",
+        "boutiques {city}",
+        "salons {city}",
+        "spas {city}",
+        "retail stores {city}",
+        "bars {city}"
+      ],
+      "instagram_hashtags": [
+        "#restaurant",
+        "#coffeeshop",
+        "#hospitality",
+        "#retail",
+        "#smallbusinessowner",
+        "#localbusiness",
+        "#shoplocal",
+        "#foodie"
+      ]
+    },
+    
+    "construction_trades": {
+      "google_maps": [
+        "plumbing services {city}",
+        "electricians {city}",
+        "HVAC companies {city}",
+        "roofing contractors {city}",
+        "landscaping services {city}",
+        "general contractors {city}",
+        "painting services {city}",
+        "carpentry {city}"
+      ],
+      "instagram_hashtags": [
+        "#construction",
+        "#contractor",
+        "#trades",
+        "#homeimprovement",
+        "#renovation",
+        "#diy",
+        "#handyman",
+        "#building"
+      ]
+    }
+  },
+  
+  "city_templates": {
+    "major_us_cities": [
+      "New York, NY",
+      "Los Angeles, CA",
+      "Chicago, IL",
+      "Houston, TX",
+      "Phoenix, AZ",
+      "Philadelphia, PA",
+      "San Antonio, TX",
+      "San Diego, CA",
+      "Dallas, TX",
+      "San Jose, CA",
+      "Austin, TX",
+      "Jacksonville, FL",
+      "Fort Worth, TX",
+      "Columbus, OH",
+      "Charlotte, NC",
+      "San Francisco, CA",
+      "Indianapolis, IN",
+      "Seattle, WA",
+      "Denver, CO",
+      "Washington, DC"
+    ],
+    
+    "canadian_cities": [
+      "Toronto, ON",
+      "Montreal, QC",
+      "Vancouver, BC",
+      "Calgary, AB",
+      "Edmonton, AB",
+      "Ottawa, ON",
+      "Winnipeg, MB",
+      "Quebec City, QC",
+      "Hamilton, ON",
+      "Kitchener, ON"
+    ],
+    
+    "uk_cities": [
+      "London, UK",
+      "Manchester, UK",
+      "Birmingham, UK",
+      "Glasgow, UK",
+      "Liverpool, UK",
+      "Bristol, UK",
+      "Sheffield, UK",
+      "Leeds, UK",
+      "Edinburgh, UK",
+      "Leicester, UK"
+    ],
+    
+    "australian_cities": [
+      "Sydney, NSW",
+      "Melbourne, VIC",
+      "Brisbane, QLD",
+      "Perth, WA",
+      "Adelaide, SA",
+      "Gold Coast, QLD",
+      "Canberra, ACT",
+      "Newcastle, NSW",
+      "Wollongong, NSW",
+      "Hobart, TAS"
+    ]
+  },
+  
+  "business_size_filters": {
+    "small_business": {
+      "employee_range": "1-10",
+      "revenue_range": "$0-$1M",
+      "years_in_business": "1-5"
+    },
+    "medium_business": {
+      "employee_range": "11-50",
+      "revenue_range": "$1M-$10M",
+      "years_in_business": "5-15"
+    },
+    "large_business": {
+      "employee_range": "51-200",
+      "revenue_range": "$10M-$100M",
+      "years_in_business": "10+"
+    }
+  },
+  
+  "quality_filters": {
+    "high_quality_leads": {
+      "min_rating": 4.0,
+      "min_reviews": 20,
+      "has_website": true,
+      "has_phone": true,
+      "has_email": true,
+      "years_in_business": 2
+    },
+    "medium_quality_leads": {
+      "min_rating": 3.5,
+      "min_reviews": 10,
+      "has_website": true,
+      "has_phone": true,
+      "has_email": false,
+      "years_in_business": 1
+    },
+    "all_leads": {
+      "min_rating": 0,
+      "min_reviews": 0,
+      "has_website": false,
+      "has_phone": false,
+      "has_email": false,
+      "years_in_business": 0
+    }
+  },
+  
+  "search_operators": {
+    "google_maps_operators": {
+      "near": "near:[location]",
+      "in": "in:[neighborhood]",
+      "open_now": "open now",
+      "hours": "hours:[day time]",
+      "rating": "rating:[number]",
+      "price": "price:[1-4]",
+      "category": "[category]"
+    },
+    "instagram_operators": {
+      "hashtag": "#[tag]",
+      "location": "location:[place]",
+      "tagged": "@[username]",
+      "recent": "recent",
+      "top": "top"
+    },
+    "tiktok_operators": {
+      "hashtag": "#[tag]",
+      "sound": "sound:[id]",
+      "user": "@[username]",
+      "trending": "trending",
+      "viral": "viral"
+    }
+  },
+  
+  "query_builder": {
+    "template": "[industry] [business_type] in [city] [filters]",
+    "example_queries": [
+      "software companies in San Francisco with rating > 4.0",
+      "yoga studios in Austin open now",
+      "marketing agencies in Chicago with website",
+      "restaurants in Miami with outdoor seating",
+      "plumbing services in Denver emergency 24/7"
+    ],
+    "variable_substitution": {
+      "{city}": "Replaced with actual city name",
+      "{industry}": "Replaced with industry keyword",
+      "{business_type}": "Replaced with business type (company, agency, firm, etc.)",
+      "{filters}": "Additional filters (rating, hours, services)"
+    }
+  }
+}

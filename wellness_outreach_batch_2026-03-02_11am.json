@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-03-02T11:06:19.080895",
+  "batch": "11 AM",
+  "sent": 5,
+  "total": 5,
+  "from_email": "zan@impactquadrant.info",
+  "cc": "sam@impactquadrant.info",
+  "results": [
+    {
+      "success": true,
+      "company": "Parks Municipal Consulting",
+      "email": "kparks@parksmunicipalconsulting.com",
+      "savings": 41550
+    },
+    {
+      "success": true,
+      "company": "HealthCare Support",
+      "email": "info@healthcaresupport.com",
+      "savings": 103875
+    },
+    {
+      "success": true,
+      "company": "Hybridge Inc",
+      "email": "info@hybridge.com",
+      "savings": 49860
+    },
+    {
+      "success": true,
+      "company": "Seven Healthcare",
+      "email": "info@seven-healthcare.com",
+      "savings": 54015
+    },
+    {
+      "success": true,
+      "company": "Harmony Healthcare",
+      "email": "info@harmony.solutions",
+      "savings": 166200
+    }
+  ]
+}

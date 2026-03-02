@@ -55,7 +55,7 @@
 |-----|-----|---------|
 | **Supabase** | `sb_publishable_H7oSoGx02K5ic0MlodC_ng_8DApe4FN` | Lead storage, database |
 | **Vapi** | `24455236-8179-4d7b-802a-876aa44d4677` | Voice AI calls |
-| **AgentMail** | `am_800b9649c9b5919fe722634e153074fd921b88deab8d659fe6042bb4f6bc1a68` | Email outreach |
+| **AgentMail** | `am_us_6aa957b36fb69693140cb0787c894d90ec2e65ffe937049634b685b911c1ac14` | Email outreach |
 | **ZeroBounce** | `fd0105c8c98340e0a2b63e2fbe39d7a4` | Email validation |
 | **Serper** | `cac43a248afb1cc1ec004370df2e0282a67eb420` | Google search |
 | **Zembra** | 10,000 credits | Yellow Pages |

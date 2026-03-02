@@ -2,7 +2,7 @@
 # Send mining investor outreach email to all investors in CSV
 # Using sam@cubiczan.com as sender
 
-AGENTMAIL_API_KEY="am_77026a53e8d003ce63a3187d06d61e897ee389b9ec479d50bdaeefeda868b32f"
+AGENTMAIL_API_KEY="am_us_6aa957b36fb69693140cb0787c894d90ec2e65ffe937049634b685b911c1ac14"
 FROM_EMAIL="sam@cubiczan.com"
 CSV_FILE="/Users/cubiczan/.openclaw/media/inbound/d5fc3aca-3c73-46b3-a9e4-aa86ffd8c49b.csv"
 LOG_FILE="/Users/cubiczan/.openclaw/workspace/mining-investor-outreach-$(date +%Y%m%d-%H%M%S).log"

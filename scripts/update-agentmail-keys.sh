@@ -4,8 +4,8 @@
 echo "Updating AgentMail API keys..."
 echo "=========================================="
 
-OLD_API_KEY="am_800b9649c9b5919fe722634e153074fd921b88deab8d659fe6042bb4f6bc1a68"
-NEW_API_KEY="am_800b9649c9b5919fe722634e153074fd921b88deab8d659fe6042bb4f6bc1a68"
+OLD_API_KEY="am_us_6aa957b36fb69693140cb0787c894d90ec2e65ffe937049634b685b911c1ac14"
+NEW_API_KEY="am_us_6aa957b36fb69693140cb0787c894d90ec2e65ffe937049634b685b911c1ac14"
 
 OLD_INBOX="zane@agentmail.to"
 NEW_INBOX="zane@agentmail.to"

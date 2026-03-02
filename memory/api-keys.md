@@ -79,7 +79,7 @@
 
 ### AgentMail (Email Sending)
 - **Email:** `Zane@agentmail.to`
-- **API Key:** `am_800b9649c9b5919fe722634e153074fd921b88deab8d659fe6042bb4f6bc1a68`
+- **API Key:** `am_us_6aa957b36fb69693140cb0787c894d90ec2e65ffe937049634b685b911c1ac14`
 - **Usage:** Automated outreach emails
 - **Base URL:** `https://api.agentmail.to/v0`
 - **CC:** `sam@impactquadrant.info` (on all emails)

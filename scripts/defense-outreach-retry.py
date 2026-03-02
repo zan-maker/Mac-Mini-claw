@@ -15,7 +15,7 @@ sys.path.insert(0, '/Users/cubiczan/.openclaw/workspace')
 from hunter_io_config import hunter_client
 
 # AgentMail configuration
-AGENTMAIL_API_KEY = "am_77026a53e8d003ce63a3187d06d61e897ee389b9ec479d50bdaeefeda868b32f"
+AGENTMAIL_API_KEY = "am_us_6aa957b36fb69693140cb0787c894d90ec2e65ffe937049634b685b911c1ac14"
 FROM_EMAIL = "Zane@agentmail.to"
 CC_EMAIL = "sam@impactquadrant.info"
 

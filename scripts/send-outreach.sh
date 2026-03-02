@@ -2,7 +2,7 @@
 # Lead Outreach - AgentMail Integration
 # Date: 2026-02-18
 
-API_KEY="am_800b9649c9b5919fe722634e153074fd921b88deab8d659fe6042bb4f6bc1a68"
+API_KEY="am_us_6aa957b36fb69693140cb0787c894d90ec2e65ffe937049634b685b911c1ac14"
 INBOX="Zane@agentmail.to"
 CC="sam@impactquadrant.info"
 

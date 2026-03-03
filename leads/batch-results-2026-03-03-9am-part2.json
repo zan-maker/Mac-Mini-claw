@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-03-03T09:40:55.809799",
+  "batch": "9:38 AM - Day 4 Follow-ups (Part 2)",
+  "results": [
+    {
+      "company": "HospiceCare",
+      "email": "info@hospicecarewv.org",
+      "savings": 79135,
+      "status": "sent",
+      "message_id": "<0100019cb4251419-b5fb5819-6b90-415c-9340-20947aba736b-000000@email.amazonses.com>"
+    },
+    {
+      "company": "SoCal Premium Hospice",
+      "email": "info@socalpremiumhospice.com",
+      "savings": 32585,
+      "status": "sent",
+      "message_id": "<0100019cb425157d-9bd47571-4408-448a-abf0-5ccb4086b1fd-000000@email.amazonses.com>"
+    },
+    {
+      "company": "Suncrest Hospice",
+      "email": "info@suncrestcare.com",
+      "savings": 55860,
+      "status": "sent",
+      "message_id": "<0100019cb4251795-b837a074-b75a-436c-84c8-d25db3fca376-000000@email.amazonses.com>"
+    }
+  ],
+  "summary": {
+    "sent": 3,
+    "failed": 0,
+    "total_savings": 167580
+  }
+}

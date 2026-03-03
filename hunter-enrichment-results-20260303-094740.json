@@ -1,0 +1,212 @@
+[
+  {
+    "company_name": "Industrial Supply Company",
+    "domain": "indsupply.com",
+    "organization": "Industrial Supply",
+    "total_emails_found": 60,
+    "verified_emails": [
+      {
+        "email": "clittlefield@indsupply.com",
+        "first_name": "Chad",
+        "last_name": "Littlefield",
+        "position": "Vice President of Human Resources",
+        "verification_status": "accept_all",
+        "verification_score": 82,
+        "verification_result": "risky",
+        "sources": [
+          {
+            "domain": "linkedin.com",
+            "uri": "https://www.google.com/search?q=site:linkedin.com%20chad%20littlefield%20indsupply",
+            "extracted_on": "2025-01-14",
+            "last_seen_on": "2026-01-08",
+            "still_on_page": false
+          }
+        ]
+      },
+      {
+        "email": "dbohn@indsupply.com",
+        "first_name": "Damon",
+        "last_name": "Bohn",
+        "position": "Vice President",
+        "verification_status": "accept_all",
+        "verification_score": 78,
+        "verification_result": "risky",
+        "sources": [
+          {
+            "domain": "linkedin.com",
+            "uri": "https://www.google.com/search?q=site:linkedin.com%20damon%20bohn%20indsupply",
+            "extracted_on": "2025-01-14",
+            "last_seen_on": "2026-01-31",
+            "still_on_page": true
+          },
+          {
+            "domain": "manufacturingutah.com",
+            "uri": "https://manufacturingutah.com/directory/industrial-supply-company",
+            "extracted_on": "2025-07-02",
+            "last_seen_on": "2025-07-04",
+            "still_on_page": false
+          },
+          {
+            "domain": "manufacturingutah.com",
+            "uri": "https://manufacturingutah.com/single-category/manufacturing/page/3",
+            "extracted_on": "2025-07-02",
+            "last_seen_on": "2025-07-04",
+            "still_on_page": false
+          }
+        ]
+      },
+      {
+        "email": "lturcotte@indsupply.com",
+        "first_name": "Lou",
+        "last_name": "Turcotte",
+        "position": "President",
+        "verification_status": "accept_all",
+        "verification_score": 82,
+        "verification_result": "risky",
+        "sources": [
+          {
+            "domain": "linkedin.com",
+            "uri": "https://www.google.com/search?q=site:linkedin.com%20lou%20turcotte%20indsupply",
+            "extracted_on": "2025-01-14",
+            "last_seen_on": "2026-02-08",
+            "still_on_page": true
+          }
+        ]
+      },
+      {
+        "email": "rmendez@indsupply.com",
+        "first_name": "Ruben",
+        "last_name": "Mendez",
+        "position": "Senior Vice President of Sales",
+        "verification_status": "accept_all",
+        "verification_score": 80,
+        "verification_result": "risky",
+        "sources": [
+          {
+            "domain": "linkedin.com",
+            "uri": "https://www.google.com/search?q=site:linkedin.com%20ruben%20mendez%20indsupply",
+            "extracted_on": "2025-01-13",
+            "last_seen_on": "2026-01-31",
+            "still_on_page": true
+          }
+        ]
+      }
+    ],
+    "search_metadata": {
+      "results": 60,
+      "limit": 10,
+      "offset": 0,
+      "params": {
+        "domain": "indsupply.com",
+        "company": "Industrial Supply Company",
+        "type": null,
+        "seniority": null,
+        "department": null
+      }
+    },
+    "enrichment_date": "2026-03-03T09:47:33.922949",
+    "credits_used": {
+      "searches": 1,
+      "verifications": 4
+    }
+  },
+  {
+    "company_name": "Midwest Foods",
+    "domain": "midwestfoods.com",
+    "organization": "Midwest Foods",
+    "total_emails_found": 17,
+    "verified_emails": [
+      {
+        "email": "erinf@midwestfoods.com",
+        "first_name": "Erin",
+        "last_name": "Fitzgerald",
+        "position": "President",
+        "verification_status": "valid",
+        "verification_score": 100,
+        "verification_result": "deliverable",
+        "sources": [
+          {
+            "domain": "minorityentrepreneurnews.com",
+            "uri": "https://minorityentrepreneurnews.com/business-basic-listing/mid-west-institutional-food-distributors-inc",
+            "extracted_on": "2023-03-21",
+            "last_seen_on": "2026-02-19",
+            "still_on_page": true
+          },
+          {
+            "domain": "linkedin.com",
+            "uri": "https://www.google.com/search?q=site:linkedin.com%20erin%20fitzgerald%20midwestfoods",
+            "extracted_on": "2025-01-09",
+            "last_seen_on": "2026-01-27",
+            "still_on_page": true
+          },
+          {
+            "domain": "mwdbenews.com",
+            "uri": "https://mwdbenews.com/business-basic-listing/mid-west-institutional-food-distributors-inc",
+            "extracted_on": "2023-03-19",
+            "last_seen_on": "2025-12-10",
+            "still_on_page": true
+          }
+        ]
+      },
+      {
+        "email": "kristiew@midwestfoods.com",
+        "first_name": "Kristie",
+        "last_name": "Waters",
+        "position": "Senior Vice President of Revenue Strategy",
+        "verification_status": "valid",
+        "verification_score": 100,
+        "verification_result": "deliverable",
+        "sources": [
+          {
+            "domain": "linkedin.com",
+            "uri": "https://www.google.com/search?q=site:linkedin.com%20kristie%20waters%20midwestfoods",
+            "extracted_on": "2025-05-09",
+            "last_seen_on": "2026-02-03",
+            "still_on_page": true
+          }
+        ]
+      }
+    ],
+    "search_metadata": {
+      "results": 17,
+      "limit": 10,
+      "offset": 0,
+      "params": {
+        "domain": "midwestfoods.com",
+        "company": "Midwest Foods",
+        "type": null,
+        "seniority": null,
+        "department": null
+      }
+    },
+    "enrichment_date": "2026-03-03T09:47:37.806202",
+    "credits_used": {
+      "searches": 1,
+      "verifications": 2
+    }
+  },
+  {
+    "company_name": "Precision Products Machining Group",
+    "domain": "precprodmachgrp.com",
+    "organization": null,
+    "total_emails_found": 1,
+    "verified_emails": [],
+    "search_metadata": {
+      "results": 1,
+      "limit": 10,
+      "offset": 0,
+      "params": {
+        "domain": "precprodmachgrp.com",
+        "company": "Precision Products Machining Group",
+        "type": null,
+        "seniority": null,
+        "department": null
+      }
+    },
+    "enrichment_date": "2026-03-03T09:47:39.269164",
+    "credits_used": {
+      "searches": 1,
+      "verifications": 0
+    }
+  }
+]

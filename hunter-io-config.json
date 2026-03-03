@@ -1,0 +1,25 @@
+{
+  "hunter_io": {
+    "api_key": "e76ec3ea73a64b4716e6b3c40d3d4d9cea9dc1e2",
+    "plan": "Data-platform",
+    "search_credits": 1000,
+    "verification_credits": 1000,
+    "reset_date": "2027-03-03",
+    "account": "Sam Desigan (sam@impactquadrant.info)",
+    "created": "2026-03-03",
+    "status": "active"
+  },
+  "usage": {
+    "searches_used": 3,
+    "verifications_used": 6,
+    "last_used": "2026-03-03T09:47:39.267905"
+  },
+  "integration": {
+    "primary_use": "Email enrichment for lead generation",
+    "alternative_to": "ZeroBounce (87 credits remaining)",
+    "scripts": [
+      "lead-generator email enrichment",
+      "expense reduction lead enrichment"
+    ]
+  }
+}

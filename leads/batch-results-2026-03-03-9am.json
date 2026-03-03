@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-03-03T09:40:07.310294",
+  "batch": "9:38 AM - Day 4 Follow-ups",
+  "results": [
+    {
+      "company": "BEON.tech",
+      "email": "info@beon.tech",
+      "savings": 83100,
+      "status": "sent",
+      "message_id": "<0100019cb4245676-9dbe5809-917d-4dcb-a821-302c3cc02fdf-000000@email.amazonses.com>"
+    },
+    {
+      "company": "USA Compression Partners",
+      "email": "info@usacompression.com",
+      "savings": 166200,
+      "status": "failed",
+      "error": "HTTP 403: {\"name\":\"MessageRejectedError\",\"message\":\"Message rejected: Recipient(s) blocked: info@usacompression.com (bounced)\"}"
+    },
+    {
+      "company": "Wisconsin Aluminum Foundry",
+      "email": "info@wafco.com",
+      "savings": 166200,
+      "status": "failed",
+      "error": "HTTP 403: {\"name\":\"MessageRejectedError\",\"message\":\"Message rejected: Recipient(s) blocked: info@wafco.com (bounced)\"}"
+    },
+    {
+      "company": "Best Fitness",
+      "email": "info@bestfitness.com",
+      "savings": 83100,
+      "status": "failed",
+      "error": "HTTP 403: {\"name\":\"MessageRejectedError\",\"message\":\"Message rejected: Recipient(s) blocked: info@bestfitness.com (bounced)\"}"
+    },
+    {
+      "company": "Hospice & Palliative Care",
+      "email": "Info@hospicecareinc.org",
+      "savings": 37240,
+      "status": "sent",
+      "message_id": "<0100019cb42459c9-6b302c0f-6518-48c0-9586-c653a771f2ca-000000@email.amazonses.com>"
+    }
+  ],
+  "summary": {
+    "sent": 2,
+    "failed": 3,
+    "total_savings": 120340
+  }
+}

@@ -93,5 +93,5 @@ class HunterIOClient:
             return {"data": None, "errors": [str(e)]}
 
 # Initialize client
-HUNTER_API_KEY = "601920a0b5d6b80f9131d4ae588065f694840081"
+HUNTER_API_KEY = "e341bb9af29f1da98190364caafb01a6b38e8e1c"
 hunter_client = HunterIOClient(HUNTER_API_KEY)

@@ -100,7 +100,13 @@
 | roi-analyst | Revenue analysis | `/Users/cubiczan/mac-bot/skills/roi-analyst/` |
 | lead-generator | SMB lead qualification | `/Users/cubiczan/mac-bot/skills/lead-generator/` |
 
-**Status:** Orchestrator (main) is configured. Sub-agents need to be added to openclaw.json `agents.list`.
+**Status:** ✅ All agents properly configured
+- Main agent: DeepSeek Chat (routine tasks)
+- Trade Recommender: GLM-5 (market research)
+- ROI Analyst: GLM-5 (financial analysis)
+- Lead Generator: GLM-5 (prospect research)
+- Agent directories created and linked to skills
+- All sub-agents added to openclaw.json `agents.list`
 
 ---
 

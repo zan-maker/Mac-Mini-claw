@@ -1,0 +1,38 @@
+📊 **Expense Reduction Lead Gen - March 03, 2026**
+
+**Lead Generation Results:**
+• Total Leads Generated: 12
+• High Priority (70+ score): 12
+• Medium Priority (50-69 score): 0
+• Total Potential Savings: $2,070,000
+
+**🔍 Data Source Report:**
+• Scrapling Used: ✅ Yes
+• Scrapling Results: 0 leads
+• Traditional API Results: 12 leads
+• Total Processing Time: 4.2 seconds
+
+**🏆 Top 3 Leads of the Day:**
+
+**1. CFO Manufacturing Company $200,000 Jobs, Employment**
+   • Industry: Manufacturing
+   • Employees: ~50
+   • Potential Savings: $86,250 - $172,500
+   • Lead Score: 75/100 (High Priority)
+   • Source: Tavily
+
+**2. Manufacturing & Distribution Fractional CFO Services**
+   • Industry: Manufacturing
+   • Employees: ~50
+   • Potential Savings: $86,250 - $172,500
+   • Lead Score: 75/100 (High Priority)
+   • Source: Tavily
+
+**3. Chief Financial Officer with a Growing Manufacturer – Cleveland, OH**
+   • Industry: Technology
+   • Employees: ~50
+   • Potential Savings: $86,250 - $172,500
+   • Lead Score: 75/100 (High Priority)
+   • Source: Tavily
+
+✅ Leads saved to `/workspace/expense-leads/daily-leads-2026-03-03.md`

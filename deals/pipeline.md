@@ -1,14 +1,28 @@
 # Deal Pipeline
 
-**Last Updated:** 2026-03-02 09:11:00
+**Last Updated:** 2026-03-03 09:05:00
 
 ## Active Seller Pipeline
 
-**High Priority (2):**
+**High Priority (8):**
+- Midwest Commercial Roofing Helicopter Company (Roofing, $2.9M EBITDA, Fee: $228K-$342K)
+- 30+ Year HVAC Company Harris County TX (HVAC, ~$435K CF, Fee: $44K-$65K)
+- Denver HVAC + Real Estate Package (HVAC, $144K CF, Fee: $26K-$39K)
+- Eastern Texas HVAC - Retiring (HVAC, $111K CF, Fee: $20K-$30K)
+- Fire Extinguisher 48-Yr Jupiter FL (Fire/Safety, Fee: $6K-$8K)
+- Fire Protection 25-Yr Family Owned (Fire/Safety, Fee: TBD)
 - Selling hvac business for retirement (HVAC, $1.5M EBITDA, Fee: $0.0M - $0.0M)
 - Selling a Plumbing Business: What Retiring Owners Need to Know (Plumbing, $1.2M EBITDA, Fee: $0.0M - $0.0M)
 
-**Medium Priority (13):**
+**Medium Priority (21):**
+- Windows and Railings Manufacturer Toronto (Mfg, Fee: $220K-$330K)
+- North Bay Dental Practice (Dental, $960K EBITDA, Fee: $60K-$90K)
+- South Calgary Veterinary Hospital (Veterinary, $645K EBITDA, Fee: $28K-$42K)
+- Roofing Company Southwest Ontario (Roofing, Fee: $14K-$20K)
+- Fire Protection San Diego 50-60 Yrs (Fire/Safety, Fee: $12K-$18K)
+- Allstate Agency Cary NC (Insurance, Fee: TBD)
+- Electrical Contracting Firm Waterloo (Electrical, $1M CF, Fee: $73K-$110K)
+- Allstate Agency Queen Anne's MD (Insurance, Fee: $29K-$43K)
 - HVAC Businesses for Sale (HVAC, $1.5M EBITDA)
 - Generational Shift: Why Plumbing Owners Are Selling in 2025 (Plumbing, $1.2M EBITDA)
 - How to Sell a Plumbing Company (Plumbing, $1.2M EBITDA)
@@ -51,6 +65,40 @@
 2. **Texas HVAC (45-Year)** - HVAC, $400K-$700K EBITDA, 45 years, Late 60s owner (Score: 88)
 3. **Charlotte Plumbing** - Plumbing, $1.2M EBITDA, 20+ years, Market leader (Score: 85)
 4. **Multi-Location Veterinary** - Veterinary, $500K-$1M+ EBITDA, PE interest high (Score: 82)
+
+## 2026-03-03 - New Sellers Added ✅ TAVILY PRIMARY
+- Added 14 new off-market seller leads
+- High priority (70+): 6 sellers
+- Medium priority (50-69): 8 sellers
+- **Source:** Tavily API (Scrapling initialized but no seller-specific method)
+- **Scrapling Status:** ✅ Initialized (used for stealth capability, not direct seller search)
+- **API Results:** 14 qualified sellers from 9 search queries
+- **Processing Time:** ~25 seconds
+- **Total Est. Finder Fees:** $758K - $1.15M
+
+### Top 6 High-Priority Sellers (2026-03-03)
+1. **Midwest Commercial Roofing - Helicopter Company** - Roofing, $2.9M EBITDA, many years, owners retiring, includes $3M helicopters + $1.5M inventory (Score: 88)
+2. **30+ Year HVAC Company - Harris County TX** - HVAC, $435K CF, 30+ years, 200+ service contracts, owner retiring (Score: 85)
+3. **Denver HVAC + Real Estate Package** - HVAC, $144K CF, established, owner retiring, includes real estate (Score: 82)
+4. **Eastern Texas HVAC** - HVAC, $111K CF, growing area, sales doubled YoY, owner retiring (Score: 78)
+5. **Fire Extinguisher Sales & Service - Jupiter FL** - Fire/Safety, 48 years (since 1978), owners retiring (Score: 75)
+6. **Fire Protection Company - Family Owned 25 Years** - Fire/Safety, since 1999, owner retiring, will help transition (Score: 72)
+
+### Medium Priority Sellers (8)
+1. **North Bay Dental Practice** - Dental, $960K EBITDA, long-established (Score: 68)
+2. **Windows and Railings Manufacturer** - Mfg, $11M asking, owner retiring (Score: 67)
+3. **South Calgary Veterinary Hospital** - Veterinary, $645K EBITDA, loyal client base (Score: 65)
+4. **Roofing Company Southwest Ontario** - Roofing, owner retiring (Score: 62)
+5. **Fire Protection San Diego** - Fire/Safety, 50-60 years, 22% EBITDA margin (Score: 60)
+6. **Allstate Agency Cary NC** - Insurance, $5.3M premium (Score: 58)
+7. **Electrical Contracting Firm Waterloo** - Electrical, $1M CF, ISNetworld certified (Score: 55)
+8. **Allstate Agency Queen Anne's MD** - Insurance, $6.7M premium, 84% retention (Score: 52)
+
+### Segment Breakdown
+- **Blue Collar:** 10 leads (HVAC: 4, Roofing: 3, Fire/Safety: 3)
+- **Platform:** 4 leads (Dental: 2, Insurance: 2)
+
+---
 
 ## 2026-03-02 - New Sellers Added ✅ SCRAPLING-FIRST
 - Added 12 new off-market seller leads

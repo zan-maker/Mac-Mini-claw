@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Stripe Payment System for ClawReceptionist
+Stripe Payment System for AuraAssist
 Handles subscriptions, payments, and customer management
 """
 
@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class StripePaymentSystem:
-    """Stripe payment system for ClawReceptionist"""
+    """Stripe payment system for AuraAssist"""
     
     def __init__(self, test_mode: bool = False):
         self.test_mode = test_mode
@@ -49,7 +49,7 @@ class StripePaymentSystem:
             else:
                 logger.info("Running in simulation mode (no real Stripe calls)")
         
-        # ClawReceptionist pricing plans
+        # AuraAssist pricing plans
         self.plans = {
             "capture": {
                 "name": "Capture Plan",
@@ -106,7 +106,7 @@ class StripePaymentSystem:
     
     def setup_products_and_prices(self) -> Dict:
         """
-        Create Stripe products and prices for ClawReceptionist
+        Create Stripe products and prices for AuraAssist
         
         Returns:
             Dictionary with created products and prices
@@ -120,7 +120,7 @@ class StripePaymentSystem:
             
             # Create main product
             product = stripe.Product.create(
-                name="ClawReceptionist - AI Business Assistant",
+                name="AuraAssist - AI Business Assistant",
                 description="24/7 AI receptionist for salons, home services, and small businesses. Reduces no-shows, captures leads, and automates appointments.",
                 metadata={
                     "product_type": "saas",
@@ -342,9 +342,9 @@ class StripePaymentSystem:
             
             # Default URLs
             if not success_url:
-                success_url = "https://clawreceptionist.com/success?session_id={CHECKOUT_SESSION_ID}"
+                success_url = "https://auraassist.com/success?session_id={CHECKOUT_SESSION_ID}"
             if not cancel_url:
-                cancel_url = "https://clawreceptionist.com/cancel"
+                cancel_url = "https://auraassist.com/cancel"
             
             # Create checkout session
             session = stripe.checkout.Session.create(
@@ -362,7 +362,7 @@ class StripePaymentSystem:
                 } if self.trial_period_days else {},
                 metadata={
                     'plan_id': plan_id,
-                    'product': 'clawreceptionist'
+                    'product': 'auraassist'
                 }
             )
             
@@ -579,7 +579,7 @@ def main():
     """Command-line interface"""
     import argparse
     
-    parser = argparse.ArgumentParser(description='Stripe Payment System for ClawReceptionist')
+    parser = argparse.ArgumentParser(description='Stripe Payment System for AuraAssist')
     subparsers = parser.add_subparsers(dest='command', help='Command to execute')
     
     # Setup command
@@ -609,7 +609,7 @@ def main():
     
     args = parser.parse_args()
     
-    print("💰 CLAWRECEPTIONIST STRIPE PAYMENT SYSTEM")
+    print("💰 AURAASSIST STRIPE PAYMENT SYSTEM")
     print("="*60)
     
     # Initialize payment system

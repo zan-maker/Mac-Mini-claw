@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Send First ClawReceptionist Campaign
+Send First AuraAssist Campaign
 Send personalized emails to salon leads from outreach queue
 """
 
@@ -13,12 +13,12 @@ from datetime import datetime
 # Add parent directory to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-print("🚀 SENDING FIRST CLAWRECEPTIONIST CAMPAIGN")
+print("🚀 SENDING FIRST AURAASSIST CAMPAIGN")
 print("="*60)
 print("🎯 Target: Salon & Spa Businesses")
 print("📍 Location: New York")
 print("📧 Method: Personalized Email Outreach")
-print("💰 Offer: 14-day Free Trial of ClawReceptionist")
+print("💰 Offer: 14-day Free Trial of AuraAssist")
 print("="*60)
 
 # Step 1: Check outreach queue
@@ -99,7 +99,7 @@ print("Would you have 15 minutes next week to see how it works?")
 print()
 print("Best,")
 print("Sam")
-print("ClawReceptionist")
+print("AuraAssist")
 print("-"*40)
 print()
 

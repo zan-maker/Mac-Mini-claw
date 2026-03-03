@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Yelp Scraper Integration for ClawReceptionist
+Yelp Scraper Integration for AuraAssist
 Uses Perfect Yelp Scraper: https://github.com/Zeeshanahmad4/Perfect-yelp-Scraper
 """
 
@@ -25,7 +25,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class YelpScraperIntegration:
-    """Integrate Perfect Yelp Scraper for ClawReceptionist leads"""
+    """Integrate Perfect Yelp Scraper for AuraAssist leads"""
     
     def __init__(self, scraper_path: str = None):
         """
@@ -38,7 +38,7 @@ class YelpScraperIntegration:
         self.output_dir = "/Users/cubiczan/.openclaw/workspace/scraped_leads/yelp"
         os.makedirs(self.output_dir, exist_ok=True)
         
-        # Industry to Yelp category mapping for ClawReceptionist
+        # Industry to Yelp category mapping for AuraAssist
         self.industry_categories = {
             "salons_spas": [
                 "hair", "nail", "spa", "barber", "beauty", "esthetics",
@@ -172,7 +172,7 @@ class YelpScraperIntegration:
                 "website": f"https://www.{category}{i+1}.com",
                 "url": f"https://yelp.com/biz/{category}-business-{i+1}",
                 
-                # Additional fields for ClawReceptionist
+                # Additional fields for AuraAssist
                 "industry": self._category_to_industry(category),
                 "scraped_at": pd.Timestamp.now().isoformat(),
                 "lead_score": self._calculate_lead_score(category, i),
@@ -183,7 +183,7 @@ class YelpScraperIntegration:
         return mock_leads
     
     def _category_to_industry(self, category: str) -> str:
-        """Map Yelp category to ClawReceptionist industry"""
+        """Map Yelp category to AuraAssist industry"""
         for industry, categories in self.industry_categories.items():
             if category in categories:
                 return industry
@@ -273,7 +273,7 @@ class YelpScraperIntegration:
     
     def analyze_yelp_data(self, filepath: str) -> Dict:
         """
-        Analyze scraped Yelp data for ClawReceptionist targeting
+        Analyze scraped Yelp data for AuraAssist targeting
         
         Args:
             filepath: Path to scraped Yelp CSV file
@@ -381,7 +381,7 @@ def main():
     """Command-line interface for Yelp scraper"""
     import argparse
     
-    parser = argparse.ArgumentParser(description='Yelp Scraper for ClawReceptionist')
+    parser = argparse.ArgumentParser(description='Yelp Scraper for AuraAssist')
     parser.add_argument('--install', action='store_true', help='Install Perfect Yelp Scraper')
     parser.add_argument('--scrape', help='Scrape specific industry')
     parser.add_argument('--location', help='Location to search (city, state, zip)')

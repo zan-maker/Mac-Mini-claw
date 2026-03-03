@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Rename ClawReceptionist to AuraAssist
+Rename AuraAssist to AuraAssist
 Updates all files, scripts, and configurations
 """
 
@@ -11,7 +11,7 @@ from pathlib import Path
 from datetime import datetime
 
 def rename_system():
-    """Rename entire system from ClawReceptionist to AuraAssist"""
+    """Rename entire system from AuraAssist to AuraAssist"""
     
     print("🚀 RENAMING TO AURAASSIST")
     print("="*60)
@@ -22,17 +22,17 @@ def rename_system():
     # Replacement mappings
     replacements = {
         # Exact case-sensitive replacements
-        "ClawReceptionist": "AuraAssist",
-        "clawreceptionist": "auraassist",
-        "CLAWRECEPTIONIST": "AURAASSIST",
+        "AuraAssist": "AuraAssist",
+        "auraassist": "auraassist",
+        "AURAASSIST": "AURAASSIST",
         
         # Word variations
-        "Claw Receptionist": "Aura Assist",
-        "claw receptionist": "aura assist",
+        "Aura Assist": "Aura Assist",
+        "aura assist": "aura assist",
         
         # Domain/URL references
-        "clawreceptionist.com": "auraassist.com",
-        "ClawReceptionist.com": "AuraAssist.com",
+        "auraassist.com": "auraassist.com",
+        "AuraAssist.com": "AuraAssist.com",
         
         # Product descriptions
         "AI receptionist": "business assistant",
@@ -46,8 +46,8 @@ def rename_system():
     # Files to rename
     files_to_rename = [
         # Scripts
-        ("scripts/clawreceptionist_email_outreach.py", "scripts/auraassist_email_outreach.py"),
-        ("scripts/clawreceptionist_sales_pipeline.py", "scripts/auraassist_sales_pipeline.py"),
+        ("scripts/auraassist_email_outreach.py", "scripts/auraassist_email_outreach.py"),
+        ("scripts/auraassist_sales_pipeline.py", "scripts/auraassist_sales_pipeline.py"),
         ("scripts/launch_first_campaign.sh", "scripts/launch_auraassist_campaign.sh"),
         ("scripts/automated_pipeline.sh", "scripts/auraassist_pipeline.sh"),
         
@@ -73,7 +73,7 @@ def rename_system():
         "scripts/launch_scraping.sh",
         
         # Documentation
-        "CLAWRECEPTIONIST_IMPLEMENTATION_PLAN.md",
+        "AURAASSIST_IMPLEMENTATION_PLAN.md",
         "SMB_AI_RECEPTIONIST_PRODUCT.md",
         "SCRAPING_ORCHESTRATION_SYSTEM.md",
         "MARKITDOWN_INTEGRATION.md",
@@ -133,8 +133,8 @@ def rename_system():
                     content = content.replace(old, new)
                 
                 # Also handle case variations
-                content = re.sub(r'(?i)clawreceptionist', 'auraassist', content)
-                content = re.sub(r'(?i)claw receptionist', 'aura assist', content)
+                content = re.sub(r'(?i)auraassist', 'auraassist', content)
+                content = re.sub(r'(?i)aura assist', 'aura assist', content)
                 
                 # Write back if changed
                 if content != original_content:
@@ -186,8 +186,8 @@ def rename_system():
                             content = content.replace(old, new)
                         
                         # Case-insensitive replacements
-                        content = re.sub(r'(?i)clawreceptionist', 'auraassist', content)
-                        content = re.sub(r'(?i)claw receptionist', 'aura assist', content)
+                        content = re.sub(r'(?i)auraassist', 'auraassist', content)
+                        content = re.sub(r'(?i)aura assist', 'aura assist', content)
                         
                         # Write back if changed
                         if content != original_content:
@@ -358,7 +358,7 @@ Please reach out to Sam Desigan (Sam@impactquadrant.info) for AuraAssist follow 
     
     # Summary
     print("📊 SUMMARY OF CHANGES:")
-    print("1. Renamed all files from ClawReceptionist to AuraAssist")
+    print("1. Renamed all files from AuraAssist to AuraAssist")
     print("2. Updated all file contents with new branding")
     print("3. Created new branding guidelines")
     print("4. Updated implementation plan")

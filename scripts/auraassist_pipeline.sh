@@ -1,10 +1,10 @@
 #!/bin/bash
-# Automated Pipeline: Scraping → Processing → Outreach → ClawReceptionist
+# Automated Pipeline: Scraping → Processing → Outreach → AuraAssist
 
-echo "🚀 CLAWRECEPTIONIST AUTOMATED PIPELINE"
+echo "🚀 AURAASSIST AUTOMATED PIPELINE"
 echo "============================================================"
 echo "📅 Date: $(date)"
-echo "🎯 Goal: End-to-end lead generation for ClawReceptionist"
+echo "🎯 Goal: End-to-end lead generation for AuraAssist"
 echo "📊 Pipeline: Scraping → Qualification → Outreach → Conversion"
 echo "============================================================"
 
@@ -70,7 +70,7 @@ else
 fi
 
 echo ""
-echo "🔧 STEP 4: INTEGRATION WITH CLAWRECEPTIONIST"
+echo "🔧 STEP 4: INTEGRATION WITH AURAASSIST"
 echo "----------------------------------------"
 
 # Check if payment system is ready
@@ -113,7 +113,7 @@ echo "   • 9:00 AM: Lead processing"
 echo "   • 10:00 AM: Outreach preparation"
 echo "   • Manual: Outreach sending & demo scheduling"
 echo ""
-echo "🚀 NEXT STEPS FOR CLAWRECEPTIONIST:"
+echo "🚀 NEXT STEPS FOR AURAASSIST:"
 echo "1. Configure Stripe API keys"
 echo "2. Set up email/SMS outreach system"
 echo "3. Create demo scheduling system"
@@ -128,5 +128,5 @@ echo "   • Demos: 30-60"
 echo "   • Customers: 10-30"
 echo "   • MRR: \$5,990-\$17,970"
 echo ""
-echo "🎉 CLAWRECEPTIONIST PIPELINE IS LIVE AND OPERATIONAL! 🚀"
+echo "🎉 AURAASSIST PIPELINE IS LIVE AND OPERATIONAL! 🚀"
 echo "============================================================"

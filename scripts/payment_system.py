@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ClawReceptionist Payment System
+AuraAssist Payment System
 Stripe integration for subscription billing
 """
 
@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class PaymentSystem:
-    """Stripe payment processing for ClawReceptionist"""
+    """Stripe payment processing for AuraAssist"""
     
     def __init__(self, stripe_secret_key: Optional[str] = None):
         """
@@ -85,7 +85,7 @@ class PaymentSystem:
                 "metadata": {
                     "business_name": business_name,
                     "signup_date": datetime.now().isoformat(),
-                    "source": "clawreceptionist",
+                    "source": "auraassist",
                     "lead_source": metadata.get("lead_source", "direct") if metadata else "direct"
                 }
             }
@@ -183,9 +183,9 @@ class PaymentSystem:
             
             # Default URLs
             if not success_url:
-                success_url = "https://clawreceptionist.com/success?session_id={CHECKOUT_SESSION_ID}"
+                success_url = "https://auraassist.com/success?session_id={CHECKOUT_SESSION_ID}"
             if not cancel_url:
-                cancel_url = "https://clawreceptionist.com/cancel"
+                cancel_url = "https://auraassist.com/cancel"
             
             session = stripe.checkout.Session.create(
                 customer=customer_id,
@@ -364,7 +364,7 @@ class PaymentSystem:
         """Create customer portal session for self-service"""
         try:
             if not return_url:
-                return_url = "https://clawreceptionist.com/account"
+                return_url = "https://auraassist.com/account"
             
             session = stripe.billing_portal.Session.create(
                 customer=customer_id,
@@ -416,7 +416,7 @@ def main():
     """Command-line interface for payment system"""
     import argparse
     
-    parser = argparse.ArgumentParser(description='ClawReceptionist Payment System')
+    parser = argparse.ArgumentParser(description='AuraAssist Payment System')
     parser.add_argument('--create-customer', action='store_true', help='Create new customer')
     parser.add_argument('--create-subscription', action='store_true', help='Create subscription')
     parser.add_argument('--create-checkout', action='store_true', help='Create checkout session')

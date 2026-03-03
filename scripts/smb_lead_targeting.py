@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 SMB AI Receptionist Lead Targeting
-Targets small businesses for ClawReceptionist product
+Targets small businesses for AuraAssist product
 """
 
 import os
@@ -138,7 +138,7 @@ Would 15 minutes next week make sense to show you how it works?
 
 Best,
 {your_name}
-ClawReceptionist""",
+AuraAssist""",
                 "value_prop": "Never miss an emergency call, reduce no-shows, automate scheduling"
             },
             "salons_spas": {
@@ -167,7 +167,7 @@ Would you have 15 minutes next week to see how it works?
 
 Best,
 {your_name}
-ClawReceptionist""",
+AuraAssist""",
                 "value_prop": "Fewer no-shows, more filled chairs, less phone time"
             }
         }

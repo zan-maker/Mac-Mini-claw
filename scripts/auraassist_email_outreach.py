@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ClawReceptionist Email Outreach System
+AuraAssist Email Outreach System
 Sends personalized outreach emails to qualified leads from outreach_queue/
 """
 
@@ -34,8 +34,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-class ClawReceptionistEmailOutreach:
-    """Email outreach system for ClawReceptionist leads"""
+class AuraAssistEmailOutreach:
+    """Email outreach system for AuraAssist leads"""
     
     def __init__(self, test_mode: bool = False):
         self.test_mode = test_mode
@@ -289,7 +289,7 @@ def main():
     """Command-line interface"""
     import argparse
     
-    parser = argparse.ArgumentParser(description='Send ClawReceptionist outreach emails')
+    parser = argparse.ArgumentParser(description='Send AuraAssist outreach emails')
     parser.add_argument('--campaign', help='Specific campaign file to send')
     parser.add_argument('--limit', type=int, help='Maximum number of emails to send')
     parser.add_argument('--test', action='store_true', help='Test mode (no emails sent)')
@@ -297,11 +297,11 @@ def main():
     
     args = parser.parse_args()
     
-    print("🚀 CLAWRECEPTIONIST EMAIL OUTREACH SYSTEM")
+    print("🚀 AURAASSIST EMAIL OUTREACH SYSTEM")
     print("="*60)
     
     # Initialize outreach system
-    outreach = ClawReceptionistEmailOutreach(test_mode=args.test or args.dry_run)
+    outreach = AuraAssistEmailOutreach(test_mode=args.test or args.dry_run)
     
     if args.dry_run:
         print("🔍 DRY RUN MODE: No emails will be sent")

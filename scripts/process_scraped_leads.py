@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Process Scraped Leads for ClawReceptionist Outreach
+Process Scraped Leads for AuraAssist Outreach
 Takes scraped leads, qualifies them, and prepares for outreach
 """
 
@@ -23,14 +23,14 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class LeadProcessor:
-    """Process scraped leads for ClawReceptionist outreach"""
+    """Process scraped leads for AuraAssist outreach"""
     
     def __init__(self, data_dir: str = None):
         self.data_dir = data_dir or "/Users/cubiczan/.openclaw/workspace/scraped_leads"
         self.output_dir = "/Users/cubiczan/.openclaw/workspace/outreach_queue"
         os.makedirs(self.output_dir, exist_ok=True)
         
-        # Lead qualification criteria for ClawReceptionist
+        # Lead qualification criteria for AuraAssist
         self.qualification_criteria = {
             "min_lead_score": 70,
             "required_fields": ["business_name", "phone", "location"],
@@ -122,7 +122,7 @@ class LeadProcessor:
         return os.path.join(combined_dir, json_files[0])
     
     def _qualify_leads(self, leads: List[Dict]) -> List[Dict]:
-        """Qualify leads for ClawReceptionist"""
+        """Qualify leads for AuraAssist"""
         qualified = []
         
         for lead in leads:
@@ -158,7 +158,7 @@ class LeadProcessor:
         return qualified
     
     def _calculate_lead_score(self, lead: Dict) -> int:
-        """Calculate lead score (0-100) for ClawReceptionist"""
+        """Calculate lead score (0-100) for AuraAssist"""
         score = 50  # Base score
         
         # Source platform (Craigslist/Yellow Pages preferred)
@@ -194,7 +194,7 @@ class LeadProcessor:
         return min(100, score)
     
     def _prepare_outreach(self, leads: List[Dict]) -> List[Dict]:
-        """Prepare leads for ClawReceptionist outreach"""
+        """Prepare leads for AuraAssist outreach"""
         outreach_leads = []
         
         for lead in leads:
@@ -243,7 +243,7 @@ class LeadProcessor:
             return "unknown"
     
     def _prepare_outreach_message(self, lead: Dict) -> str:
-        """Prepare personalized outreach message for ClawReceptionist"""
+        """Prepare personalized outreach message for AuraAssist"""
         business_name = lead.get("business_name", "your business")
         industry = lead.get("industry", "salons_spas").replace("_", " ")
         
@@ -262,7 +262,7 @@ Most {industry} lose 20-30% of revenue to:
 • Lost leads in Instagram DMs
 • Empty chairs from cancellations
 
-Our AI receptionist for {industry}:
+Our business assistant for {industry}:
 • Sends smart reminders (72h, 24h, 2h)
 • Captures leads 24/7 from calls/texts/DMs
 • Fills cancellations automatically from waitlist
@@ -274,7 +274,7 @@ Would you have 15 minutes next week to see how it works?
 
 Best,
 Sam
-ClawReceptionist"""
+AuraAssist"""
         else:
             subject = "Stop missing calls & reduce no-shows"
             body = f"""Hi there,
@@ -297,7 +297,7 @@ Would 15 minutes next week make sense to show you how it works?
 
 Best,
 Sam
-ClawReceptionist"""
+AuraAssist"""
         
         return {
             "subject": subject,
@@ -365,7 +365,7 @@ def main():
     """Command-line interface"""
     import argparse
     
-    parser = argparse.ArgumentParser(description='Process scraped leads for ClawReceptionist outreach')
+    parser = argparse.ArgumentParser(description='Process scraped leads for AuraAssist outreach')
     parser.add_argument('--industry', help='Industry to process (salons_spas, home_services, etc.)')
     parser.add_argument('--location', help='Location to process')
     parser.add_argument('--auto', action='store_true', help='Automatically process latest leads')

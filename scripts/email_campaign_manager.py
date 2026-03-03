@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Email Campaign Manager for ClawReceptionist
+Email Campaign Manager for AuraAssist
 Manages end-to-end email campaigns: scheduling, sending, tracking, follow-ups
 """
 
@@ -29,7 +29,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class EmailCampaignManager:
-    """Manages email campaigns for ClawReceptionist"""
+    """Manages email campaigns for AuraAssist"""
     
     def __init__(self, test_mode: bool = False):
         self.test_mode = test_mode
@@ -380,7 +380,7 @@ def main():
     """Command-line interface"""
     import argparse
     
-    parser = argparse.ArgumentParser(description='Manage ClawReceptionist email campaigns')
+    parser = argparse.ArgumentParser(description='Manage AuraAssist email campaigns')
     subparsers = parser.add_subparsers(dest='command', help='Command to execute')
     
     # Create campaign command
@@ -410,7 +410,7 @@ def main():
     
     args = parser.parse_args()
     
-    print("🚀 CLAWRECEPTIONIST EMAIL CAMPAIGN MANAGER")
+    print("🚀 AURAASSIST EMAIL CAMPAIGN MANAGER")
     print("="*60)
     
     manager = EmailCampaignManager(test_mode=False)

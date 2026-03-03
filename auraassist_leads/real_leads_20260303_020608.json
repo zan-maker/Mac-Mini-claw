@@ -1,0 +1,285 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-03T02:06:08.865716",
+    "total_leads": 10,
+    "source": "Hunter.io + Manual Research",
+    "lead_type": "AuraAssist - Salons & Spas",
+    "location": "New York City"
+  },
+  "leads": [
+    {
+      "business_name": "Takamichi Hair",
+      "website": "takamichihair.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "High-end Japanese hair salon in Midtown",
+      "email": "booking@takamichihair.com",
+      "contact_name": "None None",
+      "contact_position": null,
+      "email_confidence": 78,
+      "email_sources": [
+        {
+          "domain": "takamichihair.com",
+          "uri": "https://takamichihair.com/blog-source/pro-tips-color-between-appointments",
+          "extracted_on": "2025-09-23",
+          "last_seen_on": "2026-02-25",
+          "still_on_page": true
+        },
+        {
+          "domain": "takamichihair.com",
+          "uri": "https://takamichihair.com/faq",
+          "extracted_on": "2025-09-23",
+          "last_seen_on": "2026-02-25",
+          "still_on_page": true
+        },
+        {
+          "domain": "takamichihair.com",
+          "uri": "https://takamichihair.com/hours-and-direction",
+          "extracted_on": "2015-07-01",
+          "last_seen_on": "2026-02-25",
+          "still_on_page": true
+        },
+        {
+          "domain": "takamichihair.com",
+          "uri": "https://takamichihair.com/studio-1",
+          "extracted_on": "2025-09-23",
+          "last_seen_on": "2026-02-25",
+          "still_on_page": true
+        },
+        {
+          "domain": "leadingsalons.com",
+          "uri": "https://leadingsalons.com/en/salon/30/takamichi_hair-new_york",
+          "extracted_on": "2018-04-02",
+          "last_seen_on": "2023-10-28",
+          "still_on_page": false
+        },
+        {
+          "domain": "ratemyarea.com",
+          "uri": "https://ratemyarea.com/maicure-pedicure-nail-spas-in-new-york-ny",
+          "extracted_on": "2020-07-27",
+          "last_seen_on": "2020-07-27",
+          "still_on_page": false
+        },
+        {
+          "domain": "m.takamichihair.com",
+          "uri": "https://m.takamichihair.com/hours",
+          "extracted_on": "2016-08-10",
+          "last_seen_on": "2017-09-02",
+          "still_on_page": false
+        }
+      ],
+      "lead_score": 90,
+      "enriched_at": "2026-03-03T02:05:54.918462"
+    },
+    {
+      "business_name": "Butterfly Studio",
+      "website": "butterflystudiosalon.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Popular salon in Flatiron District",
+      "email": "shirley@butterflystudiosalon.com",
+      "contact_name": "Shirley Chomos",
+      "contact_position": "Artist",
+      "email_confidence": 70,
+      "email_sources": [
+        {
+          "domain": "butterflystudiosalon.com",
+          "uri": "https://butterflystudiosalon.com",
+          "extracted_on": "2020-01-13",
+          "last_seen_on": "2026-02-06",
+          "still_on_page": true
+        },
+        {
+          "domain": "butterflystudiosalon.com",
+          "uri": "https://butterflystudiosalon.com/services-1",
+          "extracted_on": "2026-02-06",
+          "last_seen_on": "2026-02-06",
+          "still_on_page": true
+        },
+        {
+          "domain": "butterflystudiosalon.com",
+          "uri": "https://butterflystudiosalon.com/team",
+          "extracted_on": "2022-08-25",
+          "last_seen_on": "2026-02-06",
+          "still_on_page": true
+        },
+        {
+          "domain": "butterflystudiosalon.com",
+          "uri": "https://butterflystudiosalon.com/kattia-in-the-hamptons",
+          "extracted_on": "2020-01-06",
+          "last_seen_on": "2026-01-14",
+          "still_on_page": true
+        },
+        {
+          "domain": "butterflystudiosalon.com",
+          "uri": "https://butterflystudiosalon.com/shape-your-brows",
+          "extracted_on": "2019-09-05",
+          "last_seen_on": "2026-01-14",
+          "still_on_page": true
+        },
+        {
+          "domain": "yappt.com",
+          "uri": "https://yappt.com/deals/listing/butterfly-studio-by-kattia-solano",
+          "extracted_on": "2024-04-18",
+          "last_seen_on": "2024-04-18",
+          "still_on_page": false
+        },
+        {
+          "domain": "yappt.com",
+          "uri": "https://yappt.com/listing/butterfly-studio-by-kattia-solano",
+          "extracted_on": "2023-10-17",
+          "last_seen_on": "2024-01-18",
+          "still_on_page": false
+        }
+      ],
+      "lead_score": 90,
+      "enriched_at": "2026-03-03T02:05:56.197419"
+    },
+    {
+      "business_name": "Martha Matranga Salon",
+      "website": "marthamatranga.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.0,
+      "notes": "Established salon with loyal clientele [Generic email - verify manually]",
+      "email": "info@marthamatranga.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 70,
+      "enriched_at": "2026-03-03T02:05:57.784661"
+    },
+    {
+      "business_name": "Mizu Salon",
+      "website": "mizusalon.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Modern salon in Financial District [Generic email - verify manually]",
+      "email": "info@mizusalon.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-03T02:05:59.307838"
+    },
+    {
+      "business_name": "Oribe Salon",
+      "website": "oribe.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Luxury salon, premium positioning",
+      "email": "wallace@oribe.com",
+      "contact_name": "Erin Wallace",
+      "contact_position": "Brand Manager",
+      "email_confidence": 94,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20erin%20wallace%20oribe",
+          "extracted_on": "2025-08-10",
+          "last_seen_on": "2026-01-29",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 100,
+      "enriched_at": "2026-03-03T02:06:00.649211"
+    },
+    {
+      "business_name": "Spiffy Nails",
+      "website": "getspiffy.com",
+      "location": "Manhattan, NY",
+      "type": "nail salon",
+      "yelp_rating": 4.0,
+      "notes": "Popular nail salon chain",
+      "email": "gene.voloshin@getspiffy.com",
+      "contact_name": "Gene Voloshin",
+      "contact_position": "Owner",
+      "email_confidence": 99,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20gene%20voloshin%20getspiffy",
+          "extracted_on": "2025-01-07",
+          "last_seen_on": "2026-01-31",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 90,
+      "enriched_at": "2026-03-03T02:06:02.290250"
+    },
+    {
+      "business_name": "Happy Nails",
+      "website": "happynailsnyc.com",
+      "location": "Brooklyn, NY",
+      "type": "nail salon",
+      "yelp_rating": 4.0,
+      "notes": "Neighborhood nail salon [Generic email - verify manually]",
+      "email": "info@happynailsnyc.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 60,
+      "enriched_at": "2026-03-03T02:06:03.826175"
+    },
+    {
+      "business_name": "Barber Wolf",
+      "website": "barberwolf.com",
+      "location": "Manhattan, NY",
+      "type": "barber shop",
+      "yelp_rating": 4.5,
+      "notes": "Trendy barbershop in Lower East Side [Generic email - verify manually]",
+      "email": "info@barberwolf.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-03T02:06:05.054288"
+    },
+    {
+      "business_name": "Blind Barber",
+      "website": "blindbarber.com",
+      "location": "Brooklyn, NY",
+      "type": "barber shop",
+      "yelp_rating": 4.5,
+      "notes": "Barbershop with speakeasy vibe",
+      "email": "august@blindbarber.com",
+      "contact_name": "August Marron",
+      "contact_position": "Social Media Director",
+      "email_confidence": 98,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20august%20marron%20blindbarber",
+          "extracted_on": "2025-08-05",
+          "last_seen_on": "2025-09-06",
+          "still_on_page": false
+        }
+      ],
+      "lead_score": 90,
+      "enriched_at": "2026-03-03T02:06:06.590764"
+    },
+    {
+      "business_name": "Shadows Spa",
+      "website": "shadowsspa.com",
+      "location": "Manhattan, NY",
+      "type": "day spa",
+      "yelp_rating": 4.0,
+      "notes": "Full-service day spa [Generic email - verify manually]",
+      "email": "info@shadowsspa.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 70,
+      "enriched_at": "2026-03-03T02:06:07.858861"
+    }
+  ]
+}

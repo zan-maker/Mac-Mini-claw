@@ -1,7 +1,7 @@
 #!/bin/bash
-# Launch Script for ClawReceptionist Multi-Platform Scraping
+# Launch Script for AuraAssist Multi-Platform Scraping
 
-echo "🚀 LAUNCHING CLAWRECEPTIONIST SCRAPING SYSTEM"
+echo "🚀 LAUNCHING AURAASSIST SCRAPING SYSTEM"
 echo "============================================================"
 echo "📅 Date: $(date)"
 echo "🎯 Target: Salon & Spa Businesses"
@@ -55,4 +55,4 @@ echo ""
 echo "⏰ To automate daily scraping, add to crontab:"
 echo "0 8 * * * cd /Users/cubiczan/.openclaw/workspace && ./scripts/launch_scraping.sh >> logs/daily_scraping.log 2>&1"
 echo ""
-echo "🎉 CLAWRECEPTIONIST SCRAPING SYSTEM IS LIVE! 🚀"
+echo "🎉 AURAASSIST SCRAPING SYSTEM IS LIVE! 🚀"

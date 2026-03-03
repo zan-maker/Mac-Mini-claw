@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Multi-Platform Lead Scraper for ClawReceptionist
+Multi-Platform Lead Scraper for AuraAssist
 Scrapes: Craigslist, Yellow Pages, Twitter, Yelp for SMB leads
 """
 
@@ -25,7 +25,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class MultiPlatformScraper:
-    """Scrape leads from multiple platforms for ClawReceptionist"""
+    """Scrape leads from multiple platforms for AuraAssist"""
     
     def __init__(self, output_dir: str = None):
         """
@@ -37,7 +37,7 @@ class MultiPlatformScraper:
         self.output_dir = output_dir or "/Users/cubiczan/.openclaw/workspace/scraped_leads"
         os.makedirs(self.output_dir, exist_ok=True)
         
-        # Target industries for ClawReceptionist
+        # Target industries for AuraAssist
         self.target_industries = {
             "salons_spas": {
                 "craigslist_categories": ["bbb", "biz", "sks"],  # beauty, business, skills

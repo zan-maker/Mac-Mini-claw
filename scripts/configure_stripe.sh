@@ -1,9 +1,9 @@
 #!/bin/bash
-# Configure Stripe Payment System for ClawReceptionist
+# Configure Stripe Payment System for AuraAssist
 
 echo "💰 CONFIGURING STRIPE PAYMENT SYSTEM"
 echo "============================================================"
-echo "🎯 Goal: Set up subscription billing for ClawReceptionist"
+echo "🎯 Goal: Set up subscription billing for AuraAssist"
 echo "📊 Plans: Capture (\$299), Convert (\$599), Grow (\$999)"
 echo "⏰ Trial: 14-day free trial"
 echo "============================================================"
@@ -65,7 +65,7 @@ ENV_FILE="/Users/cubiczan/.openclaw/workspace/.env"
 echo "STRIPE_PUBLISHABLE_KEY=$PUBLISHABLE_KEY" > "$ENV_FILE"
 echo "STRIPE_SECRET_KEY=$SECRET_KEY" >> "$ENV_FILE"
 echo "STRIPE_TRIAL_DAYS=14" >> "$ENV_FILE"
-echo "CLAWRECEPTIONIST_PRODUCT_NAME=\"ClawReceptionist - AI Business Assistant\"" >> "$ENV_FILE"
+echo "AURAASSIST_PRODUCT_NAME=\"AuraAssist - AI Business Assistant\"" >> "$ENV_FILE"
 
 echo "✅ Environment variables saved to $ENV_FILE"
 
@@ -109,7 +109,7 @@ echo ""
 echo "🔧 STEP 4: CREATE PRODUCTS AND PRICES"
 echo "----------------------------------------"
 
-echo "🛠️ Creating ClawReceptionist products and prices..."
+echo "🛠️ Creating AuraAssist products and prices..."
 python3 scripts/stripe_payment_system.py setup
 
 if [ $? -ne 0 ]; then
@@ -160,13 +160,13 @@ echo "5. Copy the webhook signing secret"
 echo "6. Add to .env: STRIPE_WEBHOOK_SECRET=whsec_..."
 echo ""
 
-echo "🔧 STEP 7: INTEGRATION WITH CLAWRECEPTIONIST"
+echo "🔧 STEP 7: INTEGRATION WITH AURAASSIST"
 echo "----------------------------------------"
 
 echo "🎯 Integration points:"
 echo "1. Demo completion → Send checkout link"
 echo "2. Customer signs up → Create Stripe subscription"
-echo "3. Payment success → Activate ClawReceptionist service"
+echo "3. Payment success → Activate AuraAssist service"
 echo "4. Monthly billing → Recurring revenue"
 echo "5. Cancellation → Handle churn"
 echo ""
@@ -217,7 +217,7 @@ echo "============================================================"
 echo "✅ STRIPE PAYMENT SYSTEM CONFIGURED AND READY!"
 echo "============================================================"
 echo ""
-echo "🚀 Your ClawReceptionist now has:"
+echo "🚀 Your AuraAssist now has:"
 echo "   • Subscription billing"
 echo "   • 3 pricing tiers"
 echo "   • 14-day free trials"

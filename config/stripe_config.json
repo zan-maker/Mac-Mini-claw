@@ -1,0 +1,54 @@
+{
+  "publishable_key": "pk_live_LtA4BnpnPUYfTrc0KTUupew5",
+  "test_mode": false,
+  "plans": {
+    "capture": {
+      "name": "Capture Plan",
+      "price": 29900,
+      "interval": "month",
+      "currency": "usd",
+      "features": [
+        "24/7 AI Receptionist",
+        "Call & Text Capture",
+        "Basic Appointment Reminders",
+        "Email Support",
+        "Up to 50 appointments/month"
+      ],
+      "stripe_price_id": "price_1T6gjgH2LTocmgRmn7M4lwjF"
+    },
+    "convert": {
+      "name": "Convert Plan",
+      "price": 59900,
+      "interval": "month",
+      "currency": "usd",
+      "features": [
+        "Everything in Capture Plan",
+        "Advanced Appointment Scheduling",
+        "Waitlist Management",
+        "Cancellation Fill Automation",
+        "Priority Support",
+        "Up to 200 appointments/month",
+        "Instagram DM Integration"
+      ],
+      "stripe_price_id": "price_1T6gjgH2LTocmgRmu2KIvinC"
+    },
+    "grow": {
+      "name": "Grow Plan",
+      "price": 99900,
+      "interval": "month",
+      "currency": "usd",
+      "features": [
+        "Everything in Convert Plan",
+        "Multi-location Support",
+        "Custom Workflow Automation",
+        "Dedicated Account Manager",
+        "API Access",
+        "Unlimited appointments",
+        "Advanced Analytics Dashboard"
+      ],
+      "stripe_price_id": "price_1T6gjhH2LTocmgRmRfSREXrq"
+    }
+  },
+  "trial_period_days": 14,
+  "configured_at": "2026-03-02T19:22:53.108780"
+}

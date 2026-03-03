@@ -2,7 +2,7 @@
 
 ## 📊 **EXECUTIVE SUMMARY**
 
-### **Product:** "ClawReceptionist" - AI-Powered 24/7 Business Assistant
+### **Product:** "AuraAssist" - AI-Powered 24/7 Business Assistant
 ### **Target:** Small Businesses in High-Intent Service Industries
 ### **Value Prop:** Never miss a lead, reduce no-shows, automate admin
 ### **Revenue Model:** Monthly subscription ($299-$1,500/mo)
@@ -294,7 +294,7 @@ Would 15 minutes next week make sense to show you how it works?
 
 Best,
 [Your Name]
-ClawReceptionist
+AuraAssist
 ```
 
 ### **Phase 3: Demo & Conversion**
@@ -348,7 +348,7 @@ class PaymentSystem:
             metadata={
                 "business_name": business_name,
                 "signup_date": datetime.now().isoformat(),
-                "source": "clawreceptionist"
+                "source": "auraassist"
             }
         )
         return customer.id
@@ -391,7 +391,7 @@ class BillingPortal:
         """Create customer billing portal"""
         session = stripe.billing_portal.Session.create(
             customer=customer_id,
-            return_url="https://clawreceptionist.com/account"
+            return_url="https://auraassist.com/account"
         )
         return session.url
     

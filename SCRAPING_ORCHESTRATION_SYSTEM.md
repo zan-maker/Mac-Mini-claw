@@ -197,7 +197,7 @@ class ScrapingOrchestrator:
             twitter_leads, yelp_leads
         ])
         
-        # 6. Save to Supabase for ClawReceptionist
+        # 6. Save to Supabase for AuraAssist
         self.save_to_supabase(all_leads)
 ```
 
@@ -408,10 +408,10 @@ print(f'Found {len(response.json())} businesses')
 (crontab -l 2>/dev/null; echo "0 8 * * * cd /Users/cubiczan/.openclaw/workspace && python3 scripts/multi_platform_scraper.py --platform craigslist --industry salons_spas --location 'new york' >> logs/scraping.log 2>&1") | crontab -
 ```
 
-### **4. Integrate with ClawReceptionist (Day 4)**
+### **4. Integrate with AuraAssist (Day 4)**
 ```python
-# Connect scraping to ClawReceptionist lead system
-def send_to_clawreceptionist(leads):
+# Connect scraping to AuraAssist lead system
+def send_to_auraassist(leads):
     for lead in leads:
         if lead["lead_score"] >= 70:
             # Add to outreach queue
@@ -447,7 +447,7 @@ def send_to_clawreceptionist(leads):
 
 ## 💡 **KEY INSIGHTS:**
 
-### **Why This Works for ClawReceptionist:**
+### **Why This Works for AuraAssist:**
 1. **Targets exactly the businesses** that need the product
 2. **Uses platforms where businesses actively seek customers**
 3. **Combines multiple data sources** for better qualification
@@ -489,6 +489,6 @@ cd /Users/cubiczan/.openclaw/workspace
 python3 scripts/multi_platform_scraper.py --platform craigslist --industry salons_spas --limit 10
 ```
 
-**This scraping system will fuel ClawReceptionist with 50-100 qualified leads PER DAY!** 🎯
+**This scraping system will fuel AuraAssist with 50-100 qualified leads PER DAY!** 🎯
 
 **Start with Craigslist today, have first leads by tomorrow!** 🚀

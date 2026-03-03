@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ClawReceptionist Sales Pipeline
+AuraAssist Sales Pipeline
 End-to-end pipeline: Lead → Demo → Checkout → Customer
 """
 
@@ -13,8 +13,8 @@ from typing import Dict, List
 # Add parent directory to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-class ClawReceptionistSalesPipeline:
-    """Sales pipeline for ClawReceptionist"""
+class AuraAssistSalesPipeline:
+    """Sales pipeline for AuraAssist"""
     
     def __init__(self):
         self.leads_dir = "/Users/cubiczan/.openclaw/workspace/outreach_queue"
@@ -79,7 +79,7 @@ class ClawReceptionistSalesPipeline:
             "follow_up_actions": [
                 "Send calendar invite",
                 "Prepare demo script",
-                "Test ClawReceptionist demo environment"
+                "Test AuraAssist demo environment"
             ]
         }
         
@@ -262,7 +262,7 @@ class ClawReceptionistSalesPipeline:
         # In a real implementation, this would:
         # 1. Verify payment with Stripe webhook
         # 2. Create customer account
-        # 3. Set up ClawReceptionist service
+        # 3. Set up AuraAssist service
         # 4. Send welcome email
         # 5. Schedule onboarding call
         
@@ -355,7 +355,7 @@ def main():
     """Command-line interface"""
     import argparse
     
-    parser = argparse.ArgumentParser(description='ClawReceptionist Sales Pipeline')
+    parser = argparse.ArgumentParser(description='AuraAssist Sales Pipeline')
     subparsers = parser.add_subparsers(dest='command', help='Command to execute')
     
     # Schedule demo command
@@ -389,10 +389,10 @@ def main():
     
     args = parser.parse_args()
     
-    print("🚀 CLAWRECEPTIONIST SALES PIPELINE")
+    print("🚀 AURAASSIST SALES PIPELINE")
     print("="*60)
     
-    pipeline = ClawReceptionistSalesPipeline()
+    pipeline = AuraAssistSalesPipeline()
     
     if args.command == 'demo':
         print(f"📅 Scheduling demo for {args.email}")

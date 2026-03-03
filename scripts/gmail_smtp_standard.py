@@ -42,7 +42,7 @@ STANDARD_SIGNATURE = """Best regards,
 
 Agent Manager
 
-Please reach out to Sam Desigan (Sam@impactquadrant.info) for further follow up."""
+Please reach out to Sam Desigan (Sam@impactquadrant.info) for AuraAssist follow up."""
 
 class GmailSender:
     """Standardized Gmail SMTP sender for all outreach"""

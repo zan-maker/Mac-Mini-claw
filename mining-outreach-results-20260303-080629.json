@@ -1,0 +1,46 @@
+[
+  {
+    "company": "American Gold Corp",
+    "ticker": "AUG.V",
+    "email": "ir@americas-gold.com",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://api.agentmail.to/v1/emails",
+    "timestamp": "2026-03-03T08:06:17.465282"
+  },
+  {
+    "company": "Copper Belt Minerals",
+    "ticker": "CBM.V",
+    "email": "majorie@copperbeltkatangamining.com",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://api.agentmail.to/v1/emails",
+    "timestamp": "2026-03-03T08:06:19.704850"
+  },
+  {
+    "company": "Silver Range Resources",
+    "ticker": "SVR.V",
+    "email": "mpower@silverrangeresources.com",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://api.agentmail.to/v1/emails",
+    "timestamp": "2026-03-03T08:06:21.701754"
+  },
+  {
+    "company": "US Gold Limited",
+    "ticker": "USA.AX",
+    "status": "failed",
+    "reason": "No email addresses found"
+  },
+  {
+    "company": "Latin Copper Co",
+    "ticker": "LAT.AX",
+    "status": "failed",
+    "reason": "No email addresses found"
+  },
+  {
+    "company": "Canadian Rare Earths",
+    "ticker": "CAN.AX",
+    "email": "danderson@canadarareearth.com",
+    "status": "failed",
+    "error": "404 Client Error: Not Found for url: https://api.agentmail.to/v1/emails",
+    "timestamp": "2026-03-03T08:06:29.545552"
+  }
+]

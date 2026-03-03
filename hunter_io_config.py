@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
 Hunter.io API Configuration
-API Key: 6b48c50fc1df93f1df0b7b1aaf17616a71e369b5
+API Key loaded from environment variable HUNTER_IO_API_KEY
 """
 
+import os
 import requests
 import json
 import time
@@ -17,11 +18,15 @@ logger = logging.getLogger("HunterIO")
 class HunterIOClient:
     """Client for Hunter.io API"""
     
-    def __init__(self, api_key: str):
-        self.api_key = api_key
+    def __init__(self, api_key: str = None):
+        # Get API key from environment variable if not provided
+        self.api_key = api_key or os.environ.get("HUNTER_IO_API_KEY")
+        if not self.api_key:
+            raise ValueError("Hunter.io API key not provided. Set HUNTER_IO_API_KEY environment variable.")
+        
         self.base_url = "https://api.hunter.io/v2"
         self.headers = {
-            "Authorization": f"Bearer {api_key}",
+            "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json"
         }
         
@@ -92,6 +97,10 @@ class HunterIOClient:
             logger.error(f"Error getting account info: {e}")
             return {"data": None, "errors": [str(e)]}
 
-# Initialize client
-HUNTER_API_KEY = "e341bb9af29f1da98190364caafb01a6b38e8e1c"
-hunter_client = HunterIOClient(HUNTER_API_KEY)
+# Initialize client with environment variable
+try:
+    hunter_client = HunterIOClient()
+    logger.info("Hunter.io client initialized successfully")
+except ValueError as e:
+    logger.warning(f"Hunter.io client not initialized: {e}")
+    hunter_client = None

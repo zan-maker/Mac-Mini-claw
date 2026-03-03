@@ -1,6 +1,6 @@
 {
   "hunter_io": {
-    "api_key": "e341bb9af29f1da98190364caafb01a6b38e8e1c",
+    "api_key": "ENVIRONMENT_VARIABLE_HUNTER_IO_API_KEY",
     "plan": "Data-platform",
     "search_credits": 1000,
     "verification_credits": 1000,

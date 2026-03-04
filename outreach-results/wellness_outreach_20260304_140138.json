@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-03-04T14:01:38.331461",
+  "type": "initial_outreach",
+  "results": {
+    "sent": 0,
+    "failed": 3,
+    "total": 3,
+    "emails": [
+      {
+        "company": "Hospice Care Partners",
+        "email": "hr@hospicecarepartners.com",
+        "savings": 99720,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+        "status": "failed",
+        "timestamp": "2026-03-04T14:01:38.205349"
+      },
+      {
+        "company": "Sunrise Senior Living - Phoenix",
+        "email": "hr@sunriseseniorliving.com",
+        "savings": 70635,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+        "status": "failed",
+        "timestamp": "2026-03-04T14:01:38.272889"
+      },
+      {
+        "company": "Premier Hotel Group",
+        "email": "hr@premierhotelgroup.com",
+        "savings": 124650,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+        "status": "failed",
+        "timestamp": "2026-03-04T14:01:38.331219"
+      }
+    ],
+    "total_savings": 0
+  }
+}

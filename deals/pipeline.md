@@ -66,6 +66,32 @@
 3. **Charlotte Plumbing** - Plumbing, $1.2M EBITDA, 20+ years, Market leader (Score: 85)
 4. **Multi-Location Veterinary** - Veterinary, $500K-$1M+ EBITDA, PE interest high (Score: 82)
 
+## 2026-03-04 - New Sellers Added ⚠️ BROKER-LISTED ONLY
+- **12 leads identified** - ALL broker-listed (0 true off-market)
+- High priority (70+): 5 sellers (all broker-listed)
+- Medium priority (50-69): 4 sellers
+- Emerging (40-49): 3 sellers
+- **Source:** Tavily API (Scrapling initialized but no seller-specific method)
+- **Scrapling Status:** ✅ Initialized, ❌ `find_off_market_sellers()` not implemented
+- **Critical Finding:** Public web searches return broker listings, not off-market sellers
+- **Total Est. Finder Fees:** $0 (all broker-listed, not direct deals)
+
+### Key Insight - Off-Market Challenge
+Tavily/Brave searches find publicly listed businesses (brokers), not true off-market sellers. For off-market:
+1. Need direct outreach to businesses with retirement signals
+2. Industry association networking
+3. Scrapling implementation for targeted scraping
+4. Cold contact strategies
+
+### Sellers Found (All Broker-Listed - EXCLUDED)
+1. **High-Growth Electrical Contractor** - $2.1M EBITDA, owner retiring (Score: 88) - BROKER
+2. **Alberta Roofing Company** - $275K SDE, retirement age owners (Score: 82) - BROKER
+3. **BC High-End Roofing** - $470K SDE, owner exiting (Score: 78) - BROKER
+4. **40+ Year Volusia Roofing** - FL, established (Score: 75) - BROKER
+5. **Vancouver Fire Sprinkler** - 20+ years, owner retiring (Score: 72) - BROKER
+
+---
+
 ## 2026-03-03 - New Sellers Added ✅ TAVILY PRIMARY
 - Added 14 new off-market seller leads
 - High priority (70+): 6 sellers

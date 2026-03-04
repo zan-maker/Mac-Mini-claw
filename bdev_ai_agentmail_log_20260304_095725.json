@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-03-04T09:57:25.811983",
+  "source_file": "bdev_ai_test_with_emails_20260301_093404.csv",
+  "results": {
+    "sent": 0,
+    "failed": 5,
+    "skipped": 0,
+    "total": 5
+  },
+  "detailed_results": [
+    {
+      "index": 0,
+      "contact": "John Smith",
+      "company": "13th Floor Capital",
+      "email": "john.smith@13thfloorcapital.com",
+      "status": "failed",
+      "reason": "API error: 404",
+      "account": "Primary",
+      "timestamp": "2026-03-04T09:57:21.467797"
+    },
+    {
+      "index": 1,
+      "contact": "Sarah Johnson",
+      "company": "1875 FINANCE",
+      "email": "sarah.johnson@1875finance.com",
+      "status": "failed",
+      "reason": "API error: 404",
+      "account": "Secondary",
+      "timestamp": "2026-03-04T09:57:22.556878"
+    },
+    {
+      "index": 2,
+      "contact": "Michael Chen",
+      "company": "2M Investment Partners",
+      "email": "michael.chen@2minvestment.com",
+      "status": "failed",
+      "reason": "API error: 404",
+      "account": "Backup",
+      "timestamp": "2026-03-04T09:57:23.647274"
+    },
+    {
+      "index": 3,
+      "contact": "Emma Wilson",
+      "company": "3 Capital Partners",
+      "email": "emma.wilson@3capitalpartners.com",
+      "status": "failed",
+      "reason": "API error: 404",
+      "account": "Primary",
+      "timestamp": "2026-03-04T09:57:24.739859"
+    },
+    {
+      "index": 4,
+      "contact": "David Lee",
+      "company": "3C Capital",
+      "email": "david.lee@3ccapital.com",
+      "status": "failed",
+      "reason": "API error: 404",
+      "account": "Secondary",
+      "timestamp": "2026-03-04T09:57:25.811895"
+    }
+  ],
+  "account_usage": {
+    "Primary": {
+      "today_count": 2,
+      "today_date": "2026-03-04",
+      "total_sent": 2,
+      "last_used": "2026-03-04T09:57:24.738459",
+      "errors": 2
+    },
+    "Secondary": {
+      "today_count": 2,
+      "today_date": "2026-03-04",
+      "total_sent": 2,
+      "last_used": "2026-03-04T09:57:25.810476",
+      "errors": 2
+    },
+    "Backup": {
+      "today_count": 1,
+      "today_date": "2026-03-04",
+      "total_sent": 1,
+      "last_used": "2026-03-04T09:57:23.645841",
+      "errors": 1
+    }
+  },
+  "config": {
+    "rotation_strategy": "round_robin",
+    "daily_total_limit": 3000
+  }
+}

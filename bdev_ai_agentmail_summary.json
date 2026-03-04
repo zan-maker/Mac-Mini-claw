@@ -1,13 +1,33 @@
-[
-  {
-    "date": "2026-03-01",
-    "time": "09:31:54",
-    "results": {
-      "total": 10,
-      "sent": 0,
-      "failed": 0,
-      "skipped": 10
+{
+  "last_run": "2026-03-04T09:57:25.812500",
+  "source_file": "bdev_ai_test_with_emails_20260301_093404.csv",
+  "results": {
+    "sent": 0,
+    "failed": 5,
+    "skipped": 0,
+    "total": 5
+  },
+  "account_stats": {
+    "Primary": {
+      "today_count": 2,
+      "today_date": "2026-03-04",
+      "total_sent": 2,
+      "last_used": "2026-03-04T09:57:24.738459",
+      "errors": 2
     },
-    "total_today": 0
+    "Secondary": {
+      "today_count": 2,
+      "today_date": "2026-03-04",
+      "total_sent": 2,
+      "last_used": "2026-03-04T09:57:25.810476",
+      "errors": 2
+    },
+    "Backup": {
+      "today_count": 1,
+      "today_date": "2026-03-04",
+      "total_sent": 1,
+      "last_used": "2026-03-04T09:57:23.645841",
+      "errors": 1
+    }
   }
-]
+}

@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-03-04 10:05:11",
+  "results": [
+    {
+      "investor": "Sally Mak",
+      "email": "smak@nywpg.com",
+      "firm": "Kimber Health by NYWPG",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-04T10:04:22.908321"
+    },
+    {
+      "investor": "Justas Riauba",
+      "email": "justas.riauba@invl.com",
+      "firm": "INVL Asset Management",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-04T10:04:28.439632"
+    },
+    {
+      "investor": "Trey Stone",
+      "email": "trey@equityacademy.com",
+      "firm": "Equity Academy, LLC",
+      "category": "hospitality",
+      "status": "sent",
+      "timestamp": "2026-03-04T10:04:33.738013"
+    },
+    {
+      "investor": "Richard Clarke-Jervoise",
+      "email": "richard.clarke-jervoise@oddo-bhf.com",
+      "firm": "ODDO BHF",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-04T10:04:39.164060"
+    },
+    {
+      "investor": "James G. Angelakis",
+      "email": "jangelakis@1911trust.com",
+      "firm": "The 1911 Trust Company, LLC",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-04T10:04:44.614522"
+    },
+    {
+      "investor": "Tom Dugan, CFA",
+      "email": "tdugan@confluenceim.com",
+      "firm": "Confluence Investment Management",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-04T10:04:49.838760"
+    },
+    {
+      "investor": "Al Boris",
+      "email": "al.boris@alexbrown.com",
+      "firm": "Alex. Brown - Raymond James",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-04T10:04:55.052087"
+    },
+    {
+      "investor": "Jennifer Michel",
+      "email": "jennifer.steffney@alliantgroup.com",
+      "firm": "First Water Finance",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-04T10:05:00.197142"
+    },
+    {
+      "investor": "Zana Nesheiwat",
+      "email": "zana@blackhawkpartners.com",
+      "firm": "Blackhawk Partners, Inc.",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-04T10:05:06.529553"
+    },
+    {
+      "investor": "Chris Kaminski, CFP\u00ae, RICP\u00ae, ChFC\u00ae, CLU\u00ae, CLTC\u00ae",
+      "email": "chris.kaminski@alterdomus.com",
+      "firm": "Consilio Wealth Advisors",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-04T10:05:11.753217"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "sent": 10,
+    "failed": 0
+  }
+}

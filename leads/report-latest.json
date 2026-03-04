@@ -1,0 +1,26 @@
+{
+  "total_leads": 24,
+  "high_priority": 24,
+  "medium_priority": 0,
+  "scrapling_used": false,
+  "scrapling_leads": 0,
+  "api_leads": 24,
+  "processing_time_seconds": 4.79,
+  "top_3_leads": [
+    {
+      "company": "201-500 Employees",
+      "score": 90,
+      "savings": "$323,438"
+    },
+    {
+      "company": "24 Manufacturing Companies in the Austin, Texas, Area",
+      "score": 90,
+      "savings": "$323,438"
+    },
+    {
+      "company": "List of Medium Size Manufacturing Companies in Texas",
+      "score": 90,
+      "savings": "$323,438"
+    }
+  ]
+}

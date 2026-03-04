@@ -125,10 +125,10 @@ def categorize_investor(investor):
 
 def select_investors_for_outreach(investors, count=DAILY_TARGET):
     """Select investors for today's outreach."""
-    # Filter investors with email
+    # Filter investors with email (check both 'Email' and 'Primary Email' columns)
     investors_with_email = [
         inv for inv in investors 
-        if inv.get('Email') and '@' in inv.get('Email', '')
+        if (inv.get('Email') or inv.get('Primary Email')) and '@' in (inv.get('Email') or inv.get('Primary Email') or '')
     ]
     
     print(f"📧 Found {len(investors_with_email)} investors with email addresses")
@@ -137,12 +137,13 @@ def select_investors_for_outreach(investors, count=DAILY_TARGET):
     categorized = []
     for inv in investors_with_email:
         category = categorize_investor(inv)
+        email = inv.get('Email') or inv.get('Primary Email')
         categorized.append({
             'investor': inv,
             'category': category,
-            'name': inv.get('Contact Name', inv.get('Firm Name', 'Investor')),
-            'email': inv['Email'],
-            'firm': inv.get('Firm Name', ''),
+            'name': inv.get('Contact Name', inv.get('Full Name', inv.get('Firm Name', 'Investor'))),
+            'email': email,
+            'firm': inv.get('Firm Name', inv.get('Company Name', '')),
             'focus': inv.get('Investment Thesis', '')
         })
     

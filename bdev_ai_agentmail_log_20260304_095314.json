@@ -1,0 +1,365 @@
+{
+  "timestamp": "2026-03-04T09:53:14.488364",
+  "source_file": "/Users/cubiczan/.openclaw/workspace/bdev_ai_openclaw_20260304_095227.csv",
+  "results": {
+    "total": 50,
+    "sent": 0,
+    "failed": 0,
+    "skipped": 50,
+    "details": [
+      {
+        "index": 0,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 1,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 2,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 3,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 4,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 5,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 6,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 7,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 8,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 9,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 10,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 11,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 12,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 13,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 14,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 15,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 16,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 17,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 18,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 19,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 20,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 21,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 22,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 23,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 24,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 25,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 26,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 27,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 28,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 29,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 30,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 31,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 32,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 33,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 34,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 35,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 36,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 37,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 38,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 39,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 40,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 41,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 42,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 43,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 44,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 45,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 46,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 47,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 48,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 49,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      }
+    ]
+  },
+  "account_usage": {
+    "Primary": {
+      "today_count": 0,
+      "today_date": 

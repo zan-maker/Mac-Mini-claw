@@ -1,0 +1,174 @@
+# Daily Service Provider Identification
+**Date:** Wednesday, March 4th, 2026
+**Generated:** 9:14 AM (America/New_York)
+
+---
+
+## Provider Summary
+- **Total Identified:** 4
+- **High Priority (80+):** 3
+- **Ready for Outreach:** 4
+
+---
+
+## Provider #1: Intuit Accountants Referral Program
+**Category:** Accounting Firms (Tax, Audit, Bookkeeping)
+**Website:** accountants.intuit.com/refer-clients/
+
+### Fee Structure
+- **Referral Fee:** Variable based on product referrals
+- **Cap:** Up to $100,000 per year per professional/tax firm
+- **Terms:** Electronic contract via program portal
+
+### Qualification
+- ✅ Active referral program
+- ✅ Clear fee structure with defined cap
+- ✅ Established brand reputation
+- ✅ Digital onboarding process
+
+### Scoring (0-100)
+| Criteria | Score | Max |
+|----------|-------|-----|
+| Willingness (active program) | 38 | 40 |
+| Fee Structure ($100K cap) | 26 | 30 |
+| Referral History (established) | 17 | 20 |
+| Category Potential | 9 | 10 |
+| **TOTAL** | **90** | 100 |
+
+### Outreach Status
+- [x] Ready for outreach
+- **Contact:** Partner program portal
+- **Template:** Accounting referral partnership
+
+---
+
+## Provider #2: HubSpot Solutions Partner Program
+**Category:** SaaS Partners (CRM Implementation, Integration)
+**Website:** hubspot.com/partners/solutions
+
+### Fee Structure
+- **Referral Fee:** 20% of Net Revenue (first 12 months)
+- **Implementation Services:** Partners can waive onboarding fees for clients
+- **Terms:** Revenue share on subscription services supported as partner
+
+### Qualification
+- ✅ Tiered partner program
+- ✅ Clear 20% revenue share
+- ✅ Strong market reputation
+- ✅ Implementation service opportunities
+
+### Scoring (0-100)
+| Criteria | Score | Max |
+|----------|-------|-----|
+| Willingness (active program) | 37 | 40 |
+| Fee Structure (20% ACV) | 25 | 30 |
+| Referral History (mature program) | 18 | 20 |
+| Category Potential (SaaS) | 10 | 10 |
+| **TOTAL** | **90** | 100 |
+
+### Outreach Status
+- [x] Ready for outreach
+- **Contact:** Solutions partner portal
+- **Template:** SaaS referral partnership
+
+---
+
+## Provider #3: CorpNet Payroll Partner Program
+**Category:** Accounting Firms (Payroll, Bookkeeping)
+**Website:** corpnet.com
+
+### Fee Structure
+- **Referral Fee:** 25-75% of referrals' monthly payroll invoice fees
+- **Duration:** First 12 months
+- **Residual:** 10% commission for following 4 years (5+ referrals required)
+- **Total Potential:** 5-year revenue stream
+
+### Qualification
+- ✅ Active partner program
+- ✅ Excellent fee structure (up to 75%)
+- ✅ Long-term residual income
+- ✅ Clear tiered requirements
+
+### Scoring (0-100)
+| Criteria | Score | Max |
+|----------|-------|-----|
+| Willingness (active program) | 39 | 40 |
+| Fee Structure (25-75% + residual) | 28 | 30 |
+| Referral History (established) | 16 | 20 |
+| Category Potential | 8 | 10 |
+| **TOTAL** | **91** | 100 |
+
+### Outreach Status
+- [x] Ready for outreach
+- **Contact:** Partner program page
+- **Template:** Accounting referral partnership
+- **Priority:** HIGH - Best fee structure
+
+---
+
+## Provider #4: Marcus & Millichap Commercial Real Estate
+**Category:** CRE Brokers (Investment Sales, Office, Industrial)
+**Website:** marcusmillichap.com
+
+### Fee Structure
+- **Industry Standard:** 25% of commission for qualified referrals
+- **Typical Deal:** $50K-$500K commission → $12.5K-$125K referral fee
+- **Note:** Referral fees negotiated per relationship
+
+### Qualification
+- ✅ Major CRE brokerage (1971)
+- ✅ Industry-standard referral fees (25%)
+- ✅ Investment sales focus
+- ⚠️ Requires relationship building
+
+### Scoring (0-100)
+| Criteria | Score | Max |
+|----------|-------|-----|
+| Willingness (industry standard) | 30 | 40 |
+| Fee Structure (25% commission) | 24 | 30 |
+| Referral History (established) | 18 | 20 |
+| Category Potential (high-value) | 9 | 10 |
+| **TOTAL** | **81** | 100 |
+
+### Outreach Status
+- [x] Ready for outreach
+- **Contact:** Local office / Senior broker
+- **Template:** CRE referral partnership
+- **Priority:** HIGH - High deal values
+
+---
+
+## Outreach Templates
+
+### Accounting/SaaS Subject Line
+"Referral partnership - qualified [vertical] leads"
+
+### CRE Subject Line
+"Referral partnership - commercial real estate investor introductions"
+
+### Standard Fee Terms to Propose
+- **Accounting:** 10-15% of first-year billings
+- **SaaS:** $5K flat or 10-20% ACV
+- **CRE:** 25% of commission
+
+---
+
+## Next Steps
+1. ✅ All 4 providers ready for outreach
+2. **Priority outreach:** CorpNet (91), Intuit (90), HubSpot (90)
+3. **CRE relationship:** Schedule intro call with M&M local office
+4. **Track responses:** Update provider-status.md
+
+---
+
+## Daily Metrics
+| Metric | Target | Actual |
+|--------|--------|--------|
+| Providers Identified | 3-4 | 4 ✅ |
+| High Priority (80+) | 2+ | 3 ✅ |
+| Ready for Outreach | 3+ | 4 ✅ |
+| Avg Fee Structure | 10%+ | 20-75% ✅ |
+
+---
+
+_Generated by Referral Engine - Provider Supply Side_

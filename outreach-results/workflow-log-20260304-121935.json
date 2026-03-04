@@ -1,0 +1,58 @@
+{
+  "start_time": "2026-03-04T12:19:35.381348",
+  "steps": [
+    {
+      "name": "Enhanced Lead Gen v2",
+      "timestamp": "2026-03-04T12:19:35.676157",
+      "success": true,
+      "output": "\u26a0\ufe0f WARNING: Using default Abstract API key. Set ABSTRACT_API_KEY environment variable.\n\n============================================================\nDaily Lead Generator - Wellness 125 Cafeteria Plan\n============================================================\n\nProcessing: Sunrise Senior Living - Phoenix...\nProcessing: Metro Medical Transport...\nProcessing: Hospice Care Partners...\nProcessing: Mountain View Manufacturing...\nProcessing: Premier Hotel Group...\n\n\u2705 Generated 5 leads\n\ud83d\udcc1 Saved to: /Users/cubiczan/.openclaw/workspace/leads/daily-leads-2026-03-04.md\n\n\ud83d\udcca Summary:\n   High Priority: 3\n   Total Potential Savings: $394,725\n\n============================================================\n\n",
+      "error": ""
+    },
+    {
+      "name": "Expense Reduction Lead Gen",
+      "timestamp": "2026-03-04T12:19:49.116514",
+      "success": true,
+      "output": "============================================================\nEXPENSE REDUCTION LEAD GENERATION\n============================================================\n\n\ud83d\udd0d Starting expense reduction lead generation...\n\ud83d\udcca Target: 18 leads\n\ud83d\udd11 Using Tavily API\n\n\ud83d\udd0e Searching: mid-size manufacturing companies 50-200 employees ...\n  \u2705 Forbes 2026 America's Best Midsize Employers - Score: 98 (High)\n  \u2705 Facts & Data on Small Business and Entrepreneurshi - Score: 97 (High)\n  \u2705 Manufacturing in Dallas-Fort Worth - Score: 100 (High)\n\ud83d\udd0e Searching: growing technology companies 30-150 employees...\n  \u2705 How to Measure Employee Productivity in Large Team - Score: 95 (High)\n  \u2705 The Future of Work Report 2025: Lost & Found in Te - Score: 90 (High)\n  \u2705 Top 4 AI HR Software for Startups (2025) - Score: 70 (High)\n\ud83d\udd0e Searching: healthcare companies expanding operations 2025...\n  \u2705 Fastest Growing Healthcare Companies in 2025, Acco - Score: 100 (High)\n  \u2705 The Top 50 Healthcare Technology Companies of 2025 - Score: 70 (High)\n  ",
+      "error": ""
+    },
+    {
+      "name": "Deal Origination - Sellers",
+      "timestamp": "2026-03-04T12:19:49.164685",
+      "success": true,
+      "output": "\n============================================================\nDeal Origination - Seller Lead Generator\n============================================================\n\n\u2705 Generated 12 off-market seller leads\n\ud83d\udcc1 Saved to: /Users/cubiczan/.openclaw/workspace/deals/sellers/daily-sellers-2026-03-04.md\n\n\ud83d\udcca Summary:\n   High Priority: 10\n   Blue Collar: 8\n   Platform Targets: 4\n   Total Est. Finder Fees: $4,170,000\n\n============================================================\n\n",
+      "error": ""
+    },
+    {
+      "name": "Deal Origination - Buyers",
+      "timestamp": "2026-03-04T12:19:49.213586",
+      "success": true,
+      "output": "\n============================================================\nDeal Origination - Buyer Lead Generator\n============================================================\n\n\u2705 Generated 8 buyer leads\n\ud83d\udcc1 Saved to: /Users/cubiczan/.openclaw/workspace/deals/buyers/daily-buyers-2026-03-04.md\n\n\ud83d\udcca Summary:\n   High Priority: 3\n   PE Firms: 3\n   Roll-up Platforms: 2\n   With Finder History: 3\n\n============================================================\n\n",
+      "error": ""
+    },
+    {
+      "name": "Referral Engine",
+      "timestamp": "2026-03-04T12:19:49.213655",
+      "success": true,
+      "output": "Manual step - not automated yet",
+      "error": ""
+    },
+    {
+      "name": "Lead Outreach",
+      "timestamp": "2026-03-04T12:19:49.213742",
+      "success": true,
+      "output": "No leads to send",
+      "error": ""
+    },
+    {
+      "name": "Expense Reduction Outreach",
+      "timestamp": "2026-03-04T12:19:49.213754",
+      "success": true,
+      "output": "Using lead outreach script",
+      "error": ""
+    }
+  ],
+  "success": true,
+  "errors": [],
+  "end_time": "2026-03-04T12:19:49.213762",
+  "duration_seconds": 13.832414
+}

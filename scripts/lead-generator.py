@@ -12,9 +12,16 @@ from datetime import datetime
 import os
 import time
 
-# API Keys
-HUNTER_API_KEY = "f701d171cf7decf7e730a6b1c6e9b74f29f39b6e"
-ABSTRACT_API_KEY = "38aeec02e6f6469983e0856dfd147b10"
+# API Keys from environment variables
+HUNTER_API_KEY = os.environ.get("HUNTER_IO_API_KEY", "f701d171cf7decf7e730a6b1c6e9b74f29f39b6e")
+ABSTRACT_API_KEY = os.environ.get("ABSTRACT_API_KEY", "38aeec02e6f6469983e0856dfd147b10")
+
+# Validate API keys
+if not HUNTER_API_KEY or HUNTER_API_KEY == "f701d171cf7decf7e730a6b1c6e9b74f29f39b6e":
+    print("⚠️ WARNING: Using old Hunter.io API key. Set HUNTER_IO_API_KEY environment variable.")
+    
+if not ABSTRACT_API_KEY or ABSTRACT_API_KEY == "38aeec02e6f6469983e0856dfd147b10":
+    print("⚠️ WARNING: Using default Abstract API key. Set ABSTRACT_API_KEY environment variable.")
 
 # Rate limiting for Abstract API (1 request per second)
 class AbstractAPIRateLimiter:

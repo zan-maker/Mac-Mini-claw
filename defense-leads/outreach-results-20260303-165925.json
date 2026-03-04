@@ -1,0 +1,105 @@
+{
+  "companies": [
+    {
+      "name": "Shield AI",
+      "domain": "shield.ai",
+      "sector": "AI & Autonomous Systems",
+      "status": "no_email"
+    },
+    {
+      "name": "Anduril Industries",
+      "domain": "anduril.com",
+      "sector": "Autonomous Systems & Counter-Drone",
+      "status": "no_email"
+    },
+    {
+      "name": "Skydio",
+      "domain": "skydio.com",
+      "sector": "Autonomous Drones",
+      "status": "no_email"
+    },
+    {
+      "name": "Chaos Industries",
+      "domain": "chaosindustries.com",
+      "sector": "Defense Manufacturing",
+      "status": "no_email"
+    },
+    {
+      "name": "Epirus",
+      "domain": "epirusinc.com",
+      "sector": "Counter-Drone (C-UAS)",
+      "status": "no_email"
+    },
+    {
+      "name": "Onebrief",
+      "domain": "onebrief.com",
+      "sector": "Defense Data Analytics / ISR",
+      "status": "no_email"
+    },
+    {
+      "name": "Hidden Level",
+      "domain": "hiddenlevel.com",
+      "sector": "Counter-Drone / Surveillance",
+      "status": "no_email"
+    },
+    {
+      "name": "Rebellion Defense",
+      "domain": "rebelliondefense.com",
+      "sector": "AI & Defense Software",
+      "status": "no_email"
+    },
+    {
+      "name": "Palantir Technologies",
+      "domain": "palantir.com",
+      "sector": "Defense Data Analytics",
+      "status": "no_email"
+    },
+    {
+      "name": "Astranis",
+      "domain": "astranis.com",
+      "sector": "Space-Based Defense",
+      "status": "no_email"
+    }
+  ],
+  "investors": [
+    {
+      "name": "General Catalyst",
+      "domain": "generalcatalyst.com",
+      "region": "US/Global",
+      "status": "no_email"
+    },
+    {
+      "name": "Lightspeed Venture Partners",
+      "domain": "lightspeedvp.com",
+      "region": "US/Global",
+      "status": "no_email"
+    },
+    {
+      "name": "Accel Partners",
+      "domain": "accel.com",
+      "region": "US/Global",
+      "status": "no_email"
+    },
+    {
+      "name": "BEENEXT",
+      "domain": "beenext.com",
+      "region": "Asia/India",
+      "status": "no_email"
+    },
+    {
+      "name": "Vertex Ventures",
+      "domain": "vertexventures.com",
+      "region": "Asia/Global",
+      "status": "no_email"
+    }
+  ],
+  "summary": {
+    "total_targets": 15,
+    "companies_target": 10,
+    "investors_target": 5,
+    "emails_found": 0,
+    "emails_sent": 0,
+    "emails_failed": 0,
+    "no_contact": 15
+  }
+}

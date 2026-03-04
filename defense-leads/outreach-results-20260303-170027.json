@@ -1,0 +1,161 @@
+{
+  "companies": [
+    {
+      "name": "Shield AI",
+      "domain": "shield.ai",
+      "sector": "AI & Autonomous Systems",
+      "email": "kingsley.afemikhe@shield.ai",
+      "contact_name": "Kingsley Afemikhe",
+      "confidence": 98,
+      "status": "sent",
+      "timestamp": "2026-03-03T16:59:38.965562"
+    },
+    {
+      "name": "Anduril Industries",
+      "domain": "anduril.com",
+      "sector": "Autonomous Systems & Counter-Drone",
+      "email": "sarthur@anduril.com",
+      "contact_name": "Shane Arthur",
+      "confidence": 99,
+      "status": "sent",
+      "timestamp": "2026-03-03T16:59:42.630763"
+    },
+    {
+      "name": "Skydio",
+      "domain": "skydio.com",
+      "sector": "Autonomous Drones",
+      "email": "danny.palumbo@skydio.com",
+      "contact_name": "Danny Palumbo",
+      "confidence": 99,
+      "status": "sent",
+      "timestamp": "2026-03-03T16:59:46.345268"
+    },
+    {
+      "name": "Chaos Industries",
+      "domain": "chaosindustries.com",
+      "sector": "Defense Manufacturing",
+      "status": "no_email"
+    },
+    {
+      "name": "Epirus",
+      "domain": "epirusinc.com",
+      "sector": "Counter-Drone (C-UAS)",
+      "email": "matt.s@epirusinc.com",
+      "contact_name": "Matt Skubiszewski",
+      "confidence": 99,
+      "status": "sent",
+      "timestamp": "2026-03-03T16:59:50.345078"
+    },
+    {
+      "name": "Onebrief",
+      "domain": "onebrief.com",
+      "sector": "Defense Data Analytics / ISR",
+      "email": "lauren.clendening@onebrief.com",
+      "contact_name": "Lauren Clendening",
+      "confidence": 94,
+      "status": "sent",
+      "timestamp": "2026-03-03T16:59:53.919591"
+    },
+    {
+      "name": "Hidden Level",
+      "domain": "hiddenlevel.com",
+      "sector": "Counter-Drone / Surveillance",
+      "email": "james.licata@hiddenlevel.com",
+      "contact_name": "James Licata",
+      "confidence": 94,
+      "status": "sent",
+      "timestamp": "2026-03-03T16:59:57.380621"
+    },
+    {
+      "name": "Rebellion Defense",
+      "domain": "rebelliondefense.com",
+      "sector": "AI & Defense Software",
+      "email": "tony@rebelliondefense.com",
+      "contact_name": "Tony Ierardi",
+      "confidence": 94,
+      "status": "sent",
+      "timestamp": "2026-03-03T17:00:00.698848"
+    },
+    {
+      "name": "Palantir Technologies",
+      "domain": "palantir.com",
+      "sector": "Defense Data Analytics",
+      "email": "isilvers@palantir.com",
+      "contact_name": "Ian Silvers",
+      "confidence": 94,
+      "status": "sent",
+      "timestamp": "2026-03-03T17:00:04.106085"
+    },
+    {
+      "name": "Astranis",
+      "domain": "astranis.com",
+      "sector": "Space-Based Defense",
+      "email": "vivek@astranis.com",
+      "contact_name": "Vivek G",
+      "confidence": 94,
+      "status": "sent",
+      "timestamp": "2026-03-03T17:00:07.519324"
+    }
+  ],
+  "investors": [
+    {
+      "name": "General Catalyst",
+      "domain": "generalcatalyst.com",
+      "region": "US/Global",
+      "email": "sganguli@generalcatalyst.com",
+      "contact_name": "Surya Ganguli",
+      "confidence": 99,
+      "status": "sent",
+      "timestamp": "2026-03-03T17:00:11.198678"
+    },
+    {
+      "name": "Lightspeed Venture Partners",
+      "domain": "lightspeedvp.com",
+      "region": "US/Global",
+      "email": "jeremy@lightspeedvp.com",
+      "contact_name": "Jeremy Liew",
+      "confidence": 99,
+      "status": "sent",
+      "timestamp": "2026-03-03T17:00:14.787381"
+    },
+    {
+      "name": "Accel Partners",
+      "domain": "accel.com",
+      "region": "US/Global",
+      "email": "jwaneka@accel.com",
+      "contact_name": "Julia Waneka",
+      "confidence": 99,
+      "status": "sent",
+      "timestamp": "2026-03-03T17:00:18.594753"
+    },
+    {
+      "name": "BEENEXT",
+      "domain": "beenext.com",
+      "region": "Asia/India",
+      "email": "hero@beenext.com",
+      "contact_name": "Hero Choudhary",
+      "confidence": 99,
+      "status": "sent",
+      "timestamp": "2026-03-03T17:00:22.369358"
+    },
+    {
+      "name": "Vertex Ventures",
+      "domain": "vertexventures.com",
+      "region": "Asia/Global",
+      "email": "andri.wardhani@vertexventures.com",
+      "contact_name": "Andri Wardhani",
+      "confidence": 99,
+      "status": "sent",
+      "timestamp": "2026-03-03T17:00:25.749652"
+    }
+  ],
+  "summary": {
+    "total_targets": 15,
+    "companies_target": 10,
+    "investors_target": 5,
+    "emails_found": 14,
+    "emails_sent": 14,
+    "emails_failed": 0,
+    "no_contact": 1
+  }
+}

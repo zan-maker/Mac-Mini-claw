@@ -13,23 +13,16 @@ AUVSI_COMPANIES = [
     # Unmanned Systems & Defense Tech
     {"name": "Ouster", "domain": "ouster.io"},
     {"name": "Shield AI", "domain": "shield.ai"},
-    {"name": "Anduril Industries", "domain": "anduril.com"},
-    {"name": "AeroVironment", "domain": "avinc.com"},
-    {"name": "Kratos Defense", "domain": "kratosdefense.com"},
     
     # eVTOL & Urban Air Mobility
-    {"name": "Archer Aviation", "domain": "archer.com"},
-    {"name": "Joby Aviation", "domain": "jobyaviation.com"},
     {"name": "Beta Technologies", "domain": "beta.team"},
     {"name": "Wisk Aero", "domain": "wisk.aero"},
     {"name": "Volocopter", "domain": "volocopter.com"},
     
     # Drone Delivery & Services
-    {"name": "Zipline", "domain": "flyzipline.com"},
     {"name": "Wing", "domain": "wing.com"},
     {"name": "Matternet", "domain": "matternet.com"},
     {"name": "Flytrex", "domain": "flytrex.com"},
-    {"name": "Skydio", "domain": "skydio.com"},
     
     # Maritime & Underwater
     {"name": "Sea Machines Robotics", "domain": "sea-machines.com"},

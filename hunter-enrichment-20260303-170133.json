@@ -1,0 +1,50 @@
+[
+  {
+    "company": "Precision Products Machining Group",
+    "contact": "Don Brown",
+    "title": "CEO",
+    "email": null,
+    "sent": false,
+    "timestamp": "2026-03-03T17:01:25.418832"
+  },
+  {
+    "company": "Midwest Foods",
+    "contact": "Erin Fitzgerald",
+    "title": "Owner/President",
+    "email": null,
+    "sent": false,
+    "timestamp": "2026-03-03T17:01:27.426150"
+  },
+  {
+    "company": "Industrial Supply Company",
+    "contact": "Jessica Yurgaitis",
+    "title": "CEO",
+    "email": null,
+    "sent": false,
+    "timestamp": "2026-03-03T17:01:29.432327"
+  },
+  {
+    "company": "Industrial Supply Company",
+    "contact": "Andrew Ward",
+    "title": "CFO",
+    "email": null,
+    "sent": false,
+    "timestamp": "2026-03-03T17:01:29.432355"
+  },
+  {
+    "company": "Industrial Supply Company",
+    "contact": "Bob Evans",
+    "title": "Executive Vice President",
+    "email": null,
+    "sent": false,
+    "timestamp": "2026-03-03T17:01:29.432385"
+  },
+  {
+    "company": "Peninsula Building Materials",
+    "contact": "Leadership Team",
+    "title": "Executive Team",
+    "email": null,
+    "sent": false,
+    "timestamp": "2026-03-03T17:01:31.435663"
+  }
+]

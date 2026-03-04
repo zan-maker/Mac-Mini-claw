@@ -1,0 +1,1046 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-04T02:05:46.977300",
+    "total_leads": 41,
+    "source": "Hunter.io + Manual Research (Expanded)",
+    "lead_type": "AuraAssist - Salons & Spas",
+    "location": "New York City",
+    "generation": "Autonomous Session - Mar 4, 2026"
+  },
+  "leads": [
+    {
+      "business_name": "Takamichi Hair",
+      "website": "takamichihair.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "High-end Japanese hair salon in Midtown",
+      "email": "booking@takamichihair.com",
+      "contact_name": "None None",
+      "contact_position": null,
+      "email_confidence": 78,
+      "email_sources": [
+        {
+          "domain": "takamichihair.com",
+          "uri": "https://takamichihair.com/blog-source/pro-tips-color-between-appointments",
+          "extracted_on": "2025-09-23",
+          "last_seen_on": "2026-02-25",
+          "still_on_page": true
+        },
+        {
+          "domain": "takamichihair.com",
+          "uri": "https://takamichihair.com/faq",
+          "extracted_on": "2025-09-23",
+          "last_seen_on": "2026-02-25",
+          "still_on_page": true
+        },
+        {
+          "domain": "takamichihair.com",
+          "uri": "https://takamichihair.com/hours-and-direction",
+          "extracted_on": "2015-07-01",
+          "last_seen_on": "2026-02-25",
+          "still_on_page": true
+        },
+        {
+          "domain": "takamichihair.com",
+          "uri": "https://takamichihair.com/studio-1",
+          "extracted_on": "2025-09-23",
+          "last_seen_on": "2026-02-25",
+          "still_on_page": true
+        },
+        {
+          "domain": "leadingsalons.com",
+          "uri": "https://leadingsalons.com/en/salon/30/takamichi_hair-new_york",
+          "extracted_on": "2018-04-02",
+          "last_seen_on": "2023-10-28",
+          "still_on_page": false
+        },
+        {
+          "domain": "ratemyarea.com",
+          "uri": "https://ratemyarea.com/maicure-pedicure-nail-spas-in-new-york-ny",
+          "extracted_on": "2020-07-27",
+          "last_seen_on": "2020-07-27",
+          "still_on_page": false
+        },
+        {
+          "domain": "m.takamichihair.com",
+          "uri": "https://m.takamichihair.com/hours",
+          "extracted_on": "2016-08-10",
+          "last_seen_on": "2017-09-02",
+          "still_on_page": false
+        }
+      ],
+      "lead_score": 90,
+      "enriched_at": "2026-03-04T02:04:31.226995"
+    },
+    {
+      "business_name": "Butterfly Studio",
+      "website": "butterflystudiosalon.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Popular salon in Flatiron District",
+      "email": "shirley@butterflystudiosalon.com",
+      "contact_name": "Shirley Chomos",
+      "contact_position": "Artist",
+      "email_confidence": 70,
+      "email_sources": [
+        {
+          "domain": "butterflystudiosalon.com",
+          "uri": "https://butterflystudiosalon.com",
+          "extracted_on": "2020-01-13",
+          "last_seen_on": "2026-02-06",
+          "still_on_page": true
+        },
+        {
+          "domain": "butterflystudiosalon.com",
+          "uri": "https://butterflystudiosalon.com/services-1",
+          "extracted_on": "2026-02-06",
+          "last_seen_on": "2026-02-06",
+          "still_on_page": true
+        },
+        {
+          "domain": "butterflystudiosalon.com",
+          "uri": "https://butterflystudiosalon.com/team",
+          "extracted_on": "2022-08-25",
+          "last_seen_on": "2026-02-06",
+          "still_on_page": true
+        },
+        {
+          "domain": "butterflystudiosalon.com",
+          "uri": "https://butterflystudiosalon.com/kattia-in-the-hamptons",
+          "extracted_on": "2020-01-06",
+          "last_seen_on": "2026-01-14",
+          "still_on_page": true
+        },
+        {
+          "domain": "butterflystudiosalon.com",
+          "uri": "https://butterflystudiosalon.com/shape-your-brows",
+          "extracted_on": "2019-09-05",
+          "last_seen_on": "2026-01-14",
+          "still_on_page": true
+        },
+        {
+          "domain": "yappt.com",
+          "uri": "https://yappt.com/deals/listing/butterfly-studio-by-kattia-solano",
+          "extracted_on": "2024-04-18",
+          "last_seen_on": "2024-04-18",
+          "still_on_page": false
+        },
+        {
+          "domain": "yappt.com",
+          "uri": "https://yappt.com/listing/butterfly-studio-by-kattia-solano",
+          "extracted_on": "2023-10-17",
+          "last_seen_on": "2024-01-18",
+          "still_on_page": false
+        }
+      ],
+      "lead_score": 90,
+      "enriched_at": "2026-03-04T02:04:33.301155"
+    },
+    {
+      "business_name": "Martha Matranga Salon",
+      "website": "marthamatranga.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.0,
+      "notes": "Established salon with loyal clientele [Generic email - verify manually]",
+      "email": "info@marthamatranga.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 70,
+      "enriched_at": "2026-03-04T02:04:35.063942"
+    },
+    {
+      "business_name": "Mizu Salon",
+      "website": "mizusalon.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Modern salon in Financial District [Generic email - verify manually]",
+      "email": "info@mizusalon.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:04:37.087968"
+    },
+    {
+      "business_name": "Oribe Salon",
+      "website": "oribe.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Luxury salon, premium positioning",
+      "email": "kaufman@oribe.com",
+      "contact_name": "Tetyana Kaufman",
+      "contact_position": "Brand Manager",
+      "email_confidence": 94,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20tetyana%20kaufman%20oribe",
+          "extracted_on": "2025-08-12",
+          "last_seen_on": "2026-01-31",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 100,
+      "enriched_at": "2026-03-04T02:04:39.137265"
+    },
+    {
+      "business_name": "Spiffy Nails",
+      "website": "getspiffy.com",
+      "location": "Manhattan, NY",
+      "type": "nail salon",
+      "yelp_rating": 4.0,
+      "notes": "Popular nail salon chain",
+      "email": "gene.voloshin@getspiffy.com",
+      "contact_name": "Gene Voloshin",
+      "contact_position": "Owner",
+      "email_confidence": 99,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20gene%20voloshin%20getspiffy",
+          "extracted_on": "2025-01-07",
+          "last_seen_on": "2026-01-31",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 90,
+      "enriched_at": "2026-03-04T02:04:40.938743"
+    },
+    {
+      "business_name": "Happy Nails",
+      "website": "happynailsnyc.com",
+      "location": "Brooklyn, NY",
+      "type": "nail salon",
+      "yelp_rating": 4.0,
+      "notes": "Neighborhood nail salon [Generic email - verify manually]",
+      "email": "info@happynailsnyc.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 60,
+      "enriched_at": "2026-03-04T02:04:42.925822"
+    },
+    {
+      "business_name": "Barber Wolf",
+      "website": "barberwolf.com",
+      "location": "Manhattan, NY",
+      "type": "barber shop",
+      "yelp_rating": 4.5,
+      "notes": "Trendy barbershop in Lower East Side [Generic email - verify manually]",
+      "email": "info@barberwolf.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:04:44.639140"
+    },
+    {
+      "business_name": "Blind Barber",
+      "website": "blindbarber.com",
+      "location": "Brooklyn, NY",
+      "type": "barber shop",
+      "yelp_rating": 4.5,
+      "notes": "Barbershop with speakeasy vibe",
+      "email": "august@blindbarber.com",
+      "contact_name": "August Marron",
+      "contact_position": "Social Media Director",
+      "email_confidence": 98,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20august%20marron%20blindbarber",
+          "extracted_on": "2025-08-05",
+          "last_seen_on": "2025-09-06",
+          "still_on_page": false
+        }
+      ],
+      "lead_score": 90,
+      "enriched_at": "2026-03-04T02:04:46.435904"
+    },
+    {
+      "business_name": "Shadows Spa",
+      "website": "shadowsspa.com",
+      "location": "Manhattan, NY",
+      "type": "day spa",
+      "yelp_rating": 4.0,
+      "notes": "Full-service day spa [Generic email - verify manually]",
+      "email": "info@shadowsspa.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 70,
+      "enriched_at": "2026-03-04T02:04:48.250898"
+    },
+    {
+      "business_name": "Hair Rules",
+      "website": "hairrules.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Curly hair specialists, inclusive salon",
+      "email": "a.dickey@hairrules.com",
+      "contact_name": "Anthony Dickey",
+      "contact_position": "Hair Stylist",
+      "email_confidence": 99,
+      "email_sources": [
+        {
+          "domain": "hairrules.com",
+          "uri": "https://hairrules.com/blog/steamers-hydration",
+          "extracted_on": "2024-03-04",
+          "last_seen_on": "2024-09-18",
+          "still_on_page": true
+        },
+        {
+          "domain": "tamildada.info",
+          "uri": "https://tamildada.info/scalp-buildup-expert-ways-to-get-rid-of-it",
+          "extracted_on": "2024-07-13",
+          "last_seen_on": "2024-07-13",
+          "still_on_page": true
+        },
+        {
+          "domain": "feliciamichellehair.com",
+          "uri": "https://feliciamichellehair.com",
+          "extracted_on": "2024-02-27",
+          "last_seen_on": "2024-05-27",
+          "still_on_page": true
+        },
+        {
+          "domain": "elizabethstreet.com",
+          "uri": "https://elizabethstreet.com/is-sulfate-free-shampoo-worth-getting-lathered-up-about",
+          "extracted_on": "2024-01-27",
+          "last_seen_on": "2024-04-27",
+          "still_on_page": true
+        },
+        {
+          "domain": "feliciamichellehair.com",
+          "uri": "https://feliciamichellehair.com/home",
+          "extracted_on": "2024-01-21",
+          "last_seen_on": "2024-04-21",
+          "still_on_page": true
+        },
+        {
+          "domain": "queenhair.ng",
+          "uri": "https://queenhair.ng/african-hair-salons-near-me-tips-for-the-best-hair-salon",
+          "extracted_on": "2024-02-22",
+          "last_seen_on": "2024-02-22",
+          "still_on_page": false
+        },
+        {
+          "domain": "queenhair.ng",
+          "uri": "https://queenhair.ng/a-new-star-in-hair-industry-with-russian-bounce-hair",
+          "extracted_on": "2024-02-22",
+          "last_seen_on": "2024-02-22",
+          "still_on_page": false
+        },
+        {
+          "domain": "queenhair.ng",
+          "uri": "https://queenhair.ng/a-new-star-in-hair-industry-with-hair-salon-in-milwaukee",
+          "extracted_on": "2024-02-22",
+          "last_seen_on": "2024-02-22",
+          "still_on_page": false
+        }
+      ],
+      "lead_score": 100,
+      "enriched_at": "2026-03-04T02:04:50.398438"
+    },
+    {
+      "business_name": "Rita Hazan Salon",
+      "website": "ritahazan.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Celebrity colorist, premium positioning",
+      "email": "jack@ritahazan.com",
+      "contact_name": "Jack Hazan",
+      "contact_position": "Vice President of Sales",
+      "email_confidence": 98,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20jack%20hazan%20ritahazan",
+          "extracted_on": "2026-02-08",
+          "last_seen_on": "2026-01-28",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 100,
+      "enriched_at": "2026-03-04T02:04:52.448625"
+    },
+    {
+      "business_name": "Serge Shanon Salon",
+      "website": "sergeshafir.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "High-end salon, expert stylists [Generic email - verify manually]",
+      "email": "info@sergeshafir.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:04:54.201213"
+    },
+    {
+      "business_name": "Nunzio Saviano Salon",
+      "website": "nunziosaviano.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Italian styling, premium service [Generic email - verify manually]",
+      "email": "info@nunziosaviano.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:04:55.942910"
+    },
+    {
+      "business_name": "Rossano Ferretti Salon",
+      "website": "rossanoferretti.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Luxury international salon brand",
+      "email": "mandy.b@rossanoferretti.com",
+      "contact_name": "Mandy Bisla",
+      "contact_position": "Marketing Director",
+      "email_confidence": 99,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20mandy%20bisla%20rossanoferretti",
+          "extracted_on": "2025-01-15",
+          "last_seen_on": "2026-02-02",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 100,
+      "enriched_at": "2026-03-04T02:04:57.978010"
+    },
+    {
+      "business_name": "Pierre Michel Salon",
+      "website": "pierremichel.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "French luxury salon, established [Generic email - verify manually]",
+      "email": "info@pierremichel.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:04:59.821698"
+    },
+    {
+      "business_name": "Oscar Blandi Salon",
+      "website": "oscarblandi.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Celebrity stylist, premium salon",
+      "email": "helen@oscarblandi.com",
+      "contact_name": "Helen Castro",
+      "contact_position": "Sales Manager",
+      "email_confidence": 94,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20helen%20castro%20oscarblandi",
+          "extracted_on": "2025-05-20",
+          "last_seen_on": "2026-02-06",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 100,
+      "enriched_at": "2026-03-04T02:05:01.685440"
+    },
+    {
+      "business_name": "John Barrett Salon",
+      "website": "johnbarrett.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Bergdorf Goodman location, luxury",
+      "email": "esalkin@johnbarrett.com",
+      "contact_name": "Evgeny Salkin",
+      "contact_position": "Operations Manager",
+      "email_confidence": 93,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20evgeny%20salkin%20johnbarrett",
+          "extracted_on": "2025-01-14",
+          "last_seen_on": "2026-02-02",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 100,
+      "enriched_at": "2026-03-04T02:05:03.712248"
+    },
+    {
+      "business_name": "Ted Gibson Salon",
+      "website": "tedgibson.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Celebrity stylist, high-profile clients",
+      "email": "ted@tedgibson.com",
+      "contact_name": "Ted Gibson",
+      "contact_position": null,
+      "email_confidence": 94,
+      "email_sources": [
+        {
+          "domain": "beautychangeslives.org",
+          "uri": "https://beautychangeslives.org/wp-content/uploads/2020/11/Worth_Up_Brochure_v4.pdf",
+          "extracted_on": "2026-01-14",
+          "last_seen_on": "2026-01-14",
+          "still_on_page": true
+        },
+        {
+          "domain": "fashionweeksd.com",
+          "uri": "https://fashionweeksd.com/runway-show-breakdown-la-jolla",
+          "extracted_on": "2026-01-18",
+          "last_seen_on": "2026-01-18",
+          "still_on_page": true
+        },
+        {
+          "domain": "un-ruly.com",
+          "uri": "https://un-ruly.com/best-celebrity-hair-of-2014-hair-story",
+          "extracted_on": "2025-11-26",
+          "last_seen_on": "2025-11-26",
+          "still_on_page": true
+        },
+        {
+          "domain": "tedgibson.com",
+          "uri": "https://tedgibson.com",
+          "extracted_on": "2024-12-02",
+          "last_seen_on": "2024-12-02",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 100,
+      "enriched_at": "2026-03-04T02:05:05.557183"
+    },
+    {
+      "business_name": "Warren Tricomi Salon",
+      "website": "warrentricomi.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.5,
+      "notes": "Luxury salon, expert team",
+      "email": "rox@warrentricomi.com",
+      "contact_name": "Roxana Pintilie",
+      "contact_position": "Cofounder",
+      "email_confidence": 93,
+      "email_sources": [
+        {
+          "domain": "femfounder.co",
+          "uri": "https://femfounder.co/femfounderstories/roxana-pintilie",
+          "extracted_on": "2023-05-30",
+          "last_seen_on": "2026-03-03",
+          "still_on_page": true
+        },
+        {
+          "domain": "kristin-marquet-rzrp.squarespace.com",
+          "uri": "https://kristin-marquet-rzrp.squarespace.com/femfounderstories/roxana-pintilie",
+          "extracted_on": "2021-08-07",
+          "last_seen_on": "2026-01-18",
+          "still_on_page": true
+        },
+        {
+          "domain": "warrentricomi.com",
+          "uri": "https://warrentricomi.com/terms-and-conditions",
+          "extracted_on": "2022-03-30",
+          "last_seen_on": "2025-08-01",
+          "still_on_page": false
+        },
+        {
+          "domain": "kristin-marquet-rzrp.squarespace.com",
+          "uri": "https://kristin-marquet-rzrp.squarespace.com/femfounderstories/tag/beauty+entrepreneur",
+          "extracted_on": "2022-05-07",
+          "last_seen_on": "2025-01-14",
+          "still_on_page": false
+        },
+        {
+          "domain": "femfounder.co",
+          "uri": "https://femfounder.co/femfounderstories/tag/beauty+entrepreneur",
+          "extracted_on": "2023-05-30",
+          "last_seen_on": "2024-12-08",
+          "still_on_page": false
+        }
+      ],
+      "lead_score": 100,
+      "enriched_at": "2026-03-04T02:05:07.666011"
+    },
+    {
+      "business_name": "DreamDry",
+      "website": "dreamdry.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.0,
+      "notes": "Blow dry bar chain, multiple locations",
+      "email": "maria@dreamdry.com",
+      "contact_name": "Maria Mendes",
+      "contact_position": "Operations Manager",
+      "email_confidence": 99,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20maria%20mendes%20dreamdry",
+          "extracted_on": "2025-11-17",
+          "last_seen_on": "2026-01-27",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 90,
+      "enriched_at": "2026-03-04T02:05:09.487519"
+    },
+    {
+      "business_name": "Drybar",
+      "website": "thedrybar.com",
+      "location": "Manhattan, NY",
+      "type": "hair salon",
+      "yelp_rating": 4.0,
+      "notes": "National blow dry chain",
+      "email": "whitney.salazar@thedrybar.com",
+      "contact_name": "Whitney Salazar",
+      "contact_position": "Owner",
+      "email_confidence": 99,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20whitney%20salazar%20thedrybar",
+          "extracted_on": "2025-08-09",
+          "last_seen_on": "2026-01-31",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 90,
+      "enriched_at": "2026-03-04T02:05:11.389625"
+    },
+    {
+      "business_name": "Glamsquad",
+      "website": "glamsquad.com",
+      "location": "New York, NY",
+      "type": "beauty salon",
+      "yelp_rating": 4.0,
+      "notes": "On-demand beauty services",
+      "email": "simona@glamsquad.com",
+      "contact_name": "Simona Gaudio",
+      "contact_position": "Chief Marketing Officer",
+      "email_confidence": 99,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20simona%20gaudio%20glamsquad",
+          "extracted_on": "2025-01-07",
+          "last_seen_on": "2026-01-30",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:05:13.233746"
+    },
+    {
+      "business_name": "Tenoverten",
+      "website": "tenoverten.com",
+      "location": "Manhattan, NY",
+      "type": "nail salon",
+      "yelp_rating": 4.5,
+      "notes": "Modern nail studio, multiple locations",
+      "email": "maggie@tenoverten.com",
+      "contact_name": "Maggie Porterfield",
+      "contact_position": "Director of E-commerce",
+      "email_confidence": 99,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20maggie%20porterfield%20tenoverten",
+          "extracted_on": "2025-01-07",
+          "last_seen_on": "2026-02-09",
+          "still_on_page": true
+        },
+        {
+          "domain": "tenoverten.com",
+          "uri": "https://tenoverten.com/pages/ambassador-program",
+          "extracted_on": "2022-03-30",
+          "last_seen_on": "2025-10-19",
+          "still_on_page": false
+        },
+        {
+          "domain": "tenoverten.com",
+          "uri": "https://tenoverten.com/en-ca/pages/contact-us",
+          "extracted_on": "2025-03-03",
+          "last_seen_on": "2025-03-03",
+          "still_on_page": false
+        },
+        {
+          "domain": "tenoverten.com",
+          "uri": "https://tenoverten.com/pages/contact-us",
+          "extracted_on": "2024-04-18",
+          "last_seen_on": "2025-01-19",
+          "still_on_page": false
+        }
+      ],
+      "lead_score": 100,
+      "enriched_at": "2026-03-04T02:05:15.078176"
+    },
+    {
+      "business_name": "Paintbucket",
+      "website": "paintbucketnails.com",
+      "location": "Brooklyn, NY",
+      "type": "nail salon",
+      "yelp_rating": 4.5,
+      "notes": "Trendy nail art studio",
+      "email": "kristin@paintbucketnails.com",
+      "contact_name": "Kristin Pulaski",
+      "contact_position": null,
+      "email_confidence": 99,
+      "email_sources": [
+        {
+          "domain": "letseatcake.com",
+          "uri": "https://letseatcake.com/gel-nails",
+          "extracted_on": "2024-10-20",
+          "last_seen_on": "2024-10-20",
+          "still_on_page": true
+        },
+        {
+          "domain": "allnailart.com",
+          "uri": "https://allnailart.com/how-to-fix-a-chipped-french-manicure-a-step-by-step-guide",
+          "extracted_on": "2024-03-07",
+          "last_seen_on": "2024-03-07",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 90,
+      "enriched_at": "2026-03-04T02:05:16.921328"
+    },
+    {
+      "business_name": "Varnish",
+      "website": "varnishnails.com",
+      "location": "Manhattan, NY",
+      "type": "nail salon",
+      "yelp_rating": 4.5,
+      "notes": "Upscale nail salon [Generic email - verify manually]",
+      "email": "info@varnishnails.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:05:18.666523"
+    },
+    {
+      "business_name": "Dashing Diva",
+      "website": "dashingdiva.com",
+      "location": "Manhattan, NY",
+      "type": "nail salon",
+      "yelp_rating": 4.0,
+      "notes": "Nail franchise, multiple locations",
+      "email": "yen@dashingdiva.com",
+      "contact_name": "Yen Nguyen",
+      "contact_position": "Art Director",
+      "email_confidence": 94,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20yen%20nguyen%20dashingdiva",
+          "extracted_on": "2025-08-01",
+          "last_seen_on": "2025-08-01",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 90,
+      "enriched_at": "2026-03-04T02:05:20.501810"
+    },
+    {
+      "business_name": "Pinkies Nail Salon",
+      "website": "pinkiesnails.com",
+      "location": "Manhattan, NY",
+      "type": "nail salon",
+      "yelp_rating": 4.5,
+      "notes": "Popular nail salon chain [Generic email - verify manually]",
+      "email": "info@pinkiesnails.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:05:22.255981"
+    },
+    {
+      "business_name": "Great Jones Spa",
+      "website": "greatjonesspa.com",
+      "location": "Manhattan, NY",
+      "type": "day spa",
+      "yelp_rating": 4.5,
+      "notes": "Full-service luxury spa",
+      "email": "info@greatjonesspa.com",
+      "contact_name": "None None",
+      "contact_position": null,
+      "email_confidence": 77,
+      "email_sources": [
+        {
+          "domain": "spaweek.com",
+          "uri": "https://spaweek.com/spa/2047/great-jones-spa",
+          "extracted_on": "2018-10-10",
+          "last_seen_on": "2026-02-14",
+          "still_on_page": true
+        },
+        {
+          "domain": "citidex.com",
+          "uri": "https://citidex.com/814.htm",
+          "extracted_on": "2017-07-21",
+          "last_seen_on": "2018-10-11",
+          "still_on_page": false
+        },
+        {
+          "domain": "gjspa.com",
+          "uri": "https://gjspa.com/15-54-contacts",
+          "extracted_on": "2015-09-10",
+          "last_seen_on": "2017-06-30",
+          "still_on_page": false
+        },
+        {
+          "domain": "m.staging.spaweek.com",
+          "uri": "https://m.staging.spaweek.com/spa/2047/great-jones-spa",
+          "extracted_on": "2016-11-20",
+          "last_seen_on": "2017-04-26",
+          "still_on_page": false
+        },
+        {
+          "domain": "greatjonesspa.com",
+          "uri": "https://greatjonesspa.com/15-54-contacts",
+          "extracted_on": "2015-10-13",
+          "last_seen_on": "2017-03-25",
+          "still_on_page": false
+        },
+        {
+          "domain": "gjspastore.com",
+          "uri": "https://gjspastore.com/15-54-contacts",
+          "extracted_on": "2015-12-21",
+          "last_seen_on": "2017-03-22",
+          "still_on_page": false
+        },
+        {
+          "domain": "m.spaweek.com",
+          "uri": "https://m.spaweek.com/spa/2047/great-jones-spa",
+          "extracted_on": "2016-06-22",
+          "last_seen_on": "2017-02-27",
+          "still_on_page": false
+        }
+      ],
+      "lead_score": 90,
+      "enriched_at": "2026-03-04T02:05:24.088993"
+    },
+    {
+      "business_name": "Shibui Spa",
+      "website": "shibuispa.com",
+      "location": "Manhattan, NY",
+      "type": "day spa",
+      "yelp_rating": 4.5,
+      "notes": "Japanese-inspired spa",
+      "email": "zoe@shibuispa.com",
+      "contact_name": "Zoe Willitts",
+      "contact_position": "Owner",
+      "email_confidence": 99,
+      "email_sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20zoe%20willitts%20shibuispa",
+          "extracted_on": "2025-01-07",
+          "last_seen_on": "2026-02-02",
+          "still_on_page": true
+        },
+        {
+          "domain": "shibuispa.com",
+          "uri": "https://shibuispa.com/detox",
+          "extracted_on": "2024-09-25",
+          "last_seen_on": "2024-09-25",
+          "still_on_page": true
+        }
+      ],
+      "lead_score": 100,
+      "enriched_at": "2026-03-04T02:05:25.932210"
+    },
+    {
+      "business_name": "Aire Ancient Baths",
+      "website": "aireancientbaths.com",
+      "location": "Manhattan, NY",
+      "type": "day spa",
+      "yelp_rating": 4.5,
+      "notes": "Luxury thermal baths experience [Generic email - verify manually]",
+      "email": "info@aireancientbaths.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:05:27.673186"
+    },
+    {
+      "business_name": "Haven Spa",
+      "website": "havenspa.com",
+      "location": "Manhattan, NY",
+      "type": "day spa",
+      "yelp_rating": 4.5,
+      "notes": "Popular day spa, multiple treatments [Generic email - verify manually]",
+      "email": "info@havenspa.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:05:29.438762"
+    },
+    {
+      "business_name": "Juvenex Spa",
+      "website": "juvenex.com",
+      "location": "Manhattan, NY",
+      "type": "day spa",
+      "yelp_rating": 4.5,
+      "notes": "Korean spa, 24/7 services [Generic email - verify manually]",
+      "email": "info@juvenex.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:05:31.189484"
+    },
+    {
+      "business_name": "Graceful Services",
+      "website": "gracefulservices.com",
+      "location": "Manhattan, NY",
+      "type": "day spa",
+      "yelp_rating": 4.0,
+      "notes": "Massage and spa services [Generic email - verify manually]",
+      "email": "info@gracefulservices.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 70,
+      "enriched_at": "2026-03-04T02:05:32.946151"
+    },
+    {
+      "business_name": "Aura Wellness",
+      "website": "aurawellness.com",
+      "location": "Manhattan, NY",
+      "type": "day spa",
+      "yelp_rating": 4.5,
+      "notes": "Holistic wellness and spa [Generic email - verify manually]",
+      "email": "info@aurawellness.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:05:34.692810"
+    },
+    {
+      "business_name": "Barber Supreme",
+      "website": "barbersupreme.com",
+      "location": "Brooklyn, NY",
+      "type": "barber shop",
+      "yelp_rating": 4.5,
+      "notes": "Classic barbershop, skilled barbers [Generic email - verify manually]",
+      "email": "info@barbersupreme.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 70,
+      "enriched_at": "2026-03-04T02:05:36.432429"
+    },
+    {
+      "business_name": "Persons of Interest",
+      "website": "personsofinterest.com",
+      "location": "Brooklyn, NY",
+      "type": "barber shop",
+      "yelp_rating": 4.5,
+      "notes": "Trendy barbershop, vintage vibe [Generic email - verify manually]",
+      "email": "info@personsofinterest.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 70,
+      "enriched_at": "2026-03-04T02:05:38.171130"
+    },
+    {
+      "business_name": "Groomsmen Barbers",
+      "website": "groomsmenbarbers.com",
+      "location": "Manhattan, NY",
+      "type": "barber shop",
+      "yelp_rating": 4.5,
+      "notes": "Modern barbershop chain [Generic email - verify manually]",
+      "email": "info@groomsmenbarbers.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:05:40.046880"
+    },
+    {
+      "business_name": "Razor's Edge",
+      "website": "razorsedgebarbershop.com",
+      "location": "Manhattan, NY",
+      "type": "barber shop",
+      "yelp_rating": 4.5,
+      "notes": "Classic barbershop experience [Generic email - verify manually]",
+      "email": "info@razorsedgebarbershop.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:05:41.805533"
+    },
+    {
+      "business_name": "Thorn Barbers",
+      "website": "thornbarbers.com",
+      "location": "Brooklyn, NY",
+      "type": "barber shop",
+      "yelp_rating": 4.5,
+      "notes": "Artisanal barbershop [Generic email - verify manually]",
+      "email": "info@thornbarbers.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 70,
+      "enriched_at": "2026-03-04T02:05:43.733316"
+    },
+    {
+      "business_name": "V's Barbershop",
+      "website": "vsbarbershop.com",
+      "location": "Manhattan, NY",
+      "type": "barber shop",
+      "yelp_rating": 4.5,
+      "notes": "Classic barbershop chain [Generic email - verify manually]",
+      "email": "info@vsbarbershop.com",
+      "contact_name": "Owner/Manager",
+      "contact_position": "Owner/Manager",
+      "email_confidence": 50,
+      "email_sources": [],
+      "lead_score": 80,
+      "enriched_at": "2026-03-04T02:05:45.468059"
+    }
+  ]
+}

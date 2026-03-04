@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-03-04T16:03:50.205508",
+  "batch": "4 PM",
+  "sent": 5,
+  "total_savings": 382260.0,
+  "results": [
+    {
+      "company": "Coastal Hospice",
+      "email": "hr@coastalhospice.org",
+      "employees": 80,
+      "savings": 66480.0,
+      "message_id": "<0100019cbaa9f820-3851a0d1-7172-4f94-a44b-6864e3d92c55-000000@email.amazonses.com>",
+      "success": true
+    },
+    {
+      "company": "Heartland Hospice",
+      "email": "hr@heartlandhospice.com",
+      "employees": 150,
+      "savings": 124650.0,
+      "message_id": "<0100019cbaa9fa6b-6ebe9bd5-ed3b-41b6-b74a-ccfcba458d2e-000000@email.amazonses.com>",
+      "success": true
+    },
+    {
+      "company": "Comfort Keepers",
+      "email": "hr@comfortkeepers.com",
+      "employees": 100,
+      "savings": 83100.0,
+      "message_id": "<0100019cbaa9fdd7-540b1156-5eb0-4912-9ce2-85c4dd448ff0-000000@email.amazonses.com>",
+      "success": true
+    },
+    {
+      "company": "Grace Hospice",
+      "email": "hr@gracehospice.com",
+      "employees": 60,
+      "savings": 49860.0,
+      "message_id": "<0100019cbaa9ffe3-d6b9bf57-55c8-4333-a9a2-df029d21b97f-000000@email.amazonses.com>",
+      "success": true
+    },
+    {
+      "company": "Affiliated Hospice",
+      "email": "hr@affiliatedhospice.com",
+      "employees": 70,
+      "savings": 58170.0,
+      "message_id": "<0100019cbaaa0302-579d0e36-727d-4b31-9203-f621e8d8b85a-000000@email.amazonses.com>",
+      "success": true
+    }
+  ]
+}

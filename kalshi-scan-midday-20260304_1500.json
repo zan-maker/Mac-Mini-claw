@@ -1,0 +1,271 @@
+{
+  "scan_time": "midday",
+  "timestamp": "2026-03-04T15:00:04.673228",
+  "catalysts_found": 12,
+  "recommendations_generated": 6,
+  "catalysts": [
+    {
+      "title": "Stocks dramatically pare losses after Trump offers Gulf shipping safety; oil retreats from highs: Live updates - CNBC",
+      "description": "Traders watched rising geopolitical tensions and worried the U.S.-Iran conflict could go on longer than anticipated.",
+      "categories": [
+        "POLITICAL",
+        "ECONOMIC",
+        "SPORTS"
+      ],
+      "source": "CNBC",
+      "source_api": "newsapi",
+      "url": "https://www.cnbc.com/2026/03/02/stock-market-today-live-updates.html",
+      "published": "2026-03-03T20:45:00Z",
+      "time_of_day": "midday",
+      "analysis_timestamp": "2026-03-04T15:00:04.672731"
+    },
+    {
+      "title": "Iranian strikes on Amazon data centers highlights industry's vulnerability to physical disasters - AP News",
+      "description": "Iranian drone strikes damaged three Amazon Web Services sites in the Middle East, exposing how vulnerable cloud data centers are in conflict. AWS said late Monday that drones directly hit two data cen",
+      "categories": [
+        "ECONOMIC",
+        "SPORTS",
+        "TECH"
+      ],
+      "source": "Associated Press",
+      "source_api": "newsapi",
+      "url": "https://apnews.com/article/amazon-aws-data-center-uae-iran-bahrain-71066b0a822c4cfd88b61e3fe79af917",
+      "published": "2026-03-03T17:39:00Z",
+      "time_of_day": "midday",
+      "analysis_timestamp": "2026-03-04T15:00:04.672769"
+    },
+    {
+      "title": "The Live Nation trial could reshape the music industry. Here's what you need to know - NPR",
+      "description": "On Tuesday opening statements will begin for the federal antitrust trial against Live Nation, one of the largest entertainment companies in the world.",
+      "categories": [
+        "ECONOMIC",
+        "TECH"
+      ],
+      "source": "NPR",
+      "source_api": "newsapi",
+      "url": "https://www.npr.org/2026/03/03/nx-s1-5728962/live-nation-ticketmaster-trial-explainer",
+      "published": "2026-03-03T16:49:11Z",
+      "time_of_day": "midday",
+      "analysis_timestamp": "2026-03-04T15:00:04.672791"
+    },
+    {
+      "title": "20 Most Hilarious Reactions After Video Of McDonald's CEO Tasting Burger Went Viral In Worst Way - Bored Panda",
+      "description": "In the wake of McDonald\u2019s CEO Chris Kempczinski becoming a \u201claughing stock\u201d online following a viral promotional video for the new Big Arch burger, social media has been flooded with hilarious and poi",
+      "categories": [
+        "WEATHER"
+      ],
+      "source": "Boredpanda.com",
+      "source_api": "newsapi",
+      "url": "https://www.boredpanda.com/mcdonalds-ceo-eating-burger-goes-viral/",
+      "published": "2026-03-03T15:16:42Z",
+      "time_of_day": "midday",
+      "analysis_timestamp": "2026-03-04T15:00:04.672842"
+    },
+    {
+      "title": "Goldman finds no relationship between AI and productivity but a 30% boost for 2 specific use cases - Fortune",
+      "description": "Have you got \"AI-nxiety?\" Goldman took a close look at the last earnings season and found a mismatch between hype and reality.",
+      "categories": [
+        "EARNINGS",
+        "TECH"
+      ],
+      "source": "Fortune",
+      "source_api": "newsapi",
+      "url": "https://fortune.com/2026/03/03/goldman-earnings-ai-anxiety-no-meaningful-impact-productivity-economy-30-percent-in-2-areas/",
+      "published": "2026-03-03T14:35:00Z",
+      "time_of_day": "midday",
+      "analysis_timestamp": "2026-03-04T15:00:04.672876"
+    },
+    {
+      "title": "Paramount\u2019s $110 Billion Warner Bros. Deal Backed by Arab Sovereign Funds Raises Soft Power Concerns - Variety",
+      "description": "Paramount's $110 billion Warner Bros. deal is backed by $24 billion from Arab Sovereign funds, raising concerns over influence and media independence.",
+      "categories": [
+        "POLITICAL",
+        "SPORTS",
+        "TECH"
+      ],
+      "source": "Variety",
+      "source_api": "newsapi",
+      "url": "https://variety.com/2026/film/global/middle-east-paramount-warner-bros-discovery-1236675832/",
+      "published": "2026-03-03T14:05:00Z",
+      "time_of_day": "midday",
+      "analysis_timestamp": "2026-03-04T15:00:04.672952"
+    },
+    {
+      "title": "The candy heir vs. chocolate skimpflation : Planet Money - NPR",
+      "description": "The grandson of the Reese's Peanut Butter Cups creator has launched a campaign against The Hershey Company, which owns the Reese's brand. He wants them to stop skimping on ingredients.",
+      "categories": [
+        "TECH"
+      ],
+      "source": "NPR",
+      "source_api": "newsapi",
+      "url": "https://www.npr.org/sections/planet-money/2026/03/03/g-s1-111940/the-candy-heir-vs-chocolate-skimpflation",
+      "published": "2026-03-03T11:30:00Z",
+      "time_of_day": "midday",
+      "analysis_timestamp": "2026-03-04T15:00:04.673014"
+    },
+    {
+      "title": "Laid off by Block, reunited on Slack: Inside the 3,800-person 'Square Mafia' - Business Insider",
+      "description": "Former Block employees congregate in an unaffiliated Slack group to share support, find new jobs, and trade memes. It's grown since recent layoffs.",
+      "categories": [
+        "ECONOMIC",
+        "TECH"
+      ],
+      "source": "Business Insider",
+      "source_api": "newsapi",
+      "url": "https://www.businessinsider.com/block-layoffs-former-jack-dorsey-employees-square-mafia-slack-group-2026-3",
+      "published": "2026-03-03T09:30:00Z",
+      "time_of_day": "midday",
+      "analysis_timestamp": "2026-03-04T15:00:04.673049"
+    },
+    {
+      "title": "GW sold Virginia campus for $427 million to Amazon for data center development - The GW Hatchet",
+      "description": "The deal transfers all of GW\u2019s roughly 122 acres of property in Loudoun County, Virginia, to ADS for $427,299,350 \u2014 roughly $3.5 million an acre \u2014 according to real estate records.",
+      "categories": [
+        "TECH"
+      ],
+      "source": "Gwhatchet.com",
+      "source_api": "newsapi",
+      "url": "https://gwhatchet.com/2026/03/02/gw-sold-virginia-campus-for-427-million-to-amazon-for-data-center-development/",
+      "published": "2026-03-03T00:14:43Z",
+      "time_of_day": "midday",
+      "analysis_timestamp": "2026-03-04T15:00:04.673073"
+    },
+    {
+      "title": "US LNG producers rush to seize on surging gas prices triggered by Iran conflict - Financial Times",
+      "description": "Venture Global and Cheniere Energy look to bring on extra capacity as prices surge in Europe and Asia",
+      "categories": [
+        "SPORTS"
+      ],
+      "source": "Financial Times",
+      "source_api": "newsapi",
+      "url": "https://www.ft.com/content/fb837a9d-6334-43da-a58d-cb9830dc68fe",
+      "published": "2026-03-03T00:06:25Z",
+      "time_of_day": "midday",
+      "analysis_timestamp": "2026-03-04T15:00:04.673093"
+    },
+    {
+      "title": "Chevron, Exxon Mobil, ConocoPhillips Stocks Hit New Highs: Here Are Congress Members Who Own Shares - Benzinga",
+      "description": "Oil stocks traded higher Monday on the heels of the attacks on Iran. Here's a look at the members of Congress who own some of the top oil stocks in 2026.",
+      "categories": [
+        "POLITICAL"
+      ],
+      "source": "Benzinga",
+      "source_api": "newsapi",
+      "url": "https://www.benzinga.com/news/politics/26/03/50989394/chevron-exxon-mobil-conocophillips-stocks-hit-new-highs-here-are-congress-members-who-own-shares",
+      "published": "2026-03-02T23:55:47Z",
+      "time_of_day": "midday",
+      "analysis_timestamp": "2026-03-04T15:00:04.673114"
+    },
+    {
+      "title": "Anthropic Adds Free Memory Feature and Import Tool to Lure ChatGPT Users to Claude - MacRumors",
+      "description": "Anthropic is aiming to lure customers from ChatGPT and Gemini with a new memory import tool that's available to free users as of today....",
+      "categories": [
+        "TECH"
+      ],
+      "source": "MacRumors",
+      "source_api": "newsapi",
+      "url": "https://www.macrumors.com/2026/03/02/anthropic-memory-import-tool/",
+      "published": "2026-03-02T23:33:54Z",
+      "time_of_day": "midday",
+      "analysis_timestamp": "2026-03-04T15:00:04.673135"
+    }
+  ],
+  "recommendations": [
+    {
+      "market": "HOUSE-2024-CONTROL",
+      "action": "BUY NO",
+      "catalyst": "Stocks dramatically pare losses after Trump offers Gulf shipping safety; oil retreats from highs: Live updates - CNBC",
+      "reasoning": "POLITICAL catalyst: Stocks dramatically pare losses after Trump offers Gulf shipping safety; oil retreats from highs: Li...",
+      "confidence": "MEDIUM",
+      "entry_price_range": "40-60\u00a2",
+      "target_price": "65-75\u00a2",
+      "stop_loss": "35\u00a2",
+      "risk_reward": "1:2",
+      "timeframe": "1-4 weeks",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/02/stock-market-today-live-updates.html",
+      "analysis_time": "midday",
+      "timestamp": "2026-03-04T15:00:04.673153"
+    },
+    {
+      "market": "FED-2024-MAR-RATE",
+      "action": "BUY NO",
+      "catalyst": "Iranian strikes on Amazon data centers highlights industry's vulnerability to physical disasters - AP News",
+      "reasoning": "ECONOMIC catalyst: Iranian strikes on Amazon data centers highlights industry's vulnerability to physical disasters - A...",
+      "confidence": "MEDIUM",
+      "entry_price_range": "40-60\u00a2",
+      "target_price": "65-75\u00a2",
+      "stop_loss": "35\u00a2",
+      "risk_reward": "1:2",
+      "timeframe": "1-3 days",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/amazon-aws-data-center-uae-iran-bahrain-71066b0a822c4cfd88b61e3fe79af917",
+      "analysis_time": "midday",
+      "timestamp": "2026-03-04T15:00:04.673164"
+    },
+    {
+      "market": "FED-2024-MAR-RATE",
+      "action": "BUY NO",
+      "catalyst": "The Live Nation trial could reshape the music industry. Here's what you need to know - NPR",
+      "reasoning": "ECONOMIC catalyst: The Live Nation trial could reshape the music industry. Here's what you need to know - NPR...",
+      "confidence": "MEDIUM",
+      "entry_price_range": "40-60\u00a2",
+      "target_price": "65-75\u00a2",
+      "stop_loss": "35\u00a2",
+      "risk_reward": "1:2",
+      "timeframe": "1-3 days",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/03/03/nx-s1-5728962/live-nation-ticketmaster-trial-explainer",
+      "analysis_time": "midday",
+      "timestamp": "2026-03-04T15:00:04.673172"
+    },
+    {
+      "market": "HOUSE-2024-CONTROL",
+      "action": "BUY NO",
+      "catalyst": "Paramount\u2019s $110 Billion Warner Bros. Deal Backed by Arab Sovereign Funds Raises Soft Power Concerns - Variety",
+      "reasoning": "POLITICAL catalyst: Paramount\u2019s $110 Billion Warner Bros. Deal Backed by Arab Sovereign Funds Raises Soft Power Concerns...",
+      "confidence": "MEDIUM",
+      "entry_price_range": "40-60\u00a2",
+      "target_price": "65-75\u00a2",
+      "stop_loss": "35\u00a2",
+      "risk_reward": "1:2",
+      "timeframe": "1-4 weeks",
+      "source": "Variety",
+      "url": "https://variety.com/2026/film/global/middle-east-paramount-warner-bros-discovery-1236675832/",
+      "analysis_time": "midday",
+      "timestamp": "2026-03-04T15:00:04.673185"
+    },
+    {
+      "market": "FED-2024-MAR-RATE",
+      "action": "BUY NO",
+      "catalyst": "Laid off by Block, reunited on Slack: Inside the 3,800-person 'Square Mafia' - Business Insider",
+      "reasoning": "ECONOMIC catalyst: Laid off by Block, reunited on Slack: Inside the 3,800-person 'Square Mafia' - Business Insider...",
+      "confidence": "MEDIUM",
+      "entry_price_range": "40-60\u00a2",
+      "target_price": "65-75\u00a2",
+      "stop_loss": "35\u00a2",
+      "risk_reward": "1:2",
+      "timeframe": "1-3 days",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/block-layoffs-former-jack-dorsey-employees-square-mafia-slack-group-2026-3",
+      "analysis_time": "midday",
+      "timestamp": "2026-03-04T15:00:04.673194"
+    },
+    {
+      "market": "HOUSE-2024-CONTROL",
+      "action": "BUY NO",
+      "catalyst": "Chevron, Exxon Mobil, ConocoPhillips Stocks Hit New Highs: Here Are Congress Members Who Own Shares - Benzinga",
+      "reasoning": "POLITICAL catalyst: Chevron, Exxon Mobil, ConocoPhillips Stocks Hit New Highs: Here Are Congress Members Who Own Shares ...",
+      "confidence": "MEDIUM",
+      "entry_price_range": "40-60\u00a2",
+      "target_price": "65-75\u00a2",
+      "stop_loss": "35\u00a2",
+      "risk_reward": "1:2",
+      "timeframe": "1-4 weeks",
+      "source": "Benzinga",
+      "url": "https://www.benzinga.com/news/politics/26/03/50989394/chevron-exxon-mobil-conocophillips-stocks-hit-new-highs-here-are-congress-members-who-own-shares",
+      "analysis_time": "midday",
+      "timestamp": "2026-03-04T15:00:04.673203"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-03-04 14:17:00",
+  "batch": 3,
+  "total_sent": 5,
+  "total_failed": 0,
+  "results": [
+    {
+      "company": "Hospice Care Partners",
+      "email": "hr@hospicecarepartners.com",
+      "result": {
+        "success": true,
+        "message_id": "<0100019cba4a326c-ba981205-96ab-4125-afe2-0c9f7ae78ee0-000000@email.amazonses.com>",
+        "response": {
+          "message_id": "<0100019cba4a326c-ba981205-96ab-4125-afe2-0c9f7ae78ee0-000000@email.amazonses.com>",
+          "thread_id": "db6c2cc0-07e7-4aaa-9d75-2be282a9ef77"
+        }
+      }
+    },
+    {
+      "company": "Sunrise Senior Living - Phoenix",
+      "email": "hr@sunriseseniorliving.com",
+      "result": {
+        "success": true,
+        "message_id": "<0100019cba4a343f-83899114-9d98-4014-b6e1-045c7ab202e3-000000@email.amazonses.com>",
+        "response": {
+          "message_id": "<0100019cba4a343f-83899114-9d98-4014-b6e1-045c7ab202e3-000000@email.amazonses.com>",
+          "thread_id": "97b0ece2-8903-4f8a-b70c-0708a1698392"
+        }
+      }
+    },
+    {
+      "company": "Premier Hotel Group",
+      "email": "hr@premierhotelgroup.com",
+      "result": {
+        "success": true,
+        "message_id": "<0100019cba4a3584-0a4cc0c9-90bf-42ef-93e9-2320c6244e95-000000@email.amazonses.com>",
+        "response": {
+          "message_id": "<0100019cba4a3584-0a4cc0c9-90bf-42ef-93e9-2320c6244e95-000000@email.amazonses.com>",
+          "thread_id": "acf97ff5-925c-4357-bf82-0befdd683044"
+        }
+      }
+    },
+    {
+      "company": "Metro Medical Transport",
+      "email": "hr@metromedicaltransport.com",
+      "result": {
+        "success": true,
+        "message_id": "<0100019cba4a3701-fe3c2a32-7fbf-4565-90b0-21889236b506-000000@email.amazonses.com>",
+        "response": {
+          "message_id": "<0100019cba4a3701-fe3c2a32-7fbf-4565-90b0-21889236b506-000000@email.amazonses.com>",
+          "thread_id": "f10e4094-f861-46d4-8ca5-47a283c7042d"
+        }
+      }
+    },
+    {
+      "company": "Mountain View Manufacturing",
+      "email": "hr@mvmanuf.com",
+      "result": {
+        "success": true,
+        "message_id": "<0100019cba4a38a2-01df383a-15ba-4e45-9dd5-2a07e895f9eb-000000@email.amazonses.com>",
+        "response": {
+          "message_id": "<0100019cba4a38a2-01df383a-15ba-4e45-9dd5-2a07e895f9eb-000000@email.amazonses.com>",
+          "thread_id": "5168f6a6-d98e-4b30-bd06-5eb97f8ab91e"
+        }
+      }
+    }
+  ]
+}

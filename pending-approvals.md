@@ -8,6 +8,24 @@ When an autonomous session identifies actions that affect the outside world, the
 
 ## Queue
 
+### [2026-03-05] AuraAssist Wave 1 Campaign Launch
+**Status:** ⏳ PENDING APPROVAL
+**Action:** Send 20 personalized emails to high-confidence salon leads
+**Sender:** sam@cubiczan.com
+**Method:** Gmail SMTP
+**Cost:** $0
+**Expected Outcome:** 2-6 customers, $598-$3,588 MRR
+**Details:** See auraassist_campaign_proposal_20260305.md
+**Rationale:** 
+- Lead database ready (41 qualified leads)
+- All infrastructure complete (website, payments, email)
+- 17/20 leads have specific contacts (high confidence)
+- Zero customer acquisition cost
+- Revenue potential: $598-$3,588 MRR
+**Risk:** Low (internal email system, established contacts)
+
+---
+
 ### ~~[2026-03-01] Send Christopher Sutphen (Oxford Capital) Dorada Email~~
 **Status:** ✅ COMPLETED (2026-03-01)
 **Outcome:** Email sent to csutphen@oxford-capital.com on March 1st. Dorada campaign now 100% complete (42/42 emails sent).

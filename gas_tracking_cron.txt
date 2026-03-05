@@ -1,0 +1,3 @@
+0 9 * * * cd /Users/cubiczan/.openclaw/workspace && python3 scripts/gas-position-tracker.py >> /Users/cubiczan/.openclaw/workspace/logs/gas_morning.log 2>&1
+0 13 * * * cd /Users/cubiczan/.openclaw/workspace && python3 scripts/gas-position-tracker.py >> /Users/cubiczan/.openclaw/workspace/logs/gas_midday.log 2>&1
+0 17 * * * cd /Users/cubiczan/.openclaw/workspace && python3 scripts/gas-position-tracker.py >> /Users/cubiczan/.openclaw/workspace/logs/gas_evening.log 2>&1

@@ -1,0 +1,410 @@
+{
+  "timestamp": "2026-03-05T09:53:26.496457",
+  "source_file": "bdev_ai_enriched_20260305_095250.csv",
+  "results": {
+    "sent": 0,
+    "failed": 7,
+    "skipped": 43,
+    "total": 50
+  },
+  "detailed_results": [
+    {
+      "index": 0,
+      "contact": "Unknown",
+      "company": "13th Floor Capital",
+      "email": "mrudman@13fc.com",
+      "status": "failed",
+      "reason": "API error: 404",
+      "account": "Primary",
+      "timestamp": "2026-03-05T09:53:18.927790"
+    },
+    {
+      "index": 1,
+      "contact": "Unknown",
+      "company": "1875 FINANCE",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 2,
+      "contact": "Unknown",
+      "company": "2M Investment Partners",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 3,
+      "contact": "Unknown",
+      "company": "3 Capital Partners \u6e90\u6d69\u8cc7\u672c",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 4,
+      "contact": "Unknown",
+      "company": "3C Capital",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 5,
+      "contact": "Unknown",
+      "company": "3T FAMILY OFFICE",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 6,
+      "contact": "Unknown",
+      "company": "512 Asset Management, LLC",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 7,
+      "contact": "Unknown",
+      "company": "ABCapital",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 8,
+      "contact": "Unknown",
+      "company": "Abraham Trust",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 9,
+      "contact": "Unknown",
+      "company": "Accent Family Office",
+      "email": "shivendra.pandey@accern.com",
+      "status": "failed",
+      "reason": "API error: 404",
+      "account": "Secondary",
+      "timestamp": "2026-03-05T09:53:20.046704"
+    },
+    {
+      "index": 10,
+      "contact": "Unknown",
+      "company": "Accent Family Office",
+      "email": "shivendra.pandey@accern.com",
+      "status": "failed",
+      "reason": "API error: 404",
+      "account": "Backup",
+      "timestamp": "2026-03-05T09:53:21.120585"
+    },
+    {
+      "index": 11,
+      "contact": "Unknown",
+      "company": "ACE International SA",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 12,
+      "contact": "Unknown",
+      "company": "ACE International SA",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 13,
+      "contact": "Unknown",
+      "company": "Acuie",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 14,
+      "contact": "Unknown",
+      "company": "Adamo Capital Family Office",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 15,
+      "contact": "Unknown",
+      "company": "Adamo Capital Family Office",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 16,
+      "contact": "Unknown",
+      "company": "ADAPTA FAMILY OFFICE",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 17,
+      "contact": "Unknown",
+      "company": "ADAPTA FAMILY OFFICE",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 18,
+      "contact": "Unknown",
+      "company": "Adivo Investments",
+      "email": "aamir@adivo.me",
+      "status": "failed",
+      "reason": "API error: 404",
+      "account": "Primary",
+      "timestamp": "2026-03-05T09:53:22.192568"
+    },
+    {
+      "index": 19,
+      "contact": "Unknown",
+      "company": "Admiralty Private Client Group",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 20,
+      "contact": "Unknown",
+      "company": "Advantmed",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 21,
+      "contact": "Unknown",
+      "company": "Advantmed",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 22,
+      "contact": "Unknown",
+      "company": "AdvisorNet Financial",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 23,
+      "contact": "Unknown",
+      "company": "Aegis Capital Corp.",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 24,
+      "contact": "Unknown",
+      "company": "AEQUITA",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 25,
+      "contact": "Unknown",
+      "company": "AEQUITA",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 26,
+      "contact": "Unknown",
+      "company": "Aeterna Capital Partners",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 27,
+      "contact": "Unknown",
+      "company": "Affiance Financial",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 28,
+      "contact": "Unknown",
+      "company": "Affiliated Private Investors, LLC",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 29,
+      "contact": "Unknown",
+      "company": "Affinity Private Wealth",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 30,
+      "contact": "Unknown",
+      "company": "Affinity Private Wealth",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 31,
+      "contact": "Unknown",
+      "company": "AGA Capital",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 32,
+      "contact": "Unknown",
+      "company": "AGBC Global Investment Solutions",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 33,
+      "contact": "Unknown",
+      "company": "Agman",
+      "email": "jeffrey.silverman@agmanpartners.com",
+      "status": "failed",
+      "reason": "API error: 404",
+      "account": "Secondary",
+      "timestamp": "2026-03-05T09:53:23.315725"
+    },
+    {
+      "index": 34,
+      "contact": "Unknown",
+      "company": "Agman",
+      "email": "jeffrey.silverman@agmanpartners.com",
+      "status": "failed",
+      "reason": "API error: 404",
+      "account": "Backup",
+      "timestamp": "2026-03-05T09:53:24.418976"
+    },
+    {
+      "index": 35,
+      "contact": "Unknown",
+      "company": "Agreus",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 36,
+      "contact": "Unknown",
+      "company": "Ahara Advisors",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 37,
+      "contact": "Unknown",
+      "company": "Ahlstr\u00f6m Invest B.V.",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 38,
+      "contact": "Unknown",
+      "company": "AHR Growth Partners LLC",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 39,
+      "contact": "Unknown",
+      "company": "AIO Family Office",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 40,
+      "contact": "Unknown",
+      "company": "AJ Family Office",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 41,
+      "contact": "Unknown",
+      "company": "Ajanta Oy",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 42,
+      "contact": "Unknown",
+      "company": "Akram | Assurance, Advisory & Tax Firm",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 43,
+      "contact": "Unknown",
+      "company": "Aladdin Capital",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 44,
+      "contact": "Unknown",
+      "company": "Aladdin Capital",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 45,
+      "contact": "Unknown",
+      "company": "Alamo Manhattan",
+      "email": "bradley.olmstead@alamomanhattan.com",
+      "status": "failed",
+      "reason": "API error: 404",
+      "account": "Primary",
+      "timestamp": "2026-03-05T09:53:25.494751"
+    },
+    {
+      "index": 46,
+      "contact": "Unknown",
+      "company": "AlbaCore Capital Group",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 47,
+      "contact": "Unknown",
+      "company": "Albatross Ventures",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 48,
+      "contact": "Unknown",
+      "company": "Albion River",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "index": 49,
+      "contact": "Unknown",
+      "company": "Albrecht, Incorporated",
+      "status": "skipped",
+      "reason": "No email address"
+    }
+  ],
+  "account_usage": {
+    "Primary": {
+      "today_count": 3,
+      "today_date": "2026-03-05",
+      "total_sent": 3,
+      "last_used": "2026-03-05T09:53:25.493749",
+      "errors": 3
+    },
+    "Secondary": {
+      "today_count": 2,
+      "today_date": "2026-03-05",
+      "total_sent": 2,
+      "last_used": "2026-03-05T09:53:23.314744",
+      "errors": 2
+    },
+    "Backup": {
+      "today_count": 2,
+      "today_date": "2026-03-05",
+      "total_sent": 2,
+      "last_used": "2026-03-05T09:53:24.417879",
+      "errors": 2
+    }
+  },
+  "config": {
+    "rotation_strategy": "round_robin",
+    "daily_total_limit": 3000
+  }
+}

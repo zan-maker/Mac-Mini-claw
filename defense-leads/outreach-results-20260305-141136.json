@@ -1,0 +1,115 @@
+{
+  "companies": [
+    {
+      "name": "Aetherflux",
+      "email": "partnerships@aetherflux.com",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:35 GMT', 'apigw-requestid': 'Zw5IQhbuIAMEM1Q=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': 'F3p9ENnTyedGUZs49jTY_CXDlnaA3Xgr-T8pArFr5tBAgkH69f6uLA=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:35.623038"
+    },
+    {
+      "name": "Antares Industries",
+      "email": "info@antaresindustries.com",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:35 GMT', 'apigw-requestid': 'Zw5IRguhIAMEMJA=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': 'TVBuuyjJn2ldzGAHO-1YLWKiWZe_YWyg1gcj3UvPkUM1s69A7_nMew=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:35.657633"
+    },
+    {
+      "name": "Theseus Tech",
+      "email": "info@theseus.us",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:35 GMT', 'apigw-requestid': 'Zw5ISjROIAMEYxA=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': 'QdmHaiw5Q2J2CT_m5UaZmnaUCBhb9bpCvfeVj3MzzGjT1lH_KCROgQ=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:35.698049"
+    },
+    {
+      "name": "Scale AI",
+      "email": "partnerships@scale.com",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:35 GMT', 'apigw-requestid': 'Zw5ISg9BoAMEM8Q=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': 'W5JTv7YXyg0JvVodrnBFAMRTiXC4o0rGjDczhW_2XGlzmz1TvXk9-Q=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:35.741276"
+    },
+    {
+      "name": "DarkSaber Labs",
+      "email": "info@darksaberlabs.com",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:35 GMT', 'apigw-requestid': 'Zw5ISjNuoAMEMWw=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': 'NItGuCR5TveVb_sA_jq80A9T_qF6MI119n9CB2uq7w0gu8yL6ewVcg=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:35.786865"
+    },
+    {
+      "name": "Warfytr AI",
+      "email": "info@warfytr.ai",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:35 GMT', 'apigw-requestid': 'Zw5ITgCfIAMEMvg=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': 'M8dPdlx2Czb6j9ujHp62hiluTMnimC8gbBNePKTnGjDo8H-kKlKUWw=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:35.818686"
+    },
+    {
+      "name": "Aurum Systems",
+      "email": "info@aurum.systems",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:35 GMT', 'apigw-requestid': 'Zw5ITjN5oAMEMWw=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': 'rdUqREWXvGXMMx6aXlVe4yGEeLrZ6YHRfAnxbyi6wGRTEV50QmXW3w=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:35.838192"
+    },
+    {
+      "name": "Deca Defense",
+      "email": "info@decadefense.com",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:35 GMT', 'apigw-requestid': 'Zw5ITh1aoAMEMiA=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': '42KmFKtCfDJgRYcq2d96Qy_Obyzyf2Brw1Wg6vNC8BxI2taBNV-QVQ=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:35.868808"
+    },
+    {
+      "name": "Xebec Systems",
+      "email": "info@xebec-systems.com",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:36 GMT', 'apigw-requestid': 'Zw5IUiuZIAMEYsg=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': 'gXQph0KGf2crUziVxLNBlKU8aAGMFbEY1j2pB9jO-MWtSGkpQ1twBg=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:35.898319"
+    },
+    {
+      "name": "Wild West Systems",
+      "email": "info@wildwestsystems.com",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:36 GMT', 'apigw-requestid': 'Zw5IUjFbIAMEY1Q=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': 'feXNjmm5ovsf-ZSnhwm169fxG_0Ciq4LPtnInKOuLgQwBaPSQwDgdA=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:35.918699"
+    }
+  ],
+  "investors": [
+    {
+      "name": "BEENEXT",
+      "email": "hero@beenext.com",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:36 GMT', 'apigw-requestid': 'Zw5IUgo7IAMEYSw=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': 'rwRZVjJz4WSzoVU2E7Vne-NhT0-tMt6BwpkDqMVpKFqEOFeSDITH7A=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:35.939109"
+    },
+    {
+      "name": "Vertex Ventures",
+      "email": "info@vertexventures.com",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:36 GMT', 'apigw-requestid': 'Zw5IUjH6oAMEYkw=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': 'sN7ud919DL_64DZDiZ6n-Onq_GkeDotgkPlI_5tYTJ6NLryQOvBVRQ=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:35.958137"
+    },
+    {
+      "name": "Sequoia Capital India",
+      "email": "info@sequoiacap.com",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:36 GMT', 'apigw-requestid': 'Zw5IUj78oAMEYYQ=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': 'RYcUUv1G9Ubos_DSLR79nKibR1KMmCY85JxjSDJ31rJDJSMoECzXjg=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:35.990371"
+    },
+    {
+      "name": "Accel India",
+      "email": "india@accel.com",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:36 GMT', 'apigw-requestid': 'Zw5IVj9aIAMEMiQ=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': '_jpBJhTSpWHj7QOnSjCpt1560P7Qi7MEYOzG2fyd7HlP0sct4V_qbg=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:36.026382"
+    },
+    {
+      "name": "Matrix Partners India",
+      "email": "info@matrixpartners.com",
+      "status": "failed",
+      "error": "headers: {'content-type': 'application/json', 'content-length': '23', 'connection': 'keep-alive', 'date': 'Thu, 05 Mar 2026 19:11:36 GMT', 'apigw-requestid': 'Zw5IVhtHoAMEM3g=', 'x-cache': 'Error from cloudfront', 'via': '1.1 d74dec5161d1da37738a65c0df72f8dc.cloudfront.net (CloudFront)', 'x-amz-cf-pop': 'JFK50-P15', 'x-amz-cf-id': 'dYULTTrMw9owGs093rF6UbfOPBr1Vu4vydUpXuvi-S3vTpfgOAdj9A=='}, status_code: 403, body: name=None message='Forbidden'",
+      "timestamp": "2026-03-05T14:11:36.058344"
+    }
+  ],
+  "summary": {
+    "total_sent": 0,
+    "total_failed": 15
+  }
+}

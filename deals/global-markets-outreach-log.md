@@ -99,3 +99,24 @@
 
 ---
 
+## Outreach Batch - 2026-03-05 10:01:22
+
+### Summary
+- **Total Attempted:** 10
+- **Sent Successfully:** 10
+- **Failed:** 0
+
+### Details
+- ✅ **Daniel Kaufman** (Derby Copeland Capital) - daniel.s.kaufman@nasa.gov
+- ✅ **Luis Barata** (MAINTREE - Family Office Management) - lbarata@maintree.pt
+- ✅ **Julie Chang** (Phoenix Property Investors) - julie.chang@ppinvestors.com
+- ✅ **Karen Neal** (CSC FAMILY PARTNERS LLC) - kneal@cscpartners.net
+- ✅ **Christopher Carlin** (MGMT Partners) - christopher@mgmtpartners.com
+- ✅ **Christian von Stackelberg** (Radius Wealth Management) - christian@radiuswealth.com
+- ✅ **Santiago Descarrega** (Nostrum Simul) - santiagodescarrega@nostrumsimul.com
+- ✅ **Michael Ross Wightman** (TPG Energy) - rwightman@tpgenergy.com
+- ✅ **John Kordahl** (Hillspire) - jkordahl@hillspirellc.com
+- ✅ **Shelley (Lyon) Becht** (Gillco Ingredients, an Azelis Company) - sbecht@gillco.com
+
+---
+

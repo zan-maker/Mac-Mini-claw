@@ -1,0 +1,283 @@
+{
+  "scan_time": "postmarket",
+  "timestamp": "2026-03-05T19:00:10.561410",
+  "catalysts_found": 13,
+  "recommendations_generated": 6,
+  "catalysts": [
+    {
+      "title": "Burger King CEO Dunks On McD's Counterpart By Eating Burger Like He's Had One Before - OutKick",
+      "description": "Burger King\u2019s CEO trolls McDonald\u2019s after the Big Arch rollout, firing back with a Whopper bite that reignites classic fast-food corporate warfare.",
+      "categories": [
+        "ECONOMIC"
+      ],
+      "source": "Outkick.com",
+      "source_api": "newsapi",
+      "url": "https://www.outkick.com/culture/burger-king-ceo-dunks-mcds-counterpart-eating-burger-like-hes-had-one-before",
+      "published": "2026-03-04T19:00:37Z",
+      "time_of_day": "postmarket",
+      "analysis_timestamp": "2026-03-05T19:00:10.561012"
+    },
+    {
+      "title": "Bettors wagered $54 million on Khamenei\u2019s death. Now they\u2019re not getting paid. - The Washington Post",
+      "description": "Kalshi, a prediction market site, has sparked outrage after freezing $54 million in bets on the death of Iranian leader Ayatollah Ali Khamenei, citing a rule against profiting from death.",
+      "categories": [
+        "TECH"
+      ],
+      "source": "The Washington Post",
+      "source_api": "newsapi",
+      "url": "https://www.washingtonpost.com/technology/2026/03/04/kalshi-khamenei-bet-controversy/",
+      "published": "2026-03-04T18:45:14Z",
+      "time_of_day": "postmarket",
+      "analysis_timestamp": "2026-03-05T19:00:10.561049"
+    },
+    {
+      "title": "Iranian drone strikes on Amazon data centers highlight tech\u2019s exposure - The Seattle Times",
+      "description": "Amazon is facing cloud computing disruptions in the Middle East after drone strikes affected three data centers.",
+      "categories": [
+        "TECH"
+      ],
+      "source": "The Seattle Times",
+      "source_api": "newsapi",
+      "url": "https://www.seattletimes.com/business/amazon/iranian-drone-strikes-on-amazon-data-centers-highlight-techs-exposure/",
+      "published": "2026-03-04T18:38:35Z",
+      "time_of_day": "postmarket",
+      "analysis_timestamp": "2026-03-05T19:00:10.561072"
+    },
+    {
+      "title": "Target's new CEO says fresh eyes and respecting core values will help him regain customer trust - ABC News",
+      "description": "Target plans to spend billions of dollars this year to end a persistent sales slump and to regain its image as a fun place to shop for stylish clothing, housewares, beauty products and packaged food a",
+      "categories": [
+        "POLITICAL",
+        "TECH"
+      ],
+      "source": "Abcnews.com",
+      "source_api": "newsapi",
+      "url": "https://abcnews.com/Business/wireStory/targets-new-ceo-fresh-eyes-respecting-core-values-130760652",
+      "published": "2026-03-04T18:10:09Z",
+      "time_of_day": "postmarket",
+      "analysis_timestamp": "2026-03-05T19:00:10.561097"
+    },
+    {
+      "title": "Downdetector and Speedtest sold to Accenture for $1.2 billion - The Verge",
+      "description": "Accenture has reached a deal to purchase Ookla\u2019s platforms, including Downdetector and Speedtest, from Ziff Davis for $1.2 billion.",
+      "categories": [
+        "POLITICAL"
+      ],
+      "source": "The Verge",
+      "source_api": "newsapi",
+      "url": "https://www.theverge.com/tech/889234/downdetector-ookla-speedtest-sold-accenture",
+      "published": "2026-03-04T17:35:05Z",
+      "time_of_day": "postmarket",
+      "analysis_timestamp": "2026-03-05T19:00:10.561120"
+    },
+    {
+      "title": "Homebuyers have another thing to worry about. This time, it's 'housefishing.' - Business Insider",
+      "description": "There's a fine line between helping a buyer imagine a home's potential and deceiving them with AI enhanced photos. Welcome to the \"housefishing\" era.",
+      "categories": [
+        "POLITICAL",
+        "TECH"
+      ],
+      "source": "Business Insider",
+      "source_api": "newsapi",
+      "url": "https://www.businessinsider.com/home-listing-ai-photos-housefishing-agents-buyers-2026-3",
+      "published": "2026-03-04T16:53:00Z",
+      "time_of_day": "postmarket",
+      "analysis_timestamp": "2026-03-05T19:00:10.561142"
+    },
+    {
+      "title": "S&P 500 rises as oil eases, but traders are still cautious amid Iran conflict: Live updates - CNBC",
+      "description": "The Dow Industrials ended Tuesday's session down just over 400 points. The 30-stock index curtailed its losses after falling more than 1,200 points at the low.",
+      "categories": [
+        "SPORTS",
+        "TECH"
+      ],
+      "source": "CNBC",
+      "source_api": "newsapi",
+      "url": "https://www.cnbc.com/2026/03/03/stock-market-today-live-updates.html",
+      "published": "2026-03-04T16:16:00Z",
+      "time_of_day": "postmarket",
+      "analysis_timestamp": "2026-03-05T19:00:10.561194"
+    },
+    {
+      "title": "Nominations Sent to the Senate - The White House (.gov)",
+      "description": "Kevin Warsh, of Florida, to be Chairman of the Board of Governors of the Federal Reserve System for a term of four years. Kevin Warsh, of Florida, to be a",
+      "categories": [
+        "POLITICAL",
+        "ECONOMIC",
+        "TECH"
+      ],
+      "source": "Whitehouse.gov",
+      "source_api": "newsapi",
+      "url": "http://www.whitehouse.gov/presidential-actions/2026/03/nominations-sent-to-the-senate-b376/",
+      "published": "2026-03-04T16:06:46Z",
+      "time_of_day": "postmarket",
+      "analysis_timestamp": "2026-03-05T19:00:10.561211"
+    },
+    {
+      "title": "Coinbase leads crypto stocks higher after Trump signals support for digital asset market structure bill - CNBC",
+      "description": "Coinbase jumped 12% on Wednesday following President Trump's latest call to help pass a law that would enable crypto firms to issue yield-bearing stablecoins.",
+      "categories": [
+        "POLITICAL",
+        "SPORTS"
+      ],
+      "source": "CNBC",
+      "source_api": "newsapi",
+      "url": "https://www.cnbc.com/2026/03/04/coinbase-leads-crypto-stocks-higher-after-trump-signals-support-for-digital-asset-market-structure-bill.html",
+      "published": "2026-03-04T15:19:27Z",
+      "time_of_day": "postmarket",
+      "analysis_timestamp": "2026-03-05T19:00:10.561232"
+    },
+    {
+      "title": "Chick-fil-A changes fry recipe - WSB-TV",
+      "description": "Fast food chain Chick-fil-A has once again changed its fry recipe, and while changes are not always embraced by customers, this one may be different.",
+      "categories": [
+        "TECH"
+      ],
+      "source": "WSB Atlanta",
+      "source_api": "newsapi",
+      "url": "https://www.wsbtv.com/news/trending/chick-fil-a-changes-fry-recipe/MKSMAMQHCJC6JMASDU5ZSCO6AU/",
+      "published": "2026-03-04T15:17:21Z",
+      "time_of_day": "postmarket",
+      "analysis_timestamp": "2026-03-05T19:00:10.561251"
+    },
+    {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq rise on Iran war hopes, upbeat jobs data - Yahoo Finance",
+      "description": "Investors are weighing a NYT report that Iran has indirectly approached the US to discuss terms for ending the conflict.",
+      "categories": [
+        "ECONOMIC",
+        "SPORTS"
+      ],
+      "source": "Yahoo Entertainment",
+      "source_api": "newsapi",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-rise-on-iran-war-hopes-upbeat-jobs-data-143516233.html",
+      "published": "2026-03-04T14:35:16Z",
+      "time_of_day": "postmarket",
+      "analysis_timestamp": "2026-03-05T19:00:10.561271"
+    },
+    {
+      "title": "ADP National Employment Report: Private Sector Employment Increased by 63,000 Jobs in February; Annual Pay was Up 4.5% - PR Newswire",
+      "description": "/PRNewswire/ -- Private sector employment increased by 63,000 jobs in February and pay was up 4.5 percent year-over-year according to the February ADP National...",
+      "categories": [
+        "ECONOMIC"
+      ],
+      "source": "PRNewswire",
+      "source_api": "newsapi",
+      "url": "https://www.prnewswire.com/news-releases/adp-national-employment-report-private-sector-employment-increased-by-63-000-jobs-in-february-annual-pay-was-up-4-5-302703846.html",
+      "published": "2026-03-04T13:15:00Z",
+      "time_of_day": "postmarket",
+      "analysis_timestamp": "2026-03-05T19:00:10.561294"
+    },
+    {
+      "title": "American Airlines Blasts United for Flooding Chicago O\u2019Hare to Block Gates \u2014 The Employee Memo Isn\u2019t Signed by CEO Robert Isom [Roundup] - View from the Wing",
+      "description": "American Airlines sent employees a pointed note accusing United of dumping capacity into Chicago O\u2019Hare to manipulate a lease provision that allocates gates based on prior-year flying. What stands out",
+      "categories": [
+        "WEATHER",
+        "TECH"
+      ],
+      "source": "Viewfromthewing.com",
+      "source_api": "newsapi",
+      "url": "https://viewfromthewing.com/american-airlines-blasts-united-for-flooding-chicago-ohare-to-block-gates-the-employee-memo-isnt-signed-by-ceo-robert-isom-roundup/",
+      "published": "2026-03-04T13:04:40Z",
+      "time_of_day": "postmarket",
+      "analysis_timestamp": "2026-03-05T19:00:10.561326"
+    }
+  ],
+  "recommendations": [
+    {
+      "market": "FED-2024-MAR-RATE",
+      "action": "BUY NO",
+      "catalyst": "Burger King CEO Dunks On McD's Counterpart By Eating Burger Like He's Had One Before - OutKick",
+      "reasoning": "ECONOMIC catalyst: Burger King CEO Dunks On McD's Counterpart By Eating Burger Like He's Had One Before - OutKick...",
+      "confidence": "MEDIUM",
+      "entry_price_range": "40-60\u00a2",
+      "target_price": "65-75\u00a2",
+      "stop_loss": "35\u00a2",
+      "risk_reward": "1:2",
+      "timeframe": "1-3 days",
+      "source": "Outkick.com",
+      "url": "https://www.outkick.com/culture/burger-king-ceo-dunks-mcds-counterpart-eating-burger-like-hes-had-one-before",
+      "analysis_time": "postmarket",
+      "timestamp": "2026-03-05T19:00:10.561343"
+    },
+    {
+      "market": "NBA-CHAMPIONSHIP-2024",
+      "action": "BUY YES",
+      "catalyst": "S&P 500 rises as oil eases, but traders are still cautious amid Iran conflict: Live updates - CNBC",
+      "reasoning": "SPORTS catalyst: S&P 500 rises as oil eases, but traders are still cautious amid Iran conflict: Live updates - CNBC...",
+      "confidence": "HIGH",
+      "entry_price_range": "50-70\u00a2",
+      "target_price": "75-85\u00a2",
+      "stop_loss": "40\u00a2",
+      "risk_reward": "1:2.5",
+      "timeframe": "1-4 weeks",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/03/stock-market-today-live-updates.html",
+      "analysis_time": "postmarket",
+      "timestamp": "2026-03-05T19:00:10.561353"
+    },
+    {
+      "market": "FED-2024-MAR-RATE",
+      "action": "BUY NO",
+      "catalyst": "Nominations Sent to the Senate - The White House (.gov)",
+      "reasoning": "ECONOMIC catalyst: Nominations Sent to the Senate - The White House (.gov)...",
+      "confidence": "MEDIUM",
+      "entry_price_range": "40-60\u00a2",
+      "target_price": "65-75\u00a2",
+      "stop_loss": "35\u00a2",
+      "risk_reward": "1:2",
+      "timeframe": "1-3 days",
+      "source": "Whitehouse.gov",
+      "url": "http://www.whitehouse.gov/presidential-actions/2026/03/nominations-sent-to-the-senate-b376/",
+      "analysis_time": "postmarket",
+      "timestamp": "2026-03-05T19:00:10.561361"
+    },
+    {
+      "market": "NBA-CHAMPIONSHIP-2024",
+      "action": "BUY NO",
+      "catalyst": "Coinbase leads crypto stocks higher after Trump signals support for digital asset market structure bill - CNBC",
+      "reasoning": "SPORTS catalyst: Coinbase leads crypto stocks higher after Trump signals support for digital asset market structure b...",
+      "confidence": "MEDIUM",
+      "entry_price_range": "40-60\u00a2",
+      "target_price": "65-75\u00a2",
+      "stop_loss": "35\u00a2",
+      "risk_reward": "1:2",
+      "timeframe": "1-4 weeks",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/03/04/coinbase-leads-crypto-stocks-higher-after-trump-signals-support-for-digital-asset-market-structure-bill.html",
+      "analysis_time": "postmarket",
+      "timestamp": "2026-03-05T19:00:10.561370"
+    },
+    {
+      "market": "FED-2024-MAR-RATE",
+      "action": "BUY YES",
+      "catalyst": "Stock market today: Dow, S&P 500, Nasdaq rise on Iran war hopes, upbeat jobs data - Yahoo Finance",
+      "reasoning": "ECONOMIC catalyst: Stock market today: Dow, S&P 500, Nasdaq rise on Iran war hopes, upbeat jobs data - Yahoo Finance...",
+      "confidence": "HIGH",
+      "entry_price_range": "50-70\u00a2",
+      "target_price": "75-85\u00a2",
+      "stop_loss": "40\u00a2",
+      "risk_reward": "1:2.5",
+      "timeframe": "1-3 days",
+      "source": "Yahoo Entertainment",
+      "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-rise-on-iran-war-hopes-upbeat-jobs-data-143516233.html",
+      "analysis_time": "postmarket",
+      "timestamp": "2026-03-05T19:00:10.561376"
+    },
+    {
+      "market": "FED-2024-MAR-RATE",
+      "action": "BUY NO",
+      "catalyst": "ADP National Employment Report: Private Sector Employment Increased by 63,000 Jobs in February; Annual Pay was Up 4.5% - PR Newswire",
+      "reasoning": "ECONOMIC catalyst: ADP National Employment Report: Private Sector Employment Increased by 63,000 Jobs in February; Annu...",
+      "confidence": "MEDIUM",
+      "entry_price_range": "40-60\u00a2",
+      "target_price": "65-75\u00a2",
+      "stop_loss": "35\u00a2",
+      "risk_reward": "1:2",
+      "timeframe": "1-3 days",
+      "source": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/adp-national-employment-report-private-sector-employment-increased-by-63-000-jobs-in-february-annual-pay-was-up-4-5-302703846.html",
+      "analysis_time": "postmarket",
+      "timestamp": "2026-03-05T19:00:10.561385"
+    }
+  ]
+}

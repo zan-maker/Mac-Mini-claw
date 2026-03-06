@@ -1,0 +1,60 @@
+{
+  "date": "2026-03-05T14:07:00.000000",
+  "type": "daily_outreach_check",
+  "campaign": "expense_reduction",
+  "results": {
+    "initial_emails": {
+      "attempted": 0,
+      "sent": 0,
+      "errors": 0,
+      "reason": "Today's high-priority leads (6 leads) lack verified email addresses - enrichment required"
+    },
+    "follow_ups": {
+      "attempted": 4,
+      "sent": 0,
+      "errors": 4,
+      "cohort": "Feb 17 Day 14 break-up emails",
+      "companies": ["Adaptive Security", "Ambience Healthcare", "Rilla", "Vanta"],
+      "error_detail": "AgentMail API returning 403 Forbidden / 404 Not Found errors"
+    }
+  },
+  "api_status": {
+    "agentmail_api": "BROKEN",
+    "errors_tested": ["403 Forbidden on /v0/inboxes", "404 Not Found on various endpoints"],
+    "api_keys_tested": [
+      "am_77026a53e8d003ce63a3187d06d61e897ee389b9ec479d50bdaeefeda868b32f (from cron task - 403 Forbidden)",
+      "am_us_f03e762c50d6e353bbe7b4307b452bd73f58aed725bc0ef53f25d9f8e91c962a (from script - 404 Inbox not found)",
+      "am_us_6320cdca7bb3aef6fe7953500172394f4ef3f9c10d4a9224d576fbe394ff4138 (newest key - 403/404 errors)"
+    ],
+    "inbox_tested": "Zander@agentmail.to"
+  },
+  "new_leads": {
+    "date": "2026-03-05",
+    "total": 18,
+    "high_priority": 6,
+    "medium_priority": 12,
+    "total_opex": "$22,085,000",
+    "potential_savings": "$3,312,750 - $6,625,500",
+    "status": "Needs email enrichment + AgentMail API fix"
+  },
+  "pipeline_status": {
+    "feb_17_cohort": {
+      "companies": ["Adaptive Security", "Ambience Healthcare", "Rilla", "Vanta"],
+      "initial_contact": "2026-02-17",
+      "day7_sent": "2026-02-26",
+      "day14_due": "2026-03-05",
+      "status": "BLOCKED - AgentMail API not working"
+    }
+  },
+  "blockers": [
+    "AgentMail API returning 403 Forbidden / 404 Not Found errors on all tested keys",
+    "Today's leads (March 5) have no verified email addresses",
+    "Email enrichment required via Hunter.io or manual research",
+    "6 high-priority leads representing $3.3M-$6.6M potential savings awaiting contact"
+  ],
+  "next_actions": [
+    "Fix AgentMail API access or use Gmail SMTP fallback",
+    "Enrich March 5 high-priority leads with decision-maker emails",
+    "Send Day 14 follow-ups to Feb 17 cohort once email system is working"
+  ]
+}

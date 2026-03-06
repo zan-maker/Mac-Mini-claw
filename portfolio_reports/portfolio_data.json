@@ -1,0 +1,57 @@
+{
+  "trades": [
+    {
+      "id": "gas_month_original_20260304",
+      "market": "Gas prices in the US this month > $3.50",
+      "size": 25,
+      "type": "YES",
+      "entry_price": 3.198,
+      "target_price": 3.5,
+      "entry_time": "2026-03-04T09:00:00",
+      "settlement_date": "2026-03-31",
+      "status": "active",
+      "notes": "Original Gas Month position based on AAA price $3.198"
+    },
+    {
+      "id": "gas_month_add_20260305_1801",
+      "market": "Gas prices in the US this month > $3.50",
+      "size": 8,
+      "type": "YES",
+      "entry_price": 3.2,
+      "target_price": 3.5,
+      "entry_time": "2026-03-05T18:03:05.132760",
+      "settlement_date": "2026-03-31",
+      "status": "active",
+      "notes": "Additional $8 added based on Iran conflict catalysts and 70% confidence recommendation"
+    },
+    {
+      "id": "gas_week_original_20260304",
+      "market": "US gas prices this week > $3.310",
+      "size": 50,
+      "type": "YES",
+      "entry_price": 3.198,
+      "target_price": 3.31,
+      "entry_time": "2026-03-04T09:00:00",
+      "settlement_date": "2026-03-08",
+      "status": "active",
+      "notes": "Gas Week position, needs +$0.112 to reach target"
+    },
+    {
+      "id": "paxton_trade_20260304",
+      "market": "Paxton short position",
+      "size": 25,
+      "type": "SHORT",
+      "entry_price": 0.25,
+      "exit_price": 0.88,
+      "entry_time": "2026-03-04T10:00:00",
+      "exit_time": "2026-03-04T15:00:00",
+      "profit": 88.0,
+      "return_pct": 352.0,
+      "status": "completed",
+      "notes": "352% return on Paxton political market"
+    }
+  ],
+  "total_invested": 83,
+  "total_profit": 88.0,
+  "active_trades_count": 3
+}

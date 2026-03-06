@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-03-05 10:01:22",
+  "results": [
+    {
+      "investor": "Daniel Kaufman",
+      "email": "daniel.s.kaufman@nasa.gov",
+      "firm": "Derby Copeland Capital",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-05T10:00:15.804468"
+    },
+    {
+      "investor": "Luis Barata",
+      "email": "lbarata@maintree.pt",
+      "firm": "MAINTREE - Family Office Management",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-05T10:00:22.357462"
+    },
+    {
+      "investor": "Julie Chang",
+      "email": "julie.chang@ppinvestors.com",
+      "firm": "Phoenix Property Investors",
+      "category": "hospitality",
+      "status": "sent",
+      "timestamp": "2026-03-05T10:00:28.413236"
+    },
+    {
+      "investor": "Karen Neal",
+      "email": "kneal@cscpartners.net",
+      "firm": "CSC FAMILY PARTNERS LLC",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-05T10:00:34.559056"
+    },
+    {
+      "investor": "Christopher Carlin",
+      "email": "christopher@mgmtpartners.com",
+      "firm": "MGMT Partners",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-05T10:00:41.422603"
+    },
+    {
+      "investor": "Christian von Stackelberg",
+      "email": "christian@radiuswealth.com",
+      "firm": "Radius Wealth Management",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-05T10:00:47.854811"
+    },
+    {
+      "investor": "Santiago Descarrega",
+      "email": "santiagodescarrega@nostrumsimul.com",
+      "firm": "Nostrum Simul",
+      "category": "healthcare",
+      "status": "sent",
+      "timestamp": "2026-03-05T10:00:58.729663"
+    },
+    {
+      "investor": "Michael Ross Wightman",
+      "email": "rwightman@tpgenergy.com",
+      "firm": "TPG Energy",
+      "category": "energy",
+      "status": "sent",
+      "timestamp": "2026-03-05T10:01:04.424289"
+    },
+    {
+      "investor": "John Kordahl",
+      "email": "jkordahl@hillspirellc.com",
+      "firm": "Hillspire",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-05T10:01:11.461268"
+    },
+    {
+      "investor": "Shelley (Lyon) Becht",
+      "email": "sbecht@gillco.com",
+      "firm": "Gillco Ingredients, an Azelis Company",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-05T10:01:22.627965"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "sent": 10,
+    "failed": 0
+  }
+}

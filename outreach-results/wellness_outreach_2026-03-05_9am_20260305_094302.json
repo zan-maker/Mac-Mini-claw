@@ -1,0 +1,55 @@
+{
+  "timestamp": "2026-03-05T09:43:02.318876",
+  "batch": "9am",
+  "type": "initial_outreach",
+  "from": "zane@agentmail.to",
+  "cc": "sam@impactquadrant.info",
+  "results": {
+    "sent": 5,
+    "failed": 0,
+    "total": 5,
+    "emails": [
+      {
+        "company": "Bloomberg LP",
+        "email": "hr@bloomberg.net",
+        "savings": 1662000,
+        "message_id": "<0100019cbe73b52b-838e6ea8-66ca-4658-8e18-d3faef61cf62-000000@email.amazonses.com>",
+        "status": "sent",
+        "timestamp": "2026-03-05T09:43:00.357888"
+      },
+      {
+        "company": "Hearst Corporation",
+        "email": "hr@hearst.com",
+        "savings": 1839339,
+        "message_id": "<0100019cbe73b784-4ba45455-de9c-4260-b454-a1a74be151d3-000000@email.amazonses.com>",
+        "status": "sent",
+        "timestamp": "2026-03-05T09:43:00.777085"
+      },
+      {
+        "company": "STO Building Group",
+        "email": "hr@stobuildinggroup.com",
+        "savings": 438990,
+        "message_id": "<0100019cbe73b907-1aca75b8-cd20-4212-9ea2-a4f009dc405a-000000@email.amazonses.com>",
+        "status": "sent",
+        "timestamp": "2026-03-05T09:43:01.381610"
+      },
+      {
+        "company": "Standard Industries",
+        "email": "hr@standardindustries.com",
+        "savings": 1662000,
+        "message_id": "<0100019cbe73bb63-9eb5a3ff-430c-456b-a1b9-de759e5d0792-000000@email.amazonses.com>",
+        "status": "sent",
+        "timestamp": "2026-03-05T09:43:01.893612"
+      },
+      {
+        "company": "Horizon Media Inc",
+        "email": "hr@horizonmedia.com",
+        "savings": 198720,
+        "message_id": "<0100019cbe73bd76-f6139fee-4aea-4280-bf1e-72ac92dc2d0e-000000@email.amazonses.com>",
+        "status": "sent",
+        "timestamp": "2026-03-05T09:43:02.318647"
+      }
+    ],
+    "total_savings": 5801049
+  }
+}

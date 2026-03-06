@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-03-05T16:02:40.306064",
+  "batch": "4pm",
+  "type": "initial_outreach",
+  "from": "zane@agentmail.to",
+  "cc": "sam@impactquadrant.info",
+  "results": {
+    "sent": 5,
+    "failed": 0,
+    "total": 5,
+    "emails": [
+      {
+        "company": "Cond\u00e9 Nast",
+        "email": "hr@condenast.com",
+        "savings": 663975,
+        "message_id": "<0100019cbfcf45e8-abdfb16b-d62c-4bbf-97b8-4bde57758005-000000@email.amazonses.com>",
+        "status": "sent",
+        "timestamp": "2026-03-05T16:02:38.249985"
+      },
+      {
+        "company": "VaynerMedia",
+        "email": "hr@vaynermedia.com",
+        "savings": 132795,
+        "message_id": "<0100019cbfcf47d0-2b7facc4-db78-48be-89e7-25c6b9daea6f-000000@email.amazonses.com>",
+        "status": "sent",
+        "timestamp": "2026-03-05T16:02:38.697363"
+      },
+      {
+        "company": "Tishman Speyer",
+        "email": "hr@tishmanspeyer.com",
+        "savings": 247884,
+        "message_id": "<0100019cbfcf4988-972533f2-7b4d-4db9-b9b5-8a9d6386ea92-000000@email.amazonses.com>",
+        "status": "sent",
+        "timestamp": "2026-03-05T16:02:39.114836"
+      },
+      {
+        "company": "R/GA",
+        "email": "hr@rga.com",
+        "savings": 177060,
+        "message_id": "<0100019cbfcf4b59-af9c1c1c-0861-40d7-9c7d-94a58892b658-000000@email.amazonses.com>",
+        "status": "sent",
+        "timestamp": "2026-03-05T16:02:39.555099"
+      },
+      {
+        "company": "Ogilvy",
+        "email": "hr@ogilvy.com",
+        "savings": 752505,
+        "message_id": "<0100019cbfcf4ddf-12c3ccfe-6f12-406a-95d9-6201ff7d4cb9-000000@email.amazonses.com>",
+        "status": "sent",
+        "timestamp": "2026-03-05T16:02:40.305834"
+      }
+    ],
+    "total_savings": 1974219
+  },
+  "daily_progress": {
+    "9am_sent": 5,
+    "4pm_sent": 5,
+    "total_today": 10,
+    "target": 20,
+    "remaining": 10
+  }
+}

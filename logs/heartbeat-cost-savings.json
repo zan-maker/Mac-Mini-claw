@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "timestamp": "2026-03-08T16:08:11.465827",
+      "local_checks": 0,
+      "api_checks": 5,
+      "estimated_savings": 0.0,
+      "total_checks": 5
+    },
+    {
+      "timestamp": "2026-03-08T16:08:56.582072",
+      "local_checks": 4,
+      "api_checks": 1,
+      "estimated_savings": 0.004,
+      "total_checks": 5
+    }
+  ]
+}

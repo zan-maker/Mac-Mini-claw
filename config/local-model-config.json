@@ -1,0 +1,39 @@
+{
+  "local_models": {
+    "ollama": {
+      "base_url": "http://localhost:11434",
+      "api": "ollama",
+      "models": [
+        {
+          "id": "tinyllama:latest",
+          "name": "Local tinyllama:latest",
+          "reasoning": false,
+          "input": ["text"],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 4096,
+          "maxTokens": 1024
+        }
+      ]
+    }
+  },
+  "model_routing": {
+    "simple_tasks": ["heartbeat", "file_cleanup", "basic_monitoring"],
+    "complex_tasks": ["research", "analysis", "email_composition"],
+    "default_local": "tinyllama:latest"
+  },
+  "cost_savings": {
+    "estimated_monthly_savings": "0-50",
+    "tasks_to_localize": [
+      "heartbeat",
+      "token_monitor",
+      "api_usage_check",
+      "file_backup_notifications",
+      "basic_system_checks"
+    ]
+  }
+}

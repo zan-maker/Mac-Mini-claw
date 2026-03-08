@@ -1,0 +1,55 @@
+{
+  "pipeline_start": "2026-03-08T09:36:54.175194",
+  "ai_generation": {
+    "status": "loaded_from_test",
+    "messages_loaded": 5,
+    "source_file": "/Users/cubiczan/.openclaw/workspace/bdev_ai_test_with_emails_20260301_093404.csv",
+    "output_file": "/Users/cubiczan/.openclaw/workspace/bdev_ai_with_emails_20260308_093654.csv",
+    "timestamp": "2026-03-08T09:36:54.184960"
+  },
+  "agentmail_sending": {
+    "status": "completed",
+    "results": {
+      "total": 5,
+      "sent": 3,
+      "failed": 2,
+      "skipped": 0
+    },
+    "sent_details": [
+      {
+        "recipient": {
+          "email": "john.smith@13thfloorcapital.com",
+          "name": "John Smith",
+          "company": "13th Floor Capital",
+          "sectors": "Multi-Unit Restaurant, Food-Service, Multi-Unit Retail"
+        },
+        "account_used": "Primary",
+        "timestamp": "2026-03-08T09:36:54.295185"
+      },
+      {
+        "recipient": {
+          "email": "sarah.johnson@1875finance.com",
+          "name": "Sarah Johnson",
+          "company": "1875 FINANCE",
+          "sectors": "Technology, Healthcare, Fintech"
+        },
+        "account_used": "Secondary",
+        "timestamp": "2026-03-08T09:36:54.404554"
+      },
+      {
+        "recipient": {
+          "email": "david.lee@3ccapital.com",
+          "name": "David Lee",
+          "company": "3C Capital",
+          "sectors": "Manufacturing, Industrial, Supply Chain"
+        },
+        "account_used": "Secondary",
+        "timestamp": "2026-03-08T09:36:54.723026"
+      }
+    ],
+    "timestamp": "2026-03-08T09:36:54.723062"
+  },
+  "account_usage": {
+    "Primary": {
+      "today_count": 1,
+      "today_date": 

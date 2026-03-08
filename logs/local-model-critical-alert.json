@@ -1,0 +1,11 @@
+{
+  "entries": [
+    {
+      "timestamp": "2026-03-08T16:29:49.832040",
+      "check_type": "critical_alert",
+      "used_local": true,
+      "result": "\ud83d\udea8 CRITICAL: Token usage critical (Budget: 12.5%, Tokens: 93.3%)",
+      "estimated_savings": 0.001
+    }
+  ]
+}

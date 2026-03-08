@@ -1,0 +1,17 @@
+{
+  "alerts": [
+    {
+      "timestamp": "2026-03-08T16:29:49.832350",
+      "type": "critical",
+      "budget_remaining": 12.489600466457853,
+      "token_usage": 93.2826266405322,
+      "message": "\ud83d\udea8 CRITICAL: Token usage critical (Budget: 12.5%, Tokens: 93.3%)"
+    }
+  ],
+  "last_alert": "2026-03-08T16:29:49.832358",
+  "settings": {
+    "critical_budget_percent": 10,
+    "critical_token_percent": 95,
+    "min_alert_interval": 3600
+  }
+}

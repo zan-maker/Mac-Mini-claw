@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-03-06 10:01:20",
+  "results": [
+    {
+      "investor": "Michael Rudy",
+      "email": "mrudy@mastjagermeisterus.com",
+      "firm": "Mast-J\u00e4germeister US, Inc.",
+      "category": "healthcare",
+      "status": "sent",
+      "timestamp": "2026-03-06T10:00:10.234695"
+    },
+    {
+      "investor": "Lorin Gu",
+      "email": "lorin@rechargecapital.com",
+      "firm": "Recharge Capital",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-06T10:00:16.256779"
+    },
+    {
+      "investor": "Eunjoo Lee",
+      "email": "elee@hawkeyepartners.com",
+      "firm": "Hawkeye Partners LP",
+      "category": "hospitality",
+      "status": "sent",
+      "timestamp": "2026-03-06T10:00:21.287571"
+    },
+    {
+      "investor": "Joe McDurmont, CPA",
+      "email": "jmcdurmont@formationcapital.com",
+      "firm": "Formation Capital",
+      "category": "healthcare",
+      "status": "sent",
+      "timestamp": "2026-03-06T10:00:26.844441"
+    },
+    {
+      "investor": "Leila Kotlar-Bouget",
+      "email": "l.kotlar-bouget@cdr-capital.com",
+      "firm": "CdR Capital",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-06T10:00:37.648286"
+    },
+    {
+      "investor": "Yvette Robbins",
+      "email": "yrobbins@ifalstaff.com",
+      "firm": "Vallejo Investments, Inc.",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-06T10:00:43.138201"
+    },
+    {
+      "investor": "Katie Kezele",
+      "email": "katie@cypress-ascendant.com",
+      "firm": "Cypress Ascendant Holdings, LLC.",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-06T10:00:52.813712"
+    },
+    {
+      "investor": "Cameron Dickerson",
+      "email": "cameron@aureliencapitalpartners.com",
+      "firm": "Aur\u00e9lien Capital Partners",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-06T10:01:07.762032"
+    },
+    {
+      "investor": "Adrian Janser",
+      "email": "adrian.janser@horizon21.com",
+      "firm": "Horizon21 AG",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-06T10:01:13.266322"
+    },
+    {
+      "investor": "Mario Graf",
+      "email": "mario.graf@whitehole.es",
+      "firm": "Whitehole",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-06T10:01:20.160047"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "sent": 10,
+    "failed": 0
+  }
+}

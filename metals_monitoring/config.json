@@ -1,0 +1,38 @@
+{
+  "monitoring": {
+    "interval_minutes": 15,
+    "markets": ["copper", "gold", "silver", "gas"],
+    "sources": {
+      "copper": "COMEX/LME",
+      "gold": "COMEX",
+      "silver": "COMEX",
+      "gas": "AAA National Average"
+    }
+  },
+  "trading": {
+    "capital_allocation": 500,
+    "max_position_size_percent": 5,
+    "min_confidence_threshold": 0.7,
+    "max_trades_per_day": 3
+  },
+  "alerts": {
+    "price_move_threshold_percent": 2,
+    "volatility_threshold_percent": 3,
+    "notification_channels": ["log", "discord"]
+  },
+  "kalshi_integration": {
+    "enabled": true,
+    "market_prefixes": {
+      "copper": "COPPER",
+      "gold": "GOLD",
+      "silver": "SILVER",
+      "gas": "GAS"
+    },
+    "timeframes": ["WEEKLY", "MONTHLY", "QUARTERLY"]
+  },
+  "discord": {
+    "enabled": false,
+    "webhook_url": "YOUR_DISCORD_WEBHOOK_HERE",
+    "channel_id": "YOUR_CHANNEL_ID_HERE"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-03-06T14:10:38.628550",
+  "batch": "16b",
+  "sent": 0,
+  "failed": 0,
+  "results": [
+    {
+      "company": "Haven Hospice",
+      "status": "failed",
+      "reason": "No email found"
+    },
+    {
+      "company": "AseraCare Hospice",
+      "status": "failed",
+      "reason": "No email found"
+    },
+    {
+      "company": "Kindred Hospice",
+      "status": "failed",
+      "reason": "No email found"
+    },
+    {
+      "company": "AccentCare",
+      "status": "failed",
+      "reason": "No email found"
+    },
+    {
+      "company": "BrightStar Care",
+      "status": "failed",
+      "reason": "No email found"
+    },
+    {
+      "company": "Encompass Health",
+      "status": "failed",
+      "reason": "No email found"
+    },
+    {
+      "company": "Genesis Healthcare",
+      "status": "failed",
+      "reason": "No email found"
+    },
+    {
+      "company": "Brookdale Senior Living",
+      "status": "failed",
+      "reason": "No email found"
+    }
+  ]
+}

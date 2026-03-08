@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-03-06T15:32:34.815440",
+  "available_capital": 220,
+  "timeframe": "<30 days",
+  "trading_plan": {
+    "available_capital": 220,
+    "timeframe": "<30 days",
+    "total_allocated": 20.42,
+    "opportunities": [
+      {
+        "timeframe": "15-30 days",
+        "days": 25,
+        "category": "MONTH_END",
+        "confidence": 0.65,
+        "allocation": 10.21,
+        "title": "Notice to the Annual General Meeting of Orion Corporation",
+        "market_examples": [
+          "Will [target] be reached by month-end?",
+          "Monthly economic indicators"
+        ],
+        "keywords": [
+          "March",
+          "meeting"
+        ]
+      },
+      {
+        "timeframe": "15-30 days",
+        "days": 30,
+        "category": "MONTH_END",
+        "confidence": 0.65,
+        "allocation": 10.21,
+        "title": "Notice to the Annual General Meeting of Orion Corporation",
+        "market_examples": [
+          "Will [target] be reached by month-end?",
+          "Monthly economic indicators"
+        ],
+        "keywords": [
+          "by April",
+          "meeting"
+        ]
+      }
+    ]
+  },
+  "opportunities_found": 2
+}

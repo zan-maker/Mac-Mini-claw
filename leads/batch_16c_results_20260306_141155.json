@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-03-06T14:11:55.609454",
+  "batch": "16c",
+  "sent": 5,
+  "failed": 0,
+  "total_savings": 398880.0,
+  "results": [
+    {
+      "company": "Heart to Heart Hospice",
+      "status": "sent",
+      "email": "hr@hearttohearthospice.com",
+      "industry": "Healthcare - Hospice",
+      "location": "Dallas, TX",
+      "employees": 85,
+      "savings": 70635.0,
+      "message_id": "<0100019cc4903fb7-d04cd89a-b1e1-481f-962d-ed33e5c6aaa0-000000@email.amazonses.com>"
+    },
+    {
+      "company": "Compassionate Care Hospice",
+      "status": "sent",
+      "email": "hr@cch-info.com",
+      "industry": "Healthcare - Hospice",
+      "location": "Houston, TX",
+      "employees": 70,
+      "savings": 58170.0,
+      "message_id": "<0100019cc4904152-c2586b37-0a8f-4b26-8572-c7e454e7908f-000000@email.amazonses.com>"
+    },
+    {
+      "company": "Southern Care Hospice",
+      "status": "sent",
+      "email": "hr@southerncarehospice.com",
+      "industry": "Healthcare - Hospice",
+      "location": "Birmingham, AL",
+      "employees": 95,
+      "savings": 78945.0,
+      "message_id": "<0100019cc49042e8-3327a914-7a16-4e68-9f62-490367f287be-000000@email.amazonses.com>"
+    },
+    {
+      "company": "Medicine Shoppe International",
+      "status": "sent",
+      "email": "hr@medicineshoppe.com",
+      "industry": "Healthcare - Pharmacy",
+      "location": "Pittsburgh, PA",
+      "employees": 120,
+      "savings": 99720.0,
+      "message_id": "<0100019cc4904482-55288742-54c9-4b96-b60e-46fb56529d86-000000@email.amazonses.com>"
+    },
+    {
+      "company": "Senior Helpers",
+      "status": "sent",
+      "email": "hr@seniorhelpers.com",
+      "industry": "Healthcare - Senior Care",
+      "location": "Towson, MD",
+      "employees": 110,
+      "savings": 91410.0,
+      "message_id": "<0100019cc4904610-950160e3-88b5-48cf-8d37-4c15499fc6d6-000000@email.amazonses.com>"
+    }
+  ]
+}

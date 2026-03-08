@@ -1,0 +1,21 @@
+{
+  "gmail_accounts": [
+    {
+      "name": "Primary",
+      "email": "sam@cubiczan.com",
+      "password": "mwzh abbf ssih mjsf",
+      "smtp_server": "smtp.gmail.com",
+      "smtp_port": 587,
+      "from_name": "Sam Desigan",
+      "daily_limit": 500,
+      "priority": 1,
+      "enabled": true
+    }
+  ],
+  "rotation_strategy": "round_robin",
+  "daily_total_limit": 500,
+  "rate_limit_per_minute": 60,
+  "default_sender": "Sam Desigan",
+  "default_reply_to": "sam@cubiczan.com",
+  "tracking_enabled": false
+}

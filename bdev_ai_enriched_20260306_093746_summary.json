@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-03-06T09:37:46.683263",
+  "ai_file": "bdev_ai_openclaw_20260306_093713.csv",
+  "contacts_file": "data/family-office-contacts.csv",
+  "output_file": "bdev_ai_enriched_20260306_093746.csv",
+  "total_messages": 50,
+  "enriched_count": 7,
+  "enrichment_rate": 0.14,
+  "unique_emails_added": 5
+}

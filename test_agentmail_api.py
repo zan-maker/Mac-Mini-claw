@@ -1,46 +1,61 @@
 #!/usr/bin/env python3
-"""Test AgentMail API connectivity"""
+"""
+Test AgentMail API connectivity
+"""
 
 import requests
 import json
 
-# Test with Primary account
-api_key = "am_77026a53e8d003ce63a3187d06d61e897ee389b9ec479d50bdaeefeda868b32f"
-base_url = "https://api.agentmail.to/v0"
+def test_agentmail_api(api_key, from_email):
+    """Test AgentMail API connectivity"""
+    url = "https://api.agentmail.to/v1/send"
+    
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json"
+    }
+    
+    test_payload = {
+        "to": "test@example.com",
+        "from": from_email,
+        "subject": "Test email from AgentMail API",
+        "text": "This is a test email to verify API connectivity.",
+        "html": "<p>This is a test email to verify API connectivity.</p>"
+    }
+    
+    print(f"🔧 Testing AgentMail API...")
+    print(f"   API Key: {api_key[:20]}...")
+    print(f"   From: {from_email}")
+    print(f"   URL: {url}")
+    
+    try:
+        response = requests.post(url, headers=headers, json=test_payload, timeout=10)
+        print(f"   Status: {response.status_code}")
+        print(f"   Response: {response.text[:200]}")
+        
+        if response.status_code == 200:
+            print("✅ API connection successful!")
+            return True
+        elif response.status_code == 401:
+            print("❌ Authentication failed - check API key")
+        elif response.status_code == 404:
+            print("❌ Endpoint not found - check API URL")
+        else:
+            print(f"❌ API error: {response.status_code}")
+            
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Connection error: {e}")
+    
+    return False
 
-headers = {
-    'Authorization': f'Bearer {api_key}',
-    'Content-Type': 'application/json'
-}
-
-# Test 1: Check API status
-print("🔍 Testing AgentMail API connectivity...")
-print(f"   API Key: {api_key[:20]}...")
-print(f"   Base URL: {base_url}")
-
-try:
-    # Try to get account info or test endpoint
-    response = requests.get(f"{base_url}/account", headers=headers, timeout=10)
-    print(f"   Status: {response.status_code}")
-    print(f"   Response: {response.text[:200]}")
-except Exception as e:
-    print(f"   Error: {e}")
-
-# Test 2: Try sending a test email
-print("\n📧 Testing send endpoint...")
-payload = {
-    'to': 'test@example.com',
-    'from': 'sam@impactquadrant.info',
-    'from_name': 'Sam Desigan',
-    'subject': 'Test from AgentMail API',
-    'body': 'This is a test email from AgentMail API integration.',
-    'reply_to': 'sam@impactquadrant.info',
-    'tracking': True
-}
-
-try:
-    response = requests.post(f"{base_url}/send", headers=headers, json=payload, timeout=30)
-    print(f"   Status: {response.status_code}")
-    print(f"   Response: {response.text[:200]}")
-except Exception as e:
-    print(f"   Error: {e}")
+if __name__ == "__main__":
+    # Test with primary account
+    print("="*60)
+    print("Testing Primary Account")
+    print("="*60)
+    
+    with open("agentmail_config.json", "r") as f:
+        config = json.load(f)
+    
+    primary = config['agentmail_accounts'][0]
+    test_agentmail_api(primary['api_key'], primary['from_email'])

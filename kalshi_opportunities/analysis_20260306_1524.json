@@ -1,0 +1,209 @@
+{
+  "timestamp": "2026-03-06T15:24:03.601459",
+  "available_capital": 220,
+  "articles_analyzed": 27,
+  "opportunities_found": 10,
+  "trading_plan": {
+    "available_capital": 220,
+    "total_allocated": 220.0,
+    "opportunities": [
+      {
+        "rank": 1,
+        "category": "ENERGY_COMMODITIES",
+        "confidence": 0.7,
+        "allocation": 44.0,
+        "title": "LNG Shipping Rates Soar 650% to $300,000 Per Day - Crude Oil Prices Today | OilPrice.com",
+        "potential_markets": [
+          "Oil/gas price movement markets",
+          "Energy inventory report markets"
+        ],
+        "action": "BUY (MEDIUM position)",
+        "timeframe": "weeks"
+      },
+      {
+        "rank": 2,
+        "category": "ENERGY_COMMODITIES",
+        "confidence": 0.7,
+        "allocation": 44.0,
+        "title": "White House \u2018looking under every rock\u2019 to lower gas prices - Politico",
+        "potential_markets": [
+          "Oil/gas price movement markets",
+          "Energy inventory report markets"
+        ],
+        "action": "BUY (MEDIUM position)",
+        "timeframe": "weeks"
+      },
+      {
+        "rank": 3,
+        "category": "POLITICAL",
+        "confidence": 0.7,
+        "allocation": 44.0,
+        "title": "Tesla successfully scared Giga Berlin workers away from union - Electrek",
+        "potential_markets": [
+          "Election outcome markets (state/national)",
+          "Political appointment/confirmation markets"
+        ],
+        "action": "BUY (MEDIUM position)",
+        "timeframe": "days to weeks"
+      },
+      {
+        "rank": 4,
+        "category": "POLITICAL",
+        "confidence": 0.7,
+        "allocation": 44.0,
+        "title": "'That\u2019s Not Winning': Record Numbers of US Workers Are Raiding Their 401(k)s in Trump Economy - Comm...",
+        "potential_markets": [
+          "Legislation passage markets",
+          "Political appointment/confirmation markets"
+        ],
+        "action": "BUY (MEDIUM position)",
+        "timeframe": "days to weeks"
+      },
+      {
+        "rank": 5,
+        "category": "POLITICAL",
+        "confidence": 0.7,
+        "allocation": 44.0,
+        "title": "Bitcoin Surges to $74,000 After President Trump Throws Support Behind Key Crypto Bill - Investopedia",
+        "potential_markets": [
+          "Legislation passage markets",
+          "Political appointment/confirmation markets"
+        ],
+        "action": "BUY (MEDIUM position)",
+        "timeframe": "days to weeks"
+      }
+    ],
+    "recommended_allocations": [
+      {
+        "opportunity": "1. ENERGY_COMMODITIES",
+        "amount": "$44.0",
+        "confidence": "70%",
+        "action": "BUY (MEDIUM position)"
+      },
+      {
+        "opportunity": "2. ENERGY_COMMODITIES",
+        "amount": "$44.0",
+        "confidence": "70%",
+        "action": "BUY (MEDIUM position)"
+      },
+      {
+        "opportunity": "3. POLITICAL",
+        "amount": "$44.0",
+        "confidence": "70%",
+        "action": "BUY (MEDIUM position)"
+      },
+      {
+        "opportunity": "4. POLITICAL",
+        "amount": "$44.0",
+        "confidence": "70%",
+        "action": "BUY (MEDIUM position)"
+      },
+      {
+        "opportunity": "5. POLITICAL",
+        "amount": "$44.0",
+        "confidence": "70%",
+        "action": "BUY (MEDIUM position)"
+      }
+    ]
+  },
+  "top_opportunities": [
+    {
+      "category": "ENERGY_COMMODITIES",
+      "title": "LNG Shipping Rates Soar 650% to $300,000 Per Day - Crude Oil Prices Today | OilPrice.com",
+      "description": "The Iran-related conflict and a halt in Qatari production have caused global LNG shipping rates to surge to $300,000 per day and spot LNG prices to double as traders navigate disruptions in the Middle East and a stalled Strait of Hormuz.",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/LNG-Shipping-Rates-Soar-650-to-300000-Per-Day.html",
+      "source": "OilPrice.com",
+      "published": "2026-03-05T13:10:00Z",
+      "matched_keywords": [
+        "oil",
+        "prices",
+        "crude",
+        "production"
+      ],
+      "confidence": 0.7,
+      "timeframe": "weeks",
+      "potential_kalshi_markets": [
+        "Oil/gas price movement markets",
+        "Energy inventory report markets"
+      ],
+      "recommended_action": "BUY (MEDIUM position)"
+    },
+    {
+      "category": "ENERGY_COMMODITIES",
+      "title": "White House \u2018looking under every rock\u2019 to lower gas prices - Politico",
+      "description": "White House aides and Cabinet officials are coming under intense pressure to reverse the spike in energy prices caused by the start of the war in the Middle East.",
+      "url": "https://www.politico.com/news/2026/03/05/iran-energy-prices-trump-wiles-00813710",
+      "source": "Politico",
+      "published": "2026-03-05T10:00:00Z",
+      "matched_keywords": [
+        "gas",
+        "energy",
+        "prices"
+      ],
+      "confidence": 0.7,
+      "timeframe": "weeks",
+      "potential_kalshi_markets": [
+        "Oil/gas price movement markets",
+        "Energy inventory report markets"
+      ],
+      "recommended_action": "BUY (MEDIUM position)"
+    },
+    {
+      "category": "POLITICAL",
+      "title": "Tesla successfully scared Giga Berlin workers away from union - Electrek",
+      "description": "IG Metall's vote share plunged from 39.4% to 31.1% in Tesla's Giga Berlin works council election after weeks of intimidation, police calls, and Musk expansion threats.",
+      "url": "http://electrek.co/2026/03/04/tesla-giga-berlin-ig-metall-union-vote-collapse/",
+      "source": "Electrek",
+      "published": "2026-03-04T22:33:00Z",
+      "matched_keywords": [
+        "election",
+        "vote"
+      ],
+      "confidence": 0.7,
+      "timeframe": "days to weeks",
+      "potential_kalshi_markets": [
+        "Election outcome markets (state/national)",
+        "Political appointment/confirmation markets"
+      ],
+      "recommended_action": "BUY (MEDIUM position)"
+    },
+    {
+      "category": "POLITICAL",
+      "title": "'That\u2019s Not Winning': Record Numbers of US Workers Are Raiding Their 401(k)s in Trump Economy - Common Dreams",
+      "description": "Record numbers of Americans are dipping into their retirement savings to avoid eviction or pay medical bills, undermining Trump's economic claims.",
+      "url": "https://www.commondreams.org/news/401k-hardship-withdrawals-record",
+      "source": "Common Dreams",
+      "published": "2026-03-04T21:41:53Z",
+      "matched_keywords": [
+        "Trump",
+        "bill"
+      ],
+      "confidence": 0.7,
+      "timeframe": "days to weeks",
+      "potential_kalshi_markets": [
+        "Legislation passage markets",
+        "Political appointment/confirmation markets"
+      ],
+      "recommended_action": "BUY (MEDIUM position)"
+    },
+    {
+      "category": "POLITICAL",
+      "title": "Bitcoin Surges to $74,000 After President Trump Throws Support Behind Key Crypto Bill - Investopedia",
+      "description": "The world's largest cryptocurrency has gained about 8% over the last 24 hours, hitting its highest level in a month.",
+      "url": "https://www.investopedia.com/bitcoin-surges-after-president-trump-throws-support-behind-key-crypto-bill-11919161",
+      "source": "Investopedia",
+      "published": "2026-03-04T20:15:47Z",
+      "matched_keywords": [
+        "Trump",
+        "bill"
+      ],
+      "confidence": 0.7,
+      "timeframe": "days to weeks",
+      "potential_kalshi_markets": [
+        "Legislation passage markets",
+        "Political appointment/confirmation markets"
+      ],
+      "recommended_action": "BUY (MEDIUM position)"
+    }
+  ]
+}

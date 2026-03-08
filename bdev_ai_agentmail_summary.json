@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-03-05T09:53:26.497852",
-  "source_file": "bdev_ai_enriched_20260305_095250.csv",
+  "last_run": "2026-03-06T09:38:12.729020",
+  "source_file": "bdev_ai_enriched_20260306_093746.csv",
   "results": {
     "sent": 0,
     "failed": 7,
@@ -10,23 +10,23 @@
   "account_stats": {
     "Primary": {
       "today_count": 3,
-      "today_date": "2026-03-05",
+      "today_date": "2026-03-06",
       "total_sent": 3,
-      "last_used": "2026-03-05T09:53:25.493749",
+      "last_used": "2026-03-06T09:38:11.716071",
       "errors": 3
     },
     "Secondary": {
       "today_count": 2,
-      "today_date": "2026-03-05",
+      "today_date": "2026-03-06",
       "total_sent": 2,
-      "last_used": "2026-03-05T09:53:23.314744",
+      "last_used": "2026-03-06T09:38:09.542171",
       "errors": 2
     },
     "Backup": {
       "today_count": 2,
-      "today_date": "2026-03-05",
+      "today_date": "2026-03-06",
       "total_sent": 2,
-      "last_used": "2026-03-05T09:53:24.417879",
+      "last_used": "2026-03-06T09:38:10.615195",
       "errors": 2
     }
   }

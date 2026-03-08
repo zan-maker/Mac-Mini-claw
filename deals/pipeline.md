@@ -271,3 +271,108 @@ Tavily/Brave searches find publicly listed businesses (brokers), not true off-ma
 - **Short-term:** Activate Scrapling integration (3-5 days)
 - **Medium-term:** Real-time lead generation (1 week)
 - **Long-term:** Automated deal matching (2 weeks)
+### New Leads - 2026-03-06
+
+- **Established Plumbing Company** (Plumbing)
+  - Score: 100/100 | Off-Market | $1M - $3M
+  - Location: United States
+  - Finder Fee Potential: $120K - $540K
+  
+- **Texas HVAC Company** (HVAC)
+  - Score: 90/100 | Off-Market | $500K - $1M
+  - Location: Texas
+  - Finder Fee Potential: $40K - $180K
+  
+- **40-Year Roofing Company** (Roofing)
+  - Score: 90/100 | Broker | $1M - $3M
+  - Location: United States
+  - Finder Fee Potential: $120K - $540K
+  
+- **Collin County HVAC Company** (HVAC)
+  - Score: 85/100 | Broker | $500K - $1M
+  - Location: Collin County, Texas
+  - Finder Fee Potential: $40K - $180K
+  
+- **Commercial Cleaning Business** (Commercial Cleaning)
+  - Score: 85/100 | Off-Market | $500K - $1M
+  - Location: United States
+  - Finder Fee Potential: $40K - $180K
+  
+- **Established Dental Practice** (Dental)
+  - Score: 85/100 | Off-Market | $500K - $1M
+  - Location: United States
+  - Finder Fee Potential: $40K - $180K
+  
+- **Dental Practice - Transition Ready** (Dental)
+  - Score: 85/100 | Off-Market | $500K - $1M
+  - Location: United States
+  - Finder Fee Potential: $40K - $180K
+  
+- **Waste Management Business** (Waste Management)
+  - Score: 85/100 | Broker | $1M - $3M
+  - Location: Toronto, Canada
+  - Finder Fee Potential: $120K - $540K
+  
+- **Industrial Electrical Contractor** (Electrical)
+  - Score: 80/100 | Broker | $500K - $1M
+  - Location: Canada
+  - Finder Fee Potential: $40K - $180K
+  
+- **Premier Electrical Contractor** (Electrical)
+  - Score: 80/100 | Broker | $500K - $1M
+  - Location: United States
+  - Finder Fee Potential: $40K - $180K
+  
+
+### New Leads - 2026-03-06
+
+- **Established Plumbing Company** (Plumbing)
+  - Score: 100/100 | Off-Market | $1M - $3M
+  - Location: United States
+  - Finder Fee Potential: $120K - $540K
+  
+- **Texas HVAC Company** (HVAC)
+  - Score: 90/100 | Off-Market | $500K - $1M
+  - Location: Texas
+  - Finder Fee Potential: $40K - $180K
+  
+- **40-Year Roofing Company** (Roofing)
+  - Score: 90/100 | Broker | $1M - $3M
+  - Location: United States
+  - Finder Fee Potential: $120K - $540K
+  
+- **Collin County HVAC Company** (HVAC)
+  - Score: 85/100 | Broker | $500K - $1M
+  - Location: Collin County, Texas
+  - Finder Fee Potential: $40K - $180K
+  
+- **Commercial Cleaning Business** (Commercial Cleaning)
+  - Score: 85/100 | Off-Market | $500K - $1M
+  - Location: United States
+  - Finder Fee Potential: $40K - $180K
+  
+- **Established Dental Practice** (Dental)
+  - Score: 85/100 | Off-Market | $500K - $1M
+  - Location: United States
+  - Finder Fee Potential: $40K - $180K
+  
+- **Dental Practice - Transition Ready** (Dental)
+  - Score: 85/100 | Off-Market | $500K - $1M
+  - Location: United States
+  - Finder Fee Potential: $40K - $180K
+  
+- **Waste Management Business** (Waste Management)
+  - Score: 85/100 | Broker | $1M - $3M
+  - Location: Toronto, Canada
+  - Finder Fee Potential: $120K - $540K
+  
+- **Industrial Electrical Contractor** (Electrical)
+  - Score: 80/100 | Broker | $500K - $1M
+  - Location: Canada
+  - Finder Fee Potential: $40K - $180K
+  
+- **Premier Electrical Contractor** (Electrical)
+  - Score: 80/100 | Broker | $500K - $1M
+  - Location: United States
+  - Finder Fee Potential: $40K - $180K
+  

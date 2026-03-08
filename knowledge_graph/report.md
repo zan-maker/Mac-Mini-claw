@@ -1,14 +1,14 @@
 # Kalshi Knowledge Graph Report
-*Generated: 2026-03-05 18:23:53*
+*Generated: 2026-03-06 08:00:00*
 
 ## 📊 Summary
-- Total Trades: 12
-- Total Catalysts: 8
+- Total Trades: 15
+- Total Catalysts: 10
 - Discovered Patterns: 3
 
 ## 🏆 Successful Trades
-- Successful Trades: 4
-- Total Profit: $352.00
+- Successful Trades: 5
+- Total Profit: $440.00
 - Average Return: 352%
 
 ### Top Performers
@@ -33,17 +33,29 @@
 ## 🔍 Discovered Patterns
 ### High Success Market
 politics markets have 100% success rate
-*Confidence: Based on 4 samples*
+*Confidence: Based on 5 samples*
 
 ### Effective Catalyst
 Catalyst 'Political uncertainty' leads to 100% win rate
-*Confidence: Based on 4 samples*
+*Confidence: Based on 5 samples*
 
 ### Effective Catalyst
 Catalyst 'Election volatility' leads to 100% win rate
-*Confidence: Based on 4 samples*
+*Confidence: Based on 5 samples*
 
 ## ⚡ Recent Catalysts (Last 3 Days)
+### Iran drone strikes on Amazon data centers...
+- Category: geopolitical
+- Impact: high
+- Direction: bullish
+- Affects: energy
+
+### Fed rate pause odds near 95%...
+- Category: economics
+- Impact: medium
+- Direction: neutral
+- Affects: economics
+
 ### Iran drone strikes on Amazon data centers...
 - Category: geopolitical
 - Impact: high

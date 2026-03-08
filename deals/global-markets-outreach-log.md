@@ -120,3 +120,24 @@
 
 ---
 
+## Outreach Batch - 2026-03-06 10:01:20
+
+### Summary
+- **Total Attempted:** 10
+- **Sent Successfully:** 10
+- **Failed:** 0
+
+### Details
+- ✅ **Michael Rudy** (Mast-Jägermeister US, Inc.) - mrudy@mastjagermeisterus.com
+- ✅ **Lorin Gu** (Recharge Capital) - lorin@rechargecapital.com
+- ✅ **Eunjoo Lee** (Hawkeye Partners LP) - elee@hawkeyepartners.com
+- ✅ **Joe McDurmont, CPA** (Formation Capital) - jmcdurmont@formationcapital.com
+- ✅ **Leila Kotlar-Bouget** (CdR Capital) - l.kotlar-bouget@cdr-capital.com
+- ✅ **Yvette Robbins** (Vallejo Investments, Inc.) - yrobbins@ifalstaff.com
+- ✅ **Katie Kezele** (Cypress Ascendant Holdings, LLC.) - katie@cypress-ascendant.com
+- ✅ **Cameron Dickerson** (Aurélien Capital Partners) - cameron@aureliencapitalpartners.com
+- ✅ **Adrian Janser** (Horizon21 AG) - adrian.janser@horizon21.com
+- ✅ **Mario Graf** (Whitehole) - mario.graf@whitehole.es
+
+---
+

@@ -1,5 +1,5 @@
 {
-  "name": "Bdev.ai Complete Pipeline (AI + AgentMail)",
+  "name": "Bdev.ai Complete Pipeline (AI + Gmail)",
   "schedule": {
     "kind": "cron",
     "expr": "15 9 * * *",
@@ -8,7 +8,7 @@
   "sessionTarget": "isolated",
   "payload": {
     "kind": "agentTurn",
-    "message": "Run complete Bdev.ai pipeline: 1. Generate AI messages for 50 investors, 2. Send via AgentMail, 3. Create summary report. Use the script at /Users/cubiczan/.openclaw/workspace/bdev_ai_complete_pipeline.sh",
+    "message": "Run complete Bdev.ai pipeline: 1. Generate AI messages for 50 investors, 2. Send via Gmail SMTP (replaces failing AgentMail), 3. Create summary report. Use the script at /Users/cubiczan/.openclaw/workspace/bdev_ai_gmail_pipeline.sh",
     "model": "custom-api-deepseek-com/deepseek-chat",
     "timeoutSeconds": 600
   },

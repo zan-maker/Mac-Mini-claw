@@ -1,0 +1,47 @@
+[
+  {
+    "company": "Kindred Hospice",
+    "email": "info@kindredhospice.com",
+    "employees": 95,
+    "savings": 78945.0,
+    "success": true,
+    "timestamp": "2026-03-06T16:02:47.972790",
+    "message_id": "<0100019cc4f5c802-9e61fa0b-e05c-4069-a982-d1b783863603-000000@email.amazonses.com>"
+  },
+  {
+    "company": "AseraCare Hospice",
+    "email": "info@aseracare.com",
+    "employees": 75,
+    "savings": 62325.0,
+    "success": true,
+    "timestamp": "2026-03-06T16:02:48.400614",
+    "message_id": "<0100019cc4f5c994-85cc36ea-5117-4cd0-b198-0a53401751b3-000000@email.amazonses.com>"
+  },
+  {
+    "company": "AccentCare",
+    "email": "info@accentcare.com",
+    "employees": 130,
+    "savings": 108030.0,
+    "success": true,
+    "timestamp": "2026-03-06T16:02:48.830199",
+    "message_id": "<0100019cc4f5cb3a-0004eec4-74a2-4088-9474-0f7232108d15-000000@email.amazonses.com>"
+  },
+  {
+    "company": "Home Instead Senior Care",
+    "email": "info@homeinstead.com",
+    "employees": 100,
+    "savings": 83100.0,
+    "success": true,
+    "timestamp": "2026-03-06T16:02:49.254506",
+    "message_id": "<0100019cc4f5ccca-900ff823-430e-498f-a59f-ac3f931d9499-000000@email.amazonses.com>"
+  },
+  {
+    "company": "Comfort Keepers",
+    "email": "info@comfortkeepers.com",
+    "employees": 90,
+    "savings": 74790.0,
+    "success": true,
+    "timestamp": "2026-03-06T16:02:49.625042",
+    "message_id": "<0100019cc4f5ce6b-7d949a71-d684-41b5-b724-c62e854c60f0-000000@email.amazonses.com>"
+  }
+]

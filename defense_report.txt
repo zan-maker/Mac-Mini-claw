@@ -1,0 +1,25 @@
+🛡️ **Defense Sector Report (Scrapling-Enhanced)**
+
+## Companies (US/UK/EU)
+- **Identified:** 25
+- **High Priority (70+):** 4
+- **Top 3:**
+  • 10 Fastest Growing Defense Tech Companie... - Score: 78
+  • 10 Fastest Growing Defense Tech Companie... - Score: 76
+  • List of Defensetech Investors & VC Firms... - Score: 75
+
+## Investors (Asia/India)
+- **PE/VC funds:** 15
+- **Defense-focused:** 0
+- **Top 3:**
+  • Japan's Terra Drone lands $70M Series B ... - Score: 44
+  • Investors Actively Fund Military Technol... - Score: 44
+  • A New Era of Investment Synergies Betwee... - Score: 43
+
+🔍 **Data Source:**
+- Scrapling Used: ❌ No
+- Scrapling Results: 0
+- Traditional API Results: 40
+- Processing Time: 24.2 seconds
+
+📊 Files saved to `/workspace/defense-leads/`

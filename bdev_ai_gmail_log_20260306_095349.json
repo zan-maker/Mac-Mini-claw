@@ -1,0 +1,389 @@
+{
+  "timestamp": "2026-03-06T09:53:49.711662",
+  "source_file": "/Users/cubiczan/.openclaw/workspace/bdev_ai_enriched_20260306_093746.csv",
+  "results": {
+    "total": 50,
+    "sent": 7,
+    "failed": 0,
+    "skipped": 43,
+    "details": [
+      {
+        "index": 0,
+        "contact": "Unknown",
+        "email": "mrudman@13fc.com",
+        "account": "Primary",
+        "status": "sent",
+        "error": null,
+        "timestamp": "2026-03-06T09:53:40.269145"
+      },
+      {
+        "index": 1,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 2,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 3,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 4,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 5,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 6,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 7,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 8,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 9,
+        "contact": "Unknown",
+        "email": "shivendra.pandey@accern.com",
+        "account": "Primary",
+        "status": "sent",
+        "error": null,
+        "timestamp": "2026-03-06T09:53:41.689106"
+      },
+      {
+        "index": 10,
+        "contact": "Unknown",
+        "email": "shivendra.pandey@accern.com",
+        "account": "Primary",
+        "status": "sent",
+        "error": null,
+        "timestamp": "2026-03-06T09:53:44.782875"
+      },
+      {
+        "index": 11,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 12,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 13,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 14,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 15,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 16,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 17,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 18,
+        "contact": "Unknown",
+        "email": "aamir@adivo.me",
+        "account": "Primary",
+        "status": "sent",
+        "error": null,
+        "timestamp": "2026-03-06T09:53:45.878611"
+      },
+      {
+        "index": 19,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 20,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 21,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 22,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 23,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 24,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 25,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 26,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 27,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 28,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 29,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 30,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 31,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 32,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 33,
+        "contact": "Unknown",
+        "email": "jeffrey.silverman@agmanpartners.com",
+        "account": "Primary",
+        "status": "sent",
+        "error": null,
+        "timestamp": "2026-03-06T09:53:47.169259"
+      },
+      {
+        "index": 34,
+        "contact": "Unknown",
+        "email": "jeffrey.silverman@agmanpartners.com",
+        "account": "Primary",
+        "status": "sent",
+        "error": null,
+        "timestamp": "2026-03-06T09:53:48.435496"
+      },
+      {
+        "index": 35,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 36,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 37,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 38,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 39,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 40,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 41,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 42,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 43,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 44,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 45,
+        "contact": "Unknown",
+        "email": "bradley.olmstead@alamomanhattan.com",
+        "account": "Primary",
+        "status": "sent",
+        "error": null,
+        "timestamp": "2026-03-06T09:53:49.710677"
+      },
+      {
+        "index": 46,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 47,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 48,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      },
+      {
+        "index": 49,
+        "contact": "Unknown",
+        "email": "nan",
+        "status": "skipped",
+        "reason": "Invalid email"
+      }
+    ]
+  },
+  "account_usage": {
+    "Primary": {
+      "today_count": 7,
+      "today_date": "2026-03-06",
+      "total_sent": 7,
+      "last_used": "2026-03-06T09:53:49.710697",
+      "errors": 0
+    }
+  },
+  "config": {
+    "rotation_strategy": "round_robin",
+    "daily_total_limit": 500
+  }
+}

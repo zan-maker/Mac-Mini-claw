@@ -1,0 +1,42 @@
+[
+  {
+    "company": "Summit Healthcare Solutions",
+    "email": "smitchell@summithealthcare.com",
+    "employees": 95,
+    "savings": 78945.0,
+    "message_id": "<0100019cc38fa8f8-912608b2-bad4-4ec7-b8ac-a0fe65a9a61f-000000@email.amazonses.com>",
+    "success": true
+  },
+  {
+    "company": "Pine Ridge Senior Living",
+    "email": "mchen@pineridgesenior.com",
+    "employees": 110,
+    "savings": 91410.0,
+    "message_id": "<0100019cc38faafa-23792a7f-6446-42c2-9325-61a7bebbc94b-000000@email.amazonses.com>",
+    "success": true
+  },
+  {
+    "company": "Valley Medical Transport",
+    "email": "jlopez@valleymedtransport.com",
+    "employees": 65,
+    "savings": 54015.0,
+    "message_id": "<0100019cc38fac48-8ee074d2-a89a-4a75-a871-d1b37927e53b-000000@email.amazonses.com>",
+    "success": true
+  },
+  {
+    "company": "Mountain West Manufacturing",
+    "email": "rthompson@mountainwestmfg.com",
+    "employees": 180,
+    "savings": 149580.0,
+    "message_id": "<0100019cc38fadde-9c813a55-fb30-4f28-8b27-374377acd648-000000@email.amazonses.com>",
+    "success": true
+  },
+  {
+    "company": "Grandview Hospitality Group",
+    "email": "awhite@grandviewhospitality.com",
+    "employees": 220,
+    "savings": 182820.0,
+    "message_id": "<0100019cc38fafb6-6426c27c-6aa3-47fd-baf0-3c09f59e044d-000000@email.amazonses.com>",
+    "success": true
+  }
+]

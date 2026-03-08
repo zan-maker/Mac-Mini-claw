@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-03-06T15:25:24.845242",
+  "available_capital": 220,
+  "total_to_deploy": 220.0,
+  "trades": [
+    {
+      "id": "trade_01",
+      "category": "ENERGY_COMMODITIES",
+      "allocation": 44.0,
+      "confidence": 0.7,
+      "news_title": "LNG Shipping Rates Soar 650% to $300,000 Per Day - Crude Oil Prices Today | OilPrice.com",
+      "suggested_markets": [
+        "Will the average US gas price be above $3.50 on March 31?",
+        "Will WTI crude oil close above $80 this week?",
+        "Will the EIA report show crude inventory draw this week?"
+      ],
+      "recommended_action": "BUY YES",
+      "timeframe": "weeks",
+      "risk_level": "MEDIUM",
+      "notes": "Based on news: LNG Shipping Rates Soar 650% to $300,000 Per Day - Crude Oil Prices Today | OilPrice.com..."
+    },
+    {
+      "id": "trade_02",
+      "category": "ENERGY_COMMODITIES",
+      "allocation": 44.0,
+      "confidence": 0.7,
+      "news_title": "White House \u2018looking under every rock\u2019 to lower gas prices - Politico",
+      "suggested_markets": [
+        "Will the average US gas price be above $3.50 on March 31?",
+        "Will WTI crude oil close above $80 this week?",
+        "Will the EIA report show crude inventory draw this week?"
+      ],
+      "recommended_action": "BUY YES",
+      "timeframe": "weeks",
+      "risk_level": "MEDIUM",
+      "notes": "Based on news: White House \u2018looking under every rock\u2019 to lower gas prices - Politico..."
+    },
+    {
+      "id": "trade_03",
+      "category": "POLITICAL",
+      "allocation": 44.0,
+      "confidence": 0.7,
+      "news_title": "Tesla successfully scared Giga Berlin workers away from union - Electrek",
+      "suggested_markets": [
+        "Will the crypto regulation bill pass Congress this month?",
+        "Will Trump's approval rating be above 45% in next poll?",
+        "Will the Supreme Court rule on [specific case] by end of month?"
+      ],
+      "recommended_action": "BUY YES",
+      "timeframe": "days to weeks",
+      "risk_level": "MEDIUM",
+      "notes": "Based on news: Tesla successfully scared Giga Berlin workers away from union - Electrek..."
+    },
+    {
+      "id": "trade_04",
+      "category": "POLITICAL",
+      "allocation": 44.0,
+      "confidence": 0.7,
+      "news_title": "'That\u2019s Not Winning': Record Numbers of US Workers Are Raiding Their 401(k)s in Trump Economy - Comm...",
+      "suggested_markets": [
+        "Will the crypto regulation bill pass Congress this month?",
+        "Will Trump's approval rating be above 45% in next poll?",
+        "Will the Supreme Court rule on [specific case] by end of month?"
+      ],
+      "recommended_action": "BUY YES",
+      "timeframe": "days to weeks",
+      "risk_level": "MEDIUM",
+      "notes": "Based on news: 'That\u2019s Not Winning': Record Numbers of US Workers Are Raiding Their 401(k)s in Trump Economy - Comm..."
+    },
+    {
+      "id": "trade_05",
+      "category": "POLITICAL",
+      "allocation": 44.0,
+      "confidence": 0.7,
+      "news_title": "Bitcoin Surges to $74,000 After President Trump Throws Support Behind Key Crypto Bill - Investopedia",
+      "suggested_markets": [
+        "Will the crypto regulation bill pass Congress this month?",
+        "Will Trump's approval rating be above 45% in next poll?",
+        "Will the Supreme Court rule on [specific case] by end of month?"
+      ],
+      "recommended_action": "BUY YES",
+      "timeframe": "days to weeks",
+      "risk_level": "MEDIUM",
+      "notes": "Based on news: Bitcoin Surges to $74,000 After President Trump Throws Support Behind Key Crypto Bill - Investopedia..."
+    }
+  ]
+}

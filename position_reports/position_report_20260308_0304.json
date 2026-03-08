@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-03-08T03:04:09.524578",
+  "summary": {
+    "total_invested": 150,
+    "profitable_count": 3,
+    "at_risk_count": 2,
+    "max_potential_return": 640.25
+  },
+  "positions": [
+    {
+      "name": "Copper Position 1",
+      "market": "Copper Mar 2025",
+      "target": "$5.69-5.74",
+      "current": 5.84,
+      "invested": 25,
+      "max_return": 335,
+      "multiplier": 13.4,
+      "settlement": "2025-03-31",
+      "status": "profitable",
+      "margin": 0.1,
+      "margin_pct": 2.72,
+      "days_to_settlement": -343,
+      "urgency": "urgent"
+    },
+    {
+      "name": "Copper Position 2",
+      "market": "Copper Mar 2025",
+      "target": "$5.63-5.68",
+      "current": 5.84,
+      "invested": 25,
+      "max_return": 213.75,
+      "multiplier": 8.55,
+      "settlement": "2025-03-31",
+      "status": "profitable",
+      "margin": 0.16,
+      "margin_pct": 3.81,
+      "days_to_settlement": -343,
+      "urgency": "urgent"
+    },
+    {
+      "name": "Silver Position 1",
+      "market": "Silver Weekly",
+      "target": "Above $84.49",
+      "current": 84.46,
+      "invested": 25,
+      "max_return": 44,
+      "multiplier": 1.76,
+      "settlement": "2026-03-13",
+      "status": "at_risk",
+      "margin": -0.03,
+      "margin_pct": -0.04,
+      "days_to_settlement": 4,
+      "urgency": "soon"
+    },
+    {
+      "name": "Silver Position 2",
+      "market": "Silver Weekly",
+      "target": "Above $85.49",
+      "current": 84.46,
+      "invested": 25,
+      "max_return": 47.5,
+      "multiplier": 1.9,
+      "settlement": "2026-03-13",
+      "status": "at_risk",
+      "margin": -1.03,
+      "margin_pct": -1.22,
+      "days_to_settlement": 4,
+      "urgency": "soon"
+    },
+    {
+      "name": "Gold Position",
+      "market": "Gold Weekly",
+      "target": "Above $5,159",
+      "current": 5172,
+      "invested": 50,
+      "max_return": null,
+      "multiplier": null,
+      "settlement": "2026-03-13",
+      "status": "profitable",
+      "margin": 13,
+      "margin_pct": 0.25,
+      "days_to_settlement": 4,
+      "urgency": "soon"
+    }
+  ]
+}

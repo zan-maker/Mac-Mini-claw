@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-03-06T22:09:56.755569",
+  "test_orders": [
+    {
+      "test_order": true,
+      "timestamp": "2026-03-06T22:09:56.754994",
+      "metal": "gold",
+      "market": "GOLD-WEEKEND-ABOVE",
+      "direction": "YES",
+      "size": 25.0,
+      "current_price": 2185.5,
+      "target_price": 2217.21,
+      "probability": 0.8,
+      "order_id": "TEST-GOLD-20260306"
+    },
+    {
+      "test_order": true,
+      "timestamp": "2026-03-06T22:09:56.755022",
+      "metal": "silver",
+      "market": "SILVER-WEEKEND-ABOVE",
+      "direction": "YES",
+      "size": 24.85,
+      "current_price": 24.85,
+      "target_price": 25.03,
+      "probability": 0.71,
+      "order_id": "TEST-SILVER-20260306"
+    },
+    {
+      "test_order": true,
+      "timestamp": "2026-03-06T22:09:56.755039",
+      "metal": "copper",
+      "market": "COPPER-WEEKEND-BELOW",
+      "direction": "NO",
+      "size": 24.5,
+      "current_price": 5.79,
+      "target_price": 5.75,
+      "probability": 0.7,
+      "order_id": "TEST-COPPER-20260306"
+    }
+  ],
+  "total_test_size": 74.35
+}

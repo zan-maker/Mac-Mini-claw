@@ -1,0 +1,19 @@
+{
+  "last_run": "2026-03-06T09:53:49.712749",
+  "source_file": "/Users/cubiczan/.openclaw/workspace/bdev_ai_enriched_20260306_093746.csv",
+  "results": {
+    "sent": 7,
+    "failed": 0,
+    "skipped": 43,
+    "total": 50
+  },
+  "account_usage": {
+    "Primary": {
+      "today_count": 7,
+      "today_date": "2026-03-06",
+      "total_sent": 7,
+      "last_used": "2026-03-06T09:53:49.710697",
+      "errors": 0
+    }
+  }
+}

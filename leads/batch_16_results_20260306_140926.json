@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-06T14:09:26.491755",
+  "batch": 16,
+  "sent": 0,
+  "failed": 5,
+  "results": [
+    {
+      "company": "Phoenix Children's Hospital",
+      "status": "failed",
+      "reason": "No email found"
+    },
+    {
+      "company": "Banner Health",
+      "status": "failed",
+      "reason": "No email found"
+    },
+    {
+      "company": "HonorHealth",
+      "status": "failed",
+      "reason": "No email found"
+    },
+    {
+      "company": "Dignity Health",
+      "status": "failed",
+      "reason": "No email found"
+    },
+    {
+      "company": "Valleywise Health",
+      "status": "failed",
+      "reason": "No email found"
+    }
+  ]
+}

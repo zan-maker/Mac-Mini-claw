@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-03-06T22:09:56.755204",
+  "day_of_week": "Friday",
+  "recommendations": [
+    {
+      "metal": "gold",
+      "kalshi_market": "GOLD-WEEKEND-ABOVE",
+      "direction": "YES",
+      "current_price": 2185.5,
+      "target_price": 2217.21,
+      "probability": 0.8,
+      "position_size": 25.0,
+      "timeframe": "weekend",
+      "rationale": "Weekend move: UP 1.45% to above $2217.21"
+    },
+    {
+      "metal": "silver",
+      "kalshi_market": "SILVER-WEEKEND-ABOVE",
+      "direction": "YES",
+      "current_price": 24.85,
+      "target_price": 25.03,
+      "probability": 0.71,
+      "position_size": 24.85,
+      "timeframe": "weekend",
+      "rationale": "Weekend move: UP 0.72% to above $25.03"
+    },
+    {
+      "metal": "copper",
+      "kalshi_market": "COPPER-WEEKEND-BELOW",
+      "direction": "NO",
+      "current_price": 5.79,
+      "target_price": 5.75,
+      "probability": 0.7,
+      "position_size": 24.5,
+      "timeframe": "weekend",
+      "rationale": "Weekend move: DOWN 0.76% to below $5.75"
+    }
+  ],
+  "summary": {
+    "total_recommendations": 3,
+    "total_position_size": 74.35,
+    "metals_analyzed": [
+      "gold",
+      "silver",
+      "copper"
+    ]
+  }
+}

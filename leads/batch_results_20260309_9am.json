@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-03-09T09:29:37.322778",
+  "batch_type": "day4_followup",
+  "sent": 4,
+  "failed": 1,
+  "results": [
+    {
+      "company": "Select Medical",
+      "email": "hr@selectmedical.com",
+      "status": "sent",
+      "message_id": "<0100019cd2c9f083-eb228037-81ea-47fc-a793-30b723b1c947-000000@email.amazonses.com>",
+      "savings": 39057000
+    },
+    {
+      "company": "Molina Healthcare",
+      "email": "hr@molinahealthcare.com",
+      "status": "sent",
+      "message_id": "<0100019cd2c9f240-13791635-aa7d-46fe-a2e4-b4e17373d5a3-000000@email.amazonses.com>",
+      "savings": 12465000
+    },
+    {
+      "company": "Daikin Comfort Technologies",
+      "email": "hr@daikincomfort.com",
+      "status": "failed",
+      "error": "HTTP 403: {\"name\":\"MessageRejectedError\",\"message\":\"Message rejected: Recipient(s) blocked: hr@daikincomfort.com (bounced)\"}",
+      "savings": 4155000
+    },
+    {
+      "company": "Norwex USA",
+      "email": "hr@norwex.com",
+      "status": "sent",
+      "message_id": "<0100019cd2c9f437-0f27c453-bab4-4e21-9289-d84e076f3f6a-000000@email.amazonses.com>",
+      "savings": 332400
+    },
+    {
+      "company": "Royal Case Company",
+      "email": "info@royalcase.com",
+      "status": "sent",
+      "message_id": "<0100019cd2c9f6aa-99cff7e5-a88f-4090-8ea7-9418f9e11433-000000@email.amazonses.com>",
+      "savings": 249300
+    }
+  ]
+}

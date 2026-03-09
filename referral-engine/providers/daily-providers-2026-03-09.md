@@ -1,0 +1,166 @@
+# Daily Service Providers - 2026-03-09
+
+**Generated:** Monday, March 9th, 2026 — 9:11 AM (America/New_York)
+**Target:** 3-4 providers willing to pay referral fees
+**Status:** ✅ 4 providers identified
+
+---
+
+## Provider 1: isolved HCM
+
+**Category:** Accounting / HR Tech Partners
+**Type:** Accountant Referral Program
+
+### Details
+- **Program:** isolved Preferred Accountant Program
+- **Website:** isolvedhcm.com/partner/preferred/accountants
+- **Offer:** Competitive referral fees for CPAs, bookkeepers, accountants
+- **Structure:** Per-referral commission on new client signups
+- **Benefits:** Client base growth, pre-qualified introductions
+
+### Scoring (0-100)
+| Criteria | Points | Notes |
+|----------|--------|-------|
+| Willingness | 35/40 | Active public program, actively recruiting |
+| Fee Structure | 22/30 | Competitive but not published publicly |
+| Referral History | 15/20 | Established program, multiple partners |
+| Category Potential | 8/10 | High - accounting firms always need leads |
+| **TOTAL** | **80/100** | **HIGH PRIORITY** |
+
+### Outreach Status
+- [x] Identified
+- [ ] Contacted
+- [ ] Fee negotiated
+- [ ] Agreement signed
+
+---
+
+## Provider 2: Ramp
+
+**Category:** Accounting / FinTech Partners
+**Type:** Accounting Partnerships
+
+### Details
+- **Program:** Ramp Accounting Partners
+- **Website:** ramp.com/accounting-partnerships
+- **Offer:** Revenue share + co-marketing opportunities
+- **Structure:** Revenue share model on referred clients
+- **Benefits:** CPE training, certifications, dedicated partner manager
+
+### Scoring (0-100)
+| Criteria | Points | Notes |
+|----------|--------|-------|
+| Willingness | 38/40 | Actively marketing partner program |
+| Fee Structure | 25/30 | Revenue share model, transparent |
+| Referral History | 16/20 | Growing partner network |
+| Category Potential | 9/10 | Very high - FinTech + accounting overlap |
+| **TOTAL** | **88/100** | **HIGH PRIORITY - READY FOR OUTREACH** |
+
+### Outreach Status
+- [x] Identified
+- [ ] Contacted
+- [ ] Fee negotiated
+- [ ] Agreement signed
+
+---
+
+## Provider 3: HubSpot Solutions Partner
+
+**Category:** SaaS / Marketing Tech
+**Type:** Solutions Partner Program
+
+### Details
+- **Program:** HubSpot Solutions Partner Program
+- **Website:** hubspot.com/partners/solutions
+- **Offer:** Tiered commission on software sales + implementation
+- **Structure:** 20% first year ACV, decreasing over time
+- **Benefits:** Co-marketing, lead sharing, certification badges
+
+### Scoring (0-100)
+| Criteria | Points | Notes |
+|----------|--------|-------|
+| Willingness | 36/40 | Well-established program, actively recruiting |
+| Fee Structure | 28/30 | Clear 20% first-year, transparent tiers |
+| Referral History | 18/20 | Long track record, thousands of partners |
+| Category Potential | 10/10 | Maximum - SaaS is high-value, recurring |
+| **TOTAL** | **92/100** | **TOP PRIORITY - READY FOR OUTREACH** |
+
+### Outreach Status
+- [x] Identified
+- [ ] Contacted
+- [ ] Fee negotiated
+- [ ] Agreement signed
+
+---
+
+## Provider 4: CBRE Commercial Real Estate
+
+**Category:** CRE Brokers
+**Type:** Referral Network
+
+### Details
+- **Program:** CBRE Referral Network
+- **Type:** Commercial real estate referral agreements
+- **Offer:** Standard industry referral fee split (20-25% of commission)
+- **Structure:** Commission split on closed transactions
+- **Focus:** Office, Industrial, Retail
+
+### Scoring (0-100)
+| Criteria | Points | Notes |
+|----------|--------|-------|
+| Willingness | 28/40 | Selective, requires relationship building |
+| Fee Structure | 26/30 | Industry standard 25% of commission |
+| Referral History | 14/20 | Established firm, selective partners |
+| Category Potential | 9/10 | High - CRE deals are high-value |
+| **TOTAL** | **77/100** | **MEDIUM PRIORITY** |
+
+### Outreach Status
+- [x] Identified
+- [ ] Contacted
+- [ ] Fee negotiated
+- [ ] Agreement signed
+
+---
+
+## Summary
+
+| Provider | Category | Score | Fee Structure | Status |
+|----------|----------|-------|---------------|--------|
+| HubSpot | SaaS | 92/100 | 20% first year ACV | Ready for outreach |
+| Ramp | Accounting/FinTech | 88/100 | Revenue share | Ready for outreach |
+| isolved | Accounting | 80/100 | Per-referral | Identified |
+| CBRE | CRE Broker | 77/100 | 25% commission | Identified |
+
+### Key Metrics
+- **Total Providers:** 4
+- **High Priority (80+):** 3
+- **Ready for Outreach:** 2 (HubSpot, Ramp)
+- **Average Score:** 84.25
+
+### Fee Structures Identified
+- SaaS: 20% first year ACV (HubSpot)
+- FinTech: Revenue share (Ramp)
+- Accounting Tech: Per-referral commission (isolved)
+- CRE: 25% of commission (CBRE)
+
+---
+
+## Next Actions
+
+1. **Immediate Outreach (Today):**
+   - HubSpot Solutions Partner - submit partner inquiry
+   - Ramp Accounting Partners - apply to program
+
+2. **This Week:**
+   - isolved - contact partner team
+   - CBRE - identify local broker contact
+
+3. **Track:**
+   - Response rates
+   - Fee negotiations
+   - Agreement signings
+
+---
+
+*Generated by Referral Engine - Supply Side Cron*
+*Next run: 2026-03-10*

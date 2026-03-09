@@ -1,49 +1,44 @@
-# 💰 Expense Reduction Lead Generation Report
+# 🎯 Expense Reduction Lead Gen Report
 
-**Generated:** 2026-03-04 09:02:38
+**Date:** March 09, 2026
+**Total Leads Generated:** 20
 
-## 📊 Summary
+---
 
-- **Total Leads:** 20
-- **High Priority:** 5 🔥
-- **Medium Priority:** 15
-- **Total Potential Savings:** $4,204,685
+## 📊 Lead Summary
+
+- **High Priority:** 20 leads
+- **Medium Priority:** 0 leads
+- **Total Potential Savings:** $6,334,203
+
+---
 
 ## 🔍 Data Source Report
 
 - **Scrapling Used:** ❌ No
 - **Scrapling Results:** 0 leads
-- **Tavily API Results:** 20 leads
-- **Brave Search Results:** 0 leads
-- **Total Processing Time:** 11.4 seconds
-
-## 🏆 Top 3 Leads Today
-
-**1. Most manufacturers I talk to don't actually have a talent shortage ...**
-• Industry: Manufacturing
-• Employees: ~125
-• Potential Savings: $215,625 - $431,250
-• Score: 70/100 (High Priority)
-• URL: https://www.linkedin.com/posts/paulgasser_manufacturing-operations-engineering-activity-7404926642021810176-6KZv
-
-**2. Chartwell**
-• Industry: Manufacturing
-• Employees: ~125
-• Potential Savings: $215,625 - $431,250
-• Score: 70/100 (High Priority)
-• URL: https://uk.linkedin.com/company/chartwell-consulting
-
-**3. Revamp Your ICP for Better Sales Results**
-• Industry: Manufacturing
-• Employees: ~125
-• Potential Savings: $215,625 - $431,250
-• Score: 70/100 (High Priority)
-• URL: https://www.linkedin.com/posts/johnbarrows_makeithappen-activity-7427369592324526081-59ge
-
-## 📁 Files Updated
-
-- ✅ `/workspace/expense-leads/daily-leads-2026-03-04.md`
-- ✅ `/workspace/expense-leads/pipeline.md`
+- **Traditional API Results:** 30 leads
+- **Processing Time:** 14.5 seconds
 
 ---
-*Powered by Scrapling + OpenClaw* 🐾
+
+## 🏆 Top 3 Leads of the Day
+
+**1. Vitrum** 🔥
+• Industry: Manufacturing
+• Employees: ~114
+• Potential Savings: $196,650 - $393,300
+• Lead Score: 94/100
+
+**2. Medium** 🔥
+• Industry: Financial Services
+• Employees: ~126
+• Potential Savings: $217,350 - $434,700
+• Lead Score: 93/100
+
+**3. Sunwater** 🔥
+• Industry: Technology
+• Employees: ~153
+• Potential Savings: $263,925 - $527,850
+• Lead Score: 93/100
+

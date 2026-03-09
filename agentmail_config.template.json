@@ -1,0 +1,30 @@
+{
+  "agentmail_accounts": [
+    {
+      "name": "Primary",
+      "api_key": "YOUR_AGENTMAIL_API_KEY_HERE",
+      "from_email": "your_email@example.com",
+      "from_name": "Your Name",
+      "daily_limit": 1000,
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Secondary",
+      "api_key": "YOUR_SECONDARY_AGENTMAIL_API_KEY_HERE",
+      "from_email": "secondary@example.com",
+      "from_name": "Secondary Name",
+      "daily_limit": 1000,
+      "priority": 2,
+      "enabled": true
+    }
+  ],
+  "rotation_strategy": "round_robin",
+  "daily_total_limit": 2000,
+  "rate_limit_per_minute": 60,
+  "default_sender": "Your Name",
+  "default_reply_to": "your_email@example.com",
+  "tracking_enabled": true,
+  "bounce_handling": "auto_disable",
+  "unsubscribe_handling": "auto_remove"
+}

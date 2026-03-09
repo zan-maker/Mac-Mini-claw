@@ -1,13 +1,13 @@
 {
   "daily": {
-    "tokens": 197684,
+    "tokens": 233173,
     "timestamp": "2026-03-08",
     "alerts_sent": 0
   },
   "hourly": {
-    "tokens": 14626,
+    "tokens": 6643,
     "timestamp": "2026-03-08 16:00",
     "alerts_sent": 0
   },
-  "last_check": "2026-03-08T16:28:11.843249"
+  "last_check": "2026-03-08T16:44:27.809242"
 }

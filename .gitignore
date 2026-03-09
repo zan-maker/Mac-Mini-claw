@@ -14,3 +14,26 @@ API_KEYS.md
 
 # External repos (git submodules or cloned projects)
 defeatbeta-api/
+
+# SECURITY - NEVER COMMIT
+.env
+.env.*
+*.secret
+*.key
+*.token
+*.password
+credentials*
+config/private/
+secrets/
+
+# SESSION DATA
+*.session
+*.cookie
+*.cache
+
+# LOCAL DATA
+logs/
+data/local/
+temp/
+tmp/
+agentmail_config.json

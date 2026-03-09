@@ -7504,5 +7504,248 @@
     },
     "quiet_hours": false,
     "protocol_version": "1.0"
+  },
+  {
+    "timestamp": "2026-03-08T16:59:34.508970",
+    "compliance_score": 1.0,
+    "checks": {
+      "communication": {
+        "passed": true,
+        "violations": [],
+        "quiet_hours": false,
+        "current_hour": 16
+      },
+      "transparency": {
+        "passed": true,
+        "transparency_rate": 1.0,
+        "recent_decisions": 0,
+        "transparent_decisions": 0,
+        "violations": []
+      },
+      "safety": {
+        "passed": true,
+        "unapproved_actions": 0,
+        "total_actions": 0,
+        "violations": []
+      }
+    },
+    "quiet_hours": false,
+    "protocol_version": "1.0"
+  },
+  {
+    "timestamp": "2026-03-08T17:59:46.716055",
+    "compliance_score": 1.0,
+    "checks": {
+      "communication": {
+        "passed": true,
+        "violations": [],
+        "quiet_hours": false,
+        "current_hour": 17
+      },
+      "transparency": {
+        "passed": true,
+        "transparency_rate": 1.0,
+        "recent_decisions": 0,
+        "transparent_decisions": 0,
+        "violations": []
+      },
+      "safety": {
+        "passed": true,
+        "unapproved_actions": 0,
+        "total_actions": 0,
+        "violations": []
+      }
+    },
+    "quiet_hours": false,
+    "protocol_version": "1.0"
+  },
+  {
+    "timestamp": "2026-03-08T18:59:58.379385",
+    "compliance_score": 1.0,
+    "checks": {
+      "communication": {
+        "passed": true,
+        "violations": [],
+        "quiet_hours": false,
+        "current_hour": 18
+      },
+      "transparency": {
+        "passed": true,
+        "transparency_rate": 1.0,
+        "recent_decisions": 0,
+        "transparent_decisions": 0,
+        "violations": []
+      },
+      "safety": {
+        "passed": true,
+        "unapproved_actions": 0,
+        "total_actions": 0,
+        "violations": []
+      }
+    },
+    "quiet_hours": false,
+    "protocol_version": "1.0"
+  },
+  {
+    "timestamp": "2026-03-08T20:00:13.270902",
+    "compliance_score": 1.0,
+    "checks": {
+      "communication": {
+        "passed": true,
+        "violations": [],
+        "quiet_hours": false,
+        "current_hour": 20
+      },
+      "transparency": {
+        "passed": true,
+        "transparency_rate": 1.0,
+        "recent_decisions": 0,
+        "transparent_decisions": 0,
+        "violations": []
+      },
+      "safety": {
+        "passed": true,
+        "unapproved_actions": 0,
+        "total_actions": 0,
+        "violations": []
+      }
+    },
+    "quiet_hours": false,
+    "protocol_version": "1.0"
+  },
+  {
+    "timestamp": "2026-03-08T21:00:32.121822",
+    "compliance_score": 1.0,
+    "checks": {
+      "communication": {
+        "passed": true,
+        "violations": [],
+        "quiet_hours": false,
+        "current_hour": 21
+      },
+      "transparency": {
+        "passed": true,
+        "transparency_rate": 1.0,
+        "recent_decisions": 0,
+        "transparent_decisions": 0,
+        "violations": []
+      },
+      "safety": {
+        "passed": true,
+        "unapproved_actions": 0,
+        "total_actions": 0,
+        "violations": []
+      }
+    },
+    "quiet_hours": false,
+    "protocol_version": "1.0"
+  },
+  {
+    "timestamp": "2026-03-08T22:00:58.396695",
+    "compliance_score": 1.0,
+    "checks": {
+      "communication": {
+        "passed": true,
+        "violations": [],
+        "quiet_hours": true,
+        "current_hour": 22
+      },
+      "transparency": {
+        "passed": true,
+        "transparency_rate": 1.0,
+        "recent_decisions": 0,
+        "transparent_decisions": 0,
+        "violations": []
+      },
+      "safety": {
+        "passed": true,
+        "unapproved_actions": 0,
+        "total_actions": 0,
+        "violations": []
+      }
+    },
+    "quiet_hours": true,
+    "protocol_version": "1.0"
+  },
+  {
+    "timestamp": "2026-03-08T23:01:24.885446",
+    "compliance_score": 1.0,
+    "checks": {
+      "communication": {
+        "passed": true,
+        "violations": [],
+        "quiet_hours": true,
+        "current_hour": 23
+      },
+      "transparency": {
+        "passed": true,
+        "transparency_rate": 1.0,
+        "recent_decisions": 0,
+        "transparent_decisions": 0,
+        "violations": []
+      },
+      "safety": {
+        "passed": true,
+        "unapproved_actions": 0,
+        "total_actions": 0,
+        "violations": []
+      }
+    },
+    "quiet_hours": true,
+    "protocol_version": "1.0"
+  },
+  {
+    "timestamp": "2026-03-09T00:02:03.717357",
+    "compliance_score": 1.0,
+    "checks": {
+      "communication": {
+        "passed": true,
+        "violations": [],
+        "quiet_hours": true,
+        "current_hour": 0
+      },
+      "transparency": {
+        "passed": true,
+        "transparency_rate": 1.0,
+        "recent_decisions": 0,
+        "transparent_decisions": 0,
+        "violations": []
+      },
+      "safety": {
+        "passed": true,
+        "unapproved_actions": 0,
+        "total_actions": 0,
+        "violations": []
+      }
+    },
+    "quiet_hours": true,
+    "protocol_version": "1.0"
+  },
+  {
+    "timestamp": "2026-03-09T01:06:22.692488",
+    "compliance_score": 1.0,
+    "checks": {
+      "communication": {
+        "passed": true,
+        "violations": [],
+        "quiet_hours": true,
+        "current_hour": 1
+      },
+      "transparency": {
+        "passed": true,
+        "transparency_rate": 1.0,
+        "recent_decisions": 0,
+        "transparent_decisions": 0,
+        "violations": []
+      },
+      "safety": {
+        "passed": true,
+        "unapproved_actions": 0,
+        "total_actions": 0,
+        "violations": []
+      }
+    },
+    "quiet_hours": true,
+    "protocol_version": "1.0"
   }
 ]

@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-03-09T14:02:00",
+  "campaign": "expense_reduction",
+  "method": "gmail_smtp_fallback",
+  "day4_followups_sent": ,
+  "day4_followups_failed": ,
+  "initial_emails_sent": 0,
+  "initial_emails_reason": "Today's 20 leads lack verified email addresses - enrichment required",
+  "agentmail_status": "BROKEN - 403 Forbidden on all API keys",
+  "results": [
+    {"company": "Select Medical", "email": "hr@selectmedical.com", "status": "sent"},
+    {"company": "Molina Healthcare", "email": "hr@molinahealthcare.com", "status": "sent"},
+    {"company": "Daikin Comfort Technologies", "email": "hr@daikincomfort.com", "status": "sent"},
+    {"company": "Norwex USA", "email": "hr@norwex.com", "status": "sent"},
+    {"company": "Royal Case Company", "email": "info@royalcase.com", "status": "sent"}
+  ],
+  "total_savings": 56208400
+}

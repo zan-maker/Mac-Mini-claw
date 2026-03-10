@@ -1,0 +1,47 @@
+[
+  {
+    "company": "ProMedica Health System",
+    "email": "hr@promedica.org",
+    "employees": 150,
+    "savings": 124650.0,
+    "success": false,
+    "timestamp": "2026-03-09T16:03:13.851422",
+    "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+  },
+  {
+    "company": "Genesis Healthcare",
+    "email": "hr@genesishcc.com",
+    "employees": 200,
+    "savings": 166200.0,
+    "success": false,
+    "timestamp": "2026-03-09T16:03:13.916566",
+    "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+  },
+  {
+    "company": "Five Star Senior Living",
+    "email": "info@fivestarseniorliving.com",
+    "employees": 120,
+    "savings": 99720.0,
+    "success": false,
+    "timestamp": "2026-03-09T16:03:14.001336",
+    "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+  },
+  {
+    "company": "Brookdale Senior Living",
+    "email": "hr@brookdale.com",
+    "employees": 250,
+    "savings": 207750.0,
+    "success": false,
+    "timestamp": "2026-03-09T16:03:14.046475",
+    "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+  },
+  {
+    "company": "Capstone Logistics",
+    "email": "hr@capstonelogistics.com",
+    "employees": 180,
+    "savings": 149580.0,
+    "success": false,
+    "timestamp": "2026-03-09T16:03:14.090483",
+    "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+  }
+]

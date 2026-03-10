@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-03-09T14:00:01.010956",
+  "campaign": "Wellness 125 Outreach",
+  "email_system": "Gmail SMTP",
+  "from_email": "sam@cubiczan.com",
+  "summary": {
+    "total": 10,
+    "sent": 0,
+    "failed": 0
+  },
+  "details": [
+    {
+      "company": "Unknown",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "company": "Unknown",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "company": "Unknown",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "company": "Unknown",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "company": "Unknown",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "company": "Unknown",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "company": "Unknown",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "company": "Unknown",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "company": "Unknown",
+      "status": "skipped",
+      "reason": "No email address"
+    },
+    {
+      "company": "Unknown",
+      "status": "skipped",
+      "reason": "No email address"
+    }
+  ]
+}

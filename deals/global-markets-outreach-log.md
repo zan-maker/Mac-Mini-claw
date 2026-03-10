@@ -141,3 +141,24 @@
 
 ---
 
+## Outreach Batch - 2026-03-09 10:01:16
+
+### Summary
+- **Total Attempted:** 10
+- **Sent Successfully:** 10
+- **Failed:** 0
+
+### Details
+- ✅ **Burkhard Wittek** (FORUM Family Office) - b.wittek@forumgruppe.de
+- ✅ **James McCrorey** (Gladstone Wealth Partners) - james.mccrorey@gladstonewealth.com
+- ✅ **Genevieve Caldera** (Lance East Office) - genevieve@lanceeast.com.au
+- ✅ **Michael Giammalvo** (Crowe) - michael.giammalvo@crowe.com
+- ✅ **Aljosha Friedländer** (Reichmuth & Co Privatbankiers) - aljosha.friedlaender@reichmuthco.ch
+- ✅ **Robert Curtin** (Corestone Investment Managers AG) - rcurtin@corestone.com
+- ✅ **David Kaufman** (Colony Hills Capital) - david.kaufman@colonyhillscapital.com
+- ✅ **Sam Kohistani** (Soundcore Capital Partners) - skohistani@soundcorecap.com
+- ✅ **Sarah Ingrassia** (Boston Multi Family Office) - singrassia@bostonmfo.com
+- ✅ **Barry Povey** (Fair Oaks Capital) - bpovey@fairoakscap.com
+
+---
+

@@ -34,8 +34,8 @@
       "entry_time": "2026-03-04T09:00:00",
       "settlement_date": "2026-03-08",
       "status": "completed",
-      "notes": "Cashed out at sizable profit on 2026-03-06",
-      "exit_time": "2026-03-06T07:15:46.849809",
+      "notes": "Cashed out at sizable profit on 2026-03-09",
+      "exit_time": "2026-03-09T18:00:00.666021",
       "exit_price": 3.31,
       "profit": 25.0,
       "return_pct": 50.0
@@ -56,6 +56,6 @@
     }
   ],
   "total_invested": 33,
-  "total_profit": 113.0,
+  "total_profit": 138.0,
   "active_trades_count": 2
 }

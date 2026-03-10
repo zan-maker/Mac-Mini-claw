@@ -1,0 +1,47 @@
+[
+  {
+    "company": "ProMedica Health System",
+    "email": "hr@promedica.org",
+    "employees": 150,
+    "savings": 124650.0,
+    "success": true,
+    "timestamp": "2026-03-09T16:03:25.637271",
+    "message_id": "<0100019cd43280cb-719d5248-f085-435a-a70d-14aa90ff4c3d-000000@email.amazonses.com>"
+  },
+  {
+    "company": "Genesis Healthcare",
+    "email": "hr@genesishcc.com",
+    "employees": 200,
+    "savings": 166200.0,
+    "success": true,
+    "timestamp": "2026-03-09T16:03:26.046290",
+    "message_id": "<0100019cd432824c-bbbb291d-8e42-423e-956f-25cbbc414dcc-000000@email.amazonses.com>"
+  },
+  {
+    "company": "Five Star Senior Living",
+    "email": "info@fivestarseniorliving.com",
+    "employees": 120,
+    "savings": 99720.0,
+    "success": true,
+    "timestamp": "2026-03-09T16:03:26.456582",
+    "message_id": "<0100019cd43283ef-523e22b9-5925-4ff1-8e19-dd366f8e4783-000000@email.amazonses.com>"
+  },
+  {
+    "company": "Brookdale Senior Living",
+    "email": "hr@brookdale.com",
+    "employees": 250,
+    "savings": 207750.0,
+    "success": true,
+    "timestamp": "2026-03-09T16:03:26.862960",
+    "message_id": "<0100019cd4328583-c6daf553-21cc-443d-9ec1-2a68ae202bc4-000000@email.amazonses.com>"
+  },
+  {
+    "company": "Capstone Logistics",
+    "email": "hr@capstonelogistics.com",
+    "employees": 180,
+    "savings": 149580.0,
+    "success": true,
+    "timestamp": "2026-03-09T16:03:27.275340",
+    "message_id": "<0100019cd432871b-b637fd4b-4949-4c39-996f-5005a5362254-000000@email.amazonses.com>"
+  }
+]

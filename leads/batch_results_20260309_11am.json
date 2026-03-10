@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-03-09T11:04:09.066817",
+  "batch_type": "day4_followup_batch12",
+  "sent": 2,
+  "failed": 3,
+  "results": [
+    {
+      "company": "Bloomberg LP",
+      "email": "hr@bloomberg.net",
+      "status": "failed",
+      "error": "HTTP 403: {\"name\":\"MessageRejectedError\",\"message\":\"Message rejected: Recipient(s) blocked: hr@bloomberg.net (bounced)\"}",
+      "savings": 1662000
+    },
+    {
+      "company": "Hearst Corporation",
+      "email": "hr@hearst.com",
+      "status": "failed",
+      "error": "HTTP 403: {\"name\":\"MessageRejectedError\",\"message\":\"Message rejected: Recipient(s) blocked: hr@hearst.com (bounced)\"}",
+      "savings": 1839339
+    },
+    {
+      "company": "STO Building Group",
+      "email": "hr@stobuildinggroup.com",
+      "status": "failed",
+      "error": "HTTP 403: {\"name\":\"MessageRejectedError\",\"message\":\"Message rejected: Recipient(s) blocked: hr@stobuildinggroup.com (bounced)\"}",
+      "savings": 438990
+    },
+    {
+      "company": "Standard Industries",
+      "email": "hr@standardindustries.com",
+      "status": "sent",
+      "message_id": "<0100019cd3208022-350499f4-81cf-436f-a7d1-6a64f21d0c49-000000@email.amazonses.com>",
+      "savings": 1662000
+    },
+    {
+      "company": "Horizon Media Inc",
+      "email": "hr@horizonmedia.com",
+      "status": "sent",
+      "message_id": "<0100019cd32081b1-107d89ef-372b-44e7-9bac-c4aa876eefc5-000000@email.amazonses.com>",
+      "savings": 198720
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "timestamp": "2026-03-09T14:16:07.641587",
+    "type": "defense_company",
+    "name": "Harmattan AI",
+    "email": "contact@harmattan.ai",
+    "sector": "AI/Autonomy for Defense Aircraft",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d04424-7a79dae5-4b1a-46c3-b4b2-abd92d6a8f53-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:08.988755",
+    "type": "defense_company",
+    "name": "Castelion",
+    "email": "info@castelion.com",
+    "sector": "Hypersonic Munitions",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d049e9-05a76ad0-d07d-47a8-b2fa-5fa3a42a382d-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:10.348045",
+    "type": "defense_company",
+    "name": "Saronic",
+    "email": "contact@saronic.com",
+    "sector": "Autonomous Surface Vessels (Naval)",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d04f18-a11e1c3f-1b81-4a94-96d8-f4ea12eb957a-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:11.736686",
+    "type": "defense_company",
+    "name": "Chaos Industries",
+    "email": "info@chaosind.com",
+    "sector": "Defense & Critical Infrastructure",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d0546c-e360b99d-5dd7-430c-bef4-53824634abb4-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:13.273185",
+    "type": "defense_company",
+    "name": "Defense Unicorns",
+    "email": "contact@defenseunicorns.com",
+    "sector": "Software Delivery for National Security",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d059d4-ebae73de-5dc2-415c-a7a7-cef93d2b0e97-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:14.707769",
+    "type": "defense_company",
+    "name": "HawkEye 360",
+    "email": "info@he360.com",
+    "sector": "Space-Based Defense/ISR",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d05ff7-d2564bb5-2491-4d27-b09a-b303326525ae-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:16.065447",
+    "type": "defense_company",
+    "name": "Anduril Industries",
+    "email": "contact@anduril.com",
+    "sector": "Defense Tech (Hardware-Intensive)",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d0657b-a9025967-d08a-4925-944e-27638f632c41-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:17.419725",
+    "type": "defense_company",
+    "name": "Digantara",
+    "email": "contact@digantara.com",
+    "sector": "Space Intelligence/Satellite Tracking",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d06ac7-6b13aea3-2060-4a97-a780-4029057273b2-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:18.790636",
+    "type": "defense_company",
+    "name": "Aonic",
+    "email": "info@aonic.com",
+    "sector": "Drone Technology",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d07018-61c6ee8f-06a2-4999-bbb3-03b46d078182-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:20.194587",
+    "type": "defense_company",
+    "name": "RADICL",
+    "email": "contact@radicl.com",
+    "sector": "Cybersecurity for Defense",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d0757b-a459a624-d56c-49f3-bdec-13e2afaadbdd-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:21.638005",
+    "type": "investor",
+    "name": "Maharashtra Defence Fund",
+    "email": "aif@idbicapital.com",
+    "fund_name": "Maharashtra Defence Fund",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d07b14-07572517-6efa-4626-ba22-e3f6cb909713-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:23.103239",
+    "type": "investor",
+    "name": "Kairous Capital",
+    "email": "contact@kairouscapital.com",
+    "fund_name": "Kairous Capital",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d0809d-db5d718a-e7ba-4073-be6c-abcdcf789e4c-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:24.470587",
+    "type": "investor",
+    "name": "XYZ Venture Capital",
+    "email": "invest@xyz.vc",
+    "fund_name": "XYZ Venture Capital",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d0863b-33c68218-bd48-4210-b268-945ff2709e01-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:25.819655",
+    "type": "investor",
+    "name": "Airbus Ventures",
+    "email": "contact@airbusventures.com",
+    "fund_name": "Airbus Ventures",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d08b9b-a0070e31-3dff-4b49-9b5c-b90cfe0eac9a-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  },
+  {
+    "timestamp": "2026-03-09T14:16:27.206052",
+    "type": "investor",
+    "name": "DCVC",
+    "email": "invest@dcvc.com",
+    "fund_name": "DCVC",
+    "result": {
+      "success": true,
+      "message_id": "<0100019cd3d090eb-caac50ff-e334-440a-bfd3-7773a08ad571-000000@email.amazonses.com>",
+      "status": "sent"
+    }
+  }
+]

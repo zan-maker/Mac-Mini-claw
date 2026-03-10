@@ -13,16 +13,16 @@
     },
     "2026-03": {
       "zai_tokens": {
-        "input": 12000000,
-        "output": 4000000
+        "input": 13500000,
+        "output": 4500000
       },
       "xai_tokens": {
-        "input": 1600000,
-        "output": 800000
+        "input": 1800000,
+        "output": 900000
       },
-      "cost_usd": 22.0
+      "cost_usd": 24.75
     }
   },
   "budget": 50,
-  "last_check": "2026-03-08"
+  "last_check": "2026-03-09"
 }

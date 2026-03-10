@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-03-09 10:01:16",
+  "results": [
+    {
+      "investor": "Burkhard Wittek",
+      "email": "b.wittek@forumgruppe.de",
+      "firm": "FORUM Family Office",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-09T10:00:09.927990"
+    },
+    {
+      "investor": "James McCrorey",
+      "email": "james.mccrorey@gladstonewealth.com",
+      "firm": "Gladstone Wealth Partners",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-09T10:00:15.597863"
+    },
+    {
+      "investor": "Genevieve Caldera",
+      "email": "genevieve@lanceeast.com.au",
+      "firm": "Lance East Office",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-09T10:00:22.541316"
+    },
+    {
+      "investor": "Michael Giammalvo",
+      "email": "michael.giammalvo@crowe.com",
+      "firm": "Crowe",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-09T10:00:29.079493"
+    },
+    {
+      "investor": "Aljosha Friedl\u00e4nder",
+      "email": "aljosha.friedlaender@reichmuthco.ch",
+      "firm": "Reichmuth & Co Privatbankiers",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-09T10:00:38.906830"
+    },
+    {
+      "investor": "Robert Curtin",
+      "email": "rcurtin@corestone.com",
+      "firm": "Corestone Investment Managers AG",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-09T10:00:44.228106"
+    },
+    {
+      "investor": "David Kaufman",
+      "email": "david.kaufman@colonyhillscapital.com",
+      "firm": "Colony Hills Capital",
+      "category": "hospitality",
+      "status": "sent",
+      "timestamp": "2026-03-09T10:00:50.068538"
+    },
+    {
+      "investor": "Sam Kohistani",
+      "email": "skohistani@soundcorecap.com",
+      "firm": "Soundcore Capital Partners",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-09T10:00:55.291465"
+    },
+    {
+      "investor": "Sarah Ingrassia",
+      "email": "singrassia@bostonmfo.com",
+      "firm": "Boston Multi Family Office",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-09T10:01:05.735365"
+    },
+    {
+      "investor": "Barry Povey",
+      "email": "bpovey@fairoakscap.com",
+      "firm": "Fair Oaks Capital",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-09T10:01:16.720509"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "sent": 10,
+    "failed": 0
+  }
+}

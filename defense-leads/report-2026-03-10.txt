@@ -1,0 +1,23 @@
+🛡️ **Defense Sector Report (Scrapling-Enhanced)**
+
+## Companies (US/UK/EU)
+- Identified: 24
+- High priority (70+): 0
+- Top 3:
+- Sector Snapshot: Defense Tech Funding Hi - Score: 62
+- Cybersecurity Firm Supporting Defense Co - Score: 59
+- Exclusive-Counter-drone radar firm Chaos - Score: 56
+
+## Investors (Asia/India)
+- PE/VC funds: 20
+- Defense-focused: 5
+- Top 3:
+- Drones in APAC - 2026 Market & Investmen - Score: 59
+- Malaysia's Aonic secures $10M to take ho - Score: 53
+- Singapore's Lighthouse Canton to invest  - Score: 52
+
+🔍 **Data Source:**
+- Scrapling Used: ❌ No
+- Scrapling Results: 0 companies, 0 investors
+- Traditional API Results: 25 companies, 20 investors
+- Processing Time: 15.3 seconds

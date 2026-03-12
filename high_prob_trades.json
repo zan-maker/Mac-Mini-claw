@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-03-10T19:31:32.403460",
+  "available_capital": 14,
+  "high_probability_trades": [
+    {
+      "market": "Gas prices in the US this month > $3.50",
+      "type": "YES",
+      "probability": 85,
+      "position": "$8-12",
+      "edge": "Multiple bullish catalysts + reasonable daily target",
+      "risk_reward": "1:2",
+      "confidence": "High",
+      "action": "ADD to existing position"
+    },
+    {
+      "market": "Math/Knowledge markets (when available)",
+      "type": "YES/NO based on problem",
+      "probability": 80,
+      "position": "$5-10",
+      "edge": "Clear factual answers vs market sentiment",
+      "risk_reward": "1:4",
+      "confidence": "High",
+      "action": "MONITOR for reopening"
+    },
+    {
+      "market": "Texas Senate matchup (Talarico vs. Cornyn)",
+      "type": "BUY (specific side TBD)",
+      "probability": 75,
+      "position": "$10-15",
+      "edge": "100% historical win rate on political uncertainty markets",
+      "risk_reward": "1:3.5",
+      "confidence": "Very High",
+      "action": "NEW position (watch for entry)"
+    },
+    {
+      "market": "Will high temp in Chicago be 45-46\u00b0F on Mar 5, 2026?",
+      "type": "NO",
+      "probability": 60,
+      "position": "$5-8",
+      "edge": "Avg forecast 45.4\u00b0F below target 45.5\u00b0F",
+      "risk_reward": "1:3",
+      "confidence": "Medium",
+      "action": "NEW position"
+    }
+  ],
+  "recommended_allocation": [
+    {
+      "trade": "Gas prices in the US this mont",
+      "amount": 10,
+      "probability": 85
+    },
+    {
+      "trade": "Math/Knowledge markets (when a",
+      "amount": 5,
+      "probability": 80
+    },
+    {
+      "trade": "Texas Senate matchup (Talarico",
+      "amount": 5,
+      "probability": 75
+    }
+  ],
+  "total_allocated": 20,
+  "expected_value": 40.25,
+  "expected_roi": 201.25000000000003
+}

@@ -1,0 +1,51 @@
+contact_name,company,email,sectors,investment_thesis,stage,check_size
+Alex Johnson,Tech Ventures Fund,alex.johnson@techventures.com,Technology,SaaS,Early-stage tech startups,Seed to Series A,$500K-$5M
+Maria Garcia,Real Estate Partners,maria.garcia@realestatepartners.com,Real Estate,Hospitality,Commercial real estate,Growth,$2M-$10M
+David Chen,Growth Capital Inc,david.chen@growthcapital.com,Multiple sectors,Growth-stage companies,Growth,$5M-$20M
+Sarah Williams,Healthcare Ventures,sarah.williams@healthcarevc.com,Healthcare,Biotech,Healthcare innovation,Series A-C,$3M-$15M
+James Wilson,Fintech Focus Fund,james.wilson@fintechfund.com,Financial Technology,Fintech disruption,Early to Growth,$1M-$10M
+Robert Brown,Clean Energy Capital,robert.brown@cleanenergy.com,Clean Energy,Sustainability,Renewable energy tech,Series A-B,$2M-$8M
+Lisa Miller,Consumer Tech Ventures,lisa.miller@consumervc.com,Consumer Tech,E-commerce,Direct-to-consumer brands,Seed-Series B,$500K-$3M
+Michael Davis,Industrial Automation Fund,michael.davis@industrialauto.com,Industrial Tech,Automation,Industry 4.0 solutions,Growth,$3M-$12M
+Jennifer Lee,AI & ML Ventures,jennifer.lee@aimlventures.com,Artificial Intelligence,Machine Learning,AI infrastructure,Seed-Series A,$1M-$5M
+Thomas Clark,Defense Tech Partners,thomas.clark@defensetech.com,Defense Tech,Aerospace,National security tech,Series A-C,$5M-$25M
+Amanda White,AgriTech Innovations,amanda.white@agritech.com,Agriculture Tech,Food Tech,Sustainable agriculture,Seed-Series B,$1M-$7M
+Christopher Hall,Logistics & Supply Chain,chris.hall@logisticsvc.com,Logistics,Supply Chain,Supply chain optimization,Growth,$3M-$15M
+Jessica King,EdTech Ventures,jessica.king@edtech.com,Education Tech,EdTech,Digital learning platforms,Seed-Series A,$500K-$4M
+Daniel Scott,HealthTech Capital,daniel.scott@healthtech.com,Health Tech,Digital Health,Digital health solutions,Series A-C,$2M-$10M
+Olivia Young,Climate Tech Fund,olivia.young@climatetech.com,Climate Tech,Environmental,Sustainability solutions,Seed-Series B,$1M-$8M
+William Harris,Space Tech Ventures,william.harris@spacetech.com,Space Tech,Aerospace,Space infrastructure,Series A-C,$5M-$20M
+Sophia Martinez,Cybersecurity Partners,sophia.martinez@cybersecurity.com,Cybersecurity,Security Tech,Enterprise security,Growth,$3M-$12M
+Benjamin Lewis,Blockchain Capital,benjamin.lewis@blockchain.com,Blockchain,Web3,Decentralized applications,Seed-Series A,$1M-$6M
+Emily Walker,Media & Entertainment,emily.walker@mediavc.com,Media,Entertainment,Content platforms,Growth,$2M-$10M
+Kevin Allen,PropTech Ventures,kevin.allen@proptech.com,Real Estate Tech,PropTech,Real estate innovation,Series A-B,$2M-$8M
+Rachel Green,BioTech Innovations,rachel.green@biotech.com,Biotechnology,Life Sciences,Therapeutic development,Series A-D,$5M-$30M
+Matthew Carter,Robotics Fund,matthew.carter@robotics.com,Robotics,Automation,Industrial robotics,Growth,$3M-$15M
+Ashley Perez,FinTech Growth Capital,ashley.perez@fingrowth.com,Financial Services,FinTech,Financial infrastructure,Series B-C,$5M-$20M
+Joshua Baker,Enterprise SaaS Fund,joshua.baker@enterprisesaas.com,Enterprise Software,SaaS,B2B software solutions,Growth,$3M-$12M
+Megan Turner,Consumer Brands Fund,megan.turner@consumerbrands.com,Consumer Goods,CPG,Consumer packaged goods,Series A-C,$2M-$10M
+Andrew Nelson,Industrial IoT Fund,andrew.nelson@iiot.com,Industrial IoT,Smart Manufacturing,Connected industry,Growth,$3M-$15M
+Samantha Roberts,Digital Health Ventures,samantha.roberts@digitalhealth.com,Digital Health,Telehealth,Remote healthcare,Series A-B,$2M-$8M
+Jonathan Mitchell,Clean Tech Partners,jonathan.mitchell@cleantech.com,Clean Technology,Renewables,Clean energy solutions,Growth,$3M-$12M
+Lauren Phillips,Marketplace Ventures,lauren.phillips@marketplace.com,Marketplaces,E-commerce,Online marketplaces,Series A-C,$2M-$10M
+Ryan Evans,Data & Analytics Fund,ryan.evans@dataanalytics.com,Data Analytics,Big Data,Data infrastructure,Growth,$3M-$15M
+Nicole Foster,HR Tech Capital,nicole.foster@hrtech.com,HR Tech,Workforce,HR technology solutions,Seed-Series B,$1M-$6M
+Brandon Reed,Legal Tech Ventures,brandon.reed@legaltech.com,Legal Tech,Legal Services,Legal technology,Series A-B,$2M-$8M
+Kayla Morgan,Travel Tech Fund,kayla.morgan@traveltech.com,Travel Tech,Hospitality,Travel technology,Growth,$3M-$12M
+Tyler Bell,Maritime Tech Ventures,tyler.bell@maritime.com,Maritime Tech,Shipping,Maritime innovation,Series A-C,$3M-$15M
+Hannah Cook,Food Tech Capital,hannah.cook@foodtech.com,Food Tech,Alternative Protein,Sustainable food,Seed-Series B,$1M-$7M
+Dylan Ward,Construction Tech Fund,dylan.ward@contech.com,Construction Tech,Proptech,Construction innovation,Growth,$3M-$12M
+Victoria Brooks,Beauty Tech Ventures,victoria.brooks@beautytech.com,Beauty Tech,Personal Care,Beauty technology,Series A-B,$2M-$8M
+Zachary Hayes,Gaming & Esports,zachary.hayes@gamingvc.com,Gaming,Esports,Gaming platforms,Growth,$3M-$15M
+Julia Bennett,Wellness Tech Fund,julia.bennett@wellnesstech.com,Wellness Tech,Fitness,Wellness technology,Seed-Series A,$1M-$5M
+Ethan Cooper,Autonomous Vehicles,ethan.cooper@autonomous.com,Autonomous Vehicles,Mobility,Self-driving technology,Series B-D,$10M-$50M
+Molly Richardson,Sports Tech Capital,molly.richardson@sportstech.com,Sports Tech,Fitness,Sports technology,Growth,$3M-$12M
+Caleb Peterson,Quantum Computing,caleb.peterson@quantum.com,Quantum Computing,Advanced Computing,Quantum technology,Series A-C,$5M-$25M
+Alyssa Hughes,NeuroTech Ventures,alyssa.hughes@neurotech.com,Neurotechnology,Brain-Computer Interface,Neural interfaces,Series A-B,$3M-$15M
+Nathan Foster,3D Printing Fund,nathan.foster@3dprinting.com,3D Printing,Additive Manufacturing,Advanced manufacturing,Growth,$3M-$12M
+Isabella Gray,Smart Cities Fund,isabella.gray@smartcities.com,Smart Cities,Urban Tech,Urban technology solutions,Series A-C,$3M-$15M
+Lucas Rivera,Drone Technology,lucas.rivera@dronetech.com,Drone Tech,Aerial Systems,Drone applications,Growth,$2M-$10M
+Chloe Price,Wearable Tech Fund,chloe.price@wearable.com,Wearable Tech,Health Monitoring,Wearable devices,Seed-Series B,$1M-$6M
+Gabriel Simmons,Audio Tech Ventures,gabriel.simmons@audio.com,Audio Tech,Music,Audio technology,Series A-B,$2M-$8M
+Madison Collins,Nanotechnology Fund,madison.collins@nano.com,Nanotechnology,Materials,Nanoscale engineering,Series A-C,$5M-$20M
+Jackson Reed,Smart Home Capital,jackson.reed@smarthome.com,Smart Home,IoT,Home automation,Growth,$3M-$12M

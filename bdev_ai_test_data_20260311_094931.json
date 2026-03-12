@@ -1,0 +1,52 @@
+{
+  "pipeline_start": "2026-03-11T09:49:31.436411",
+  "ai_generation": {
+    "status": "success",
+    "messages_generated": 10,
+    "output_file": "/Users/cubiczan/.openclaw/workspace/test_ai_messages_20260311_094931.csv",
+    "timestamp": "2026-03-11T09:49:31.448314"
+  },
+  "agentmail_sending": {
+    "total_accounts": 3,
+    "api_tests": {
+      "Primary": false,
+      "Secondary": false,
+      "Backup": false
+    },
+    "email_tests": {},
+    "working_accounts": 0
+  },
+  "account_usage": {
+    "Primary": {
+      "today_count": 0,
+      "today_date": "2026-03-11",
+      "total_sent": 0,
+      "last_used": null,
+      "errors": 0,
+      "daily_limit": 1000
+    },
+    "Secondary": {
+      "today_count": 0,
+      "today_date": "2026-03-11",
+      "total_sent": 0,
+      "last_used": null,
+      "errors": 0,
+      "daily_limit": 1000
+    },
+    "Backup": {
+      "today_count": 0,
+      "today_date": "2026-03-11",
+      "total_sent": 0,
+      "last_used": null,
+      "errors": 0,
+      "daily_limit": 1000
+    }
+  },
+  "files_created": [
+    {
+      "type": "ai_messages",
+      "path": "/Users/cubiczan/.openclaw/workspace/test_ai_messages_20260311_094931.csv",
+      "size": 7341
+    }
+  ]
+}

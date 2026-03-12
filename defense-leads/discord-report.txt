@@ -1,0 +1,26 @@
+🛡️ **Defense Sector Report (Scrapling-Enhanced)**
+
+## Companies (US/UK/EU)
+• Identified: 10
+• High priority (70+): 0
+• Top 3:
+• Top Companies List of Space Cy - Score: 24
+• Space entrepreneurs see defens - Score: 23
+• Cybersecurity Firm Supporting  - Score: 20
+
+## Investors (Asia/India)
+• PE/VC funds: 5
+• Defense-focused: 0
+• Top 3:
+• Aerospace, Maritime and Defens - Other - Score: 33
+• Aerospace, Maritime and Defens - Other - Score: 30
+• Defense Industrial Ecosystems  - Other - Score: 25
+
+🔍 **Data Source:**
+• Scrapling Used: ❌ No
+• Scrapling Results: 0
+• Traditional API Results: 49
+• Processing Time: 26.5 seconds
+
+---
+📁 Full reports saved to `/workspace/defense-leads/`

@@ -162,3 +162,45 @@
 
 ---
 
+## Outreach Batch - 2026-03-10 10:14:04
+
+### Summary
+- **Total Attempted:** 10
+- **Sent Successfully:** 10
+- **Failed:** 0
+
+### Details
+- ✅ **Loic Comolli** (The Schmidt Family Foundation) - lcomolli@theschmidt.org
+- ✅ **Kevin Mindell** (KCM Acquisitions) - kmindell@kcmacquisitions.com
+- ✅ **Glay Collier** (McBride) - c.glay@mcbride.co.uk
+- ✅ **Valerija Đurđević** (NAD Capital) - valerija@nadcapital.com
+- ✅ **Ed Miller** (The Joyce Foundation) - emiller@joycefdn.org
+- ✅ **Sam Levine** (Bagnols Family Office Investment Partners) - slevine@bagnolsfo.com
+- ✅ **William McBride** (Capeo Wealth AG) - william.mcbride@credit-suisse.com
+- ✅ **Renee L.** (Alpha Square Group) - renee.li@alphasquaregroup.com
+- ✅ **Rajeev Kotyan** (Innovative Advisory Group) - rajeev@innovativewealth.com
+- ✅ **Austin Dekle** (Barber & Associates, Inc.) - austin.dekle@boarshead.com
+
+---
+
+## Outreach Batch - 2026-03-11 10:01:20
+
+### Summary
+- **Total Attempted:** 10
+- **Sent Successfully:** 10
+- **Failed:** 0
+
+### Details
+- ✅ **Amir Madeson** (OasisGroup) - madeson@oasisgroup.io
+- ✅ **Brendan Corcoran** (Valence8) - bcorcoran@alphaflying.com
+- ✅ **Edward Lee** (Schroders) - edward.lee@schroders.com
+- ✅ **Brian Lovett** (Cameron Holdings) - blovett@cameron-holdings.com
+- ✅ **Lance Allen** (GEORGE CAPITAL LLP) - lanceallen@georgecapital.co.uk
+- ✅ **Audrey Westfall** (Oakwell Private Wealth Management LLC) - awestfall@oakwellpwm.com
+- ✅ **Bennett Fitch** (Noria Corporation) - jimf@lubecouncil.org
+- ✅ **Sarita Sood** (Seronera Capital Partners Ltd) - sarita.sood@seroneracapitalpartners.com
+- ✅ **Carolyn Raden** (Kovitz) - craden@kovitz.com
+- ✅ **James Art, CPA** (JOHNSON VENTURES LIMITED) - james.art@johnsonventures.com
+
+---
+

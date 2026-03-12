@@ -1,0 +1,16 @@
+{
+    "provider": "google-cloud-firestore",
+    "project_id": "project-651348c0-d39f-4cd5-b8a",
+    "method": "application_default_credentials",
+    "api_key": "AIzaSyAPGN8lp5wK50s1IiRTJTeY9Hkr2Kdt5QU",
+    "free_tier": {
+        "storage_gb": 1,
+        "reads_per_day": 50000,
+        "writes_per_day": 20000,
+        "deletes_per_day": 20000
+    },
+    "replaces": "Supabase (saves $50/month)",
+    "configured_at": "2026-03-11T22:31:46-04:00",
+    "status": "ready_for_authentication",
+    "next_step": "Run: gcloud auth application-default login"
+}

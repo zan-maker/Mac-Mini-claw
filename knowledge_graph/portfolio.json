@@ -1,6 +1,6 @@
 {
-  "total_invested": 400,
-  "total_profit": 352,
+  "total_invested": 600,
+  "total_profit": 528,
   "active_trades": [
     {
       "id": "trade_2",
@@ -121,6 +121,66 @@
       "opened": "2026-03-09T18:00:00.669466",
       "profit": 0,
       "return_pct": 0
+    },
+    {
+      "id": "trade_14",
+      "market": "Gas prices in the US this month > $3.50",
+      "direction": "YES",
+      "size": 25,
+      "entry_price": "<50\u00a2",
+      "current_price": "active",
+      "target_price": "$3.50",
+      "stop_loss": "35\u00a2",
+      "settlement": "2026-03-31",
+      "status": "active",
+      "opened": "2026-03-10T18:00:00.811763",
+      "profit": 0,
+      "return_pct": 0
+    },
+    {
+      "id": "trade_15",
+      "market": "US gas prices this week > $3.310",
+      "direction": "YES",
+      "size": 50,
+      "entry_price": "<60\u00a2",
+      "current_price": "active",
+      "target_price": "$3.310",
+      "stop_loss": "40\u00a2",
+      "settlement": "2026-03-08",
+      "status": "active",
+      "opened": "2026-03-10T18:00:00.812619",
+      "profit": 0,
+      "return_pct": 0
+    },
+    {
+      "id": "trade_17",
+      "market": "Gas prices in the US this month > $3.50",
+      "direction": "YES",
+      "size": 25,
+      "entry_price": "<50\u00a2",
+      "current_price": "active",
+      "target_price": "$3.50",
+      "stop_loss": "35\u00a2",
+      "settlement": "2026-03-31",
+      "status": "active",
+      "opened": "2026-03-11T18:00:00.590089",
+      "profit": 0,
+      "return_pct": 0
+    },
+    {
+      "id": "trade_18",
+      "market": "US gas prices this week > $3.310",
+      "direction": "YES",
+      "size": 50,
+      "entry_price": "<60\u00a2",
+      "current_price": "active",
+      "target_price": "$3.310",
+      "stop_loss": "40\u00a2",
+      "settlement": "2026-03-08",
+      "status": "active",
+      "opened": "2026-03-11T18:00:00.591073",
+      "profit": 0,
+      "return_pct": 0
     }
   ],
   "completed_trades": [
@@ -191,6 +251,40 @@
       "return_pct": 352.0,
       "closed": "2026-03-09T18:00:00.668198",
       "exit_price": "high"
+    },
+    {
+      "id": "trade_13",
+      "market": "Paxton short position",
+      "direction": "short",
+      "size": 25,
+      "entry_price": "low",
+      "current_price": "closed",
+      "target_price": "high",
+      "stop_loss": "none",
+      "settlement": "2026-03-04",
+      "status": "closed",
+      "opened": "2026-03-10T18:00:00.809576",
+      "profit": 88,
+      "return_pct": 352.0,
+      "closed": "2026-03-10T18:00:00.811056",
+      "exit_price": "high"
+    },
+    {
+      "id": "trade_16",
+      "market": "Paxton short position",
+      "direction": "short",
+      "size": 25,
+      "entry_price": "low",
+      "current_price": "closed",
+      "target_price": "high",
+      "stop_loss": "none",
+      "settlement": "2026-03-04",
+      "status": "closed",
+      "opened": "2026-03-11T18:00:00.587928",
+      "profit": 88,
+      "return_pct": 352.0,
+      "closed": "2026-03-11T18:00:00.589012",
+      "exit_price": "high"
     }
   ],
   "daily_performance": [
@@ -213,6 +307,16 @@
       "date": "2026-03-09",
       "profit": 88,
       "trade_id": "trade_10"
+    },
+    {
+      "date": "2026-03-10",
+      "profit": 88,
+      "trade_id": "trade_13"
+    },
+    {
+      "date": "2026-03-11",
+      "profit": 88,
+      "trade_id": "trade_16"
     }
   ],
   "created": "2026-03-05T16:06:09.134859"

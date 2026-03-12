@@ -1,0 +1,72 @@
+{
+  "week_start": "2026-03-10",
+  "overview": "Dual LinkedIn strategy with coordinated cross-promotion",
+  "daily_plan": {
+    "Monday": {
+      "sam_desigan": {
+        "topic": "AI Finance Trends",
+        "format": "Weekly analysis"
+      },
+      "shyam_desigan": {
+        "topic": "Tech Innovation Frameworks",
+        "format": "Educational"
+      },
+      "cross_promotion": true
+    },
+    "Tuesday": {
+      "sam_desigan": {
+        "topic": "Business Expense Reduction",
+        "format": "Case study"
+      },
+      "shyam_desigan": {
+        "topic": "Automation Success Stories",
+        "format": "Examples"
+      },
+      "cross_promotion": false
+    },
+    "Wednesday": {
+      "sam_desigan": {
+        "topic": "Entrepreneurial Journey",
+        "format": "Personal insights"
+      },
+      "shyam_desigan": {
+        "topic": "Future of Work",
+        "format": "Predictions"
+      },
+      "cross_promotion": true
+    },
+    "Thursday": {
+      "sam_desigan": {
+        "topic": "Industry News Commentary",
+        "format": "Analysis"
+      },
+      "shyam_desigan": {
+        "topic": "Emerging Tech Applications",
+        "format": "Applications"
+      },
+      "cross_promotion": false
+    },
+    "Friday": {
+      "sam_desigan": {
+        "topic": "Weekly Lessons Learned",
+        "format": "Reflection"
+      },
+      "shyam_desigan": {
+        "topic": "Innovation Weekend Reading",
+        "format": "Recommendations"
+      },
+      "cross_promotion": true
+    }
+  },
+  "cross_promotion_days": [
+    "Monday",
+    "Wednesday",
+    "Friday"
+  ],
+  "performance_goals": {
+    "linkedin_engagement": "3% average",
+    "follower_growth": "100 total across both profiles",
+    "content_volume": "14 posts (2 per profile daily)",
+    "lead_generation": "5 qualified leads"
+  }
+}

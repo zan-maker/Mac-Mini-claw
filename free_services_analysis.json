@@ -1,0 +1,101 @@
+[
+  {
+    "name": "OpenRouter",
+    "category": "AI & Machine Learning",
+    "free_tier": "Multiple free models (DeepSeek R1, Llama, Gemma, Phi-3.5)",
+    "savings": 200,
+    "status": "\u2705 IMPLEMENTED",
+    "priority": 10,
+    "notes": "Already configured, saves $200/month"
+  },
+  {
+    "name": "Mediaworkbench.ai",
+    "category": "AI & Machine Learning",
+    "free_tier": "100,000 free words for Azure OpenAI, DeepSeek, Google Gemini",
+    "savings": 100,
+    "status": "\ud83d\udd04 READY",
+    "priority": 9,
+    "notes": "Alternative to OpenAI API, 100k words free"
+  },
+  {
+    "name": "Pollinations.AI",
+    "category": "AI & Machine Learning",
+    "free_tier": "Unlimited image generation, no API keys",
+    "savings": 100,
+    "status": "\u26a0\ufe0f TEMP ISSUE",
+    "priority": 8,
+    "notes": "Temporary timeout issue, try again later"
+  },
+  {
+    "name": "Brevo",
+    "category": "Email",
+    "free_tier": "9,000 emails/month",
+    "savings": 75,
+    "status": "\u2705 IMPLEMENTED",
+    "priority": 9,
+    "notes": "Configured, needs real email test"
+  },
+  {
+    "name": "EmailOctopus",
+    "category": "Email",
+    "free_tier": "2,500 subscribers, 10,000 emails/month",
+    "savings": 50,
+    "status": "\ud83d\udccb QUEUED",
+    "priority": 7,
+    "notes": "Backup email service"
+  },
+  {
+    "name": "ImprovMX",
+    "category": "Email",
+    "free_tier": "Free email forwarding for custom domains",
+    "savings": 20,
+    "status": "\ud83d\udccb QUEUED",
+    "priority": 6,
+    "notes": "Domain email management"
+  },
+  {
+    "name": "Google Cloud Firestore",
+    "category": "Cloud Infrastructure",
+    "free_tier": "1GB storage, 50k reads/day, 20k writes/day",
+    "savings": 50,
+    "status": "\ud83d\udccb QUEUED",
+    "priority": 8,
+    "notes": "Replace Supabase database"
+  },
+  {
+    "name": "AWS Lambda",
+    "category": "Cloud Infrastructure",
+    "free_tier": "1M requests/month",
+    "savings": 30,
+    "status": "\ud83d\udccb QUEUED",
+    "priority": 7,
+    "notes": "Serverless functions"
+  },
+  {
+    "name": "Cloudflare R2",
+    "category": "Cloud Infrastructure",
+    "free_tier": "10GB storage, 1M operations/month",
+    "savings": 25,
+    "status": "\ud83d\udccb QUEUED",
+    "priority": 7,
+    "notes": "Object storage"
+  },
+  {
+    "name": "Langfuse",
+    "category": "Monitoring & Analytics",
+    "free_tier": "50k observations/month",
+    "savings": 50,
+    "status": "\ud83d\udccb QUEUED",
+    "priority": 7,
+    "notes": "LLM observability and monitoring"
+  },
+  {
+    "name": "Portkey",
+    "category": "Monitoring & Analytics",
+    "free_tier": "10k requests/month",
+    "savings": 30,
+    "status": "\ud83d\udccb QUEUED",
+    "priority": 6,
+    "notes": "AI gateway monitoring"
+  }
+]

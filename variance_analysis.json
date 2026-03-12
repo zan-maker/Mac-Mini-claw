@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-03-10T19:29:50.014961",
+  "opportunities": [
+    {
+      "type": "news_sentiment_variance",
+      "confidence": 65.0,
+      "recommendation": "BUY YES on gas/oil markets",
+      "position": "$10-15",
+      "reason": "High sentiment variance (0.30) with bullish avg (0.65)"
+    },
+    {
+      "type": "portfolio_diversification",
+      "confidence": 60,
+      "recommendation": "Diversify into weather/political markets",
+      "position": "$10",
+      "reason": "High gas concentration (100%), reduce variance"
+    },
+    {
+      "type": "gas_price_variance",
+      "confidence": 43.58231417337588,
+      "recommendation": "BUY YES on Gas Month >$3.50",
+      "position": "$8-12",
+      "reason": "$0.030 variance across sources, $0.295 to target"
+    }
+  ],
+  "overall_recommendation": {
+    "action": "MODERATE BUY",
+    "position": "$10-15",
+    "avg_confidence": 56.19410472445863,
+    "best_opportunity": "news_sentiment_variance"
+  }
+}

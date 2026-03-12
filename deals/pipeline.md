@@ -471,3 +471,15 @@ While web scraping can identify candidates showing seller signals, conversion re
   - Location: United States
   - Finder Fee Potential: $40K - $180K
   
+
+## New Sellers - 2026-03-11
+
+- **Planning Your Retirement as an HVAC Business Owner** - HVAC - $772,245 EBITDA - Score: 85/100
+- **Generational Shift: Why Plumbing Owners Are Selling in 2025** - Plumbing - $853,812 EBITDA - Score: 77/100
+- **Tailoring Retirement Plans for Small Business Owners** - Plumbing - $716,342 EBITDA - Score: 84/100
+- **Selling an Electrical Contracting Business? Discover how to ...** - Electrical - $1,108,166 EBITDA - Score: 81/100
+- **To sell an electrical contracting business** - Electrical - $1,108,162 EBITDA - Score: 90/100
+- **Electrical Contractor Business Broker** - Electrical - $1,286,347 EBITDA - Score: 81/100
+- **How to Sell a Cleaning Company: Owner's Exit Guide** - Commercial Cleaning - $533,348 EBITDA - Score: 80/100
+- **Exit Strategies for your Cleaning Business** - Commercial Cleaning - $691,123 EBITDA - Score: 79/100
+- **Exit Planning: Preparing Your Cleaning Business for Sale** - Commercial Cleaning - $558,254 EBITDA - Score: 85/100

@@ -1,0 +1,12 @@
+{
+    "provider": "pollinations.ai",
+    "api_endpoint": "https://image.pollinations.ai/prompt/",
+    "default_width": 1024,
+    "default_height": 1024,
+    "default_model": "flux",
+    "available_models": ["flux", "dall-e", "stable-diffusion", "midjourney"],
+    "available_aspect_ratios": ["1:1", "16:9", "9:16", "4:3", "3:4"],
+    "free_tier": "Unlimited image generation, no API keys",
+    "configured_at": "2026-03-11T21:45:10-04:00",
+    "version": "1.0"
+}

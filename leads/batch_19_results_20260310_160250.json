@@ -1,0 +1,47 @@
+[
+  {
+    "company": "Kindred Healthcare",
+    "email": "hr@kindredhealthcare.com",
+    "employees": 175,
+    "savings": 145425.0,
+    "success": true,
+    "timestamp": "2026-03-10T16:02:48.739377",
+    "message_id": "<0100019cd9584b03-9e43d6b2-5d66-4ca6-9de8-f264e7460b5f-000000@email.amazonses.com>"
+  },
+  {
+    "company": "Drury Hotels",
+    "email": "hr@druryhotels.com",
+    "employees": 150,
+    "savings": 124650.0,
+    "success": true,
+    "timestamp": "2026-03-10T16:02:49.252993",
+    "message_id": "<0100019cd9584e21-68bedd5c-d49e-44d9-ad9b-1ef3e6ea67d6-000000@email.amazonses.com>"
+  },
+  {
+    "company": "XPO Logistics",
+    "email": "hr@xpo.com",
+    "employees": 200,
+    "savings": 166200.0,
+    "success": true,
+    "timestamp": "2026-03-10T16:02:49.660374",
+    "message_id": "<0100019cd9585002-4b000517-18e8-4266-9a73-3911a581bd73-000000@email.amazonses.com>"
+  },
+  {
+    "company": "Polypore International",
+    "email": "info@polypore.net",
+    "employees": 120,
+    "savings": 99720.0,
+    "success": true,
+    "timestamp": "2026-03-10T16:02:50.005713",
+    "message_id": "<0100019cd958518d-5a7f526a-d55b-4620-b239-f184ce185494-000000@email.amazonses.com>"
+  },
+  {
+    "company": "Encompass Health",
+    "email": "hr@encompasshealth.com",
+    "employees": 180,
+    "savings": 149580.0,
+    "success": true,
+    "timestamp": "2026-03-10T16:02:50.581423",
+    "message_id": "<0100019cd95852e6-30d8bba8-be93-493b-8416-6d01b5453160-000000@email.amazonses.com>"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-03-10T07:43:21.710327",
+  "opportunities_found": 3,
+  "total_potential": 23.0,
+  "active_positions": 1,
+  "new_opportunities": 2,
+  "opportunities": [
+    {
+      "market": "Gas Month (>$3.50)",
+      "type": "YES/NO",
+      "current_price": 3.2,
+      "target_price": 3.5,
+      "confidence": 70,
+      "recommendation": "HOLD position",
+      "potential_return": "$8-12",
+      "timeframe": "25 days",
+      "status": "ACTIVE"
+    },
+    {
+      "market": "Chicago Temperature (45-46\u00b0F)",
+      "type": "YES/NO",
+      "current_temp": 42,
+      "target_range": "45-46",
+      "confidence": 65,
+      "recommendation": "BUY NO @ <40\u00a2",
+      "potential_return": "$5-8",
+      "timeframe": "1 day",
+      "status": "NEW"
+    },
+    {
+      "market": "S&P 500 Weekly Close (>5200)",
+      "type": "YES/NO",
+      "current_level": 5180,
+      "target": 5200,
+      "confidence": 60,
+      "recommendation": "BUY NO @ <45\u00a2",
+      "potential_return": "$10-15",
+      "timeframe": "3 days",
+      "status": "NEW"
+    }
+  ]
+}

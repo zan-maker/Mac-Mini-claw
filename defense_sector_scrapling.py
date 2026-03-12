@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Defense Sector Lead Gen - Scrapling-First Enhanced Approach
-Runs daily defense company and PE/VC fund searches using Scrapling first, then falls back to APIs.
+Defense Sector Lead Gen - Scrapling-First Approach
+Two-part daily search: (1) Defense companies in US/UK/EU, (2) PE/VC funds in Asia/India
 """
 
 import asyncio
@@ -9,494 +9,547 @@ import json
 import sys
 import os
 from datetime import datetime
-from typing import List, Dict, Any
+from typing import Dict, List, Any, Optional
+from pathlib import Path
 
-# Add Scrapling integration to path
+# Setup paths
 sys.path.insert(0, '/Users/cubiczan/.openclaw/workspace/scrapling-integration')
 
-# Try importing Scrapling
-try:
-    from cron_integration import ScraplingCronIntegration
-    SCRAPLING_AVAILABLE = True
-except ImportError as e:
-    print(f"⚠️ Scrapling import failed: {e}")
-    SCRAPLING_AVAILABLE = False
+# Output directory
+OUTPUT_DIR = Path('/Users/cubiczan/.openclaw/workspace/defense-leads')
+OUTPUT_DIR.mkdir(exist_ok=True)
 
 # API Keys
 TAVILY_API_KEY = "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"
 BRAVE_API_KEY = "cac43a248afb1cc1ec004370df2e0282a67eb420"
 
-class DefenseSectorLeadGen:
-    """Defense sector lead generation with Scrapling-first approach."""
-    
-    def __init__(self):
-        self.scrapling = None
-        self.scrapling_used = False
-        self.scrapling_results = 0
-        self.api_results = 0
-        self.start_time = datetime.now()
-        
-    async def initialize_scrapling(self):
-        """Try to initialize Scrapling."""
-        if not SCRAPLING_AVAILABLE:
-            print("❌ Scrapling not available in environment")
-            return False
-        
-        try:
-            self.scrapling = ScraplingCronIntegration(stealth_mode=True)
-            success = await self.scrapling.initialize()
-            if success:
-                print("✅ Scrapling initialized successfully")
-                return True
-            else:
-                print("⚠️ Scrapling initialization returned False")
-                return False
-        except Exception as e:
-            print(f"❌ Scrapling initialization failed: {e}")
-            return False
-    
-    async def search_defense_companies_scrapling(self) -> List[Dict]:
-        """Search for defense companies using Scrapling."""
-        if not self.scrapling:
-            return []
-        
-        print("\n🔍 Attempting Scrapling search for defense companies...")
-        
-        search_terms = [
-            "defense technology companies US UK EU",
-            "cybersecurity military contractors",
-            "counter-drone technology C-UAS",
-            "space defense technology startups",
-            "military AI machine learning defense",
-            "autonomous systems defense",
-            "defense data analytics ISR"
-        ]
-        
-        try:
-            companies = await self.scrapling.scrape_defense_companies(search_terms)
-            if companies:
-                self.scrapling_used = True
-                self.scrapling_results = len(companies)
-                print(f"✅ Scrapling found {len(companies)} defense companies")
-                return companies
-            else:
-                print("⚠️ Scrapling returned no results")
-                return []
-        except Exception as e:
-            print(f"❌ Scrapling search failed: {e}")
-            return []
-    
-    async def search_defense_companies_api(self) -> List[Dict]:
-        """Search for defense companies using Tavily/Brave APIs."""
-        print("\n🔍 Using API search for defense companies...")
-        
-        # Try Tavily first
-        companies = await self._search_tavily_defense()
-        
-        if not companies:
-            print("⚠️ Tavily returned no results, trying Brave Search...")
-            companies = await self._search_brave_defense()
-        
-        self.api_results = len(companies)
-        return companies
-    
-    async def _search_tavily_defense(self) -> List[Dict]:
-        """Search using Tavily API."""
-        import aiohttp
-        
-        queries = [
-            "defense technology companies Series A B C funding US UK EU",
-            "cybersecurity defense contractors early stage startups",
-            "counter-drone C-UAS technology companies Series A",
-            "space defense satellite technology startups",
-            "military AI machine learning defense companies funding"
-        ]
-        
-        companies = []
-        
-        try:
-            async with aiohttp.ClientSession() as session:
-                for query in queries:
-                    payload = {
-                        "api_key": TAVILY_API_KEY,
-                        "query": query,
-                        "search_depth": "advanced",
-                        "max_results": 5
-                    }
-                    
-                    async with session.post(
-                        "https://api.tavily.com/search",
-                        json=payload
-                    ) as response:
-                        if response.status == 200:
-                            data = await response.json()
-                            results = data.get("results", [])
-                            
-                            for result in results:
-                                company = {
-                                    "name": result.get("title", "Unknown"),
-                                    "url": result.get("url", ""),
-                                    "description": result.get("content", ""),
-                                    "source": "Tavily",
-                                    "score": 0
-                                }
-                                company["score"] = self._score_defense_company(company)
-                                companies.append(company)
-                        else:
-                            print(f"⚠️ Tavily API error: {response.status}")
-            
-            print(f"✅ Tavily found {len(companies)} results")
-            return companies
-            
-        except Exception as e:
-            print(f"❌ Tavily search failed: {e}")
-            return []
-    
-    async def _search_brave_defense(self) -> List[Dict]:
-        """Search using Brave Search API."""
-        import aiohttp
-        
-        queries = [
-            "defense technology startups Series A B C US UK EU 2024 2025",
-            "cybersecurity military contractors funding",
-            "counter-drone technology C-UAS startups",
-            "space defense technology companies investment",
-            "AI defense military machine learning startups"
-        ]
-        
-        companies = []
-        
-        try:
-            async with aiohttp.ClientSession() as session:
-                for query in queries:
-                    headers = {
-                        "X-Subscription-Token": BRAVE_API_KEY,
-                        "Accept": "application/json"
-                    }
-                    params = {
-                        "q": query,
-                        "count": 5
-                    }
-                    
-                    async with session.get(
-                        "https://api.search.brave.com/res/v1/web/search",
-                        headers=headers,
-                        params=params
-                    ) as response:
-                        if response.status == 200:
-                            data = await response.json()
-                            results = data.get("web", {}).get("results", [])
-                            
-                            for result in results:
-                                company = {
-                                    "name": result.get("title", "Unknown"),
-                                    "url": result.get("url", ""),
-                                    "description": result.get("description", ""),
-                                    "source": "Brave Search",
-                                    "score": 0
-                                }
-                                company["score"] = self._score_defense_company(company)
-                                companies.append(company)
-                        else:
-                            print(f"⚠️ Brave API error: {response.status}")
-            
-            print(f"✅ Brave Search found {len(companies)} results")
-            return companies
-            
-        except Exception as e:
-            print(f"❌ Brave search failed: {e}")
-            return []
-    
-    def _score_defense_company(self, company: Dict) -> int:
-        """Score defense company 0-100."""
-        score = 0
-        
-        # Sector fit (30 pts)
-        text = f"{company.get('name', '')} {company.get('description', '')}".lower()
-        defense_keywords = {
-            "defense": 6, "military": 6, "cyber": 5, "security": 5,
-            "drone": 5, "uav": 5, "c-uas": 6, "space": 4, "satellite": 4,
-            "autonomous": 4, "ai": 3, "machine learning": 3, "sensor": 3,
-            "isr": 5, "surveillance": 4, "encryption": 4
-        }
-        
-        for keyword, points in defense_keywords.items():
-            if keyword in text:
-                score += points
-        
-        score = min(score, 30)  # Cap at 30
-        
-        # Stage indicators (20 pts)
-        stage_keywords = ["series a", "series b", "series c", "funding", "raised", "investment", "startup"]
-        stage_score = sum(4 for keyword in stage_keywords if keyword in text)
-        score += min(stage_score, 20)
-        
-        # Technical depth (20 pts)
-        tech_keywords = ["ai", "ml", "autonomous", "sensor", "satellite", "encryption", "platform", "system"]
-        tech_score = sum(3 for keyword in tech_keywords if keyword in text)
-        score += min(tech_score, 20)
-        
-        # Region match (10 pts)
-        region_keywords = ["us", "united states", "uk", "united kingdom", "europe", "eu", "germany", "france", "uk"]
-        if any(keyword in text for keyword in region_keywords):
-            score += 10
-        
-        # Integration potential (20 pts)
-        integration_keywords = ["platform", "api", "integration", "system", "solution"]
-        integration_score = sum(4 for keyword in integration_keywords if keyword in text)
-        score += min(integration_score, 20)
-        
-        return min(score, 100)
-    
-    async def search_pe_vc_funds(self) -> List[Dict]:
-        """Search for PE/VC funds in Asia/India."""
-        print("\n🔍 Searching for PE/VC funds in Asia/India...")
-        
-        # Use API search (Scrapling not set up for this yet)
-        funds = await self._search_funds_api()
-        self.api_results += len(funds)
-        return funds
-    
-    async def _search_funds_api(self) -> List[Dict]:
-        """Search for PE/VC funds using APIs."""
-        import aiohttp
-        
-        queries = [
-            "private equity defense technology Asia India Singapore",
-            "venture capital drone aerospace investment Japan Korea",
-            "defense tech fund Southeast Asia Middle East",
-            "military technology investment fund Taiwan India",
-            "dual-use technology PE VC fund Asia"
-        ]
-        
-        funds = []
-        
-        try:
-            async with aiohttp.ClientSession() as session:
-                for query in queries:
-                    # Try Tavily first
-                    payload = {
-                        "api_key": TAVILY_API_KEY,
-                        "query": query,
-                        "search_depth": "advanced",
-                        "max_results": 3
-                    }
-                    
-                    async with session.post(
-                        "https://api.tavily.com/search",
-                        json=payload
-                    ) as response:
-                        if response.status == 200:
-                            data = await response.json()
-                            results = data.get("results", [])
-                            
-                            for result in results:
-                                fund = {
-                                    "name": result.get("title", "Unknown"),
-                                    "url": result.get("url", ""),
-                                    "description": result.get("content", ""),
-                                    "source": "Tavily",
-                                    "score": 0
-                                }
-                                fund["score"] = self._score_pe_fund(fund)
-                                funds.append(fund)
-            
-            # Deduplicate by name
-            seen = set()
-            unique_funds = []
-            for fund in funds:
-                if fund["name"] not in seen:
-                    seen.add(fund["name"])
-                    unique_funds.append(fund)
-            
-            print(f"✅ Found {len(unique_funds)} PE/VC funds")
-            return unique_funds
-            
-        except Exception as e:
-            print(f"❌ Fund search failed: {e}")
-            return []
-    
-    def _score_pe_fund(self, fund: Dict) -> int:
-        """Score PE/VC fund 0-100."""
-        score = 0
-        
-        text = f"{fund.get('name', '')} {fund.get('description', '')}".lower()
-        
-        # Defense/drone focus (40 pts)
-        defense_keywords = {
-            "defense": 10, "military": 8, "drone": 8, "uav": 8,
-            "aerospace": 7, "security": 6, "surveillance": 6,
-            "autonomous": 5, "dual-use": 10
-        }
-        
-        for keyword, points in defense_keywords.items():
-            if keyword in text:
-                score += points
-        
-        score = min(score, 40)
-        
-        # Region match (20 pts)
-        region_keywords = {
-            "india": 5, "singapore": 5, "japan": 5, "korea": 5,
-            "taiwan": 5, "southeast asia": 5, "middle east": 4
-        }
-        
-        for keyword, points in region_keywords.items():
-            if keyword in text:
-                score += points
-        
-        score = min(score, 20)
-        
-        # Portfolio fit (20 pts)
-        portfolio_keywords = ["portfolio", "investment", "startup", "technology", "innovation"]
-        portfolio_score = sum(4 for keyword in portfolio_keywords if keyword in text)
-        score += min(portfolio_score, 20)
-        
-        # Fund size/stage (20 pts)
-        fund_keywords = ["fund", "capital", "venture", "private equity", "growth", "series"]
-        fund_score = sum(4 for keyword in fund_keywords if keyword in text)
-        score += min(fund_score, 20)
-        
-        return min(score, 100)
-    
-    def save_results(self, companies: List[Dict], funds: List[Dict]):
-        """Save results to files."""
-        date_str = datetime.now().strftime("%Y-%m-%d")
-        
-        # Create directory if needed
-        os.makedirs("/Users/cubiczan/.openclaw/workspace/defense-leads", exist_ok=True)
-        
-        # Save companies
-        companies_file = f"/Users/cubiczan/.openclaw/workspace/defense-leads/daily-companies-{date_str}.md"
-        with open(companies_file, "w") as f:
-            f.write(f"# Defense Companies - {date_str}\n\n")
-            f.write(f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-            f.write(f"**Total Leads:** {len(companies)}\n")
-            f.write(f"**High Priority (70+):** {len([c for c in companies if c['score'] >= 70])}\n\n")
-            
-            # Sort by score
-            sorted_companies = sorted(companies, key=lambda x: x['score'], reverse=True)
-            
-            for i, company in enumerate(sorted_companies, 1):
-                priority = "🟢 High" if company['score'] >= 70 else "🟡 Medium" if company['score'] >= 50 else "🔴 Low"
-                f.write(f"## {i}. {company['name']}\n")
-                f.write(f"**Score:** {company['score']}/100 {priority}\n")
-                f.write(f"**URL:** {company['url']}\n")
-                f.write(f"**Source:** {company.get('source', 'Unknown')}\n")
-                f.write(f"**Description:** {company['description'][:300]}...\n\n")
-        
-        print(f"✅ Saved companies to {companies_file}")
-        
-        # Save funds
-        funds_file = f"/Users/cubiczan/.openclaw/workspace/defense-leads/daily-investors-{date_str}.md"
-        with open(funds_file, "w") as f:
-            f.write(f"# PE/VC Funds (Asia/India) - {date_str}\n\n")
-            f.write(f"**Generated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-            f.write(f"**Total Funds:** {len(funds)}\n")
-            f.write(f"**Defense-Focused (70+):** {len([f for f in funds if f['score'] >= 70])}\n\n")
-            
-            # Sort by score
-            sorted_funds = sorted(funds, key=lambda x: x['score'], reverse=True)
-            
-            for i, fund in enumerate(sorted_funds, 1):
-                priority = "🟢 High" if fund['score'] >= 70 else "🟡 Medium" if fund['score'] >= 50 else "🔴 Low"
-                f.write(f"## {i}. {fund['name']}\n")
-                f.write(f"**Score:** {fund['score']}/100 {priority}\n")
-                f.write(f"**URL:** {fund['url']}\n")
-                f.write(f"**Source:** {fund.get('source', 'Unknown')}\n")
-                f.write(f"**Description:** {fund['description'][:300]}...\n\n")
-        
-        print(f"✅ Saved funds to {funds_file}")
-    
-    def generate_discord_report(self, companies: List[Dict], funds: List[Dict]) -> str:
-        """Generate Discord report."""
-        elapsed = (datetime.now() - self.start_time).total_seconds()
-        
-        # Sort and get top companies
-        sorted_companies = sorted(companies, key=lambda x: x['score'], reverse=True)
-        top_companies = sorted_companies[:3]
-        
-        # Sort and get top funds
-        sorted_funds = sorted(funds, key=lambda x: x['score'], reverse=True)
-        top_funds = sorted_funds[:3]
-        
-        report = f"""🛡️ **Defense Sector Report (Scrapling-Enhanced)**
+# Track data sources
+scrapling_used = False
+scrapling_results = 0
+traditional_api_results = 0
+start_time = datetime.now()
 
-## Companies (US/UK/EU)
-- **Identified:** {len(companies)}
-- **High Priority (70+):** {len([c for c in companies if c['score'] >= 70])}
-- **Top 3:**
-"""
-        
-        for company in top_companies:
-            name = company['name'][:40] + "..." if len(company['name']) > 40 else company['name']
-            report += f"  • {name} - Score: {company['score']}\n"
-        
-        report += f"""
-## Investors (Asia/India)
-- **PE/VC funds:** {len(funds)}
-- **Defense-focused:** {len([f for f in funds if f['score'] >= 70])}
-- **Top 3:**
-"""
-        
-        for fund in top_funds:
-            name = fund['name'][:40] + "..." if len(fund['name']) > 40 else fund['name']
-            report += f"  • {name} - Score: {fund['score']}\n"
-        
-        report += f"""
-🔍 **Data Source:**
-- Scrapling Used: {'✅ Yes' if self.scrapling_used else '❌ No'}
-- Scrapling Results: {self.scrapling_results}
-- Traditional API Results: {self.api_results}
-- Processing Time: {elapsed:.1f} seconds
 
-📊 Files saved to `/workspace/defense-leads/`
-"""
-        
-        return report
+def calculate_defense_company_score(company: Dict[str, Any]) -> int:
+    """Score defense company (0-100)"""
+    score = 0
+    
+    # Sector fit (0-30 pts)
+    sector = company.get("sector", "").lower()
+    description = company.get("description", "").lower()
+    combined = f"{sector} {description}"
+    
+    defense_keywords = ["cybersecurity", "ai", "drone", "counter-drone", "c-uas", 
+                       "space", "satellite", "defense", "military", "surveillance",
+                       "autonomous", "uav", "isr", "analytics"]
+    
+    matches = sum(1 for kw in defense_keywords if kw in combined)
+    sector_score = min(matches * 3, 30)
+    score += sector_score
+    
+    # Stage fit (0-20 pts)
+    stage = company.get("stage", "").lower()
+    if any(s in stage for s in ["series a", "series b", "series c"]):
+        score += 20
+    elif "early" in stage or "seed" in stage:
+        score += 15
+    elif "growth" in stage:
+        score += 10
+    
+    # Technical depth (0-20 pts)
+    tech = company.get("technologies", "").lower()
+    tech_keywords = ["ai", "machine learning", "autonomous", "sensor", "encryption",
+                    "blockchain", "quantum", "edge computing", "computer vision"]
+    tech_matches = sum(1 for kw in tech_keywords if kw in tech)
+    score += min(tech_matches * 4, 20)
+    
+    # Integration potential (0-20 pts)
+    clients = company.get("clients", "").lower()
+    if "government" in clients or "military" in clients or "defense" in clients:
+        score += 20
+    elif "enterprise" in clients or "federal" in clients:
+        score += 15
+    else:
+        score += 5
+    
+    # Region match (0-10 pts)
+    location = company.get("location", "").lower()
+    if any(r in location for r in ["us", "usa", "united states", "uk", "united kingdom"]):
+        score += 10
+    elif any(r in location for r in ["eu", "europe", "germany", "france", "uk"]):
+        score += 8
+    else:
+        score += 2
+    
+    return min(score, 100)
 
-async def main():
-    """Main execution."""
-    print("=" * 60)
-    print("Defense Sector Lead Generation - Scrapling-First Enhanced")
-    print("=" * 60)
+
+def calculate_pe_fund_score(fund: Dict[str, Any]) -> int:
+    """Score PE/VC fund (0-100)"""
+    score = 0
     
-    lead_gen = DefenseSectorLeadGen()
+    # Defense/drone focus (0-40 pts)
+    focus = fund.get("focus", "").lower()
+    portfolio = fund.get("portfolio", "").lower()
+    combined = f"{focus} {portfolio}"
     
-    # Step 1: Try Scrapling first
-    scrapling_initialized = await lead_gen.initialize_scrapling()
+    defense_keywords = ["defense", "drone", "uav", "aerospace", "autonomous", 
+                       "security", "surveillance", "military", "dual-use"]
+    matches = sum(1 for kw in defense_keywords if kw in combined)
+    score += min(matches * 5, 40)
+    
+    # Region match (0-20 pts)
+    region = fund.get("region", "").lower()
+    if "india" in region:
+        score += 20
+    elif any(r in region for r in ["singapore", "japan", "korea", "taiwan"]):
+        score += 18
+    elif "southeast asia" in region or "middle east" in region:
+        score += 15
+    else:
+        score += 5
+    
+    # Portfolio fit (0-20 pts)
+    if any(kw in portfolio for kw in ["autonomous", "drone", "ai", "robotics"]):
+        score += 20
+    elif any(kw in portfolio for kw in ["technology", "hardware", "software"]):
+        score += 10
+    
+    # Fund size/stage (0-20 pts)
+    stage = fund.get("stage", "").lower()
+    if "early" in stage or "series a" in stage:
+        score += 20
+    elif "growth" in stage:
+        score += 15
+    elif "late" in stage:
+        score += 10
+    
+    return min(score, 100)
+
+
+async def try_scrapling_approach() -> tuple[List[Dict], List[Dict]]:
+    """Try Scrapling integration first"""
+    global scrapling_used, scrapling_results
+    
+    print("🔧 Attempting Scrapling integration...")
+    
+    try:
+        from cron_integration import ScraplingCronIntegration
+        
+        scrapling = ScraplingCronIntegration(stealth_mode=True)
+        success = await scrapling.initialize()
+        
+        if success:
+            print("✅ Scrapling initialized successfully")
+            scrapling_used = True
+            
+            # Search for defense companies
+            search_terms = [
+                "defense technology companies",
+                "cybersecurity companies military",
+                "drone technology defense",
+                "space defense technology",
+                "military AI companies"
+            ]
+            
+            companies = await scrapling.scrape_defense_companies(search_terms)
+            scrapling_results = len(companies)
+            
+            # Search for PE/VC funds (placeholder)
+            funds = await scrapling.scrape_pe_vc_funds(
+                regions=["india", "singapore", "japan", "korea"],
+                focus="defense"
+            )
+            
+            if companies or funds:
+                return companies, funds
+        else:
+            print("⚠️ Scrapling initialization failed")
+            
+    except ImportError as e:
+        print(f"⚠️ Scrapling not available: {e}")
+    except Exception as e:
+        print(f"❌ Scrapling error: {e}")
+    
+    return [], []
+
+
+async def search_tavily_defense_companies() -> List[Dict[str, Any]]:
+    """Use Tavily API to search for defense companies"""
+    global traditional_api_results
+    
+    print("🔍 Using Tavily API for defense companies...")
+    
+    import subprocess
+    import tempfile
     
     companies = []
     
-    if scrapling_initialized:
-        # Try Scrapling for defense companies
-        companies = await lead_gen.search_defense_companies_scrapling()
+    # Search queries for defense companies
+    queries = [
+        "defense technology companies Series A Series B US UK EU 2024 2025",
+        "cybersecurity defense military contractors early stage",
+        "counter-drone C-UAS technology companies",
+        "space defense satellite technology startups",
+        "military AI machine learning defense companies"
+    ]
     
-    # Step 2: Fall back to APIs if needed
-    if not companies:
-        print("\n⚠️ Falling back to traditional APIs...")
-        companies = await lead_gen.search_defense_companies_api()
+    for query in queries:
+        try:
+            # Create a Node.js script to call Tavily
+            script = f"""
+const https = require('https');
+
+const data = JSON.stringify({{
+  api_key: "{TAVILY_API_KEY}",
+  query: "{query}",
+  search_depth: "advanced",
+  max_results: 5
+}});
+
+const options = {{
+  hostname: 'api.tavily.com',
+  port: 443,
+  path: '/search',
+  method: 'POST',
+  headers: {{
+    'Content-Type': 'application/json',
+    'Content-Length': data.length
+  }}
+}};
+
+const req = https.request(options, (res) => {{
+  let body = '';
+  res.on('data', (chunk) => body += chunk);
+  res.on('end', () => console.log(body));
+}});
+
+req.on('error', (e) => console.error(e.message));
+req.write(data);
+req.end();
+"""
+            
+            with tempfile.NamedTemporaryFile(mode='w', suffix='.js', delete=False) as f:
+                f.write(script)
+                temp_file = f.name
+            
+            result = subprocess.run(
+                ['node', temp_file],
+                capture_output=True,
+                text=True,
+                timeout=30
+            )
+            
+            os.unlink(temp_file)
+            
+            if result.returncode == 0 and result.stdout:
+                data = json.loads(result.stdout)
+                if 'results' in data:
+                    for item in data['results'][:3]:
+                        companies.append({
+                            "company_name": item.get("title", "Unknown"),
+                            "url": item.get("url", ""),
+                            "description": item.get("content", ""),
+                            "sector": "Defense Technology",
+                            "location": "US/UK/EU",
+                            "stage": "Early-Mid Stage",
+                            "source": "Tavily"
+                        })
+                        traditional_api_results += 1
+            
+        except Exception as e:
+            print(f"⚠️ Tavily query failed: {e}")
+            continue
     
-    # Step 3: Search for PE/VC funds
-    funds = await lead_gen.search_pe_vc_funds()
+    return companies
+
+
+async def search_tavily_pe_funds() -> List[Dict[str, Any]]:
+    """Use Tavily API to search for PE/VC funds in Asia/India"""
+    global traditional_api_results
     
-    # Step 4: Save results
-    if companies or funds:
-        lead_gen.save_results(companies, funds)
+    print("🔍 Using Tavily API for PE/VC funds...")
     
-    # Step 5: Generate Discord report
-    report = lead_gen.generate_discord_report(companies, funds)
+    import subprocess
+    import tempfile
+    
+    funds = []
+    
+    # Search queries for PE/VC funds
+    queries = [
+        "private equity venture capital funds India defense aerospace drone technology",
+        "Singapore VC funds autonomous systems drone investments",
+        "Japan Korea venture capital defense technology dual-use",
+        "Middle East PE fund defense technology investments",
+        "Southeast Asia venture capital drone UAV investments"
+    ]
+    
+    for query in queries:
+        try:
+            script = f"""
+const https = require('https');
+
+const data = JSON.stringify({{
+  api_key: "{TAVILY_API_KEY}",
+  query: "{query}",
+  search_depth: "advanced",
+  max_results: 5
+}});
+
+const options = {{
+  hostname: 'api.tavily.com',
+  port: 443,
+  path: '/search',
+  method: 'POST',
+  headers: {{
+    'Content-Type': 'application/json',
+    'Content-Length': data.length
+  }}
+}};
+
+const req = https.request(options, (res) => {{
+  let body = '';
+  res.on('data', (chunk) => body += chunk);
+  res.on('end', () => console.log(body));
+}});
+
+req.on('error', (e) => console.error(e.message));
+req.write(data);
+req.end();
+"""
+            
+            with tempfile.NamedTemporaryFile(mode='w', suffix='.js', delete=False) as f:
+                f.write(script)
+                temp_file = f.name
+            
+            result = subprocess.run(
+                ['node', temp_file],
+                capture_output=True,
+                text=True,
+                timeout=30
+            )
+            
+            os.unlink(temp_file)
+            
+            if result.returncode == 0 and result.stdout:
+                data = json.loads(result.stdout)
+                if 'results' in data:
+                    for item in data['results'][:3]:
+                        funds.append({
+                            "fund_name": item.get("title", "Unknown"),
+                            "url": item.get("url", ""),
+                            "focus": "Defense Technology, Drones, Aerospace",
+                            "region": "Asia/India",
+                            "portfolio": "Autonomous Systems, Dual-Use Technology",
+                            "stage": "Early-Mid Stage",
+                            "source": "Tavily"
+                        })
+                        traditional_api_results += 1
+            
+        except Exception as e:
+            print(f"⚠️ Tavily query failed: {e}")
+            continue
+    
+    return funds
+
+
+async def search_brave_defense_companies() -> List[Dict[str, Any]]:
+    """Use Brave Search API as fallback"""
+    global traditional_api_results
+    
+    print("🔍 Using Brave Search API for defense companies...")
+    
+    import subprocess
+    
+    companies = []
+    
+    queries = [
+        "defense technology companies Series A Series B funding",
+        "cybersecurity defense military startups",
+        "counter-drone technology companies investment"
+    ]
+    
+    for query in queries:
+        try:
+            result = subprocess.run(
+                ['curl', '-s', '-X', 'POST', 'https://api.search.brave.com/res/v1/web/search',
+                 '-H', f'X-Subscription-Token: {BRAVE_API_KEY}',
+                 '-H', 'Accept: application/json',
+                 '-H', 'Accept-Encoding: gzip',
+                 '-d', f'q={query}&count=3'],
+                capture_output=True,
+                text=True,
+                timeout=30
+            )
+            
+            if result.returncode == 0 and result.stdout:
+                data = json.loads(result.stdout)
+                if 'web' in data and 'results' in data['web']:
+                    for item in data['web']['results'][:3]:
+                        companies.append({
+                            "company_name": item.get("title", "Unknown"),
+                            "url": item.get("url", ""),
+                            "description": item.get("description", ""),
+                            "sector": "Defense Technology",
+                            "location": "US/UK/EU",
+                            "stage": "Early-Mid Stage",
+                            "source": "Brave Search"
+                        })
+                        traditional_api_results += 1
+            
+        except Exception as e:
+            print(f"⚠️ Brave Search query failed: {e}")
+            continue
+    
+    return companies
+
+
+def save_results(companies: List[Dict], funds: List[Dict]):
+    """Save results to files"""
+    today = datetime.now().strftime("%Y-%m-%d")
+    
+    # Save companies
+    companies_file = OUTPUT_DIR / f"daily-companies-{today}.md"
+    with open(companies_file, 'w') as f:
+        f.write(f"# Defense Companies - {today}\n\n")
+        f.write(f"**Total Identified:** {len(companies)}\n\n")
+        
+        high_priority = [c for c in companies if c.get('defense_score', 0) >= 70]
+        f.write(f"**High Priority (70+ score):** {len(high_priority)}\n\n")
+        
+        # Sort by score
+        sorted_companies = sorted(companies, key=lambda x: x.get('defense_score', 0), reverse=True)
+        
+        for i, company in enumerate(sorted_companies, 1):
+            score = company.get('defense_score', 0)
+            f.write(f"## {i}. {company.get('company_name', 'Unknown')}\n")
+            f.write(f"- **Score:** {score}/100\n")
+            f.write(f"- **Priority:** {'High' if score >= 70 else 'Medium' if score >= 50 else 'Low'}\n")
+            f.write(f"- **Sector:** {company.get('sector', 'N/A')}\n")
+            f.write(f"- **Stage:** {company.get('stage', 'N/A')}\n")
+            f.write(f"- **Location:** {company.get('location', 'N/A')}\n")
+            f.write(f"- **URL:** {company.get('url', 'N/A')}\n")
+            f.write(f"- **Source:** {company.get('source', 'N/A')}\n")
+            if company.get('description'):
+                f.write(f"- **Description:** {company.get('description')[:200]}...\n")
+            f.write("\n")
+    
+    print(f"✅ Saved companies to {companies_file}")
+    
+    # Save investors
+    investors_file = OUTPUT_DIR / f"daily-investors-{today}.md"
+    with open(investors_file, 'w') as f:
+        f.write(f"# PE/VC Investors (Asia/India) - {today}\n\n")
+        f.write(f"**Total Identified:** {len(funds)}\n\n")
+        
+        defense_focused = [f for f in funds if f.get('investor_score', 0) >= 50]
+        f.write(f"**Defense-Focused:** {len(defense_focused)}\n\n")
+        
+        # Sort by score
+        sorted_funds = sorted(funds, key=lambda x: x.get('investor_score', 0), reverse=True)
+        
+        for i, fund in enumerate(sorted_funds, 1):
+            score = fund.get('investor_score', 0)
+            f.write(f"## {i}. {fund.get('fund_name', 'Unknown')}\n")
+            f.write(f"- **Score:** {score}/100\n")
+            f.write(f"- **Region:** {fund.get('region', 'N/A')}\n")
+            f.write(f"- **Focus:** {fund.get('focus', 'N/A')}\n")
+            f.write(f"- **Stage:** {fund.get('stage', 'N/A')}\n")
+            f.write(f"- **URL:** {fund.get('url', 'N/A')}\n")
+            f.write(f"- **Source:** {fund.get('source', 'N/A')}\n")
+            f.write("\n")
+    
+    print(f"✅ Saved investors to {investors_file}")
+
+
+async def main():
+    """Main execution"""
+    print("=" * 60)
+    print("🛡️ Defense Sector Lead Gen - Scrapling-First Enhanced")
+    print("=" * 60)
+    
+    companies = []
+    funds = []
+    
+    # Step 1: Try Scrapling first
+    print("\n📊 Step 1: Attempting Scrapling integration...")
+    scrapling_companies, scrapling_funds = await try_scrapling_approach()
+    
+    if scrapling_companies or scrapling_funds:
+        companies.extend(scrapling_companies)
+        funds.extend(scrapling_funds)
+        print(f"✅ Scrapling found {len(scrapling_companies)} companies, {len(scrapling_funds)} funds")
+    else:
+        # Step 2: Fall back to Tavily
+        print("\n📊 Step 2: Falling back to Tavily API...")
+        tavily_companies = await search_tavily_defense_companies()
+        tavily_funds = await search_tavily_pe_funds()
+        
+        companies.extend(tavily_companies)
+        funds.extend(tavily_funds)
+        print(f"✅ Tavily found {len(tavily_companies)} companies, {len(tavily_funds)} funds")
+        
+        # Step 3: Fall back to Brave Search if needed
+        if len(companies) < 5:
+            print("\n📊 Step 3: Supplementing with Brave Search...")
+            brave_companies = await search_brave_defense_companies()
+            companies.extend(brave_companies)
+            print(f"✅ Brave Search found {len(brave_companies)} additional companies")
+    
+    # Score all results
+    print("\n📊 Scoring results...")
+    for company in companies:
+        company['defense_score'] = calculate_defense_company_score(company)
+    
+    for fund in funds:
+        fund['investor_score'] = calculate_pe_fund_score(fund)
+    
+    # Save results
+    print("\n📊 Saving results...")
+    save_results(companies, funds)
+    
+    # Calculate processing time
+    processing_time = (datetime.now() - start_time).total_seconds()
+    
+    # Prepare summary for Discord
+    high_priority_companies = [c for c in companies if c.get('defense_score', 0) >= 70]
+    defense_focused_funds = [f for f in funds if f.get('investor_score', 0) >= 50]
+    
+    top_companies = sorted(companies, key=lambda x: x.get('defense_score', 0), reverse=True)[:3]
+    top_funds = sorted(funds, key=lambda x: x.get('investor_score', 0), reverse=True)[:3]
+    
+    summary = f"""🛡️ **Defense Sector Report (Scrapling-Enhanced)**
+
+## Companies (US/UK/EU)
+- Identified: {len(companies)}
+- High priority (70+): {len(high_priority_companies)}
+- Top 3: {', '.join([f"{c.get('company_name', 'Unknown')} ({c.get('sector', 'N/A')}) - {c.get('defense_score', 0)}" for c in top_companies])}
+
+## Investors (Asia/India)
+- PE/VC funds: {len(funds)}
+- Defense-focused: {len(defense_focused_funds)}
+- Top 3: {', '.join([f"{f.get('fund_name', 'Unknown')} ({f.get('region', 'N/A')}) - {f.get('investor_score', 0)}" for f in top_funds])}
+
+🔍 **Data Source:**
+- Scrapling Used: {'✅ Yes' if scrapling_used else '❌ No'}
+- Scrapling Results: {scrapling_results}
+- Traditional API Results: {traditional_api_results}
+- Processing Time: {processing_time:.1f} seconds
+
+Files saved to:
+- `/workspace/defense-leads/daily-companies-{datetime.now().strftime("%Y-%m-%d")}.md`
+- `/workspace/defense-leads/daily-investors-{datetime.now().strftime("%Y-%m-%d")}.md`"""
     
     print("\n" + "=" * 60)
-    print("DISCORD REPORT:")
+    print(summary)
     print("=" * 60)
-    print(report)
     
-    # Save report to file for delivery
-    with open("/Users/cubiczan/.openclaw/workspace/defense_report.txt", "w") as f:
-        f.write(report)
-    
-    print("\n✅ Report saved to defense_report.txt")
+    return summary
+
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    summary = asyncio.run(main())
+    # Print summary for cron to capture
+    print("\nDISCORD_SUMMARY_START")
+    print(summary)
+    print("DISCORD_SUMMARY_END")

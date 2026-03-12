@@ -1,0 +1,62 @@
+{
+  "date": "2026-03-10T14:10:00.000000",
+  "type": "daily_outreach_check",
+  "campaign": "expense_reduction",
+  "results": {
+    "initial_emails": {
+      "attempted": 0,
+      "sent": 0,
+      "errors": 0,
+      "reason": "All 20 leads are LOW priority (score 40/100) - none meet 70+ threshold"
+    },
+    "follow_ups": {
+      "attempted": 0,
+      "sent": 0,
+      "errors": 0,
+      "reason": "No leads with verified emails due for follow-up today"
+    }
+  },
+  "new_leads": {
+    "date": "2026-03-10",
+    "total": 20,
+    "high_priority": 0,
+    "medium_priority": 0,
+    "low_priority": 20,
+    "average_score": 40,
+    "total_opex": "$11,500,000",
+    "potential_savings": "$1,725,000 - $3,450,000",
+    "status": "Low quality leads - no contact info - not suitable for outreach"
+  },
+  "api_status": {
+    "agentmail_api": "BROKEN",
+    "errors": ["403 Forbidden", "404 Not Found"],
+    "gmail_smtp_fallback": "Available"
+  },
+  "pipeline_status": {
+    "mar_06_cohort": {
+      "companies": 19,
+      "high_priority": 19,
+      "potential_savings": "$2,311,666 - $4,623,332",
+      "status": "Needs email enrichment"
+    },
+    "mar_09_cohort": {
+      "companies": 20,
+      "high_priority": 20,
+      "potential_savings": "$6,334,203",
+      "day4_followups_sent": 5,
+      "status": "Remaining leads need email enrichment"
+    }
+  },
+  "blockers": [
+    "Today's leads scored 40/100 (vs 90+ on previous days)",
+    "No contact enrichment on recent high-priority leads",
+    "AgentMail API still broken (403/404 errors)",
+    "Lead generation producing URL fragments instead of company records"
+  ],
+  "recommended_actions": [
+    "Run Hunter.io enrichment on Mar 6 & Mar 9 high-priority leads",
+    "Investigate lead quality drop in generation process",
+    "Fix AgentMail API or commit to Gmail SMTP fallback",
+    "Add contact enrichment step to lead generation workflow"
+  ]
+}

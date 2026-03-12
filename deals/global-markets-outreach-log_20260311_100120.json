@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-03-11 10:01:20",
+  "results": [
+    {
+      "investor": "Amir Madeson",
+      "email": "madeson@oasisgroup.io",
+      "firm": "OasisGroup",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-11T10:00:12.442604"
+    },
+    {
+      "investor": "Brendan Corcoran",
+      "email": "bcorcoran@alphaflying.com",
+      "firm": "Valence8",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-11T10:00:18.842915"
+    },
+    {
+      "investor": "Edward Lee",
+      "email": "edward.lee@schroders.com",
+      "firm": "Schroders",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-11T10:00:24.674956"
+    },
+    {
+      "investor": "Brian Lovett",
+      "email": "blovett@cameron-holdings.com",
+      "firm": "Cameron Holdings",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-11T10:00:30.917282"
+    },
+    {
+      "investor": "Lance Allen",
+      "email": "lanceallen@georgecapital.co.uk",
+      "firm": "GEORGE CAPITAL LLP",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-11T10:00:36.869090"
+    },
+    {
+      "investor": "Audrey Westfall",
+      "email": "awestfall@oakwellpwm.com",
+      "firm": "Oakwell Private Wealth Management LLC",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-11T10:00:42.468598"
+    },
+    {
+      "investor": "Bennett Fitch",
+      "email": "jimf@lubecouncil.org",
+      "firm": "Noria Corporation",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-11T10:00:57.749198"
+    },
+    {
+      "investor": "Sarita Sood",
+      "email": "sarita.sood@seroneracapitalpartners.com",
+      "firm": "Seronera Capital Partners Ltd",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-11T10:01:07.121836"
+    },
+    {
+      "investor": "Carolyn Raden",
+      "email": "craden@kovitz.com",
+      "firm": "Kovitz",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-11T10:01:12.956374"
+    },
+    {
+      "investor": "James Art, CPA",
+      "email": "james.art@johnsonventures.com",
+      "firm": "JOHNSON VENTURES LIMITED",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-11T10:01:20.885946"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "sent": 10,
+    "failed": 0
+  }
+}

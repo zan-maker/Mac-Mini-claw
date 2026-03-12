@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-03-11T16:03:17.649954",
+  "batch": "4pm",
+  "results": [
+    {
+      "company": "Florida Sheet Metal",
+      "email": "r.aguilar@floridasheetmetal.com",
+      "savings": 37395.0,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "status": "failed"
+    },
+    {
+      "company": "Rigid Concepts LLC",
+      "email": "info@rigidconcepts.com",
+      "savings": 49860.0,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "status": "failed"
+    },
+    {
+      "company": "Nordon, Inc.",
+      "email": "info@nordonplastics.com",
+      "savings": 62325.0,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "status": "failed"
+    },
+    {
+      "company": "GT Precision Manufacturing",
+      "email": "info@gtprecisionmfg.com",
+      "savings": 33240.0,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "status": "failed"
+    },
+    {
+      "company": "Made in America Manufacturing",
+      "email": "info@madeinamericamfg.com",
+      "savings": 45705.0,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "status": "failed"
+    }
+  ],
+  "summary": {
+    "sent": 0,
+    "failed": 5,
+    "total_savings": 0
+  }
+}

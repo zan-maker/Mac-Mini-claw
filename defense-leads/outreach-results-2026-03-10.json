@@ -1,0 +1,137 @@
+{
+  "timestamp": "2026-03-10T14:26:57.544810",
+  "companies_sent": 0,
+  "investors_sent": 0,
+  "companies_failed": 5,
+  "investors_failed": 4,
+  "details": [
+    {
+      "type": "defense_company",
+      "name": "Pixxel",
+      "email": "contact@pixxel.space",
+      "sector": "Space/Defense Satellites",
+      "result": {
+        "success": false,
+        "status": 404,
+        "result": {
+          "name": "NotFoundError",
+          "message": "Route not found"
+        }
+      }
+    },
+    {
+      "type": "defense_company",
+      "name": "Tekever Group",
+      "email": "info@tekever.com",
+      "sector": "Aerospace & Defense",
+      "result": {
+        "success": false,
+        "status": 404,
+        "result": {
+          "name": "NotFoundError",
+          "message": "Route not found"
+        }
+      }
+    },
+    {
+      "type": "defense_company",
+      "name": "Zen Technologies",
+      "email": "info@zentech.in",
+      "sector": "Defense Training Simulation",
+      "result": {
+        "success": false,
+        "status": 404,
+        "result": {
+          "name": "NotFoundError",
+          "message": "Route not found"
+        }
+      }
+    },
+    {
+      "type": "defense_company",
+      "name": "Big Bang Boom Solutions",
+      "email": "info@bigbangboomsolutions.com",
+      "sector": "Anti-Drone Systems",
+      "result": {
+        "success": false,
+        "status": 404,
+        "result": {
+          "name": "NotFoundError",
+          "message": "Route not found"
+        }
+      }
+    },
+    {
+      "type": "defense_company",
+      "name": "Garuda Aerospace",
+      "email": "contact@garudaaerospace.com",
+      "sector": "Drone Technology (India)",
+      "result": {
+        "success": false,
+        "status": 404,
+        "result": {
+          "name": "NotFoundError",
+          "message": "Route not found"
+        }
+      }
+    },
+    {
+      "type": "investor",
+      "name": "Lighthouse Canton",
+      "email": "enquiries@lighthousecanton.com",
+      "fund_name": "Lighthouse Canton",
+      "result": {
+        "success": false,
+        "status": 404,
+        "result": {
+          "name": "NotFoundError",
+          "message": "Route not found"
+        }
+      }
+    },
+    {
+      "type": "investor",
+      "name": "GITAI",
+      "email": "contact@gitai.tech",
+      "fund_name": "GITAI (Japan Robotics)",
+      "result": {
+        "success": false,
+        "status": 404,
+        "result": {
+          "name": "NotFoundError",
+          "message": "Route not found"
+        }
+      }
+    },
+    {
+      "type": "investor",
+      "name": "Seafund",
+      "email": "info@seafund.in",
+      "fund_name": "Seafund (India Defense)",
+      "result": {
+        "success": false,
+        "status": 404,
+        "result": {
+          "name": "NotFoundError",
+          "message": "Route not found"
+        }
+      }
+    },
+    {
+      "type": "investor",
+      "name": "Infostellar",
+      "email": "contact@infostellar.net",
+      "fund_name": "Infostellar (Japan Satcom)",
+      "result": {
+        "success": false,
+        "status": 404,
+        "result": {
+          "name": "NotFoundError",
+          "message": "Route not found"
+        }
+      }
+    }
+  ],
+  "total_sent": 0,
+  "total_failed": 9
+}

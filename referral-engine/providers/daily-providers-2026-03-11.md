@@ -1,0 +1,154 @@
+# Daily Service Providers - 2026-03-11
+
+**Generated:** 2026-03-11 09:11 AM EST
+**Target:** 3-4 providers willing to pay referral fees
+**Status:** ✅ 4 providers identified
+
+---
+
+## Provider #1: Intuit Accountants (Tax/Accounting)
+
+**Category:** Accounting Firms - Tax Services
+**Website:** https://accountants.intuit.com/refer-clients/
+**Type:** Active referral program
+
+### Fee Structure
+- **50% of client payments** after successful tax filing
+- Annual cap: $100,000 per tax firm
+- Payment: Per successful referral
+
+### Scoring (0-100)
+| Criteria | Points | Notes |
+|----------|--------|-------|
+| Willingness | 38/40 | Established program, actively recruiting |
+| Fee Structure | 28/30 | 50% is excellent, only capped at $100k |
+| Referral History | 18/20 | Intuit is reliable payer, large program |
+| Category Potential | 8/10 | High-value tax clients |
+| **TOTAL** | **92/100** | **HIGH PRIORITY** |
+
+### Outreach Status
+- [x] Program verified
+- [ ] Initial outreach pending
+- [ ] Fee negotiation pending
+
+### Notes
+Best-in-class commission rate. Match clients to Intuit Tax Experts (avg 12 years experience). Ideal for firms looking to offload capacity or transitioning clients.
+
+---
+
+## Provider #2: isolved HCM (Accounting/HR Tech)
+
+**Category:** SaaS Partners - HCM Platform
+**Website:** https://www.isolvedhcm.com/partner/preferred/accountants
+**Type:** Active partner program
+
+### Fee Structure
+- Competitive referral fee (exact % TBD in outreach)
+- PartnerHub portal with sales/marketing support
+- Co-branded tools and templates
+- Gift cards and additional rewards
+
+### Scoring (0-100)
+| Criteria | Points | Notes |
+|----------|--------|-------|
+| Willingness | 35/40 | Active partner portal, dedicated program |
+| Fee Structure | 22/30 | "Competitive" but exact % unclear |
+| Referral History | 15/20 | #1 rated in User Experience (Sapient Insights) |
+| Category Potential | 9/10 | Mid-market HCM is high ACV |
+| **TOTAL** | **81/100** | **HIGH PRIORITY** |
+
+### Outreach Status
+- [x] Program verified
+- [ ] Fee structure confirmation needed
+- [ ] Initial outreach pending
+
+### Notes
+Strong reputation (27th Annual HR Systems Survey winner). CPA-focused partner program. Good for accounting firms wanting to expand advisory services.
+
+---
+
+## Provider #3: ARF Financial (Business Lending)
+
+**Category:** Accounting Firms - Business Loan Referrals
+**Website:** https://www.arffinancial.com
+**Type:** Active referral program (Loan Stars)
+
+### Fee Structure
+- **Up to 10% commission** on new fundings
+- Residual income on renewals
+- No cap mentioned
+
+### Scoring (0-100)
+| Criteria | Points | Notes |
+|----------|--------|-------|
+| Willingness | 34/40 | Dedicated "Loan Stars" partner program |
+| Fee Structure | 24/30 | 10% + residuals is solid |
+| Referral History | 14/20 | Smaller player, less track record |
+| Category Potential | 8/10 | Business lending fits accounting client base |
+| **TOTAL** | **80/100** | **HIGH PRIORITY** |
+
+### Outreach Status
+- [x] Program verified
+- [ ] Initial outreach pending
+- [ ] Residual terms clarification needed
+
+### Notes
+Ideal for accountants with clients needing capital. Complements tax/advisory services. Good article content for positioning.
+
+---
+
+## Provider #4: Xactly (Sales Performance Management SaaS)
+
+**Category:** SaaS Partners - Enterprise Software
+**Website:** https://www.xactlycorp.com/referral-partner-agreement
+**Type:** Formal referral partner program
+
+### Fee Structure
+- Commission on closed deals (exact % TBD)
+- 180-day referral window from lead acceptance
+- Must sign formal partner agreement
+
+### Scoring (0-100)
+| Criteria | Points | Notes |
+|----------|--------|-------|
+| Willingness | 30/40 | Formal program, structured process |
+| Fee Structure | 20/30 | Terms exist but % not published |
+| Referral History | 12/20 | Enterprise focus, longer sales cycles |
+| Category Potential | 9/10 | High ACV enterprise SaaS |
+| **TOTAL** | **71/100** | **MEDIUM PRIORITY** |
+
+### Outreach Status
+- [x] Program verified
+- [ ] Fee structure confirmation needed
+- [ ] Partner agreement review pending
+
+### Notes
+Enterprise sales comp platform. Higher deal values but longer cycles. Formal agreement required. Good for B2B client base.
+
+---
+
+## Summary Statistics
+
+| Metric | Value |
+|--------|-------|
+| Total Providers Identified | 4 |
+| High Priority (80+) | 3 |
+| Medium Priority (60-79) | 1 |
+| Low Priority (<60) | 0 |
+| Ready for Outreach | 4 |
+
+### Fee Structures Offered
+- **Intuit:** 50% of client payments (capped $100k/yr)
+- **isolved HCM:** Competitive % (TBD)
+- **ARF Financial:** Up to 10% + residuals
+- **Xactly:** Commission on closed deals (TBD)
+
+### Next Actions
+1. **Intuit** - Send outreach, prioritize for immediate referral agreement
+2. **isolved HCM** - Request fee schedule, initiate partner application
+3. **ARF Financial** - Send outreach, clarify residual terms
+4. **Xactly** - Review partner agreement, confirm commission structure
+
+---
+
+*Report generated by B2B Referral Engine - Supply Side*

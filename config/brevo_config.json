@@ -1,0 +1,10 @@
+{
+    "provider": "brevo",
+    "api_key": "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",
+    "sender_email": "sam@impactquadrant.info",
+    "sender_name": "Agent Manager",
+    "free_tier": "9,000 emails/month",
+    "rate_limit": "300 emails/day",
+    "configured_at": "2026-03-11T21:38:35-04:00",
+    "version": "1.0"
+}

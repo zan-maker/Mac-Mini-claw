@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-03-10 10:14:04",
+  "results": [
+    {
+      "investor": "Loic Comolli",
+      "email": "lcomolli@theschmidt.org",
+      "firm": "The Schmidt Family Foundation",
+      "category": "healthcare",
+      "status": "sent",
+      "timestamp": "2026-03-10T10:13:15.549181"
+    },
+    {
+      "investor": "Kevin Mindell",
+      "email": "kmindell@kcmacquisitions.com",
+      "firm": "KCM Acquisitions",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-10T10:13:21.383264"
+    },
+    {
+      "investor": "Glay Collier",
+      "email": "c.glay@mcbride.co.uk",
+      "firm": "McBride",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-10T10:13:26.676606"
+    },
+    {
+      "investor": "Valerija \u0110ur\u0111evi\u0107",
+      "email": "valerija@nadcapital.com",
+      "firm": "NAD Capital",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-10T10:13:32.346932"
+    },
+    {
+      "investor": "Ed Miller",
+      "email": "emiller@joycefdn.org",
+      "firm": "The Joyce Foundation",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-10T10:13:37.653790"
+    },
+    {
+      "investor": "Sam Levine",
+      "email": "slevine@bagnolsfo.com",
+      "firm": "Bagnols Family Office Investment Partners",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-10T10:13:42.932867"
+    },
+    {
+      "investor": "William McBride",
+      "email": "william.mcbride@credit-suisse.com",
+      "firm": "Capeo Wealth AG",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-10T10:13:48.329710"
+    },
+    {
+      "investor": "Renee L.",
+      "email": "renee.li@alphasquaregroup.com",
+      "firm": "Alpha Square Group",
+      "category": "multi_sector",
+      "status": "sent",
+      "timestamp": "2026-03-10T10:13:53.729654"
+    },
+    {
+      "investor": "Rajeev Kotyan",
+      "email": "rajeev@innovativewealth.com",
+      "firm": "Innovative Advisory Group",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-10T10:13:58.967046"
+    },
+    {
+      "investor": "Austin Dekle",
+      "email": "austin.dekle@boarshead.com",
+      "firm": "Barber & Associates, Inc.",
+      "category": "technology",
+      "status": "sent",
+      "timestamp": "2026-03-10T10:14:04.884278"
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "sent": 10,
+    "failed": 0
+  }
+}

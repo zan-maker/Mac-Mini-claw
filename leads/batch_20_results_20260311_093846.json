@@ -1,0 +1,85 @@
+{
+  "batch": 20,
+  "timestamp": "2026-03-11T09:38:46.201161",
+  "target": "5 emails",
+  "sent": 0,
+  "failed": 5,
+  "total_potential_savings": 0,
+  "results": [
+    {
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "lead": {
+        "company_name": "Rigid Concepts",
+        "domain": "rigidconcepts.com",
+        "email": "info@rigidconcepts.com",
+        "employee_count": 45,
+        "industry": "Manufacturing - CNC/Precision",
+        "decision_maker_first": "there",
+        "score": 95,
+        "location": "McKinney, TX"
+      },
+      "savings": 37395.0
+    },
+    {
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "lead": {
+        "company_name": "Nordon Plastics",
+        "domain": "nordonplastics.com",
+        "email": "info@nordonplastics.com",
+        "employee_count": 60,
+        "industry": "Manufacturing - Plastics",
+        "decision_maker_first": "there",
+        "score": 70,
+        "location": "Rochester, NY"
+      },
+      "savings": 49860.0
+    },
+    {
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "lead": {
+        "company_name": "ABS Machining",
+        "domain": "absmachining.com",
+        "email": "info@absmachining.com",
+        "employee_count": 150,
+        "industry": "Manufacturing - CNC/Fabrication",
+        "decision_maker_first": "there",
+        "score": 65,
+        "location": "Texas"
+      },
+      "savings": 124650.0
+    },
+    {
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "lead": {
+        "company_name": "Hunt and Hunt Ltd",
+        "domain": "huntandhunt.com",
+        "email": "info@huntandhunt.com",
+        "employee_count": 85,
+        "industry": "Manufacturing - Precision Machining",
+        "decision_maker_first": "there",
+        "score": 50,
+        "location": "Energy/Aerospace Hub"
+      },
+      "savings": 70635.0
+    },
+    {
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "lead": {
+        "company_name": "Florida Sheet Metal",
+        "domain": "floridasheetmetal.com",
+        "email": "info@floridasheetmetal.com",
+        "employee_count": 55,
+        "industry": "Manufacturing - Metal Fabrication",
+        "decision_maker_first": "there",
+        "score": 50,
+        "location": "Melbourne, FL"
+      },
+      "savings": 45705.0
+    }
+  ]
+}

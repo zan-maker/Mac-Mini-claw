@@ -1,0 +1,320 @@
+{
+  "pipeline_start": "2026-03-10T10:01:04.592277",
+  "ai_generation": {
+    "status": "sample_data",
+    "messages_generated": 30,
+    "output_file": "/Users/cubiczan/.openclaw/workspace/bdev_ai_sample_20260310_100104.csv",
+    "timestamp": "2026-03-10T10:01:04.611744"
+  },
+  "agentmail_sending": {
+    "total": 30,
+    "sent": 0,
+    "failed": 30,
+    "skipped": 0,
+    "details": [
+      {
+        "index": 0,
+        "contact": "Alex Johnson",
+        "email": "alex.johnson@techventuresfund.com",
+        "account": "Primary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 1,
+        "contact": "Maria Garcia",
+        "email": "maria.garcia@realestatepartnersllc.com",
+        "account": "Secondary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 2,
+        "contact": "David Chen",
+        "email": "david.chen@growthcapitalinc.com",
+        "account": "Backup",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 3,
+        "contact": "Sarah Williams",
+        "email": "sarah.williams@healthcareventures.com",
+        "account": "Primary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 4,
+        "contact": "James Wilson",
+        "email": "james.wilson@fintechfocusfund.com",
+        "account": "Secondary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 5,
+        "contact": "Michael Brown",
+        "email": "michael.brown@sustainableenergycapital.com",
+        "account": "Backup",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 6,
+        "contact": "Emily Davis",
+        "email": "emily.davis@biotechinnovationsfund.com",
+        "account": "Primary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 7,
+        "contact": "Robert Miller",
+        "email": "robert.miller@consumergoodspartners.com",
+        "account": "Secondary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 8,
+        "contact": "Jennifer Taylor",
+        "email": "jennifer.taylor@industrialgrowthfund.com",
+        "account": "Backup",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 9,
+        "contact": "William Anderson",
+        "email": "william.anderson@digitalmediaventures.com",
+        "account": "Primary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 10,
+        "contact": "Jessica Thomas",
+        "email": "jessica.thomas@infrastructurecapital.com",
+        "account": "Secondary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 11,
+        "contact": "Christopher Martinez",
+        "email": "christopher.martinez@retailexpansionfund.com",
+        "account": "Backup",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 12,
+        "contact": "Amanda Robinson",
+        "email": "amanda.robinson@agricultureinvestmentgroup.com",
+        "account": "Primary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 13,
+        "contact": "Daniel Clark",
+        "email": "daniel.clark@educationtechnologyfund.com",
+        "account": "Secondary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 14,
+        "contact": "Lisa Rodriguez",
+        "email": "lisa.rodriguez@cleanenergypartners.com",
+        "account": "Backup",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 15,
+        "contact": "Matthew Lewis",
+        "email": "matthew.lewis@logisticssupplychainfund.com",
+        "account": "Primary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 16,
+        "contact": "Michelle Lee",
+        "email": "michelle.lee@hospitalityinvestmentgroup.com",
+        "account": "Secondary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 17,
+        "contact": "Kevin Walker",
+        "email": "kevin.walker@manufacturinggrowthfund.com",
+        "account": "Backup",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 18,
+        "contact": "Ashley Hall",
+        "email": "ashley.hall@pharmaceuticalventures.com",
+        "account": "Primary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 19,
+        "contact": "Brian Allen",
+        "email": "brian.allen@telecominfrastructurefund.com",
+        "account": "Secondary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 20,
+        "contact": "Stephanie Young",
+        "email": "stephanie.young@e-commercegrowthfund.com",
+        "account": "Backup",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 21,
+        "contact": "Joshua King",
+        "email": "joshua.king@cybersecurityventures.com",
+        "account": "Primary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 22,
+        "contact": "Nicole Wright",
+        "email": "nicole.wright@aimachinelearningfund.com",
+        "account": "Secondary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 23,
+        "contact": "Andrew Scott",
+        "email": "andrew.scott@blockchaincapital.com",
+        "account": "Backup",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 24,
+        "contact": "Heather Green",
+        "email": "heather.green@spacetechnologyfund.com",
+        "account": "Primary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 25,
+        "contact": "Ryan Adams",
+        "email": "ryan.adams@quantumcomputingventures.com",
+        "account": "Secondary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 26,
+        "contact": "Samantha Baker",
+        "email": "samantha.baker@roboticsinvestmentgroup.com",
+        "account": "Backup",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 27,
+        "contact": "Jonathan Nelson",
+        "email": "jonathan.nelson@virtualrealityfund.com",
+        "account": "Primary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 28,
+        "contact": "Megan Carter",
+        "email": "megan.carter@augmentedrealityventures.com",
+        "account": "Secondary",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      },
+      {
+        "index": 29,
+        "contact": "Justin Mitchell",
+        "email": "justin.mitchell@metaversecapital.com",
+        "account": "Backup",
+        "status": "failed",
+        "message_id": null,
+        "error": "HTTP 403: {\"message\":\"Forbidden\"}"
+      }
+    ]
+  },
+  "account_usage": {
+    "Primary": {
+      "today_count": 0,
+      "today_date": "2026-03-10",
+      "total_sent": 0,
+      "last_used": null,
+      "errors": 10,
+      "daily_limit": 1000
+    },
+    "Secondary": {
+      "today_count": 0,
+      "today_date": "2026-03-10",
+      "total_sent": 0,
+      "last_used": null,
+      "errors": 10,
+      "daily_limit": 1000
+    },
+    "Backup": {
+      "today_count": 0,
+      "today_date": "2026-03-10",
+      "total_sent": 0,
+      "last_used": null,
+      "errors": 10,
+      "daily_limit": 1000
+    }
+  },
+  "files_created": [
+    {
+      "type": "ai_messages",
+      "path": "/Users/cubiczan/.openclaw/workspace/bdev_ai_sample_20260310_100104.csv",
+      "size": 23435
+    }
+  ]
+}

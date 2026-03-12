@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-03-10T19:26:29.477780",
+  "opportunities": [
+    {
+      "type": "news_catalyst_variance",
+      "description": "Iran conflict news vs market pricing",
+      "news_count": 5,
+      "confidence": 75,
+      "recommendation": "BUY YES on gas/oil markets",
+      "position_size": 10,
+      "reasoning": "5 recent news items about Iran conflict could impact oil/gas prices"
+    },
+    {
+      "type": "portfolio_optimization",
+      "description": "Capital allocation optimization",
+      "available_capital": 14,
+      "recommendation": "Deploy $14 into highest confidence opportunity",
+      "position_size": 14,
+      "reasoning": "$14 available, $33 currently invested"
+    }
+  ],
+  "overall_recommendation": {
+    "action": "HOLD or SMALL BUY",
+    "position_size": 5,
+    "average_confidence": 37.5,
+    "best_opportunity": "news_catalyst_variance"
+  }
+}

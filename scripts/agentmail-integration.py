@@ -9,7 +9,7 @@ import json
 from datetime import datetime
 
 # AgentMail Configuration
-AGENTMAIL_API_KEY = "am_us_f03e762c50d6e353bbe7b4307b452bd73f58aed725bc0ef53f25d9f8e91c962a"
+AGENTMAIL_API_KEY = "am_800b9649c9b5919fe722634e153074fd921b88deab8d659fe6042bb4f6bc1a68"
 AGENTMAIL_INBOX = "zane@agentmail.to"  # Use lowercase
 CC_EMAIL = "sam@impactquadrant.info"
 

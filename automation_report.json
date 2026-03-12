@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-03-11T08:21:56.917165",
+  "automation_run": true,
+  "pinchtab_available": true,
+  "posts_scheduled": 1,
+  "posts_successful": 0,
+  "success_rate": 0.0,
+  "profiles_active": {
+    "sam_desigan": false,
+    "shyam_desigan": false
+  },
+  "next_scheduled_posts": [
+    {
+      "time": "09:00",
+      "profile": "sam_desigan",
+      "topic": "Business Expense Reduction"
+    }
+  ],
+  "recommendations": [
+    "Monitor engagement metrics daily",
+    "Adjust posting times based on performance",
+    "Expand to Twitter when LinkedIn strategy is stable"
+  ]
+}

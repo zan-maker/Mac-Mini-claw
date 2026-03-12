@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-03-10T19:25:23.456113",
+  "scan_method": "hybrid_pinchtab_api",
+  "pinchtab_sources": 0,
+  "api_opportunities": 0,
+  "combined_analysis": {},
+  "api_opportunities_list": [],
+  "final_recommendation": {
+    "score": 50,
+    "recommendation": "HOLD - Monitor closely",
+    "position_size": "0-5",
+    "confidence": "50%",
+    "reasoning": "Combined Pinchtab browser scan + API analysis"
+  }
+}

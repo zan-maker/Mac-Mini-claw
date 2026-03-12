@@ -34,8 +34,8 @@
       "entry_time": "2026-03-04T09:00:00",
       "settlement_date": "2026-03-08",
       "status": "completed",
-      "notes": "Cashed out at sizable profit on 2026-03-09",
-      "exit_time": "2026-03-09T18:00:00.666021",
+      "notes": "Cashed out at sizable profit on 2026-03-11",
+      "exit_time": "2026-03-11T18:00:00.587878",
       "exit_price": 3.31,
       "profit": 25.0,
       "return_pct": 50.0
@@ -53,9 +53,30 @@
       "return_pct": 352.0,
       "status": "completed",
       "notes": "352% return on Paxton political market"
+    },
+    {
+      "id": "trade_1773195518",
+      "ticker": "GASMONTH-3.50",
+      "type": "yes",
+      "size": 5,
+      "shares": 10,
+      "price": 0.46,
+      "time": "2026-03-10T22:18:38.550432",
+      "status": "active"
+    },
+    {
+      "id": "trade_1773195518",
+      "ticker": "CHICAGO-45.5",
+      "type": "no",
+      "size": 5,
+      "shares": 7,
+      "price": 0.7,
+      "time": "2026-03-10T22:18:38.551424",
+      "status": "active"
     }
   ],
-  "total_invested": 33,
-  "total_profit": 138.0,
-  "active_trades_count": 2
+  "total_invested": 43,
+  "total_profit": 188.0,
+  "active_trades_count": 4,
+  "active_trades": 4
 }

@@ -1,5 +1,27 @@
 # Expense Reduction Lead Pipeline
 
+Last Updated: 2026-03-10 09:02:20
+Total Leads Today: 20
+
+## Today's Summary
+- High Priority: 0
+- Medium Priority: 0
+- Low Priority: 20
+
+## Top Leads Today
+
+- **Builtintoronto** (Technology) - Score: 40 - $86,250 - $172,500
+- **Landbase** (Technology) - Score: 40 - $86,250 - $172,500
+- **Reddit** (Manufacturing) - Score: 40 - $86,250 - $172,500
+- **Hubsell** (Manufacturing) - Score: 40 - $86,250 - $172,500
+- **Employbl** (Technology) - Score: 40 - $86,250 - $172,500
+
+---
+
+## Previous Entries
+
+# Expense Reduction Lead Pipeline
+
 **Last Updated:** 2026-03-06 09:01:52
 
 ## Current Batch (2026-03-06)
@@ -92,4 +114,42 @@
 - High Priority: 20
 - Total Potential Savings: $6,334,203
 - Top Lead: Vitrum (Manufacturing)
+
+
+## 2026-03-11
+
+### Theenergycfo
+- Industry: Manufacturing
+- Employees: ~100
+- Potential Savings: $172,500 - $345,000
+- Score: 80/100
+- Status: New
+
+### 1Cfo
+- Industry: Manufacturing
+- Employees: ~100
+- Potential Savings: $172,500 - $345,000
+- Score: 83/100
+- Status: New
+
+### Crcfo
+- Industry: Manufacturing
+- Employees: ~100
+- Potential Savings: $172,500 - $345,000
+- Score: 87/100
+- Status: New
+
+### Seatonhill
+- Industry: Manufacturing
+- Employees: ~100
+- Potential Savings: $172,500 - $345,000
+- Score: 87/100
+- Status: New
+
+### Jrgpartners
+- Industry: Manufacturing
+- Employees: ~100
+- Potential Savings: $172,500 - $345,000
+- Score: 87/100
+- Status: New
 

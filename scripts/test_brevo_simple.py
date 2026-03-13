@@ -5,10 +5,22 @@ Simple Brevo test with real email
 
 import os
 import sys
-sys.path.append('/Users/cubiczan/.openclaw/workspace/scripts')
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Get API key from environment
+BREVO_API_KEY = os.getenv('BREVO_API_KEY')
+if not BREVO_API_KEY:
+    print("❌ ERROR: BREVO_API_KEY not found in environment variables")
+    print("   Please create a .env file with BREVO_API_KEY=xkeysib-...")
+    sys.exit(1)
 
 # Set API key
-os.environ['BREVO_API_KEY'] = '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'
+os.environ['BREVO_API_KEY'] = BREVO_API_KEY
+
+sys.path.append('/Users/cubiczan/.openclaw/workspace/scripts')
 
 from brevo_client import BrevoClient
 

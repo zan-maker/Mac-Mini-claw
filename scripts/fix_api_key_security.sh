@@ -238,11 +238,12 @@ cat > "$CONFIG_DIR/API_KEY_ROTATION_GUIDE.md" << 'GUIDE_EOF'
 Based on security audit, these keys need immediate rotation:
 
 ### 1. Brevo (Email)
-**Key:** `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`
+**Key:** `[MOVED TO .ENV FILE - Check BREVO_API_KEY]`
+**Status:** ✅ MOVED TO .ENV FILE
 **Rotation Steps:**
 1. Go to: https://app.brevo.com/settings/keys/api
 2. Generate new API key
-3. Update `config/.env`: `BREVO_API_KEY=new_key`
+3. Update `.env` file: `BREVO_API_KEY=new_key`
 4. Test email sending
 
 ### 2. OpenRouter (LLM)

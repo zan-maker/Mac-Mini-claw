@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 🚀 IMMEDIATE BREVO CONFIGURATION
-# Using provided API key: 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
+# API key loaded from environment variables
 
 set -e
 
@@ -9,8 +9,20 @@ echo "========================================="
 echo "🚀 IMMEDIATE BREVO CONFIGURATION"
 echo "========================================="
 
+# Load environment variables
+if [ -f "/Users/cubiczan/.openclaw/workspace/.env" ]; then
+    source "/Users/cubiczan/.openclaw/workspace/.env"
+    echo "✅ Loaded environment variables from .env file"
+elif [ -n "$BREVO_API_KEY" ]; then
+    echo "✅ Using BREVO_API_KEY from environment"
+else
+    echo "❌ ERROR: BREVO_API_KEY not found"
+    echo "   Please set BREVO_API_KEY environment variable or create .env file"
+    exit 1
+fi
+
 # Configuration
-API_KEY="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"
+API_KEY="$BREVO_API_KEY"
 CONFIG_DIR="/Users/cubiczan/.openclaw/workspace/config"
 BREVO_CONFIG="$CONFIG_DIR/brevo_config.json"
 ENV_FILE="$CONFIG_DIR/.env"

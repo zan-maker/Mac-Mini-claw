@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-03-12T09:33:00.549067",
+  "batch": "9am",
+  "method": "Gmail SMTP",
+  "results": [
+    {
+      "company": "Florida Sheet Metal",
+      "email": "r.aguilar@floridasheetmetal.com",
+      "savings": 45705.0,
+      "status": "sent",
+      "timestamp": "2026-03-12T09:32:54.989044"
+    },
+    {
+      "company": "Rigid Concepts LLC",
+      "email": "info@rigidconcepts.com",
+      "savings": 60663.0,
+      "status": "sent",
+      "timestamp": "2026-03-12T09:32:56.381358"
+    },
+    {
+      "company": "Nordon, Inc.",
+      "email": "info@nordonplastics.com",
+      "savings": 75621.0,
+      "status": "sent",
+      "timestamp": "2026-03-12T09:32:57.656341"
+    },
+    {
+      "company": "GT Precision Manufacturing",
+      "email": "info@gtprecisionmfg.com",
+      "savings": 45705.0,
+      "status": "sent",
+      "timestamp": "2026-03-12T09:32:59.287827"
+    },
+    {
+      "company": "Made in America Manufacturing",
+      "email": "info@madeinamericamfg.com",
+      "savings": 55677.0,
+      "status": "sent",
+      "timestamp": "2026-03-12T09:33:00.549025"
+    }
+  ],
+  "summary": {
+    "sent": 5,
+    "failed": 0,
+    "total_potential_savings": 283371.0
+  }
+}

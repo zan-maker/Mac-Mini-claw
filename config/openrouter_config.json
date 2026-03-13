@@ -1,20 +1,20 @@
 {
-    "provider": "openrouter",
-    "api_key": "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",
-    "api_endpoint": "https://openrouter.ai/api/v1",
-    "free_models": [
-        "deepseek/deepseek-r1",
-        "deepseek/deepseek-v3",
-        "meta-llama/llama-3.2-3b-instruct",
-        "moonshot/moonshot-v1-8k",
-        "google/gemma-2-2b-it",
-        "microsoft/phi-3.5-mini-instruct"
-    ],
-    "rate_limits": {
-        "requests_per_minute": 60,
-        "tokens_per_minute": 60000
-    },
-    "free_tier": "Multiple free models, rate limited",
-    "configured_at": "2026-03-11T21:42:05-04:00",
-    "version": "1.0"
+  "provider": "openrouter",
+  "api_key": "${API_KEY}",
+  "api_endpoint": "${API_ENDPOINT}",
+  "free_models": [
+    "deepseek/deepseek-r1",
+    "deepseek/deepseek-v3",
+    "meta-llama/llama-3.2-3b-instruct",
+    "moonshot/moonshot-v1-8k",
+    "google/gemma-2-2b-it",
+    "microsoft/phi-3.5-mini-instruct"
+  ],
+  "rate_limits": {
+    "requests_per_minute": 60,
+    "tokens_per_minute": 60000
+  },
+  "free_tier": "Multiple free models, rate limited",
+  "configured_at": "2026-03-11T21:42:05-04:00",
+  "version": "1.0"
 }

@@ -1,0 +1,21 @@
+{
+  "v": 1,
+  "name": "Test API Collection",
+  "folders": [
+    {
+      "name": "Test Requests",
+      "requests": [
+        {
+          "v": 1,
+          "name": "Test HTTP Bin",
+          "method": "GET",
+          "endpoint": "https://httpbin.org/get",
+          "params": [],
+          "headers": [],
+          "preRequestScript": "",
+          "testScript": "pm.test('Status code is 200', function() { pm.response.to.have.status(200); });\npm.test('Response time < 2s', function() { pm.expect(pm.response.responseTime).to.be.below(2000); });"
+        }
+      ]
+    }
+  ]
+}

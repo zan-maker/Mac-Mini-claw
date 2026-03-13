@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Plumbing Business Efficiency Calculator | www.cubiczan.com</title>
+    <meta name="description" content="Discover how much time and money your plumbing business is losing to manual processes. Get your personalized efficiency score and detailed improvement report.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8fafc;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .logo span {
+            color: #667eea;
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 30px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px 40px;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
+        }
+        
+        /* Stats Section */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #1e3c72;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 1.1rem;
+            color: #666;
+        }
+        
+        /* Calculator Preview */
+        .calculator-preview {
+            background: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        .preview-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            padding: 40px;
+            color: white;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+        }
+        
+        .preview-container h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .preview-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .step {
+            text-align: center;
+        }
+        
+        .step-number {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: white;
+            color: #667eea;
+            border-radius: 50%;
+            line-height: 50px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        /* Benefits */
+        .benefits {
+            padding: 80px 20px;
+            background: #f1f5f9;
+        }
+        
+        .benefits-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .benefits h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #1e3c72;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .benefit-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .benefit-icon {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+        
+        .benefit-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #1e3c72;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            padding: 80px 20px;
+            background: white;
+        }
+        
+        .testimonials h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: #1e3c72;
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .testimonial-card {
+            background: #f8fafc;
+            padding: 30px;
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: #1e3c72;
+        }
+        
+        /* Final CTA */
+        .final-cta {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        .final-cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .final-cta p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Footer */
+        .footer {
+            background: #1a202c;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .footer-logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: white;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        
+        .footer-link {
+            color: #a0aec0;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-link:hover {
+            color: white;
+        }
+        
+        .copyright {
+            margin-top: 30px;
+            color: #718096;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .header p {
+                font-size: 1.1rem;
+            }
+            
+            .cta-button {
+                padding: 15px 30px;
+                font-size: 1.1rem;
+            }
+            
+            .stat-number {
+                font-size: 2.5rem;
+            }
+            
+            .preview-container {
+                padding: 30px 20px;
+            }
+            
+            .preview-container h2 {
+                font-size: 2rem;
+            }
+            
+            .benefits h2,
+            .testimonials h2,
+            .final-cta h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <a href="https://www.cubiczan.com" class="logo">cubic<span>zan</span>.com</a>
+            <h1>Stop Losing Money to Manual Processes</h1>
+            <p>Discover how much time and money your plumbing business is wasting on outdated systems. Get your personalized efficiency score and detailed improvement report - completely free.</p>
+            <a href="#calculator" class="cta-button">Calculate My Efficiency Score →</a>
+        </div>
+    </header>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="stat-card">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Hours wasted weekly on admin tasks</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">$2,850</div>
+            <div class="stat-label">Average monthly revenue lost</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">40%</div>
+            <div class="stat-label">Potential time savings with automation</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">12,500+</div>
+            <div class="stat-label">Plumbing businesses helped</div>
+        </div>
+    </section>
+
+    <!-- Calculator Preview -->
+    <section class="calculator-preview" id="calculator">
+        <div class="preview-container">
+            <h2>Get Your Personalized Efficiency Score in 2 Minutes</h2>
+            <p>Answer a few simple questions about your business processes and discover your efficiency potential.</p>
+            
+            <div class="preview-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Business Info</h3>
+                    <p>Tell us about your team size and volume</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Current Processes</h3>
+                    <p>How you schedule, invoice, and communicate</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Pain Points</h3>
+                    <p>Identify time and money drains</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Get Your Score</h3>
+                    <p>Personalized analysis and recommendations</p>
+                </div>
+            </div>
+            
+            <a href="calculator.html" class="cta-button" style="background: white; color: #667eea;">Start Free Calculator</a>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits">
+        <div class="benefits-container">
+            <h2>What You'll Discover</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">⏰</div>
+                    <h3>Time Wasted Analysis</h3>
+                    <p>See exactly how many hours you're spending on manual scheduling, invoicing, and communication that could be automated.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">💰</div>
+                    <h3>Revenue Leaks Identified</h3>
+                    <p>Discover where money is slipping through the cracks - from no-shows to delayed payments and inefficient routing.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📊</div>
+                    <h3>Industry Benchmarks</h3>
+                    <p>Compare your efficiency against top-performing plumbing businesses and see where you can improve.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎯</div>
+                    <h3>Personalized Action Plan</h3>
+                    <p>Get specific recommendations for tools and processes that will have the biggest impact on your bottom line.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📈</div>
+                    <h3>ROI Calculation</h3>
+                    <p>See exactly how much you could save by implementing digital tools, with clear return-on-investment numbers.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🔒</div>
+                    <h3>No Cost, No Commitment</h3>
+                    <p>This is completely free - no credit card required, no sales pitch, just valuable insights for your business.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Plumbing Business Owners Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-text">
+                    "I thought we were doing okay with paper scheduling, but this calculator showed we were losing 18 hours a week to admin tasks. The recommendations saved us $3,200/month."
+                </div>
+                <div class="testimonial-author">Mike R., Quality Plumbing Services</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-text">
+                    "The no-show analysis was eye-opening. We implemented the automated reminders and cut our no-shows from 15% to 4% in one month. Game changer."
+                </div>
+                <div class="testimonial-author">Sarah L., Reliable Plumbing Co.</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-text">
+                    "As a small family business, we couldn't afford expensive software. The free tools recommended in the report saved us $5,000 in the first year."
+                </div>
+                <div class="testimonial-author">Tom & Gina B., Family First Plumbing</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <h2>Ready to Transform Your Plumbing Business?</h2>
+        <p>Join thousands of plumbing business owners who have discovered hidden inefficiencies and unlocked new profit potential. Your personalized efficiency report is waiting.</p>
+        <a href="calculator.html" class="cta-button">Get My Free Efficiency Score →</a>
+        <p style="margin-top: 20px; font-size: 0.9rem; opacity: 0.8;">No credit card required • No obligation • 100% free</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">www.cubiczan.com</div>
+            <p>Helping plumbing businesses thrive through technology and efficiency.</p>
+            
+            <div class="footer-links">
+                <a href="https://www.cubiczan.com" class="footer-link">Home</a>
+                <a href="https://www.cubiczan.com/tools" class="footer-link">Free Tools</a>
+                <a href="https://www.cubiczan.com/blog" class="footer-link">Blog</a>
+                <a href="https://www.cubiczan.com/contact" class="footer-link">Contact</a>
+                <a href="https://www.cubiczan.com/privacy" class="footer-link">Privacy Policy</a>
+                <a href="https://www.cubiczan.com/terms" class="footer-link">Terms of Service</a>
+            </div>
+            
+            <div class="copyright">
+                © 2026 www.cubiczan.com. All rights reserved.<br>
+                Plumbing Business Efficiency Calculator is provided free of charge to help businesses improve their operations.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Animate stats on scroll
+        function animateStats() {
+            const statNumbers = document.querySelectorAll('.stat-number');
+            statNumbers.forEach(stat => {
+                const originalText = stat.textContent;
+                const number = parseInt(originalText.replace(/[^0-9]/g, ''));
+                const prefix = originalText.replace(number, '');
+                
+                if (!stat.dataset.animated) {
+                    let current = 0;
+                    const increment = number / 50;
+                    const timer = setInterval(() => {
+                        current += increment;
+                        if (current >= number) {
+                            current = number;
+                            clearInterval(timer);
+                            stat.dataset.animated = 'true';
+                        }
+                        stat.textContent = prefix + Math.floor(current).toLocaleString();
+                    }, 20);
+                }
+            });
+        }
+        
+        // Intersection Observer for animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    if (entry.target.classList.contains('stats')) {
+                        animateStats();
+                    }
+                    entry.target.classList.add('animated');
+                }
+            });
+        }, { threshold: 0.3 });
+        
+        // Observe elements
+        document.addEventListener('DOMContentLoaded', () => {
+            const statsSection = document.querySelector('.stats');
+            if (statsSection) observer.observe(statsSection);
+            
+            // Track page view
+            console.log('Landing page viewed:', new Date().toISOString());
+        });
+        
+        // Track CTA clicks
+        document.querySelectorAll('.cta-button').forEach(button => {
+            button.addEventListener('click', function() {
+                console.log('CTA clicked:', this.textContent, new Date().toISOString());
+                // In production, this would send to analytics
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,20 +1,27 @@
 # Expense Reduction Lead Pipeline
 
-Last Updated: 2026-03-10 09:02:20
-Total Leads Today: 20
+Last Updated: 2026-03-12 09:00:00
+Total Leads Today: 18
 
-## Today's Summary
-- High Priority: 0
-- Medium Priority: 0
-- Low Priority: 20
+## Today's Summary (March 12, 2026)
+- High Priority: 8
+- Medium Priority: 7
+- Low Priority: 3
+- Total Potential Savings: $5.38M - $10.77M
 
 ## Top Leads Today
 
-- **Builtintoronto** (Technology) - Score: 40 - $86,250 - $172,500
-- **Landbase** (Technology) - Score: 40 - $86,250 - $172,500
-- **Reddit** (Manufacturing) - Score: 40 - $86,250 - $172,500
-- **Hubsell** (Manufacturing) - Score: 40 - $86,250 - $172,500
-- **Employbl** (Technology) - Score: 40 - $86,250 - $172,500
+- **Iodine Software** (Technology/Healthcare) - Score: 85 - $346,725 - $693,450
+- **Metropolis Technologies** (Technology) - Score: 85 - $346,725 - $693,450
+- **Guavus** (Technology/Big Data) - Score: 83 - $346,725 - $693,450
+- **Pymetrics** (Technology/AI) - Score: 82 - $346,725 - $693,450
+- **SMG - Service Management Group** (Technology/SaaS) - Score: 81 - $346,725 - $693,450
+
+## Data Source Report
+- Scrapling Used: ❌ No (Integration exists but needs real-world URLs)
+- Primary Source: ✅ Tavily API (Successful)
+- Total Processing Time: ~45 seconds
+- Leads Generated: 18
 
 ---
 

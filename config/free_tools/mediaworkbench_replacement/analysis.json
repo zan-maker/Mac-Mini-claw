@@ -1,0 +1,75 @@
+{
+  "use_cases": [
+    {
+      "feature": "Content generation",
+      "current_tool": "Mediaworkbench.ai",
+      "current_cost": 30,
+      "free_alternatives": [
+        "OpenRouter free models",
+        "Hugging Face",
+        "Local Ollama"
+      ],
+      "migration_effort": "Low"
+    },
+    {
+      "feature": "Copywriting",
+      "current_tool": "Mediaworkbench.ai",
+      "current_cost": 40,
+      "free_alternatives": [
+        "Brevo AI features",
+        "OpenAI free tier",
+        "Custom templates"
+      ],
+      "migration_effort": "Medium"
+    },
+    {
+      "feature": "Image generation",
+      "current_tool": "Mediaworkbench.ai",
+      "current_cost": 30,
+      "free_alternatives": [
+        "Pollinations.AI",
+        "Stable Diffusion WebUI",
+        "DALL-E mini"
+      ],
+      "migration_effort": "Low"
+    }
+  ],
+  "total_cost": 100,
+  "migration_steps": [
+    {
+      "step": 1,
+      "action": "Identify exact Mediaworkbench features used",
+      "details": "Review API calls and generated content"
+    },
+    {
+      "step": 2,
+      "action": "Map to free alternatives",
+      "details": "Match each feature to free tool"
+    },
+    {
+      "step": 3,
+      "action": "Test free alternatives",
+      "details": "Generate sample content with each alternative"
+    },
+    {
+      "step": 4,
+      "action": "Update integration code",
+      "details": "Replace Mediaworkbench API calls"
+    },
+    {
+      "step": 5,
+      "action": "Monitor quality and performance",
+      "details": "7-day monitoring period"
+    },
+    {
+      "step": 6,
+      "action": "Cancel Mediaworkbench subscription",
+      "details": "After successful migration"
+    }
+  ],
+  "estimated_savings": {
+    "monthly": 100,
+    "annual": 1200
+  },
+  "analysis_date": "2026-03-12T18:13:37.231396"
+}

@@ -1,0 +1,161 @@
+{
+  "date": "2026-03-12T14:01:00.000000",
+  "type": "daily_outreach_check",
+  "campaign": "expense_reduction",
+  "results": {
+    "initial_emails": {
+      "attempted": 0,
+      "sent": 0,
+      "errors": 0,
+      "reason": "No contact email addresses available for today's 8 high-priority leads - enrichment required"
+    },
+    "follow_ups": {
+      "attempted": 0,
+      "sent": 0,
+      "errors": 0,
+      "reason": "Previous cohorts lack verified email addresses for follow-up"
+    }
+  },
+  "new_leads": {
+    "date": "2026-03-12",
+    "total": 18,
+    "high_priority": 8,
+    "medium_priority": 7,
+    "low_priority": 3,
+    "average_score": 70,
+    "total_opex": "$17,405,000",
+    "potential_savings": "$2.61M - $5.22M",
+    "status": "High quality leads but no contact enrichment - cannot proceed with outreach"
+  },
+  "api_status": {
+    "agentmail_api": "BROKEN",
+    "errors": ["403 Forbidden on all accounts (Primary, Secondary, Backup)"],
+    "gmail_smtp_fallback": "Available but not used (wrong sender identity)"
+  },
+  "high_priority_leads_today": [
+    {
+      "company": "Iodine Software",
+      "industry": "Technology/Healthcare Software",
+      "location": "Wisconsin, USA",
+      "employees": "201-500",
+      "score": 85,
+      "potential_savings": "$346,725 - $693,450",
+      "contact_email": null,
+      "website": "iodinesoftware.com"
+    },
+    {
+      "company": "Metropolis Technologies",
+      "industry": "Technology/Software",
+      "location": "California, USA",
+      "employees": "201-500",
+      "score": 85,
+      "potential_savings": "$346,725 - $693,450",
+      "contact_email": null,
+      "website": "metropolis.com"
+    },
+    {
+      "company": "Pymetrics",
+      "industry": "Technology/AI/HR Tech",
+      "location": "New York, USA",
+      "employees": "201-500",
+      "score": 82,
+      "potential_savings": "$346,725 - $693,450",
+      "contact_email": null,
+      "website": "pymetrics.ai"
+    },
+    {
+      "company": "Guavus",
+      "industry": "Technology/Big Data Analytics",
+      "location": "California, USA",
+      "employees": "201-500",
+      "score": 83,
+      "potential_savings": "$346,725 - $693,450",
+      "contact_email": null,
+      "website": "guavus.com"
+    },
+    {
+      "company": "Infotech",
+      "industry": "Technology/Software",
+      "location": "Florida, USA",
+      "employees": "201-500",
+      "score": 80,
+      "potential_savings": "$346,725 - $693,450",
+      "contact_email": null,
+      "website": "infotechfl.com"
+    },
+    {
+      "company": "SMG - Service Management Group",
+      "industry": "Technology/SaaS",
+      "location": "Illinois, USA",
+      "employees": "201-500",
+      "score": 81,
+      "potential_savings": "$346,725 - $693,450",
+      "contact_email": null,
+      "website": "smg.com"
+    },
+    {
+      "company": "Method Financial",
+      "industry": "Financial Services/Fintech",
+      "location": "Austin, TX",
+      "employees": "51-200",
+      "score": 78,
+      "potential_savings": "$172,500 - $345,000",
+      "contact_email": null,
+      "funding": "$60.5M raised"
+    },
+    {
+      "company": "Premier Technology Group",
+      "industry": "Technology/IT Services",
+      "location": "Virginia, USA",
+      "employees": "201-500",
+      "score": 75,
+      "potential_savings": "$346,725 - $693,450",
+      "contact_email": null
+    }
+  ],
+  "pipeline_status": {
+    "mar_12_cohort": {
+      "companies": 8,
+      "high_priority": 8,
+      "potential_savings": "$2.61M - $5.22M",
+      "status": "Needs contact enrichment (Hunter.io)"
+    },
+    "mar_11_cohort": {
+      "companies": 20,
+      "high_priority": 20,
+      "potential_savings": "$3.45M - $6.9M",
+      "day": 1,
+      "status": "No enrichment, cannot follow up"
+    },
+    "mar_09_cohort": {
+      "companies": 20,
+      "high_priority": 20,
+      "potential_savings": "$6.33M",
+      "day": 3,
+      "status": "Day 4 follow-ups sent via Gmail on Mar 9"
+    },
+    "mar_06_cohort": {
+      "companies": 19,
+      "high_priority": 19,
+      "potential_savings": "$2.3M - $4.6M",
+      "day": 6,
+      "status": "Day 7 follow-ups needed but no emails"
+    }
+  },
+  "blockers": [
+    "AgentMail API returning 403 Forbidden on all accounts",
+    "No contact email enrichment for today's leads",
+    "Lead generation producing company data without decision-maker contacts",
+    "Gmail SMTP available but uses wrong sender (sam@cubiczan.com vs Zander@agentmail.to)"
+  ],
+  "recommended_actions": [
+    "1. Investigate AgentMail API 403 errors - contact AgentMail support",
+    "2. Run Hunter.io enrichment on Mar 12 high-priority leads (8 companies)",
+    "3. Add contact enrichment step to daily lead generation workflow",
+    "4. Consider Apollo.io or ZoomInfo as alternative enrichment sources",
+    "5. If urgent, use Gmail fallback with updated signature to match Zander persona"
+  ],
+  "discord_report_sent": true,
+  "discord_channel": "1471933082297831545",
+  "discord_message_id": "1481714420903313439"
+}

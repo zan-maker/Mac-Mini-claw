@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Profit Margin Analyzer | BuilderBase</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f46b45 0%, #eea849 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #ff6b6b;
+            margin-bottom: 20px;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .step {
+            margin-bottom: 40px;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            border-left: 5px solid #4ca1af;
+        }
+        
+        .step h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        
+        .question {
+            margin-bottom: 25px;
+        }
+        
+        .question label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .question input, .question select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+        
+        .question input:focus, .question select:focus {
+            outline: none;
+            border-color: #4ca1af;
+        }
+        
+        .radio-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .radio-option {
+            padding: 15px;
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .radio-option:hover {
+            border-color: #4ca1af;
+            background: #f0f7ff;
+        }
+        
+        .radio-option.selected {
+            border-color: #4ca1af;
+            background: #e8f4f8;
+        }
+        
+        .radio-option input {
+            display: none;
+        }
+        
+        .radio-option label {
+            margin: 0;
+            cursor: pointer;
+            font-weight: normal;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #4ca1af 0%, #2c3e50 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(76, 161, 175, 0.3);
+        }
+        
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .result {
+            text-align: center;
+            padding: 40px;
+            background: linear-gradient(135deg, #e8f4f8 0%, #d4edda 100%);
+            border-radius: 15px;
+            margin-top: 30px;
+        }
+        
+        .score {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #2c3e50;
+            margin: 20px 0;
+        }
+        
+        .score-label {
+            font-size: 1.2rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .insights {
+            text-align: left;
+            margin-top: 30px;
+        }
+        
+        .insight {
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #4ca1af;
+        }
+        
+        .email-form {
+            margin-top: 40px;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+        }
+        
+        .email-form h3 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        
+        .email-form input {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #4ca1af;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .error {
+            color: #dc3545;
+            background: #f8d7da;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            display: none;
+        }
+        
+        .success {
+            color: #28a745;
+            background: #d4edda;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            display: none;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 40px;
+        }
+        
+        .footer a {
+            color: #4ca1af;
+            text-decoration: none;
+        }
+        
+        .testimonial {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-left: 4px solid #ff6b6b;
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-top: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .step {
+                padding: 20px;
+            }
+            
+            .radio-group {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">BuilderBase</div>
+            <h1>Construction Profit Margin Analyzer</h1>
+            <p>Discover how much money you're leaving on the table. Get your personalized profit analysis in 2 minutes.</p>
+        </div>
+        
+        <div class="content">
+            <!-- Step 1: Business Overview -->
+            <div class="step" id="step1">
+                <h2>Step 1: Tell us about your construction business</h2>
+                
+                <div class="question">
+                    <label>What type of construction work do you primarily do?</label>
+                    <div class="radio-group">
+                        <div class="radio-option" onclick="selectOption(this, 'workType', 'residential')">
+                            <input type="radio" name="workType" value="residential" id="workType1">
+                            <label for="workType1">🏠 Residential (homes, renovations)</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'workType', 'commercial')">
+                            <input type="radio" name="workType" value="commercial" id="workType2">
+                            <label for="workType2">🏢 Commercial (offices, retail)</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'workType', 'industrial')">
+                            <input type="radio" name="workType" value="industrial" id="workType3">
+                            <label for="workType3">🏭 Industrial (factories, warehouses)</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'workType', 'specialty')">
+                            <input type="radio" name="workType" value="specialty" id="workType4">
+                            <label for="workType4">🔧 Specialty (electrical, plumbing, HVAC)</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <label>What's your average project size?</label>
+                    <div class="radio-group">
+                        <div class="radio-option" onclick="selectOption(this, 'projectSize', 'small')">
+                            <input type="radio" name="projectSize" value="small" id="projectSize1">
+                            <label for="projectSize1">Small ($10K - $50K)</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'workType', 'commercial')">
+                            <input type="radio" name="workType" value="commercial" id="workType2">
+                            <label for="workType2">🏢 Commercial (offices, retail)</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'workType', 'industrial')">
+                            <input type="radio" name="workType" value="industrial" id="workType3">
+                            <label for="workType3">🏭 Industrial (factories, warehouses)</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'workType', 'specialty')">
+                            <input type="radio" name="workType" value="specialty" id="workType4">
+                            <label for="workType4">🔧 Specialty (electrical, plumbing, HVAC)</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <label>What's your average project size?</label>
+                    <div class="radio-group">
+                        <div class="radio-option" onclick="selectOption(this, 'projectSize', 'small')">
+                            <input type="radio" name="projectSize" value="small" id="projectSize1">
+                            <label for="projectSize1">Small ($10K - $50K)</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'projectSize', 'medium')">
+                            <input type="radio" name="projectSize" value="medium" id="projectSize2">
+                            <label for="projectSize2">Medium ($50K - $250K)</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'projectSize', 'large')">
+                            <input type="radio" name="projectSize" value="large" id="projectSize3">
+                            <label for="projectSize3">Large ($250K - $1M+)</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <label>How many projects do you typically run simultaneously?</label>
+                    <select id="concurrentProjects">
+                        <option value="">Select number of projects</option>
+                        <option value="1-2">1-2 projects</option>
+                        <option value="3-5">3-5 projects</option>
+                        <option value="6-10">6-10 projects</option>
+                        <option value="11+">11+ projects</option>
+                    </select>
+                </div>
+                
+                <button class="btn" onclick="nextStep(1)">Continue to Step 2 →</button>
+            </div>
+            
+            <!-- Step 2: Current Processes -->
+            <div class="step" id="step2" style="display: none;">
+                <h2>Step 2: How do you manage your projects?</h2>
+                
+                <div class="question">
+                    <label>How do you currently track project progress?</label>
+                    <div class="radio-group">
+                        <div class="radio-option" onclick="selectOption(this, 'tracking', 'paper')">
+                            <input type="radio" name="tracking" value="paper" id="tracking1">
+                            <label for="tracking1">📝 Paper plans & notebooks</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'tracking', 'spreadsheets')">
+                            <input type="radio" name="tracking" value="spreadsheets" id="tracking2">
+                            <label for="tracking2">📊 Spreadsheets (Excel/Google Sheets)</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'tracking', 'basicSoftware')">
+                            <input type="radio" name="tracking" value="basicSoftware" id="tracking3">
+                            <label for="tracking3">💻 Basic project software</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'tracking', 'dedicatedSoftware')">
+                            <input type="radio" name="tracking" value="dedicatedSoftware" id="tracking4">
+                            <label for="tracking4">🚀 Dedicated construction software</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <label>How do you communicate with clients about project updates?</label>
+                    <div class="radio-group">
+                        <div class="radio-option" onclick="selectOption(this, 'communication', 'phone')">
+                            <input type="radio" name="communication" value="phone" id="communication1">
+                            <label for="communication1">📞 Phone calls & texts</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'communication', 'email')">
+                            <input type="radio" name="communication" value="email" id="communication2">
+                            <label for="communication2">📧 Email updates</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'communication', 'inPerson')">
+                            <input type="radio" name="communication" value="inPerson" id="communication3">
+                            <label for="communication3">👥 In-person meetings</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'communication', 'clientPortal')">
+                            <input type="radio" name="communication" value="clientPortal" id="communication4">
+                            <label for="communication4">🌐 Client portal/software</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <label>How do you handle change orders and approvals?</label>
+                    <div class="radio-group">
+                        <div class="radio-option" onclick="selectOption(this, 'changeOrders', 'paperForms')">
+                            <input type="radio" name="changeOrders" value="paperForms" id="changeOrders1">
+                            <label for="changeOrders1">📄 Paper forms & signatures</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'changeOrders', 'emailForms')">
+                            <input type="radio" name="changeOrders" value="emailForms" id="changeOrders2">
+                            <label for="changeOrders2">📧 Email PDFs back and forth</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'changeOrders', 'digitalSignatures')">
+                            <input type="radio" name="changeOrders" value="digitalSignatures" id="changeOrders3">
+                            <label for="changeOrders3">✍️ Digital signatures (DocuSign, etc.)</label>
+                        </div>
+                        <div class="radio-option" onclick="selectOption(this, 'changeOrders', 'integratedSystem')">
+                            <input type="radio" name="changeOrders" value="integratedSystem" id="changeOrders4">
+                            <label for

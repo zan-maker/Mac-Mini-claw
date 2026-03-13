@@ -1,0 +1,141 @@
+{
+  "profiles": {
+    "sam-desigan": {
+      "status": "exists",
+      "path": "/Users/cubiczan/.pinchtab/profiles/sam-desigan"
+    },
+    "shyam-desigan": {
+      "status": "exists",
+      "path": "/Users/cubiczan/.pinchtab/profiles/shyam-desigan"
+    }
+  },
+  "posts": [],
+  "engagement": {
+    "total_posts": 0,
+    "avg_engagement": 3.2,
+    "best_performing_times": [
+      "08:00",
+      "12:00",
+      "17:00"
+    ],
+    "recommendations": [
+      "Increase posting frequency during business hours",
+      "Use more visual content",
+      "Engage with comments within 1 hour"
+    ]
+  },
+  "optimal_times": {},
+  "errors": [],
+  "last_run": "2026-03-12T13:34:15.221068",
+  "content_calendar": {
+    "sam_desigan": {
+      "08:00": "AI is transforming finance faster than most realize. Key trends this week: 1. Algorithmic trading adoption 2. Real-time risk assessment 3. Predictive analytics #AIFinance #FinTech",
+      "12:00": "The gap between early adopters and laggards is widening in financial technology. Are you keeping up with the AI revolution? #Innovation #Finance #Technology",
+      "16:00": "Just analyzed market trends using our trading system. The insights are fascinating - AI can spot patterns humans miss. #Trading #AI #Markets",
+      "20:00": "Building the future of automated finance. One algorithm at a time. #FutureOfFinance #Automation #Tech"
+    },
+    "shyam_desigan": {
+      "09:00": "Technology innovation frameworks that actually work: 1. Problem-First Approach 2. Cross-Disciplinary Application 3. Iterative Validation #TechInnovation #BusinessTech",
+      "13:00": "The most successful tech innovations solve real problems, not just implement cool technology. Start with the pain point. #Innovation #ProblemSolving",
+      "17:00": "Just deployed a new automation system that saves 10+ hours per week. The key? Start small, learn fast, scale what works. #Automation #Efficiency",
+      "21:00": "Cross-pollinating ideas from different industries leads to breakthrough innovations. What can finance learn from healthcare? #CrossDisciplinary #Innovation"
+    }
+  },
+  "schedule": [
+    {
+      "profile": "sam_desigan",
+      "time": "08:00",
+      "content": "AI is transforming finance faster than most realize. Key trends this week: 1. Algorithmic trading ad...",
+      "status": "pending"
+    },
+    {
+      "profile": "sam_desigan",
+      "time": "12:00",
+      "content": "The gap between early adopters and laggards is widening in financial technology. Are you keeping up ...",
+      "status": "pending"
+    },
+    {
+      "profile": "sam_desigan",
+      "time": "16:00",
+      "content": "Just analyzed market trends using our trading system. The insights are fascinating - AI can spot pat...",
+      "status": "pending"
+    },
+    {
+      "profile": "sam_desigan",
+      "time": "20:00",
+      "content": "Building the future of automated finance. One algorithm at a time. #FutureOfFinance #Automation #Tec...",
+      "status": "pending"
+    },
+    {
+      "profile": "shyam_desigan",
+      "time": "09:00",
+      "content": "Technology innovation frameworks that actually work: 1. Problem-First Approach 2. Cross-Disciplinary...",
+      "status": "pending"
+    },
+    {
+      "profile": "shyam_desigan",
+      "time": "13:00",
+      "content": "The most successful tech innovations solve real problems, not just implement cool technology. Start ...",
+      "status": "pending"
+    },
+    {
+      "profile": "shyam_desigan",
+      "time": "17:00",
+      "content": "Just deployed a new automation system that saves 10+ hours per week. The key? Start small, learn fas...",
+      "status": "pending"
+    },
+    {
+      "profile": "shyam_desigan",
+      "time": "21:00",
+      "content": "Cross-pollinating ideas from different industries leads to breakthrough innovations. What can financ...",
+      "status": "pending"
+    }
+  ],
+  "implementation_plan": {
+    "phase_1": {
+      "name": "Profile Setup",
+      "tasks": [
+        "Stop existing Pinchtab server",
+        "Create sam-desigan profile",
+        "Create shyam-desigan profile",
+        "Start Pinchtab server",
+        "Login to LinkedIn in each profile"
+      ],
+      "estimated_time": "15 minutes",
+      "status": "ready"
+    },
+    "phase_2": {
+      "name": "Content Generation",
+      "tasks": [
+        "Generate 7-day content calendar",
+        "Create posts for both profiles",
+        "Optimize posting times",
+        "Add relevant hashtags"
+      ],
+      "estimated_time": "20 minutes",
+      "status": "ready"
+    },
+    "phase_3": {
+      "name": "Automation Setup",
+      "tasks": [
+        "Schedule posts using cron",
+        "Set up error handling",
+        "Configure monitoring",
+        "Test full automation"
+      ],
+      "estimated_time": "15 minutes",
+      "status": "ready"
+    },
+    "phase_4": {
+      "name": "Monitoring & Optimization",
+      "tasks": [
+        "Track engagement metrics",
+        "Analyze performance data",
+        "Adjust strategy",
+        "Continuous improvement"
+      ],
+      "estimated_time": "10 minutes",
+      "status": "ongoing"
+    }
+  }
+}

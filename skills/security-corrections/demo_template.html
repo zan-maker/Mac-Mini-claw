@@ -1,0 +1,274 @@
+<!-- demo/demo-index.html -->
+<!-- NON-PRODUCTION DEMO ONLY - Do not deploy to production -->
+<!-- Based on Correction #2: Demo/Production Separation -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 🔒 SECURITY NOTICE -->
+    <!-- This is a DEMO file for prototyping only. -->
+    <!-- It contains example code and placeholder values. -->
+    <!-- NEVER deploy this file to production. -->
+    <!-- NEVER use real API keys or credentials in demo files. -->
+    
+    <title>Demo - AI Finance Dashboard - NOT FOR PRODUCTION</title>
+    
+    <style>
+        :root {
+            --demo-color: #ff6b35;
+            --warning-color: #8b0000;
+            --safe-color: #006400;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        
+        .demo-banner {
+            background: var(--demo-color);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            border-bottom: 5px solid var(--warning-color);
+            margin: -20px -20px 20px -20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .warning-box {
+            background: var(--warning-color);
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 5px solid gold;
+        }
+        
+        .demo-content {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            border: 2px dashed var(--demo-color);
+        }
+        
+        .code-example {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+            border-left: 4px solid var(--demo-color);
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+        }
+        
+        .safe-practice {
+            background: var(--safe-color);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        
+        .danger-practice {
+            background: var(--warning-color);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- 🔒 DEMO BANNER - MUST BE VISIBLE -->
+    <div class="demo-banner" role="banner" aria-label="Demo warning">
+        ⚠️ DEMO FILE - NOT FOR PRODUCTION USE ⚠️
+        <br>
+        <small>This file is for prototyping and demonstration only. Do not deploy.</small>
+    </div>
+    
+    <main>
+        <h1>AI Finance Dashboard Demo</h1>
+        <p><em>Prototype version - for demonstration purposes only</em></p>
+        
+        <div class="warning-box" role="alert">
+            <strong>⚠️ CRITICAL SECURITY WARNING:</strong><br>
+            This file contains example code with placeholder values.<br>
+            <strong>NEVER</strong> use real API keys, credentials, or sensitive data in demo files.
+        </div>
+        
+        <div class="demo-content">
+            <h2>Demo Features</h2>
+            <p>This demo shows a prototype AI finance dashboard with:</p>
+            <ul>
+                <li>Example stock visualization</li>
+                <li>Placeholder AI recommendations</li>
+                <li>Mock trading interface</li>
+                <li>Example API integration patterns</li>
+            </ul>
+            
+            <h3>Example: API Integration Pattern</h3>
+            
+            <div class="safe-practice">
+                <strong>✅ SAFE PRACTICE (Demo files):</strong> Use placeholder values
+            </div>
+            
+            <div class="code-example">
+                <h4>CORRECT: Placeholder API configuration</h4>
+                <pre><code>// 🔒 SAFE: Placeholder values in demo files
+const API_CONFIG = {
+    // PLACEHOLDER VALUES - NEVER USE REAL KEYS
+    apiKey: "YOUR_API_KEY_HERE",
+    baseUrl: "https://api.example.com/v1",
+    endpoints: {
+        stocks: "/stocks",
+        predictions: "/predictions"
+    }
+};
+
+// Example usage with placeholder
+async function fetchStockData(symbol) {
+    const url = `${API_CONFIG.baseUrl}${API_CONFIG.endpoints.stocks}/${symbol}`;
+    const response = await fetch(url, {
+        headers: {
+            'Authorization': `Bearer ${API_CONFIG.apiKey}`  // PLACEHOLDER
+        }
+    });
+    return response.json();
+}</code></pre>
+            </div>
+            
+            <div class="danger-practice">
+                <strong>❌ DANGEROUS PRACTICE:</strong> Hardcoded real API keys
+            </div>
+            
+            <div class="code-example">
+                <h4>WRONG: Real API keys in code</h4>
+                <pre><code>// ❌ UNSAFE: Real API key exposed
+const API_CONFIG = {
+    apiKey: "sk-live-abc123def456ghi789jkl012",  // EXPOSED!
+    baseUrl: "https://api.example.com/v1"
+};
+
+// This key could be compromised if file is shared or committed</code></pre>
+            </div>
+            
+            <h3>Production vs Demo Separation</h3>
+            
+            <div class="code-example">
+                <h4>Directory Structure</h4>
+                <pre><code>project/
+├── src/                    # Production code
+│   ├── components/
+│   ├── utils/
+│   └── config/            # Real config (environment variables)
+├── demo/                  # Demo files (THIS DIRECTORY)
+│   ├── demo-index.html    # This file
+│   ├── api-demo.js        # Example API calls
+│   └── README.md          # Demo documentation
+├── .gitignore             # Excludes /demo/ from production
+└── package.json</code></pre>
+            </div>
+            
+            <div class="code-example">
+                <h4>.gitignore Rules for Demo Files</h4>
+                <pre><code># 🔒 SECURITY: Demo files excluded from production
+/demo/
+demo-*
+*-demo.*
+
+# 🔒 API Keys and Secrets
+config/.env
+config/*_config.json
+*.key
+*.pem
+*.crt
+credentials*</code></pre>
+            </div>
+            
+            <h3>Deployment Checklist</h3>
+            <p><strong>Before deploying to production:</strong></p>
+            <ol>
+                <li>✅ Remove all demo files from build</li>
+                <li>✅ Verify no demo files in production directory</li>
+                <li>✅ Replace placeholder values with real configuration</li>
+                <li>✅ Use environment variables for API keys</li>
+                <li>✅ Remove demo banners and warnings</li>
+                <li>✅ Test with real data (not mock data)</li>
+            </ol>
+        </div>
+        
+        <div class="warning-box">
+            <h3>🚨 Emergency Response</h3>
+            <p><strong>If demo files are accidentally deployed:</strong></p>
+            <ol>
+                <li>Immediately remove from production</li>
+                <li>Verify no real credentials were exposed</li>
+                <li>Rotate any potentially exposed API keys</li>
+                <li>Update deployment process to exclude /demo/</li>
+                <li>Add pre-deployment security checks</li>
+            </ol>
+        </div>
+    </main>
+    
+    <footer>
+        <p>© 2026 AI Finance Dashboard Demo</p>
+        <p><strong>Classification:</strong> DEMO - NOT FOR PRODUCTION</p>
+        <p><strong>Purpose:</strong> Prototyping and demonstration only</p>
+        <p><strong>Security Status:</strong> Contains placeholder values only</p>
+        <p><em>This file must not be deployed to any production environment.</em></p>
+    </footer>
+    
+    <script>
+        // Demo JavaScript - Example only
+        console.log("🔒 DEMO: AI Finance Dashboard Demo Loaded");
+        console.log("⚠️  WARNING: This is a demo file. Do not deploy to production.");
+        
+        // Example: Safe demo data (no real values)
+        const demoData = {
+            stocks: [
+                { symbol: "AAPL", price: 175.50, change: "+1.2%" },
+                { symbol: "GOOGL", price: 2850.75, change: "-0.5%" },
+                { symbol: "TSLA", price: 850.25, change: "+3.1%" }
+            ],
+            lastUpdated: "2026-03-12T18:00:00Z",
+            dataSource: "MOCK_DATA_FOR_DEMO"
+        };
+        
+        // Display demo warning on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const lastModified = new Date(document.lastModified);
+            console.log(`Demo file last modified: ${lastModified.toISOString()}`);
+            
+            // Add visual indicator that this is a demo
+            document.title = "DEMO: " + document.title;
+        });
+        
+        // Prevent accidental form submission in demo
+        document.addEventListener('submit', function(e) {
+            if (e.target.tagName === 'FORM') {
+                e.preventDefault();
+                alert("⚠️ DEMO: Form submission disabled. This is a demo file.");
+                console.warn("Demo form submission prevented");
+            }
+        });
+    </script>
+</body>
+</html>

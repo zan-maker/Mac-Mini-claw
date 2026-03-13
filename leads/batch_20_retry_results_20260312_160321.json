@@ -1,0 +1,80 @@
+{
+  "batch": "20_retry",
+  "timestamp": "2026-03-12T16:03:21.236245",
+  "target": "5 emails",
+  "sent": 0,
+  "failed": 5,
+  "total_potential_savings": 0,
+  "results": [
+    {
+      "lead": {
+        "company_name": "Rigid Concepts",
+        "email": "info@rigidconcepts.com",
+        "employee_count": 45,
+        "industry": "Manufacturing - CNC/Precision",
+        "location": "McKinney, TX",
+        "score": 95
+      },
+      "savings": 37395.0,
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "message_id": null
+    },
+    {
+      "lead": {
+        "company_name": "Nordon Plastics",
+        "email": "info@nordonplastics.com",
+        "employee_count": 60,
+        "industry": "Manufacturing - Plastics",
+        "location": "Rochester, NY",
+        "score": 70
+      },
+      "savings": 49860.0,
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "message_id": null
+    },
+    {
+      "lead": {
+        "company_name": "ABS Machining",
+        "email": "info@absmachining.com",
+        "employee_count": 150,
+        "industry": "Manufacturing - CNC/Fabrication",
+        "location": "Texas",
+        "score": 65
+      },
+      "savings": 124650.0,
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "message_id": null
+    },
+    {
+      "lead": {
+        "company_name": "Hunt and Hunt Ltd",
+        "email": "info@huntandhunt.com",
+        "employee_count": 85,
+        "industry": "Manufacturing - Precision Machining",
+        "location": "Energy/Aerospace Hub",
+        "score": 50
+      },
+      "savings": 70635.0,
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "message_id": null
+    },
+    {
+      "lead": {
+        "company_name": "Florida Sheet Metal",
+        "email": "info@floridasheetmetal.com",
+        "employee_count": 55,
+        "industry": "Manufacturing - Metal Fabrication",
+        "location": "Melbourne, FL",
+        "score": 50
+      },
+      "savings": 45705.0,
+      "success": false,
+      "error": "HTTP 403: {\"message\":\"Forbidden\"}",
+      "message_id": null
+    }
+  ]
+}

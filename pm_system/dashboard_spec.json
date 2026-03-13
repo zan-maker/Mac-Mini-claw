@@ -1,0 +1,46 @@
+{
+  "name": "Project Management Dashboard",
+  "components": [
+    {
+      "name": "Cron Job Health",
+      "metrics": [
+        "success_rate",
+        "last_run",
+        "uptime"
+      ],
+      "refresh": "5min"
+    },
+    {
+      "name": "Project Status",
+      "metrics": [
+        "active_projects",
+        "on_track",
+        "at_risk"
+      ],
+      "refresh": "daily"
+    },
+    {
+      "name": "Resource Allocation",
+      "metrics": [
+        "time_spent",
+        "priority_alignment",
+        "roi_focus"
+      ],
+      "refresh": "weekly"
+    }
+  ],
+  "alerts": [
+    {
+      "condition": "cron_failed",
+      "action": "discord_alert"
+    },
+    {
+      "condition": "project_at_risk",
+      "action": "email_notification"
+    },
+    {
+      "condition": "low_rice_score",
+      "action": "review_required"
+    }
+  ]
+}

@@ -37,3 +37,120 @@ data/local/
 temp/
 tmp/
 agentmail_config.json
+
+# 🔒 SECURITY: API Keys and Secrets
+# Never commit these to version control
+config/.env
+config/*_config.json
+*.key
+*.pem
+*.crt
+credentials*
+secrets*
+.env
+.env.local
+.env.*.local
+
+# 🎭 DEMO FILES
+# Demo/prototype files - not for production
+/demo/
+demo-*
+*-demo.*
+
+# 🔧 DEVELOPMENT
+# Development and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 🧪 TESTING
+# Test files and coverage
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 📦 PACKAGING
+# Package management
+.python-version
+
+# 🔐 SECURITY SCANS
+# Security audit files (may contain sensitive info)
+security_audit*.json
+api_key_scan*.json
+
+# 🗄️ DATABASE
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# 🖥️ OS
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 📝 EDITORS
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 🚀 DEPLOYMENT
+# Deployment files
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# 📊 LOGS
+# Log files
+*.log
+logs/
+
+# 🧹 TEMP FILES
+# Temporary files
+/tmp/
+/temp/
+
+# API KEY SECURITY
+# Never commit API keys or secrets
+config/.env
+config/*_config.json
+*.key
+*.pem
+*.crt
+credentials*
+secrets*

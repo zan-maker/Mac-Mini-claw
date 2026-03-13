@@ -1,0 +1,49 @@
+{
+  "service": "plausible_analytics",
+  "status": "setup_required",
+  "replaces": "mixpanel",
+  "monthly_savings": 75,
+  "free_tier_limits": {
+    "websites": "Unlimited",
+    "monthly_pageviews": 10000,
+    "data_retention": "Unlimited",
+    "features": [
+      "Dashboard",
+      "Stats API",
+      "Custom events",
+      "Goal conversions",
+      "Filters",
+      "Referrers",
+      "Countries",
+      "Devices",
+      "Browsers"
+    ]
+  },
+  "setup_steps": [
+    "1. Sign up at plausible.io (free)",
+    "2. Add your website in dashboard",
+    "3. Get tracking script snippet",
+    "4. Add script to your website",
+    "5. Verify data is flowing"
+  ],
+  "tracking_methods": {
+    "javascript": "Add <script> tag to HTML",
+    "api": "Send events via HTTP API",
+    "proxy": "Use proxy for ad-blocker bypass"
+  },
+  "comparison_with_mixpanel": {
+    "plausible_advantages": [
+      "Privacy-focused (GDPR compliant)",
+      "Lightweight (1.4KB vs 50KB)",
+      "No cookie banners needed",
+      "Open source",
+      "Self-hostable"
+    ],
+    "mixpanel_features_missing": [
+      "Funnel analysis (limited)",
+      "Cohort analysis",
+      "A/B testing",
+      "Advanced segmentation"
+    ]
+  }
+}

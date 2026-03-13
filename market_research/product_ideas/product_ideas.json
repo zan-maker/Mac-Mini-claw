@@ -1,0 +1,830 @@
+[
+  {
+    "id": "IDEA-004",
+    "title": "AI-powered marketing for small businesses",
+    "category": "AI & Automation Tools",
+    "price_range": {
+      "min": 997,
+      "max": 4997,
+      "recommended": 1997,
+      "model": "one-time + upgrades"
+    },
+    "development_complexity": 8,
+    "market_demand": 80,
+    "competition_level": 40,
+    "profit_potential": 100,
+    "validation_score": 74,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "AI model integration",
+      "Prompt templates"
+    ]
+  },
+  {
+    "id": "IDEA-005",
+    "title": "AI-powered marketing for creators",
+    "category": "AI & Automation Tools",
+    "price_range": {
+      "min": 997,
+      "max": 4997,
+      "recommended": 1997,
+      "model": "one-time + upgrades"
+    },
+    "development_complexity": 8,
+    "market_demand": 80,
+    "competition_level": 40,
+    "profit_potential": 100,
+    "validation_score": 74,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "AI model integration",
+      "Prompt templates"
+    ]
+  },
+  {
+    "id": "IDEA-006",
+    "title": "AI-powered marketing for entrepreneurs",
+    "category": "AI & Automation Tools",
+    "price_range": {
+      "min": 997,
+      "max": 4997,
+      "recommended": 1997,
+      "model": "one-time + upgrades"
+    },
+    "development_complexity": 8,
+    "market_demand": 80,
+    "competition_level": 40,
+    "profit_potential": 100,
+    "validation_score": 74,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "AI model integration",
+      "Prompt templates"
+    ]
+  },
+  {
+    "id": "IDEA-010",
+    "title": "No-code website builder for e-commerce",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 47,
+      "max": 497,
+      "recommended": 197,
+      "model": "one-time"
+    },
+    "development_complexity": 5,
+    "market_demand": 65,
+    "competition_level": 50,
+    "profit_potential": 100,
+    "validation_score": 72,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Drag-and-drop interface",
+      "Template library"
+    ]
+  },
+  {
+    "id": "IDEA-011",
+    "title": "No-code website builder for education",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 47,
+      "max": 497,
+      "recommended": 197,
+      "model": "one-time"
+    },
+    "development_complexity": 5,
+    "market_demand": 65,
+    "competition_level": 50,
+    "profit_potential": 100,
+    "validation_score": 72,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Drag-and-drop interface",
+      "Template library"
+    ]
+  },
+  {
+    "id": "IDEA-012",
+    "title": "No-code website builder for consulting",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 47,
+      "max": 497,
+      "recommended": 197,
+      "model": "one-time"
+    },
+    "development_complexity": 5,
+    "market_demand": 65,
+    "competition_level": 50,
+    "profit_potential": 100,
+    "validation_score": 72,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Drag-and-drop interface",
+      "Template library"
+    ]
+  },
+  {
+    "id": "IDEA-013",
+    "title": "No-code app builder for e-commerce",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 47,
+      "max": 497,
+      "recommended": 197,
+      "model": "one-time"
+    },
+    "development_complexity": 5,
+    "market_demand": 65,
+    "competition_level": 50,
+    "profit_potential": 100,
+    "validation_score": 72,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Drag-and-drop interface",
+      "Template library"
+    ]
+  },
+  {
+    "id": "IDEA-014",
+    "title": "No-code app builder for education",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 47,
+      "max": 497,
+      "recommended": 197,
+      "model": "one-time"
+    },
+    "development_complexity": 5,
+    "market_demand": 65,
+    "competition_level": 50,
+    "profit_potential": 100,
+    "validation_score": 72,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Drag-and-drop interface",
+      "Template library"
+    ]
+  },
+  {
+    "id": "IDEA-015",
+    "title": "No-code app builder for consulting",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 47,
+      "max": 497,
+      "recommended": 197,
+      "model": "one-time"
+    },
+    "development_complexity": 5,
+    "market_demand": 65,
+    "competition_level": 50,
+    "profit_potential": 100,
+    "validation_score": 72,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Drag-and-drop interface",
+      "Template library"
+    ]
+  },
+  {
+    "id": "IDEA-007",
+    "title": "AI-powered productivity for small businesses",
+    "category": "AI & Automation Tools",
+    "price_range": {
+      "min": 997,
+      "max": 4997,
+      "recommended": 1997,
+      "model": "one-time + upgrades"
+    },
+    "development_complexity": 8,
+    "market_demand": 70,
+    "competition_level": 40,
+    "profit_potential": 100,
+    "validation_score": 71,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "AI model integration",
+      "Prompt templates"
+    ]
+  },
+  {
+    "id": "IDEA-008",
+    "title": "AI-powered productivity for creators",
+    "category": "AI & Automation Tools",
+    "price_range": {
+      "min": 997,
+      "max": 4997,
+      "recommended": 1997,
+      "model": "one-time + upgrades"
+    },
+    "development_complexity": 8,
+    "market_demand": 70,
+    "competition_level": 40,
+    "profit_potential": 100,
+    "validation_score": 71,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "AI model integration",
+      "Prompt templates"
+    ]
+  },
+  {
+    "id": "IDEA-009",
+    "title": "AI-powered productivity for entrepreneurs",
+    "category": "AI & Automation Tools",
+    "price_range": {
+      "min": 997,
+      "max": 4997,
+      "recommended": 1997,
+      "model": "one-time + upgrades"
+    },
+    "development_complexity": 8,
+    "market_demand": 70,
+    "competition_level": 40,
+    "profit_potential": 100,
+    "validation_score": 71,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "AI model integration",
+      "Prompt templates"
+    ]
+  },
+  {
+    "id": "IDEA-016",
+    "title": "No-code dashboard builder for e-commerce",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 47,
+      "max": 497,
+      "recommended": 197,
+      "model": "one-time"
+    },
+    "development_complexity": 7,
+    "market_demand": 65,
+    "competition_level": 50,
+    "profit_potential": 100,
+    "validation_score": 69,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Drag-and-drop interface",
+      "Template library"
+    ]
+  },
+  {
+    "id": "IDEA-017",
+    "title": "No-code dashboard builder for education",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 47,
+      "max": 497,
+      "recommended": 197,
+      "model": "one-time"
+    },
+    "development_complexity": 7,
+    "market_demand": 65,
+    "competition_level": 50,
+    "profit_potential": 100,
+    "validation_score": 69,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Drag-and-drop interface",
+      "Template library"
+    ]
+  },
+  {
+    "id": "IDEA-018",
+    "title": "No-code dashboard builder for consulting",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 47,
+      "max": 497,
+      "recommended": 197,
+      "model": "one-time"
+    },
+    "development_complexity": 7,
+    "market_demand": 65,
+    "competition_level": 50,
+    "profit_potential": 100,
+    "validation_score": 69,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Drag-and-drop interface",
+      "Template library"
+    ]
+  },
+  {
+    "id": "IDEA-022",
+    "title": "email templates for Instagram",
+    "category": "AI & Automation Tools",
+    "price_range": {
+      "min": 997,
+      "max": 4997,
+      "recommended": 1997,
+      "model": "one-time + upgrades"
+    },
+    "development_complexity": 6,
+    "market_demand": 70,
+    "competition_level": 70,
+    "profit_potential": 100,
+    "validation_score": 68,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "AI model integration",
+      "Prompt templates"
+    ]
+  },
+  {
+    "id": "IDEA-023",
+    "title": "email templates for Twitter",
+    "category": "AI & Automation Tools",
+    "price_range": {
+      "min": 997,
+      "max": 4997,
+      "recommended": 1997,
+      "model": "one-time + upgrades"
+    },
+    "development_complexity": 6,
+    "market_demand": 70,
+    "competition_level": 70,
+    "profit_potential": 100,
+    "validation_score": 68,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "AI model integration",
+      "Prompt templates"
+    ]
+  },
+  {
+    "id": "IDEA-024",
+    "title": "email templates for LinkedIn",
+    "category": "AI & Automation Tools",
+    "price_range": {
+      "min": 997,
+      "max": 4997,
+      "recommended": 1997,
+      "model": "one-time + upgrades"
+    },
+    "development_complexity": 6,
+    "market_demand": 70,
+    "competition_level": 70,
+    "profit_potential": 100,
+    "validation_score": 68,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "AI model integration",
+      "Prompt templates"
+    ]
+  },
+  {
+    "id": "IDEA-025",
+    "title": "presentation templates for Instagram",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 97,
+      "max": 497,
+      "recommended": 297,
+      "model": "one-time"
+    },
+    "development_complexity": 3,
+    "market_demand": 50,
+    "competition_level": 60,
+    "profit_potential": 100,
+    "validation_score": 68,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Multiple template variations",
+      "Customization options"
+    ]
+  },
+  {
+    "id": "IDEA-026",
+    "title": "presentation templates for Twitter",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 97,
+      "max": 497,
+      "recommended": 297,
+      "model": "one-time"
+    },
+    "development_complexity": 3,
+    "market_demand": 50,
+    "competition_level": 60,
+    "profit_potential": 100,
+    "validation_score": 68,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Multiple template variations",
+      "Customization options"
+    ]
+  },
+  {
+    "id": "IDEA-027",
+    "title": "presentation templates for LinkedIn",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 97,
+      "max": 497,
+      "recommended": 297,
+      "model": "one-time"
+    },
+    "development_complexity": 3,
+    "market_demand": 50,
+    "competition_level": 60,
+    "profit_potential": 100,
+    "validation_score": 68,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Multiple template variations",
+      "Customization options"
+    ]
+  },
+  {
+    "id": "IDEA-001",
+    "title": "AI-powered content creation for small businesses",
+    "category": "AI & Automation Tools",
+    "price_range": {
+      "min": 997,
+      "max": 4997,
+      "recommended": 1997,
+      "model": "one-time + upgrades"
+    },
+    "development_complexity": 8,
+    "market_demand": 70,
+    "competition_level": 60,
+    "profit_potential": 100,
+    "validation_score": 67,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "AI model integration",
+      "Prompt templates"
+    ]
+  },
+  {
+    "id": "IDEA-002",
+    "title": "AI-powered content creation for creators",
+    "category": "AI & Automation Tools",
+    "price_range": {
+      "min": 997,
+      "max": 4997,
+      "recommended": 1997,
+      "model": "one-time + upgrades"
+    },
+    "development_complexity": 8,
+    "market_demand": 70,
+    "competition_level": 60,
+    "profit_potential": 100,
+    "validation_score": 67,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "AI model integration",
+      "Prompt templates"
+    ]
+  },
+  {
+    "id": "IDEA-003",
+    "title": "AI-powered content creation for entrepreneurs",
+    "category": "AI & Automation Tools",
+    "price_range": {
+      "min": 997,
+      "max": 4997,
+      "recommended": 1997,
+      "model": "one-time + upgrades"
+    },
+    "development_complexity": 8,
+    "market_demand": 70,
+    "competition_level": 60,
+    "profit_potential": 100,
+    "validation_score": 67,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "AI model integration",
+      "Prompt templates"
+    ]
+  },
+  {
+    "id": "IDEA-019",
+    "title": "social media templates for Instagram",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 97,
+      "max": 497,
+      "recommended": 297,
+      "model": "one-time"
+    },
+    "development_complexity": 3,
+    "market_demand": 58,
+    "competition_level": 80,
+    "profit_potential": 100,
+    "validation_score": 66,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Multiple template variations",
+      "Customization options"
+    ]
+  },
+  {
+    "id": "IDEA-020",
+    "title": "social media templates for Twitter",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 97,
+      "max": 497,
+      "recommended": 297,
+      "model": "one-time"
+    },
+    "development_complexity": 3,
+    "market_demand": 58,
+    "competition_level": 80,
+    "profit_potential": 100,
+    "validation_score": 66,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Multiple template variations",
+      "Customization options"
+    ]
+  },
+  {
+    "id": "IDEA-021",
+    "title": "social media templates for LinkedIn",
+    "category": "No-Code SaaS Solutions",
+    "price_range": {
+      "min": 97,
+      "max": 497,
+      "recommended": 297,
+      "model": "one-time"
+    },
+    "development_complexity": 3,
+    "market_demand": 58,
+    "competition_level": 80,
+    "profit_potential": 100,
+    "validation_score": 66,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "Multiple template variations",
+      "Customization options"
+    ]
+  },
+  {
+    "id": "IDEA-031",
+    "title": "Subscription-based tools for digital marketers",
+    "category": "Subscription Services",
+    "price_range": {
+      "min": 29,
+      "max": 299,
+      "recommended": 97,
+      "model": "monthly"
+    },
+    "development_complexity": 5,
+    "market_demand": 50,
+    "competition_level": 50,
+    "profit_potential": 97,
+    "validation_score": 66,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "User accounts",
+      "Payment integration"
+    ]
+  },
+  {
+    "id": "IDEA-033",
+    "title": "Subscription-based tools for startup founders",
+    "category": "Subscription Services",
+    "price_range": {
+      "min": 29,
+      "max": 299,
+      "recommended": 97,
+      "model": "monthly"
+    },
+    "development_complexity": 5,
+    "market_demand": 50,
+    "competition_level": 50,
+    "profit_potential": 97,
+    "validation_score": 66,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "User accounts",
+      "Payment integration"
+    ]
+  },
+  {
+    "id": "IDEA-034",
+    "title": "Subscription-based community for digital marketers",
+    "category": "Subscription Services",
+    "price_range": {
+      "min": 29,
+      "max": 299,
+      "recommended": 97,
+      "model": "monthly"
+    },
+    "development_complexity": 5,
+    "market_demand": 50,
+    "competition_level": 50,
+    "profit_potential": 97,
+    "validation_score": 66,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "User accounts",
+      "Payment integration"
+    ]
+  },
+  {
+    "id": "IDEA-036",
+    "title": "Subscription-based community for startup founders",
+    "category": "Subscription Services",
+    "price_range": {
+      "min": 29,
+      "max": 299,
+      "recommended": 97,
+      "model": "monthly"
+    },
+    "development_complexity": 5,
+    "market_demand": 50,
+    "competition_level": 50,
+    "profit_potential": 97,
+    "validation_score": 66,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "User accounts",
+      "Payment integration"
+    ]
+  },
+  {
+    "id": "IDEA-028",
+    "title": "Subscription-based content for digital marketers",
+    "category": "Digital Marketing Products",
+    "price_range": {
+      "min": 29,
+      "max": 299,
+      "recommended": 97,
+      "model": "monthly"
+    },
+    "development_complexity": 5,
+    "market_demand": 50,
+    "competition_level": 70,
+    "profit_potential": 69,
+    "validation_score": 55,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "User accounts",
+      "Payment integration"
+    ]
+  },
+  {
+    "id": "IDEA-029",
+    "title": "Subscription-based content for content creators",
+    "category": "Digital Marketing Products",
+    "price_range": {
+      "min": 29,
+      "max": 299,
+      "recommended": 97,
+      "model": "monthly"
+    },
+    "development_complexity": 5,
+    "market_demand": 50,
+    "competition_level": 70,
+    "profit_potential": 69,
+    "validation_score": 55,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "User accounts",
+      "Payment integration"
+    ]
+  },
+  {
+    "id": "IDEA-030",
+    "title": "Subscription-based content for startup founders",
+    "category": "Digital Marketing Products",
+    "price_range": {
+      "min": 29,
+      "max": 299,
+      "recommended": 97,
+      "model": "monthly"
+    },
+    "development_complexity": 5,
+    "market_demand": 50,
+    "competition_level": 70,
+    "profit_potential": 69,
+    "validation_score": 55,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "User accounts",
+      "Payment integration"
+    ]
+  },
+  {
+    "id": "IDEA-032",
+    "title": "Subscription-based tools for content creators",
+    "category": "Digital Marketing Products",
+    "price_range": {
+      "min": 29,
+      "max": 299,
+      "recommended": 97,
+      "model": "monthly"
+    },
+    "development_complexity": 5,
+    "market_demand": 50,
+    "competition_level": 70,
+    "profit_potential": 69,
+    "validation_score": 55,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "User accounts",
+      "Payment integration"
+    ]
+  },
+  {
+    "id": "IDEA-035",
+    "title": "Subscription-based community for content creators",
+    "category": "Digital Marketing Products",
+    "price_range": {
+      "min": 29,
+      "max": 299,
+      "recommended": 97,
+      "model": "monthly"
+    },
+    "development_complexity": 5,
+    "market_demand": 50,
+    "competition_level": 70,
+    "profit_potential": 69,
+    "validation_score": 55,
+    "mvp_features": [
+      "Core functionality working",
+      "Basic user interface",
+      "Documentation",
+      "User accounts",
+      "Payment integration"
+    ]
+  }
+]

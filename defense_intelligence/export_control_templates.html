@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 🔒 SENSITIVITY NOTICE -->
+    <!-- This tool processes defense-relevant supply chain data. -->
+    <!-- Access restricted to authorized personnel. -->
+    <!-- Export controlled: EAR99 / ITAR Category XIV -->
+    <meta name="classification" content="CUI//SP-CTI">
+    <meta name="export-control" content="EAR99/ITAR-XIV">
+    
+    <title>Mineral Supply Chain Intelligence - Export Controlled</title>
+    <style>
+        :root {
+            --classification-color: #8B0000;
+            --warning-color: #FF6B35;
+            --secure-color: #006400;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        
+        .classification-banner {
+            background: var(--classification-color);
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            border-bottom: 3px solid gold;
+            margin: -20px -20px 20px -20px;
+        }
+        
+        .export-notice {
+            background: var(--warning-color);
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border-left: 5px solid var(--classification-color);
+        }
+        
+        .access-control {
+            background: var(--secure-color);
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .compliance-section {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border: 1px solid #ddd;
+        }
+        
+        .acknowledgment {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .footer-notice {
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        
+        button {
+            background: var(--classification-color);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            background: #a00000;
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- 🔒 CLASSIFICATION BANNER -->
+    <div class="classification-banner" role="banner">
+        🔒 CLASSIFICATION: CUI//SP-CTI (Controlled Unclassified Information // Supply Chain Threat Intelligence)
+    </div>
+    
+    <!-- ⚠️ EXPORT CONTROL NOTICE -->
+    <div class="export-notice" role="alert">
+        <strong>⚠️ EXPORT CONTROL NOTICE:</strong><br>
+        This application processes information subject to U.S. export control laws 
+        (International Traffic in Arms Regulations - ITAR, Export Administration Regulations - EAR).<br>
+        <strong>Unauthorized access, disclosure, or distribution is prohibited and may result in civil and criminal penalties.</strong>
+    </div>
+    
+    <!-- 🔐 ACCESS CONTROL -->
+    <div class="access-control">
+        <strong>🔐 ACCESS RESTRICTED:</strong><br>
+        • U.S. Persons only (citizens, permanent residents, protected individuals)<br>
+        • Authorized personnel with need-to-know basis<br>
+        • Export control training completion required<br>
+        • Background check clearance for defense-relevant data
+    </div>
+    
+    <main>
+        <h1>Mineral Supply Chain Intelligence System</h1>
+        
+        <div class="compliance-section">
+            <h2>🔍 Defense-Critical Minerals Intelligence</h2>
+            <p>This system provides intelligence on minerals critical to U.S. national security and defense capabilities.</p>
+            
+            <h3>ITAR-Relevant Minerals:</h3>
+            <ul>
+                <li><strong>Rare Earth Elements</strong> - Magnets, lasers, guidance systems</li>
+                <li><strong>Lithium</strong> - Batteries for military electronics</li>
+                <li><strong>Cobalt</strong> - Jet engine superalloys</li>
+                <li><strong>Tungsten</strong> - Armor-piercing munitions</li>
+                <li><strong>Tantalum</strong> - Electronics for defense systems</li>
+                <li><strong>Graphite</strong> - Nuclear applications</li>
+                <li><strong>Vanadium</strong> - Steel alloys for military vehicles</li>
+            </ul>
+        </div>
+        
+        <div class="acknowledgment" id="acknowledgmentSection">
+            <h2>📝 User Acknowledgment Required</h2>
+            <p>To access this system, you must acknowledge the following:</p>
+            
+            <form id="exportControlAcknowledgment">
+                <div>
+                    <input type="checkbox" id="ack1" required>
+                    <label for="ack1">I understand this system contains export-controlled data subject to U.S. laws (ITAR/EAR)</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="ack2" required>
+                    <label for="ack2">I will not share this data with unauthorized persons or foreign nationals</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="ack3" required>
+                    <label for="ack3">I will comply with all applicable export control laws and regulations</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="ack4" required>
+                    <label for="ack4">I am a U.S. Person or have appropriate export license for this data</label>
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="ack5" required>
+                    <label for="ack5">I have completed required export control training</label>
+                </div>
+                
+                <button type="submit" id="acknowledgeButton">🔐 Acknowledge & Continue</button>
+            </form>
+        </div>
+        
+        <div class="compliance-section hidden" id="systemAccess">
+            <h2>✅ Access Granted - System Dashboard</h2>
+            <p>Welcome to the Mineral Supply Chain Intelligence System.</p>
+            
+            <div class="data-classification">
+                <h3>📊 Current Data Classification: <span style="color: var(--classification-color);">CUI</span></h3>
+                <p>All data accessed through this system is classified as Controlled Unclassified Information.</p>
+                
+                <h4>Handling Instructions:</h4>
+                <ul>
+                    <li>Store only on authorized, encrypted systems</li>
+                    <li>Transmit only through approved secure channels</li>
+                    <li>Mark all outputs with proper classification markings</li>
+                    <li>Destroy per approved procedures when no longer needed</li>
+                </ul>
+            </div>
+            
+            <div class="audit-notice">
+                <h4>🔍 Audit Logging Active</h4>
+                <p>All access to this system is logged for compliance monitoring.</p>
+                <p><strong>Last access:</strong> <span id="lastAccessTime">Loading...</span></p>
+            </div>
+        </div>
+    </main>
+    
+    <div class="footer-notice">
+        <p>© $(date +%Y) Mineral Supply Chain Intelligence System</p>
+        <p><strong>Classification:</strong> CUI//SP-CTI | <strong>Export Control:</strong> EAR99/ITAR-XIV</p>
+        <p><em>For authorized use only. Violators subject to prosecution.</em></p>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set last access time
+            document.getElementById('lastAccessTime').textContent = new Date().toLocaleString();
+            
+            // Handle acknowledgment form
+            document.getElementById('exportControlAcknowledgment').addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Verify all checkboxes are checked
+                const checkboxes = document.querySelectorAll('#exportControlAcknowledgment input[type="checkbox"]');
+                const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+                
+                if (!allChecked) {
+                    alert('You must acknowledge all statements to continue.');
+                    return;
+                }
+                
+                // Record acknowledgment
+                const acknowledgment = {
+                    timestamp: new Date().toISOString(),
+                    userAgent: navigator.userAgent,
+                    ip: 'Recorded in server logs',
+                    statements: Array.from(checkboxes).map(cb => cb.nextElementSibling.textContent)
+                };
+                
+                console.log('Export control acknowledgment:', acknowledgment);
+                
+                // Hide acknowledgment, show system access
+                document.getElementById('acknowledgmentSection').classList.add('hidden');
+                document.getElementById('systemAccess').classList.remove('hidden');
+                
+                // Log to server (in real implementation)
+                fetch('/api/log-acknowledgment', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(acknowledgment)
+                }).catch(err => console.error('Logging error:', err));
+                
+                alert('✅ Access granted. All activity is logged for compliance.');
+            });
+            
+            // Auto-refresh classification banner every minute
+            setInterval(() => {
+                const banner = document.querySelector('.classification-banner');
+                const now = new Date();
+                banner.innerHTML = `🔒 CLASSIFICATION: CUI//SP-CTI | Last Verified: ${now.toLocaleTimeString()}`;
+            }, 60000);
+        });
+        
+        // Prevent right-click and text selection on sensitive elements
+        document.addEventListener('contextmenu', function(e) {
+            if (e.target.closest('.classification-banner, .export-notice, .access-control')) {
+                e.preventDefault();
+                alert('⚠️ Copying restricted content is prohibited.');
+            }
+        });
+        
+        // Prevent printing of sensitive pages
+        window.addEventListener('beforeprint', function(e) {
+            alert('⚠️ Printing of export-controlled documents requires authorization.');
+            e.preventDefault();
+        });
+    </script>
+</body>
+</html>

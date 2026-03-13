@@ -1,0 +1,1008 @@
+{
+  "timestamp": "2026-03-12T19:20:24.564239",
+  "total_industries_analyzed": 30,
+  "summary": {
+    "top_5_opportunities": [
+      {
+        "rank": 1,
+        "industry": "Small Construction Contractors",
+        "score": 100,
+        "level": "Very High",
+        "key_pain_points": [
+          "project management",
+          "material ordering",
+          "permits"
+        ]
+      },
+      {
+        "rank": 2,
+        "industry": "Local Landscaping Services",
+        "score": 100,
+        "level": "Very High",
+        "key_pain_points": [
+          "route planning",
+          "equipment maintenance",
+          "seasonal scheduling"
+        ]
+      },
+      {
+        "rank": 3,
+        "industry": "Local Painting Companies",
+        "score": 100,
+        "level": "Very High",
+        "key_pain_points": [
+          "color matching",
+          "project estimation",
+          "weather scheduling"
+        ]
+      },
+      {
+        "rank": 4,
+        "industry": "Independent Roofing Contractors",
+        "score": 100,
+        "level": "Very High",
+        "key_pain_points": [
+          "insurance claims",
+          "weather delays",
+          "material ordering"
+        ]
+      },
+      {
+        "rank": 5,
+        "industry": "Small Electrical Contractors",
+        "score": 98,
+        "level": "Very High",
+        "key_pain_points": [
+          "safety compliance",
+          "permit management",
+          "material tracking"
+        ]
+      }
+    ],
+    "by_category": {
+      "Construction": 2,
+      "Service Trades": 7,
+      "Hospitality": 4,
+      "Food Service": 1,
+      "Wellness": 3,
+      "Automotive": 1,
+      "Retail": 2,
+      "Manufacturing": 1,
+      "Healthcare": 2,
+      "Professional Services": 5,
+      "Creative": 2
+    },
+    "by_opportunity_level": {
+      "Very High": 18,
+      "High": 7,
+      "Medium-High": 3,
+      "Medium": 1,
+      "Medium-Low": 1
+    },
+    "average_opportunity_score": 80.2
+  },
+  "industries": [
+    {
+      "id": "construction",
+      "name": "Small Construction Contractors",
+      "category": "Construction",
+      "avg_employees": 5,
+      "tech_adoption_score": 2,
+      "pain_points": [
+        "project management",
+        "material ordering",
+        "permits",
+        "payroll",
+        "estimating"
+      ],
+      "typical_revenue": "$500K-$2M",
+      "digital_readiness": "Very Low",
+      "competition_tech_level": "Low",
+      "notes": "Paper blueprints, manual estimating, cash flow challenges",
+      "opportunity_score": 100,
+      "opportunity_level": "Very High",
+      "digital_solutions": [
+        "Project Tracking",
+        "Task Assignment",
+        "Timeline Management"
+      ],
+      "market_size_estimate": {
+        "businesses_in_us": 700000,
+        "tam_revenue": "$875,000,000,000",
+        "sam_revenue": "$262,500,000,000",
+        "som_revenue": "$13,125,000,000",
+        "avg_business_revenue": "$1,250,000"
+      }
+    },
+    {
+      "id": "landscaping",
+      "name": "Local Landscaping Services",
+      "category": "Service Trades",
+      "avg_employees": 6,
+      "tech_adoption_score": 2,
+      "pain_points": [
+        "route planning",
+        "equipment maintenance",
+        "seasonal scheduling",
+        "client communication"
+      ],
+      "typical_revenue": "$200K-$600K",
+      "digital_readiness": "Low",
+      "competition_tech_level": "Low",
+      "notes": "Weather-dependent, seasonal employees, manual scheduling",
+      "opportunity_score": 100,
+      "opportunity_level": "Very High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 500000,
+        "tam_revenue": "$200,000,000,000",
+        "sam_revenue": "$60,000,000,000",
+        "som_revenue": "$3,000,000,000",
+        "avg_business_revenue": "$400,000"
+      }
+    },
+    {
+      "id": "painting",
+      "name": "Local Painting Companies",
+      "category": "Service Trades",
+      "avg_employees": 5,
+      "tech_adoption_score": 2,
+      "pain_points": [
+        "color matching",
+        "project estimation",
+        "weather scheduling",
+        "material waste"
+      ],
+      "typical_revenue": "$250K-$700K",
+      "digital_readiness": "Low",
+      "competition_tech_level": "Low",
+      "notes": "Seasonal, labor-intensive, manual color selection",
+      "opportunity_score": 100,
+      "opportunity_level": "Very High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 200000,
+        "tam_revenue": "$95,000,000,000",
+        "sam_revenue": "$28,500,000,000",
+        "som_revenue": "$1,425,000,000",
+        "avg_business_revenue": "$475,000"
+      }
+    },
+    {
+      "id": "roofing",
+      "name": "Independent Roofing Contractors",
+      "category": "Construction",
+      "avg_employees": 6,
+      "tech_adoption_score": 2,
+      "pain_points": [
+        "insurance claims",
+        "weather delays",
+        "material ordering",
+        "safety compliance"
+      ],
+      "typical_revenue": "$500K-$1.5M",
+      "digital_readiness": "Low",
+      "competition_tech_level": "Low",
+      "notes": "Insurance-dependent, weather-sensitive, manual measurements",
+      "opportunity_score": 100,
+      "opportunity_level": "Very High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 150000,
+        "tam_revenue": "$150,000,000,000",
+        "sam_revenue": "$45,000,000,000",
+        "som_revenue": "$2,250,000,000",
+        "avg_business_revenue": "$1,000,000"
+      }
+    },
+    {
+      "id": "electrical",
+      "name": "Small Electrical Contractors",
+      "category": "Service Trades",
+      "avg_employees": 4,
+      "tech_adoption_score": 2,
+      "pain_points": [
+        "safety compliance",
+        "permit management",
+        "material tracking",
+        "project bidding"
+      ],
+      "typical_revenue": "$300K-$800K",
+      "digital_readiness": "Low",
+      "competition_tech_level": "Low",
+      "notes": "Licensing requirements, insurance costs, manual estimating",
+      "opportunity_score": 98,
+      "opportunity_level": "Very High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 300000,
+        "tam_revenue": "$165,000,000,000",
+        "sam_revenue": "$49,500,000,000",
+        "som_revenue": "$2,475,000,000",
+        "avg_business_revenue": "$550,000"
+      }
+    },
+    {
+      "id": "plumbing",
+      "name": "Local Plumbing Services",
+      "category": "Service Trades",
+      "avg_employees": 3,
+      "tech_adoption_score": 2,
+      "pain_points": [
+        "scheduling",
+        "invoicing",
+        "customer communication",
+        "route optimization"
+      ],
+      "typical_revenue": "$150K-$500K",
+      "digital_readiness": "Low",
+      "competition_tech_level": "Low",
+      "notes": "Often family-run, paper-based scheduling, cash/check payments",
+      "opportunity_score": 96,
+      "opportunity_level": "Very High",
+      "digital_solutions": [
+        "Digital Invoicing",
+        "Online Booking System",
+        "Feedback System",
+        "Automated Messaging",
+        "Digital Invoicing"
+      ],
+      "market_size_estimate": {
+        "businesses_in_us": 120000,
+        "tam_revenue": "$39,000,000,000",
+        "sam_revenue": "$11,700,000,000",
+        "som_revenue": "$585,000,000",
+        "avg_business_revenue": "$325,000"
+      }
+    },
+    {
+      "id": "tailors",
+      "name": "Independent Tailors/Seamstresses",
+      "category": "Service Trades",
+      "avg_employees": 2,
+      "tech_adoption_score": 2,
+      "pain_points": [
+        "measurement tracking",
+        "order management",
+        "fitting scheduling",
+        "material inventory"
+      ],
+      "typical_revenue": "$60K-$180K",
+      "digital_readiness": "Low",
+      "competition_tech_level": "Low",
+      "notes": "Custom work, measurement accuracy, fitting appointments",
+      "opportunity_score": 94,
+      "opportunity_level": "Very High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 50000,
+        "tam_revenue": "$6,000,000,000",
+        "sam_revenue": "$1,800,000,000",
+        "som_revenue": "$90,000,000",
+        "avg_business_revenue": "$120,000"
+      }
+    },
+    {
+      "id": "bars_pubs",
+      "name": "Small Bars/Pubs",
+      "category": "Hospitality",
+      "avg_employees": 7,
+      "tech_adoption_score": 3,
+      "pain_points": [
+        "inventory tracking",
+        "staff scheduling",
+        "compliance",
+        "event promotion"
+      ],
+      "typical_revenue": "$400K-$1.2M",
+      "digital_readiness": "Low-Medium",
+      "competition_tech_level": "Medium",
+      "notes": "Alcohol compliance, inventory shrinkage, staff management",
+      "opportunity_score": 85,
+      "opportunity_level": "Very High",
+      "digital_solutions": [
+        "Audit Trail",
+        "Document Management",
+        "Shift Planning",
+        "Compliance Checklists",
+        "Time Tracking"
+      ],
+      "market_size_estimate": {
+        "businesses_in_us": 60000,
+        "tam_revenue": "$48,000,000,000",
+        "sam_revenue": "$14,400,000,000",
+        "som_revenue": "$720,000,000",
+        "avg_business_revenue": "$800,000"
+      }
+    },
+    {
+      "id": "bakeries",
+      "name": "Local Bakeries",
+      "category": "Food Service",
+      "avg_employees": 5,
+      "tech_adoption_score": 3,
+      "pain_points": [
+        "recipe scaling",
+        "inventory spoilage",
+        "wholesale orders",
+        "delivery scheduling"
+      ],
+      "typical_revenue": "$200K-$600K",
+      "digital_readiness": "Low-Medium",
+      "competition_tech_level": "Medium",
+      "notes": "Early hours, perishable goods, wholesale/retail mix",
+      "opportunity_score": 85,
+      "opportunity_level": "Very High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 25000,
+        "tam_revenue": "$10,000,000,000",
+        "sam_revenue": "$3,000,000,000",
+        "som_revenue": "$150,000,000",
+        "avg_business_revenue": "$400,000"
+      }
+    },
+    {
+      "id": "massage_therapists",
+      "name": "Local Massage Therapists",
+      "category": "Wellness",
+      "avg_employees": 2,
+      "tech_adoption_score": 3,
+      "pain_points": [
+        "appointment booking",
+        "client retention",
+        "package management",
+        "online payments"
+      ],
+      "typical_revenue": "$100K-$300K",
+      "digital_readiness": "Low-Medium",
+      "competition_tech_level": "Low",
+      "notes": "Solo practitioners, appointment-based, client loyalty",
+      "opportunity_score": 84,
+      "opportunity_level": "Very High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 300000,
+        "tam_revenue": "$60,000,000,000",
+        "sam_revenue": "$18,000,000,000",
+        "som_revenue": "$900,000,000",
+        "avg_business_revenue": "$200,000"
+      }
+    },
+    {
+      "id": "hvac",
+      "name": "HVAC Companies",
+      "category": "Service Trades",
+      "avg_employees": 4,
+      "tech_adoption_score": 3,
+      "pain_points": [
+        "maintenance scheduling",
+        "parts inventory",
+        "emergency dispatch",
+        "customer history"
+      ],
+      "typical_revenue": "$200K-$800K",
+      "digital_readiness": "Low-Medium",
+      "competition_tech_level": "Medium",
+      "notes": "Seasonal business, equipment tracking challenges",
+      "opportunity_score": 83,
+      "opportunity_level": "Very High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 80000,
+        "tam_revenue": "$40,000,000,000",
+        "sam_revenue": "$12,000,000,000",
+        "som_revenue": "$600,000,000",
+        "avg_business_revenue": "$500,000"
+      }
+    },
+    {
+      "id": "auto_repair",
+      "name": "Independent Auto Repair Shops",
+      "category": "Automotive",
+      "avg_employees": 4,
+      "tech_adoption_score": 3,
+      "pain_points": [
+        "parts inventory",
+        "appointment scheduling",
+        "customer history",
+        "warranty tracking"
+      ],
+      "typical_revenue": "$400K-$900K",
+      "digital_readiness": "Low-Medium",
+      "competition_tech_level": "Medium",
+      "notes": "Dealer competition, specialized tools, certification requirements",
+      "opportunity_score": 83,
+      "opportunity_level": "Very High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 250000,
+        "tam_revenue": "$162,500,000,000",
+        "sam_revenue": "$48,750,000,000",
+        "som_revenue": "$2,437,500,000",
+        "avg_business_revenue": "$650,000"
+      }
+    },
+    {
+      "id": "retail_independent",
+      "name": "Independent Retail Stores",
+      "category": "Retail",
+      "avg_employees": 4,
+      "tech_adoption_score": 3,
+      "pain_points": [
+        "inventory management",
+        "point of sale",
+        "online presence",
+        "customer loyalty"
+      ],
+      "typical_revenue": "$300K-$900K",
+      "digital_readiness": "Low-Medium",
+      "competition_tech_level": "High (e-commerce)",
+      "notes": "Amazon competition, inventory challenges, foot traffic dependent",
+      "opportunity_score": 83,
+      "opportunity_level": "Very High",
+      "digital_solutions": [
+        "Inventory Tracking",
+        "Website Builder",
+        "Social Media Management",
+        "Reorder Alerts",
+        "Stock Management"
+      ],
+      "market_size_estimate": {
+        "businesses_in_us": 1000000,
+        "tam_revenue": "$600,000,000,000",
+        "sam_revenue": "$180,000,000,000",
+        "som_revenue": "$9,000,000,000",
+        "avg_business_revenue": "$600,000"
+      }
+    },
+    {
+      "id": "printing_services",
+      "name": "Small Printing Services",
+      "category": "Manufacturing",
+      "avg_employees": 4,
+      "tech_adoption_score": 3,
+      "pain_points": [
+        "order tracking",
+        "file preparation",
+        "inventory management",
+        "rush orders"
+      ],
+      "typical_revenue": "$300K-$700K",
+      "digital_readiness": "Low-Medium",
+      "competition_tech_level": "Medium",
+      "notes": "Equipment maintenance, file compatibility, order accuracy",
+      "opportunity_score": 83,
+      "opportunity_level": "Very High",
+      "digital_solutions": [
+        "Stock Management",
+        "Inventory Tracking",
+        "Reorder Alerts"
+      ],
+      "market_size_estimate": {
+        "businesses_in_us": 30000,
+        "tam_revenue": "$15,000,000,000",
+        "sam_revenue": "$4,500,000,000",
+        "som_revenue": "$225,000,000",
+        "avg_business_revenue": "$500,000"
+      }
+    },
+    {
+      "id": "personal_trainers",
+      "name": "Local Personal Trainers",
+      "category": "Wellness",
+      "avg_employees": 1,
+      "tech_adoption_score": 3,
+      "pain_points": [
+        "client scheduling",
+        "workout plans",
+        "progress tracking",
+        "payment collection"
+      ],
+      "typical_revenue": "$80K-$200K",
+      "digital_readiness": "Low-Medium",
+      "competition_tech_level": "Low",
+      "notes": "Solo operators, client retention, session scheduling",
+      "opportunity_score": 82,
+      "opportunity_level": "Very High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 250000,
+        "tam_revenue": "$35,000,000,000",
+        "sam_revenue": "$10,500,000,000",
+        "som_revenue": "$525,000,000",
+        "avg_business_revenue": "$140,000"
+      }
+    },
+    {
+      "id": "pest_control",
+      "name": "Small Pest Control Services",
+      "category": "Service Trades",
+      "avg_employees": 3,
+      "tech_adoption_score": 3,
+      "pain_points": [
+        "route optimization",
+        "chemical tracking",
+        "recurring appointments",
+        "compliance"
+      ],
+      "typical_revenue": "$200K-$500K",
+      "digital_readiness": "Low-Medium",
+      "competition_tech_level": "Medium",
+      "notes": "Recurring revenue model, chemical regulations, route efficiency critical",
+      "opportunity_score": 81,
+      "opportunity_level": "Very High",
+      "digital_solutions": [
+        "Audit Trail",
+        "Document Management",
+        "GPS Tracking",
+        "Route Planning",
+        "Compliance Checklists"
+      ],
+      "market_size_estimate": {
+        "businesses_in_us": 18000,
+        "tam_revenue": "$6,300,000,000",
+        "sam_revenue": "$1,890,000,000",
+        "som_revenue": "$94,500,000",
+        "avg_business_revenue": "$350,000"
+      }
+    },
+    {
+      "id": "chiropractors",
+      "name": "Independent Chiropractors",
+      "category": "Healthcare",
+      "avg_employees": 3,
+      "tech_adoption_score": 3,
+      "pain_points": [
+        "appointment scheduling",
+        "patient records",
+        "insurance billing",
+        "treatment plans"
+      ],
+      "typical_revenue": "$300K-$800K",
+      "digital_readiness": "Low-Medium",
+      "competition_tech_level": "Medium",
+      "notes": "Insurance complexity, appointment-based, patient retention",
+      "opportunity_score": 81,
+      "opportunity_level": "Very High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 45000,
+        "tam_revenue": "$24,750,000,000",
+        "sam_revenue": "$7,425,000,000",
+        "som_revenue": "$371,250,000",
+        "avg_business_revenue": "$550,000"
+      }
+    },
+    {
+      "id": "jewelers",
+      "name": "Local Jewelers",
+      "category": "Retail",
+      "avg_employees": 3,
+      "tech_adoption_score": 3,
+      "pain_points": [
+        "inventory valuation",
+        "repair tracking",
+        "appraisal management",
+        "custom orders"
+      ],
+      "typical_revenue": "$400K-$900K",
+      "digital_readiness": "Low-Medium",
+      "competition_tech_level": "Medium",
+      "notes": "High-value inventory, repair services, custom design",
+      "opportunity_score": 81,
+      "opportunity_level": "Very High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 25000,
+        "tam_revenue": "$16,250,000,000",
+        "sam_revenue": "$4,875,000,000",
+        "som_revenue": "$243,750,000",
+        "avg_business_revenue": "$650,000"
+      }
+    },
+    {
+      "id": "restaurants",
+      "name": "Family-owned Restaurants",
+      "category": "Hospitality",
+      "avg_employees": 8,
+      "tech_adoption_score": 4,
+      "pain_points": [
+        "online ordering",
+        "table management",
+        "inventory",
+        "staff scheduling",
+        "marketing"
+      ],
+      "typical_revenue": "$300K-$1.2M",
+      "digital_readiness": "Medium",
+      "competition_tech_level": "High (chains)",
+      "notes": "High failure rate, thin margins, resistant to tech costs",
+      "opportunity_score": 77,
+      "opportunity_level": "High",
+      "digital_solutions": [
+        "Lead Generation",
+        "Email Marketing",
+        "Shift Planning",
+        "Customer Loyalty Program",
+        "Time Tracking"
+      ],
+      "market_size_estimate": {
+        "businesses_in_us": 450000,
+        "tam_revenue": "$337,500,000,000",
+        "sam_revenue": "$101,250,000,000",
+        "som_revenue": "$5,062,500,000",
+        "avg_business_revenue": "$750,000"
+      }
+    },
+    {
+      "id": "coffee_shops",
+      "name": "Local Coffee Shops",
+      "category": "Hospitality",
+      "avg_employees": 6,
+      "tech_adoption_score": 4,
+      "pain_points": [
+        "inventory spoilage",
+        "staff scheduling",
+        "loyalty programs",
+        "online ordering"
+      ],
+      "typical_revenue": "$250K-$700K",
+      "digital_readiness": "Medium",
+      "competition_tech_level": "High (chains)",
+      "notes": "Perishable inventory, high staff turnover, location critical",
+      "opportunity_score": 75,
+      "opportunity_level": "High",
+      "digital_solutions": [
+        "Shift Planning",
+        "Time Tracking",
+        "Payroll Integration"
+      ],
+      "market_size_estimate": {
+        "businesses_in_us": 35000,
+        "tam_revenue": "$16,625,000,000",
+        "sam_revenue": "$4,987,500,000",
+        "som_revenue": "$249,375,000",
+        "avg_business_revenue": "$475,000"
+      }
+    },
+    {
+      "id": "hotels_bbs",
+      "name": "Family-owned Hotels/B&Bs",
+      "category": "Hospitality",
+      "avg_employees": 8,
+      "tech_adoption_score": 4,
+      "pain_points": [
+        "online booking",
+        "channel management",
+        "housekeeping",
+        "review management"
+      ],
+      "typical_revenue": "$500K-$1.5M",
+      "digital_readiness": "Medium",
+      "competition_tech_level": "High (OTAs)",
+      "notes": "Online travel agency dependence, review-sensitive, seasonal",
+      "opportunity_score": 75,
+      "opportunity_level": "High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 50000,
+        "tam_revenue": "$50,000,000,000",
+        "sam_revenue": "$15,000,000,000",
+        "som_revenue": "$750,000,000",
+        "avg_business_revenue": "$1,000,000"
+      }
+    },
+    {
+      "id": "physical_therapy",
+      "name": "Small Physical Therapy Practices",
+      "category": "Healthcare",
+      "avg_employees": 4,
+      "tech_adoption_score": 4,
+      "pain_points": [
+        "insurance claims",
+        "exercise programs",
+        "patient progress",
+        "scheduling"
+      ],
+      "typical_revenue": "$400K-$900K",
+      "digital_readiness": "Medium",
+      "competition_tech_level": "Medium",
+      "notes": "Insurance-dependent, treatment documentation, patient compliance",
+      "opportunity_score": 73,
+      "opportunity_level": "High",
+      "digital_solutions": [
+        "Appointment Reminders",
+        "Calendar Integration",
+        "Online Booking System"
+      ],
+      "market_size_estimate": {
+        "businesses_in_us": 60000,
+        "tam_revenue": "$39,000,000,000",
+        "sam_revenue": "$11,700,000,000",
+        "som_revenue": "$585,000,000",
+        "avg_business_revenue": "$650,000"
+      }
+    },
+    {
+      "id": "yoga_studios",
+      "name": "Small Yoga/Pilates Studios",
+      "category": "Wellness",
+      "avg_employees": 4,
+      "tech_adoption_score": 4,
+      "pain_points": [
+        "class scheduling",
+        "membership management",
+        "instructor scheduling",
+        "online classes"
+      ],
+      "typical_revenue": "$200K-$500K",
+      "digital_readiness": "Medium",
+      "competition_tech_level": "Medium",
+      "notes": "Class-based revenue, instructor management, space utilization",
+      "opportunity_score": 73,
+      "opportunity_level": "High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 40000,
+        "tam_revenue": "$14,000,000,000",
+        "sam_revenue": "$4,200,000,000",
+        "som_revenue": "$210,000,000",
+        "avg_business_revenue": "$350,000"
+      }
+    },
+    {
+      "id": "insurance_agents",
+      "name": "Independent Insurance Agents",
+      "category": "Professional Services",
+      "avg_employees": 3,
+      "tech_adoption_score": 4,
+      "pain_points": [
+        "policy comparison",
+        "client management",
+        "commission tracking",
+        "renewals"
+      ],
+      "typical_revenue": "$300K-$800K",
+      "digital_readiness": "Medium",
+      "competition_tech_level": "High (online)",
+      "notes": "Commission-based, multiple carrier systems, client retention critical",
+      "opportunity_score": 71,
+      "opportunity_level": "High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 350000,
+        "tam_revenue": "$192,500,000,000",
+        "sam_revenue": "$57,750,000,000",
+        "som_revenue": "$2,887,500,000",
+        "avg_business_revenue": "$550,000"
+      }
+    },
+    {
+      "id": "mortgage_brokers",
+      "name": "Local Mortgage Brokers",
+      "category": "Professional Services",
+      "avg_employees": 3,
+      "tech_adoption_score": 4,
+      "pain_points": [
+        "rate comparison",
+        "document collection",
+        "compliance",
+        "pipeline management"
+      ],
+      "typical_revenue": "$400K-$1M",
+      "digital_readiness": "Medium",
+      "competition_tech_level": "High (banks)",
+      "notes": "Rate-sensitive, document-intensive, compliance-heavy",
+      "opportunity_score": 71,
+      "opportunity_level": "High",
+      "digital_solutions": [
+        "Compliance Checklists",
+        "Audit Trail",
+        "Document Management"
+      ],
+      "market_size_estimate": {
+        "businesses_in_us": 30000,
+        "tam_revenue": "$21,000,000,000",
+        "sam_revenue": "$6,300,000,000",
+        "som_revenue": "$315,000,000",
+        "avg_business_revenue": "$700,000"
+      }
+    },
+    {
+      "id": "law_solo",
+      "name": "Solo Law Practices",
+      "category": "Professional Services",
+      "avg_employees": 2,
+      "tech_adoption_score": 4,
+      "pain_points": [
+        "case management",
+        "document automation",
+        "billing hours",
+        "client intake"
+      ],
+      "typical_revenue": "$200K-$600K",
+      "digital_readiness": "Medium",
+      "competition_tech_level": "Medium",
+      "notes": "Billable hours tracking, document management, compliance",
+      "opportunity_score": 69,
+      "opportunity_level": "Medium-High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 400000,
+        "tam_revenue": "$160,000,000,000",
+        "sam_revenue": "$48,000,000,000",
+        "som_revenue": "$2,400,000,000",
+        "avg_business_revenue": "$400,000"
+      }
+    },
+    {
+      "id": "accountants_small",
+      "name": "Independent Accountants (Small Firms)",
+      "category": "Professional Services",
+      "avg_employees": 2,
+      "tech_adoption_score": 5,
+      "pain_points": [
+        "tax season overload",
+        "client document management",
+        "compliance updates",
+        "billing"
+      ],
+      "typical_revenue": "$150K-$400K",
+      "digital_readiness": "Medium",
+      "competition_tech_level": "Medium",
+      "notes": "Seasonal peaks, document-heavy, compliance critical",
+      "opportunity_score": 61,
+      "opportunity_level": "Medium-High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 100000,
+        "tam_revenue": "$27,500,000,000",
+        "sam_revenue": "$8,250,000,000",
+        "som_revenue": "$412,500,000",
+        "avg_business_revenue": "$275,000"
+      }
+    },
+    {
+      "id": "real_estate_small",
+      "name": "Small Real Estate Agencies",
+      "category": "Professional Services",
+      "avg_employees": 4,
+      "tech_adoption_score": 5,
+      "pain_points": [
+        "lead management",
+        "property listings",
+        "transaction coordination",
+        "client communication"
+      ],
+      "typical_revenue": "$500K-$2M",
+      "digital_readiness": "Medium",
+      "competition_tech_level": "High",
+      "notes": "Commission-based, lead generation critical, transaction complexity",
+      "opportunity_score": 60,
+      "opportunity_level": "Medium-High",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 100000,
+        "tam_revenue": "$125,000,000,000",
+        "sam_revenue": "$37,500,000,000",
+        "som_revenue": "$1,875,000,000",
+        "avg_business_revenue": "$1,250,000"
+      }
+    },
+    {
+      "id": "photographers",
+      "name": "Independent Photographers",
+      "category": "Creative",
+      "avg_employees": 2,
+      "tech_adoption_score": 5,
+      "pain_points": [
+        "client galleries",
+        "contract management",
+        "booking deposits",
+        "image delivery"
+      ],
+      "typical_revenue": "$100K-$300K",
+      "digital_readiness": "Medium",
+      "competition_tech_level": "High",
+      "notes": "Portfolio-based, project-based, client communication",
+      "opportunity_score": 56,
+      "opportunity_level": "Medium",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 200000,
+        "tam_revenue": "$40,000,000,000",
+        "sam_revenue": "$12,000,000,000",
+        "som_revenue": "$600,000,000",
+        "avg_business_revenue": "$200,000"
+      }
+    },
+    {
+      "id": "graphic_designers",
+      "name": "Local Graphic Designers",
+      "category": "Creative",
+      "avg_employees": 2,
+      "tech_adoption_score": 6,
+      "pain_points": [
+        "client feedback",
+        "file management",
+        "project timelines",
+        "invoice tracking"
+      ],
+      "typical_revenue": "$80K-$250K",
+      "digital_readiness": "Medium-High",
+      "competition_tech_level": "High",
+      "notes": "Creative workflow, client revisions, project management",
+      "opportunity_score": 46,
+      "opportunity_level": "Medium-Low",
+      "digital_solutions": [],
+      "market_size_estimate": {
+        "businesses_in_us": 250000,
+        "tam_revenue": "$41,250,000,000",
+        "sam_revenue": "$12,375,000,000",
+        "som_revenue": "$618,750,000",
+        "avg_business_revenue": "$165,000"
+      }
+    }
+  ],
+  "recommendations": {
+    "immediate_focus": [
+      {
+        "industry": "Small Construction Contractors",
+        "reason": "High opportunity score (100), Very Low digital readiness",
+        "free_tool": "Business Health Check for Small Construction Contractors"
+      },
+      {
+        "industry": "Local Landscaping Services",
+        "reason": "High opportunity score (100), Low digital readiness",
+        "free_tool": "Local Landscaping Services Efficiency Calculator"
+      },
+      {
+        "industry": "Local Painting Companies",
+        "reason": "High opportunity score (100), Low digital readiness",
+        "free_tool": "Local Painting Companies Efficiency Calculator"
+      }
+    ],
+    "free_tools_to_build": [
+      "Business Health Check for Small Construction Contractors",
+      "Competitive Analysis Tool for Local Landscaping Services",
+      "Digital Readiness Assessment for Small Electrical Contractors",
+      "Competitive Analysis Tool for Local Painting Companies",
+      "Business Health Check for Independent Roofing Contractors",
+      "Small Electrical Contractors Efficiency Calculator",
+      "Digital Readiness Assessment for Local Landscaping Services",
+      "Digital Transformation Roadmap",
+      "Competitive Advantage Assessment",
+      "Local Painting Companies Efficiency Calculator"
+    ],
+    "digital_products_to_develop": [
+      {
+        "product": "Project Tracking for Small Construction Contractors",
+        "target_industry": "Small Construction Contractors",
+        "price_range": "$50-$300/month",
+        "key_features": [
+          "Easy setup",
+          "Mobile-friendly",
+          "Integration ready"
+        ]
+      },
+      {
+        "product": "Task Assignment for Small Construction Contractors",
+        "target_industry": "Small Construction Contractors",
+        "price_range": "$50-$300/month",
+        "key_features": [
+          "Easy setup",
+          "Mobile-friendly",
+          "Integration ready"
+        ]
+      }
+    ],
+    "marketing_strategy": [
+      "Build free assessment tools for top 5 industries",
+      "Capture emails with valuable insights",
+      "Nurture leads with industry-specific content",
+      "Offer personalized demos of paid solutions",
+      "Use case studies from early adopters"
+    ]
+  }
+}

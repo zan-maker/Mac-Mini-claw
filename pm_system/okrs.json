@@ -1,0 +1,26 @@
+{
+  "objective": "Eliminate manual project reminding",
+  "key_results": [
+    {
+      "kr": "Reduce manual cron job checks by 90%",
+      "target": "90%",
+      "current": "0%"
+    },
+    {
+      "kr": "Implement automated dashboard",
+      "target": "Fully functional",
+      "current": "Not started"
+    },
+    {
+      "kr": "Set up automated alerts",
+      "target": "100% coverage",
+      "current": "0%"
+    },
+    {
+      "kr": "Establish RICE prioritization",
+      "target": "All projects",
+      "current": "Just cron jobs"
+    }
+  ],
+  "quarter": "Q2 2026"
+}

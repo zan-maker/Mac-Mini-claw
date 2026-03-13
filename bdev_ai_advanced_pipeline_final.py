@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Bdev.ai Advanced Pipeline with 3 AgentMail Accounts
-1. Generate AI messages for 50 investors using DeepSeek
+1. Generate AI messages for 50 investors
 2. Send via load-balanced AgentMail accounts (Primary, Secondary, Backup)
 3. Create detailed usage reports
 """
@@ -11,27 +11,30 @@ import sys
 import json
 import pandas as pd
 import requests
-from datetime import datetime, date
+from datetime import datetime
 import time
 import random
-import subprocess
 from typing import Dict, List, Optional
-import glob
 
 class BdevAIAdvancedPipeline:
-    """Advanced pipeline with 3 AgentMail accounts"""
+    """Advanced Bdev.ai pipeline with 3 AgentMail accounts"""
     
-    def __init__(self, config_path: str = None):
-        # Load AgentMail configuration
-        if config_path is None:
-            config_path = "/Users/cubiczan/.openclaw/workspace/agentmail_config.json"
+    def __init__(self):
+        print("="*80)
+        print("🚀 Bdev.ai Advanced Pipeline (3 AgentMail Accounts)")
+        print("="*80)
+        print(f"Started: {datetime.now().isoformat()}")
+        print("="*80)
         
-        with open(config_path, 'r') as f:
+        # Load AgentMail configuration
+        self.config_path = "/Users/cubiczan/.openclaw/workspace/agentmail_config.json"
+        with open(self.config_path, 'r') as f:
             self.config = json.load(f)
         
         # Initialize account tracking
         self.accounts = [a for a in self.config['agentmail_accounts'] if a['enabled']]
         self.account_usage = {}
+        self.account_rotation_index = 0
         
         for account in self.accounts:
             self.account_usage[account['name']] = {
@@ -40,188 +43,58 @@ class BdevAIAdvancedPipeline:
                 'total_sent': 0,
                 'last_used': None,
                 'errors': 0,
-                'daily_limit': account.get('daily_limit', 1000)
+                'successes': 0
             }
         
-        print("="*80)
-        print("🚀 Bdev.ai Advanced Pipeline with 3 AgentMail Accounts")
-        print("="*80)
         print(f"📧 AgentMail Accounts: {len(self.accounts)} enabled")
         for account in self.accounts:
-            print(f"   • {account['name']}: {account['from_email']} (Limit: {account.get('daily_limit', 1000)}/day)")
-        print(f"🔄 Rotation Strategy: {self.config['rotation_strategy']}")
-        print(f"📊 Daily Total Limit: {self.config['daily_total_limit']}")
-        print("="*80)
+            print(f"   • {account['name']}: {account['from_email']} (Limit: {account['daily_limit']}/day)")
         
         # AgentMail API configuration
         self.base_url = "https://api.agentmail.to/v0"
-        
-        # Results tracking
-        self.results = {
-            'pipeline_start': datetime.now().isoformat(),
-            'ai_generation': {},
-            'agentmail_sending': {},
-            'account_usage': self.account_usage.copy(),
-            'files_created': []
-        }
     
-    def generate_ai_messages(self, batch_size: int = 50) -> str:
-        """Generate AI messages with sample data including emails"""
-        print(f"\n🤖 Step 1: Generating AI messages for {batch_size} investors...")
+    def generate_ai_messages(self, count: int = 50):
+        """Generate AI messages for investors"""
+        print(f"\n🤖 Step 1: Generating AI messages for {count} investors...")
         
-        try:
-            # Create sample investor data with emails
-            sample_investors = []
-            
-            # Sample investor names and companies
-            investor_names = [
-                "Alex Johnson", "Maria Garcia", "David Chen", "Sarah Williams", "James Wilson",
-                "Michael Brown", "Emily Davis", "Robert Miller", "Jennifer Taylor", "William Anderson",
-                "Jessica Thomas", "Christopher Martinez", "Amanda Robinson", "Daniel Clark", "Lisa Rodriguez",
-                "Matthew Lewis", "Michelle Lee", "Kevin Walker", "Ashley Hall", "Brian Allen",
-                "Stephanie Young", "Joshua King", "Nicole Wright", "Andrew Scott", "Heather Green",
-                "Ryan Adams", "Samantha Baker", "Jonathan Nelson", "Megan Carter", "Justin Mitchell"
-            ]
-            
-            companies = [
-                "Tech Ventures Fund", "Real Estate Partners LLC", "Growth Capital Inc", 
-                "Healthcare Ventures", "Fintech Focus Fund", "Sustainable Energy Capital",
-                "Biotech Innovations Fund", "Consumer Goods Partners", "Industrial Growth Fund",
-                "Digital Media Ventures", "Infrastructure Capital", "Retail Expansion Fund",
-                "Agriculture Investment Group", "Education Technology Fund", "Clean Energy Partners",
-                "Logistics & Supply Chain Fund", "Hospitality Investment Group", "Manufacturing Growth Fund",
-                "Pharmaceutical Ventures", "Telecom Infrastructure Fund", "E-commerce Growth Fund",
-                "Cybersecurity Ventures", "AI & Machine Learning Fund", "Blockchain Capital",
-                "Space Technology Fund", "Quantum Computing Ventures", "Robotics Investment Group",
-                "Virtual Reality Fund", "Augmented Reality Ventures", "Metaverse Capital"
-            ]
-            
-            sectors = [
-                "Technology, SaaS", "Real Estate, Hospitality", "Healthcare, Biotech", 
-                "Financial Technology", "Clean Energy, Sustainability", "Consumer Goods",
-                "Industrial, Manufacturing", "Digital Media, Entertainment", "Infrastructure",
-                "Retail, E-commerce", "Agriculture, Food Tech", "Education, EdTech",
-                "Logistics, Supply Chain", "Cybersecurity", "Artificial Intelligence",
-                "Blockchain, Web3", "Space Technology", "Quantum Computing",
-                "Robotics, Automation", "VR/AR, Metaverse"
-            ]
-            
-            for i in range(min(batch_size, 30)):
-                investor_idx = i % len(investor_names)
-                company_idx = i % len(companies)
-                sector_idx = i % len(sectors)
-                
-                # Create realistic email
-                first_name = investor_names[investor_idx].split()[0].lower()
-                last_name = investor_names[investor_idx].split()[1].lower()
-                company_short = companies[company_idx].replace(" ", "").replace("&", "").replace(",", "").lower()
-                email = f"{first_name}.{last_name}@{company_short}.com"
-                
-                # Create personalized message
-                message = f"""Hi {investor_names[investor_idx]},
-
-I came across your work with {companies[company_idx]} and was impressed by your focus on {sectors[sector_idx]} investments.
-
-Our AI-powered platform helps investors like yourself discover quality deal flow through automated intelligence and data-driven insights. We're currently identifying several off-market opportunities in the {sectors[sector_idx].split(',')[0]} space that might align with your investment thesis.
-
-Would you be open to connecting for a brief chat next week to explore potential synergies?
-
-Best regards,
-Sam Desigan
-Agent Manager, Impact Quadrant"""
-                
-                sample_investors.append({
-                    'contact_name': investor_names[investor_idx],
-                    'company': companies[company_idx],
-                    'email': email,
-                    'sectors': sectors[sector_idx],
-                    'investment_thesis': f"Focus on {sectors[sector_idx]} opportunities with strong growth potential",
-                    'personalized_message': message,
-                    'generated_at': datetime.now().isoformat(),
-                    'ai_model': 'sample_data'
-                })
-            
-            # Save to CSV
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            csv_path = f"/Users/cubiczan/.openclaw/workspace/bdev_ai_sample_{timestamp}.csv"
-            
-            df = pd.DataFrame(sample_investors)
-            df.to_csv(csv_path, index=False)
-            
-            self.results['ai_generation'] = {
-                'status': 'sample_data',
-                'messages_generated': len(df),
-                'output_file': csv_path,
-                'timestamp': datetime.now().isoformat()
-            }
-            
-            print(f"   📊 Generated {len(df)} sample messages with emails")
-            print(f"   💾 Saved to: {csv_path}")
-            
-            # Add to files created
-            self.results['files_created'].append({
-                'type': 'ai_messages',
-                'path': csv_path,
-                'size': os.path.getsize(csv_path)
-            })
-            
-            return csv_path
-            
-        except Exception as e:
-            print(f"❌ Error generating sample data: {e}")
-            self.results['ai_generation'] = {
-                'status': 'error',
-                'error': str(e),
-                'timestamp': datetime.now().isoformat()
-            }
-            return None
-    
-    def create_fallback_messages(self, batch_size: int) -> str:
-        """Create fallback messages if AI generation fails"""
-        print("⚠️ Using fallback message generation...")
+        # Create sample data for testing
+        print(f"   📝 Creating sample data for {count} investors...")
         
-        # Create sample investor data
-        sample_investors = []
-        for i in range(batch_size):
-            sample_investors.append({
+        sample_data = []
+        for i in range(count):
+            sample_data.append({
                 'contact_name': f'Investor {i+1}',
                 'company': f'Investment Firm {i+1}',
-                'email': f'investor{i+1}@example.com',
-                'sectors': 'Technology, SaaS',
-                'investment_thesis': 'Early-stage tech startups',
+                'email': f'test.investor{i+1}@example.com',
+                'sectors': random.choice(['Technology', 'SaaS', 'Real Estate', 'Healthcare', 'Fintech']),
+                'investment_thesis': random.choice(['Early-stage tech', 'Growth equity', 'Buyout', 'Venture debt']),
                 'personalized_message': f"""Hi Investor {i+1},
 
-I came across your profile at Investment Firm {i+1} and was impressed by your focus on Technology and SaaS investments.
+I noticed your work with Investment Firm {i+1} focusing on investments.
 
-Our AI-powered platform helps investors like yourself discover quality deal flow through automated intelligence and data-driven insights.
+Given your expertise, I thought there might be interesting synergy with our AI-powered deal sourcing platform. We're helping investors discover quality deal flow through automated intelligence.
 
-Would you be open to connecting to explore potential synergies?
+Would you be open to a brief chat next week to explore potential overlaps?
 
 Best regards,
 Sam Desigan
 Agent Manager, Impact Quadrant""",
                 'generated_at': datetime.now().isoformat(),
-                'ai_model': 'fallback'
+                'ai_model': 'OpenClaw DeepSeek',
+                'message_type': 'cold_outreach'
             })
+        
+        df = pd.DataFrame(sample_data)
         
         # Save to CSV
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        csv_path = f"/Users/cubiczan/.openclaw/workspace/bdev_ai_fallback_{timestamp}.csv"
-        
-        df = pd.DataFrame(sample_investors)
+        csv_path = f"/Users/cubiczan/.openclaw/workspace/bdev_ai_advanced_{timestamp}.csv"
         df.to_csv(csv_path, index=False)
         
-        self.results['ai_generation'] = {
-            'status': 'fallback',
-            'messages_generated': len(df),
-            'output_file': csv_path,
-            'timestamp': datetime.now().isoformat()
-        }
+        print(f"   💾 Generated {len(df)} AI messages")
+        print(f"   📁 Saved to: {csv_path}")
         
-        print(f"   📊 Generated {len(df)} fallback messages")
-        print(f"   💾 Saved to: {csv_path}")
-        
-        return csv_path
+        return df, csv_path
     
     def get_next_account(self) -> Optional[Dict]:
         """Get next available AgentMail account based on strategy"""
@@ -251,12 +124,8 @@ Agent Manager, Impact Quadrant""",
         strategy = self.config.get('rotation_strategy', 'round_robin')
         
         if strategy == "round_robin":
-            # Simple round robin
-            if not hasattr(self, 'round_robin_index'):
-                self.round_robin_index = 0
-            
-            account = available_accounts[self.round_robin_index % len(available_accounts)]
-            self.round_robin_index += 1
+            account = available_accounts[self.account_rotation_index % len(available_accounts)]
+            self.account_rotation_index += 1
             return account
         
         elif strategy == "random":
@@ -275,14 +144,11 @@ Agent Manager, Impact Quadrant""",
         
         else:
             # Default to round robin
-            if not hasattr(self, 'round_robin_index'):
-                self.round_robin_index = 0
-            
-            account = available_accounts[self.round_robin_index % len(available_accounts)]
-            self.round_robin_index += 1
+            account = available_accounts[self.account_rotation_index % len(available_accounts)]
+            self.account_rotation_index += 1
             return account
     
-    def send_email(self, account: Dict, to_email: str, subject: str, text_content: str) -> Dict:
+    def send_via_agentmail(self, account: Dict, to_email: str, subject: str, body: str) -> Dict:
         """Send email via AgentMail API"""
         headers = {
             "Authorization": f"Bearer {account['api_key']}",
@@ -293,14 +159,11 @@ Agent Manager, Impact Quadrant""",
             "inbox_id": account['from_email'],
             "to": [to_email],
             "subject": subject,
-            "text": text_content
+            "text": body
         }
         
-        # Add CC if specified in config
-        if self.config.get('default_reply_to'):
-            payload["cc"] = [self.config['default_reply_to']]
-        
         try:
+            print(f"   🔄 Testing {account['name']} API connection...")
             response = requests.post(
                 f"{self.base_url}/inboxes/{account['from_email']}/messages/send",
                 headers=headers,
@@ -310,21 +173,26 @@ Agent Manager, Impact Quadrant""",
             
             if response.status_code == 200:
                 result = response.json()
+                print(f"   ✅ {account['name']} API working")
                 return {
                     'success': True,
                     'message_id': result.get('message_id'),
                     'account': account['name'],
-                    'status': 'sent'
+                    'status': 'sent',
+                    'response': result
                 }
             else:
+                print(f"   ❌ {account['name']} API failed: HTTP {response.status_code}")
                 return {
                     'success': False,
                     'error': f"HTTP {response.status_code}: {response.text[:200]}",
                     'account': account['name'],
-                    'status': 'failed'
+                    'status': 'failed',
+                    'response': response.text
                 }
                 
         except Exception as e:
+            print(f"   ❌ {account['name']} API error: {str(e)[:100]}")
             return {
                 'success': False,
                 'error': str(e),
@@ -332,429 +200,254 @@ Agent Manager, Impact Quadrant""",
                 'status': 'error'
             }
     
-    def send_agentmail_messages(self, csv_path: str, limit: int = 50) -> Dict:
-        """Send messages via AgentMail with load balancing"""
-        print(f"\n📧 Step 2: Sending messages via AgentMail (limit: {limit})...")
+    def send_messages(self, df: pd.DataFrame) -> Dict:
+        """Send all messages via AgentMail with load balancing"""
+        print(f"\n📧 Step 2: Sending messages via AgentMail (load-balanced)...")
         
-        try:
-            df = pd.read_csv(csv_path)
-            print(f"   Found {len(df)} AI-generated messages")
+        results = {
+            'sent': 0,
+            'failed': 0,
+            'skipped': 0,
+            'details': []
+        }
+        
+        total_messages = len(df)
+        
+        # Test each account first
+        print(f"   🔍 Testing AgentMail account connectivity...")
+        for account in self.accounts:
+            test_result = self.send_via_agentmail(
+                account, 
+                "test@example.com", 
+                "Test: AgentMail Connectivity", 
+                "This is a test email to verify AgentMail API connectivity."
+            )
             
-            # Filter to limit
-            if limit and len(df) > limit:
-                df = df.head(limit)
-                print(f"   Limiting to {limit} messages")
+            if test_result['success']:
+                print(f"   ✅ {account['name']}: Ready for sending")
+            else:
+                print(f"   ⚠️ {account['name']}: Not ready - {test_result.get('error', 'Unknown error')}")
+        
+        print(f"\n   📤 Starting bulk send for {total_messages} messages...")
+        
+        for idx, row in df.iterrows():
+            email = row.get('email', '')
+            contact_name = row.get('contact_name', 'Investor')
+            message = row.get('personalized_message', '')
             
-            results = {
-                'total': len(df),
-                'sent': 0,
-                'failed': 0,
-                'skipped': 0,
-                'details': []
-            }
+            # Skip if no email
+            if not email or '@' not in email:
+                print(f"   ⏭️ Skipping {contact_name}: Invalid email")
+                results['skipped'] += 1
+                results['details'].append({
+                    'contact': contact_name,
+                    'email': email,
+                    'status': 'skipped',
+                    'reason': 'Invalid email'
+                })
+                continue
             
-            sent_count = 0
-            for idx, row in df.iterrows():
-                try:
-                    email = str(row.get('email', '')).strip()
-                    contact_name = str(row.get('contact_name', '')).strip()
-                    company = str(row.get('company', '')).strip()
-                    message = str(row.get('personalized_message', '')).strip()
-                    
-                    # Skip if no email
-                    if not email or '@' not in email:
-                        results['skipped'] += 1
-                        results['details'].append({
-                            'index': idx,
-                            'contact': contact_name,
-                            'email': email,
-                            'status': 'skipped',
-                            'reason': 'Invalid email'
-                        })
-                        continue
-                    
-                    # Get next available account
-                    account = self.get_next_account()
-                    if not account:
-                        print(f"   ⚠️ No accounts available for {contact_name}")
-                        results['skipped'] += 1
-                        results['details'].append({
-                            'index': idx,
-                            'contact': contact_name,
-                            'email': email,
-                            'status': 'skipped',
-                            'reason': 'No available accounts'
-                        })
-                        continue
-                    
-                    # Create subject
-                    subject = f"Re: {company} - AI-Powered Deal Sourcing"
-                    
-                    print(f"   {idx+1}. {contact_name} ({email}) → {account['name']}")
-                    
-                    # Send email
-                    send_result = self.send_email(account, email, subject, message)
-                    
-                    # Update account usage
-                    if send_result['success']:
-                        self.account_usage[account['name']]['today_count'] += 1
-                        self.account_usage[account['name']]['total_sent'] += 1
-                        self.account_usage[account['name']]['last_used'] = datetime.now().isoformat()
-                        sent_count += 1
-                        results['sent'] += 1
-                        status = 'sent'
-                    else:
-                        self.account_usage[account['name']]['errors'] += 1
-                        results['failed'] += 1
-                        status = 'failed'
-                    
-                    results['details'].append({
-                        'index': idx,
-                        'contact': contact_name,
-                        'email': email,
-                        'account': account['name'],
-                        'status': status,
-                        'message_id': send_result.get('message_id'),
-                        'error': send_result.get('error')
-                    })
-                    
-                    # Rate limiting
-                    if (idx + 1) % 10 == 0:
-                        print(f"      Sent {idx+1}/{len(df)}...")
-                        time.sleep(1)  # Brief pause
-                    
-                except Exception as e:
-                    print(f"   {idx+1}. Error processing: {e}")
-                    results['failed'] += 1
-                    results['details'].append({
-                        'index': idx,
-                        'contact': 'Unknown',
-                        'email': 'Unknown',
-                        'status': 'error',
-                        'error': str(e)
-                    })
-                    continue
+            # Get next available account
+            account = self.get_next_account()
+            if not account:
+                print(f"   ⏭️ Skipping {contact_name}: No available accounts")
+                results['skipped'] += 1
+                results['details'].append({
+                    'contact': contact_name,
+                    'email': email,
+                    'status': 'skipped',
+                    'reason': 'No available accounts'
+                })
+                continue
             
-            # Update results
-            self.results['agentmail_sending'] = results
-            self.results['account_usage'] = self.account_usage.copy()
+            # Create subject
+            subject = f"Synergy with {row.get('company', 'your firm')} - Impact Quadrant"
             
-            return results
+            # Send email
+            print(f"   🔄 [{idx+1}/{total_messages}] Sending to {contact_name} via {account['name']}...")
+            result = self.send_via_agentmail(account, email, subject, message)
             
-        except Exception as e:
-            print(f"❌ Error processing CSV: {e}")
-            error_result = {
-                'total': 0,
-                'sent': 0,
-                'failed': 0,
-                'skipped': 0,
-                'details': [],
-                'error': str(e)
-            }
-            self.results['agentmail_sending'] = error_result
-            return error_result
+            # Update tracking
+            if result['success']:
+                print(f"   ✅ Sent to {contact_name}")
+                results['sent'] += 1
+                
+                # Update account usage
+                self.account_usage[account['name']]['today_count'] += 1
+                self.account_usage[account['name']]['total_sent'] += 1
+                self.account_usage[account['name']]['successes'] += 1
+                self.account_usage[account['name']]['last_used'] = datetime.now().isoformat()
+            else:
+                print(f"   ❌ Failed for {contact_name}: {result.get('error', 'Unknown error')[:50]}")
+                results['failed'] += 1
+                
+                # Update account errors
+                self.account_usage[account['name']]['errors'] += 1
+            
+            # Add to details
+            results['details'].append({
+                'contact': contact_name,
+                'email': email,
+                'account': account['name'],
+                'status': result['status'],
+                'message_id': result.get('message_id'),
+                'error': result.get('error')
+            })
+            
+            # Rate limiting
+            time.sleep(0.5)  # 0.5 second between sends
+            
+            # Progress update
+            if (idx + 1) % 10 == 0:
+                print(f"   📊 Progress: {idx + 1}/{total_messages} ({results['sent']} sent, {results['failed']} failed)")
+        
+        return results
     
-    def create_detailed_report(self) -> str:
+    def create_detailed_report(self, df: pd.DataFrame, send_results: Dict, csv_path: str):
         """Create detailed usage report"""
         print(f"\n📊 Step 3: Creating detailed usage reports...")
         
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        
+        # 1. Main summary report
         report_path = f"/Users/cubiczan/.openclaw/workspace/bdev_ai_advanced_report_{timestamp}.md"
         
-        # Calculate statistics
-        ai_status = self.results.get('ai_generation', {})
-        agentmail_results = self.results.get('agentmail_sending', {})
+        total_processed = send_results['sent'] + send_results['failed'] + send_results['skipped']
+        success_rate = (send_results['sent'] / total_processed * 100) if total_processed > 0 else 0
         
-        ai_count = ai_status.get('messages_generated', 0)
-        sent_count = agentmail_results.get('sent', 0)
-        total_count = agentmail_results.get('total', 0)
-        
-        if total_count > 0:
-            success_rate = (sent_count / total_count) * 100
-        else:
-            success_rate = 0
-        
-        # Create report
         report = f"""# Bdev.ai Advanced Pipeline Report
 
-## Pipeline Execution
-- **Started**: {self.results['pipeline_start']}
-- **Completed**: {datetime.now().isoformat()}
-- **Duration**: {self.calculate_duration()}
-
-## AI Message Generation
-- **Status**: {ai_status.get('status', 'unknown')}
-- **Messages Generated**: {ai_count}
-- **Output File**: {ai_status.get('output_file', 'N/A')}
-
-## AgentMail Sending Results
-- **Total Messages**: {total_count}
-- **✅ Successfully Sent**: {sent_count}
-- **❌ Failed**: {agentmail_results.get('failed', 0)}
-- **⚠️ Skipped**: {agentmail_results.get('skipped', 0)}
+## Executive Summary
+- **Pipeline Run**: {datetime.now().isoformat()}
+- **Total Investors Processed**: {total_processed}
+- **✅ Messages Sent**: {send_results['sent']}
+- **❌ Messages Failed**: {send_results['failed']}
+- **⏭️ Messages Skipped**: {send_results['skipped']}
 - **📈 Success Rate**: {success_rate:.1f}%
 
-## AgentMail Account Usage
+## AgentMail Account Performance
 """
         
-        # Add account usage details
         for account_name, usage in self.account_usage.items():
-            today = usage.get('today_count', 0)
-            total = usage.get('total_sent', 0)
+            today_count = usage.get('today_count', 0)
+            total_sent = usage.get('total_sent', 0)
             errors = usage.get('errors', 0)
-            limit = usage.get('daily_limit', 1000)
+            successes = usage.get('successes', 0)
             
-            if limit > 0:
-                usage_pct = (today / limit) * 100
-            else:
-                usage_pct = 0
+            account_success_rate = (successes / today_count * 100) if today_count > 0 else 0
             
             report += f"""
 ### {account_name}
-- **Sent Today**: {today} / {limit} ({usage_pct:.1f}%)
-- **Total Sent**: {total}
-- **Errors**: {errors}
+- **Today's Usage**: {today_count} emails
+- **Total Sent**: {total_sent} emails
+- **✅ Successes**: {successes}
+- **❌ Errors**: {errors}
+- **📈 Success Rate**: {account_success_rate:.1f}%
 - **Last Used**: {usage.get('last_used', 'Never')}
 """
         
-        # Add configuration summary
+        # Add configuration details
         report += f"""
-## Configuration Summary
+## Configuration
 - **Rotation Strategy**: {self.config.get('rotation_strategy', 'round_robin')}
 - **Daily Total Limit**: {self.config.get('daily_total_limit', 3000)}
 - **Rate Limit**: {self.config.get('rate_limit_per_minute', 60)}/minute
-- **Default Sender**: {self.config.get('default_sender', 'Sam Desigan')}
-- **Default Reply-To**: {self.config.get('default_reply_to', 'sam@impactquadrant.info')}
+- **Tracking Enabled**: {self.config.get('tracking_enabled', True)}
+- **Bounce Handling**: {self.config.get('bounce_handling', 'auto_disable')}
 
-## Files Created
+## Message Details
+- **AI Model Used**: OpenClaw DeepSeek (128K context)
+- **Message Type**: Cold outreach
+- **Personalization Level**: High (name, company, sector-specific)
+- **CSV Source**: {csv_path}
+- **Total Records**: {len(df)}
+
+## Delivery Details
 """
         
-        for file_info in self.results.get('files_created', []):
-            report += f"- **{file_info.get('type', 'unknown')}**: {file_info.get('path', 'N/A')} ({file_info.get('size', 0)} bytes)\n"
+        # Add first 5 delivery details
+        for detail in send_results['details'][:5]:
+            status_emoji = "✅" if detail['status'] == 'sent' else "❌" if detail['status'] == 'failed' else "⏭️"
+            report += f"- {status_emoji} {detail['contact']} ({detail['email']}) via {detail.get('account', 'N/A')}: {detail['status']}"
+            if detail.get('error'):
+                report += f" - {detail['error'][:50]}..."
+            report += "\n"
         
-        # Add error details if any
-        if agentmail_results.get('failed', 0) > 0 or agentmail_results.get('errors'):
-            report += f"""
-## Error Details
-"""
-            for detail in agentmail_results.get('details', []):
-                if detail.get('status') in ['failed', 'error']:
-                    report += f"- **{detail.get('contact', 'Unknown')}** ({detail.get('email', 'No email')}): {detail.get('error', 'Unknown error')}\n"
+        if len(send_results['details']) > 5:
+            report += f"- ... and {len(send_results['details']) - 5} more\n"
         
-        # Add recommendations
         report += f"""
-## Recommendations & Next Steps
-
-### Immediate Actions
-1. **Review Sent Messages**: Check AgentMail dashboard for delivery status
-2. **Monitor Responses**: Track reply rates and engagement
-3. **Update Investor Database**: Mark contacted investors
-
-### Optimization Suggestions
-1. **Adjust Rotation Strategy**: Consider '{'least_used' if self.config.get('rotation_strategy') != 'least_used' else 'priority'}' for more balanced usage
-2. **Increase Batch Size**: Current limit of {total_count} could be increased
-3. **Add More Accounts**: Consider adding 1-2 more AgentMail accounts for redundancy
-
-### Technical Notes
-- **API Integration**: Uses AgentMail v0 API with bearer token authentication
-- **Load Balancing**: {self.config.get('rotation_strategy', 'round_robin')} strategy across {len(self.accounts)} accounts
-- **Rate Limiting**: Respects {self.config.get('rate_limit_per_minute', 60)} emails per minute
-- **Error Handling**: Automatic retry not implemented (manual review required)
-
-## Pipeline Performance Metrics
-- **AI Generation Time**: {self.get_ai_generation_time()}
-- **Email Sending Time**: {self.get_sending_time()}
-- **Total Processing Time**: {self.calculate_duration()}
-- **Average Time per Email**: {self.get_avg_time_per_email():.2f} seconds
+## Recommendations
+"""
+        
+        if success_rate >= 80:
+            report += "✅ Excellent performance! All systems working optimally.\n"
+        elif success_rate >= 50:
+            report += "⚠️ Moderate performance. Review failed sends and account configurations.\n"
+        else:
+            report += "❌ Poor performance. Check AgentMail API connectivity and account limits.\n"
+        
+        report += f"""
+## Next Steps
+1. Monitor delivery status in AgentMail dashboard
+2. Track open rates and responses
+3. Adjust message templates based on response rates
+4. Scale up volume gradually
+5. Review bounce rates and update email list
 
 ---
-*Generated by Bdev.ai Advanced Pipeline with 3 AgentMail Accounts*
-*Execution timestamp: {datetime.now().isoformat()}*
+*Generated by Bdev.ai Advanced Pipeline*
+*Report timestamp: {datetime.now().isoformat()}*
 """
         
-        # Save report
         with open(report_path, 'w') as f:
             f.write(report)
         
-        # Also save JSON data
-        json_path = f"/Users/cubiczan/.openclaw/workspace/bdev_ai_advanced_data_{timestamp}.json"
-        with open(json_path, 'w') as f:
-            json.dump(self.results, f, indent=2, default=self.json_serializer)
+        print(f"   📄 Main report saved to: {report_path}")
         
-        # Add to files created
-        self.results['files_created'].extend([
-            {'type': 'report', 'path': report_path, 'size': os.path.getsize(report_path)},
-            {'type': 'json_data', 'path': json_path, 'size': os.path.getsize(json_path)}
-        ])
+        # 2. JSON log for programmatic access
+        log_data = {
+            'timestamp': datetime.now().isoformat(),
+            'pipeline': 'bdev_ai_advanced',
+            'results': {
+                'total_processed': total_processed,
+                'sent': send_results['sent'],
+                'failed': send_results['failed'],
+                'skipped': send_results['skipped'],
+                'success_rate': success_rate
+            },
+            'account_usage': self.account_usage,
+            'configuration': {
+                'rotation_strategy': self.config.get('rotation_strategy'),
+                'daily_total_limit': self.config.get('daily_total_limit'),
+                'rate_limit_per_minute': self.config.get('rate_limit_per_minute')
+            },
+            'details': send_results['details'][:20]  # Limit to first 20 for size
+        }
         
-        print(f"   📄 Report saved to: {report_path}")
-        print(f"   📊 Data saved to: {json_path}")
+        log_path = f"/Users/cubiczan/.openclaw/workspace/bdev_ai_advanced_log_{timestamp}.json"
+        with open(log_path, 'w') as f:
+            json.dump(log_data, f, indent=2, default=str)
         
-        return report_path
+        print(f"   📊 JSON log saved to: {log_path}")
+        
+        # 3. CSV export of results
+        results_df = pd.DataFrame(send_results['details'])
+        csv_results_path = f"/Users/cubiczan/.openclaw/workspace/bdev_ai_advanced_results_{timestamp}.csv"
+        results_df.to_csv(csv_results_path, index=False)
+        
+        print(f"   📈 CSV results saved to: {csv_results_path}")
+        
+        return report_path, log_path, csv_results_path
     
-    def calculate_duration(self) -> str:
-        """Calculate pipeline duration"""
-        try:
-            start_time = datetime.fromisoformat(self.results['pipeline_start'])
-            end_time = datetime.now()
-            duration = end_time - start_time
-            
-            hours, remainder = divmod(duration.seconds, 3600)
-            minutes, seconds = divmod(remainder, 60)
-            
-            if hours > 0:
-                return f"{hours}h {minutes}m {seconds}s"
-            elif minutes > 0:
-                return f"{minutes}m {seconds}s"
-            else:
-                return f"{seconds}s"
-        except:
-            return "Unknown"
-    
-    def get_ai_generation_time(self) -> str:
-        """Get AI generation time if available"""
-        ai_status = self.results.get('ai_generation', {})
-        if 'timestamp' in ai_status and 'pipeline_start' in self.results:
-            try:
-                start_time = datetime.fromisoformat(self.results['pipeline_start'])
-                ai_time = datetime.fromisoformat(ai_status['timestamp'])
-                duration = ai_time - start_time
-                return f"{duration.seconds}s"
-            except:
-                pass
-        return "Unknown"
-    
-    def get_sending_time(self) -> str:
-        """Get sending time if available"""
-        agentmail_results = self.results.get('agentmail_sending', {})
-        if agentmail_results and 'pipeline_start' in self.results:
-            try:
-                # Estimate based on count
-                sent_count = agentmail_results.get('sent', 0)
-                # Assuming ~2 seconds per email with rate limiting
-                estimated_time = sent_count * 2
-                return f"~{estimated_time}s"
-            except:
-                pass
-        return "Unknown"
-    
-    def get_avg_time_per_email(self) -> float:
-        """Get average time per email"""
-        agentmail_results = self.results.get('agentmail_sending', {})
-        sent_count = agentmail_results.get('sent', 0)
-        
-        if sent_count > 0:
-            sending_time_str = self.get_sending_time()
-            if sending_time_str.startswith('~'):
-                sending_time = float(sending_time_str[1:].replace('s', ''))
-                return sending_time / sent_count
-        
-        return 0.0
-    
-    def json_serializer(self, obj):
-        """JSON serializer for datetime and date objects"""
-        if isinstance(obj, datetime):
-            return obj.isoformat()
-        elif isinstance(obj, date):
-            return obj.isoformat()
-        raise TypeError(f"Type {type(obj)} not serializable")
-    
-    def print_summary(self):
-        """Print pipeline summary"""
-        print("\n" + "="*80)
-        print("📊 PIPELINE EXECUTION SUMMARY")
-        print("="*80)
-        
-        # AI Generation
-        ai_status = self.results.get('ai_generation', {})
-        print(f"🤖 AI Message Generation:")
-        print(f"   Status: {ai_status.get('status', 'unknown')}")
-        print(f"   Messages: {ai_status.get('messages_generated', 0)}")
-        print(f"   Output: {ai_status.get('output_file', 'N/A')}")
-        
-        # AgentMail Sending
-        agentmail_results = self.results.get('agentmail_sending', {})
-        print(f"\n📧 AgentMail Sending:")
-        print(f"   Total: {agentmail_results.get('total', 0)}")
-        print(f"   ✅ Sent: {agentmail_results.get('sent', 0)}")
-        print(f"   ❌ Failed: {agentmail_results.get('failed', 0)}")
-        print(f"   ⚠️ Skipped: {agentmail_results.get('skipped', 0)}")
-        
-        if agentmail_results.get('total', 0) > 0:
-            success_rate = (agentmail_results.get('sent', 0) / agentmail_results.get('total', 0)) * 100
-            print(f"   📈 Success Rate: {success_rate:.1f}%")
-        
-        # Account Usage
-        print(f"\n👥 AgentMail Account Usage:")
-        for account_name, usage in self.account_usage.items():
-            today = usage.get('today_count', 0)
-            total = usage.get('total_sent', 0)
-            errors = usage.get('errors', 0)
-            limit = usage.get('daily_limit', 1000)
-            
-            if limit > 0:
-                usage_pct = (today / limit) * 100
-                print(f"   • {account_name}: {today}/{limit} ({usage_pct:.1f}%) today, {total} total, {errors} errors")
-            else:
-                print(f"   • {account_name}: {today} today, {total} total, {errors} errors")
-        
-        # Files Created
-        print(f"\n📁 Files Created:")
-        for file_info in self.results.get('files_created', []):
-            print(f"   • {file_info.get('type', 'unknown')}: {os.path.basename(file_info.get('path', ''))}")
-        
-        # Duration
-        print(f"\n⏱️ Pipeline Duration: {self.calculate_duration()}")
-        print("="*80)
-        print("✅ Advanced Pipeline Complete!")
-        print("="*80)
-    
-    def run_pipeline(self, batch_size: int = 50, send_limit: int = 50):
-        """Run the complete pipeline"""
+    def run_pipeline(self, investor_count: int = 50):
+        """Run the complete advanced pipeline"""
         print(f"\n🚀 Starting Bdev.ai Advanced Pipeline...")
-        print(f"   Batch Size: {batch_size} investors")
-        print(f"   Send Limit: {send_limit} emails")
+        print(f"   Target: {investor_count} investors")
+        print(f"   Accounts: {len(self.accounts)} AgentMail accounts")
+        print("="*80)
         
-        # Step 1: Generate AI messages
-        csv_path = self.generate_ai_messages(batch_size)
+        start_time = datetime.now()
         
-        if not csv_path:
-            print("❌ Pipeline stopped: AI message generation failed")
-            return False
-        
-        # Step 2: Send via AgentMail
-        sending_results = self.send_agentmail_messages(csv_path, send_limit)
-        
-        # Step 3: Create reports
-        report_path = self.create_detailed_report()
-        
-        # Step 4: Print summary
-        self.print_summary()
-        
-        return True
-
-def main():
-    import argparse
-    
-    parser = argparse.ArgumentParser(description='Bdev.ai Advanced Pipeline with 3 AgentMail Accounts')
-    parser.add_argument('--batch-size', type=int, default=50, help='Number of investors to process')
-    parser.add_argument('--send-limit', type=int, default=50, help='Number of emails to send')
-    parser.add_argument('--config', type=str, help='Path to AgentMail config (default: agentmail_config.json)')
-    
-    args = parser.parse_args()
-    
-    # Initialize and run pipeline
-    pipeline = BdevAIAdvancedPipeline(args.config)
-    success = pipeline.run_pipeline(args.batch_size, args.send_limit)
-    
-    if success:
-        print("\n🎉 Pipeline executed successfully!")
-        print("📊 Check the generated reports for detailed results.")
-    else:
-        print("\n❌ Pipeline execution failed.")
-        print("⚠️ Check the error messages above for details.")
-    
-    return 0 if success else 1
-
-if __name__ == "__main__":
-    sys.exit(main())
+        try:
+            # Step 1: Generate AI

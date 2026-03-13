@@ -1,5 +1,5 @@
 {
-  "publishable_key": "pk_live_LtA4BnpnPUYfTrc0KTUupew5",
+  "publishable_key": "${PUBLISHABLE_KEY}",
   "test_mode": false,
   "plans": {
     "capture": {

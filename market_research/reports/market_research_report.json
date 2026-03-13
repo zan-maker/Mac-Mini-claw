@@ -1,0 +1,508 @@
+{
+  "timestamp": "2026-03-12T18:59:20.423315",
+  "executive_summary": {
+    "total_ideas_generated": 36,
+    "top_categories": [
+      "No-Code SaaS Solutions",
+      "AI & Automation Tools",
+      "Digital Marketing Products"
+    ],
+    "average_validation_score": 67.2,
+    "market_opportunity_size": "Significant",
+    "recommended_action": "Proceed with product development"
+  },
+  "market_analysis": {
+    "trending_categories": [
+      "AI & Automation",
+      "No-Code Tools",
+      "Digital Marketing",
+      "Online Education"
+    ],
+    "growth_trends": [
+      {
+        "category": "AI & Automation",
+        "trending_topics": [
+          "AI content generators",
+          "Automation scripts",
+          "ChatGPT plugins"
+        ],
+        "engagement_score": 95,
+        "growth_trend": "rapid"
+      },
+      {
+        "category": "No-Code Tools",
+        "trending_topics": [
+          "Website builders",
+          "App creators",
+          "Workflow automation"
+        ],
+        "engagement_score": 88,
+        "growth_trend": "steady"
+      },
+      {
+        "category": "Digital Marketing",
+        "trending_topics": [
+          "Social media templates",
+          "Email sequences",
+          "Ad copy generators"
+        ],
+        "engagement_score": 82,
+        "growth_trend": "stable"
+      },
+      {
+        "category": "Online Education",
+        "trending_topics": [
+          "Course templates",
+          "Learning management",
+          "Interactive content"
+        ],
+        "engagement_score": 78,
+        "growth_trend": "growing"
+      }
+    ],
+    "market_gaps_identified": [
+      "AI-powered niche solutions",
+      "No-code tools for specific industries",
+      "Subscription-based expert content",
+      "Template libraries for emerging platforms"
+    ]
+  },
+  "competitor_analysis": {
+    "competitors_analyzed": 10,
+    "key_insights": [
+      "High competition in general templates",
+      "Opportunity in AI-powered specialized tools",
+      "Gap in affordable subscription services",
+      "Demand for industry-specific solutions"
+    ],
+    "competitive_advantages_possible": [
+      "AI automation",
+      "Zero-employee cost structure",
+      "Rapid iteration capability",
+      "Personalized solutions"
+    ]
+  },
+  "product_opportunities": {
+    "top_10_ideas": [
+      {
+        "id": "IDEA-004",
+        "title": "AI-powered marketing for small businesses",
+        "category": "AI & Automation Tools",
+        "price_range": {
+          "min": 997,
+          "max": 4997,
+          "recommended": 1997,
+          "model": "one-time + upgrades"
+        },
+        "development_complexity": 8,
+        "market_demand": 80,
+        "competition_level": 40,
+        "profit_potential": 100,
+        "validation_score": 74,
+        "mvp_features": [
+          "Core functionality working",
+          "Basic user interface",
+          "Documentation",
+          "AI model integration",
+          "Prompt templates"
+        ]
+      },
+      {
+        "id": "IDEA-005",
+        "title": "AI-powered marketing for creators",
+        "category": "AI & Automation Tools",
+        "price_range": {
+          "min": 997,
+          "max": 4997,
+          "recommended": 1997,
+          "model": "one-time + upgrades"
+        },
+        "development_complexity": 8,
+        "market_demand": 80,
+        "competition_level": 40,
+        "profit_potential": 100,
+        "validation_score": 74,
+        "mvp_features": [
+          "Core functionality working",
+          "Basic user interface",
+          "Documentation",
+          "AI model integration",
+          "Prompt templates"
+        ]
+      },
+      {
+        "id": "IDEA-006",
+        "title": "AI-powered marketing for entrepreneurs",
+        "category": "AI & Automation Tools",
+        "price_range": {
+          "min": 997,
+          "max": 4997,
+          "recommended": 1997,
+          "model": "one-time + upgrades"
+        },
+        "development_complexity": 8,
+        "market_demand": 80,
+        "competition_level": 40,
+        "profit_potential": 100,
+        "validation_score": 74,
+        "mvp_features": [
+          "Core functionality working",
+          "Basic user interface",
+          "Documentation",
+          "AI model integration",
+          "Prompt templates"
+        ]
+      },
+      {
+        "id": "IDEA-010",
+        "title": "No-code website builder for e-commerce",
+        "category": "No-Code SaaS Solutions",
+        "price_range": {
+          "min": 47,
+          "max": 497,
+          "recommended": 197,
+          "model": "one-time"
+        },
+        "development_complexity": 5,
+        "market_demand": 65,
+        "competition_level": 50,
+        "profit_potential": 100,
+        "validation_score": 72,
+        "mvp_features": [
+          "Core functionality working",
+          "Basic user interface",
+          "Documentation",
+          "Drag-and-drop interface",
+          "Template library"
+        ]
+      },
+      {
+        "id": "IDEA-011",
+        "title": "No-code website builder for education",
+        "category": "No-Code SaaS Solutions",
+        "price_range": {
+          "min": 47,
+          "max": 497,
+          "recommended": 197,
+          "model": "one-time"
+        },
+        "development_complexity": 5,
+        "market_demand": 65,
+        "competition_level": 50,
+        "profit_potential": 100,
+        "validation_score": 72,
+        "mvp_features": [
+          "Core functionality working",
+          "Basic user interface",
+          "Documentation",
+          "Drag-and-drop interface",
+          "Template library"
+        ]
+      },
+      {
+        "id": "IDEA-012",
+        "title": "No-code website builder for consulting",
+        "category": "No-Code SaaS Solutions",
+        "price_range": {
+          "min": 47,
+          "max": 497,
+          "recommended": 197,
+          "model": "one-time"
+        },
+        "development_complexity": 5,
+        "market_demand": 65,
+        "competition_level": 50,
+        "profit_potential": 100,
+        "validation_score": 72,
+        "mvp_features": [
+          "Core functionality working",
+          "Basic user interface",
+          "Documentation",
+          "Drag-and-drop interface",
+          "Template library"
+        ]
+      },
+      {
+        "id": "IDEA-013",
+        "title": "No-code app builder for e-commerce",
+        "category": "No-Code SaaS Solutions",
+        "price_range": {
+          "min": 47,
+          "max": 497,
+          "recommended": 197,
+          "model": "one-time"
+        },
+        "development_complexity": 5,
+        "market_demand": 65,
+        "competition_level": 50,
+        "profit_potential": 100,
+        "validation_score": 72,
+        "mvp_features": [
+          "Core functionality working",
+          "Basic user interface",
+          "Documentation",
+          "Drag-and-drop interface",
+          "Template library"
+        ]
+      },
+      {
+        "id": "IDEA-014",
+        "title": "No-code app builder for education",
+        "category": "No-Code SaaS Solutions",
+        "price_range": {
+          "min": 47,
+          "max": 497,
+          "recommended": 197,
+          "model": "one-time"
+        },
+        "development_complexity": 5,
+        "market_demand": 65,
+        "competition_level": 50,
+        "profit_potential": 100,
+        "validation_score": 72,
+        "mvp_features": [
+          "Core functionality working",
+          "Basic user interface",
+          "Documentation",
+          "Drag-and-drop interface",
+          "Template library"
+        ]
+      },
+      {
+        "id": "IDEA-015",
+        "title": "No-code app builder for consulting",
+        "category": "No-Code SaaS Solutions",
+        "price_range": {
+          "min": 47,
+          "max": 497,
+          "recommended": 197,
+          "model": "one-time"
+        },
+        "development_complexity": 5,
+        "market_demand": 65,
+        "competition_level": 50,
+        "profit_potential": 100,
+        "validation_score": 72,
+        "mvp_features": [
+          "Core functionality working",
+          "Basic user interface",
+          "Documentation",
+          "Drag-and-drop interface",
+          "Template library"
+        ]
+      },
+      {
+        "id": "IDEA-007",
+        "title": "AI-powered productivity for small businesses",
+        "category": "AI & Automation Tools",
+        "price_range": {
+          "min": 997,
+          "max": 4997,
+          "recommended": 1997,
+          "model": "one-time + upgrades"
+        },
+        "development_complexity": 8,
+        "market_demand": 70,
+        "competition_level": 40,
+        "profit_potential": 100,
+        "validation_score": 71,
+        "mvp_features": [
+          "Core functionality working",
+          "Basic user interface",
+          "Documentation",
+          "AI model integration",
+          "Prompt templates"
+        ]
+      }
+    ],
+    "category_breakdown": {
+      "AI & Automation Tools": 12,
+      "No-Code SaaS Solutions": 15,
+      "Subscription Services": 4,
+      "Digital Marketing Products": 5
+    },
+    "pricing_recommendations": {},
+    "development_priority": [
+      {
+        "rank": 1,
+        "idea_id": "IDEA-004",
+        "title": "AI-powered marketing for small businesses",
+        "validation_score": 74,
+        "estimated_development_time": "16 days",
+        "estimated_revenue_potential": "$19970-199700/month"
+      },
+      {
+        "rank": 2,
+        "idea_id": "IDEA-005",
+        "title": "AI-powered marketing for creators",
+        "validation_score": 74,
+        "estimated_development_time": "16 days",
+        "estimated_revenue_potential": "$19970-199700/month"
+      },
+      {
+        "rank": 3,
+        "idea_id": "IDEA-006",
+        "title": "AI-powered marketing for entrepreneurs",
+        "validation_score": 74,
+        "estimated_development_time": "16 days",
+        "estimated_revenue_potential": "$19970-199700/month"
+      },
+      {
+        "rank": 4,
+        "idea_id": "IDEA-010",
+        "title": "No-code website builder for e-commerce",
+        "validation_score": 72,
+        "estimated_development_time": "10 days",
+        "estimated_revenue_potential": "$1970-19700/month"
+      },
+      {
+        "rank": 5,
+        "idea_id": "IDEA-011",
+        "title": "No-code website builder for education",
+        "validation_score": 72,
+        "estimated_development_time": "10 days",
+        "estimated_revenue_potential": "$1970-19700/month"
+      },
+      {
+        "rank": 6,
+        "idea_id": "IDEA-012",
+        "title": "No-code website builder for consulting",
+        "validation_score": 72,
+        "estimated_development_time": "10 days",
+        "estimated_revenue_potential": "$1970-19700/month"
+      },
+      {
+        "rank": 7,
+        "idea_id": "IDEA-013",
+        "title": "No-code app builder for e-commerce",
+        "validation_score": 72,
+        "estimated_development_time": "10 days",
+        "estimated_revenue_potential": "$1970-19700/month"
+      },
+      {
+        "rank": 8,
+        "idea_id": "IDEA-014",
+        "title": "No-code app builder for education",
+        "validation_score": 72,
+        "estimated_development_time": "10 days",
+        "estimated_revenue_potential": "$1970-19700/month"
+      },
+      {
+        "rank": 9,
+        "idea_id": "IDEA-015",
+        "title": "No-code app builder for consulting",
+        "validation_score": 72,
+        "estimated_development_time": "10 days",
+        "estimated_revenue_potential": "$1970-19700/month"
+      },
+      {
+        "rank": 10,
+        "idea_id": "IDEA-007",
+        "title": "AI-powered productivity for small businesses",
+        "validation_score": 71,
+        "estimated_development_time": "16 days",
+        "estimated_revenue_potential": "$19970-199700/month"
+      },
+      {
+        "rank": 11,
+        "idea_id": "IDEA-008",
+        "title": "AI-powered productivity for creators",
+        "validation_score": 71,
+        "estimated_development_time": "16 days",
+        "estimated_revenue_potential": "$19970-199700/month"
+      },
+      {
+        "rank": 12,
+        "idea_id": "IDEA-009",
+        "title": "AI-powered productivity for entrepreneurs",
+        "validation_score": 71,
+        "estimated_development_time": "16 days",
+        "estimated_revenue_potential": "$19970-199700/month"
+      },
+      {
+        "rank": 13,
+        "idea_id": "IDEA-016",
+        "title": "No-code dashboard builder for e-commerce",
+        "validation_score": 69,
+        "estimated_development_time": "14 days",
+        "estimated_revenue_potential": "$1970-19700/month"
+      },
+      {
+        "rank": 14,
+        "idea_id": "IDEA-017",
+        "title": "No-code dashboard builder for education",
+        "validation_score": 69,
+        "estimated_development_time": "14 days",
+        "estimated_revenue_potential": "$1970-19700/month"
+      },
+      {
+        "rank": 15,
+        "idea_id": "IDEA-018",
+        "title": "No-code dashboard builder for consulting",
+        "validation_score": 69,
+        "estimated_development_time": "14 days",
+        "estimated_revenue_potential": "$1970-19700/month"
+      },
+      {
+        "rank": 16,
+        "idea_id": "IDEA-022",
+        "title": "email templates for Instagram",
+        "validation_score": 68,
+        "estimated_development_time": "12 days",
+        "estimated_revenue_potential": "$19970-199700/month"
+      },
+      {
+        "rank": 17,
+        "idea_id": "IDEA-023",
+        "title": "email templates for Twitter",
+        "validation_score": 68,
+        "estimated_development_time": "12 days",
+        "estimated_revenue_potential": "$19970-199700/month"
+      },
+      {
+        "rank": 18,
+        "idea_id": "IDEA-024",
+        "title": "email templates for LinkedIn",
+        "validation_score": 68,
+        "estimated_development_time": "12 days",
+        "estimated_revenue_potential": "$19970-199700/month"
+      },
+      {
+        "rank": 19,
+        "idea_id": "IDEA-025",
+        "title": "presentation templates for Instagram",
+        "validation_score": 68,
+        "estimated_development_time": "6 days",
+        "estimated_revenue_potential": "$2970-29700/month"
+      },
+      {
+        "rank": 20,
+        "idea_id": "IDEA-026",
+        "title": "presentation templates for Twitter",
+        "validation_score": 68,
+        "estimated_development_time": "6 days",
+        "estimated_revenue_potential": "$2970-29700/month"
+      }
+    ]
+  },
+  "recommendations": {
+    "immediate_actions": [
+      "Develop 3 MVP products from top ideas",
+      "Set up Stripe integration for payments",
+      "Create marketing landing pages",
+      "Launch to initial audience of 100"
+    ],
+    "short_term_goals": [
+      "Generate $1,000 in first month revenue",
+      "Acquire 100 paying customers",
+      "Validate product-market fit",
+      "Iterate based on customer feedback"
+    ],
+    "long_term_strategy": [
+      "Scale successful products",
+      "Expand product line",
+      "Build brand authority",
+      "Achieve $1M annual revenue"
+    ]
+  }
+}

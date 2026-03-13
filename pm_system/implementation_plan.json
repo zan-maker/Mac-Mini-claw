@@ -1,0 +1,40 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "focus": "Foundation",
+      "tasks": [
+        "PM-Skills setup",
+        "Cron inventory",
+        "PRD creation"
+      ]
+    },
+    {
+      "week": 2,
+      "focus": "Implementation",
+      "tasks": [
+        "RICE system",
+        "Dashboard MVP",
+        "Basic alerts"
+      ]
+    },
+    {
+      "week": 3,
+      "focus": "Optimization",
+      "tasks": [
+        "Refine dashboard",
+        "Smart alerts",
+        "User testing"
+      ]
+    },
+    {
+      "week": 4,
+      "focus": "Expansion",
+      "tasks": [
+        "Add more projects",
+        "Advanced analytics",
+        "Team rollout"
+      ]
+    }
+  ]
+}

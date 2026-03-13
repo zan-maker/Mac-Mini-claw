@@ -1,0 +1,27 @@
+🛡️ **Defense Sector Report (Scrapling-Enhanced)**
+
+## Companies (US/UK/EU)
+- Identified: 48
+- High priority (70+): 34
+- Top 3:
+  1. List of Defensetech Investors & VC Firms for Startups (2026) - OpenVC - Counter-Drone (C-UAS) - Score: 100
+  2. Defense Tech Market Funding Trends (2022 - 2026) - Counter-Drone (C-UAS) - Score: 100
+  3. 10 Fastest Growing Defense Tech Companies and Startups - Cybersecurity - Score: 100
+
+## Investors (Asia/India)
+- PE/VC funds: 40
+- Defense-focused: 18
+- Top 3:
+  1. VC's Role in India's Defence Innovation Rise - Seafund - India - Defense Tech, Autonomous Systems, Security
+  2. 9 VCs who have invested in Asia-Pacific space startups - India - Drones/UAV, Aerospace
+  3. Southeast Asia Defense Market - Size, Share & Industry Analysis - Singapore - Defense Tech, Drones/UAV, Autonomous Systems
+
+🔍 **Data Source:**
+- Scrapling Used: ✅ Yes
+- Scrapling Results: 0
+- Traditional API Results: 90
+- Processing Time: 25.3 seconds
+
+📁 **Files Saved:**
+- Companies: `daily-companies-2026-03-12.md`
+- Investors: `daily-investors-2026-03-12.md`

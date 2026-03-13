@@ -1,0 +1,57 @@
+{
+  "name": "Lead Generation APIs",
+  "folders": [
+    {
+      "name": "Brevo Email",
+      "requests": [
+        {
+          "name": "Send Transactional Email",
+          "method": "POST",
+          "url": "https://api.brevo.com/v3/smtp/email",
+          "headers": {
+            "api-key": "{{BREVO_API_KEY}}",
+            "Content-Type": "application/json"
+          },
+          "body": {
+            "sender": {
+              "name": "Agent Manager",
+              "email": "sam@impactquadrant.info"
+            },
+            "to": [
+              {
+                "email": "{{TEST_EMAIL}}",
+                "name": "Test Recipient"
+              }
+            ],
+            "subject": "Test Email from Hoppscotch",
+            "htmlContent": "<p>This is a test email from our AI agent system.</p>"
+          },
+          "tests": [
+            "pm.test('Status code is 200', function() { pm.response.to.have.status(200); });",
+            "pm.test('Response has message ID', function() { pm.response.to.have.jsonBody('messageId'); });"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Serper Search",
+      "requests": [
+        {
+          "name": "Search for Companies",
+          "method": "POST",
+          "url": "https://google.serper.dev/search",
+          "headers": {
+            "X-API-KEY": "{{SERPER_API_KEY}}",
+            "Content-Type": "application/json"
+          },
+          "body": {
+            "q": "construction companies 50-200 employees",
+            "gl": "us",
+            "hl": "en",
+            "num": 10
+          }
+        }
+      ]
+    }
+  ]
+}

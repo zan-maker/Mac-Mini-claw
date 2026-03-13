@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-03-12T18:59:20.420041",
+  "trends": [
+    {
+      "category": "AI & Automation",
+      "trending_topics": [
+        "AI content generators",
+        "Automation scripts",
+        "ChatGPT plugins"
+      ],
+      "engagement_score": 95,
+      "growth_trend": "rapid"
+    },
+    {
+      "category": "No-Code Tools",
+      "trending_topics": [
+        "Website builders",
+        "App creators",
+        "Workflow automation"
+      ],
+      "engagement_score": 88,
+      "growth_trend": "steady"
+    },
+    {
+      "category": "Digital Marketing",
+      "trending_topics": [
+        "Social media templates",
+        "Email sequences",
+        "Ad copy generators"
+      ],
+      "engagement_score": 82,
+      "growth_trend": "stable"
+    },
+    {
+      "category": "Online Education",
+      "trending_topics": [
+        "Course templates",
+        "Learning management",
+        "Interactive content"
+      ],
+      "engagement_score": 78,
+      "growth_trend": "growing"
+    }
+  ]
+}

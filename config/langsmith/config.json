@@ -1,0 +1,46 @@
+{
+  "service": "langsmith",
+  "status": "setup_required",
+  "replaces": "langfuse",
+  "monthly_savings": 50,
+  "free_tier_limits": {
+    "traces_per_day": 1000,
+    "projects": "Unlimited",
+    "datasets": "Unlimited",
+    "retention_days": 7,
+    "features": [
+      "Trace visualization",
+      "Prompt management",
+      "Evaluation",
+      "Dataset management",
+      "Basic analytics"
+    ]
+  },
+  "setup_steps": [
+    "1. Sign up at smith.langchain.com (free)",
+    "2. Create API key",
+    "3. Configure environment variables",
+    "4. Instrument your LLM calls",
+    "5. View traces in dashboard"
+  ],
+  "supported_frameworks": [
+    "LangChain",
+    "LlamaIndex",
+    "OpenAI SDK",
+    "Anthropic SDK",
+    "Custom Python"
+  ],
+  "comparison_with_langfuse": {
+    "langsmith_advantages": [
+      "Tight integration with LangChain",
+      "Better prompt management",
+      "Dataset versioning",
+      "Evaluation workflows"
+    ],
+    "langfuse_features_missing": [
+      "Advanced analytics (limited in free tier)",
+      "Longer retention (7 days vs 30 days)",
+      "Team features (limited)"
+    ]
+  }
+}

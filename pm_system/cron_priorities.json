@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Kalshi Trading",
+    "schedule": "6x daily",
+    "status": "working",
+    "rice_score": 85.0,
+    "priority": "high",
+    "last_reminder": "3 days ago",
+    "automation_status": "full"
+  },
+  {
+    "name": "War Monitor",
+    "schedule": "8x daily",
+    "status": "working",
+    "rice_score": 75.0,
+    "priority": "medium",
+    "last_reminder": "1 week ago",
+    "automation_status": "full"
+  },
+  {
+    "name": "Gas Trading",
+    "schedule": "3x daily",
+    "status": "working",
+    "rice_score": 65.0,
+    "priority": "medium",
+    "last_reminder": "2 days ago",
+    "automation_status": "full"
+  },
+  {
+    "name": "Token Monitor",
+    "schedule": "every 30min",
+    "status": "working",
+    "rice_score": 60.0,
+    "priority": "medium",
+    "last_reminder": "5 days ago",
+    "automation_status": "full"
+  },
+  {
+    "name": "LinkedIn Automation",
+    "schedule": "4x daily",
+    "status": "needs_fix",
+    "rice_score": 45.0,
+    "priority": "high",
+    "last_reminder": "Today",
+    "automation_status": "partial"
+  }
+]

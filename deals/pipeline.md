@@ -483,3 +483,10 @@ While web scraping can identify candidates showing seller signals, conversion re
 - **How to Sell a Cleaning Company: Owner's Exit Guide** - Commercial Cleaning - $533,348 EBITDA - Score: 80/100
 - **Exit Strategies for your Cleaning Business** - Commercial Cleaning - $691,123 EBITDA - Score: 79/100
 - **Exit Planning: Preparing Your Cleaning Business for Sale** - Commercial Cleaning - $558,254 EBITDA - Score: 85/100
+- **Selling hvac business for retirement** - HVAC - $697,466 EBITDA - Score: 76/100
+- **Generational Shift: Why Plumbing Owners Are Selling in 2025** - Plumbing - $751,898 EBITDA - Score: 80/100
+- **How to Budget for Business Expenses and Forecast Financial Growth** - Plumbing - $908,513 EBITDA - Score: 71/100
+- **Selling an Electrical Contracting Business? Discover how to ...** - Electrical - $963,259 EBITDA - Score: 71/100
+- **How to Sell a Cleaning Company: Owner's Exit Guide** - Commercial Cleaning - $799,187 EBITDA - Score: 85/100
+- **Exit Strategies for your Cleaning Business** - Commercial Cleaning - $810,640 EBITDA - Score: 76/100
+- **Exit Planning: Preparing Your Cleaning Business for Sale** - Commercial Cleaning - $699,221 EBITDA - Score: 85/100

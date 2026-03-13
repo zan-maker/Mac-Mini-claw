@@ -5,7 +5,7 @@
       "method": "browser_automation",
       "credentials": {
         "username": "servicesell.ai",
-        "password": "Spine123!"
+        "password": "${PASSWORD}"
       },
       "business_account": true,
       "post_types": [
@@ -24,7 +24,7 @@
       "method": "browser_automation",
       "credentials": {
         "username": "shyamdesigan@gmail.com",
-        "password": "Spine123!Vznu"
+        "password": "${PASSWORD}"
       },
       "pages": [
         "FinBridgewithAI"
@@ -45,15 +45,15 @@
       "enabled": true,
       "method": "api",
       "credentials": {
-        "api_key": "Q95mldtnWAtQdgyRMMedgeDWo",
-        "api_secret": "Be44durfplXIDCQgS69KtVLZnJ137e5FPMJhRxuWpYXmkGxd7P",
-        "access_token": "2010735805342568448-fw2zLevnofBrnGx0NANEbDKzfGfCKU",
-        "access_token_secret": "AA9gb25fPREueXFGV7FTlM9uYdIsYy1tgrBNV3pxRnvfJ",
-        "bearer_token": "AAAAAAAAAAAAAAAAAAAAALPN7QEAAAAAaDArGDFQqkqtsBEAgdoJQtrGgfw%3DxB7ZrCWwpPC3YWeaIbuGdnhTBc9cR6qjHC5yEetQvqTucfUeUK",
+        "api_key": "${API_KEY}",
+        "api_secret": "${API_SECRET}",
+        "access_token": "${ACCESS_TOKEN}",
+        "access_token_secret": "${ACCESS_TOKEN_SECRET}",
+        "bearer_token": "${BEARER_TOKEN}",
         "username": "SDesigan84042",
-        "password": "Spine123!Vznu",
+        "password": "${PASSWORD}",
         "oauth2_client_id": "VGIydFhRRzhLckxRT0RGbUQxMDA6MTpjaQ",
-        "oauth2_client_secret": "Yk-VInh_-1LYMSWw2Rrd-mfAAS3CYz-una4p6D0iyeuxKJrPWR"
+        "oauth2_client_secret": "${OAUTH2_CLIENT_SECRET}"
       },
       "post_types": [
         "tweet",
@@ -70,7 +70,7 @@
       "callback_url": "https://impactquadrant.info/twitter-callback",
       "website_url": "https://impactquadrant.info",
       "recommendation": "use_browser_automation_for_posting",
-      "api_status": "complete_oauth_1_0a_credentials",
+      "api_status": "${API_STATUS}",
       "capabilities": [
         "read",
         "write",
@@ -79,17 +79,17 @@
       ],
       "api_tested": true,
       "api_working": false,
-      "api_issue": "403_forbidden_post"
+      "api_issue": "${API_ISSUE}"
     },
     "linkedin": {
       "enabled": true,
       "method": "browser_automation",
       "credentials": {
         "client_id": "78doynwi86n2js",
-        "client_secret": "WPL_AP1.cxC0h4KruYgMBDFe.r9aIBg==",
-        "access_token": "AQXxjWCG-1QwcR_0cuGscb9JjvG1gXI67ut7nAVO_8Z9dmnLQqcKGGIyrIkx1WJDtu8Jt1uXejzjsVdOmGgYnzVzG0mxNkpFAdSTwSlAmwXfQCptwZsM7wG-RB6biouq0UleLRLfsph70ayfme6bJ_jJzy_sZ_I05nehgZ1bGQdPS3P1sG63PyFb1-EKZq-7oP0C9imuVIdZ1TUyVOE4_ksOwexU05wjXuJg3fjIcqSxaH30CENjoU1rMwRykqggTRcQIxdj-8OXZdRnZOjctm4Ankw51vtTLXZk60t6RlWgJfDU35Nbh2n2bdUoTFqN2JPLaF3V86p2JHmiXnIIgT23WWGXKA",
+        "client_secret": "${CLIENT_SECRET}",
+        "access_token": "${ACCESS_TOKEN}",
         "username": "YOUR_LINKEDIN_USERNAME",
-        "password": "YOUR_LINKEDIN_PASSWORD",
+        "password": "${PASSWORD}",
         "page_id": "YOUR_PAGE_ID"
       },
       "post_types": [
@@ -102,7 +102,7 @@
         "12:30",
         "17:30"
       ],
-      "api_status": "token_has_w_member_social_but_app_config_issue",
+      "api_status": "${API_STATUS}",
       "recommendation": "use_browser_automation_for_immediate_results"
     },
     "bluesky": {
@@ -110,7 +110,7 @@
       "method": "api",
       "credentials": {
         "handle": "YOUR_HANDLE.bsky.social",
-        "app_password": "YOUR_APP_PASSWORD"
+        "app_password": "${APP_PASSWORD}"
       },
       "post_types": [
         "post",
@@ -152,7 +152,7 @@
   "ai_services": {
     "gemini": {
       "enabled": true,
-      "api_key": "AIzaSyBbQfFg7d-XOnRuB67WtKoWRx2hq9G8QhM",
+      "api_key": "${API_KEY}",
       "model": "gemini-2.5-flash",
       "use_for": [
         "image_analysis",
@@ -166,7 +166,7 @@
     },
     "xai": {
       "enabled": true,
-      "api_key": "xai-vzGa7b1VR6o5vLXxKqL69u8iIMWvACT2P8gmt5mrh4wMWqJvnPlZp4B6RK8hum5HHHnfM2g9wKvFkr1t",
+      "api_key": "${API_KEY}",
       "model": "grok-4-latest",
       "use_for": [
         "long_form_content",
@@ -195,7 +195,7 @@
   "apis": {
     "people_data_labs": {
       "name": "People Data Labs",
-      "api_key": "fa5b2ea6dee53ad4f40b71bd51fc1d48d8c3efeea44faf342e7561be83772093",
+      "api_key": "${API_KEY}",
       "base_url": "https://api.peopledatalabs.com/v5",
       "status": "active",
       "purpose": "Company enrichment, employee data, firmographics",

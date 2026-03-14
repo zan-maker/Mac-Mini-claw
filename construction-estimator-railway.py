@@ -1,277 +1,159 @@
 #!/usr/bin/env python3
 """
-Construction Estimator for Railway Deployment
-Production-ready version with fallback AI options
+Construction Estimator API for Railway Deployment
+Simplified version for Railway hosting
 """
 
-from flask import Flask, request, jsonify
+from flask import Flask, jsonify, request, send_from_directory
 import os
 import json
 from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='.', static_url_path='')
 
-# Configuration
-USE_OLLAMA = os.environ.get('USE_OLLAMA', 'false').lower() == 'true'
-OLLAMA_URL = os.environ.get('OLLAMA_URL', 'http://localhost:11434/v1/chat/completions')
-OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY', '')
 PORT = int(os.environ.get('PORT', 5000))
 
-# Material cost database
-MATERIAL_COSTS = {
-    "deck": {
-        "pressure_treated": 8.50,
-        "composite": 12.00,
-        "cedar": 10.50,
-        "labor": 15.00
+# Construction cost database
+CONSTRUCTION_COSTS = {
+    'deck': {
+        'material_per_sqft': 15.00,
+        'labor_per_sqft': 12.00,
+        'description': 'Wood deck construction'
     },
-    "drywall": {
-        "sheet": 12.00,
-        "tape_mud": 0.25,
-        "labor": 2.50
+    'drywall': {
+        'material_per_sqft': 1.50,
+        'labor_per_sqft': 2.50,
+        'description': 'Drywall installation'
     },
-    "bathroom": {
-        "vanity": 800.00,
-        "toilet": 350.00,
-        "shower": 1200.00,
-        "tile": 5.00,
-        "labor": 45.00
+    'bathroom': {
+        'material_per_sqft': 75.00,
+        'labor_per_sqft': 50.00,
+        'description': 'Bathroom renovation'
     },
-    "kitchen": {
-        "cabinets": 5000.00,
-        "countertop": 60.00,
-        "appliances": 3000.00,
-        "labor": 50.00
+    'kitchen': {
+        'material_per_sqft': 150.00,
+        'labor_per_sqft': 75.00,
+        'description': 'Kitchen remodeling'
     },
-    "roof": {
-        "shingles": 120.00,
-        "underlayment": 50.00,
-        "labor": 200.00
+    'roof': {
+        'material_per_sqft': 4.50,
+        'labor_per_sqft': 3.50,
+        'description': 'Roof replacement'
     }
 }
 
-def get_ai_suggestions(project_type, dimensions):
-    """Get AI suggestions based on available providers"""
-    import requests
+def calculate_estimate(project_type, width, length):
+    """Calculate construction estimate"""
+    if project_type not in CONSTRUCTION_COSTS:
+        return None
     
-    prompt = f"""You are a construction estimator AI. Provide suggestions for a {project_type} project.
-
-Project details:
-- Type: {project_type}
-- Dimensions: {dimensions}
-
-Provide 3-5 practical suggestions including:
-1. Material recommendations
-2. Cost-saving tips
-3. Timeline considerations
-4. Common pitfalls to avoid
-5. Quality vs budget tradeoffs
-
-Format as a clear, actionable list."""
+    area = width * length
+    costs = CONSTRUCTION_COSTS[project_type]
     
-    # Try Ollama first if enabled
-    if USE_OLLAMA:
-        try:
-            response = requests.post(OLLAMA_URL, json={
-                "model": "gemma:2b",
-                "messages": [{"role": "user", "content": prompt}],
-                "temperature": 0.7,
-                "max_tokens": 500
-            }, timeout=10)
-            
-            if response.status_code == 200:
-                return response.json()["choices"][0]["message"]["content"]
-        except:
-            pass  # Fall through to OpenAI or static suggestions
+    material_cost = area * costs['material_per_sqft']
+    labor_cost = area * costs['labor_per_sqft']
+    total_cost = material_cost + labor_cost
     
-    # Try OpenAI if API key is available
-    if OPENAI_API_KEY:
-        try:
-            response = requests.post(
-                "https://api.openai.com/v1/chat/completions",
-                headers={
-                    "Authorization": f"Bearer {OPENAI_API_KEY}",
-                    "Content-Type": "application/json"
-                },
-                json={
-                    "model": "gpt-3.5-turbo",
-                    "messages": [{"role": "user", "content": prompt}],
-                    "temperature": 0.7,
-                    "max_tokens": 500
-                },
-                timeout=10
-            )
-            
-            if response.status_code == 200:
-                return response.json()["choices"][0]["message"]["content"]
-        except:
-            pass  # Fall through to static suggestions
-    
-    # Static fallback suggestions
-    static_suggestions = {
-        "deck": """1. Use pressure-treated lumber for structural components to prevent rot
-2. Consider composite decking for low maintenance and longer lifespan
-3. Space deck boards 1/8" apart for drainage and expansion
-4. Use galvanized or stainless steel fasteners to prevent rust stains
-5. Include proper ventilation under the deck to prevent moisture buildup""",
-        
-        "drywall": """1. Use 5/8" drywall for ceilings to prevent sagging
-2. Apply joint compound in thin layers, sanding between coats
-3. Use corner beads for crisp, durable corners
-4. Prime before painting to ensure even paint absorption
-5. Consider moisture-resistant drywall for bathrooms and kitchens""",
-        
-        "bathroom": """1. Install a waterproof membrane behind shower tiles
-2. Use exhaust fan with timer to prevent moisture damage
-3. Consider heated floors for comfort and resale value
-4. Install grab bars during construction for future accessibility
-5. Use large-format tiles to minimize grout lines and cleaning""",
-        
-        "kitchen": """1. Install under-cabinet lighting for task illumination
-2. Consider soft-close drawers and cabinets for durability
-3. Use quartz countertops for durability and low maintenance
-4. Install a pot filler above the stove for convenience
-5. Include a dedicated appliance circuit for heavy-duty appliances""",
-        
-        "roof": """1. Install ice and water shield in valleys and eaves
-2. Use proper ventilation to prevent ice dams and extend shingle life
-3. Consider architectural shingles for better wind resistance
-4. Install flashing around chimneys and vents to prevent leaks
-5. Schedule installation during dry weather for best adhesion"""
+    return {
+        'project': project_type,
+        'area_sqft': area,
+        'width': width,
+        'length': length,
+        'material_cost': f"${material_cost:,.2f}",
+        'labor_cost': f"${labor_cost:,.2f}",
+        'total_cost': f"${total_cost:,.2f}",
+        'description': costs['description'],
+        'timestamp': datetime.utcnow().isoformat() + 'Z'
     }
-    
-    return static_suggestions.get(project_type, "AI suggestions temporarily unavailable. Please contact support for construction advice.")
 
 @app.route('/')
-def home():
-    """Home page with API info"""
-    return jsonify({
-        "api": "Construction Estimator API",
-        "version": "1.0.0",
-        "deployment": "Railway",
-        "ai_provider": "Ollama" if USE_OLLAMA else ("OpenAI" if OPENAI_API_KEY else "Static"),
-        "endpoints": {
-            "/": "API information",
-            "/health": "Health check",
-            "/estimate": "Generate estimate (POST)",
-            "/quick/<project_type>/<size>": "Quick estimate"
-        }
-    })
+def serve_frontend():
+    """Serve the frontend HTML"""
+    return send_from_directory('.', 'construction-frontend.html')
 
 @app.route('/health')
 def health():
     """Health check endpoint"""
-    ai_status = "static"
-    if USE_OLLAMA:
-        ai_status = "ollama_configured"
-    elif OPENAI_API_KEY:
-        ai_status = "openai_configured"
-    
     return jsonify({
-        "status": "healthy",
-        "timestamp": datetime.utcnow().isoformat() + "Z",
-        "ai_provider": ai_status,
-        "environment": os.environ.get('RAILWAY_ENVIRONMENT', 'production')
+        'status': 'healthy',
+        'service': 'Construction Estimator API',
+        'version': '2.0.0',
+        'environment': os.environ.get('RAILWAY_ENVIRONMENT', 'production'),
+        'timestamp': datetime.utcnow().isoformat() + 'Z'
+    })
+
+@app.route('/api')
+def api_info():
+    """API information"""
+    return jsonify({
+        'api': 'Construction Estimator API',
+        'version': '2.0.0',
+        'deployment': 'Railway',
+        'endpoints': {
+            '/': 'Frontend interface',
+            '/api': 'API information',
+            '/estimate': 'Generate estimate (POST)',
+            '/health': 'Health check',
+            '/quick/<project_type>/<size>': 'Quick estimate'
+        }
     })
 
 @app.route('/quick/<project_type>/<size>')
 def quick_estimate(project_type, size):
-    """Quick estimate without AI"""
-    if project_type not in MATERIAL_COSTS:
-        return jsonify({"error": f"Unknown project type: {project_type}"}), 400
-    
+    """Quick estimate endpoint (e.g., /quick/deck/20x12)"""
     try:
+        # Parse size (e.g., "20x12")
         if 'x' in size:
-            length, width = map(float, size.split('x'))
-            area = length * width
+            width, length = map(float, size.split('x'))
         else:
-            area = float(size)
-    except:
-        return jsonify({"error": "Invalid size format. Use '20x12' or '200'"}), 400
-    
-    # Calculate estimate
-    costs = MATERIAL_COSTS[project_type]
-    if project_type == "deck":
-        material_cost = area * costs.get("composite", 12.00)
-        labor_cost = area * costs["labor"]
-        total = material_cost + labor_cost
-    elif project_type == "drywall":
-        sheets = area / 32
-        material_cost = sheets * costs["sheet"] + area * costs["tape_mud"]
-        labor_cost = area * costs["labor"]
-        total = material_cost + labor_cost
-    elif project_type == "roof":
-        squares = area / 100
-        material_cost = squares * (costs["shingles"] + costs["underlayment"])
-        labor_cost = squares * costs["labor"]
-        total = material_cost + labor_cost
-    else:
-        total = sum(cost for key, cost in costs.items() if key != "labor")
-    
-    return jsonify({
-        "project": project_type.capitalize(),
-        "size": size,
-        "quick_estimate": f"${total:,.2f}",
-        "area_sqft": area if 'x' in size else None
-    })
+            # Assume square
+            width = length = float(size)
+        
+        estimate = calculate_estimate(project_type, width, length)
+        if estimate:
+            return jsonify(estimate)
+        else:
+            return jsonify({'error': 'Invalid project type'}), 400
+    except ValueError:
+        return jsonify({'error': 'Invalid size format. Use WxL or single number'}), 400
 
 @app.route('/estimate', methods=['POST'])
 def detailed_estimate():
     """Detailed estimate with AI suggestions"""
-    data = request.json
-    
-    if not data or 'project_type' not in data:
-        return jsonify({"error": "Missing project_type"}), 400
-    
-    project_type = data['project_type']
-    dimensions = data.get('dimensions', {})
-    
-    if project_type not in MATERIAL_COSTS:
-        return jsonify({"error": f"Unknown project type: {project_type}"}), 400
-    
-    # Calculate base estimate
-    if project_type == "deck":
-        length = dimensions.get('length', 20)
-        width = dimensions.get('width', 12)
-        area = length * width
-        costs = MATERIAL_COSTS[project_type]
-        material_cost = area * costs.get("composite", 12.00)
-        labor_cost = area * costs["labor"]
-        total = material_cost + labor_cost
-    elif project_type == "drywall":
-        area = dimensions.get('area', 200)
-        costs = MATERIAL_COSTS[project_type]
-        sheets = area / 32
-        material_cost = sheets * costs["sheet"] + area * costs["tape_mud"]
-        labor_cost = area * costs["labor"]
-        total = material_cost + labor_cost
-    elif project_type == "roof":
-        area = dimensions.get('area', 1000)
-        costs = MATERIAL_COSTS[project_type]
-        squares = area / 100
-        material_cost = squares * (costs["shingles"] + costs["underlayment"])
-        labor_cost = squares * costs["labor"]
-        total = material_cost + labor_cost
-    else:
-        costs = MATERIAL_COSTS[project_type]
-        total = sum(cost for key, cost in costs.items() if key != "labor")
-        area = None
-    
-    # Get AI suggestions
-    ai_suggestions = get_ai_suggestions(project_type, dimensions)
-    
-    return jsonify({
-        "project_type": project_type,
-        "dimensions": dimensions,
-        "total_estimate": f"${total:,.2f}",
-        "ai_suggestions": ai_suggestions,
-        "deployment": "railway",
-        "timestamp": datetime.utcnow().isoformat() + "Z"
-    })
+    try:
+        data = request.get_json()
+        project_type = data.get('project_type', '').lower()
+        width = float(data.get('width', 0))
+        length = float(data.get('length', 0))
+        
+        if project_type not in CONSTRUCTION_COSTS:
+            return jsonify({'error': 'Invalid project type'}), 400
+        
+        estimate = calculate_estimate(project_type, width, length)
+        
+        # Add AI suggestions (static for Railway)
+        ai_suggestions = [
+            f"Consider using pressure-treated lumber for {project_type} durability.",
+            f"Add 10-15% to budget for unexpected expenses.",
+            f"Check local building permits before starting {project_type}.",
+            f"Consider seasonal pricing - materials may be cheaper in winter."
+        ]
+        
+        estimate['ai_suggestions'] = ai_suggestions
+        estimate['ai_provider'] = 'static'
+        
+        return jsonify(estimate)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 400
+
+@app.route('/<path:path>')
+def serve_static(path):
+    """Serve static files"""
+    return send_from_directory('.', path)
 
 if __name__ == '__main__':
-    print(f"🚀 Starting Construction Estimator on Railway...")
-    print(f"🌐 Port: {PORT}")
-    print(f"🤖 AI Provider: {'Ollama' if USE_OLLAMA else ('OpenAI' if OPENAI_API_KEY else 'Static')}")
-    print(f"🏗️  Project Types: {', '.join(MATERIAL_COSTS.keys())}")
+    print(f"🚀 Starting Construction Estimator API on port {PORT}")
+    print(f"🌍 Frontend: Available at /")
+    print(f"🔧 API: Available at /api")
+    print(f"🏗️ Project types: {', '.join(CONSTRUCTION_COSTS.keys())}")
     app.run(host='0.0.0.0', port=PORT, debug=False)

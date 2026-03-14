@@ -7,7 +7,7 @@ Simplified version for Railway hosting
 from flask import Flask, jsonify, request, send_from_directory
 import os
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 
 app = Flask(__name__, static_folder='.', static_url_path='')
 
@@ -63,7 +63,7 @@ def calculate_estimate(project_type, width, length):
         'labor_cost': f"${labor_cost:,.2f}",
         'total_cost': f"${total_cost:,.2f}",
         'description': costs['description'],
-        'timestamp': datetime.utcnow().isoformat() + 'Z'
+        'timestamp': datetime.now(timezone.utc).isoformat()
     }
 
 @app.route('/')
@@ -79,7 +79,7 @@ def health():
         'service': 'Construction Estimator API',
         'version': '2.0.0',
         'environment': os.environ.get('RAILWAY_ENVIRONMENT', 'production'),
-        'timestamp': datetime.utcnow().isoformat() + 'Z'
+        'timestamp': datetime.now(timezone.utc).isoformat()
     })
 
 @app.route('/api')

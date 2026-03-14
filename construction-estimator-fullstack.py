@@ -7,10 +7,16 @@ Serves both API endpoints AND HTML frontend
 from flask import Flask, request, jsonify, send_from_directory
 import os
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 import requests
 
 app = Flask(__name__, static_folder='.', static_url_path='')
+
+@app.after_request
+def allow_iframe(response):
+    response.headers["X-Frame-Options"] = "ALLOWALL"
+    return response
+
 
 # Configuration
 USE_OLLAMA = os.environ.get('USE_OLLAMA', 'false').lower() == 'true'
@@ -191,7 +197,7 @@ def health():
     
     return jsonify({
         "status": "healthy",
-        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "timestamp": datetime.now(timezone.utc).isoformat(),
         "ai_provider": ai_status,
         "environment": os.environ.get('RAILWAY_ENVIRONMENT', 'production'),
         "frontend": "available"
@@ -233,6 +239,7 @@ def quick_estimate(project_type, size):
     
     return jsonify({
         "project": project_type.capitalize(),
+        "project_type": project_type,
         "size": size,
         "quick_estimate": f"${total:,.2f}",
         "area_sqft": area if 'x' in size else None
@@ -289,7 +296,7 @@ def detailed_estimate():
         "total_estimate": f"${total:,.2f}",
         "ai_suggestions": ai_suggestions,
         "deployment": "railway-fullstack",
-        "timestamp": datetime.utcnow().isoformat() + "Z"
+        "timestamp": datetime.now(timezone.utc).isoformat()
     })
 
 # Serve static files
@@ -304,4 +311,4 @@ if __name__ == '__main__':
     print(f"🤖 AI Provider: {'Ollama' if USE_OLLAMA else ('OpenAI' if OPENAI_API_KEY else 'Static')}")
     print(f"🏗️  Project Types: {', '.join(MATERIAL_COSTS.keys())}")
     print(f"🌍 Frontend: Available at root (/)")
-    app.run(host='0.0.0.0', port=PORT, debug=False)
+    app.run(host='0.0.0.0', port=PORT)
